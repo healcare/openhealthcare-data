@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openhealthcare.org/schemas/directory.schema.json",
+  "title": "OpenHealthcare local directory",
+  "type": "object",
+  "required": ["schemaVersion", "directory", "locations", "providers", "sources"],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "directory": { "type": "object", "required": ["slug", "title", "lastVerified"] },
+    "locations": { "type": "array" },
+    "providers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "credentials", "clinicianType", "specialties", "story", "locationIds", "profileUrl", "portrait", "sourceIds", "verification"]
+      }
+    },
+    "sources": { "type": "array" }
+  }
+}
+
