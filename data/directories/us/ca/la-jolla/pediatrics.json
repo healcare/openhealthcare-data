@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.0.0",
+  "directory": {
+    "slug": "la-jolla-pediatricians",
+    "title": "Pediatricians in La Jolla, California",
+    "description": "A source-checked guide to pediatric primary-care clinicians practicing at two CPCMG offices in La Jolla.",
+    "geography": { "city": "La Jolla", "state": "CA", "country": "US", "postalCodes": ["92037"] },
+    "scopeNote": "Current official rosters for CPCMG Girard and CPCMG Regents. This is a verified first cohort, not yet a claim of every pediatric clinician in La Jolla.",
+    "lastVerified": "2026-08-18",
+    "nextReviewDue": "2026-11-18"
+  },
+  "locations": [
+    {
+      "id": "cpcmg-girard",
+      "name": "Children's Primary Care Medical Group — Girard",
+      "address": { "line1": "7300 Girard Avenue", "line2": "Suite 106", "city": "La Jolla", "state": "CA", "postalCode": "92037", "country": "US" },
+      "phone": "+1-858-459-4351",
+      "fax": "+1-858-459-4399",
+      "hoursText": "Monday–Friday 8 a.m.–5 p.m. by appointment; Saturday care is at CPCMG Regents by appointment.",
+      "website": "https://www.cpcmg.net/locations/girard/",
+      "sourceIds": ["cpcmg-girard-roster"]
+    },
+    {
+      "id": "cpcmg-regents",
+      "name": "Children's Primary Care Medical Group — Regents",
+      "address": { "line1": "4150 Regents Park Row", "line2": "Suite 355", "city": "La Jolla", "state": "CA", "postalCode": "92037", "country": "US" },
+      "phone": "+1-858-457-2043",
+      "fax": "+1-858-457-2092",
+      "hoursText": "Monday–Friday 8 a.m.–5 p.m.; Saturday 8 a.m.–noon, by appointment.",
+      "website": "https://www.cpcmg.net/locations/regents/",
+      "sourceIds": ["cpcmg-regents-roster"]
+    }
+  ],
+  "providers": [
+    {
+      "id": "gretchen-gainor-md",
+      "name": { "display": "Gretchen Gainor, MD, FAAP", "given": "Gretchen", "family": "Gainor" },
+      "credentials": ["MD", "FAAP"], "clinicianType": "physician", "specialties": ["Pediatrics", "Primary Care Pediatrics"],
+      "story": "Dr. Gainor has cared for children in La Jolla for decades. Her official profile traces a path from medical school in Pittsburgh to pediatric residency at Stanford and board certification in pediatrics.",
+      "locationIds": ["cpcmg-girard"], "profileUrl": "https://www.cpcmg.net/cpcmg_doctor/gretchen-gainor-md/",
+      "portrait": { "sourceUrl": "https://www.cpcmg.net/wp-content/uploads/2021/05/pic_Gretchen-Gainor-MD_April-2022.jpg", "clickThroughUrl": "https://www.cpcmg.net/cpcmg_doctor/gretchen-gainor-md/", "alt": "Portrait of Gretchen Gainor, MD", "usage": "remote-reference-only" },
+      "sourceIds": ["gretchen-gainor-profile", "cpcmg-girard-roster"], "verification": { "status": "verified", "verifiedOn": "2026-08-18" }
+    },
+    {
+      "id": "christine-johnson-md",
+      "name": { "display": "Christine Johnson, MD, FAAP", "given": "Christine", "family": "Johnson" },
+      "credentials": ["MD", "FAAP"], "clinicianType": "physician", "specialties": ["Primary Care Pediatrics"],
+      "story": "Dr. Johnson brings a long public-service chapter to pediatrics: her official biography describes Air Force service, 22 years in the Navy, and another decade as a government-service pediatrician. She also works to make schools more prepared for CPR and AED emergencies.",
+      "locationIds": ["cpcmg-girard"], "profileUrl": "https://www.cpcmg.net/cpcmg_doctor/christine-l-johnson-md-faap/",
+      "portrait": { "sourceUrl": "https://www.cpcmg.net/wp-content/uploads/2025/12/edited_Christine-Johnson-MD_Dec-2025-e1764625352820.jpg", "clickThroughUrl": "https://www.cpcmg.net/cpcmg_doctor/christine-l-johnson-md-faap/", "alt": "Portrait of Christine Johnson, MD", "usage": "remote-reference-only" },
+      "sourceIds": ["christine-johnson-profile", "cpcmg-girard-roster"], "verification": { "status": "verified", "verifiedOn": "2026-08-18" }
+    },
+    {
+      "id": "genevieve-parsons-md",
+      "name": { "display": "Genevieve Parsons, MD, FAAP", "given": "Genevieve", "family": "Parsons" },
+      "credentials": ["MD", "FAAP"], "clinicianType": "physician", "specialties": ["Pediatrics", "Primary Care Pediatrics"],
+      "story": "Dr. Parsons says one of the joys of pediatrics is watching children thrive while helping caregivers through the everyday challenges of raising them. Her profile highlights a particular interest in behavioral and developmental concerns—and, away from clinic, reading, singing, and running.",
+      "locationIds": ["cpcmg-girard"], "profileUrl": "https://www.cpcmg.net/cpcmg_doctor/genevieve-parsons-md/",
+      "portrait": { "sourceUrl": "https://www.cpcmg.net/wp-content/uploads/2023/01/headshot_Genevieve-Parsons-MD_Jan-2023-scaled.jpg", "clickThroughUrl": "https://www.cpcmg.net/cpcmg_doctor/genevieve-parsons-md/", "alt": "Portrait of Genevieve Parsons, MD", "usage": "remote-reference-only" },
+      "sourceIds": ["genevieve-parsons-profile", "cpcmg-girard-roster"], "verification": { "status": "verified", "verifiedOn": "2026-08-18" }
+    },
+    {
+      "id": "vivian-tung-md",
+      "name": { "display": "Vivian Tung, MD, FAAP", "given": "Vivian", "family": "Tung" },
+      "credentials": ["MD", "FAAP"], "clinicianType": "physician", "specialties": ["Pediatrics", "Primary Care Pediatrics"], "languages": ["English", "Mandarin Chinese"],
+      "story": "A love of science and working with children led Dr. Tung from biology at MIT to medical school at Mount Sinai and residency at UCLA. She has practiced in La Jolla since 2003 and notes special interests in food allergies, asthma, and eczema.",
+      "locationIds": ["cpcmg-girard"], "profileUrl": "https://www.cpcmg.net/cpcmg_doctor/vivian-tung-md/",
+      "portrait": { "sourceUrl": "https://www.cpcmg.net/wp-content/uploads/2017/07/Tung-Vivian-MD.jpg", "clickThroughUrl": "https://www.cpcmg.net/cpcmg_doctor/vivian-tung-md/", "alt": "Portrait of Vivian Tung, MD", "usage": "remote-reference-only" },
+      "sourceIds": ["vivian-tung-profile", "cpcmg-girard-roster"], "verification": { "status": "verified", "verifiedOn": "2026-08-18", "panelStatus": "open", "panelStatusAsOf": "2026-08-18" }
+    },
+    {
+      "id": "maria-capetanakis-do",
+      "name": { "display": "Maria Capetanakis, DO", "given": "Maria", "family": "Capetanakis" },
+      "credentials": ["DO"], "clinicianType": "physician", "specialties": ["Pediatrics"], "languages": ["English", "Spanish", "Greek"],
+      "story": "Dr. Capetanakis is a board-certified pediatrician whose training took her from Touro University's College of Osteopathic Medicine to pediatric residency at Adventist Health White Memorial. Her official profile also lists Spanish and Greek.",
+      "locationIds": ["cpcmg-regents"], "profileUrl": "https://www.cpcmg.net/cpcmg_doctor/maria-capetanakis-do/",
+      "portrait": { "sourceUrl": "https://www.cpcmg.net/wp-content/uploads/2025/02/Capetanakis-Maria-DO-scaled-e1739212476714.jpg", "clickThroughUrl": "https://www.cpcmg.net/cpcmg_doctor/maria-capetanakis-do/", "alt": "Portrait of Maria Capetanakis, DO", "usage": "remote-reference-only" },
+      "sourceIds": ["maria-capetanakis-profile", "cpcmg-regents-roster"], "verification": { "status": "verified", "verifiedOn": "2026-08-18" }
+    },
+    {
+      "id": "lauren-fulkerson-md",
+      "name": { "display": "Lauren Fulkerson, MD, FAAP", "given": "Lauren", "family": "Fulkerson" },
+      "credentials": ["MD", "FAAP"], "clinicianType": "physician", "specialties": ["Pediatrics"],
+      "story": "Dr. Fulkerson's route to San Diego included pediatric training at UCLA, outpatient practice in Southern California, and time living in Hong Kong. A mother of four and parenting coach, she describes child advocacy and partnering with parents as central to her work.",
+      "locationIds": ["cpcmg-regents"], "profileUrl": "https://www.cpcmg.net/cpcmg_doctor/lauren-fulkerson-md-faap/",
+      "portrait": { "sourceUrl": "https://www.cpcmg.net/wp-content/uploads/2026/06/image0.jpeg", "clickThroughUrl": "https://www.cpcmg.net/cpcmg_doctor/lauren-fulkerson-md-faap/", "alt": "Portrait of Lauren Fulkerson, MD", "usage": "remote-reference-only" },
+      "sourceIds": ["lauren-fulkerson-profile", "cpcmg-regents-roster"], "verification": { "status": "verified", "verifiedOn": "2026-08-18" }
+    },
+    {
+      "id": "sheetal-gandhi-md",
+      "name": { "display": "Sheetal Gandhi, MD, FAAP", "given": "Sheetal", "family": "Gandhi" },
+      "credentials": ["MD", "FAAP"], "clinicianType": "physician", "specialties": ["Pediatrics", "Primary Care Pediatrics"], "languages": ["English", "Hindi"],
+      "story": "Dr. Gandhi describes an evidence-based, prevention-minded approach and the pleasure of watching young patients grow into themselves. Her community life has included school volunteering and coaching Science Olympiad; her official profile also lists Hindi.",
+      "locationIds": ["cpcmg-regents"], "profileUrl": "https://www.cpcmg.net/cpcmg_doctor/sheetal-gandhi-md/",
+      "portrait": { "sourceUrl": "https://www.cpcmg.net/wp-content/uploads/2017/07/headshot_Sheetal-Gandhi-MD_March-2019.jpg", "clickThroughUrl": "https://www.cpcmg.net/cpcmg_doctor/sheetal-gandhi-md/", "alt": "Portrait of Sheetal Gandhi, MD", "usage": "remote-reference-only" },
+      "sourceIds": ["sheetal-gandhi-profile", "cpcmg-regents-roster"], "verification": { "status": "verified", "verifiedOn": "2026-08-18" }
+    },
+    {
+      "id": "kendall-roberts-md",
+      "name": { "display": "Kendall Roberts, MD, FAAP", "given": "Kendall", "family": "Roberts" },
+      "credentials": ["MD", "FAAP"], "clinicianType": "physician", "specialties": ["Pediatrics", "Primary Care Pediatrics"],
+      "story": "For Dr. Roberts, the rewarding part of pediatrics is watching patients and families grow. His family's own experience with eczema shaped a special interest in eczema and other skin concerns; biking, games, and reading fill out his off-hours list.",
+      "locationIds": ["cpcmg-regents"], "profileUrl": "https://www.cpcmg.net/cpcmg_doctor/kendall-roberts-md/",
+      "portrait": { "sourceUrl": "https://www.cpcmg.net/wp-content/uploads/2017/07/headshot_Kendall-Roberts-MD_March-2019.jpg", "clickThroughUrl": "https://www.cpcmg.net/cpcmg_doctor/kendall-roberts-md/", "alt": "Portrait of Kendall Roberts, MD", "usage": "remote-reference-only" },
+      "sourceIds": ["kendall-roberts-profile", "cpcmg-regents-roster"], "verification": { "status": "verified", "verifiedOn": "2026-08-18" }
+    },
+    {
+      "id": "tory-twito-do",
+      "name": { "display": "Tory Twito, DO, MA, FAAP", "given": "Tory", "family": "Twito" },
+      "credentials": ["DO", "MA", "FAAP"], "clinicianType": "physician", "specialties": ["Pediatrics"],
+      "story": "Dr. Twito is the virtual-care member of the Regents roster. CPCMG states that her appointments are conducted by telehealth, giving its families a pediatric option from home.",
+      "careModes": ["telehealth"], "locationIds": ["cpcmg-regents"], "profileUrl": "https://www.cpcmg.net/cpcmg_doctor/tory-twito-do-ma-faap/",
+      "portrait": { "sourceUrl": "https://www.cpcmg.net/wp-content/uploads/2018/08/web_Tory-Twito-MD_September-2018.jpg", "clickThroughUrl": "https://www.cpcmg.net/cpcmg_doctor/tory-twito-do-ma-faap/", "alt": "Portrait of Tory Twito, DO", "usage": "remote-reference-only" },
+      "sourceIds": ["tory-twito-profile", "cpcmg-regents-roster"], "verification": { "status": "verified", "verifiedOn": "2026-08-18" }
+    },
+    {
+      "id": "asako-komiya-pnp",
+      "name": { "display": "Asako Komiya, PNP", "given": "Asako", "family": "Komiya" },
+      "credentials": ["PNP"], "clinicianType": "pediatric-nurse-practitioner", "specialties": ["Pediatric Primary Care"], "languages": ["English", "Japanese"],
+      "story": "Asako Komiya chose pediatric nursing from a simple starting point: she loves working with children. A mother of twins, she writes about the privilege of helping children grow with compassionate care; her profile also lists Japanese.",
+      "locationIds": ["cpcmg-regents"], "profileUrl": "https://www.cpcmg.net/cpcmg_doctor/asako-komiya-pnp/",
+      "portrait": { "sourceUrl": "https://www.cpcmg.net/wp-content/uploads/2021/05/web-pic_Asako-Komiya-CPNP_May-2021-scaled.jpg", "clickThroughUrl": "https://www.cpcmg.net/cpcmg_doctor/asako-komiya-pnp/", "alt": "Portrait of Asako Komiya, PNP", "usage": "remote-reference-only" },
+      "sourceIds": ["asako-komiya-profile", "cpcmg-regents-roster"], "verification": { "status": "verified", "verifiedOn": "2026-08-18" }
+    }
+  ],
+  "sources": [
+    { "id": "cpcmg-girard-roster", "type": "official-practice-roster", "publisher": "Children's Primary Care Medical Group", "url": "https://www.cpcmg.net/locations/girard/", "retrievedOn": "2026-08-18" },
+    { "id": "cpcmg-regents-roster", "type": "official-practice-roster", "publisher": "Children's Primary Care Medical Group", "url": "https://www.cpcmg.net/locations/regents/", "retrievedOn": "2026-08-18" },
+    { "id": "gretchen-gainor-profile", "type": "official-provider-profile", "publisher": "Children's Primary Care Medical Group", "url": "https://www.cpcmg.net/cpcmg_doctor/gretchen-gainor-md/", "retrievedOn": "2026-08-18" },
+    { "id": "christine-johnson-profile", "type": "official-provider-profile", "publisher": "Children's Primary Care Medical Group", "url": "https://www.cpcmg.net/cpcmg_doctor/christine-l-johnson-md-faap/", "retrievedOn": "2026-08-18" },
+    { "id": "genevieve-parsons-profile", "type": "official-provider-profile", "publisher": "Children's Primary Care Medical Group", "url": "https://www.cpcmg.net/cpcmg_doctor/genevieve-parsons-md/", "retrievedOn": "2026-08-18" },
+    { "id": "vivian-tung-profile", "type": "official-provider-profile", "publisher": "Children's Primary Care Medical Group", "url": "https://www.cpcmg.net/cpcmg_doctor/vivian-tung-md/", "retrievedOn": "2026-08-18" },
+    { "id": "maria-capetanakis-profile", "type": "official-provider-profile", "publisher": "Children's Primary Care Medical Group", "url": "https://www.cpcmg.net/cpcmg_doctor/maria-capetanakis-do/", "retrievedOn": "2026-08-18" },
+    { "id": "lauren-fulkerson-profile", "type": "official-provider-profile", "publisher": "Children's Primary Care Medical Group", "url": "https://www.cpcmg.net/cpcmg_doctor/lauren-fulkerson-md-faap/", "retrievedOn": "2026-08-18" },
+    { "id": "sheetal-gandhi-profile", "type": "official-provider-profile", "publisher": "Children's Primary Care Medical Group", "url": "https://www.cpcmg.net/cpcmg_doctor/sheetal-gandhi-md/", "retrievedOn": "2026-08-18" },
+    { "id": "kendall-roberts-profile", "type": "official-provider-profile", "publisher": "Children's Primary Care Medical Group", "url": "https://www.cpcmg.net/cpcmg_doctor/kendall-roberts-md/", "retrievedOn": "2026-08-18" },
+    { "id": "tory-twito-profile", "type": "official-provider-profile", "publisher": "Children's Primary Care Medical Group", "url": "https://www.cpcmg.net/cpcmg_doctor/tory-twito-do-ma-faap/", "retrievedOn": "2026-08-18" },
+    { "id": "asako-komiya-profile", "type": "official-provider-profile", "publisher": "Children's Primary Care Medical Group", "url": "https://www.cpcmg.net/cpcmg_doctor/asako-komiya-pnp/", "retrievedOn": "2026-08-18" }
+  ]
+}
