@@ -1,5 +1,12 @@
 # Replit handoff — Norfolk therapists beta
 
+> **Review update (August 20, 2026):** The import and independent human review are
+> complete. The provider-specific result is seven confirmed matches, two identity
+> conflicts, and one unresolved no-record lookup. Preserve the review states and continue
+> to keep the cohort unclaimed and non-indexable. See
+> `docs/reviews/NORFOLK-THERAPISTS-HUMAN-REVIEW-2026-08-20.md` for the authoritative
+> post-review contract.
+
 ## What & why
 
 Import the source-linked Norfolk therapist beta feed into OpenHealthcare's permanent
