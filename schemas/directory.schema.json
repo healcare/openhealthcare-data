@@ -6,16 +6,57 @@
   "required": ["schemaVersion", "directory", "locations", "providers", "sources"],
   "properties": {
     "schemaVersion": { "const": "1.0.0" },
-    "directory": { "type": "object", "required": ["slug", "title", "lastVerified"] },
+    "directory": {
+      "type": "object",
+      "required": ["slug", "title", "lastVerified"],
+      "properties": {
+        "slug": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "lastVerified": { "type": "string", "format": "date" },
+        "reviewStatus": { "enum": ["pending-human-review", "reviewed"] },
+        "status": { "enum": ["published", "draft", "removed"] },
+        "indexable": { "type": "boolean" },
+        "claimStatus": { "enum": ["unclaimed", "claimed", "verified"] }
+      }
+    },
     "locations": { "type": "array" },
     "providers": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "name", "credentials", "clinicianType", "specialties", "story", "locationIds", "profileUrl", "portrait", "sourceIds", "verification"]
+        "required": ["id", "name", "credentials", "clinicianType", "specialties", "story", "locationIds", "profileUrl", "portrait", "sourceIds", "verification"],
+        "properties": {
+          "licenseEvidence": {
+            "type": "object",
+            "required": ["jurisdiction", "type", "number", "sourceId", "primarySourceCheck"],
+            "properties": {
+              "primarySourceCheck": { "enum": ["pending", "completed"] },
+              "outcome": { "enum": ["confirmed", "conflict", "unresolved"] },
+              "reviewedOn": { "type": "string", "format": "date" }
+            }
+          },
+          "verification": {
+            "type": "object",
+            "required": ["status"],
+            "properties": {
+              "status": { "enum": ["verified", "source-stated", "confirmed", "conflict", "unresolved", "partial", "stale"] },
+              "reviewStatus": { "enum": ["pending-human-review", "reviewed"] },
+              "licenseLookupStatus": { "enum": ["pending", "completed"] },
+              "reviewedOn": { "type": "string", "format": "date" }
+            }
+          }
+        }
       }
     },
-    "sources": { "type": "array" }
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "publisher", "url", "retrievedOn"],
+        "properties": {
+          "verificationStatus": { "enum": ["source-stated", "confirmed", "conflict", "unresolved"] }
+        }
+      }
+    }
   }
 }
-
