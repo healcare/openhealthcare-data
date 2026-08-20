@@ -9,6 +9,7 @@ This package contains source-backed directory records prepared for import into
 - `data/directories/us/va/norfolk/therapists.json` — Norfolk therapist beta data
 - `schemas/directory.schema.json` — compact validation contract
 - `docs/DATA-PROVENANCE.md` — verification, social-signal, and image-handling rules
+- `docs/REPLIT-NORFOLK-HANDOFF.md` — scoped app ingestion and profile-design brief
 
 Every publishable claim carries one or more source identifiers. Records distinguish
 clinician roles and never infer accepting-new-patients, insurance participation, board
