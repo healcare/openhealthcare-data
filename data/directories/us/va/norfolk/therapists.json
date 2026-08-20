@@ -1,0 +1,407 @@
+{
+  "schemaVersion": "1.0.0",
+  "directory": {
+    "slug": "norfolk-therapists",
+    "title": "Therapists in Norfolk, Virginia",
+    "description": "A source-linked beta guide to ten Norfolk therapists with distinct approaches, populations, and areas of focus.",
+    "geography": {
+      "city": "Norfolk",
+      "state": "VA",
+      "country": "US",
+      "postalCodes": ["23502", "23508", "23510", "23517", "23518"]
+    },
+    "scopeNote": "A curated beta cohort selected for breadth of care, a current Norfolk practice or public Norfolk listing, first-party profile evidence, and visible public discovery signals. It is not a ranking, endorsement, or complete list of Norfolk therapists.",
+    "socialSignalPolicy": "Public profile presence, peer-endorsement counts, and public gallery counts were used only as dated discovery signals. They do not measure clinical quality or predict outcomes.",
+    "reviewStatus": "pending-human-review",
+    "status": "published",
+    "indexable": false,
+    "claimStatus": "unclaimed",
+    "lastVerified": "2026-08-20",
+    "nextReviewDue": "2026-11-20"
+  },
+  "selectionMethod": {
+    "includedWhen": [
+      "A first-party clinician or practice profile described the therapist's work.",
+      "A current public profile connected the therapist with Norfolk, Virginia.",
+      "The cohort added a distinct care focus, population, modality, or lived-professional perspective."
+    ],
+    "notUsedAsRankingFactors": [
+      "star ratings",
+      "review sentiment",
+      "advertising placement",
+      "claimed availability",
+      "claimed insurance participation"
+    ],
+    "licenseMethod": "License numbers below are source-stated by Psychology Today profiles. Virginia Department of Health Professions primary-source lookup remains pending for every record."
+  },
+  "locations": [
+    {
+      "id": "relationship-center-waterside",
+      "name": "The Relationship Center — Waterside",
+      "address": { "line1": "215 Brooke Avenue", "line2": "Suite C", "city": "Norfolk", "state": "VA", "postalCode": "23510", "country": "US" },
+      "phone": "+1-757-788-2800",
+      "website": "https://relationshipcenterva.com/",
+      "sourceIds": ["relationship-center-clinicians", "nathaniel-mason-pt"]
+    },
+    {
+      "id": "relationship-center-east-beach",
+      "name": "The Relationship Center — East Beach",
+      "address": { "line1": "4615 Pleasant Avenue", "line2": "Suite B", "city": "Norfolk", "state": "VA", "postalCode": "23518", "country": "US" },
+      "phone": "+1-757-788-2800",
+      "website": "https://relationshipcenterva.com/",
+      "sourceIds": ["relationship-center-clinicians", "bret-rawlings-pt"]
+    },
+    {
+      "id": "lemich-clinic",
+      "name": "The Lemich Clinic",
+      "address": { "line1": "5205 Colley Avenue", "city": "Norfolk", "state": "VA", "postalCode": "23508", "country": "US" },
+      "phone": "+1-757-536-1233",
+      "website": "https://www.lemichclinic.org/",
+      "sourceIds": ["gregory-lemich-official", "lemich-clinic-home"]
+    },
+    {
+      "id": "tidal-counseling",
+      "name": "Tidal Counseling, PLC",
+      "address": { "line1": "208 East Plume Street", "line2": "Suite 327B", "city": "Norfolk", "state": "VA", "postalCode": "23510", "country": "US" },
+      "phone": "+1-757-637-0840",
+      "website": "https://tidalcounseling.org/",
+      "sourceIds": ["tidal-counseling-official", "ruth-bybee-pt", "morgan-mcdonald-pt"]
+    },
+    {
+      "id": "harborside-counseling",
+      "name": "Harborside Counseling and Wellness",
+      "address": { "line1": "834 West 44th Street", "line2": "Suite A", "city": "Norfolk", "state": "VA", "postalCode": "23508", "country": "US" },
+      "website": "https://harborsidecw.com/",
+      "sourceIds": ["shannon-schaubach-official"]
+    },
+    {
+      "id": "schlichter-psychotherapy",
+      "name": "Schlichter Psychotherapy Associates",
+      "address": { "line1": "4509 Colley Avenue", "city": "Norfolk", "state": "VA", "postalCode": "23508", "country": "US" },
+      "phone": "+1-757-641-4217",
+      "website": "https://schlichterpsychotherapy.com/",
+      "sourceIds": ["jeff-schlichter-official", "jeff-schlichter-pt"]
+    },
+    {
+      "id": "live-body-brave",
+      "name": "Live Body Brave",
+      "address": { "line1": "1611A Colley Avenue", "line2": "Suite A", "city": "Norfolk", "state": "VA", "postalCode": "23517", "country": "US" },
+      "phone": "+1-757-201-0509",
+      "website": "https://livebodybrave.com/",
+      "sourceIds": ["rachel-micheletti-official", "live-body-brave-contact"]
+    },
+    {
+      "id": "norfolk-psychiatric-associates",
+      "name": "Norfolk Psychiatric Associates",
+      "address": { "line1": "6353 Center Drive", "line2": "Suite 204", "city": "Norfolk", "state": "VA", "postalCode": "23502", "country": "US" },
+      "website": "https://norfolkpsychiatric.com/meet-our-providers/",
+      "sourceIds": ["amy-echstenkamper-npa", "amy-echstenkamper-pt"]
+    }
+  ],
+  "providers": [
+    {
+      "id": "nathaniel-mason-phd-lpc",
+      "name": { "display": "Nathaniel Mason, PhD, LPC, NCC", "given": "Nathaniel", "family": "Mason" },
+      "credentials": ["PhD", "LPC", "NCC"],
+      "clinicianType": "licensed-professional-counselor",
+      "specialties": ["Relationship therapy", "LGBTQIA+ affirming therapy", "Consensual non-monogamy and kink-affirming therapy"],
+      "quickSummary": {
+        "helpsWith": ["relationship conflict", "infidelity and trust", "identity and coming out", "addiction and recovery"],
+        "approach": ["Emotionally Focused Therapy", "Gottman Method", "attachment-based", "trauma-informed"],
+        "worksWith": ["adults", "couples", "families"],
+        "careModes": ["in-person", "telehealth"]
+      },
+      "story": "Dr. Mason's official profile describes an active, direct style for people and partners navigating complex relationships, LGBTQIA+ identity, consensual non-monogamy, kink, mood concerns, and recovery. He also teaches counselor education and writes that humor, authenticity, and deep collaboration belong in the room.",
+      "locationIds": ["relationship-center-waterside"],
+      "profileUrl": "https://relationshipcenterva.com/clinician/nathaniel-mason/",
+      "licenseEvidence": { "jurisdiction": "VA", "type": "LPC", "number": "0701015787", "sourceId": "nathaniel-mason-pt", "primarySourceCheck": "pending" },
+      "portrait": { "sourceUrl": "https://relationshipcenterva.com/wp-content/uploads/2021/07/Nathaniel-Mason-2025.webp", "clickThroughUrl": "https://relationshipcenterva.com/clinician/nathaniel-mason/", "alt": "Portrait of Nathaniel Mason, PhD, LPC, NCC", "usage": "remote-reference-only" },
+      "mediaGallery": [
+        { "kind": "portrait", "sourceUrl": "https://relationshipcenterva.com/wp-content/uploads/2021/07/Nathaniel-Mason-2025.webp", "clickThroughUrl": "https://relationshipcenterva.com/clinician/nathaniel-mason/", "alt": "Official portrait of Nathaniel Mason", "sourceId": "nathaniel-mason-official", "usage": "remote-reference-only" },
+        { "kind": "portrait", "sourceUrl": "https://photos.psychologytoday.com/90d99c4b-5a9b-4ace-876c-bd7385321e6d/4/320x400.jpeg", "clickThroughUrl": "https://www.psychologytoday.com/us/therapists/nathaniel-mason-norfolk-va/401985", "alt": "Nathaniel Mason directory portrait", "sourceId": "nathaniel-mason-pt", "usage": "remote-reference-only" },
+        { "kind": "video-thumbnail", "sourceUrl": "https://video-thumbnails.psychologytoday.com/v1071586561.jpeg", "clickThroughUrl": "https://www.psychologytoday.com/us/therapists/nathaniel-mason-norfolk-va/401985", "alt": "Thumbnail from Nathaniel Mason's public profile video", "sourceId": "nathaniel-mason-pt", "usage": "remote-reference-only" }
+      ],
+      "discoverySignals": [
+        { "type": "peer-endorsement-count", "value": 4, "platform": "Psychology Today", "observedOn": "2026-08-20", "sourceId": "nathaniel-mason-pt" },
+        { "type": "public-gallery-count", "value": 7, "platform": "Psychology Today", "observedOn": "2026-08-20", "sourceId": "nathaniel-mason-pt" }
+      ],
+      "sourceIds": ["nathaniel-mason-official", "nathaniel-mason-pt", "relationship-center-clinicians", "virginia-dhp-license-lookup"],
+      "verification": { "status": "source-stated", "reviewStatus": "pending-human-review", "researchedOn": "2026-08-20", "licenseLookupStatus": "pending" }
+    },
+    {
+      "id": "rachel-jones-msed-lpc",
+      "name": { "display": "Rachel Jones, MSEd, LPC", "given": "Rachel", "family": "Jones" },
+      "credentials": ["MSEd", "LPC"],
+      "clinicianType": "licensed-professional-counselor",
+      "specialties": ["Couples therapy", "High-conflict couples", "Infidelity and betrayal recovery"],
+      "quickSummary": {
+        "helpsWith": ["relationship disconnection", "destructive conflict patterns", "betrayal and trust", "life transitions"],
+        "approach": ["Emotionally Focused Therapy", "Internal Family Systems", "Polyvagal Theory", "collaborative"],
+        "worksWith": ["adults", "individuals", "couples"],
+        "careModes": ["telehealth"]
+      },
+      "story": "Jones focuses on couples caught in conflict or rebuilding trust after betrayal, pairing advanced Emotionally Focused Therapy training with IFS and Polyvagal Theory. Her official bio makes the person behind the credentials easy to picture: a pottery-wheel regular, houseplant enthusiast, and occasional surfer.",
+      "locationIds": ["relationship-center-waterside", "relationship-center-east-beach"],
+      "locationNote": "Her current Psychology Today profile states online-only care; the practice profile lists Norfolk Waterside and East Beach offices. Confirm in-person availability directly.",
+      "profileUrl": "https://relationshipcenterva.com/clinician/rachel-jones/",
+      "licenseEvidence": { "jurisdiction": "VA", "type": "LPC", "number": "0701010442", "sourceId": "rachel-jones-pt", "primarySourceCheck": "pending" },
+      "portrait": { "sourceUrl": "https://relationshipcenterva.com/wp-content/uploads/2021/06/Rachel-Jones-2025.webp", "clickThroughUrl": "https://relationshipcenterva.com/clinician/rachel-jones/", "alt": "Portrait of Rachel Jones, MSEd, LPC", "usage": "remote-reference-only" },
+      "mediaGallery": [
+        { "kind": "portrait", "sourceUrl": "https://relationshipcenterva.com/wp-content/uploads/2021/06/Rachel-Jones-2025.webp", "clickThroughUrl": "https://relationshipcenterva.com/clinician/rachel-jones/", "alt": "Official portrait of Rachel Jones", "sourceId": "rachel-jones-official", "usage": "remote-reference-only" },
+        { "kind": "portrait", "sourceUrl": "https://photos.psychologytoday.com/8c7fc233-ec21-4a57-89f8-dfb106ee31c1/1/320x400.jpeg", "clickThroughUrl": "https://www.psychologytoday.com/us/therapists/rachel-jones-norfolk-va/803057", "alt": "Rachel Jones directory portrait", "sourceId": "rachel-jones-pt", "usage": "remote-reference-only" },
+        { "kind": "video-thumbnail", "sourceUrl": "https://video-thumbnails.psychologytoday.com/v655139307.jpeg", "clickThroughUrl": "https://www.psychologytoday.com/us/therapists/rachel-jones-norfolk-va/803057", "alt": "Thumbnail from Rachel Jones's public profile video", "sourceId": "rachel-jones-pt", "usage": "remote-reference-only" }
+      ],
+      "discoverySignals": [
+        { "type": "peer-endorsement-count", "value": 3, "platform": "Psychology Today", "observedOn": "2026-08-20", "sourceId": "rachel-jones-pt" },
+        { "type": "public-gallery-count", "value": 6, "platform": "Psychology Today", "observedOn": "2026-08-20", "sourceId": "rachel-jones-pt" }
+      ],
+      "sourceIds": ["rachel-jones-official", "rachel-jones-pt", "relationship-center-clinicians", "virginia-dhp-license-lookup"],
+      "verification": { "status": "source-stated", "reviewStatus": "pending-human-review", "researchedOn": "2026-08-20", "licenseLookupStatus": "pending" }
+    },
+    {
+      "id": "bret-rawlings-ms-lpc",
+      "name": { "display": "Bret Rawlings, MS, LPC", "given": "Bret", "family": "Rawlings" },
+      "credentials": ["MS", "LPC"],
+      "clinicianType": "licensed-professional-counselor",
+      "specialties": ["Relationship therapy", "Men's emotional wellness", "Sex and intimacy", "EMDR"],
+      "quickSummary": {
+        "helpsWith": ["relationship conflict", "infidelity", "men's issues", "burnout and anxiety"],
+        "approach": ["Emotionally Focused Therapy", "Gottman Method", "EMDR", "direct and collaborative"],
+        "worksWith": ["adults", "couples", "groups"],
+        "careModes": ["in-person", "telehealth"]
+      },
+      "story": "Rawlings describes a straightforward, down-to-earth style for couples, individuals, and men who want more than passive listening. His official profile emphasizes relationship repair, EMDR, emotional wellness, and practical movement from insight to action.",
+      "locationIds": ["relationship-center-waterside", "relationship-center-east-beach"],
+      "profileUrl": "https://relationshipcenterva.com/clinician/bret-rawlings-ms/",
+      "licenseEvidence": { "jurisdiction": "VA", "type": "LPC", "number": "0704016018", "sourceId": "bret-rawlings-pt", "primarySourceCheck": "pending" },
+      "portrait": { "sourceUrl": "https://relationshipcenterva.com/wp-content/uploads/2021/06/Brett-Rawlings-May-2024.webp", "clickThroughUrl": "https://relationshipcenterva.com/clinician/bret-rawlings-ms/", "alt": "Portrait of Bret Rawlings, MS, LPC", "usage": "remote-reference-only" },
+      "mediaGallery": [
+        { "kind": "portrait", "sourceUrl": "https://relationshipcenterva.com/wp-content/uploads/2021/06/Brett-Rawlings-May-2024.webp", "clickThroughUrl": "https://relationshipcenterva.com/clinician/bret-rawlings-ms/", "alt": "Official portrait of Bret Rawlings", "sourceId": "bret-rawlings-official", "usage": "remote-reference-only" },
+        { "kind": "portrait", "sourceUrl": "https://photos.psychologytoday.com/e8d23798-6b64-46b8-a19c-d9e40ebf6505/1/320x400.jpeg", "clickThroughUrl": "https://www.psychologytoday.com/us/therapists/bret-rawlings-norfolk-va/1197682", "alt": "Bret Rawlings directory portrait", "sourceId": "bret-rawlings-pt", "usage": "remote-reference-only" }
+      ],
+      "discoverySignals": [
+        { "type": "peer-endorsement-count", "value": 6, "platform": "Psychology Today", "observedOn": "2026-08-20", "sourceId": "bret-rawlings-pt" },
+        { "type": "public-gallery-count", "value": 8, "platform": "Psychology Today", "observedOn": "2026-08-20", "sourceId": "bret-rawlings-pt" }
+      ],
+      "sourceIds": ["bret-rawlings-official", "bret-rawlings-pt", "relationship-center-clinicians", "virginia-dhp-license-lookup"],
+      "verification": { "status": "source-stated", "reviewStatus": "pending-human-review", "researchedOn": "2026-08-20", "licenseLookupStatus": "pending" }
+    },
+    {
+      "id": "gregory-lemich-phd-lpc",
+      "name": { "display": "Gregory C. Lemich, PhD, LPC", "given": "Gregory", "family": "Lemich" },
+      "credentials": ["PhD", "LPC"],
+      "clinicianType": "licensed-professional-counselor",
+      "specialties": ["Military and veteran mental health", "First responders", "Trauma and PTSD", "Psychological testing"],
+      "quickSummary": {
+        "helpsWith": ["deployment and military stress", "PTSD", "suicidal ideation", "testing and evaluation"],
+        "approach": ["Cognitive Processing Therapy", "EMDR", "person-centered", "trauma-focused"],
+        "worksWith": ["adults", "active-duty military", "veterans", "first responders"],
+        "careModes": ["in-person", "telehealth"]
+      },
+      "story": "Dr. Lemich built his Norfolk clinic around military, veteran, police, and first-responder care. His official bio traces clinical work through Johns Hopkins, Sentara, and Veterans Affairs and notes that he also teaches counseling at Old Dominion University.",
+      "locationIds": ["lemich-clinic"],
+      "profileUrl": "https://www.lemichclinic.org/about",
+      "licenseEvidence": { "jurisdiction": "VA", "type": "LPC", "number": "0701010480", "sourceId": "gregory-lemich-pt", "primarySourceCheck": "pending" },
+      "portrait": { "sourceUrl": "https://static.wixstatic.com/media/7b5b91_4b069f1e327a4ce3bbb1b18c1b3d7813~mv2.png/v1/fill/w_900,h_900,al_c,q_90,enc_avif,quality_auto/TLC_Dr_Lemich%20%281%29.png", "clickThroughUrl": "https://www.lemichclinic.org/about", "alt": "Portrait of Gregory C. Lemich, PhD, LPC", "usage": "remote-reference-only" },
+      "mediaGallery": [
+        { "kind": "portrait", "sourceUrl": "https://static.wixstatic.com/media/7b5b91_4b069f1e327a4ce3bbb1b18c1b3d7813~mv2.png/v1/fill/w_900,h_900,al_c,q_90,enc_avif,quality_auto/TLC_Dr_Lemich%20%281%29.png", "clickThroughUrl": "https://www.lemichclinic.org/about", "alt": "Official portrait of Gregory C. Lemich", "sourceId": "gregory-lemich-official", "usage": "remote-reference-only" },
+        { "kind": "portrait", "sourceUrl": "https://photos.psychologytoday.com/56b16aa0-33b8-4fdf-a5ca-eceb1bfde86c/1/320x400.png", "clickThroughUrl": "https://www.psychologytoday.com/us/therapists/dr-gregory-c-lemich-norfolk-va/755325", "alt": "Gregory C. Lemich directory portrait", "sourceId": "gregory-lemich-pt", "usage": "remote-reference-only" },
+        { "kind": "video-thumbnail", "sourceUrl": "https://video-thumbnails.psychologytoday.com/v1180536050.jpeg", "clickThroughUrl": "https://www.psychologytoday.com/us/therapists/dr-gregory-c-lemich-norfolk-va/755325", "alt": "Thumbnail from Gregory C. Lemich's public profile video", "sourceId": "gregory-lemich-pt", "usage": "remote-reference-only" }
+      ],
+      "discoverySignals": [
+        { "type": "peer-endorsement-count", "value": 2, "platform": "Psychology Today", "observedOn": "2026-08-20", "sourceId": "gregory-lemich-pt" },
+        { "type": "public-gallery-count", "value": 4, "platform": "Psychology Today", "observedOn": "2026-08-20", "sourceId": "gregory-lemich-pt" }
+      ],
+      "sourceIds": ["gregory-lemich-official", "lemich-clinic-home", "gregory-lemich-pt", "virginia-dhp-license-lookup"],
+      "verification": { "status": "source-stated", "reviewStatus": "pending-human-review", "researchedOn": "2026-08-20", "licenseLookupStatus": "pending" }
+    },
+    {
+      "id": "ruth-bybee-lpc",
+      "name": { "display": "Ruth Bybee, LPC", "given": "Ruth", "family": "Bybee" },
+      "credentials": ["LPC"],
+      "clinicianType": "licensed-professional-counselor",
+      "specialties": ["Art therapy", "Expressive arts", "Anxiety", "Depression"],
+      "quickSummary": {
+        "helpsWith": ["anxiety", "depression", "behavioral concerns", "grief and transitions"],
+        "approach": ["art therapy", "expressive arts", "Internal Family Systems", "trauma-informed"],
+        "worksWith": ["preteens", "teens", "adults", "older adults"],
+        "careModes": ["in-person", "telehealth"]
+      },
+      "story": "Bybee brings art materials into psychotherapy rather than treating creativity as an extra. Tidal Counseling says her EVMS training combined art therapy and counseling; her public profile emphasizes individualized goals, expressive arts, IFS, and a warm space for adolescents and adults.",
+      "locationIds": ["tidal-counseling"],
+      "profileUrl": "https://tidalcounseling.org/",
+      "licenseEvidence": { "jurisdiction": "VA", "type": "LPC", "number": "0701010345", "sourceId": "ruth-bybee-pt", "primarySourceCheck": "pending" },
+      "portrait": { "sourceUrl": "https://photos.psychologytoday.com/d0b8048b-ec21-4e2a-b792-65997f06813c/1/320x400.jpeg", "clickThroughUrl": "https://www.psychologytoday.com/us/therapists/ruth-bybee-norfolk-va/1128798", "alt": "Portrait of Ruth Bybee, LPC", "usage": "remote-reference-only" },
+      "mediaGallery": [
+        { "kind": "portrait", "sourceUrl": "https://photos.psychologytoday.com/d0b8048b-ec21-4e2a-b792-65997f06813c/1/320x400.jpeg", "clickThroughUrl": "https://www.psychologytoday.com/us/therapists/ruth-bybee-norfolk-va/1128798", "alt": "Ruth Bybee directory portrait", "sourceId": "ruth-bybee-pt", "usage": "remote-reference-only" }
+      ],
+      "discoverySignals": [
+        { "type": "peer-endorsement-count", "value": 1, "platform": "Psychology Today", "observedOn": "2026-08-20", "sourceId": "ruth-bybee-pt" },
+        { "type": "public-gallery-count", "value": 7, "platform": "Psychology Today", "observedOn": "2026-08-20", "sourceId": "ruth-bybee-pt" }
+      ],
+      "sourceIds": ["tidal-counseling-official", "ruth-bybee-pt", "virginia-dhp-license-lookup"],
+      "verification": { "status": "source-stated", "reviewStatus": "pending-human-review", "researchedOn": "2026-08-20", "licenseLookupStatus": "pending" }
+    },
+    {
+      "id": "morgan-mcdonald-lcsw",
+      "name": { "display": "Morgan McDonald, LCSW", "given": "Morgan", "family": "McDonald" },
+      "credentials": ["LCSW"],
+      "clinicianType": "licensed-clinical-social-worker",
+      "specialties": ["Children and adolescents", "Anxiety", "Depression", "Self-harm and trauma"],
+      "quickSummary": {
+        "helpsWith": ["anxiety", "depression", "self-harm", "caregiver stress and transitions"],
+        "approach": ["systems-based", "humanistic", "person-centered", "trauma-informed"],
+        "worksWith": ["children age 6+", "teens", "young adults", "caregivers"],
+        "careModes": ["in-person", "telehealth"]
+      },
+      "story": "McDonald's path includes a University of Pennsylvania MSW, outpatient work with children and families at CHKD, and community work in victim advocacy, foster care, and LGBTQ+ housing. Her profiles describe a systems-based, humanistic approach that includes caregivers in care when helpful.",
+      "locationIds": ["tidal-counseling"],
+      "profileUrl": "https://tidalcounseling.org/",
+      "licenseEvidence": { "jurisdiction": "VA", "type": "LCSW", "number": "0904019389", "sourceId": "morgan-mcdonald-pt", "primarySourceCheck": "pending" },
+      "portrait": { "sourceUrl": "https://photos.psychologytoday.com/1577c30a-5659-4228-a7c7-d9ca89dc22bd/6/320x400.jpeg", "clickThroughUrl": "https://www.psychologytoday.com/us/therapists/morgan-mcdonald-norfolk-va/1675023", "alt": "Portrait of Morgan McDonald, LCSW", "usage": "remote-reference-only" },
+      "mediaGallery": [
+        { "kind": "portrait", "sourceUrl": "https://photos.psychologytoday.com/1577c30a-5659-4228-a7c7-d9ca89dc22bd/6/320x400.jpeg", "clickThroughUrl": "https://www.psychologytoday.com/us/therapists/morgan-mcdonald-norfolk-va/1675023", "alt": "Morgan McDonald directory portrait", "sourceId": "morgan-mcdonald-pt", "usage": "remote-reference-only" }
+      ],
+      "discoverySignals": [
+        { "type": "current-public-profile", "value": true, "platform": "Psychology Today", "observedOn": "2026-08-20", "sourceId": "morgan-mcdonald-pt" }
+      ],
+      "sourceIds": ["tidal-counseling-official", "morgan-mcdonald-pt", "virginia-dhp-license-lookup"],
+      "verification": { "status": "source-stated", "reviewStatus": "pending-human-review", "researchedOn": "2026-08-20", "licenseLookupStatus": "pending" }
+    },
+    {
+      "id": "shannon-schaubach-msed-lpc",
+      "name": { "display": "Shannon Schaubach, MSEd, LPC", "given": "Shannon", "family": "Schaubach" },
+      "credentials": ["MSEd", "LPC"],
+      "clinicianType": "licensed-professional-counselor",
+      "specialties": ["Trauma-informed care", "Anxiety", "Self-esteem", "PTSD"],
+      "quickSummary": {
+        "helpsWith": ["trauma", "anxiety", "life stress", "self-understanding and acceptance"],
+        "approach": ["EMDR", "Internal Family Systems", "CBT", "mindfulness"],
+        "worksWith": ["adults", "individuals"],
+        "careModes": ["in-person", "telehealth"]
+      },
+      "story": "Schaubach's practice centers emotional safety and manageable change. She describes an individualized mix of EMDR, IFS, CBT, and mindfulness, with compassion and curiosity guiding work on trauma, anxiety, coping skills, and self-acceptance.",
+      "locationIds": ["harborside-counseling"],
+      "profileUrl": "https://harborsidecw.com/",
+      "licenseEvidence": { "jurisdiction": "VA", "type": "LPC", "number": "0701010429", "sourceId": "shannon-schaubach-pt", "primarySourceCheck": "pending" },
+      "portrait": { "sourceUrl": "https://photos.psychologytoday.com/2a2d8a06-72c4-40da-a304-26900c45b5d6/1/320x400.jpeg", "clickThroughUrl": "https://www.psychologytoday.com/us/therapists/shannon-schaubach-norfolk-va/479520", "alt": "Portrait of Shannon Schaubach, MSEd, LPC", "usage": "remote-reference-only" },
+      "mediaGallery": [
+        { "kind": "portrait", "sourceUrl": "https://photos.psychologytoday.com/2a2d8a06-72c4-40da-a304-26900c45b5d6/1/320x400.jpeg", "clickThroughUrl": "https://www.psychologytoday.com/us/therapists/shannon-schaubach-norfolk-va/479520", "alt": "Shannon Schaubach directory portrait", "sourceId": "shannon-schaubach-pt", "usage": "remote-reference-only" }
+      ],
+      "discoverySignals": [
+        { "type": "current-public-profile", "value": true, "platform": "Psychology Today", "observedOn": "2026-08-20", "sourceId": "shannon-schaubach-pt" }
+      ],
+      "sourceIds": ["shannon-schaubach-official", "shannon-schaubach-pt", "virginia-dhp-license-lookup"],
+      "verification": { "status": "source-stated", "reviewStatus": "pending-human-review", "researchedOn": "2026-08-20", "licenseLookupStatus": "pending" }
+    },
+    {
+      "id": "jeff-schlichter-phd",
+      "name": { "display": "Jeff Schlichter, PhD", "given": "Jeff", "family": "Schlichter" },
+      "credentials": ["PhD"],
+      "clinicianType": "clinical-psychologist",
+      "specialties": ["Family and couples therapy", "Forensic psychology", "Cognitive psychotherapy"],
+      "quickSummary": {
+        "helpsWith": ["family conflict", "relationship problems", "divorce and separation", "mood and behavioral concerns"],
+        "approach": ["cognitive psychotherapy", "family systems", "respect-centered", "goal-oriented"],
+        "worksWith": ["children", "teens", "adults", "couples", "families"],
+        "careModes": ["in-person", "telehealth"]
+      },
+      "story": "Dr. Schlichter is the long-tenured psychologist in this beta cohort. His official biography describes clinical and forensic work with children, adults, couples, and families, grounded in cognitive psychotherapy and a view that asking for help is a strength.",
+      "locationIds": ["schlichter-psychotherapy"],
+      "profileUrl": "https://schlichterpsychotherapy.com/staff/dr-jeff-k-schlichter/",
+      "licenseEvidence": { "jurisdiction": "VA", "type": "Clinical Psychologist", "number": "0810000997", "sourceId": "jeff-schlichter-pt", "primarySourceCheck": "pending" },
+      "portrait": { "sourceUrl": "https://schlichterpsychotherapy.com/wp-content/uploads/2020/09/IMG_2054-180x180.jpeg", "clickThroughUrl": "https://schlichterpsychotherapy.com/staff/dr-jeff-k-schlichter/", "alt": "Portrait of Jeff Schlichter, PhD", "usage": "remote-reference-only" },
+      "mediaGallery": [
+        { "kind": "portrait", "sourceUrl": "https://schlichterpsychotherapy.com/wp-content/uploads/2020/09/IMG_2054-180x180.jpeg", "clickThroughUrl": "https://schlichterpsychotherapy.com/staff/dr-jeff-k-schlichter/", "alt": "Official portrait of Jeff Schlichter", "sourceId": "jeff-schlichter-official", "usage": "remote-reference-only" }
+      ],
+      "discoverySignals": [
+        { "type": "current-public-profile", "value": true, "platform": "Psychology Today", "observedOn": "2026-08-20", "sourceId": "jeff-schlichter-pt" }
+      ],
+      "sourceIds": ["jeff-schlichter-official", "jeff-schlichter-pt", "virginia-dhp-license-lookup"],
+      "verification": { "status": "source-stated", "reviewStatus": "pending-human-review", "researchedOn": "2026-08-20", "licenseLookupStatus": "pending" }
+    },
+    {
+      "id": "rachel-micheletti-ma-lpc",
+      "name": { "display": "Rachel Micheletti, MA, LPC", "given": "Rachel", "family": "Micheletti" },
+      "credentials": ["MA", "LPC"],
+      "clinicianType": "licensed-professional-counselor",
+      "specialties": ["LGBTQIA+ affirming therapy", "Self-esteem", "Body image and embodiment", "Trauma"],
+      "quickSummary": {
+        "helpsWith": ["self-esteem", "identity exploration", "trauma", "gender and sexuality"],
+        "approach": ["EMDR", "CBT", "body neutrality", "expressive and movement-based"],
+        "worksWith": ["adults", "individuals"],
+        "careModes": ["in-person", "telehealth"]
+      },
+      "story": "Micheletti connects counseling with creative life: she is also a dance teacher, performer, singer, and founder of Live Body Brave. Her official bio describes a body-neutral, gender- and sexuality-affirming practice using EMDR, CBT, movement, and self-expression to help people feel more at home in themselves.",
+      "locationIds": ["live-body-brave"],
+      "profileUrl": "https://livebodybrave.com/about-rachel",
+      "licenseEvidence": { "jurisdiction": "VA", "type": "LPC", "number": "0701013290", "sourceId": "rachel-micheletti-pt", "primarySourceCheck": "pending" },
+      "portrait": { "sourceUrl": "https://img1.wsimg.com/isteam/ip/2d88dd45-389f-4201-a3ef-f87717ca734c/2024-04-23%2019.08.32%20%28edited%29.jpg/:/cr=t:0%,l:0%,w:100%,h:100%/rs=w:400,cg:true", "clickThroughUrl": "https://livebodybrave.com/about-rachel", "alt": "Rachel Micheletti at the beach", "usage": "remote-reference-only" },
+      "mediaGallery": [
+        { "kind": "portrait", "sourceUrl": "https://img1.wsimg.com/isteam/ip/2d88dd45-389f-4201-a3ef-f87717ca734c/2024-04-23%2019.08.32%20%28edited%29.jpg/:/cr=t:0%,l:0%,w:100%,h:100%/rs=w:400,cg:true", "clickThroughUrl": "https://livebodybrave.com/about-rachel", "alt": "Official photo of Rachel Micheletti at the beach", "sourceId": "rachel-micheletti-official", "usage": "remote-reference-only" },
+        { "kind": "portrait", "sourceUrl": "https://photos.psychologytoday.com/c687245f-1b01-4aa5-a16b-5a6dc4520f67/2/320x400.jpeg", "clickThroughUrl": "https://www.psychologytoday.com/us/therapists/rachel-micheletti-norfolk-va/1001975", "alt": "Rachel Micheletti directory portrait", "sourceId": "rachel-micheletti-pt", "usage": "remote-reference-only" },
+        { "kind": "video-thumbnail", "sourceUrl": "https://video-thumbnails.psychologytoday.com/v944920647.jpeg", "clickThroughUrl": "https://www.psychologytoday.com/us/therapists/rachel-micheletti-norfolk-va/1001975", "alt": "Thumbnail from Rachel Micheletti's public profile video", "sourceId": "rachel-micheletti-pt", "usage": "remote-reference-only" }
+      ],
+      "discoverySignals": [
+        { "type": "peer-endorsement-count", "value": 2, "platform": "Psychology Today", "observedOn": "2026-08-20", "sourceId": "rachel-micheletti-pt" },
+        { "type": "public-gallery-count", "value": 5, "platform": "Psychology Today", "observedOn": "2026-08-20", "sourceId": "rachel-micheletti-pt" }
+      ],
+      "sourceIds": ["rachel-micheletti-official", "live-body-brave-contact", "rachel-micheletti-pt", "virginia-dhp-license-lookup"],
+      "verification": { "status": "source-stated", "reviewStatus": "pending-human-review", "researchedOn": "2026-08-20", "licenseLookupStatus": "pending" }
+    },
+    {
+      "id": "amy-echstenkamper-lcsw",
+      "name": { "display": "Amy Echstenkamper, LCSW", "given": "Amy", "family": "Echstenkamper" },
+      "credentials": ["LCSW"],
+      "clinicianType": "licensed-clinical-social-worker",
+      "specialties": ["Trauma and PTSD", "LGBTQIA+ affirming therapy", "Religious trauma", "Military mental health"],
+      "quickSummary": {
+        "helpsWith": ["trauma", "anxiety and depression", "religious or relational harm", "identity and belonging"],
+        "approach": ["trauma-focused CBT", "Cognitive Processing Therapy", "narrative", "mindfulness"],
+        "worksWith": ["teens", "adults", "individuals", "couples"],
+        "careModes": ["in-person", "telehealth"]
+      },
+      "story": "Echstenkamper describes therapy as authentic, collaborative, and creative. Her official profile centers trauma affecting queer and minority communities, religious or family rejection, and military life, using trauma-focused CBT, narrative work, mindfulness, and strengths-based care.",
+      "locationIds": ["norfolk-psychiatric-associates"],
+      "profileUrl": "https://www.rp-w.com/amyechstenkamper",
+      "licenseEvidence": { "jurisdiction": "VA", "type": "LCSW", "number": "0904013764", "sourceId": "amy-echstenkamper-pt", "primarySourceCheck": "pending" },
+      "portrait": { "sourceUrl": "https://static.wixstatic.com/media/b718b4_4ea2752867b24b418d068a76435c0003~mv2.jpg/v1/crop/x_91,y_0,w_616,h_707/fill/w_278,h_322,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/To%20print-22~2_edited_edited.jpg", "clickThroughUrl": "https://www.rp-w.com/amyechstenkamper", "alt": "Portrait of Amy Echstenkamper, LCSW", "usage": "remote-reference-only" },
+      "mediaGallery": [
+        { "kind": "portrait", "sourceUrl": "https://static.wixstatic.com/media/b718b4_4ea2752867b24b418d068a76435c0003~mv2.jpg/v1/crop/x_91,y_0,w_616,h_707/fill/w_278,h_322,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/To%20print-22~2_edited_edited.jpg", "clickThroughUrl": "https://www.rp-w.com/amyechstenkamper", "alt": "Official portrait of Amy Echstenkamper", "sourceId": "amy-echstenkamper-official", "usage": "remote-reference-only" },
+        { "kind": "portrait", "sourceUrl": "https://photos.psychologytoday.com/c0cc2fbd-f6b3-4a2e-b2af-b4d828763f78/3/320x400.jpeg", "clickThroughUrl": "https://www.psychologytoday.com/us/therapists/amy-echstenkamper-norfolk-va/970479", "alt": "Amy Echstenkamper directory portrait", "sourceId": "amy-echstenkamper-pt", "usage": "remote-reference-only" }
+      ],
+      "discoverySignals": [
+        { "type": "peer-endorsement-count", "value": 2, "platform": "Psychology Today", "observedOn": "2026-08-20", "sourceId": "amy-echstenkamper-pt" }
+      ],
+      "sourceIds": ["amy-echstenkamper-official", "amy-echstenkamper-npa", "amy-echstenkamper-pt", "virginia-dhp-license-lookup"],
+      "verification": { "status": "source-stated", "reviewStatus": "pending-human-review", "researchedOn": "2026-08-20", "licenseLookupStatus": "pending" }
+    }
+  ],
+  "sources": [
+    { "id": "virginia-dhp-license-lookup", "type": "government-license-lookup", "publisher": "Virginia Department of Health Professions", "url": "https://dhp.virginiainteractive.org/Lookup/Index", "retrievedOn": "2026-08-20", "note": "Official primary-source lookup; individual checks remain pending." },
+    { "id": "virginia-dhp-verification-guidance", "type": "government-guidance", "publisher": "Virginia Department of Health Professions", "url": "https://www.dhp.virginia.gov/PublicResources/SubscriberServices/", "retrievedOn": "2026-08-20" },
+    { "id": "relationship-center-clinicians", "type": "official-practice-roster", "publisher": "The Relationship Center", "url": "https://relationshipcenterva.com/clinicians/", "retrievedOn": "2026-08-20" },
+    { "id": "nathaniel-mason-official", "type": "official-provider-profile", "publisher": "The Relationship Center", "url": "https://relationshipcenterva.com/clinician/nathaniel-mason/", "retrievedOn": "2026-08-20" },
+    { "id": "nathaniel-mason-pt", "type": "secondary-provider-directory", "publisher": "Psychology Today", "url": "https://www.psychologytoday.com/us/therapists/nathaniel-mason-norfolk-va/401985", "retrievedOn": "2026-08-20" },
+    { "id": "rachel-jones-official", "type": "official-provider-profile", "publisher": "The Relationship Center", "url": "https://relationshipcenterva.com/clinician/rachel-jones/", "retrievedOn": "2026-08-20" },
+    { "id": "rachel-jones-pt", "type": "secondary-provider-directory", "publisher": "Psychology Today", "url": "https://www.psychologytoday.com/us/therapists/rachel-jones-norfolk-va/803057", "retrievedOn": "2026-08-20" },
+    { "id": "bret-rawlings-official", "type": "official-provider-profile", "publisher": "The Relationship Center", "url": "https://relationshipcenterva.com/clinician/bret-rawlings-ms/", "retrievedOn": "2026-08-20" },
+    { "id": "bret-rawlings-pt", "type": "secondary-provider-directory", "publisher": "Psychology Today", "url": "https://www.psychologytoday.com/us/therapists/bret-rawlings-norfolk-va/1197682", "retrievedOn": "2026-08-20" },
+    { "id": "gregory-lemich-official", "type": "official-provider-profile", "publisher": "The Lemich Clinic", "url": "https://www.lemichclinic.org/about", "retrievedOn": "2026-08-20" },
+    { "id": "lemich-clinic-home", "type": "official-practice-profile", "publisher": "The Lemich Clinic", "url": "https://www.lemichclinic.org/", "retrievedOn": "2026-08-20" },
+    { "id": "gregory-lemich-pt", "type": "secondary-provider-directory", "publisher": "Psychology Today", "url": "https://www.psychologytoday.com/us/therapists/dr-gregory-c-lemich-norfolk-va/755325", "retrievedOn": "2026-08-20" },
+    { "id": "tidal-counseling-official", "type": "official-practice-team", "publisher": "Tidal Counseling, PLC", "url": "https://tidalcounseling.org/", "retrievedOn": "2026-08-20" },
+    { "id": "ruth-bybee-pt", "type": "secondary-provider-directory", "publisher": "Psychology Today", "url": "https://www.psychologytoday.com/us/therapists/ruth-bybee-norfolk-va/1128798", "retrievedOn": "2026-08-20" },
+    { "id": "morgan-mcdonald-pt", "type": "secondary-provider-directory", "publisher": "Psychology Today", "url": "https://www.psychologytoday.com/us/therapists/morgan-mcdonald-norfolk-va/1675023", "retrievedOn": "2026-08-20" },
+    { "id": "shannon-schaubach-official", "type": "official-provider-profile", "publisher": "Harborside Counseling and Wellness", "url": "https://harborsidecw.com/", "retrievedOn": "2026-08-20" },
+    { "id": "shannon-schaubach-pt", "type": "secondary-provider-directory", "publisher": "Psychology Today", "url": "https://www.psychologytoday.com/us/therapists/shannon-schaubach-norfolk-va/479520", "retrievedOn": "2026-08-20" },
+    { "id": "jeff-schlichter-official", "type": "official-provider-profile", "publisher": "Schlichter Psychotherapy Associates", "url": "https://schlichterpsychotherapy.com/staff/dr-jeff-k-schlichter/", "retrievedOn": "2026-08-20" },
+    { "id": "jeff-schlichter-pt", "type": "secondary-provider-directory", "publisher": "Psychology Today", "url": "https://www.psychologytoday.com/us/therapists/jeff-schlichter-norfolk-va/46186", "retrievedOn": "2026-08-20" },
+    { "id": "rachel-micheletti-official", "type": "official-provider-profile", "publisher": "Live Body Brave", "url": "https://livebodybrave.com/about-rachel", "retrievedOn": "2026-08-20" },
+    { "id": "live-body-brave-contact", "type": "official-practice-location", "publisher": "Live Body Brave", "url": "https://livebodybrave.com/contact-us-1", "retrievedOn": "2026-08-20" },
+    { "id": "rachel-micheletti-pt", "type": "secondary-provider-directory", "publisher": "Psychology Today", "url": "https://www.psychologytoday.com/us/therapists/rachel-micheletti-norfolk-va/1001975", "retrievedOn": "2026-08-20" },
+    { "id": "amy-echstenkamper-official", "type": "official-provider-profile", "publisher": "Restorative Psychotherapy & Wellness", "url": "https://www.rp-w.com/amyechstenkamper", "retrievedOn": "2026-08-20" },
+    { "id": "amy-echstenkamper-npa", "type": "official-practice-roster", "publisher": "Norfolk Psychiatric Associates", "url": "https://norfolkpsychiatric.com/meet-our-providers/", "retrievedOn": "2026-08-20" },
+    { "id": "amy-echstenkamper-pt", "type": "secondary-provider-directory", "publisher": "Psychology Today", "url": "https://www.psychologytoday.com/us/therapists/amy-echstenkamper-norfolk-va/970479", "retrievedOn": "2026-08-20" }
+  ]
+}
