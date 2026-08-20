@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.1.0",
+  "directory": {
+    "slug": "city-specialty",
+    "title": "Specialty in City, State",
+    "description": "A source-linked research cohort prepared for human review.",
+    "geography": {
+      "city": "City",
+      "state": "ST",
+      "country": "US",
+      "postalCodes": []
+    },
+    "scopeNote": "Explain who was included, what was not checked, and why this is not a ranking or complete roster.",
+    "socialSignalPolicy": "Public signals are dated discovery observations only. They do not measure care quality, outcomes, safety, suitability, or endorsement.",
+    "reviewStatus": "pending-human-review",
+    "status": "published",
+    "indexable": false,
+    "claimStatus": "unclaimed",
+    "lastVerified": "2026-08-20",
+    "nextReviewDue": "2026-11-20"
+  },
+  "selectionMethod": {
+    "includedWhen": [
+      "A first-party provider or practice source supports the record.",
+      "The provider has a current connection to the stated geography."
+    ],
+    "notUsedAsRankingFactors": [
+      "star ratings",
+      "review sentiment",
+      "advertising placement",
+      "undated availability",
+      "undated insurance participation"
+    ],
+    "licenseMethod": "State whether license information is source-stated, checked against a named primary source, or not applicable."
+  },
+  "locations": [
+    {
+      "id": "practice-city",
+      "name": "Practice name",
+      "address": {
+        "line1": "100 Example Street",
+        "city": "City",
+        "state": "ST",
+        "postalCode": "00000",
+        "country": "US"
+      },
+      "phone": "+1-000-000-0000",
+      "website": "https://example.org/practice",
+      "sourceIds": [
+        "practice-location-official"
+      ]
+    }
+  ],
+  "providers": [
+    {
+      "id": "given-family-credential",
+      "name": {
+        "display": "Given Family, Credential",
+        "given": "Given",
+        "family": "Family"
+      },
+      "credentials": [
+        "Credential"
+      ],
+      "clinicianType": "source-stated-clinician-role",
+      "specialties": [
+        "Source-stated focus area"
+      ],
+      "quickSummary": {
+        "helpsWith": [
+          "source-stated concern"
+        ],
+        "approach": [
+          "source-stated approach"
+        ],
+        "worksWith": [
+          "source-stated population"
+        ],
+        "careModes": [
+          "in-person"
+        ]
+      },
+      "story": "Original OpenHealthcare copy that paraphrases only the cited sources and avoids rankings, promises, or undated dynamic claims.",
+      "locationIds": [
+        "practice-city"
+      ],
+      "profileUrl": "https://example.org/provider",
+      "licenseEvidence": {
+        "jurisdiction": "ST",
+        "type": "Credential",
+        "number": "SOURCE-STATED-NUMBER",
+        "sourceId": "provider-secondary-profile",
+        "primarySourceCheck": "pending"
+      },
+      "portrait": {
+        "sourceUrl": "https://example.org/provider-image.jpg",
+        "clickThroughUrl": "https://example.org/provider",
+        "alt": "Portrait of Given Family, Credential",
+        "usage": "remote-reference-only"
+      },
+      "mediaGallery": [
+        {
+          "kind": "portrait",
+          "sourceUrl": "https://example.org/provider-image.jpg",
+          "clickThroughUrl": "https://example.org/provider",
+          "alt": "Official portrait of Given Family",
+          "sourceId": "provider-official-profile",
+          "usage": "remote-reference-only"
+        }
+      ],
+      "discoverySignals": [
+        {
+          "type": "current-public-profile",
+          "value": true,
+          "platform": "Named public platform",
+          "observedOn": "2026-08-20",
+          "sourceId": "provider-secondary-profile"
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "identity-and-role",
+          "sourceIds": [
+            "provider-official-profile"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "location",
+          "sourceIds": [
+            "practice-location-official"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "sourceIds": [
+        "provider-official-profile",
+        "provider-secondary-profile",
+        "practice-location-official",
+        "state-license-lookup"
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-08-20",
+        "licenseLookupStatus": "pending"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "provider-official-profile",
+      "type": "official-provider-profile",
+      "publisher": "Provider or practice",
+      "url": "https://example.org/provider",
+      "retrievedOn": "2026-08-20"
+    },
+    {
+      "id": "practice-location-official",
+      "type": "official-practice-location",
+      "publisher": "Practice",
+      "url": "https://example.org/practice",
+      "retrievedOn": "2026-08-20"
+    },
+    {
+      "id": "provider-secondary-profile",
+      "type": "secondary-provider-directory",
+      "publisher": "Named public platform",
+      "url": "https://example.org/public-provider-profile",
+      "retrievedOn": "2026-08-20"
+    },
+    {
+      "id": "state-license-lookup",
+      "type": "government-license-lookup",
+      "publisher": "State licensing authority",
+      "url": "https://example.gov/license-lookup",
+      "retrievedOn": "2026-08-20",
+      "note": "Primary-source check remains pending."
+    }
+  ]
+}
