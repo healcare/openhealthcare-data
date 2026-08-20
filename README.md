@@ -10,6 +10,8 @@ This package contains source-backed directory records prepared for import into
 - `schemas/directory.schema.json` — compact validation contract
 - `docs/DATA-PROVENANCE.md` — verification, social-signal, and image-handling rules
 - `docs/REPLIT-NORFOLK-HANDOFF.md` — scoped app ingestion and profile-design brief
+- `docs/reviews/NORFOLK-THERAPISTS-HUMAN-REVIEW-2026-08-20.md` — completed
+  provider-level license review, discrepancies, editorial decision, and regression contract
 
 Every publishable claim carries one or more source identifiers. Records distinguish
 clinician roles and never infer accepting-new-patients, insurance participation, board
@@ -29,9 +31,12 @@ contract as follows:
 2. Create one permanent UUID-backed provider entity for each item in `providers`.
 3. Preserve every source URL and retrieval date. Use `verificationStatus:
    "source-stated"` unless an independent government or professional-board check has
-   actually been completed.
-4. Set `status: "published"`, `indexable: false`, and `claimStatus: "unclaimed"` until
-   human review and primary-source license verification are complete.
+   actually been completed. When it has, preserve the provider-specific result as
+   `confirmed`, `conflict`, or `unresolved`; never collapse mixed results into a directory-wide
+   “verified” badge.
+4. Set `status: "published"`, `indexable: false`, and `claimStatus: "unclaimed"` for
+   research cohorts. Human review does not automatically authorize indexing; that requires
+   a separate dated editorial decision.
 5. Map `story` to provider description/highlight fields without adding new claims.
 6. Map `portrait` and `mediaGallery` as remote references only. Each image must retain
    its source-linked click-through URL and alt text, and the UI must tolerate missing or
@@ -39,8 +44,9 @@ contract as follows:
 7. Render `quickSummary` in compact, labeled sections such as “Helps with,” “Approach,”
    “Works with,” and “Care format.” Keep `discoverySignals` visibly separate from
    credentials and explain that they are dated discovery signals, not quality scores.
-8. Run `npm run validate-data`, `npm run test:http`, and `npm run test:contract` in the
-   private application repository before merging.
+8. Run `npm run validate-data`, `npm run check`, `npm run test:http`,
+   `npm run test:contract`, and the focused browser/regression suites in the private
+   application repository before merging.
 
 The public feed is an authoring and provenance layer. The private application remains
 responsible for assigning permanent entity UUIDs, collision-safe canonical paths, human
