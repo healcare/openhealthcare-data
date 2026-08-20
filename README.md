@@ -8,6 +8,10 @@ This package contains source-backed directory records prepared for import into
 - `data/directories/us/ca/la-jolla/pediatrics.json` — La Jolla pediatrics data
 - `data/directories/us/va/norfolk/therapists.json` — Norfolk therapist beta data
 - `schemas/directory.schema.json` — compact validation contract
+- `templates/directory-bundle.template.json` — copy-ready source-linked directory template
+- `scripts/validate-bundles.mjs` — zero-dependency full or changed-file validator
+- `docs/DATA-CONTRIBUTION-CONTRACT.md` — durable IDs, evidence, review states, media,
+  refresh, scaling, and import rules
 - `docs/DATA-PROVENANCE.md` — verification, social-signal, and image-handling rules
 - `docs/REPLIT-NORFOLK-HANDOFF.md` — scoped app ingestion and profile-design brief
 - `docs/reviews/NORFOLK-THERAPISTS-HUMAN-REVIEW-2026-08-20.md` — completed
@@ -16,6 +20,19 @@ This package contains source-backed directory records prepared for import into
 Every publishable claim carries one or more source identifiers. Records distinguish
 clinician roles and never infer accepting-new-patients, insurance participation, board
 status, accessibility features, or care quality.
+
+## Add and validate data
+
+Copy `templates/directory-bundle.template.json` into the geography/topic path described
+in `docs/DATA-CONTRIBUTION-CONTRACT.md`, replace every example, and run:
+
+```text
+npm run validate-data -- data/directories/{country}/{region}/{city}/{topic}.json
+```
+
+The validator has no third-party runtime dependencies. Without a path it checks every
+bundle; CI checks changed bundles and performs a full scan when the schema, validator, or
+template changes. This keeps ordinary contributions inexpensive as the repository grows.
 
 ## Replit ingestion
 
