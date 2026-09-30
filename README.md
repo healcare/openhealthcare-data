@@ -5,6 +5,11 @@ This package contains source-backed directory records prepared for import into
 
 ## Directory pilots
 
+- `data/directories/us/ca/beverly-hills/plastic-surgeons.json` — eight existing profiles, narrative research draft
+- `docs/BEVERLY-HILLS-NARRATIVES-2026-09-30.md` — readable narrative review copy
+- `docs/REPLIT-BEVERLY-HILLS-REFRESH.md` — update-existing handoff preserving the Norfolk baseline
+
+
 - `data/directories/us/ca/la-jolla/pediatrics.json` — La Jolla pediatrics data
 - `data/directories/us/va/norfolk/therapists.json` — Norfolk therapist beta data
 - `schemas/directory.schema.json` — compact validation contract
@@ -68,3 +73,14 @@ contract as follows:
 The public feed is an authoring and provenance layer. The private application remains
 responsible for assigning permanent entity UUIDs, collision-safe canonical paths, human
 review state, and deployment.
+
+## Refresh an existing directory
+
+For bundles with `importContract.mode: "update-existing-only"`, match the supplied
+`existingEntityId` and preserve `canonicalPath`; do not create replacement UUIDs.
+The research bundle’s draft/review/indexing settings do not override existing application
+publication decisions. See `docs/REPLIT-BEVERLY-HILLS-REFRESH.md`.
+
+Schema 1.2.0 allows an explicitly unresolved portrait to be `null` with a sourced
+`mediaReview`; older versions retain their previous validation requirements.
+Run `npm run test:refresh` when changing refresh validation.

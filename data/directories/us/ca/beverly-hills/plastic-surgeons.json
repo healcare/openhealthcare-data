@@ -1,0 +1,1321 @@
+{
+  "schemaVersion": "1.2.0",
+  "directory": {
+    "slug": "plastic-surgeons-beverly-hills",
+    "existingEntityId": "8f44bdc4-9c9e-4478-a69a-b9d535fcf800",
+    "title": "Plastic surgeons in Beverly Hills, California",
+    "description": "Eight existing OpenHealthcare profiles, refreshed with original narratives and linked evidence from professional biographies.",
+    "geography": {
+      "city": "Beverly Hills",
+      "state": "CA",
+      "country": "US",
+      "postalCodes": [
+        "90210",
+        "90212"
+      ]
+    },
+    "scopeNote": "A refresh of the existing eight-person roster, not a ranking, endorsement, comprehensive directory, or current credential check.",
+    "reviewStatus": "pending-human-review",
+    "status": "draft",
+    "indexable": false,
+    "claimStatus": "unclaimed",
+    "lastVerified": "2026-09-30",
+    "lastVerifiedMeaning": "Source research date only; no independent current license or board-certification verification.",
+    "nextReviewDue": "2026-10-30",
+    "researchedOn": "2026-09-30"
+  },
+  "selectionMethod": {
+    "includedWhen": [
+      "Already present in the existing Beverly Hills directory; no new clinicians selected."
+    ],
+    "notUsedAsRankingFactors": [
+      "ratings",
+      "followers",
+      "celebrity clients",
+      "outcome promises"
+    ],
+    "licenseMethod": "Current primary-source licensing checks remain pending. Historical government evidence is retained separately where encountered."
+  },
+  "importContract": {
+    "mode": "update-existing-only",
+    "identityKey": "existingEntityId",
+    "preserveCanonicalPaths": true,
+    "preserveExistingPublicationStates": true,
+    "note": "Bundle draft/non-indexable flags describe this research artifact, not permission to change existing application visibility. Stop on identity mismatch. Do not overwrite newer verified evidence. This refresh must leave Norfolk, La Jolla, and San Francisco records and review decisions intact.",
+    "baseline": "docs/reviews/NORFOLK-THERAPISTS-HUMAN-REVIEW-2026-08-20.md"
+  },
+  "locations": [
+    {
+      "id": "gabriel-chiu-beverly-hills",
+      "name": "Beverly Hills Plastic Surgery",
+      "address": {
+        "line1": "9454 Wilshire Boulevard, ground floor at South Beverly Drive",
+        "city": "Beverly Hills",
+        "state": "CA",
+        "postalCode": "90212",
+        "country": "US"
+      },
+      "website": "https://www.beverlyhillsplasticsurgeryinc.com/contact-us/",
+      "sourceIds": [
+        "gabriel-chiu-contact"
+      ],
+      "observedOn": "2026-09-30",
+      "phone": "+1-310-888-8087"
+    },
+    {
+      "id": "michael-obeng-beverly-hills",
+      "name": "MiKO Plastic Surgery",
+      "address": {
+        "line1": "9301 Wilshire Boulevard, Suite 410",
+        "city": "Beverly Hills",
+        "state": "CA",
+        "postalCode": "90210",
+        "country": "US"
+      },
+      "website": "https://www.mikoplasticsurgery.com/dr-michael-k-obeng",
+      "sourceIds": [
+        "michael-obeng-official"
+      ],
+      "observedOn": "2026-09-30"
+    },
+    {
+      "id": "payam-jarrah-nejad-beverly-hills",
+      "name": "Dr. J Plastic Surgery",
+      "address": {
+        "line1": "465 N. Roxbury Drive, Suite 1017",
+        "city": "Beverly Hills",
+        "state": "CA",
+        "postalCode": "90210",
+        "country": "US"
+      },
+      "website": "https://drjplasticsurgery.com/contact-us/",
+      "sourceIds": [
+        "payam-jarrah-nejad-contact"
+      ],
+      "observedOn": "2026-09-30",
+      "phone": "+1-310-993-3800"
+    },
+    {
+      "id": "malcolm-lesavoy-beverly-hills",
+      "name": "Lesavoy Plastic Surgery",
+      "address": {
+        "line1": "9301 Wilshire Boulevard, Suite 410",
+        "city": "Beverly Hills",
+        "state": "CA",
+        "postalCode": "90210",
+        "country": "US"
+      },
+      "website": "https://lesavoyplasticsurgery.com/about/",
+      "sourceIds": [
+        "malcolm-lesavoy-official"
+      ],
+      "observedOn": "2026-09-30",
+      "phone": "+1-310-248-5451"
+    },
+    {
+      "id": "rady-rahban-beverly-hills",
+      "name": "Rady Rahban MD",
+      "address": {
+        "line1": "152 S Lasky Drive, Suite 100",
+        "city": "Beverly Hills",
+        "state": "CA",
+        "postalCode": "90212",
+        "country": "US"
+      },
+      "website": "https://www.radyrahban.com/our-practice/dr-rady-rahban/",
+      "sourceIds": [
+        "rady-rahban-official"
+      ],
+      "observedOn": "2026-09-30",
+      "phone": "+1-424-354-2053"
+    },
+    {
+      "id": "daniel-barrett-beverly-hills",
+      "name": "Barrett Plastic Surgery",
+      "address": {
+        "line1": "9701 Wilshire Boulevard ML1",
+        "city": "Beverly Hills",
+        "state": "CA",
+        "postalCode": "90212",
+        "country": "US"
+      },
+      "website": "https://www.drdanielbarrett.com/dr-barrett",
+      "sourceIds": [
+        "daniel-barrett-official"
+      ],
+      "observedOn": "2026-09-30",
+      "phone": "+1-310-598-2648"
+    },
+    {
+      "id": "garth-fisher-beverly-hills",
+      "name": "Garth Fisher MD",
+      "address": {
+        "line1": "120 S Spalding Drive, Suite 222",
+        "city": "Beverly Hills",
+        "state": "CA",
+        "postalCode": "90212",
+        "country": "US"
+      },
+      "website": "https://www.garthfisher.com/",
+      "sourceIds": [
+        "garth-fisher-contact"
+      ],
+      "observedOn": "2026-09-30",
+      "phone": "+1-310-273-5995"
+    },
+    {
+      "id": "daniel-gould-beverly-hills",
+      "name": "Gould Plastic Surgery",
+      "address": {
+        "line1": "120 S Spalding Drive, Suite 330",
+        "city": "Beverly Hills",
+        "state": "CA",
+        "postalCode": "90212",
+        "country": "US"
+      },
+      "website": "https://drgouldplasticsurgery.com/about/dr-daniel-gould/",
+      "sourceIds": [
+        "daniel-gould-official"
+      ],
+      "observedOn": "2026-09-30"
+    }
+  ],
+  "providers": [
+    {
+      "id": "gabriel-chiu",
+      "existingEntityId": "0a90cd92-02ca-418a-bafb-fab8f1c16027",
+      "canonicalPath": "gabrielchiu",
+      "name": {
+        "display": "Gabriel Chiu, DO"
+      },
+      "credentials": [
+        "DO"
+      ],
+      "clinicianType": "plastic-and-reconstructive-surgeon",
+      "specialties": [
+        "Breast surgery",
+        "Body contouring",
+        "Facial procedures"
+      ],
+      "quickSummary": {
+        "helpsWith": [
+          "Breast surgery",
+          "Body contouring",
+          "Facial procedures"
+        ],
+        "approach": [
+          "Collaborative consultation",
+          "Discussion of individual goals"
+        ],
+        "worksWith": [],
+        "careModes": []
+      },
+      "story": "Gabriel Chiu brings an interest in visual detail to both surgery and photography. His practice biography describes a collaborative consultation: time to discuss concerns, ask questions, and decide how to proceed. His training took him from microbiology and immunology at UC Berkeley to osteopathic medicine at Western University and a plastic and reconstructive surgery fellowship. Away from medicine, photography remains one of his interests.",
+      "profileSections": [
+        {
+          "id": "section-1",
+          "heading": "Background",
+          "text": "His biography records general surgery residency followed by fellowship training at the Philadelphia College of Osteopathic Medicine.",
+          "sourceIds": [
+            "gabriel-chiu-official"
+          ]
+        },
+        {
+          "id": "section-2",
+          "heading": "Beyond the practice",
+          "text": "He lists photography and following the San Francisco 49ers among his interests.",
+          "sourceIds": [
+            "gabriel-chiu-official"
+          ]
+        }
+      ],
+      "locationIds": [
+        "gabriel-chiu-beverly-hills"
+      ],
+      "profileUrl": "https://www.beverlyhillsplasticsurgeryinc.com/surgeon/",
+      "portrait": {
+        "sourceUrl": "https://www.beverlyhillsplasticsurgeryinc.com/wp-content/uploads/2025/07/DrChiu.jpg",
+        "clickThroughUrl": "https://www.beverlyhillsplasticsurgeryinc.com/surgeon/",
+        "alt": "Portrait of Gabriel Chiu",
+        "usage": "remote-reference-only",
+        "sourceId": "gabriel-chiu-official"
+      },
+      "mediaGallery": [],
+      "sourceIds": [
+        "gabriel-chiu-official",
+        "gabriel-chiu-contact"
+      ],
+      "claimEvidence": [
+        {
+          "claim": "identity-and-credentials",
+          "sourceIds": [
+            "gabriel-chiu-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "story-and-profile-sections",
+          "sourceIds": [
+            "gabriel-chiu-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "specialties-and-summary",
+          "sourceIds": [
+            "gabriel-chiu-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "location-and-contact",
+          "sourceIds": [
+            "gabriel-chiu-contact"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "portrait",
+          "sourceIds": [
+            "gabriel-chiu-official"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-09-30",
+        "licenseLookupStatus": "pending"
+      },
+      "editorial": {
+        "narrativeVersion": "2026-09-30.1",
+        "refreshedOn": "2026-09-30",
+        "attribution": "Original OpenHealthcare narrative based on the linked practice biography; not clinician-authored or endorsed.",
+        "reuse": "Preserve source-stated attribution, review notes, source links, and research date. Current licensure, board certification, availability, and outcomes are not verified by this narrative."
+      }
+    },
+    {
+      "id": "michael-obeng",
+      "existingEntityId": "3bfd7e38-770b-40e0-bdc8-abe1ba7e8d94",
+      "canonicalPath": "michaelobeng",
+      "name": {
+        "display": "Michael K. Obeng, MD"
+      },
+      "credentials": [
+        "MD"
+      ],
+      "clinicianType": "plastic-and-reconstructive-surgeon",
+      "specialties": [
+        "Breast surgery",
+        "Body contouring",
+        "Reconstructive surgery"
+      ],
+      "quickSummary": {
+        "helpsWith": [
+          "Breast surgery",
+          "Body contouring",
+          "Reconstructive surgery"
+        ],
+        "approach": [
+          "Aesthetic and reconstructive practice"
+        ],
+        "worksWith": [],
+        "careModes": [
+          "in-person",
+          "virtual consultation"
+        ]
+      },
+      "story": "Michael K. Obeng’s professional story spans aesthetic surgery and reconstructive work. His MiKO biography describes breast and body procedures alongside complex reconstruction. It also identifies him as the founder of RESTORE Worldwide, an organization providing donated reconstructive surgery. That work gives his profile a second point of focus: surgical care for people affected by congenital conditions and injuries, beyond his Beverly Hills practice.",
+      "profileSections": [
+        {
+          "id": "section-1",
+          "heading": "Professional background",
+          "text": "His practice biography describes training at Massachusetts General Hospital and Boston Children’s Hospital.",
+          "sourceIds": [
+            "michael-obeng-official"
+          ]
+        },
+        {
+          "id": "section-2",
+          "heading": "Community work",
+          "text": "The biography documents RESTORE mission participation in Ghana and Guatemala.",
+          "sourceIds": [
+            "michael-obeng-official"
+          ]
+        }
+      ],
+      "locationIds": [
+        "michael-obeng-beverly-hills"
+      ],
+      "profileUrl": "https://www.mikoplasticsurgery.com/dr-michael-k-obeng",
+      "portrait": {
+        "sourceUrl": "https://irp.cdn-website.com/05e612ac/dms3rep/multi/opt/Dr.%2BMichael%2BK.%2BOBENG_Headshot-1920w.JPG",
+        "clickThroughUrl": "https://www.mikoplasticsurgery.com/",
+        "alt": "Portrait of Michael K. Obeng",
+        "usage": "remote-reference-only",
+        "sourceId": "michael-obeng-portrait-page"
+      },
+      "mediaGallery": [],
+      "sourceIds": [
+        "michael-obeng-official",
+        "michael-obeng-portrait-page",
+        "mbc-newsletter-164"
+      ],
+      "claimEvidence": [
+        {
+          "claim": "identity-and-credentials",
+          "sourceIds": [
+            "michael-obeng-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "story-and-profile-sections",
+          "sourceIds": [
+            "michael-obeng-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "specialties-and-summary",
+          "sourceIds": [
+            "michael-obeng-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "location-and-contact",
+          "sourceIds": [
+            "michael-obeng-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "portrait",
+          "sourceIds": [
+            "michael-obeng-portrait-page"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-09-30",
+        "licenseLookupStatus": "pending",
+        "requiresHumanReviewBeforeImport": true
+      },
+      "editorial": {
+        "narrativeVersion": "2026-09-30.1",
+        "refreshedOn": "2026-09-30",
+        "attribution": "Original OpenHealthcare narrative based on the linked practice biography; not clinician-authored or endorsed.",
+        "reuse": "Preserve source-stated attribution, review notes, source links, and research date. Current licensure, board certification, availability, and outcomes are not verified by this narrative."
+      },
+      "reviewNotes": [
+        {
+          "topic": "contact",
+          "status": "conflict",
+          "observedOn": "2026-09-30",
+          "sourceIds": [
+            "michael-obeng-official"
+          ],
+          "text": "The same official page lists 310-275-2750 in the contact block and 310-275-2705 in its footer. No primary phone selected."
+        },
+        {
+          "topic": "historical-regulatory-record",
+          "status": "needs-current-review",
+          "observedOn": "2026-09-30",
+          "sourceIds": [
+            "mbc-newsletter-164"
+          ],
+          "text": "The Medical Board’s first-quarter 2023 newsletter reports a stayed revocation and five-year probation for Michael K. Obeng, license A107087, effective September 23, 2022, with no admissions. This is historical evidence, not a current license lookup. Check the current record and any later orders before publishing credential status."
+        }
+      ]
+    },
+    {
+      "id": "payam-jarrah-nejad",
+      "existingEntityId": "46eac2c1-aa90-43f3-99cf-93a506bcc60e",
+      "canonicalPath": "drjplasticsurgery",
+      "name": {
+        "display": "Payam Jarrah-Nejad, MD"
+      },
+      "credentials": [
+        "MD"
+      ],
+      "clinicianType": "plastic-and-reconstructive-surgeon",
+      "specialties": [
+        "Breast surgery",
+        "Body contouring",
+        "Rhinoplasty"
+      ],
+      "quickSummary": {
+        "helpsWith": [
+          "Breast surgery",
+          "Body contouring",
+          "Rhinoplasty"
+        ],
+        "approach": [
+          "Procedure and recovery education",
+          "Patient communication"
+        ],
+        "worksWith": [],
+        "careModes": []
+      },
+      "story": "Known professionally as Dr. J, Payam Jarrah-Nejad describes communication as central to his approach: patients should understand a procedure and what recovery involves. His biography traces a route through general surgery, a hand surgery fellowship at Beth Israel Medical Center, and plastic surgery training at Wayne State University. It also describes volunteer work with Operation Smile and fluency in English and Farsi.",
+      "profileSections": [
+        {
+          "id": "section-1",
+          "heading": "A path through hand surgery",
+          "text": "He credits his hand surgery fellowship with preparing him for the detailed work of plastic surgery.",
+          "sourceIds": [
+            "payam-jarrah-nejad-official"
+          ]
+        },
+        {
+          "id": "section-2",
+          "heading": "Beverly Hills connection",
+          "text": "His biography dates the opening of his first Beverly Hills office to 2008.",
+          "sourceIds": [
+            "payam-jarrah-nejad-official"
+          ]
+        }
+      ],
+      "locationIds": [
+        "payam-jarrah-nejad-beverly-hills"
+      ],
+      "profileUrl": "https://drjplasticsurgery.com/beverly-hills-plastic-surgeon/",
+      "portrait": {
+        "sourceUrl": "https://drjplasticsurgery.com/wp-content/uploads/2021/11/DR-J-PLASTIC-SURGERY__HEADSHOT-DR-J-1-0259-Edit-3-1.png",
+        "clickThroughUrl": "https://drjplasticsurgery.com/beverly-hills-plastic-surgeon/",
+        "alt": "Portrait of Payam Jarrah-Nejad",
+        "usage": "remote-reference-only",
+        "sourceId": "payam-jarrah-nejad-official"
+      },
+      "mediaGallery": [],
+      "sourceIds": [
+        "payam-jarrah-nejad-official",
+        "payam-jarrah-nejad-contact",
+        "drj-availability-snapshot"
+      ],
+      "claimEvidence": [
+        {
+          "claim": "identity-and-credentials",
+          "sourceIds": [
+            "payam-jarrah-nejad-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "story-and-profile-sections",
+          "sourceIds": [
+            "payam-jarrah-nejad-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "specialties-and-summary",
+          "sourceIds": [
+            "payam-jarrah-nejad-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "location-and-contact",
+          "sourceIds": [
+            "payam-jarrah-nejad-contact"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "languages",
+          "sourceIds": [
+            "payam-jarrah-nejad-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "portrait",
+          "sourceIds": [
+            "payam-jarrah-nejad-official"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-09-30",
+        "licenseLookupStatus": "pending",
+        "requiresHumanReviewBeforeImport": true
+      },
+      "editorial": {
+        "narrativeVersion": "2026-09-30.1",
+        "refreshedOn": "2026-09-30",
+        "attribution": "Original OpenHealthcare narrative based on the linked practice biography; not clinician-authored or endorsed.",
+        "reuse": "Preserve source-stated attribution, review notes, source links, and research date. Current licensure, board certification, availability, and outcomes are not verified by this narrative."
+      },
+      "languages": [
+        "English",
+        "Farsi"
+      ],
+      "reviewNotes": [
+        {
+          "topic": "availability",
+          "status": "unresolved",
+          "observedOn": "2026-09-30",
+          "sourceIds": [
+            "drj-availability-snapshot",
+            "payam-jarrah-nejad-contact"
+          ],
+          "text": "Search-index content surfaced a temporary-closure notice while opened pages showed contact information. Current practice availability needs direct confirmation; do not infer open, closed, or accepting patients."
+        }
+      ]
+    },
+    {
+      "id": "malcolm-lesavoy",
+      "existingEntityId": "58aed8a1-af29-48e3-94bc-7b5c18318f56",
+      "canonicalPath": "malcolmlesavoy",
+      "name": {
+        "display": "Malcolm Lesavoy, MD"
+      },
+      "credentials": [
+        "MD"
+      ],
+      "clinicianType": "plastic-and-reconstructive-surgeon",
+      "specialties": [
+        "Facial surgery",
+        "Breast surgery",
+        "Body procedures"
+      ],
+      "quickSummary": {
+        "helpsWith": [
+          "Facial surgery",
+          "Breast surgery",
+          "Body procedures"
+        ],
+        "approach": [],
+        "worksWith": [],
+        "careModes": []
+      },
+      "story": "Teaching and reconstructive surgery run through Malcolm Lesavoy’s professional biography. His published career summary records leadership of plastic and reconstructive surgery at Harbor-UCLA from 1976 through 1999, following training at the University of Chicago and University of Miami. His Beverly Hills practice describes face, breast, and body procedures. The biography also highlights volunteer work with children and an interest in animal welfare.",
+      "profileSections": [
+        {
+          "id": "section-1",
+          "heading": "Education",
+          "text": "His career summary lists an undergraduate degree from UNC Chapel Hill and a medical degree from Chicago Medical School.",
+          "sourceIds": [
+            "malcolm-lesavoy-official"
+          ]
+        },
+        {
+          "id": "section-2",
+          "heading": "Sharing knowledge",
+          "text": "His practice describes teaching and publications in aesthetic surgery, pediatric reconstruction, burns, and facial trauma.",
+          "sourceIds": [
+            "malcolm-lesavoy-official"
+          ]
+        }
+      ],
+      "locationIds": [
+        "malcolm-lesavoy-beverly-hills"
+      ],
+      "profileUrl": "https://lesavoyplasticsurgery.com/about/",
+      "portrait": null,
+      "mediaGallery": [],
+      "sourceIds": [
+        "malcolm-lesavoy-official"
+      ],
+      "claimEvidence": [
+        {
+          "claim": "identity-and-credentials",
+          "sourceIds": [
+            "malcolm-lesavoy-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "story-and-profile-sections",
+          "sourceIds": [
+            "malcolm-lesavoy-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "specialties-and-summary",
+          "sourceIds": [
+            "malcolm-lesavoy-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "location-and-contact",
+          "sourceIds": [
+            "malcolm-lesavoy-official"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-09-30",
+        "licenseLookupStatus": "pending"
+      },
+      "editorial": {
+        "narrativeVersion": "2026-09-30.1",
+        "refreshedOn": "2026-09-30",
+        "attribution": "Original OpenHealthcare narrative based on the linked practice biography; not clinician-authored or endorsed.",
+        "reuse": "Preserve source-stated attribution, review notes, source links, and research date. Current licensure, board certification, availability, and outcomes are not verified by this narrative."
+      },
+      "mediaReview": {
+        "status": "unresolved",
+        "note": "The biography links a portrait asset, but the retrieved image URL redirected to the practice homepage. Do not render HTML as an image; retain a neutral fallback until a working portrait is confirmed.",
+        "checkedOn": "2026-09-30",
+        "sourceIds": [
+          "malcolm-lesavoy-official"
+        ]
+      },
+      "reviewNotes": [
+        {
+          "topic": "awards-and-academic-appointment",
+          "status": "unresolved",
+          "observedOn": "2026-09-30",
+          "sourceIds": [
+            "malcolm-lesavoy-official"
+          ],
+          "text": "The practice page names different organizations for its clinician award in its overview and CV. Award branding and current academic appointment were omitted pending independent corroboration."
+        }
+      ]
+    },
+    {
+      "id": "rady-rahban",
+      "existingEntityId": "81a8d454-f6a8-4bb5-842e-b32ee9a90736",
+      "canonicalPath": "radyrahban",
+      "name": {
+        "display": "Rady Rahban, MD"
+      },
+      "credentials": [
+        "MD"
+      ],
+      "clinicianType": "plastic-and-reconstructive-surgeon",
+      "specialties": [
+        "Rhinoplasty",
+        "Breast surgery",
+        "Corrective procedures"
+      ],
+      "quickSummary": {
+        "helpsWith": [
+          "Rhinoplasty",
+          "Breast surgery",
+          "Corrective procedures"
+        ],
+        "approach": [
+          "Patient education",
+          "Discussion of surgical options"
+        ],
+        "worksWith": [],
+        "careModes": [
+          "virtual consultation"
+        ]
+      },
+      "story": "Rady Rahban makes patient education a visible part of his practice, including through his Plastic Surgery Uncensored podcast. His biography traces his education from biochemistry at UCLA to medical school at UC San Diego and surgical training at USC. It also describes reconstructive volunteer work in Latin America. Beyond the operating room, he lists photography, cycling, and snowboarding among his interests.",
+      "profileSections": [
+        {
+          "id": "section-1",
+          "heading": "Public education",
+          "text": "His biography dates the launch of Plastic Surgery Uncensored to 2019.",
+          "sourceIds": [
+            "rady-rahban-official"
+          ]
+        },
+        {
+          "id": "section-2",
+          "heading": "Languages and service",
+          "text": "The practice describes English, Spanish, and Farsi fluency and volunteer participation with Operation Smile and HELPS International.",
+          "sourceIds": [
+            "rady-rahban-official"
+          ]
+        }
+      ],
+      "locationIds": [
+        "rady-rahban-beverly-hills"
+      ],
+      "profileUrl": "https://www.radyrahban.com/our-practice/dr-rady-rahban/",
+      "portrait": null,
+      "mediaGallery": [],
+      "sourceIds": [
+        "rady-rahban-official"
+      ],
+      "claimEvidence": [
+        {
+          "claim": "identity-and-credentials",
+          "sourceIds": [
+            "rady-rahban-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "story-and-profile-sections",
+          "sourceIds": [
+            "rady-rahban-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "specialties-and-summary",
+          "sourceIds": [
+            "rady-rahban-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "location-and-contact",
+          "sourceIds": [
+            "rady-rahban-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "languages",
+          "sourceIds": [
+            "rady-rahban-official"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-09-30",
+        "licenseLookupStatus": "pending"
+      },
+      "editorial": {
+        "narrativeVersion": "2026-09-30.1",
+        "refreshedOn": "2026-09-30",
+        "attribution": "Original OpenHealthcare narrative based on the linked practice biography; not clinician-authored or endorsed.",
+        "reuse": "Preserve source-stated attribution, review notes, source links, and research date. Current licensure, board certification, availability, and outcomes are not verified by this narrative."
+      },
+      "languages": [
+        "English",
+        "Spanish",
+        "Farsi"
+      ],
+      "mediaReview": {
+        "status": "unresolved",
+        "note": "The official biography contains a labeled portrait, but an exact usable image URL could not be resolved in this research pass. Preserve any newer app portrait with valid provenance; otherwise use a neutral fallback.",
+        "checkedOn": "2026-09-30",
+        "sourceIds": [
+          "rady-rahban-official"
+        ]
+      }
+    },
+    {
+      "id": "daniel-barrett",
+      "existingEntityId": "95bd0df0-25b3-4c64-aae0-37f6faf9181f",
+      "canonicalPath": "danielbarrett",
+      "name": {
+        "display": "Daniel Barrett, MD, MHA, MS"
+      },
+      "credentials": [
+        "MD",
+        "MHA",
+        "MS"
+      ],
+      "clinicianType": "plastic-and-reconstructive-surgeon",
+      "specialties": [
+        "Breast surgery",
+        "Facial surgery",
+        "Post-weight-loss surgery"
+      ],
+      "quickSummary": {
+        "helpsWith": [
+          "Breast surgery",
+          "Facial surgery",
+          "Post-weight-loss surgery"
+        ],
+        "approach": [
+          "Recovery planning",
+          "Scar management"
+        ],
+        "worksWith": [],
+        "careModes": [
+          "in-person",
+          "virtual consultation"
+        ]
+      },
+      "story": "Daniel Barrett’s practice presents recovery and scar management as part of the conversation about aesthetic surgery. His published training history combines medicine, physiology, and health administration, followed by a six-year plastic and reconstructive surgery residency at USC. His Beverly Hills work includes face, breast, and body procedures. The practice also describes Barrett Gives Back, a program offering selected reconstructive and post-weight-loss procedures without charge.",
+      "profileSections": [
+        {
+          "id": "section-1",
+          "heading": "Education",
+          "text": "His biography lists degrees from James Madison University and the Medical College of Virginia before residency at USC.",
+          "sourceIds": [
+            "daniel-barrett-official"
+          ]
+        },
+        {
+          "id": "section-2",
+          "heading": "Planning a visit",
+          "text": "The practice describes virtual consultations for out-of-area patients, followed by an in-person examination before surgery.",
+          "sourceIds": [
+            "daniel-barrett-official"
+          ]
+        }
+      ],
+      "locationIds": [
+        "daniel-barrett-beverly-hills"
+      ],
+      "profileUrl": "https://www.drdanielbarrett.com/dr-barrett",
+      "portrait": {
+        "sourceUrl": "https://cdn.prod.website-files.com/64dfd4ef9f4f37b49f941ac1/683e2cdf2bea634d051e6b85_Dr%20daniel%20barrett%20board%20certfied%20plastic%20surgeon%20top%20beverly%20hills%20doctor.webp",
+        "clickThroughUrl": "https://www.drdanielbarrett.com/meet-the-team",
+        "alt": "Portrait of Daniel Barrett",
+        "usage": "remote-reference-only",
+        "sourceId": "daniel-barrett-portrait-page"
+      },
+      "mediaGallery": [],
+      "sourceIds": [
+        "daniel-barrett-official",
+        "daniel-barrett-portrait-page"
+      ],
+      "claimEvidence": [
+        {
+          "claim": "identity-and-credentials",
+          "sourceIds": [
+            "daniel-barrett-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "story-and-profile-sections",
+          "sourceIds": [
+            "daniel-barrett-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "specialties-and-summary",
+          "sourceIds": [
+            "daniel-barrett-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "location-and-contact",
+          "sourceIds": [
+            "daniel-barrett-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "portrait",
+          "sourceIds": [
+            "daniel-barrett-portrait-page"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-09-30",
+        "licenseLookupStatus": "pending"
+      },
+      "editorial": {
+        "narrativeVersion": "2026-09-30.1",
+        "refreshedOn": "2026-09-30",
+        "attribution": "Original OpenHealthcare narrative based on the linked practice biography; not clinician-authored or endorsed.",
+        "reuse": "Preserve source-stated attribution, review notes, source links, and research date. Current licensure, board certification, availability, and outcomes are not verified by this narrative."
+      }
+    },
+    {
+      "id": "garth-fisher",
+      "existingEntityId": "b60a1cb9-0d6d-4ec0-8991-a9d6e02c93bc",
+      "canonicalPath": "garthfisher",
+      "name": {
+        "display": "Garth Fisher, MD"
+      },
+      "credentials": [
+        "MD"
+      ],
+      "clinicianType": "plastic-and-reconstructive-surgeon",
+      "specialties": [
+        "Facial surgery",
+        "Rhinoplasty",
+        "Breast surgery",
+        "Body contouring"
+      ],
+      "quickSummary": {
+        "helpsWith": [
+          "Facial surgery",
+          "Rhinoplasty",
+          "Breast surgery",
+          "Body contouring"
+        ],
+        "approach": [
+          "Patient education"
+        ],
+        "worksWith": [],
+        "careModes": []
+      },
+      "story": "Garth Fisher’s biography connects a Beverly Hills surgical practice with a long-running interest in public education. Alongside cosmetic procedures for the face, nose, breast, and body, it describes his role on Extreme Makeover and the creation of The Naked Truth About Plastic Surgery video series. His path began in Mississippi, followed by medical school there and surgical training at UCLA.",
+      "profileSections": [
+        {
+          "id": "section-1",
+          "heading": "Education",
+          "text": "His biography lists a University of Mississippi undergraduate degree and a University of Mississippi Medical Center medical degree.",
+          "sourceIds": [
+            "garth-fisher-official"
+          ]
+        },
+        {
+          "id": "section-2",
+          "heading": "A personal contribution",
+          "text": "He contributed a recollection about his father to Larry King’s book My Dad and Me.",
+          "sourceIds": [
+            "garth-fisher-official"
+          ]
+        }
+      ],
+      "locationIds": [
+        "garth-fisher-beverly-hills"
+      ],
+      "profileUrl": "https://www.garthfisher.com/about-dr-fisher/meet-dr-fisher/",
+      "portrait": null,
+      "mediaGallery": [],
+      "sourceIds": [
+        "garth-fisher-official",
+        "garth-fisher-contact"
+      ],
+      "claimEvidence": [
+        {
+          "claim": "identity-and-credentials",
+          "sourceIds": [
+            "garth-fisher-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "story-and-profile-sections",
+          "sourceIds": [
+            "garth-fisher-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "specialties-and-summary",
+          "sourceIds": [
+            "garth-fisher-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "location-and-contact",
+          "sourceIds": [
+            "garth-fisher-contact"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-09-30",
+        "licenseLookupStatus": "pending"
+      },
+      "editorial": {
+        "narrativeVersion": "2026-09-30.1",
+        "refreshedOn": "2026-09-30",
+        "attribution": "Original OpenHealthcare narrative based on the linked practice biography; not clinician-authored or endorsed.",
+        "reuse": "Preserve source-stated attribution, review notes, source links, and research date. Current licensure, board certification, availability, and outcomes are not verified by this narrative."
+      },
+      "mediaReview": {
+        "status": "unresolved",
+        "note": "The accessible official biography did not expose a confidently identifiable portrait asset URL. Preserve any newer sourced app image; otherwise use a neutral fallback.",
+        "checkedOn": "2026-09-30",
+        "sourceIds": [
+          "garth-fisher-official"
+        ]
+      }
+    },
+    {
+      "id": "daniel-gould",
+      "existingEntityId": "ca6f96e6-75c8-428a-becf-b25144ee8068",
+      "canonicalPath": "danielgould",
+      "name": {
+        "display": "Daniel Gould, MD, PhD"
+      },
+      "credentials": [
+        "MD",
+        "PhD"
+      ],
+      "clinicianType": "plastic-and-reconstructive-surgeon",
+      "specialties": [
+        "Facelift and neck surgery",
+        "Breast surgery",
+        "Body contouring"
+      ],
+      "quickSummary": {
+        "helpsWith": [
+          "Facelift and neck surgery",
+          "Breast surgery",
+          "Body contouring"
+        ],
+        "approach": [
+          "Individual surgical planning"
+        ],
+        "worksWith": [],
+        "careModes": []
+      },
+      "story": "Daniel Gould’s published biography brings medicine and bioengineering into the same professional story. It lists an MD from Baylor College of Medicine, a bioengineering PhD from Rice University, and plastic surgery residency at USC. His Beverly Hills practice describes an emphasis on facial and neck surgery alongside breast and body procedures. Teaching, mentoring, and research are also part of the career described on his official profile.",
+      "profileSections": [
+        {
+          "id": "section-1",
+          "heading": "Scientific background",
+          "text": "His official profile describes participation in an NIH-funded medical scientist training program.",
+          "sourceIds": [
+            "daniel-gould-official"
+          ]
+        },
+        {
+          "id": "section-2",
+          "heading": "Education and mentorship",
+          "text": "The practice lists teaching at surgical meetings and mentoring residents, fellows, and medical students.",
+          "sourceIds": [
+            "daniel-gould-official"
+          ]
+        }
+      ],
+      "locationIds": [
+        "daniel-gould-beverly-hills"
+      ],
+      "profileUrl": "https://drgouldplasticsurgery.com/about/dr-daniel-gould/",
+      "portrait": {
+        "sourceUrl": "https://drgouldplasticsurgery.com/assets/img/feature/dr-gould-11.jpg",
+        "clickThroughUrl": "https://drgouldplasticsurgery.com/about/dr-daniel-gould/",
+        "alt": "Portrait of Daniel Gould",
+        "usage": "remote-reference-only",
+        "sourceId": "daniel-gould-official"
+      },
+      "mediaGallery": [],
+      "sourceIds": [
+        "daniel-gould-official"
+      ],
+      "claimEvidence": [
+        {
+          "claim": "identity-and-credentials",
+          "sourceIds": [
+            "daniel-gould-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "story-and-profile-sections",
+          "sourceIds": [
+            "daniel-gould-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "specialties-and-summary",
+          "sourceIds": [
+            "daniel-gould-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "location-and-contact",
+          "sourceIds": [
+            "daniel-gould-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "portrait",
+          "sourceIds": [
+            "daniel-gould-official"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-09-30",
+        "licenseLookupStatus": "pending"
+      },
+      "editorial": {
+        "narrativeVersion": "2026-09-30.1",
+        "refreshedOn": "2026-09-30",
+        "attribution": "Original OpenHealthcare narrative based on the linked practice biography; not clinician-authored or endorsed.",
+        "reuse": "Preserve source-stated attribution, review notes, source links, and research date. Current licensure, board certification, availability, and outcomes are not verified by this narrative."
+      },
+      "reviewNotes": [
+        {
+          "topic": "contact",
+          "status": "conflict",
+          "observedOn": "2026-09-30",
+          "sourceIds": [
+            "daniel-gould-official"
+          ],
+          "text": "The official biography lists 424-667-5753 in its consultation section and 310-210-6941 in its header/footer. No primary phone selected."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "gabriel-chiu-official",
+      "type": "official-provider-profile",
+      "publisher": "Beverly Hills Plastic Surgery",
+      "title": "Dr. Gabriel Chiu",
+      "url": "https://www.beverlyhillsplasticsurgeryinc.com/surgeon/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "gabriel-chiu-contact",
+      "type": "official-practice-location",
+      "publisher": "Beverly Hills Plastic Surgery",
+      "title": "Official contact and location information",
+      "url": "https://www.beverlyhillsplasticsurgeryinc.com/contact-us/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "michael-obeng-official",
+      "type": "official-provider-profile",
+      "publisher": "MiKO Plastic Surgery",
+      "title": "Dr. Michael K. Obeng",
+      "url": "https://www.mikoplasticsurgery.com/dr-michael-k-obeng",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "michael-obeng-portrait-page",
+      "type": "official-provider-profile",
+      "publisher": "MiKO Plastic Surgery",
+      "title": "Official page containing clinician portrait",
+      "url": "https://www.mikoplasticsurgery.com/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "payam-jarrah-nejad-official",
+      "type": "official-provider-profile",
+      "publisher": "Dr. J Plastic Surgery",
+      "title": "The Dr. J Story",
+      "url": "https://drjplasticsurgery.com/beverly-hills-plastic-surgeon/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "payam-jarrah-nejad-contact",
+      "type": "official-practice-location",
+      "publisher": "Dr. J Plastic Surgery",
+      "title": "Official contact and location information",
+      "url": "https://drjplasticsurgery.com/contact-us/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "malcolm-lesavoy-official",
+      "type": "official-provider-profile",
+      "publisher": "Lesavoy Plastic Surgery",
+      "title": "About Dr. Malcolm Lesavoy",
+      "url": "https://lesavoyplasticsurgery.com/about/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "rady-rahban-official",
+      "type": "official-provider-profile",
+      "publisher": "Rady Rahban MD",
+      "title": "About Dr. Rady Rahban",
+      "url": "https://www.radyrahban.com/our-practice/dr-rady-rahban/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "daniel-barrett-official",
+      "type": "official-provider-profile",
+      "publisher": "Barrett Plastic Surgery",
+      "title": "Dr. Daniel Barrett",
+      "url": "https://www.drdanielbarrett.com/dr-barrett",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "daniel-barrett-portrait-page",
+      "type": "official-provider-profile",
+      "publisher": "Barrett Plastic Surgery",
+      "title": "Official page containing clinician portrait",
+      "url": "https://www.drdanielbarrett.com/meet-the-team",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "garth-fisher-official",
+      "type": "official-provider-profile",
+      "publisher": "Garth Fisher MD",
+      "title": "Meet Dr. Fisher",
+      "url": "https://www.garthfisher.com/about-dr-fisher/meet-dr-fisher/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "garth-fisher-contact",
+      "type": "official-practice-location",
+      "publisher": "Garth Fisher MD",
+      "title": "Official contact and location information",
+      "url": "https://www.garthfisher.com/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "daniel-gould-official",
+      "type": "official-provider-profile",
+      "publisher": "Gould Plastic Surgery",
+      "title": "Meet Dr. Daniel Gould",
+      "url": "https://drgouldplasticsurgery.com/about/dr-daniel-gould/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "mbc-newsletter-164",
+      "type": "government-historical-record",
+      "publisher": "Medical Board of California",
+      "title": "First Quarter 2023 newsletter, Volume 164, page 40",
+      "url": "https://www.mbc.ca.gov/Download/Newsletters/volume164.pdf",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated",
+      "note": "PDF downloaded and text extracted; Michael K. Obeng entry read. Current license status not checked. Historical finding must not be presented as a present restriction or no-restrictions conclusion."
+    },
+    {
+      "id": "drj-availability-snapshot",
+      "type": "search-index-observation",
+      "publisher": "Dr. J Plastic Surgery",
+      "title": "Homepage search-index availability notice",
+      "url": "https://drjplasticsurgery.com/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "search-index-snapshot",
+      "verificationStatus": "source-stated",
+      "note": "Search retrieval surfaced a temporary-closure notice; directly opened biography/contact content did not reproduce it. This is unresolved, not proof the practice is currently closed."
+    }
+  ]
+}

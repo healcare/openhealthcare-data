@@ -144,7 +144,17 @@
         "reviewStatus": "pending-human-review",
         "researchedOn": "2026-08-20",
         "licenseLookupStatus": "pending"
-      }
+      },
+      "profileSections": [
+        {
+          "id": "background",
+          "heading": "Background",
+          "text": "A short, original, source-supported professional detail. Remove this example before contributing.",
+          "sourceIds": [
+            "provider-official-profile"
+          ]
+        }
+      ]
     }
   ],
   "sources": [

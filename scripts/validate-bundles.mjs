@@ -6,7 +6,7 @@ import process from "node:process";
 
 const ROOT = process.cwd();
 const DATA_ROOT = path.join(ROOT, "data", "directories");
-const SUPPORTED_VERSIONS = new Set(["1.0.0", "1.1.0"]);
+const SUPPORTED_VERSIONS = new Set(["1.0.0", "1.1.0", "1.2.0"]);
 const OUTCOMES = new Set([
   "verified",
   "source-stated",
@@ -141,7 +141,34 @@ function validateProvider(file, provider, index, context) {
   if (!validUrl(provider.profileUrl)) fail(file, `${label}.profileUrl must be an HTTP(S) URL`);
   checkRefs(file, provider.locationIds, locationIds, `${label}.locationIds`);
   checkRefs(file, provider.sourceIds, sourceIds, `${label}.sourceIds`);
-  validateMedia(file, provider.portrait, `${label}.portrait`, sourceIds);
+  if (version === "1.2.0" && provider.portrait === null) {
+    const review = provider.mediaReview;
+    if (!isObject(review) || review.status !== "unresolved") {
+      fail(file, `${label}.mediaReview must explain an unresolved portrait`);
+    } else {
+      requireString(file, review, "note", `${label}.mediaReview`);
+      requireDate(file, review, "checkedOn", `${label}.mediaReview`);
+      checkRefs(file, review.sourceIds, sourceIds, `${label}.mediaReview.sourceIds`);
+      if (!review.sourceIds?.length) fail(file, `${label}.mediaReview must cite attempted sources`);
+    }
+  } else {
+    validateMedia(file, provider.portrait, `${label}.portrait`, sourceIds);
+  }
+
+  if (provider.profileSections !== undefined) {
+    if (!Array.isArray(provider.profileSections)) {
+      fail(file, `${label}.profileSections must be an array`);
+    } else {
+      uniqueIds(file, provider.profileSections, `${label}.profileSections`);
+      provider.profileSections.forEach((section, sectionIndex) => {
+        const sectionLabel = `${label}.profileSections[${sectionIndex}]`;
+        requireString(file, section, "heading", sectionLabel);
+        requireString(file, section, "text", sectionLabel);
+        checkRefs(file, section?.sourceIds, sourceIds, `${sectionLabel}.sourceIds`);
+        if (!section?.sourceIds?.length) fail(file, `${sectionLabel} must cite evidence`);
+      });
+    }
+  }
 
   if (provider.mediaGallery !== undefined) {
     if (!Array.isArray(provider.mediaGallery)) {
@@ -208,7 +235,7 @@ function validateProvider(file, provider, index, context) {
   const verification = provider.verification;
   if (!OUTCOMES.has(verification.status)) fail(file, `${label}.verification.status is invalid`);
 
-  if (version === "1.1.0") {
+  if (version !== "1.0.0") {
     if (!REVIEW_STATES.has(verification.reviewStatus)) fail(file, `${label}.verification.reviewStatus is invalid`);
     if (!LOOKUP_STATES.has(verification.licenseLookupStatus)) fail(file, `${label}.verification.licenseLookupStatus is invalid`);
   }
@@ -273,7 +300,7 @@ function validateBundle(file) {
   requireDate(file, directory, "lastVerified", "directory");
   if (directory.nextReviewDue !== undefined) requireDate(file, directory, "nextReviewDue", "directory");
 
-  if (bundle.schemaVersion === "1.1.0") {
+  if (bundle.schemaVersion !== "1.0.0") {
     if (!REVIEW_STATES.has(directory.reviewStatus)) fail(file, "directory.reviewStatus is invalid");
     if (!["published", "draft", "removed"].includes(directory.status)) fail(file, "directory.status is invalid");
     if (typeof directory.indexable !== "boolean") fail(file, "directory.indexable must be boolean");
@@ -299,6 +326,22 @@ function validateBundle(file) {
   const sourceIds = uniqueIds(file, bundle.sources, "sources");
   const locationIds = uniqueIds(file, bundle.locations, "locations");
   uniqueIds(file, bundle.providers, "providers");
+
+  if (bundle.importContract?.mode === "update-existing-only") {
+    const uuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;
+    if (!uuid.test(directory.existingEntityId ?? "")) fail(file, "refresh requires existing directory UUID");
+    const seenIds = new Set();
+    const seenPaths = new Set();
+    for (const provider of bundle.providers) {
+      if (!uuid.test(provider?.existingEntityId ?? "")) fail(file, "refresh requires existing provider UUIDs");
+      requireId(file, provider?.canonicalPath, "refresh canonicalPath");
+      if (seenIds.has(provider?.existingEntityId) || seenPaths.has(provider?.canonicalPath)) {
+        fail(file, "refresh contains duplicate existing identity or canonical path");
+      }
+      seenIds.add(provider?.existingEntityId);
+      seenPaths.add(provider?.canonicalPath);
+    }
+  }
 
   bundle.sources.forEach((source, index) => {
     if (isObject(source)) validateSource(file, source, index);

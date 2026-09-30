@@ -122,3 +122,36 @@ separate decision changes that state.
 
 The Norfolk human-review report is the worked example:
 `docs/reviews/NORFOLK-THERAPISTS-HUMAN-REVIEW-2026-08-20.md`.
+
+## Narrative refreshes (schema 1.2.0)
+
+Continue the Norfolk profile model: a concise original `story`, the existing
+`quickSummary` boxes, source-linked media, and optional `profileSections` with stable
+IDs, headings, text, and nonempty `sourceIds`. Omit empty sections. Cite personal
+interests only when the clinician voluntarily describes them in a professional source.
+Do not turn promotional adjectives, followers, or reviews into care-quality claims.
+
+For an existing directory, set `importContract.mode` to `update-existing-only` and
+retain the application's directory/provider `existingEntityId` and provider
+`canonicalPath`. Never mint replacement identities. Preserve newer evidence and
+existing publication decisions. A research artifact may be draft/non-indexable while
+its existing app page has a different historical status; the import must not silently
+change that status.
+
+`portrait: null` is permitted in 1.2.0 only with `mediaReview.status: unresolved`, a
+specific note, a check date, and cited attempted sources. Never substitute a page URL,
+logo, or guessed asset to satisfy validation. Existing portraits with newer valid
+provenance should survive a refresh with unresolved media. Continue remote-reference
+and no-duplicate-thumbnail rules.
+
+`reviewNotes` travel with the record and must be visible wherever relevant. They may
+record source conflicts or historical regulatory documents without implying a completed
+current license lookup. A search-index observation must be labeled as such and cannot
+establish current closure, availability, or licensing. The legacy `lastVerified` field
+means source research date in a narrative-only bundle; state that meaning explicitly
+and leave current licensing checks pending until actually completed.
+
+Agents can reuse dated, source-stated narratives within their evidence scope, but must
+recheck dynamic details, unresolved conflicts, and credential status when their task
+requires current verification. Do not equate reuse with permanent truth. No new license
+or permission to redistribute third-party media or source text is granted here.
