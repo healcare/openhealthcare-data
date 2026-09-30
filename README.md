@@ -3,6 +3,13 @@
 This package contains source-backed directory records prepared for import into
 `healcare/openhealthcare`.
 
+## Workflow ownership
+
+Follow [Research and site-building workflow](docs/RESEARCH-AND-BUILD-WORKFLOW.md):
+ChatGPT owns evidence, verification research, narratives, and editorial handoffs;
+Replit owns implementation and technical testing. Return unresolved facts here rather
+than repeating research or simulating human review in Replit.
+
 ## Directory pilots
 
 - `data/directories/us/ca/beverly-hills/plastic-surgeons.json` — eight existing profiles, narrative research draft
@@ -71,8 +78,8 @@ contract as follows:
    application repository before merging.
 
 The public feed is an authoring and provenance layer. The private application remains
-responsible for assigning permanent entity UUIDs, collision-safe canonical paths, human
-review state, and deployment.
+responsible for assigning permanent entity UUIDs and collision-safe canonical paths,
+preserving externally supplied review state, and implementing separately authorized deployment.
 
 ## Refresh an existing directory
 

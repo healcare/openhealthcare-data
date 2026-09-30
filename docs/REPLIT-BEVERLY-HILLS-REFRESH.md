@@ -4,6 +4,16 @@ Prepared September 30, 2026. ChatGPT performed this source research. Replit shou
 ingest the supplied facts and citations, not repeat the web searches or generate
 additional factual claims.
 
+## Ownership update
+
+Follow [Research and site-building workflow](RESEARCH-AND-BUILD-WORKFLOW.md).
+Research and editorial review are owned here in the ChatGPT workflow. Replit should
+implement the six non-held narrative refreshes with their pending credential status
+intact and continue shared UI work. Hold the Obeng and Jarrah-Nejad refreshed records;
+report those holds once without performing new research or a human-review simulation.
+Return factual exceptions here. Missing portraits use fallbacks, not a blocking review.
+Technical tests remain Replit's responsibility. This does not authorize deployment.
+
 ## Continue from Norfolk
 
 Use the existing Norfolk profile experience: split hero, optional real thumbnails,
@@ -36,8 +46,8 @@ Every record is source-stated and pending current license review. Do not create 
 verified badge or import old unsupported awards, rankings, procedure counts, or outcome
 guarantees. Retain `reviewNotes` visibly beside the affected topic, including phone
 conflicts and unresolved availability. Obeng's historical government record and
-Jarrah-Nejad's availability discrepancy require human review before their refreshed
-records are adopted. Do not infer current disciplinary status from an old document
+Jarrah-Nejad's availability discrepancy require a separately documented review decision from this research workflow before their refreshed
+records are adopted; Replit does not conduct that review. Do not infer current disciplinary status from an old document
 or current practice closure from a search snapshot.
 
 Five exact portrait references are supplied. Three are explicitly unresolved; preserve

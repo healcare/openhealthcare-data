@@ -155,3 +155,12 @@ Agents can reuse dated, source-stated narratives within their evidence scope, bu
 recheck dynamic details, unresolved conflicts, and credential status when their task
 requires current verification. Do not equate reuse with permanent truth. No new license
 or permission to redistribute third-party media or source text is granted here.
+
+## Ownership and efficient handoff
+
+Follow [Research and site-building workflow](RESEARCH-AND-BUILD-WORKFLOW.md).
+Research, verification evidence, editorial assessment, and resolution of factual exceptions
+stay in the ChatGPT research workflow. Replit preserves supplied decisions and runs
+technical checks; it does not repeat research or perform a simulated human review.
+Actual human-review requirements remain pending until a human completes them. Held
+records do not block eligible records or unrelated site-building work.
