@@ -12,6 +12,11 @@ than repeating research or simulating human review in Replit.
 
 ## Directory pilots
 
+- `data/directories/us/ca/orange-county/plastic-surgeons.json` — eight existing OC profiles with Newport Beach/Corona del Mar evidence
+- `docs/ORANGE-COUNTY-NARRATIVES-2026-09-30.md` — original narrative drafts
+- `docs/ORANGE-COUNTY-CORRECTIONS-2026-09-30.md` — previous/proposed credential and contact values
+- `docs/REPLIT-ORANGE-COUNTY-REFRESH.md` — prepared implementation handoff; no new Replit research task
+
 - `data/directories/us/ca/beverly-hills/plastic-surgeons.json` — eight existing profiles, narrative research draft
 - `docs/BEVERLY-HILLS-NARRATIVES-2026-09-30.md` — readable narrative review copy
 - `docs/REPLIT-BEVERLY-HILLS-REFRESH.md` — update-existing handoff preserving the Norfolk baseline

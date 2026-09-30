@@ -1,0 +1,1342 @@
+{
+  "schemaVersion": "1.2.0",
+  "directory": {
+    "slug": "plastic-surgeons-orange-county",
+    "existingEntityId": "dfe83ced-1503-425d-80c0-64f17e320f42",
+    "title": "Plastic surgeons in Orange County, California",
+    "description": "Eight existing profiles with Newport Beach and Corona del Mar practice sources, refreshed with original narratives and dated evidence.",
+    "geography": {
+      "city": "Newport Beach",
+      "state": "CA",
+      "country": "US",
+      "postalCodes": [
+        "92660",
+        "92663",
+        "92625"
+      ]
+    },
+    "scopeNote": "Refresh of the existing Orange County roster, centered on Newport Beach and Corona del Mar; not a complete county directory, ranking, or current credential verification.",
+    "reviewStatus": "pending-human-review",
+    "status": "draft",
+    "indexable": false,
+    "claimStatus": "unclaimed",
+    "lastVerified": "2026-09-30",
+    "lastVerifiedMeaning": "Source research date only; no independent current license or board-certification verification.",
+    "nextReviewDue": "2026-10-30",
+    "researchedOn": "2026-09-30"
+  },
+  "selectionMethod": {
+    "includedWhen": [
+      "Already present in the existing Orange County directory; no new clinicians selected."
+    ],
+    "notUsedAsRankingFactors": [
+      "ratings",
+      "followers",
+      "celebrity clients",
+      "outcome promises"
+    ],
+    "licenseMethod": "Current individual licensing and board-certification lookups were not completed. Educational credentials and roles are source-stated; MD and DO routes must remain distinct."
+  },
+  "importContract": {
+    "mode": "update-existing-only",
+    "identityKey": "existingEntityId",
+    "preserveCanonicalPaths": true,
+    "preserveExistingPublicationStates": true,
+    "note": "Update eight existing entities only. Preserve permanent paths and publication states. Replace only scoped source-stated content, retain correction history and newer evidence, and leave other directories unchanged.",
+    "baseline": "docs/reviews/NORFOLK-THERAPISTS-HUMAN-REVIEW-2026-08-20.md",
+    "fieldScope": {
+      "applyAsSourceStated": [
+        "story",
+        "profileSections",
+        "quickSummary",
+        "specialties",
+        "clinicianType",
+        "sources",
+        "reviewNotes",
+        "proposedCorrections"
+      ],
+      "credentialAndContactCorrections": "Proposed dated first-party corrections; retain previous values in correction history and check newer app evidence before adoption. No verified badges.",
+      "media": "Research references only. Rights and privacy-compatible delivery required before public display; Bain portrait explicitly held.",
+      "pending": [
+        "current-license-checks",
+        "issuing-board-certification-checks",
+        "photo-display-rights"
+      ]
+    }
+  },
+  "providers": [
+    {
+      "id": "amy-bandy",
+      "existingEntityId": "7a360982-e8fd-4184-8971-33c4b0069a11",
+      "canonicalPath": "amybandy",
+      "name": {
+        "display": "Amy Bandy, DO"
+      },
+      "credentials": [
+        "DO"
+      ],
+      "clinicianType": "plastic-and-reconstructive-surgeon",
+      "specialties": [
+        "Breast surgery",
+        "Body contouring",
+        "Facial surgery"
+      ],
+      "quickSummary": {
+        "helpsWith": [
+          "Breast surgery",
+          "Body contouring",
+          "Facial surgery"
+        ],
+        "approach": [
+          "Consultation questions and patient education"
+        ],
+        "worksWith": [],
+        "careModes": [
+          "in-person",
+          "virtual"
+        ]
+      },
+      "story": "Amy Bandy describes discovering her interest in surgery during medical-school rotations, after initially considering pediatrics. Her professional biography traces general surgery training at Harbor-UCLA and plastic and reconstructive surgery residency at Wayne State University. In her Newport Beach practice, she encourages patients to arrive with questions and discuss what they hope to change. That emphasis on conversation gives her profile a personal, practical focus.",
+      "profileSections": [
+        {
+          "id": "background",
+          "heading": "Training beyond residency",
+          "text": "Her biography also describes training in facial cosmetic surgery in New York and microsurgery in Louisville.",
+          "sourceIds": [
+            "amy-bandy-official"
+          ]
+        }
+      ],
+      "locationIds": [
+        "amy-bandy-office"
+      ],
+      "profileUrl": "https://www.drbandy.com/about/dr-amy-bandy/",
+      "portrait": {
+        "sourceUrl": "https://www.drbandy.com/wp-content/uploads/sites/276/2024/09/Dr.-Amy-Bandy-08.07.19-0171x-1-2.jpg",
+        "clickThroughUrl": "https://www.drbandy.com/about/dr-amy-bandy/",
+        "alt": "Portrait of Amy Bandy",
+        "usage": "remote-reference-only",
+        "sourceId": "amy-bandy-official"
+      },
+      "mediaGallery": [],
+      "mediaReview": {
+        "status": "source-stated",
+        "checkedOn": "2026-09-30",
+        "sourceIds": [
+          "amy-bandy-official"
+        ],
+        "note": "Portrait asset visually inspected in research. App rendering, delivery privacy, and reuse rights are separate checks.",
+        "displayPermission": "not-established"
+      },
+      "sourceIds": [
+        "amy-bandy-official",
+        "amy-bandy-contact"
+      ],
+      "claimEvidence": [
+        {
+          "claim": "identity-role-narrative-and-summary",
+          "sourceIds": [
+            "amy-bandy-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "location-and-contact",
+          "sourceIds": [
+            "amy-bandy-contact"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "portrait-attribution",
+          "sourceIds": [
+            "amy-bandy-official"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-09-30",
+        "licenseLookupStatus": "pending"
+      },
+      "editorial": {
+        "narrativeVersion": "2026-09-30.1",
+        "refreshedOn": "2026-09-30",
+        "attribution": "Original OpenHealthcare narrative based on linked practice sources; not clinician-authored or endorsed.",
+        "reuse": "Preserve sources, dates and uncertainty. Current licenses, board certifications and availability are not verified."
+      },
+      "reviewNotes": [
+        {
+          "topic": "credentials",
+          "note": "The older app record says MD. The official biography identifies DO; this draft uses DO as source-stated, not as a completed license check.",
+          "sourceIds": [
+            "amy-bandy-official",
+            "amy-bandy-contact"
+          ]
+        }
+      ],
+      "proposedCorrections": [
+        {
+          "field": "phone",
+          "previous": "949-720-1929",
+          "proposed": "+1-949-868-8839",
+          "sourceIds": [
+            "amy-bandy-contact"
+          ]
+        },
+        {
+          "field": "address",
+          "previous": "1401 Avocado Ave, Suite 405, Newport Beach, CA, 92660",
+          "proposed": "320 Superior Ave, Suite 170, Newport Beach, CA, 92663",
+          "sourceIds": [
+            "amy-bandy-contact"
+          ]
+        },
+        {
+          "field": "degree",
+          "previous": "MD",
+          "proposed": "DO",
+          "sourceIds": [
+            "amy-bandy-official"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sanjay-grover",
+      "existingEntityId": "91038e32-1b62-462c-8e6d-6b139363cc94",
+      "canonicalPath": "sanjaygrover",
+      "name": {
+        "display": "Sanjay Grover, MD"
+      },
+      "credentials": [
+        "MD"
+      ],
+      "clinicianType": "plastic-surgeon",
+      "specialties": [
+        "Facial surgery",
+        "Rhinoplasty",
+        "Breast surgery",
+        "Body contouring"
+      ],
+      "quickSummary": {
+        "helpsWith": [
+          "Facial surgery",
+          "Rhinoplasty",
+          "Breast surgery",
+          "Body contouring"
+        ],
+        "approach": [
+          "Individual consultation and patient education"
+        ],
+        "worksWith": [],
+        "careModes": []
+      },
+      "story": "Sanjay Grover’s training took him through three California universities: UCLA for undergraduate study, UC San Diego for medicine, and Stanford for general and plastic surgery residencies. His practice biography describes a further fellowship in aesthetic and oculoplastic surgery in Atlanta. His Newport Beach work spans the face, nose, breast, and body, with an emphasis on time spent understanding each patient’s goals.",
+      "profileSections": [
+        {
+          "id": "background",
+          "heading": "Professional education",
+          "text": "His biography describes past service on an aesthetic-surgery society board and as editor of its newsletter.",
+          "sourceIds": [
+            "sanjay-grover-official"
+          ]
+        }
+      ],
+      "locationIds": [
+        "sanjay-grover-office"
+      ],
+      "profileUrl": "https://www.drgrover.com/our-practice/dr-grover/",
+      "portrait": {
+        "sourceUrl": "https://www.drgrover.com/assets/img/media/home-1.jpg",
+        "clickThroughUrl": "https://www.drgrover.com/",
+        "alt": "Portrait of Sanjay Grover",
+        "usage": "remote-reference-only",
+        "sourceId": "sanjay-grover-portrait-page"
+      },
+      "mediaGallery": [],
+      "mediaReview": {
+        "status": "source-stated",
+        "checkedOn": "2026-09-30",
+        "sourceIds": [
+          "sanjay-grover-portrait-page"
+        ],
+        "note": "Portrait asset visually inspected in research. App rendering, delivery privacy, and reuse rights are separate checks.",
+        "displayPermission": "not-established"
+      },
+      "sourceIds": [
+        "sanjay-grover-official",
+        "sanjay-grover-portrait-page"
+      ],
+      "claimEvidence": [
+        {
+          "claim": "identity-role-narrative-and-summary",
+          "sourceIds": [
+            "sanjay-grover-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "location-and-contact",
+          "sourceIds": [
+            "sanjay-grover-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "portrait-attribution",
+          "sourceIds": [
+            "sanjay-grover-portrait-page"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-09-30",
+        "licenseLookupStatus": "pending"
+      },
+      "editorial": {
+        "narrativeVersion": "2026-09-30.1",
+        "refreshedOn": "2026-09-30",
+        "attribution": "Original OpenHealthcare narrative based on linked practice sources; not clinician-authored or endorsed.",
+        "reuse": "Preserve sources, dates and uncertainty. Current licenses, board certifications and availability are not verified."
+      },
+      "reviewNotes": [
+        {
+          "topic": "credentials",
+          "note": "The biography mixes past-president language with an undated president listing; no current society leadership claim is imported.",
+          "sourceIds": [
+            "sanjay-grover-official",
+            "sanjay-grover-official"
+          ]
+        }
+      ],
+      "proposedCorrections": [
+        {
+          "field": "address",
+          "previous": "20360 SW Birch St, Suite 120, Newport Beach, CA, 92660",
+          "proposed": "20360 SW Birch Street, Suite 120, Newport Beach, CA, 92660",
+          "sourceIds": [
+            "sanjay-grover-official"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kevin-sadati",
+      "existingEntityId": "9cb1abfe-e004-4693-9541-1e01867c2082",
+      "canonicalPath": "kevinsadati",
+      "name": {
+        "display": "Kevin Sadati, DO"
+      },
+      "credentials": [
+        "DO"
+      ],
+      "clinicianType": "facial-plastic-surgeon",
+      "specialties": [
+        "Facial rejuvenation",
+        "Facelift",
+        "Neck lift",
+        "Rhinoplasty"
+      ],
+      "quickSummary": {
+        "helpsWith": [
+          "Facial rejuvenation",
+          "Facelift",
+          "Neck lift",
+          "Rhinoplasty"
+        ],
+        "approach": [
+          "Art-informed facial planning"
+        ],
+        "worksWith": [],
+        "careModes": []
+      },
+      "story": "Kevin Sadati’s professional story connects medicine with painting and sculpture. His biography describes studying science and the humanities at UC Berkeley, followed by osteopathic medicine at Midwestern University. While training in Philadelphia, he also attended evening art classes. Today, his practice describes a focus on facial rejuvenation and teaching surgical techniques, with artistic composition informing how he thinks about facial form.",
+      "profileSections": [
+        {
+          "id": "background",
+          "heading": "Research background",
+          "text": "His published training history includes work in wound-healing research at UC San Francisco.",
+          "sourceIds": [
+            "kevin-sadati-official"
+          ]
+        }
+      ],
+      "locationIds": [
+        "kevin-sadati-office"
+      ],
+      "profileUrl": "https://galleryofcosmeticsurgery.com/teams/dr-kevin-sadati/",
+      "portrait": {
+        "sourceUrl": "https://galleryofcosmeticsurgery.com/wp-content/uploads/2025/07/meet-our-surgeon-1.jpg",
+        "clickThroughUrl": "https://galleryofcosmeticsurgery.com/teams/dr-kevin-sadati/",
+        "alt": "Portrait of Kevin Sadati",
+        "usage": "remote-reference-only",
+        "sourceId": "kevin-sadati-official"
+      },
+      "mediaGallery": [],
+      "mediaReview": {
+        "status": "source-stated",
+        "checkedOn": "2026-09-30",
+        "sourceIds": [
+          "kevin-sadati-official"
+        ],
+        "note": "Portrait asset visually inspected in research. App rendering, delivery privacy, and reuse rights are separate checks.",
+        "displayPermission": "not-established"
+      },
+      "sourceIds": [
+        "kevin-sadati-official",
+        "kevin-sadati-contact"
+      ],
+      "claimEvidence": [
+        {
+          "claim": "identity-role-narrative-and-summary",
+          "sourceIds": [
+            "kevin-sadati-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "location-and-contact",
+          "sourceIds": [
+            "kevin-sadati-contact"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "portrait-attribution",
+          "sourceIds": [
+            "kevin-sadati-official"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-09-30",
+        "licenseLookupStatus": "pending"
+      },
+      "editorial": {
+        "narrativeVersion": "2026-09-30.1",
+        "refreshedOn": "2026-09-30",
+        "attribution": "Original OpenHealthcare narrative based on linked practice sources; not clinician-authored or endorsed.",
+        "reuse": "Preserve sources, dates and uncertainty. Current licenses, board certifications and availability are not verified."
+      },
+      "reviewNotes": [
+        {
+          "topic": "credentials",
+          "note": "The homepage title says MD, but the detailed education section explicitly lists a DO degree. Retain DO and the facial-plastic-surgeon role; do not infer ABPS certification from generic board-certified wording.",
+          "sourceIds": [
+            "kevin-sadati-official",
+            "kevin-sadati-contact"
+          ]
+        }
+      ],
+      "proposedCorrections": [
+        {
+          "field": "phone",
+          "previous": "949-706-7776",
+          "proposed": "+1-949-203-2699",
+          "sourceIds": [
+            "kevin-sadati-contact"
+          ]
+        },
+        {
+          "field": "address",
+          "previous": "359 San Miguel Dr, Suite 200, Newport Beach, CA, 92660",
+          "proposed": "359 San Miguel Drive, Suite 200, Newport Beach, CA, 92660",
+          "sourceIds": [
+            "kevin-sadati-contact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "joseph-cruise",
+      "existingEntityId": "a6632058-5e85-4f6a-9313-f3a3a1c44b75",
+      "canonicalPath": "josephcruise",
+      "name": {
+        "display": "Joseph T. Cruise, MD"
+      },
+      "credentials": [
+        "MD"
+      ],
+      "clinicianType": "plastic-surgeon",
+      "specialties": [
+        "Gynecomastia",
+        "Breast surgery",
+        "Rhinoplasty",
+        "Body contouring"
+      ],
+      "quickSummary": {
+        "helpsWith": [
+          "Gynecomastia",
+          "Breast surgery",
+          "Rhinoplasty",
+          "Body contouring"
+        ],
+        "approach": [
+          "Discussing realistic expectations"
+        ],
+        "worksWith": [],
+        "careModes": []
+      },
+      "story": "Joseph Cruise’s biography begins in Michigan, where he completed undergraduate and medical studies at Wayne State University. Alongside his cosmetic practice, it describes earlier reconstructive work with burn patients. His approach to consultations emphasizes an honest discussion of what surgery can and cannot achieve, sometimes using computer imaging to illustrate possibilities. His Newport Beach practice includes gynecomastia, breast surgery, and facial procedures.",
+      "profileSections": [
+        {
+          "id": "background",
+          "heading": "A reconstructive perspective",
+          "text": "His biography describes work at the Grossman Burn Center at Western Medical Hospital.",
+          "sourceIds": [
+            "joseph-cruise-official"
+          ]
+        }
+      ],
+      "locationIds": [
+        "joseph-cruise-office"
+      ],
+      "profileUrl": "https://orangecountycosmeticsurgery.com/about/about-us/",
+      "portrait": {
+        "sourceUrl": "https://orangecountycosmeticsurgery.com/_static_/feature/about-01.jpg",
+        "clickThroughUrl": "https://orangecountycosmeticsurgery.com/about/about-us/",
+        "alt": "Portrait of Joseph T. Cruise",
+        "usage": "remote-reference-only",
+        "sourceId": "joseph-cruise-official"
+      },
+      "mediaGallery": [],
+      "mediaReview": {
+        "status": "source-stated",
+        "checkedOn": "2026-09-30",
+        "sourceIds": [
+          "joseph-cruise-official"
+        ],
+        "note": "Portrait asset visually inspected in research. App rendering, delivery privacy, and reuse rights are separate checks.",
+        "displayPermission": "not-established"
+      },
+      "sourceIds": [
+        "joseph-cruise-official"
+      ],
+      "claimEvidence": [
+        {
+          "claim": "identity-role-narrative-and-summary",
+          "sourceIds": [
+            "joseph-cruise-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "location-and-contact",
+          "sourceIds": [
+            "joseph-cruise-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "portrait-attribution",
+          "sourceIds": [
+            "joseph-cruise-official"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-09-30",
+        "licenseLookupStatus": "pending"
+      },
+      "editorial": {
+        "narrativeVersion": "2026-09-30.1",
+        "refreshedOn": "2026-09-30",
+        "attribution": "Original OpenHealthcare narrative based on linked practice sources; not clinician-authored or endorsed.",
+        "reuse": "Preserve sources, dates and uncertainty. Current licenses, board certifications and availability are not verified."
+      },
+      "reviewNotes": [],
+      "proposedCorrections": [
+        {
+          "field": "phone",
+          "previous": "949-644-4500",
+          "proposed": "+1-949-644-4808",
+          "sourceIds": [
+            "joseph-cruise-official"
+          ]
+        },
+        {
+          "field": "address",
+          "previous": "1100 Quail St, Suite 101, Newport Beach, CA, 92660",
+          "proposed": "2081 San Joaquin Hills Road, Newport Beach, CA, 92660",
+          "sourceIds": [
+            "joseph-cruise-official"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "juris-bunkis",
+      "existingEntityId": "b77b6cde-e1c4-4ab6-966e-f5090f4ed8f7",
+      "canonicalPath": "jurisbunkis",
+      "name": {
+        "display": "Juris Bunkis, MD"
+      },
+      "credentials": [
+        "MD"
+      ],
+      "clinicianType": "plastic-surgeon",
+      "specialties": [
+        "Facial rejuvenation",
+        "Breast surgery",
+        "Body contouring"
+      ],
+      "quickSummary": {
+        "helpsWith": [
+          "Facial rejuvenation",
+          "Breast surgery",
+          "Body contouring"
+        ],
+        "approach": [
+          "Patient education and discussion"
+        ],
+        "worksWith": [],
+        "careModes": []
+      },
+      "story": "Juris Bunkis is introduced by Orange County Plastic Surgery as its founder and medical director. The practice describes facial rejuvenation as a particular interest, alongside breast surgery and body contouring. His biography also connects his work with teaching and community service. The practice now lists its office in the CosmetiCare building in Corona del Mar, part of the Newport Beach area.",
+      "profileSections": [
+        {
+          "id": "background",
+          "heading": "Practice focus",
+          "text": "The practice describes procedures involving the face, nose, eyelids, and brows.",
+          "sourceIds": [
+            "juris-bunkis-official"
+          ]
+        }
+      ],
+      "locationIds": [
+        "juris-bunkis-office"
+      ],
+      "profileUrl": "https://orangecountyplasticsurgery.com/",
+      "portrait": {
+        "sourceUrl": "https://17184ca6.delivery.rocketcdn.me/wp-content/uploads/2025/12/bunkis-min.jpg",
+        "clickThroughUrl": "https://orangecountyplasticsurgery.com/",
+        "alt": "Portrait of Juris Bunkis",
+        "usage": "remote-reference-only",
+        "sourceId": "juris-bunkis-official"
+      },
+      "mediaGallery": [],
+      "mediaReview": {
+        "status": "source-stated",
+        "checkedOn": "2026-09-30",
+        "sourceIds": [
+          "juris-bunkis-official"
+        ],
+        "note": "Portrait asset visually inspected in research. App rendering, delivery privacy, and reuse rights are separate checks.",
+        "displayPermission": "not-established"
+      },
+      "sourceIds": [
+        "juris-bunkis-official"
+      ],
+      "claimEvidence": [
+        {
+          "claim": "identity-role-narrative-and-summary",
+          "sourceIds": [
+            "juris-bunkis-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "location-and-contact",
+          "sourceIds": [
+            "juris-bunkis-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "portrait-attribution",
+          "sourceIds": [
+            "juris-bunkis-official"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-09-30",
+        "licenseLookupStatus": "pending"
+      },
+      "editorial": {
+        "narrativeVersion": "2026-09-30.1",
+        "refreshedOn": "2026-09-30",
+        "attribution": "Original OpenHealthcare narrative based on linked practice sources; not clinician-authored or endorsed.",
+        "reuse": "Preserve sources, dates and uncertainty. Current licenses, board certifications and availability are not verified."
+      },
+      "reviewNotes": [
+        {
+          "topic": "credentials",
+          "note": "Current practice site lists Corona del Mar; older app lists Huntington Beach and ASPS discovery lists Birch Street. Prefer the dated first-party location in this draft; no move date or confirmation that former offices closed is asserted.",
+          "sourceIds": [
+            "juris-bunkis-official",
+            "juris-bunkis-official"
+          ]
+        }
+      ],
+      "proposedCorrections": [
+        {
+          "field": "address",
+          "previous": "7677 Center Ave, Suite 401, Huntington Beach, CA, 92647",
+          "proposed": "1101 Bayside Drive, Suite 200, Corona del Mar, CA, 92625",
+          "sourceIds": [
+            "juris-bunkis-official"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "michael-bain",
+      "existingEntityId": "d7808e05-d356-4b6e-9adb-774854c56ba2",
+      "canonicalPath": "michaelbain",
+      "name": {
+        "display": "Michael A. Bain, MD"
+      },
+      "credentials": [
+        "MD"
+      ],
+      "clinicianType": "plastic-and-reconstructive-surgeon",
+      "specialties": [
+        "Breast surgery",
+        "Facial surgery",
+        "Body contouring",
+        "Reconstructive surgery"
+      ],
+      "quickSummary": {
+        "helpsWith": [
+          "Breast surgery",
+          "Facial surgery",
+          "Body contouring",
+          "Reconstructive surgery"
+        ],
+        "approach": [
+          "Individual goals and recovery planning"
+        ],
+        "worksWith": [],
+        "careModes": []
+      },
+      "story": "A Newport Beach native, Michael Bain studied at UCLA before earning medical and medical-science degrees at Hahnemann University, according to his biography. His practice combines aesthetic and reconstructive procedures for the face, breast, and body. Its consultation description puts individual goals, available options, and recovery planning at the center of the discussion, giving patients practical questions to explore before choosing a procedure.",
+      "profileSections": [
+        {
+          "id": "background",
+          "heading": "Professional background",
+          "text": "His biography describes speaking and presenting internationally.",
+          "sourceIds": [
+            "michael-bain-official"
+          ]
+        }
+      ],
+      "locationIds": [
+        "michael-bain-office"
+      ],
+      "profileUrl": "https://www.drbain.com/about",
+      "portrait": {
+        "sourceUrl": "https://www.drbain.com/images/bain_2023_full.jpg",
+        "clickThroughUrl": "https://www.drbain.com/about",
+        "alt": "Portrait of Michael A. Bain",
+        "usage": "remote-reference-only",
+        "sourceId": "michael-bain-official"
+      },
+      "mediaGallery": [],
+      "mediaReview": {
+        "status": "source-stated",
+        "checkedOn": "2026-09-30",
+        "sourceIds": [
+          "michael-bain-official"
+        ],
+        "note": "Portrait asset visually inspected in research. App rendering, delivery privacy, and reuse rights are separate checks.",
+        "displayPermission": "pending"
+      },
+      "sourceIds": [
+        "michael-bain-official",
+        "michael-bain-contact"
+      ],
+      "claimEvidence": [
+        {
+          "claim": "identity-role-narrative-and-summary",
+          "sourceIds": [
+            "michael-bain-official",
+            "michael-bain-contact"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "location-and-contact",
+          "sourceIds": [
+            "michael-bain-contact"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "portrait-attribution",
+          "sourceIds": [
+            "michael-bain-official"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-09-30",
+        "licenseLookupStatus": "pending"
+      },
+      "editorial": {
+        "narrativeVersion": "2026-09-30.1",
+        "refreshedOn": "2026-09-30",
+        "attribution": "Original OpenHealthcare narrative based on linked practice sources; not clinician-authored or endorsed.",
+        "reuse": "Preserve sources, dates and uncertainty. Current licenses, board certifications and availability are not verified."
+      },
+      "reviewNotes": [
+        {
+          "topic": "credentials",
+          "note": "Homepage explicitly restricts reuse of photographs without written permission. Portrait is a research reference; display permission remains pending. Do not copy or embed this asset until rights are cleared.",
+          "sourceIds": [
+            "michael-bain-official",
+            "michael-bain-contact"
+          ]
+        }
+      ],
+      "proposedCorrections": [
+        {
+          "field": "phone",
+          "previous": "949-644-2442",
+          "proposed": "+1-949-720-0270",
+          "sourceIds": [
+            "michael-bain-contact"
+          ]
+        },
+        {
+          "field": "address",
+          "previous": "1441 Avocado Ave, Suite 308, Newport Beach, CA, 92660",
+          "proposed": "366 San Miguel, Suite 307, Newport Beach, CA, 92660",
+          "sourceIds": [
+            "michael-bain-contact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ali-sepehr",
+      "existingEntityId": "fae79931-bb0b-4c96-b8cd-77cd19b112d7",
+      "canonicalPath": "alisepehr",
+      "name": {
+        "display": "Ali Sepehr, MD"
+      },
+      "credentials": [
+        "MD"
+      ],
+      "clinicianType": "facial-plastic-surgeon",
+      "specialties": [
+        "Rhinoplasty",
+        "Facelift",
+        "Neck lift",
+        "Eyelid surgery"
+      ],
+      "quickSummary": {
+        "helpsWith": [
+          "Rhinoplasty",
+          "Facelift",
+          "Neck lift",
+          "Eyelid surgery"
+        ],
+        "approach": [
+          "Facial surgery focus",
+          "Consultation education"
+        ],
+        "worksWith": [],
+        "careModes": []
+      },
+      "story": "Ali Sepehr describes a practice devoted to facial plastic surgery. His professional biography follows a California education at UCLA and residency training at UC Irvine with a facial plastic and reconstructive surgery fellowship at the University of Toronto. It also describes teaching and published research. For prospective patients, the practice frames consultation as a chance to discuss goals, understand procedures, and ask about training and recovery.",
+      "profileSections": [
+        {
+          "id": "background",
+          "heading": "Education",
+          "text": "His biography lists both an undergraduate biology degree and a medical degree from UCLA.",
+          "sourceIds": [
+            "ali-sepehr-official"
+          ]
+        }
+      ],
+      "locationIds": [
+        "ali-sepehr-office"
+      ],
+      "profileUrl": "https://www.orangecountyfacialplasticsurgery.com/about/surgeon-ali-sepehr/",
+      "portrait": {
+        "sourceUrl": "https://www.orangecountyfacialplasticsurgery.com/wp-content/uploads/2019/06/Sepehr-Ali-240x300.jpg",
+        "clickThroughUrl": "https://www.orangecountyfacialplasticsurgery.com/about/surgeon-ali-sepehr/",
+        "alt": "Portrait of Ali Sepehr",
+        "usage": "remote-reference-only",
+        "sourceId": "ali-sepehr-official"
+      },
+      "mediaGallery": [],
+      "mediaReview": {
+        "status": "source-stated",
+        "checkedOn": "2026-09-30",
+        "sourceIds": [
+          "ali-sepehr-official"
+        ],
+        "note": "Portrait asset visually inspected in research. App rendering, delivery privacy, and reuse rights are separate checks.",
+        "displayPermission": "not-established"
+      },
+      "sourceIds": [
+        "ali-sepehr-official"
+      ],
+      "claimEvidence": [
+        {
+          "claim": "identity-role-narrative-and-summary",
+          "sourceIds": [
+            "ali-sepehr-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "location-and-contact",
+          "sourceIds": [
+            "ali-sepehr-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "portrait-attribution",
+          "sourceIds": [
+            "ali-sepehr-official"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-09-30",
+        "licenseLookupStatus": "pending"
+      },
+      "editorial": {
+        "narrativeVersion": "2026-09-30.1",
+        "refreshedOn": "2026-09-30",
+        "attribution": "Original OpenHealthcare narrative based on linked practice sources; not clinician-authored or endorsed.",
+        "reuse": "Preserve sources, dates and uncertainty. Current licenses, board certifications and availability are not verified."
+      },
+      "reviewNotes": [
+        {
+          "topic": "credentials",
+          "note": "The practice biography describes teaching at UC Irvine, but a current institutional appointment was not independently checked. Do not import the legacy faculty title as currently verified.",
+          "sourceIds": [
+            "ali-sepehr-official",
+            "ali-sepehr-official"
+          ]
+        }
+      ],
+      "proposedCorrections": [
+        {
+          "field": "phone",
+          "previous": "949-478-1742",
+          "proposed": "+1-949-371-6963",
+          "sourceIds": [
+            "ali-sepehr-official"
+          ]
+        },
+        {
+          "field": "address",
+          "previous": "360 San Miguel Dr, Suite 507, Newport Beach, CA, 92660",
+          "proposed": "360 San Miguel Drive, Suite 409, Newport Beach, CA, 92660",
+          "sourceIds": [
+            "ali-sepehr-official"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ali-sajjadian",
+      "existingEntityId": "fe17b408-ac6c-4a1e-923f-47b92c2eb395",
+      "canonicalPath": "alisajjadian",
+      "name": {
+        "display": "Ali Sajjadian, MD"
+      },
+      "credentials": [
+        "MD"
+      ],
+      "clinicianType": "plastic-surgeon",
+      "specialties": [
+        "Rhinoplasty",
+        "Revision rhinoplasty",
+        "Facelift",
+        "Breast surgery",
+        "Tummy tuck"
+      ],
+      "quickSummary": {
+        "helpsWith": [
+          "Rhinoplasty",
+          "Revision rhinoplasty",
+          "Facelift",
+          "Breast surgery",
+          "Tummy tuck"
+        ],
+        "approach": [
+          "Listening to patient goals"
+        ],
+        "worksWith": [],
+        "careModes": []
+      },
+      "story": "Ali Sajjadian’s biography brings together surgical practice, teaching, and research. It describes medical education in Philadelphia, plastic surgery training at the University of Pittsburgh, and a facial plastic surgery fellowship at Emory. Rhinoplasty and revision rhinoplasty feature prominently in his Newport Beach practice. His stated approach begins with listening to a patient’s goals and developing an individual plan through that conversation.",
+      "profileSections": [
+        {
+          "id": "background",
+          "heading": "Teaching background",
+          "text": "His biography describes previous faculty work and teaching residents and fellows at the University of Pittsburgh.",
+          "sourceIds": [
+            "ali-sajjadian-official"
+          ]
+        }
+      ],
+      "locationIds": [
+        "ali-sajjadian-office"
+      ],
+      "profileUrl": "https://www.drsajjadian.com/about/ali-sajjadian-md/",
+      "portrait": {
+        "sourceUrl": "https://www.drsajjadian.com/wp-content/uploads/2026/06/Sajjadian-Bio-Pic-OC.jpg",
+        "clickThroughUrl": "https://www.drsajjadian.com/about/ali-sajjadian-md/",
+        "alt": "Portrait of Ali Sajjadian",
+        "usage": "remote-reference-only",
+        "sourceId": "ali-sajjadian-official"
+      },
+      "mediaGallery": [],
+      "mediaReview": {
+        "status": "source-stated",
+        "checkedOn": "2026-09-30",
+        "sourceIds": [
+          "ali-sajjadian-official"
+        ],
+        "note": "Portrait asset visually inspected in research. App rendering, delivery privacy, and reuse rights are separate checks.",
+        "displayPermission": "not-established"
+      },
+      "sourceIds": [
+        "ali-sajjadian-official"
+      ],
+      "claimEvidence": [
+        {
+          "claim": "identity-role-narrative-and-summary",
+          "sourceIds": [
+            "ali-sajjadian-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "location-and-contact",
+          "sourceIds": [
+            "ali-sajjadian-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "portrait-attribution",
+          "sourceIds": [
+            "ali-sajjadian-official"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-09-30",
+        "licenseLookupStatus": "pending"
+      },
+      "editorial": {
+        "narrativeVersion": "2026-09-30.1",
+        "refreshedOn": "2026-09-30",
+        "attribution": "Original OpenHealthcare narrative based on linked practice sources; not clinician-authored or endorsed.",
+        "reuse": "Preserve sources, dates and uncertainty. Current licenses, board certifications and availability are not verified."
+      },
+      "reviewNotes": [
+        {
+          "topic": "credentials",
+          "note": "The biography uses triple-board-certified language but its certification list names only two boards and mixes board names with memberships elsewhere. Omit certification-count claims pending direct checks of each issuing board.",
+          "sourceIds": [
+            "ali-sajjadian-official",
+            "ali-sajjadian-official"
+          ]
+        }
+      ],
+      "proposedCorrections": [
+        {
+          "field": "address",
+          "previous": "1200 Quail St, Suite 120, Newport Beach, CA, 92660",
+          "proposed": "496 Old Newport Blvd, Suite 3, Newport Beach, CA, 92663",
+          "sourceIds": [
+            "ali-sajjadian-official"
+          ]
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "amy-bandy-office",
+      "name": "Amy Bandy practice",
+      "address": {
+        "line1": "320 Superior Ave",
+        "city": "Newport Beach",
+        "state": "CA",
+        "postalCode": "92663",
+        "country": "US",
+        "line2": "Suite 170"
+      },
+      "phone": "+1-949-868-8839",
+      "website": "https://www.drbandy.com/contact/",
+      "sourceIds": [
+        "amy-bandy-contact"
+      ]
+    },
+    {
+      "id": "sanjay-grover-office",
+      "name": "Grover Aesthetics",
+      "address": {
+        "line1": "20360 SW Birch Street",
+        "city": "Newport Beach",
+        "state": "CA",
+        "postalCode": "92660",
+        "country": "US",
+        "line2": "Suite 120"
+      },
+      "phone": "+1-949-759-9551",
+      "website": "https://www.drgrover.com/our-practice/dr-grover/",
+      "sourceIds": [
+        "sanjay-grover-official"
+      ]
+    },
+    {
+      "id": "kevin-sadati-office",
+      "name": "Gallery of Cosmetic Surgery",
+      "address": {
+        "line1": "359 San Miguel Drive",
+        "city": "Newport Beach",
+        "state": "CA",
+        "postalCode": "92660",
+        "country": "US",
+        "line2": "Suite 200"
+      },
+      "phone": "+1-949-203-2699",
+      "website": "https://galleryofcosmeticsurgery.com/contact-us/",
+      "sourceIds": [
+        "kevin-sadati-contact"
+      ]
+    },
+    {
+      "id": "joseph-cruise-office",
+      "name": "Cruise Plastic Surgery",
+      "address": {
+        "line1": "2081 San Joaquin Hills Road",
+        "city": "Newport Beach",
+        "state": "CA",
+        "postalCode": "92660",
+        "country": "US"
+      },
+      "phone": "+1-949-644-4808",
+      "website": "https://orangecountycosmeticsurgery.com/about/about-us/",
+      "sourceIds": [
+        "joseph-cruise-official"
+      ]
+    },
+    {
+      "id": "juris-bunkis-office",
+      "name": "Orange County Plastic Surgery",
+      "address": {
+        "line1": "1101 Bayside Drive",
+        "city": "Corona del Mar",
+        "state": "CA",
+        "postalCode": "92625",
+        "country": "US",
+        "line2": "Suite 200"
+      },
+      "phone": "+1-949-888-9700",
+      "website": "https://orangecountyplasticsurgery.com/",
+      "sourceIds": [
+        "juris-bunkis-official"
+      ]
+    },
+    {
+      "id": "michael-bain-office",
+      "name": "Michael A. Bain practice",
+      "address": {
+        "line1": "366 San Miguel",
+        "city": "Newport Beach",
+        "state": "CA",
+        "postalCode": "92660",
+        "country": "US",
+        "line2": "Suite 307"
+      },
+      "phone": "+1-949-720-0270",
+      "website": "https://www.drbain.com/",
+      "sourceIds": [
+        "michael-bain-contact"
+      ]
+    },
+    {
+      "id": "ali-sepehr-office",
+      "name": "Orange County Facial Plastic Surgery",
+      "address": {
+        "line1": "360 San Miguel Drive",
+        "city": "Newport Beach",
+        "state": "CA",
+        "postalCode": "92660",
+        "country": "US",
+        "line2": "Suite 409"
+      },
+      "phone": "+1-949-371-6963",
+      "website": "https://www.orangecountyfacialplasticsurgery.com/about/surgeon-ali-sepehr/",
+      "sourceIds": [
+        "ali-sepehr-official"
+      ]
+    },
+    {
+      "id": "ali-sajjadian-office",
+      "name": "Ali Sajjadian practice",
+      "address": {
+        "line1": "496 Old Newport Blvd",
+        "city": "Newport Beach",
+        "state": "CA",
+        "postalCode": "92663",
+        "country": "US",
+        "line2": "Suite 3"
+      },
+      "phone": "+1-949-515-0550",
+      "website": "https://www.drsajjadian.com/about/ali-sajjadian-md/",
+      "sourceIds": [
+        "ali-sajjadian-official"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "amy-bandy-official",
+      "type": "official-provider-profile",
+      "publisher": "Amy Bandy practice",
+      "title": "Official biography and practice information",
+      "url": "https://www.drbandy.com/about/dr-amy-bandy/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "amy-bandy-contact",
+      "type": "official-practice-location",
+      "publisher": "Amy Bandy practice",
+      "title": "Official contact information",
+      "url": "https://www.drbandy.com/contact/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "sanjay-grover-official",
+      "type": "official-provider-profile",
+      "publisher": "Grover Aesthetics",
+      "title": "Official biography and practice information",
+      "url": "https://www.drgrover.com/our-practice/dr-grover/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "sanjay-grover-portrait-page",
+      "type": "official-provider-profile",
+      "publisher": "Grover Aesthetics",
+      "title": "Official biography and practice information",
+      "url": "https://www.drgrover.com/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "kevin-sadati-official",
+      "type": "official-provider-profile",
+      "publisher": "Gallery of Cosmetic Surgery",
+      "title": "Official biography and practice information",
+      "url": "https://galleryofcosmeticsurgery.com/teams/dr-kevin-sadati/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "kevin-sadati-contact",
+      "type": "official-practice-location",
+      "publisher": "Gallery of Cosmetic Surgery",
+      "title": "Official contact information",
+      "url": "https://galleryofcosmeticsurgery.com/contact-us/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "joseph-cruise-official",
+      "type": "official-provider-profile",
+      "publisher": "Cruise Plastic Surgery",
+      "title": "Official biography and practice information",
+      "url": "https://orangecountycosmeticsurgery.com/about/about-us/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "juris-bunkis-official",
+      "type": "official-provider-profile",
+      "publisher": "Orange County Plastic Surgery",
+      "title": "Official biography and practice information",
+      "url": "https://orangecountyplasticsurgery.com/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "michael-bain-official",
+      "type": "official-provider-profile",
+      "publisher": "Michael A. Bain practice",
+      "title": "Official biography and practice information",
+      "url": "https://www.drbain.com/about",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "michael-bain-contact",
+      "type": "official-practice-location",
+      "publisher": "Michael A. Bain practice",
+      "title": "Official contact information",
+      "url": "https://www.drbain.com/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "ali-sepehr-official",
+      "type": "official-provider-profile",
+      "publisher": "Orange County Facial Plastic Surgery",
+      "title": "Official biography and practice information",
+      "url": "https://www.orangecountyfacialplasticsurgery.com/about/surgeon-ali-sepehr/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "ali-sajjadian-official",
+      "type": "official-provider-profile",
+      "publisher": "Ali Sajjadian practice",
+      "title": "Official biography and practice information",
+      "url": "https://www.drsajjadian.com/about/ali-sajjadian-md/",
+      "retrievedOn": "2026-09-30",
+      "retrievalMethod": "web-retrieval",
+      "verificationStatus": "source-stated"
+    }
+  ]
+}
