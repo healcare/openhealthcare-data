@@ -1,0 +1,391 @@
+{
+  "researchDate": "2026-10-01",
+  "scope": "Remaining six existing Beverly Hills cosmetic dentists: bounded source-stated factual refresh and portrait candidate review.",
+  "applicationBaseline": "44c109aec4ca1b3f4795cb74dafb5afd3597923a factual checkpoint; fetched current six provider blobs individually before preparing this delta.",
+  "implementationStatus": "Research saved; not yet applied or deployed.",
+  "instructions": [
+    "Preserve permanent IDs, canonical paths, aliases, directory membership, claim/review/publication/indexing states, existing stronger evidence and dataVerifiedAt.",
+    "Use proposed narrative sentences with explicit practice attribution and sentence-level sources. A citation does not release unrelated legacy fields.",
+    "Replace unsupported current presentation with the bounded supported claims; preserve legacy values in dated, labelled history without actionable old contacts.",
+    "Keep all current license and board statuses unchecked; do not simulate human review. Credentials/titles from biographies are source-stated only.",
+    "Use plain notice: Biography and practice contact details are linked to practice pages. Current dental-license status has not been independently checked. Add specific phone or training conflict where applicable.",
+    "Portraits remain remote previews under current policy. Test the three suitable candidates in app before mapping; retain fallback on privacy or delivery failure. Do not proxy/rehost/bypass restrictions or invent thumbnail URLs.",
+    "Names and portraits link internally; source attribution links separately. Preserve on-page research notes and correction history.",
+    "Do not change OC factual pause or any held plastic-surgeon record. Preview and GitHub only; no deployment."
+  ],
+  "providers": [
+    {
+      "id": "116186fd-1a14-4e32-9e12-8d8e7497ec4e",
+      "bio": "https://www.smilesbydrp.com/our-doctors/chirag-patel.html",
+      "sentences": [
+        "Chirag Patel practices at Smiles by Dr. P in Beverly Hills, with a focus on porcelain veneers and smile design.",
+        "His official biography describes dental training at Nova Southeastern University and an undergraduate degree in molecular biology and biochemistry at UC Davis.",
+        "He describes an interest in facial aesthetics and tailoring treatment to the individual."
+      ],
+      "phone": null,
+      "address": "435 N Roxbury Dr, Suite 410, Beverly Hills, CA 90210",
+      "notes": [
+        "The biography uses board-certified without naming a certifying board; omit this claim pending exact board evidence.",
+        "Legacy phone 323-577-3110 differs from 323-909-9300 published on the opened official veneers page. Preserve the discrepancy; neither number was called. Do not choose an actionable current number.",
+        "Languages in the legacy record were not corroborated; omit."
+      ],
+      "name": "Chirag Patel",
+      "canonicalPath": "chiragpatel",
+      "directorySlug": "beverly-hills-cosmetic-dentists",
+      "baselineBlobSha": "4c34168265c4da67dc4e9e377a42a447402588b6",
+      "baselineDataVerifiedAt": "2026-02-21T00:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.smilesbydrp.com/our-doctors/chirag-patel.html",
+          "publisher": "Official practice",
+          "retrievedDate": "2026-10-01",
+          "verificationStatus": "source-stated",
+          "claims": "All proposed narrative sentences; published contact values unless an additional source is specified."
+        },
+        {
+          "url": "https://www.smilesbydrp.com/porcelain-veneers.html",
+          "claims": "Published consultation phone 323-909-9300; no operational verification.",
+          "publisher": "Official practice",
+          "retrievedDate": "2026-10-01",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "narrativeSentenceSources": [
+        {
+          "sentence": 1,
+          "url": "https://www.smilesbydrp.com/our-doctors/chirag-patel.html"
+        },
+        {
+          "sentence": 2,
+          "url": "https://www.smilesbydrp.com/our-doctors/chirag-patel.html"
+        },
+        {
+          "sentence": 3,
+          "url": "https://www.smilesbydrp.com/our-doctors/chirag-patel.html"
+        }
+      ],
+      "contactEvidence": "Published on practice pages; no phone call, email test, availability or insurance confirmation.",
+      "portrait": {
+        "status": "blocked-unresolved",
+        "candidate": "https://static.royacdn.com/Site-f52920ff-3a34-4017-a4d8-99b17817c227/InnerteamPage/img_2.png",
+        "observations": "Source-exposed biography image. Top-level browser navigation returned ERR_BLOCKED_BY_CLIENT. Visual identity not confirmed; do not map.",
+        "next": "Obtain another clearly identified official portrait; do not bypass the block.",
+        "sourcePage": "https://www.smilesbydrp.com/our-doctors/chirag-patel.html",
+        "checkedDate": "2026-10-01",
+        "appEmbedTest": "not performed",
+        "cookieTrackingTest": "not performed",
+        "useBasis": "Owner-directed small attributed source-linked editorial preview; not rights-holder permission or legal clearance."
+      }
+    },
+    {
+      "id": "d770d623-3204-4cf7-b529-f16b2bcdc501",
+      "bio": "https://www.bhdentists.com/daniel-naysan-dds/",
+      "sentences": [
+        "Daniel Naysan is identified by Bedford Dental Group as its founder and a dentist focused on cosmetic and restorative care in Beverly Hills.",
+        "His practice biography lists a dental degree from USC and services including veneers, implants, and full-mouth reconstruction.",
+        "The practice describes his involvement in designing individual smile-makeover plans."
+      ],
+      "phone": "310-278-2424",
+      "address": "436 N Bedford Dr, Suite 300, Beverly Hills, CA 90210",
+      "notes": [
+        "Omit celebrity, comparative-quality, longevity/outcome and unspecified advanced-certification claims.",
+        "Legacy Invisalign Premier designation was not corroborated.",
+        "Email on the team page is masked; do not infer or reactivate the legacy email."
+      ],
+      "name": "Daniel Naysan",
+      "canonicalPath": "danielnaysan",
+      "directorySlug": "beverly-hills-cosmetic-dentists",
+      "baselineBlobSha": "5ec09aa701edd29e6ad65f1677c843f466192b0e",
+      "baselineDataVerifiedAt": "2026-02-21T00:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.bhdentists.com/daniel-naysan-dds/",
+          "publisher": "Official practice",
+          "retrievedDate": "2026-10-01",
+          "verificationStatus": "source-stated",
+          "claims": "All proposed narrative sentences; published contact values unless an additional source is specified."
+        },
+        {
+          "url": "https://www.bhdentists.com/meet-our-doctors/",
+          "claims": "Named Daniel Naysan entry and practice address.",
+          "publisher": "Official practice",
+          "retrievedDate": "2026-10-01",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "url": "https://www.bhdentists.com/contact/",
+          "claims": "Practice-published phone.",
+          "publisher": "Official practice",
+          "retrievedDate": "2026-10-01",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "narrativeSentenceSources": [
+        {
+          "sentence": 1,
+          "url": "https://www.bhdentists.com/daniel-naysan-dds/"
+        },
+        {
+          "sentence": 2,
+          "url": "https://www.bhdentists.com/daniel-naysan-dds/"
+        },
+        {
+          "sentence": 3,
+          "url": "https://www.bhdentists.com/daniel-naysan-dds/"
+        }
+      ],
+      "contactEvidence": "Published on practice pages; no phone call, email test, availability or insurance confirmation.",
+      "portrait": {
+        "status": "unresolved",
+        "observations": "Known biography hero is a mouth collage, previously rejected. Team page names Daniel separately from Mehdi Nayssan; browser DOM extraction returned empty despite a populated accessibility tree. No individual portrait URL verified.",
+        "next": "Inspect the named Daniel team card visually and its rendered image reference; do not use Mehdi's portrait.",
+        "sourcePage": "https://www.bhdentists.com/daniel-naysan-dds/",
+        "checkedDate": "2026-10-01",
+        "appEmbedTest": "not performed",
+        "cookieTrackingTest": "not performed",
+        "useBasis": "Owner-directed small attributed source-linked editorial preview; not rights-holder permission or legal clearance."
+      }
+    },
+    {
+      "id": "5a9cddfd-9de3-45b1-904d-83c8c07034e5",
+      "bio": "https://topbeverlyhillsdentist.com/joseph-goodman-dds-dmd/",
+      "sentences": [
+        "Joseph Goodman’s Beverly Hills practice describes a focus on cosmetic and restorative dentistry, including porcelain veneers.",
+        "His biography describes dental training in Germany and the United States.",
+        "The practice presents his interest in evaluating veneer design and coordinating the appearance of teeth with facial features."
+      ],
+      "phone": "310-860-9311",
+      "address": "241 1/2 S Beverly Dr, Suite 201, Beverly Hills, CA 90212",
+      "notes": [
+        "The same opened biography describes prosthodontics coursework at Aachen in prose, but USC postgraduate participation in its credential list. Exact program and degree details remain unresolved; do not merge them.",
+        "License 47521 and NPI 1366427247 are practice-stated leads only; government records were not checked.",
+        "Omit legacy warranty, direct-cell, Invisalign tier, court-expert, award and superiority claims."
+      ],
+      "name": "Joseph Goodman",
+      "canonicalPath": "josephgoodman",
+      "directorySlug": "beverly-hills-cosmetic-dentists",
+      "baselineBlobSha": "6393edb3335cb48b321532a9a7739fa3688eb384",
+      "baselineDataVerifiedAt": "2026-02-21T00:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://topbeverlyhillsdentist.com/joseph-goodman-dds-dmd/",
+          "publisher": "Official practice",
+          "retrievedDate": "2026-10-01",
+          "verificationStatus": "source-stated",
+          "claims": "All proposed narrative sentences; published contact values unless an additional source is specified."
+        }
+      ],
+      "narrativeSentenceSources": [
+        {
+          "sentence": 1,
+          "url": "https://topbeverlyhillsdentist.com/joseph-goodman-dds-dmd/"
+        },
+        {
+          "sentence": 2,
+          "url": "https://topbeverlyhillsdentist.com/joseph-goodman-dds-dmd/"
+        },
+        {
+          "sentence": 3,
+          "url": "https://topbeverlyhillsdentist.com/joseph-goodman-dds-dmd/"
+        }
+      ],
+      "contactEvidence": "Published on practice pages; no phone call, email test, availability or insurance confirmation.",
+      "portrait": {
+        "status": "rejected-unresolved",
+        "candidate": "https://topbeverlyhillsdentist.com/wp-content/uploads/2026/07/The-Doctors-TV-Show-Dr-Goodman-in-Studio.webp",
+        "observations": "Visually inspected: television set with four people and audience. Not an individual clinician portrait; do not map or crop an assumed person.",
+        "next": "Find an explicitly identified individual portrait, not the TV group image.",
+        "sourcePage": "https://topbeverlyhillsdentist.com/joseph-goodman-dds-dmd/",
+        "checkedDate": "2026-10-01",
+        "appEmbedTest": "not performed",
+        "cookieTrackingTest": "not performed",
+        "useBasis": "Owner-directed small attributed source-linked editorial preview; not rights-holder permission or legal clearance."
+      }
+    },
+    {
+      "id": "4a98055c-0b28-482a-b904-7b46c3875d8b",
+      "bio": "https://mybeverlyhillsdentist.com/about-us/meet-dr-hanam-jahr/",
+      "sentences": [
+        "Jamielynn Hanam-Jahr’s route to dentistry began in nursing, according to her practice biography.",
+        "It describes a nursing degree from Duquesne University, work in surgical and trauma intensive care, and a dental degree from Louisiana State University in 1995.",
+        "She later established her Beverly Hills practice.",
+        "The biography also describes Give Back A Smile volunteer work and interests in cooking, music, and photography."
+      ],
+      "phone": "310-276-2088",
+      "address": "435 N Bedford Dr, Suite 414, Beverly Hills, CA 90210",
+      "notes": [
+        "Biography displays last reviewed 2025-09-30; retrieval on 2026-10-01 does not refresh the source's own date.",
+        "Practice-stated license 46068 is a lookup lead, not an independently checked license.",
+        "Omit legacy Best Dentist 2024/2025 and unsupported comparative, broad certification or outcome claims."
+      ],
+      "name": "Jamielynn Hanam-Jahr",
+      "canonicalPath": "jamielynnhanamjahr",
+      "directorySlug": "beverly-hills-cosmetic-dentists",
+      "baselineBlobSha": "0f57ecd6acbba9341efba942a871de9b5bdfabcd",
+      "baselineDataVerifiedAt": "2026-02-21T00:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://mybeverlyhillsdentist.com/about-us/meet-dr-hanam-jahr/",
+          "publisher": "Official practice",
+          "retrievedDate": "2026-10-01",
+          "verificationStatus": "source-stated",
+          "claims": "All proposed narrative sentences; published contact values unless an additional source is specified."
+        }
+      ],
+      "narrativeSentenceSources": [
+        {
+          "sentence": 1,
+          "url": "https://mybeverlyhillsdentist.com/about-us/meet-dr-hanam-jahr/"
+        },
+        {
+          "sentence": 2,
+          "url": "https://mybeverlyhillsdentist.com/about-us/meet-dr-hanam-jahr/"
+        },
+        {
+          "sentence": 3,
+          "url": "https://mybeverlyhillsdentist.com/about-us/meet-dr-hanam-jahr/"
+        },
+        {
+          "sentence": 4,
+          "url": "https://mybeverlyhillsdentist.com/about-us/meet-dr-hanam-jahr/"
+        }
+      ],
+      "contactEvidence": "Published on practice pages; no phone call, email test, availability or insurance confirmation.",
+      "portrait": {
+        "status": "visually-suitable-app-test-pending",
+        "candidate": "https://mybeverlyhillsdentist.com/wp-content/uploads/2024/09/20240715_095438-scaled-1.webp",
+        "observations": "Biography exposes this CSS background separately from the stock-family hero. Browser image loaded at 1871x2560. One clinician facing the camera, white coat bearing Hanam-Jahr DDS, practice signage behind her; full face visible.",
+        "next": "Test direct small preview in app for loading, privacy and face framing. No source-offered reduced derivative recorded.",
+        "sourcePage": "https://mybeverlyhillsdentist.com/about-us/meet-dr-hanam-jahr/",
+        "checkedDate": "2026-10-01",
+        "appEmbedTest": "not performed",
+        "cookieTrackingTest": "not performed",
+        "useBasis": "Owner-directed small attributed source-linked editorial preview; not rights-holder permission or legal clearance."
+      }
+    },
+    {
+      "id": "c80972df-6008-4246-8665-e5c46f90dfbd",
+      "bio": "https://www.beverlyhillscosmeticdentist.com/cosmetic-dentist-beverly-hills-los-angeles/",
+      "sentences": [
+        "Kevin Sands’ practice describes cosmetic and restorative dentistry in Beverly Hills, including porcelain veneers, smile makeovers, and implant procedures.",
+        "His official biography lists aesthetic-dentistry training at USC and the Las Vegas Institute for Advanced Dental Studies.",
+        "It describes collaboration with a dental restoration artist to tailor restorations to each patient."
+      ],
+      "phone": "310-273-0111",
+      "address": "414 N Camden Dr, Suite 940, Beverly Hills, CA 90210",
+      "notes": [
+        "Do not convert a training statement into independent degree verification.",
+        "Omit celebrity-client lists, rankings, guaranteed outcomes and unsupported experience totals.",
+        "Legacy email justin@drsands.com was not corroborated; withhold current action."
+      ],
+      "name": "Kevin Sands",
+      "canonicalPath": "kevinsands",
+      "directorySlug": "beverly-hills-cosmetic-dentists",
+      "baselineBlobSha": "9d79e0c5b396e7e33a2056cc97c91761084b9e2b",
+      "baselineDataVerifiedAt": "2026-02-21T00:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.beverlyhillscosmeticdentist.com/cosmetic-dentist-beverly-hills-los-angeles/",
+          "publisher": "Official practice",
+          "retrievedDate": "2026-10-01",
+          "verificationStatus": "source-stated",
+          "claims": "All proposed narrative sentences; published contact values unless an additional source is specified."
+        },
+        {
+          "url": "https://www.porcelainveneersinbeverlyhills.com/",
+          "claims": "Official biography explicitly links this sister site; source of individual portrait.",
+          "publisher": "Official practice",
+          "retrievedDate": "2026-10-01",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "narrativeSentenceSources": [
+        {
+          "sentence": 1,
+          "url": "https://www.beverlyhillscosmeticdentist.com/cosmetic-dentist-beverly-hills-los-angeles/"
+        },
+        {
+          "sentence": 2,
+          "url": "https://www.beverlyhillscosmeticdentist.com/cosmetic-dentist-beverly-hills-los-angeles/"
+        },
+        {
+          "sentence": 3,
+          "url": "https://www.beverlyhillscosmeticdentist.com/cosmetic-dentist-beverly-hills-los-angeles/"
+        }
+      ],
+      "contactEvidence": "Published on practice pages; no phone call, email test, availability or insurance confirmation.",
+      "portrait": {
+        "status": "visually-suitable-app-test-pending",
+        "sourcePage": "https://www.porcelainveneersinbeverlyhills.com/",
+        "candidate": "https://www.porcelainveneersinbeverlyhills.com/wp-content/uploads/2024/03/Dr.Sands_veneers-site-homepage-1.jpg",
+        "observations": "Source-exposed image next to Sands biography section; linked official sister site. Browser loaded 1427x1600 individual seated portrait with clear face and coat bearing Dr. Kevin Sands. Not a celebrity-gallery image.",
+        "next": "Test small remote preview, cookie/tracking behavior and face framing. No reduced source derivative recorded.",
+        "checkedDate": "2026-10-01",
+        "appEmbedTest": "not performed",
+        "cookieTrackingTest": "not performed",
+        "useBasis": "Owner-directed small attributed source-linked editorial preview; not rights-holder permission or legal clearance."
+      }
+    },
+    {
+      "id": "d31293c1-2607-4b4f-b5e8-9f805e6b3176",
+      "bio": "https://rifkinraanan.com/the-doctors/dr-rodney-raanan/",
+      "sentences": [
+        "Rodney Raanan practices with Rifkin Raanan in Beverly Hills.",
+        "His official biography describes undergraduate study at UCLA, dental school at USC, and subsequent prosthodontics and oral-biology study at Harvard.",
+        "It connects his work with digital dental design and computer-aided manufacturing, alongside mentoring by Robert Rifkin.",
+        "The practice also describes volunteer dental work with the Union Rescue Mission and overseas service trips."
+      ],
+      "phone": "310-205-5300",
+      "address": "414 N Camden Dr, Suite 1280, Beverly Hills, CA 90210",
+      "notes": [
+        "Training and service history remain practice-stated, not independently credential checked.",
+        "Omit celebrity-client lists, practice superlatives and penthouse/laboratory features presented as credentials.",
+        "Current UCLA faculty appointment and professional memberships were not independently checked; omit from current credentials."
+      ],
+      "name": "Rodney Raanan",
+      "canonicalPath": "rodneyraanan",
+      "directorySlug": "beverly-hills-cosmetic-dentists",
+      "baselineBlobSha": "f3f38f1ce323389d5b1b2a6a49ac61611b82f316",
+      "baselineDataVerifiedAt": "2026-02-21T00:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://rifkinraanan.com/the-doctors/dr-rodney-raanan/",
+          "publisher": "Official practice",
+          "retrievedDate": "2026-10-01",
+          "verificationStatus": "source-stated",
+          "claims": "All proposed narrative sentences; published contact values unless an additional source is specified."
+        }
+      ],
+      "narrativeSentenceSources": [
+        {
+          "sentence": 1,
+          "url": "https://rifkinraanan.com/the-doctors/dr-rodney-raanan/"
+        },
+        {
+          "sentence": 2,
+          "url": "https://rifkinraanan.com/the-doctors/dr-rodney-raanan/"
+        },
+        {
+          "sentence": 3,
+          "url": "https://rifkinraanan.com/the-doctors/dr-rodney-raanan/"
+        },
+        {
+          "sentence": 4,
+          "url": "https://rifkinraanan.com/the-doctors/dr-rodney-raanan/"
+        }
+      ],
+      "contactEvidence": "Published on practice pages; no phone call, email test, availability or insurance confirmation.",
+      "portrait": {
+        "status": "visually-suitable-app-test-pending",
+        "candidate": "https://rifkinraanan.com/wp-content/uploads/2026/07/rodney-raanan-847x1024.jpg",
+        "observations": "Source-exposed individual image from named biography. Browser loaded 847x1024 portrait of one clinician in a white coat with clear face against a light background.",
+        "next": "Test small direct preview, privacy and mobile face framing.",
+        "sourcePage": "https://rifkinraanan.com/the-doctors/dr-rodney-raanan/",
+        "checkedDate": "2026-10-01",
+        "appEmbedTest": "not performed",
+        "cookieTrackingTest": "not performed",
+        "useBasis": "Owner-directed small attributed source-linked editorial preview; not rights-holder permission or legal clearance."
+      }
+    }
+  ]
+}
