@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-01",
+  "scope": "Research-only parallel preparation while Replit works on the dentist batch. No app changes or new Replit task started.",
+  "baseline": "Do not increment displayed-photo counts from research candidates.",
+  "rules": [
+    "Keep permanent IDs/routes and factual/review/publication/indexing states unchanged.",
+    "Photo citations must not release unsupported clinical claims.",
+    "Use owner-directed editorial preview policy, not a permission claim. Explicit restrictions remain exceptions.",
+    "Before display, test actual embedded image delivery, no cookies/tracking, accessible full-face framing and attribution.",
+    "No copying/rehosting/proxying or deployment authorized."
+  ],
+  "records": [
+    {
+      "providerId": "394cd85f-dc8f-47dd-a597-f4c014b80bfc",
+      "name": "Anna Guanche",
+      "canonicalPath": "annaguanche",
+      "sourcePage": "https://www.bellaskininstitute.com/pages/dr-anna-guanche",
+      "candidateUrl": "https://www.bellaskininstitute.com/cdn/shop/files/2H0A7297-retouched_1_400x.jpg?v=1700311495",
+      "portraitStatus": "visually-checked-candidate",
+      "observations": "Official named biography and 400-pixel image visually inspected. Individual posed portrait with unobstructed face; no patient imagery.",
+      "researchFlag": "Biography places practice in Calabasas. Beverly Hills directory relevance needs separate evidence review. Do not move/delete profile or infer closure.",
+      "rejected": "The first web image link retained a literal {width} placeholder and returned 404. The second source-exposed 400x link works; not a guessed URL.",
+      "appEmbedTest": "not-performed",
+      "cookieTest": "not-performed",
+      "rightsHolderPermission": "not-established"
+    },
+    {
+      "providerId": "e955df8b-cd33-413e-aca9-63c8d7285158",
+      "name": "David Kim",
+      "canonicalPath": "davidkim",
+      "sourcePage": "https://drdavidkimmd.com/",
+      "candidateUrl": null,
+      "portraitStatus": "identity-conflict-do-not-import",
+      "observations": "App record e955df8b-cd33-413e-aca9-63c8d7285158 was freshly read: dermatology, Beverly Hills, 9400 Brighton Way Suite 210, website www.drdavidkimmd.com. The corresponding domain's official homepage/about/contact pages identify interventional pain medicine in Fairfax, Virginia, 10721 Main St #304. These do not establish the intended Beverly Hills dermatologist's identity.",
+      "researchFlag": "High-priority source/identity mismatch. Do not import this site's portrait, credentials or phone into the Beverly Hills record. Do not substitute another David Kim by name alone. Correct identity remains unresolved; no conclusion that intended clinician is nonexistent, closed, or unlicensed.",
+      "additionalSources": [
+        "https://drdavidkimmd.com/about/",
+        "https://drdavidkimmd.com/contact/"
+      ],
+      "appEmbedTest": "not-performed",
+      "cookieTest": "not-performed",
+      "rightsHolderPermission": "not-established"
+    },
+    {
+      "providerId": "4d23e61c-0cac-4d95-bcee-5622ecc71bf2",
+      "name": "Harold Lancer",
+      "canonicalPath": "haroldlancer",
+      "sourcePage": "https://lancerderm.com/dr-lancer/",
+      "candidateUrl": "https://lancerderm.com/wp-content/uploads/2025/09/Lancer-Skin-Care-2-683x1024.jpg",
+      "portraitStatus": "visually-checked-candidate",
+      "observations": "Official biography labels image Dr.Harold Lancer; opened and visually inspected. Individual facing camera in named white coat, no patient. A source-provided smaller derivative would be preferable if available.",
+      "rejected": "https://lancerderm.com/wp-content/uploads/2025/09/DSC00744-683x1024.jpg shows patient treatment and is not selected.",
+      "additionalSource": "https://forefrontdermatology.com/provider/harold-lancer-md-faad/",
+      "appEmbedTest": "not-performed",
+      "cookieTest": "not-performed",
+      "rightsHolderPermission": "not-established"
+    },
+    {
+      "providerId": "6ff9b213-3354-4798-bf10-22f3ef988c11",
+      "name": "Jason Emer",
+      "canonicalPath": "jasonemer",
+      "sourcePage": "https://www.jasonemermd.com/",
+      "candidateUrl": null,
+      "portraitStatus": "unresolved",
+      "observations": "Official homepage retrieved; contains extensive treatment/model imagery. Biography link retrieval did not resolve. No individual portrait sufficiently verified in this pass.",
+      "appEmbedTest": "not-performed",
+      "cookieTest": "not-performed",
+      "rightsHolderPermission": "not-established"
+    },
+    {
+      "providerId": "f361d60c-0b72-4b4a-80ea-2c281bcda294",
+      "name": "Jessica Wu",
+      "canonicalPath": "jessicawu",
+      "sourcePage": "https://www.drjessicawu.com/dr-jessica-wu/",
+      "candidateUrl": "https://images.squarespace-cdn.com/content/v1/5a64d4db914e6b3776cf97e6/1522174676252-9BFDYFES7FARRHFTEVXC/139__E9A2622_Overlay.jpg",
+      "portraitStatus": "visually-checked-secondary-candidate",
+      "observations": "Official individual page links image. Inspected image is an individual in blue dress, side-facing with baked-in dark overlay. Prefer a brighter/front-facing portrait if source offers one; not preferred headshot.",
+      "rejected": "DrJessicaWu.png is a text logo; GrayBackground.jpg is a plain background. Neither is a portrait.",
+      "additionalSource": "https://www.drjessicawu.com/bio",
+      "uninspectedAsset": "https://images.squarespace-cdn.com/content/v1/5a64d4db914e6b3776cf97e6/1521068790387-N3PNSLJL4XR01GZWR4Z1/55__Bio_Overlay.jpg",
+      "appEmbedTest": "not-performed",
+      "cookieTest": "not-performed",
+      "rightsHolderPermission": "not-established"
+    },
+    {
+      "providerId": "fbb6c96c-3ab2-4859-a5af-0c3818299771",
+      "name": "Simon Ourian",
+      "canonicalPath": "simonourian",
+      "sourcePage": "https://www.epionebh.com/simon-ourian",
+      "candidateUrl": null,
+      "portraitStatus": "unresolved",
+      "observations": "Official biography retrieved. Images include celebrity pairs, collages, sculpture and patient treatment. No isolated individual portrait sufficiently verified in this pass.",
+      "researchFlag": "Photo research is not verification of board certification or dermatologist specialty classification.",
+      "appEmbedTest": "not-performed",
+      "cookieTest": "not-performed",
+      "rightsHolderPermission": "not-established"
+    }
+  ]
+}
