@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-01",
+  "scope": "Factual research refresh for two existing Beverly Hills cosmetic dentist profiles. Prepared while dermatology photo implementation runs; not an application update.",
+  "directory": "beverly-hills-cosmetic-dentists",
+  "preservation": [
+    "Existing IDs, routes, aliases, images and review/publication/indexing states remain unchanged.",
+    "Do not reset dataVerifiedAt to the research date or claim license verification.",
+    "Adding sources must not expose unsupported legacy credentials, rankings, email or other claims.",
+    "Keep historical values and documented changes available with accurate status labels."
+  ],
+  "records": [
+    {
+      "providerId": "3f29b524-cfb0-4e3d-ac8a-0d9482ec7673",
+      "canonicalPath": "anjalirajpal",
+      "name": "Anjali Rajpal",
+      "baselineBlobSha": "a5de1115c84cdddfc569661a83229ef155caab9e",
+      "sources": [
+        {
+          "id": "rajpal-bio",
+          "url": "https://bhdentalarts.com/about/meet-dr-rajpal/",
+          "label": "Beverly Hills Dental Arts — Meet Dr. Rajpal",
+          "sourceType": "primary-source",
+          "retrievedDate": "2026-10-01",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "rajpal-contact",
+          "url": "https://bhdentalarts.com/contact/",
+          "label": "Beverly Hills Dental Arts — Contact",
+          "sourceType": "primary-source",
+          "retrievedDate": "2026-10-01",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "narrative": [
+        {
+          "text": "Anjali Rajpal leads Beverly Hills Dental Arts, a practice offering cosmetic and general dentistry. Her practice biography connects her interest in painting and sculpture with the visual detail involved in dental work.",
+          "sourceIds": [
+            "rajpal-bio"
+          ]
+        },
+        {
+          "text": "The biography lists dental training at Tufts University and a general practice residency at Cedars-Sinai Medical Center. It also describes further cosmetic training with Esthetic Professionals in Tarzana.",
+          "sourceIds": [
+            "rajpal-bio"
+          ]
+        },
+        {
+          "text": "Outside dentistry, the biography mentions painting, playing the sitar and hiking—interests that add an individual perspective to her professional story.",
+          "sourceIds": [
+            "rajpal-bio"
+          ]
+        }
+      ],
+      "contacts": {
+        "phone": {
+          "value": "310-273-1199",
+          "sourceIds": [
+            "rajpal-contact"
+          ],
+          "status": "published-by-practice-not-call-tested"
+        },
+        "address": {
+          "value": "465 N. Roxbury Dr, Suite 701, Beverly Hills, CA 90210",
+          "sourceIds": [
+            "rajpal-contact"
+          ],
+          "status": "source-stated"
+        },
+        "website": {
+          "value": "https://bhdentalarts.com/",
+          "sourceIds": [
+            "rajpal-bio",
+            "rajpal-contact"
+          ]
+        },
+        "email": {
+          "value": null,
+          "status": "not-established"
+        }
+      },
+      "omitFromCurrentClaims": [
+        "Legacy #1 Invisalign Provider in 90210: not established by checked sources.",
+        "Top Dentist recognition: issuer/year not independently checked; omit from refreshed credentials.",
+        "National recognition, celebrity endorsement, superiority and guaranteed outcome language."
+      ],
+      "proposedNotice": "Biography and practice contact details are linked to the practice's own pages. Current dental-license status has not been independently checked.",
+      "remaining": [
+        "Current Dental Board of California license and exact identity match not checked in this batch.",
+        "Education remains practice-stated; institution records not independently checked.",
+        "Insurance, new-patient availability and phone functionality not checked."
+      ]
+    },
+    {
+      "providerId": "f8494eef-f657-4875-ab76-7fede980b8bf",
+      "canonicalPath": "kevinfrawley",
+      "name": "Kevin Frawley",
+      "baselineBlobSha": "9e74504a6e6e9cf5a660608360e8f7703b5346fe",
+      "sources": [
+        {
+          "id": "frawley-bio",
+          "url": "https://beverlyhillsdentistry.com/our-team/dr-kevin-frawley-dds/",
+          "label": "Beverly Hills Dentistry — Dr. Kevin Frawley",
+          "sourceType": "primary-source",
+          "retrievedDate": "2026-10-01",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "frawley-contact",
+          "url": "https://beverlyhillsdentistry.com/contact-us/",
+          "label": "Beverly Hills Dentistry — Contact",
+          "sourceType": "primary-source",
+          "retrievedDate": "2026-10-01",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "narrative": [
+        {
+          "text": "Kevin Frawley practices at Beverly Hills Dentistry, where his biography emphasizes cosmetic dentistry and implant care. It lists his UCLA dental graduation in 1982, followed by a residency at the Veterans Administration Clinic in Westwood.",
+          "sourceIds": [
+            "frawley-bio"
+          ]
+        },
+        {
+          "text": "His practice biography also describes his work founding Surgical Esthetics and Helping Hands Surgical Mentoring, connecting his clinical work with dental materials and professional education.",
+          "sourceIds": [
+            "frawley-bio"
+          ]
+        },
+        {
+          "text": "The biography says he works alongside his children, dentists Michele and Shawn Frawley, and enjoys gardening and tending a koi pond.",
+          "sourceIds": [
+            "frawley-bio"
+          ]
+        }
+      ],
+      "contacts": {
+        "phone": {
+          "value": "310-652-8383",
+          "sourceIds": [
+            "frawley-contact"
+          ],
+          "status": "published-by-practice-not-call-tested"
+        },
+        "address": {
+          "value": "8920 Wilshire Blvd., Suite 701, Beverly Hills, CA 90211",
+          "sourceIds": [
+            "frawley-contact"
+          ],
+          "status": "source-stated"
+        },
+        "website": {
+          "value": "https://beverlyhillsdentistry.com/",
+          "sourceIds": [
+            "frawley-bio",
+            "frawley-contact"
+          ]
+        },
+        "email": {
+          "legacyValue": "info@beverlyhillsdentistry.com",
+          "status": "not-corroborated-by-checked-pages-withhold-current-action"
+        }
+      },
+      "omitFromCurrentClaims": [
+        "45+ years: source also lists 1982 dental graduation; basis for experience total is unclear. Use dated training rather than calculated tenure.",
+        "Association membership is not board certification; exclude from credential badges unless narrowly attributed and supported.",
+        "Unsupported comparative quality and patient-outcome language."
+      ],
+      "proposedNotice": "Biography and practice contact details are linked to the practice's own pages. Current dental-license status has not been independently checked.",
+      "remaining": [
+        "Current Dental Board of California license and exact identity match not checked in this batch.",
+        "Education and professional projects remain practice-stated, not institutionally corroborated.",
+        "Legacy email remains unsupported by pages checked.",
+        "Insurance, new-patient availability and phone functionality not checked."
+      ]
+    }
+  ],
+  "handoff": {
+    "nextAction": "After current Replit photo task finishes, integrate these two source-stated factual refreshes as a bounded preview task. Re-read records before editing and reconcile stronger/concurrent evidence.",
+    "presentation": "Use sentence-level citations and accessible research notes. Profile notices may describe the supported factual scope once implemented. Directory has six other older records; do not label the entire directory researched or verified.",
+    "safetyOfImport": "Replace unsupported current presentation with the supported narrative and contact scope; merely appending a source to an unchanged legacy record is insufficient.",
+    "verification": "Check profile/card/API/metadata/share-image consistency, preserve historical values, and run relevant data/route/presentation checks. No deployment authorized.",
+    "done": "Research packet saved only; no provider factual data changed and no human review simulated."
+  }
+}
