@@ -1,0 +1,69 @@
+{
+  "observedAt": "2026-10-01",
+  "scope": "Three DC source-attributed narrative drafts; no independent credential verification",
+  "profiles": [
+    {
+      "id": "21121cf7-7c35-41ae-9a5b-8e625d731e6f",
+      "canonicalPath": "hannahbraunstein",
+      "name": "Hannah Braunstein",
+      "source": "https://www.emdr-dc.com/meet-hannah",
+      "draft": "Hannah Braunstein’s practice biography describes work with adults, adolescents and couples, with a focus on trauma, relationship difficulties, anxiety and depression. She describes an approach drawing on EMDR, Brainspotting and mindfulness. Her biography reports two master’s degrees from Washington University in St. Louis and undergraduate study in cultural anthropology at Cornell University.",
+      "sourceMap": "All three sentences: official Meet Hannah biography.",
+      "contactConflict": {
+        "legacy": "202-559-4985",
+        "sourcePublished": "917-292-4230",
+        "resolution": "Unresolved; preserve historical value and do not activate either as independently verified."
+      }
+    },
+    {
+      "id": "4a21c081-fbba-4331-9455-fb4d9995a84f",
+      "canonicalPath": "nancyhyatt",
+      "name": "Nancy Hyatt",
+      "source": "https://www.nancyhyatt.com/",
+      "draft": "Nancy Hyatt describes her work as individual and couples psychotherapy focused on emotional patterns and relationships. Her website presents an approach influenced by Imago therapy, EMDR, Accelerated Resolution Therapy and body-focused practices. She also describes teaching within Mobius Executive Leadership and previous leadership roles with the Mid-Atlantic Imago and Relational Therapists Association.",
+      "sourceMap": "Sentence 1: homepage practice description; sentence 2: approach paragraphs; sentence 3: professional-role paragraph. Roles are self-reported, not independently confirmed.",
+      "contactConflict": {
+        "legacy": "202-796-6091",
+        "sourcePublished": "202-519-5909",
+        "resolution": "Unresolved; do not silently replace or treat as tested."
+      },
+      "credentialNote": "Header uses LICSW and footer LCSW-C; omit an independently verified credential/title claim."
+    },
+    {
+      "id": "ed4cf1f5-d064-4123-b51f-6807ce96ba36",
+      "canonicalPath": "rachelbradleywilliams",
+      "name": "Rachel Bradley Williams",
+      "source": "https://rachelbradleywilliams.com/about/",
+      "draft": "Rachel Bradley Williams’ practice biography describes work with children, adolescents, adults and families. She presents a strengths-based approach that considers clients’ relationships, developmental stages and mind-body connection. Her listed education includes an MSW from Howard University and a psychology degree from California State University, Northridge, followed by a two-year post-MSW clinical training fellowship at Yale University.",
+      "sourceMap": "Sentence 1: opening biography; sentence 2: approach paragraphs; sentence 3: Clinical Training and Education lists.",
+      "contactConflict": {
+        "legacy": "202-304-1134",
+        "sourcePublished": "202-670-1118",
+        "resolution": "Unresolved; source publication does not establish phone operation."
+      },
+      "portrait": "Preserve cookie-withheld outcome; do not retry."
+    }
+  ],
+  "importRules": [
+    "Compare against latest provider records and stronger evidence before import.",
+    "Attribute narrative claims to the practice source; do not label the person verified.",
+    "Do not release unrelated legacy claims merely by adding a citation.",
+    "Preserve identities, routes, aliases, review/claim/publication/indexing states and existing verification dates.",
+    "Retain conflict notes; no contact mutation in this batch.",
+    "Preserve current portrait outcomes and privacy policy. No deployment."
+  ],
+  "missingPhotoContinuation": [
+    {
+      "name": "Tasheka Cox",
+      "id": "a8373cb6-63a1-4684-83ee-8e01f5649a31",
+      "lead": "https://connectemdr.com/therapist-directory/dr-tasheka-cox-ed-d-licsw/",
+      "status": "Discovery only; source image and identity context not yet inspected."
+    },
+    {
+      "name": "Tiffany Bufort-Odom",
+      "id": "631701d1-55d2-4341-92ca-0e98dc2a3008",
+      "lead": "https://vamhca.org/events/event_details.asp?id=2027341&legacy=1",
+      "status": "Association presenter-page discovery lead; no portrait approved."
+    }
+  ]
+}
