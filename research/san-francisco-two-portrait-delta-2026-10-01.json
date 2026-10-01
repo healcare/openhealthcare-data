@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-01",
+  "scope": "Photo-only follow-on for two existing San Francisco dermatologists.",
+  "baseline": {
+    "allDisplayed": 28,
+    "allFallback": 51,
+    "sfDisplayed": 4,
+    "sfFallback": 3
+  },
+  "constraints": [
+    "Preserve facts, source history, evidence/review/publication/indexing/claim states, dates and permanent identities/routes.",
+    "Small source-linked remote previews under owner direction; not rights-holder permission or legal clearance.",
+    "Test actual app loading, face framing, Set-Cookie, browser cookies and tracking before display. Do not proxy, rehost or bypass restrictions.",
+    "Do not retry Michael Waul's blocked candidate. This batch does not complete credential verification or lift any hold."
+  ],
+  "providers": [
+    {
+      "providerId": "2648ca1f-a0da-4c4a-befc-6b46dc525e87",
+      "name": "Aileen Chang",
+      "canonicalPath": "aileenchang",
+      "sourcePage": "https://dermatology.ucsf.edu/about-us/our-team/aileen-chang-md",
+      "candidateUrl": "https://dermatology.ucsf.edu/sites/dermatology.ucsf.edu/files/styles/max_fp_650x650/public/2024-09/Aileen%20Chang_Headshot.jpg.webp?h=6c0ecf46&itok=PupvRp60",
+      "identityEvidence": "Named portrait on UCSF Dermatology individual biography; matches the existing record's cited institutional page.",
+      "visualInspection": "Top-level browser image loaded at 650x650. Individual head-and-shoulders portrait with clear full face and outdoor background.",
+      "status": "visually-suitable-app-test-pending",
+      "directory": "san-francisco-dermatologists",
+      "retrievedDate": "2026-10-01",
+      "appDelivery": "not tested",
+      "cookieTracking": "not tested",
+      "nextAction": "Replit to test small source-linked preview under existing zero-cookie policy."
+    },
+    {
+      "providerId": "bcc8ed10-6fb4-45b0-a985-644e13055d80",
+      "name": "Susana Ortiz-Urda",
+      "canonicalPath": "susanaortizurda",
+      "sourcePage": "https://profiles.ucsf.edu/susana.ortiz-urda",
+      "candidateUrl": "https://researcherprofiles.org/profile/Modules/CustomViewPersonGeneralInfo/PhotoHandler.ashx?NodeID=175082&cachekey=31408bf6-34b8-4885-9c94-669c11147518",
+      "identityEvidence": "UCSF Profiles labels the linked image Photo of Susana Ortiz-Urda, MD, PhD; same institutional page already cited by existing record.",
+      "visualInspection": "Top-level browser image loaded at 140x152. Individual face clearly visible. Use only at thumbnail scale; do not enlarge into a blurry hero.",
+      "status": "visually-suitable-small-thumbnail-app-test-pending",
+      "excludedLead": {
+        "sourcePage": "https://prod.ucsfhealth.org/providers/maria-ortiz-urda",
+        "candidateUrl": "https://providers.ucsfhealth.org/sparkle-assets/images/flatley-erin-1932537172-1260babf230ac9fba86531129915d08e.jpg",
+        "reason": "Image label says Susana but asset filename names another person. Identity ambiguity not resolved; do not import. This is a source-reference inconsistency, not proof of a wrong person on the site."
+      },
+      "directory": "san-francisco-dermatologists",
+      "retrievedDate": "2026-10-01",
+      "appDelivery": "not tested",
+      "cookieTracking": "not tested",
+      "nextAction": "Replit to test small source-linked preview under existing zero-cookie policy."
+    }
+  ]
+}
