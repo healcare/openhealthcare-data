@@ -1,0 +1,70 @@
+{
+  "batch": "beverly-hills-cosmetic-dentists-portrait-delta-2026-10-01",
+  "checkedOn": "2026-10-01",
+  "scope": "Photo-only research. No credential, contact, biography, review-state or deployment approval.",
+  "policy": "Owner-directed source-linked editorial preview rationale; not rights-holder permission or legal clearance. No proxy/rehosting. No cookies/trackers. Preserve existing holds and internal profile navigation.",
+  "records": [
+    {
+      "id": "3f29b524-cfb0-4e3d-ac8a-0d9482ec7673",
+      "name": "Anjali Rajpal",
+      "canonicalPath": "anjalirajpal",
+      "sourcePage": "https://bhdentalarts.com/about/meet-dr-rajpal/",
+      "candidateUrl": "https://bhdentalarts.com/wp-content/uploads/2024/12/home-box-06-new-214x300.jpg",
+      "sourceOriginal": "https://bhdentalarts.com/wp-content/uploads/2024/12/home-box-06-new.jpg",
+      "evidence": "Official biography's image element names Dr. Anjali Rajpal and offers this 214w derivative in its data-nectar-img-srcset. Small asset opened and visually inspected: individual in white coat, unobstructed face; not patient treatment or stock-family graphic.",
+      "visualCheck": "passed_candidate",
+      "browserTopLevelDisplay": "observed",
+      "embedCookieCheck": "not_tested",
+      "appDisplay": "not_tested",
+      "reusePermission": "not_established"
+    },
+    {
+      "id": "f8494eef-f657-4875-ab76-7fede980b8bf",
+      "name": "Kevin Frawley",
+      "canonicalPath": "kevinfrawley",
+      "sourcePage": "https://beverlyhillsdentistry.com/our-team/dr-kevin-frawley-dds/",
+      "candidateUrl": "https://beverlyhillsdentistry.com/wp-content/uploads/2021/11/Dr.Kevin-Frawley.jpg",
+      "evidence": "Official individual biography labels linked image Dr.Kevin-Frawley. Asset opened and visually inspected: individual head-and-shoulders portrait in shirt and tie, unobstructed face. Named source context distinguishes Kevin from Shawn and Michele.",
+      "visualCheck": "passed_candidate",
+      "browserTopLevelDisplay": "observed",
+      "embedCookieCheck": "not_tested",
+      "appDisplay": "not_tested",
+      "reusePermission": "not_established"
+    }
+  ],
+  "excludedOrUnresolved": [
+    {
+      "name": "Daniel Naysan",
+      "sourcePage": "https://www.bhdentists.com/daniel-naysan-dds/",
+      "asset": "https://www.bhdentists.com/wp-content/uploads/2026/06/hero-scaled.jpg",
+      "decision": "Reject this candidate: visually inspected darkened collage of mouths, not clinician portrait. Individual portrait remains unresolved."
+    },
+    {
+      "name": "Chirag Patel",
+      "sourcePage": "https://www.smilesbydrp.com/our-doctors/chirag-patel.html",
+      "decision": "First inspected biography graphic shows hand holding phone with smile imagery, not clinician portrait. Other candidate imagery not sufficiently verified; unresolved."
+    },
+    {
+      "name": "Joseph Goodman",
+      "sourcePage": "https://topbeverlyhillsdentist.com/joseph-goodman-dds-dmd/",
+      "decision": "Retrieved image links include veneer-rule graphic and TV-show studio image; no simple portrait visually verified in this pass. Do not automatically use images merely because alt text names clinician."
+    },
+    {
+      "name": "Jamielynn Hanam-Jahr",
+      "sourcePage": "https://mybeverlyhillsdentist.com/about-us/meet-dr-hanam-jahr/",
+      "decision": "Visible hero is family graphic, not clinician portrait. Exact individual portrait remains unresolved."
+    },
+    {
+      "name": "Rodney Raanan",
+      "sourcePage": "https://rifkinraanan.com/the-doctors/dr-rodney-raanan/",
+      "decision": "Official biography found; no individual portrait sufficiently verified in this pass."
+    },
+    {
+      "name": "Kevin Sands",
+      "sourcePage": "https://www.beverlyhillscosmeticdentist.com/cosmetic-dentist-beverly-hills-los-angeles/",
+      "decision": "Search-discovered biography; individual portrait not verified in this pass."
+    }
+  ],
+  "acceptance": "Replit must test actual embedded requests for successful display and cookies, preserve full-face framing, source attribution and separate source-page link, and report candidates separately from implemented photos. Adding photo provenance must not cause legacy clinical claims or contacts to become current/verified.",
+  "baseline": "Previously reported preview: 24 displayed / 55 fallbacks of 79. This research alone does not change those counts."
+}
