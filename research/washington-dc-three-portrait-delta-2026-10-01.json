@@ -1,0 +1,69 @@
+{
+  "scope": "Photo-only Washington DC three-provider delta",
+  "observedAt": "2026-10-01",
+  "baseline": {
+    "displayed": 28,
+    "fallback": 51,
+    "total": 79,
+    "production": "not_checked"
+  },
+  "preservation": "No factual, contact, credential, verification-date, identity, route, review, claim, publication or indexing changes. Photo evidence must not release legacy claims. Preserve separate source attribution and internal profile navigation. No proxy, rehosting, bypass or deployment.",
+  "providers": [
+    {
+      "id": "21121cf7-7c35-41ae-9a5b-8e625d731e6f",
+      "canonicalPath": "hannahbraunstein",
+      "name": "Hannah Braunstein",
+      "directorySlug": "psychotherapists-washington-dc",
+      "sourcePageUrl": "https://www.emdr-dc.com/meet-hannah",
+      "imageUrl": "https://www.emdr-dc.com/sites/default/files/_mg_3971c_0.jpg",
+      "visualObservation": "Individual standing portrait in blue, clear forward-facing face; frame toward head and shoulders.",
+      "observedAt": "2026-10-01",
+      "identityEvidence": "Official site matches existing provider website and named biography/header; not facial identification.",
+      "status": "candidate_pending_app_checks",
+      "appEmbed": "not_tested",
+      "responseHeaders": "not_checked",
+      "cookiesAndTracking": "not_checked",
+      "rightsStatus": "Owner-directed source-linked preview rationale; no rights-holder permission or legal clearance established.",
+      "nextAction": "Test this exact candidate once in the actual preview; display only if loading, privacy and framing checks pass. Otherwise retain fallback with precise reason."
+    },
+    {
+      "id": "4a21c081-fbba-4331-9455-fb4d9995a84f",
+      "canonicalPath": "nancyhyatt",
+      "name": "Nancy Hyatt",
+      "directorySlug": "psychotherapists-washington-dc",
+      "sourcePageUrl": "https://www.nancyhyatt.com/",
+      "imageUrl": "https://static.wixstatic.com/media/c7072f_4304dce1c10041cba220202b232db575.jpg/v1/fill/w_268,h_243,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c7072f_4304dce1c10041cba220202b232db575.jpg",
+      "visualObservation": "Individual headshot beside Nancy Hyatt heading; source-offered 268 by 243 derivative. Exclude separate stock landscape/couple image.",
+      "observedAt": "2026-10-01",
+      "identityEvidence": "Official site matches existing provider website and named biography/header; not facial identification.",
+      "status": "candidate_pending_app_checks",
+      "appEmbed": "not_tested",
+      "responseHeaders": "not_checked",
+      "cookiesAndTracking": "not_checked",
+      "rightsStatus": "Owner-directed source-linked preview rationale; no rights-holder permission or legal clearance established.",
+      "nextAction": "Test this exact candidate once in the actual preview; display only if loading, privacy and framing checks pass. Otherwise retain fallback with precise reason."
+    },
+    {
+      "id": "ed4cf1f5-d064-4123-b51f-6807ce96ba36",
+      "canonicalPath": "rachelbradleywilliams",
+      "name": "Rachel Bradley Williams",
+      "directorySlug": "psychotherapists-washington-dc",
+      "sourcePageUrl": "https://rachelbradleywilliams.com/about/",
+      "imageUrl": "https://rachelbradleywilliams.com/wp-content/uploads/2021/09/5fdb3080-1a57-11ec-a996-116aa84e956f.jpg",
+      "visualObservation": "Individual forward-facing portrait with scarf; browser image title reports 734 by 1102.",
+      "observedAt": "2026-10-01",
+      "identityEvidence": "Official site matches existing provider website and named biography/header; not facial identification.",
+      "status": "candidate_pending_app_checks",
+      "appEmbed": "not_tested",
+      "responseHeaders": "not_checked",
+      "cookiesAndTracking": "not_checked",
+      "rightsStatus": "Owner-directed source-linked preview rationale; no rights-holder permission or legal clearance established.",
+      "nextAction": "Test this exact candidate once in the actual preview; display only if loading, privacy and framing checks pass. Otherwise retain fallback with precise reason."
+    }
+  ],
+  "remainingDiscovery": [
+    "Tasheka Cox: official-site destination still requires resolution; no candidate approved in this batch.",
+    "Tiffany Bufort-Odom: professional directory/practice-platform leads found, but no official portrait selected in this batch."
+  ],
+  "limitations": "Source-browser visual success is not app-embed or privacy verification. Current license and board status were not researched. Existing contact values differ from source-page values observed during discovery; no reconciliation or contact changes authorized by this photo delta."
+}
