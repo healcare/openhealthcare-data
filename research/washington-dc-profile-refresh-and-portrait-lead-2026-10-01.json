@@ -1,0 +1,192 @@
+{
+  "scope": "Three Washington DC factual drafts and one new portrait lead; preview only",
+  "preparedAt": "2026-10-01",
+  "baseline": {
+    "repository": "healcare/openhealthcare",
+    "checkpoint": "f8693de8ec75047d878454fac7763811a4bfbde9",
+    "displayed": 30,
+    "fallback": 49,
+    "total": 79,
+    "production": "not checked"
+  },
+  "preservation": [
+    "Keep IDs, paths, aliases, membership, indexing, publication, claim and review states, original verification dates and research history.",
+    "Compare current contact fields against these observations before changing them; keep unresolved conflicts non-actionable.",
+    "Retain working portraits. Do not retry previously cookie-setting or blocked URLs. OC factual work remains paused.",
+    "Source-stated drafts must not release unsupported legacy credentials or imply licensing checks."
+  ],
+  "providers": [
+    {
+      "id": "21121cf7-7c35-41ae-9a5b-8e625d731e6f",
+      "canonicalPath": "hannahbraunstein",
+      "name": "Hannah Braunstein",
+      "sources": [
+        {
+          "url": "https://www.emdr-dc.com/meet-hannah",
+          "publisher": "Hannah Braunstein practice",
+          "retrievedAt": "2026-10-01",
+          "status": "source-stated",
+          "limitation": "Publisher statement; no independent credential or current-practice verification."
+        },
+        {
+          "url": "https://www.emdr-dc.com/contact-hannah",
+          "publisher": "Hannah Braunstein practice",
+          "retrievedAt": "2026-10-01",
+          "status": "source-stated",
+          "limitation": "Publisher statement; no independent credential or current-practice verification."
+        }
+      ],
+      "draftSentences": [
+        {
+          "text": "Hannah Braunstein’s practice describes work with adults and adolescents, including individual and couples therapy, with a focus on trauma and relationships.",
+          "source": 0
+        },
+        {
+          "text": "Her biography lists EMDR, Brainspotting and mindfulness among her approaches.",
+          "source": 0
+        },
+        {
+          "text": "It describes two master’s degrees from Washington University in St. Louis and undergraduate study in cultural anthropology at Cornell.",
+          "source": 0
+        }
+      ],
+      "contactObservation": {
+        "phone": "917-292-4230",
+        "address": "2401 Pennsylvania Ave. NW, Washington, DC 20037",
+        "source": 1,
+        "status": "practice-published; not called or visited"
+      },
+      "credentialLimit": "LICSW and EMDR certification are practice claims, not authority-checked results. Exact master's degree titles are not established by the opened biography.",
+      "noticeDraft": "Biography and contact details are linked to practice sources. Current license and certification status have not been independently checked.",
+      "portrait": "Preserve displayed portrait and its existing passed checks; no new candidate."
+    },
+    {
+      "id": "4a21c081-fbba-4331-9455-fb4d9995a84f",
+      "canonicalPath": "nancyhyatt",
+      "name": "Nancy Hyatt",
+      "sources": [
+        {
+          "url": "https://www.nancyhyatt.com/",
+          "publisher": "Nancy Hyatt practice",
+          "retrievedAt": "2026-10-01",
+          "status": "source-stated",
+          "limitation": "Publisher statement; no independent credential or current-practice verification."
+        },
+        {
+          "url": "https://www.nancyhyatt.com/resume",
+          "publisher": "Nancy Hyatt practice",
+          "retrievedAt": "2026-10-01",
+          "status": "source-stated",
+          "limitation": "Publisher statement; no independent credential or current-practice verification."
+        },
+        {
+          "url": "https://www.nancyhyatt.com/contact",
+          "publisher": "Nancy Hyatt practice",
+          "retrievedAt": "2026-10-01",
+          "status": "source-stated",
+          "limitation": "Publisher statement; no independent credential or current-practice verification."
+        }
+      ],
+      "draftSentences": [
+        {
+          "text": "Nancy Hyatt describes her work as individual and couples psychotherapy focused on emotional and relationship patterns.",
+          "source": 0
+        },
+        {
+          "text": "Her published resume lists an MSW from New York University in 1992 and a BA from the University of Vermont in 1988.",
+          "source": 1
+        },
+        {
+          "text": "The resume describes earlier work in child and adolescent mental-health settings and training in Imago, EMDR and Accelerated Resolution Therapy.",
+          "source": 1
+        }
+      ],
+      "contactObservation": {
+        "phone": "202-519-5909",
+        "phoneSource": 0,
+        "publicEmail": "nancyhyatt1@gmail.com",
+        "emailSource": 0,
+        "address": "6369 31st Place NW, Washington, DC 20015",
+        "addressSource": 2,
+        "status": "practice-published; not called or visited; confirm address is appropriate for public practice listing before promoting it"
+      },
+      "credentialLimit": "Header uses LICSW, footer uses LCSW-C, and resume's Maryland license label is inconsistent. Do not normalize these as verified credentials. Current license and certification records remain unchecked.",
+      "noticeDraft": "Biography is linked to practice sources. License labels differ across the source pages; current credentials remain unverified.",
+      "portrait": "Preserve displayed portrait and its existing passed checks; no new candidate."
+    },
+    {
+      "id": "ed4cf1f5-d064-4123-b51f-6807ce96ba36",
+      "canonicalPath": "rachelbradleywilliams",
+      "name": "Rachel Bradley Williams",
+      "sources": [
+        {
+          "url": "https://rachelbradleywilliams.com/about/",
+          "publisher": "Rachel Bradley Williams practice",
+          "retrievedAt": "2026-10-01",
+          "status": "source-stated",
+          "limitation": "Publisher statement; no independent credential or current-practice verification."
+        },
+        {
+          "url": "https://rachelbradleywilliams.com/contact/",
+          "publisher": "Rachel Bradley Williams practice",
+          "retrievedAt": "2026-10-01",
+          "status": "source-stated",
+          "limitation": "Publisher statement; no independent credential or current-practice verification."
+        }
+      ],
+      "draftSentences": [
+        {
+          "text": "Rachel Bradley Williams’ biography describes work with children, adolescents, adults and families, with experience in school and mental-health settings.",
+          "source": 0
+        },
+        {
+          "text": "It lists an MSW from Howard University, a psychology BA from California State University, Northridge, and a two-year post-MSW clinical training fellowship at Yale.",
+          "source": 0
+        },
+        {
+          "text": "She describes a strengths-based approach and lists play therapy, CBT and EMDR among her training.",
+          "source": 0
+        }
+      ],
+      "contactObservation": {
+        "phone": "202-670-1118",
+        "address": "4545 Connecticut Ave. NW, Suite 417, Washington, DC 20008",
+        "source": 1,
+        "status": "practice-published; not called or visited",
+        "email": "Not extracted: source displayed obfuscated placeholder; do not publish placeholder or infer an address."
+      },
+      "credentialResearchLeads": {
+        "DC": "LC303501",
+        "Maryland": "26873",
+        "source": 0,
+        "status": "self-published numbers only; authority checks not performed"
+      },
+      "credentialLimit": "Current state licenses and RPT-S credential remain unchecked. Yale fellowship is source-stated training, not a Yale degree.",
+      "noticeDraft": "Biography and contact details are linked to practice sources. Current licenses and professional credentials have not been independently checked.",
+      "portrait": "Keep existing fallback: exact earlier candidate set and stored a third-party cookie. No new app test justified by this factual refresh."
+    }
+  ],
+  "portraitLead": {
+    "id": "631701d1-55d2-4341-92ca-0e98dc2a3008",
+    "canonicalPath": "tiffanybufortodom",
+    "name": "Tiffany Bufort-Odom",
+    "sourcePageUrl": "https://bio.site/journeywithTIFF",
+    "candidateImageUrl": "https://media.bio.site/sites/bdd0538b-c12a-434f-836a-29531d4dfbe8/kop98a4XVWUgy9mecudQKY.jpg",
+    "identityEvidence": "Named Bio Sites page links to the same Psychology Today provider profile 1004033 and an Our Journey Counseling scheduling destination.",
+    "visualSuitability": "Not visually verified in this workflow; image retrieval supplied only a displayed-image marker.",
+    "appEmbed": "not tested",
+    "headers": "not checked",
+    "cookies": "not checked",
+    "nextAction": "Inspect image and confirm it is a suitable individual portrait for the matched clinician, then test this exact candidate in app once. Display only after framing, identity, privacy and delivery checks pass.",
+    "rightsBasis": "Existing owner-authorized small source-linked editorial preview policy; no rights-holder permission or legal determination."
+  },
+  "discoveryNotes": [
+    {
+      "name": "Tasheka Cox",
+      "officialPage": "https://mindovermoodhealing.com/",
+      "observation": "Named homepage matches clinician and practice, but retrieved text did not expose an image URL; no portrait selected. EMDRIA directory request returned 403; not a negative certification result.",
+      "nextAction": "Inspect source-exposed imagery on the established practice homepage in a later portrait pass; do not guess asset URLs."
+    }
+  ],
+  "implementationRequest": "Shorten visible photo notices to plain-language summaries. Put full technical reasons, exact sources, dates and tests in an accessible expandable Photo research notes section already on-page. Do not collapse credential or identity warnings into photo notes. Preserve correction history and original-source links."
+}
