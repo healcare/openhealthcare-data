@@ -96,3 +96,10 @@ publication decisions. See `docs/REPLIT-BEVERLY-HILLS-REFRESH.md`.
 Schema 1.2.0 allows an explicitly unresolved portrait to be `null` with a sourced
 `mediaReview`; older versions retain their previous validation requirements.
 Run `npm run test:refresh` when changing refresh validation.
+
+## Irvine Medi-Cal access pilot — October 2, 2026
+
+- [Two source-stated Irvine practice records](data/directories/us/ca/irvine/dentists.json), source research dated October 2. Practice participation, panel status, language, accommodations and treatment coverage are separate fields; unknowns are explicit.
+- [Replit handoff](docs/REPLIT-IRVINE-MEDI-CAL-HANDOFF.md): new owner-authorized directory, accessible Medi-Cal* link badge, organization identities, pending review, no indexing or deployment.
+
+This new Irvine scope does not reopen the existing Orange County plastic-surgeon factual hold. It supports lower-income patients and reusable criterion-level evidence for future search agents.
