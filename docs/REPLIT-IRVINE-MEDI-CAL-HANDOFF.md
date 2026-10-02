@@ -4,17 +4,17 @@
 
 The owner requested a new Irvine dental directory supporting lower-income people and specific language, disability and treatment needs, with a **Medi-Cal*** badge on its directory link. This authorizes new Irvine factual research and preview creation. The existing Orange County plastic-surgery pause and unrelated provider holds are unchanged.
 
-Use [the two-practice bundle](../data/directories/us/ca/irvine/dentists.json) from data commit **442ee4ecbb748d662ad23b43a2c47486ff338e93**. It passes the repository's changed-bundle validator. Replit confirmed no existing Irvine directory or Irvine integration task in the app on October 2.
+Use [the three-practice bundle](../data/directories/us/ca/irvine/dentists.json) from data commit **565d959f38ba2daec4843efd570169a619dd2b38**. It passes the repository's changed-bundle validator. Replit confirmed no existing Irvine directory or Irvine integration task in the app on October 2.
 
 ## Apply in preview
 
-- Create the Irvine dentists directory and two **practice/organization** records: QH Dental and Irvine Smile Dentistry. Match existing identities before assigning permanent UUIDs and collision-safe paths; retain the public import keys. Do not turn a practice into a person or create separate clinician records from associated names alone.
+- Create the Irvine dentists directory and three **practice/organization** records: QH Dental, Irvine Smile Dentistry and Orange Pro Dentist. Match existing identities before assigning permanent UUIDs and collision-safe paths; retain the public import keys. Do not turn a practice into a person or create separate clinician records from associated names alone.
 - Use the feed's original snippets, exact locations/contacts, dated participation claims, communication policy and unknown fields. Source-stated participation is sufficient for this attributed preview; it is not independently checked enrollment, licensure or availability.
 - Display **Medi-Cal*** on the homepage/directory navigation link with the supplied visible explanation. Make its explanation usable with keyboard, screen reader and touch; it must not depend on hover or color. Avoid implying government endorsement.
 - Explain services, language support, interpreter policy, physical accommodations, new-patient status and teledentistry separately. Show unknown rather than false or a guaranteed match. No appointment slots or unsupported language chips.
 - QH's sign-language/format/language services are a published policy, with an incomplete request-contact instruction. Display the scope and ask-to-confirm note. This is not a tested accommodation or a bilingual-clinician claim.
-- Keep the two Irvine addresses distinct from Irvine Smile's Orange office. No adjacent-city leads in the Irvine count.
-- Preserve source evidence and limitations in profile/directory views, APIs, structured data and no-JavaScript output. Directory statistics count two practices, not five associated clinician names.
+- Keep the three Irvine addresses distinct from Irvine Smile's Orange office. No adjacent-city leads in the Irvine count.
+- Preserve source evidence and limitations in profile/directory views, APIs, structured data and no-JavaScript output. Directory statistics count three practices; associated names are not separate provider records.
 - Offer official dentist-finding/interpreter/TTY help when users cannot find a supported option. Do not create forms collecting insurance IDs, immigration status, medical details or disability history. No tracking or cookies.
 - Use neutral organization fallbacks. QH's individual photo assets remain ownership/use/app-check unresolved; Irvine Smile's exposed third-party imagery is excluded. No stock faces, external-CDN portraits, rehosting or retries of existing withheld photos.
 
@@ -30,6 +30,12 @@ Future cohorts can add exact clinician-language, staff-language, interpreter arr
 
 ## Acceptance checks and completion report
 
-Run relevant project data/type/HTTP/URL/build checks and focused desktop/mobile, keyboard, screen-reader-label and accessibility checks once. Confirm no cookies/tracking, two correct practice entities and counts, badge explanation, sourced unknowns, noindex/sitemap exclusion, API/no-JavaScript/structured-data fidelity, stable identities and unchanged unrelated directories. If organizations cannot be represented honestly in the current model, report that specific compatibility gap rather than forge clinician identities.
+Run relevant project data/type/HTTP/URL/build checks and focused desktop/mobile, keyboard, screen-reader-label and accessibility checks once. Confirm no cookies/tracking, three correct practice entities and counts, badge explanation, sourced unknowns, noindex/sitemap exclusion, API/no-JavaScript/structured-data fidelity, stable identities and unchanged unrelated directories. If organizations cannot be represented honestly in the current model, report that specific compatibility gap rather than forge clinician identities.
 
 Report consumed data commit, application commit, applied/held counts, actual tests and remaining exceptions. No deployment, credential review, phone calls or human-review completion is authorized by this handoff.
+
+## Reviewed extension
+
+The original two-practice preview was reported complete by Replit at application commit adeac775d3ecc6ef02937b38e36e671fcfe5531d. Add Orange Pro Dentist without replacing existing identities. Its opened official homepage explicitly lists Denti-Cal and an Irvine office at 14261 Jeffrey Rd; current panel, enrollment and access details remain unknown. The site has template placeholder contact/FAQ copy: use only the repeatedly published office contact in the bundle. Its team names do not establish individual Medi-Cal participation. No image is approved.
+
+Boutique Family Dentistry remains a research lead: the opened page states PPO acceptance but does not establish Medi-Cal participation. See the [review record](../research/irvine-dentists-orange-pro-batch-review-2026-10-02.json). Optional patient navigation copy and the general new-patient invitation supplement remain attributed research, not proof of new Medi-Cal capacity.
