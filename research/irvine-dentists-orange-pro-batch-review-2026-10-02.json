@@ -1,0 +1,82 @@
+{
+  "schema_version": "openhealthcare.external-source-research.v1",
+  "researched_at": "2026-10-02",
+  "research_status": "source-stated",
+  "purpose": "Patient-centered Irvine Medi-Cal dental preview; review of submitted Gemini live-research batch.",
+  "sources": [
+    {
+      "id": "orange-pro-official",
+      "url": "https://orangeprodentist.com/",
+      "access_method": "opened-primary-page",
+      "retrieved_on": "2026-10-02",
+      "source_as_of": null,
+      "evidence_locator": "Insurances Accepted; repeated office address and phone"
+    },
+    {
+      "id": "orange-pro-team",
+      "url": "https://orangeprodentist.com/our-team/",
+      "access_method": "opened-primary-page",
+      "retrieved_on": "2026-10-02",
+      "source_as_of": null,
+      "evidence_locator": "Named biographies"
+    },
+    {
+      "id": "boutique-patient-info",
+      "url": "https://www.boutiquefamilydentistry.com/patient-information/",
+      "access_method": "opened-primary-page",
+      "retrieved_on": "2026-10-02",
+      "source_as_of": null,
+      "evidence_locator": "New Patients; office contact; Initial Examination; website display controls"
+    }
+  ],
+  "accepted_additions": [
+    {
+      "practice_id": "orange-pro-dentist-irvine",
+      "location_id": "orange-pro-jeffrey-road",
+      "program_statement": "Website explicitly lists Dentical.",
+      "evidence_status": "source-stated",
+      "limitations": [
+        "Not government enrollment verification.",
+        "New Medi-Cal patient capacity, treatment coverage, age scope, language and accommodations unknown.",
+        "Team names do not establish individual network participation or schedules."
+      ]
+    }
+  ],
+  "discovery_leads": [
+    {
+      "name": "Boutique Family Dentistry",
+      "address": "3500 Barranca Pkwy Ste 270, Irvine CA 92606",
+      "phone": "+1-714-550-0500",
+      "named_clinician": "Avishan K. Nasiri",
+      "program_status": "unknown",
+      "reason": "Opened patient information page states PPO acceptance; no explicit Medi-Cal statement found on that page. This is not proof of nonparticipation."
+    }
+  ],
+  "corrections": [
+    "Submitted verified labels normalized to source-stated; previous GitHub evidence is not independent corroboration.",
+    "Xinwu Zhao's previously opened biography states DMD; the submitted DDS label is unsupported.",
+    "QH general comfort copy does not establish sensory accommodations. Preserve its separately sourced communication assistance policy.",
+    "Boutique website controls do not establish staff languages or physical accommodations.",
+    "No actual government conflict citation was supplied for Boutique; do not mark conflicting."
+  ],
+  "source_quality_notes": [
+    "Orange Pro homepage repeats office phone 949-387-8888 but also contains a template placeholder phone and unfinished FAQ copy. Placeholder excluded; office phone not called."
+  ],
+  "photos": [],
+  "photo_disposition": "No images approved. Team images require identity, physician/practice ownership/use and application delivery/privacy review; do not fabricate asset URLs.",
+  "preview_status": {
+    "reported_by": "Replit Agent read-only status",
+    "original_two_practice_preview": "complete",
+    "app_commit": "adeac775d3ecc6ef02937b38e36e671fcfe5531d",
+    "reported_checks": "104 HTTP tests, 3 focused browser tests, data/type checks and production build passed; no critical/serious accessibility findings.",
+    "new_three_practice_bundle": "validated; integration pending",
+    "data_commit": "565d959f38ba2daec4843efd570169a619dd2b38",
+    "deployment_authorized": false,
+    "indexable": false
+  },
+  "next_research": [
+    "Seek dated official enrollment matching the exact service location.",
+    "Find explicit new Medi-Cal patient intake evidence, separate from general invitation.",
+    "Research practice-published interpreter, physical access and sensory arrangements without inferring them from generic comfort or compliance copy."
+  ]
+}
