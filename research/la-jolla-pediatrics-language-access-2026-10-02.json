@@ -1,0 +1,760 @@
+{
+  "research_date": "2026-10-02",
+  "timezone": "America/Los_Angeles",
+  "directory": "la-jolla-pediatricians",
+  "purpose": "First bounded language-and-access pass for meaningful healthcare connections; reuse source evidence without conflating clinician ability, practice assistance, written translations and live access.",
+  "stage": "research only; not integrated or deployed",
+  "coverage": {
+    "existing_profiles_reviewed": 10,
+    "profiles_with_explicit_language_evidence": 4,
+    "distinct_non_english_languages": 5,
+    "provider_claims": 16,
+    "shared_access_claims": 10
+  },
+  "baseline": {
+    "public_data_path": "data/directories/us/ca/la-jolla/pediatrics.json",
+    "public_data_blob_sha": "6f604be8f31ef4bed1cebabfb46c6290adc9ae69",
+    "original_verification_date": "2026-08-18",
+    "app_records_read_date": "2026-10-02"
+  },
+  "profiles": [
+    {
+      "provider_id": "c5984251-3fe4-4603-9772-9a7dcf468a48",
+      "canonical_path": "gretchen-gainor-md",
+      "data_feed_id": "gretchen-gainor-md",
+      "name": "Gretchen Gainor",
+      "directory": "la-jolla-pediatricians",
+      "profile_source_url": "https://www.cpcmg.net/cpcmg_doctor/gretchen-gainor-md/",
+      "claims": [
+        {
+          "claim_id": "c5984251-3fe4-4603-9772-9a7dcf468a48:listed_location:2026-10-02",
+          "attribute": "listed_location",
+          "value": "cpcmg-girard",
+          "scope": "named clinician",
+          "source_url": "https://www.cpcmg.net/cpcmg_doctor/gretchen-gainor-md/",
+          "publisher": "Children's Primary Care Medical Group",
+          "supporting_observation": "Named profile lists the matching La Jolla office; matching official location roster also names this clinician.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "independent_check": false,
+          "matching_limit": "Roster presence does not establish an open panel, an appointment or each day's clinician schedule."
+        }
+      ],
+      "language_review": {
+        "status": "unknown; no language field found in retrieved profile",
+        "supported_languages": [],
+        "proficiency": "unknown",
+        "legacy_languages_to_preserve": null,
+        "legacy_english_status": "No language inferred from name, photograph or English page text."
+      },
+      "access_unknowns": [
+        "Current individual new-patient panel and appointment slots",
+        "Exact insurer product and member network",
+        "Clinician-specific interpreter arrangements",
+        "Physical-site accessibility and sensory accommodations",
+        "ASL or other signed-language access"
+      ],
+      "original_verification_date_to_preserve": "2026-08-18T00:00:00.000Z",
+      "portrait_action": "preserve current cookie-withheld/fallback outcome; no image fetch or privacy retest",
+      "next_action": "For a concrete patient match, ask the practice about this clinician's panel and preferred-language communication arrangements."
+    },
+    {
+      "provider_id": "6ccc7ec7-445d-4979-9252-093fde4b30cd",
+      "canonical_path": "christine-johnson-md",
+      "data_feed_id": "christine-johnson-md",
+      "name": "Christine Johnson",
+      "directory": "la-jolla-pediatricians",
+      "profile_source_url": "https://www.cpcmg.net/cpcmg_doctor/christine-l-johnson-md-faap/",
+      "claims": [
+        {
+          "claim_id": "6ccc7ec7-445d-4979-9252-093fde4b30cd:listed_location:2026-10-02",
+          "attribute": "listed_location",
+          "value": "cpcmg-girard",
+          "scope": "named clinician",
+          "source_url": "https://www.cpcmg.net/cpcmg_doctor/christine-l-johnson-md-faap/",
+          "publisher": "Children's Primary Care Medical Group",
+          "supporting_observation": "Named profile lists the matching La Jolla office; matching official location roster also names this clinician.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "independent_check": false,
+          "matching_limit": "Roster presence does not establish an open panel, an appointment or each day's clinician schedule."
+        }
+      ],
+      "language_review": {
+        "status": "unknown; no language field found in retrieved profile",
+        "supported_languages": [],
+        "proficiency": "unknown",
+        "legacy_languages_to_preserve": null,
+        "legacy_english_status": "No language inferred from name, photograph or English page text."
+      },
+      "access_unknowns": [
+        "Current individual new-patient panel and appointment slots",
+        "Exact insurer product and member network",
+        "Clinician-specific interpreter arrangements",
+        "Physical-site accessibility and sensory accommodations",
+        "ASL or other signed-language access"
+      ],
+      "original_verification_date_to_preserve": "2026-08-18T00:00:00.000Z",
+      "portrait_action": "preserve current cookie-withheld/fallback outcome; no image fetch or privacy retest",
+      "next_action": "For a concrete patient match, ask the practice about this clinician's panel and preferred-language communication arrangements."
+    },
+    {
+      "provider_id": "2707b96e-3085-4eb0-9ae7-d53f4a269e53",
+      "canonical_path": "genevieve-parsons-md",
+      "data_feed_id": "genevieve-parsons-md",
+      "name": "Genevieve Parsons",
+      "directory": "la-jolla-pediatricians",
+      "profile_source_url": "https://www.cpcmg.net/cpcmg_doctor/genevieve-parsons-md/",
+      "claims": [
+        {
+          "claim_id": "2707b96e-3085-4eb0-9ae7-d53f4a269e53:listed_location:2026-10-02",
+          "attribute": "listed_location",
+          "value": "cpcmg-girard",
+          "scope": "named clinician",
+          "source_url": "https://www.cpcmg.net/cpcmg_doctor/genevieve-parsons-md/",
+          "publisher": "Children's Primary Care Medical Group",
+          "supporting_observation": "Named profile lists the matching La Jolla office; matching official location roster also names this clinician.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "independent_check": false,
+          "matching_limit": "Roster presence does not establish an open panel, an appointment or each day's clinician schedule."
+        }
+      ],
+      "language_review": {
+        "status": "unknown; no language field found in retrieved profile",
+        "supported_languages": [],
+        "proficiency": "unknown",
+        "legacy_languages_to_preserve": null,
+        "legacy_english_status": "No language inferred from name, photograph or English page text."
+      },
+      "access_unknowns": [
+        "Current individual new-patient panel and appointment slots",
+        "Exact insurer product and member network",
+        "Clinician-specific interpreter arrangements",
+        "Physical-site accessibility and sensory accommodations",
+        "ASL or other signed-language access"
+      ],
+      "original_verification_date_to_preserve": "2026-08-18T00:00:00.000Z",
+      "portrait_action": "preserve current cookie-withheld/fallback outcome; no image fetch or privacy retest",
+      "next_action": "For a concrete patient match, ask the practice about this clinician's panel and preferred-language communication arrangements."
+    },
+    {
+      "provider_id": "a08b35d3-c136-40a2-9f5b-13cbe0f8378c",
+      "canonical_path": "vivian-tung-md",
+      "data_feed_id": "vivian-tung-md",
+      "name": "Vivian Tung",
+      "directory": "la-jolla-pediatricians",
+      "profile_source_url": "https://www.cpcmg.net/cpcmg_doctor/vivian-tung-md/",
+      "claims": [
+        {
+          "claim_id": "a08b35d3-c136-40a2-9f5b-13cbe0f8378c:listed_location:2026-10-02",
+          "attribute": "listed_location",
+          "value": "cpcmg-girard",
+          "scope": "named clinician",
+          "source_url": "https://www.cpcmg.net/cpcmg_doctor/vivian-tung-md/",
+          "publisher": "Children's Primary Care Medical Group",
+          "supporting_observation": "Named profile lists the matching La Jolla office; matching official location roster also names this clinician.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "independent_check": false,
+          "matching_limit": "Roster presence does not establish an open panel, an appointment or each day's clinician schedule."
+        },
+        {
+          "claim_id": "a08b35d3-c136-40a2-9f5b-13cbe0f8378c:clinician_languages:2026-10-02",
+          "attribute": "clinician_languages",
+          "value": [
+            "Mandarin Chinese"
+          ],
+          "scope": "named clinician",
+          "source_url": "https://www.cpcmg.net/cpcmg_doctor/vivian-tung-md/",
+          "publisher": "Children's Primary Care Medical Group",
+          "supporting_observation": "Named Languages field lists Mandarin Chinese; clinician personal statement explicitly says fluent in Mandarin.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "independent_check": false,
+          "matching_limit": "Source-stated language ability; confirm preferred-language appointment and interpreter needs.",
+          "proficiency": "fluent"
+        },
+        {
+          "claim_id": "a08b35d3-c136-40a2-9f5b-13cbe0f8378c:age_scope:2026-10-02",
+          "attribute": "age_scope",
+          "value": "newborns to adolescents; no numeric cutoff stated",
+          "scope": "named clinician",
+          "source_url": "https://www.cpcmg.net/cpcmg_doctor/vivian-tung-md/",
+          "publisher": "Children's Primary Care Medical Group",
+          "supporting_observation": "Clinician statement describes caring for children from newborns to adolescents.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "independent_check": false,
+          "matching_limit": "Does not define a numeric upper age or an open panel."
+        }
+      ],
+      "language_review": {
+        "status": "explicit named-clinician evidence",
+        "supported_languages": [
+          "Mandarin Chinese"
+        ],
+        "proficiency": "fluent",
+        "legacy_languages_to_preserve": [
+          "English",
+          "Mandarin Chinese"
+        ],
+        "legacy_english_status": "Legacy English entry not explicitly confirmed by this retrieved profile; do not treat English prose as language evidence."
+      },
+      "access_unknowns": [
+        "Current individual new-patient panel and appointment slots",
+        "Exact insurer product and member network",
+        "Clinician-specific interpreter arrangements",
+        "Physical-site accessibility and sensory accommodations",
+        "ASL or other signed-language access"
+      ],
+      "original_verification_date_to_preserve": "2026-08-18T00:00:00.000Z",
+      "portrait_action": "preserve current cookie-withheld/fallback outcome; no image fetch or privacy retest",
+      "next_action": "Confirm current panel status with practice when needed; preserve old 2026-08-18 open-panel observation as dated, not current."
+    },
+    {
+      "provider_id": "82d2a63a-16a9-4b49-a549-3e0c680da73e",
+      "canonical_path": "maria-capetanakis-do",
+      "data_feed_id": "maria-capetanakis-do",
+      "name": "Maria Capetanakis",
+      "directory": "la-jolla-pediatricians",
+      "profile_source_url": "https://www.cpcmg.net/cpcmg_doctor/maria-capetanakis-do/",
+      "claims": [
+        {
+          "claim_id": "82d2a63a-16a9-4b49-a549-3e0c680da73e:listed_location:2026-10-02",
+          "attribute": "listed_location",
+          "value": "cpcmg-regents",
+          "scope": "named clinician",
+          "source_url": "https://www.cpcmg.net/cpcmg_doctor/maria-capetanakis-do/",
+          "publisher": "Children's Primary Care Medical Group",
+          "supporting_observation": "Named profile lists the matching La Jolla office; matching official location roster also names this clinician.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "independent_check": false,
+          "matching_limit": "Roster presence does not establish an open panel, an appointment or each day's clinician schedule."
+        },
+        {
+          "claim_id": "82d2a63a-16a9-4b49-a549-3e0c680da73e:clinician_languages:2026-10-02",
+          "attribute": "clinician_languages",
+          "value": [
+            "Spanish",
+            "Greek"
+          ],
+          "scope": "named clinician",
+          "source_url": "https://www.cpcmg.net/cpcmg_doctor/maria-capetanakis-do/",
+          "publisher": "Children's Primary Care Medical Group",
+          "supporting_observation": "Named Languages field lists Spanish and Greek.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "independent_check": false,
+          "matching_limit": "Source-stated language ability; confirm preferred-language appointment and interpreter needs.",
+          "proficiency": "not stated"
+        }
+      ],
+      "language_review": {
+        "status": "explicit named-clinician evidence",
+        "supported_languages": [
+          "Spanish",
+          "Greek"
+        ],
+        "proficiency": "not stated",
+        "legacy_languages_to_preserve": [
+          "English",
+          "Spanish",
+          "Greek"
+        ],
+        "legacy_english_status": "Legacy English entry not explicitly confirmed by this retrieved profile; do not treat English prose as language evidence."
+      },
+      "access_unknowns": [
+        "Current individual new-patient panel and appointment slots",
+        "Exact insurer product and member network",
+        "Clinician-specific interpreter arrangements",
+        "Physical-site accessibility and sensory accommodations",
+        "ASL or other signed-language access"
+      ],
+      "original_verification_date_to_preserve": "2026-08-18T00:00:00.000Z",
+      "portrait_action": "preserve current cookie-withheld/fallback outcome; no image fetch or privacy retest",
+      "next_action": "For a concrete patient match, ask the practice about this clinician's panel and preferred-language communication arrangements."
+    },
+    {
+      "provider_id": "7d3ac2fc-1c0e-40c1-985d-c6578302fbd0",
+      "canonical_path": "lauren-fulkerson-md",
+      "data_feed_id": "lauren-fulkerson-md",
+      "name": "Lauren Fulkerson",
+      "directory": "la-jolla-pediatricians",
+      "profile_source_url": "https://www.cpcmg.net/cpcmg_doctor/lauren-fulkerson-md-faap/",
+      "claims": [
+        {
+          "claim_id": "7d3ac2fc-1c0e-40c1-985d-c6578302fbd0:listed_location:2026-10-02",
+          "attribute": "listed_location",
+          "value": "cpcmg-regents",
+          "scope": "named clinician",
+          "source_url": "https://www.cpcmg.net/cpcmg_doctor/lauren-fulkerson-md-faap/",
+          "publisher": "Children's Primary Care Medical Group",
+          "supporting_observation": "Named profile lists the matching La Jolla office; matching official location roster also names this clinician.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "independent_check": false,
+          "matching_limit": "Roster presence does not establish an open panel, an appointment or each day's clinician schedule."
+        }
+      ],
+      "language_review": {
+        "status": "unknown; no language field found in retrieved profile",
+        "supported_languages": [],
+        "proficiency": "unknown",
+        "legacy_languages_to_preserve": null,
+        "legacy_english_status": "No language inferred from name, photograph or English page text."
+      },
+      "access_unknowns": [
+        "Current individual new-patient panel and appointment slots",
+        "Exact insurer product and member network",
+        "Clinician-specific interpreter arrangements",
+        "Physical-site accessibility and sensory accommodations",
+        "ASL or other signed-language access"
+      ],
+      "original_verification_date_to_preserve": "2026-08-18T00:00:00.000Z",
+      "portrait_action": "preserve current cookie-withheld/fallback outcome; no image fetch or privacy retest",
+      "next_action": "For a concrete patient match, ask the practice about this clinician's panel and preferred-language communication arrangements."
+    },
+    {
+      "provider_id": "3b2fea38-0173-4aaa-9b16-6069c3d72107",
+      "canonical_path": "sheetal-gandhi-md",
+      "data_feed_id": "sheetal-gandhi-md",
+      "name": "Sheetal Gandhi",
+      "directory": "la-jolla-pediatricians",
+      "profile_source_url": "https://www.cpcmg.net/cpcmg_doctor/sheetal-gandhi-md/",
+      "claims": [
+        {
+          "claim_id": "3b2fea38-0173-4aaa-9b16-6069c3d72107:listed_location:2026-10-02",
+          "attribute": "listed_location",
+          "value": "cpcmg-regents",
+          "scope": "named clinician",
+          "source_url": "https://www.cpcmg.net/cpcmg_doctor/sheetal-gandhi-md/",
+          "publisher": "Children's Primary Care Medical Group",
+          "supporting_observation": "Named profile lists the matching La Jolla office; matching official location roster also names this clinician.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "independent_check": false,
+          "matching_limit": "Roster presence does not establish an open panel, an appointment or each day's clinician schedule."
+        },
+        {
+          "claim_id": "3b2fea38-0173-4aaa-9b16-6069c3d72107:clinician_languages:2026-10-02",
+          "attribute": "clinician_languages",
+          "value": [
+            "Hindi"
+          ],
+          "scope": "named clinician",
+          "source_url": "https://www.cpcmg.net/cpcmg_doctor/sheetal-gandhi-md/",
+          "publisher": "Children's Primary Care Medical Group",
+          "supporting_observation": "Named Languages field lists Hindi.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "independent_check": false,
+          "matching_limit": "Source-stated language ability; confirm preferred-language appointment and interpreter needs.",
+          "proficiency": "not stated"
+        }
+      ],
+      "language_review": {
+        "status": "explicit named-clinician evidence",
+        "supported_languages": [
+          "Hindi"
+        ],
+        "proficiency": "not stated",
+        "legacy_languages_to_preserve": [
+          "English",
+          "Hindi"
+        ],
+        "legacy_english_status": "Legacy English entry not explicitly confirmed by this retrieved profile; do not treat English prose as language evidence."
+      },
+      "access_unknowns": [
+        "Current individual new-patient panel and appointment slots",
+        "Exact insurer product and member network",
+        "Clinician-specific interpreter arrangements",
+        "Physical-site accessibility and sensory accommodations",
+        "ASL or other signed-language access"
+      ],
+      "original_verification_date_to_preserve": "2026-08-18T00:00:00.000Z",
+      "portrait_action": "preserve current cookie-withheld/fallback outcome; no image fetch or privacy retest",
+      "next_action": "For a concrete patient match, ask the practice about this clinician's panel and preferred-language communication arrangements."
+    },
+    {
+      "provider_id": "09343a88-1355-430e-bc16-0f0a862e1fd4",
+      "canonical_path": "kendall-roberts-md",
+      "data_feed_id": "kendall-roberts-md",
+      "name": "Kendall Roberts",
+      "directory": "la-jolla-pediatricians",
+      "profile_source_url": "https://www.cpcmg.net/cpcmg_doctor/kendall-roberts-md/",
+      "claims": [
+        {
+          "claim_id": "09343a88-1355-430e-bc16-0f0a862e1fd4:listed_location:2026-10-02",
+          "attribute": "listed_location",
+          "value": "cpcmg-regents",
+          "scope": "named clinician",
+          "source_url": "https://www.cpcmg.net/cpcmg_doctor/kendall-roberts-md/",
+          "publisher": "Children's Primary Care Medical Group",
+          "supporting_observation": "Named profile lists the matching La Jolla office; matching official location roster also names this clinician.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "independent_check": false,
+          "matching_limit": "Roster presence does not establish an open panel, an appointment or each day's clinician schedule."
+        }
+      ],
+      "language_review": {
+        "status": "unknown; no language field found in retrieved profile",
+        "supported_languages": [],
+        "proficiency": "unknown",
+        "legacy_languages_to_preserve": null,
+        "legacy_english_status": "No language inferred from name, photograph or English page text."
+      },
+      "access_unknowns": [
+        "Current individual new-patient panel and appointment slots",
+        "Exact insurer product and member network",
+        "Clinician-specific interpreter arrangements",
+        "Physical-site accessibility and sensory accommodations",
+        "ASL or other signed-language access"
+      ],
+      "original_verification_date_to_preserve": "2026-08-18T00:00:00.000Z",
+      "portrait_action": "preserve current cookie-withheld/fallback outcome; no image fetch or privacy retest",
+      "next_action": "For a concrete patient match, ask the practice about this clinician's panel and preferred-language communication arrangements."
+    },
+    {
+      "provider_id": "61301654-8090-42c9-91e7-8e2305742599",
+      "canonical_path": "tory-twito-do",
+      "data_feed_id": "tory-twito-do",
+      "name": "Tory Twito",
+      "directory": "la-jolla-pediatricians",
+      "profile_source_url": "https://www.cpcmg.net/cpcmg_doctor/tory-twito-do-ma-faap/",
+      "claims": [
+        {
+          "claim_id": "61301654-8090-42c9-91e7-8e2305742599:listed_location:2026-10-02",
+          "attribute": "listed_location",
+          "value": "cpcmg-regents",
+          "scope": "named clinician",
+          "source_url": "https://www.cpcmg.net/cpcmg_doctor/tory-twito-do-ma-faap/",
+          "publisher": "Children's Primary Care Medical Group",
+          "supporting_observation": "Named profile lists the matching La Jolla office; matching official location roster also names this clinician.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "independent_check": false,
+          "matching_limit": "Roster presence does not establish an open panel, an appointment or each day's clinician schedule."
+        },
+        {
+          "claim_id": "61301654-8090-42c9-91e7-8e2305742599:care_mode:2026-10-02",
+          "attribute": "care_mode",
+          "value": [
+            "telehealth"
+          ],
+          "scope": "named clinician",
+          "source_url": "https://www.cpcmg.net/cpcmg_doctor/tory-twito-do-ma-faap/",
+          "publisher": "Children's Primary Care Medical Group",
+          "supporting_observation": "Named statement says all appointments are conducted virtually.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "independent_check": false,
+          "matching_limit": "Do not offer the roster office as proof of in-person appointments. Group eligibility and live availability still need confirmation."
+        }
+      ],
+      "language_review": {
+        "status": "unknown; no language field found in retrieved profile",
+        "supported_languages": [],
+        "proficiency": "unknown",
+        "legacy_languages_to_preserve": null,
+        "legacy_english_status": "No language inferred from name, photograph or English page text."
+      },
+      "access_unknowns": [
+        "Current individual new-patient panel and appointment slots",
+        "Exact insurer product and member network",
+        "Clinician-specific interpreter arrangements",
+        "Physical-site accessibility and sensory accommodations",
+        "ASL or other signed-language access"
+      ],
+      "original_verification_date_to_preserve": "2026-08-18T00:00:00.000Z",
+      "portrait_action": "preserve current cookie-withheld/fallback outcome; no image fetch or privacy retest",
+      "next_action": "Confirm current video eligibility and appointment through practice; retain virtual-only statement."
+    },
+    {
+      "provider_id": "dfb4bcb0-450c-4f53-b3bd-22ba3bf19c47",
+      "canonical_path": "asako-komiya-pnp",
+      "data_feed_id": "asako-komiya-pnp",
+      "name": "Asako Komiya",
+      "directory": "la-jolla-pediatricians",
+      "profile_source_url": "https://www.cpcmg.net/cpcmg_doctor/asako-komiya-pnp/",
+      "claims": [
+        {
+          "claim_id": "dfb4bcb0-450c-4f53-b3bd-22ba3bf19c47:listed_location:2026-10-02",
+          "attribute": "listed_location",
+          "value": "cpcmg-regents",
+          "scope": "named clinician",
+          "source_url": "https://www.cpcmg.net/cpcmg_doctor/asako-komiya-pnp/",
+          "publisher": "Children's Primary Care Medical Group",
+          "supporting_observation": "Named profile lists the matching La Jolla office; matching official location roster also names this clinician.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "independent_check": false,
+          "matching_limit": "Roster presence does not establish an open panel, an appointment or each day's clinician schedule."
+        },
+        {
+          "claim_id": "dfb4bcb0-450c-4f53-b3bd-22ba3bf19c47:clinician_languages:2026-10-02",
+          "attribute": "clinician_languages",
+          "value": [
+            "Japanese"
+          ],
+          "scope": "named clinician",
+          "source_url": "https://www.cpcmg.net/cpcmg_doctor/asako-komiya-pnp/",
+          "publisher": "Children's Primary Care Medical Group",
+          "supporting_observation": "Named Languages field lists Japanese.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "independent_check": false,
+          "matching_limit": "Source-stated language ability; confirm preferred-language appointment and interpreter needs.",
+          "proficiency": "not stated"
+        }
+      ],
+      "language_review": {
+        "status": "explicit named-clinician evidence",
+        "supported_languages": [
+          "Japanese"
+        ],
+        "proficiency": "not stated",
+        "legacy_languages_to_preserve": [
+          "English",
+          "Japanese"
+        ],
+        "legacy_english_status": "Legacy English entry not explicitly confirmed by this retrieved profile; do not treat English prose as language evidence."
+      },
+      "access_unknowns": [
+        "Current individual new-patient panel and appointment slots",
+        "Exact insurer product and member network",
+        "Clinician-specific interpreter arrangements",
+        "Physical-site accessibility and sensory accommodations",
+        "ASL or other signed-language access"
+      ],
+      "original_verification_date_to_preserve": "2026-08-18T00:00:00.000Z",
+      "portrait_action": "preserve current cookie-withheld/fallback outcome; no image fetch or privacy retest",
+      "next_action": "For a concrete patient match, ask the practice about this clinician's panel and preferred-language communication arrangements."
+    }
+  ],
+  "shared_access_evidence": [
+    {
+      "claim_id": "cpcmg-girard:office_hours:2026-10-02",
+      "attribute": "office_hours",
+      "value": {
+        "weekdays": "8am–5pm Monday–Friday, by appointment",
+        "saturday": "8am–noon by appointment at CPCMG Regents"
+      },
+      "scope": "location",
+      "source_url": "https://www.cpcmg.net/locations/girard/",
+      "publisher": "Children's Primary Care Medical Group",
+      "supporting_observation": "Girard page lists weekday hours and Saturday care at Regents.",
+      "retrieved_date": "2026-10-02",
+      "source_date": null,
+      "evidence_status": "source-stated",
+      "independent_check": false,
+      "matching_limit": "Saturday is at Regents, not proof of Girard opening or any individual's schedule."
+    },
+    {
+      "claim_id": "cpcmg-regents:office_hours:2026-10-02",
+      "attribute": "office_hours",
+      "value": {
+        "weekdays": "8am–5pm Monday–Friday, by appointment",
+        "saturday": "8am–noon by appointment"
+      },
+      "scope": "location",
+      "source_url": "https://www.cpcmg.net/locations/regents/",
+      "publisher": "Children's Primary Care Medical Group",
+      "supporting_observation": "Regents page lists weekday and Saturday appointment hours.",
+      "retrieved_date": "2026-10-02",
+      "source_date": null,
+      "evidence_status": "source-stated",
+      "independent_check": false,
+      "matching_limit": "Office hours do not establish available slots."
+    },
+    {
+      "claim_id": "cpcmg:new_patient_route:2026-10-02",
+      "attribute": "new_patient_route",
+      "value": "Welcome Center handles child registration, insurance confirmation and first appointment scheduling; listed weekday business hours.",
+      "scope": "practice",
+      "source_url": "https://www.cpcmg.net/all-about-appointments/",
+      "publisher": "Children's Primary Care Medical Group",
+      "supporting_observation": "New-patient instruction directs families to Welcome Center, 8am–5pm Monday–Friday.",
+      "retrieved_date": "2026-10-02",
+      "source_date": null,
+      "evidence_status": "source-stated",
+      "independent_check": false,
+      "matching_limit": "An intake route does not establish each clinician's open panel; contact not tested."
+    },
+    {
+      "claim_id": "cpcmg:video_provider_choice:2026-10-02",
+      "attribute": "video_provider_choice",
+      "value": "My Pediatrician visits use a chosen CPCMG pediatrician during that provider's schedule; Children's Virtual Care may use another clinician.",
+      "scope": "practice",
+      "source_url": "https://www.cpcmg.net/video-visits/",
+      "publisher": "Children's Primary Care Medical Group",
+      "supporting_observation": "Page distinguishes chosen-clinician visits from general virtual care.",
+      "retrieved_date": "2026-10-02",
+      "source_date": null,
+      "evidence_status": "source-stated",
+      "independent_check": false,
+      "matching_limit": "No specific available provider or appointment confirmed."
+    },
+    {
+      "claim_id": "cpcmg:video_portal_requirement:2026-10-02",
+      "attribute": "video_portal_requirement",
+      "value": "Active MyChart account required; office can provide activation code.",
+      "scope": "practice",
+      "source_url": "https://www.cpcmg.net/video-visits/",
+      "publisher": "Children's Primary Care Medical Group",
+      "supporting_observation": "Scheduling instructions explicitly require active account.",
+      "retrieved_date": "2026-10-02",
+      "source_date": null,
+      "evidence_status": "source-stated",
+      "independent_check": false,
+      "matching_limit": "No account created or authenticated booking tested; accessibility of portal not evaluated."
+    },
+    {
+      "claim_id": "cpcmg:virtual_service_hours:2026-10-02",
+      "attribute": "virtual_service_hours",
+      "value": {
+        "weekdays": "8am–9pm",
+        "weekends": "8am–8pm",
+        "holidays": "included"
+      },
+      "scope": "practice service",
+      "source_url": "https://www.cpcmg.net/video-visits/",
+      "publisher": "Children's Primary Care Medical Group",
+      "supporting_observation": "Children's Virtual Care section lists these hours.",
+      "retrieved_date": "2026-10-02",
+      "source_date": null,
+      "evidence_status": "source-stated",
+      "independent_check": false,
+      "matching_limit": "Service hours are not a named clinician schedule; dated PDF says general scheduling up to 9pm, so use more specific web service hours as source-stated without guaranteeing slots."
+    },
+    {
+      "claim_id": "cpcmg:dated_video_eligibility:2026-10-02",
+      "attribute": "dated_video_eligibility",
+      "value": {
+        "established_patient": true,
+        "last_seen": "within prior two years",
+        "physical_location": "California at visit",
+        "minor_requirement": "parent or guardian accepts terms and is present for under-18 patient"
+      },
+      "scope": "practice policy",
+      "source_url": "https://www.cpcmg.net/wp-content/uploads/2023/02/Video-Visit-Terms-and-Conditions-February-2023.pdf",
+      "publisher": "Children's Primary Care Medical Group",
+      "supporting_observation": "PDF explicitly states established-patient, prior-visit, physical-location and minor requirements; footer last updated February 2023.",
+      "retrieved_date": "2026-10-02",
+      "source_date": "2023-02",
+      "evidence_status": "dated-source-stated",
+      "independent_check": false,
+      "matching_limit": "Dated 2023 terms remain linked; confirm current applicability before booking. Do not treat telehealth as globally available."
+    },
+    {
+      "claim_id": "cpcmg:language_translation_policy:2026-10-02",
+      "attribute": "language_translation_policy",
+      "value": "Translation assistance when necessary for patients speaking a language other than English.",
+      "scope": "practice policy",
+      "source_url": "https://www.cpcmg.net/wp-content/uploads/2025/03/final_Patient-Bill-of-Rights_ENGLISH_March-2025-1.pdf",
+      "publisher": "Children's Primary Care Medical Group",
+      "supporting_observation": "Currently linked Patient Bill of Rights explicitly states right to language translation assistance.",
+      "retrieved_date": "2026-10-02",
+      "source_date": null,
+      "evidence_status": "source-stated",
+      "independent_check": false,
+      "matching_limit": "Languages, interpreter type, ASL, fees and scheduling lead time not specified. Policy is not evidence of individual clinician fluency."
+    },
+    {
+      "claim_id": "cpcmg:translated_material_links:2026-10-02",
+      "attribute": "translated_material_links",
+      "value": [
+        "English",
+        "Spanish",
+        "Chinese",
+        "Farsi"
+      ],
+      "scope": "practice written materials",
+      "source_url": "https://www.cpcmg.net/patient-rights-and-responsibilities/",
+      "publisher": "Children's Primary Care Medical Group",
+      "supporting_observation": "Rights page labels PACT document links in four languages.",
+      "retrieved_date": "2026-10-02",
+      "source_date": null,
+      "evidence_status": "source-stated",
+      "independent_check": false,
+      "matching_limit": "Linked written material is not a Persian-speaking clinician or proof of interpreter availability; translations not linguistically validated."
+    },
+    {
+      "claim_id": "cpcmg:accessibility_feedback_route:2026-10-02",
+      "attribute": "accessibility_feedback_route",
+      "value": "Web form invites barrier descriptions and requested accommodations.",
+      "scope": "practice website",
+      "source_url": "https://www.cpcmg.net/web-accessibility/",
+      "publisher": "Children's Primary Care Medical Group",
+      "supporting_observation": "Form requests access-barrier description and possible accommodations.",
+      "retrieved_date": "2026-10-02",
+      "source_date": null,
+      "evidence_status": "source-stated",
+      "independent_check": false,
+      "matching_limit": "Not submitted or audited; not proof of physical-site, portal or video accessibility."
+    }
+  ],
+  "historical_and_discovery_notes": [
+    {
+      "provider_id": "a08b35d3-c136-40a2-9f5b-13cbe0f8378c",
+      "attribute": "new_patient_panel",
+      "saved_value": "open",
+      "saved_date": "2026-08-18",
+      "current_review": "No explicit open-panel statement located on retrieved clinician page or roster. Not contradicted or deleted; current status remains unknown."
+    },
+    {
+      "source_url": "https://www.cpcmg.net/wp-content/uploads/2026/02/JNPP-English-2018.pdf",
+      "document_date": "2018-05-01",
+      "document_scope": "Joint Rady/CPMG privacy notice; current CPCMG navigation links it.",
+      "observation": "Final page advertises free language assistance, a TDD route and notices in multiple languages including Farsi.",
+      "disposition": "Historical health-system context only; confirm applicability to the chosen CPCMG office. Do not assign listed languages to clinicians or infer ASL. Upload path 2026/02 is not document date."
+    },
+    {
+      "source_url": "https://www.cpcmg.net/wp-content/uploads/2013/11/Patient-Bill-of-Rights.English.-FINAL.pdf",
+      "disposition": "Search surfaced older PDF and direct retrieval failed; current rights page links newer 2025-path PDF, which was retrieved and visually inspected. Use the current linked document, not failed old URL."
+    },
+    {
+      "provider_id": "7d3ac2fc-1c0e-40c1-985d-c6578302fbd0",
+      "source_url": "https://www.cpcmg.net/cpcmg_doctor/lauren-fulkerson-md-faap/",
+      "disposition": "Initial direct open failed; official Regents roster link and subsequent open succeeded. No alternate identity substituted."
+    }
+  ],
+  "preservation_requirements": [
+    "Preserve IDs, canonical paths, aliases, membership, publication/indexing/claim/review states and original dataVerifiedAt.",
+    "Research date is not credential verification; no license or board checks done.",
+    "Retain legacy languages and date/history; this packet distinguishes unsupported-current English evidence without deleting values.",
+    "Preserve all existing photos and withheld outcomes; no image requests or privacy retests.",
+    "Keep Orange County factual research paused.",
+    "Keep shared policies at practice/location scope; do not copy them into personal language or live-availability claims.",
+    "No Replit import started; avoid concurrent implementation tasks."
+  ],
+  "reused_evidence_packets": [
+    {
+      "url": "https://github.com/healcare/openhealthcare-data/blob/main/research/cupertino-dentists-sourced-snippets-2026-10-01.json",
+      "use": "Reuse existing Browning, Bouzid and Infantino language evidence and Lo practice availability/insurance limits; this batch did not recheck these pages."
+    },
+    {
+      "url": "https://github.com/healcare/openhealthcare-data/blob/main/research/riverside-orthopedics-sourced-snippets-2026-10-02.json",
+      "use": "Reuse Hsu clinician English/telehealth and Khamsi practice Spanish scope; no source rediscovery needed."
+    }
+  ],
+  "next_research_batch": "Existing Norfolk therapist profiles: explicit clinician languages, therapy modality, age scope, new-client intake and telehealth jurisdiction; read saved evidence and holds before searches."
+}
