@@ -1,0 +1,560 @@
+{
+  "schemaVersion": "1.2.0",
+  "directory": {
+    "slug": "irvine-dentists",
+    "title": "Dentists in Irvine, California",
+    "description": "Explore source-linked Medi-Cal Dental options and information for your care and accessibility needs.",
+    "geography": {
+      "city": "Irvine",
+      "state": "CA",
+      "country": "US",
+      "postalCodes": [
+        "92603",
+        "92604"
+      ]
+    },
+    "scopeNote": "Initial two-practice cohort, not a complete roster or ranking. Participation is practice-stated; current enrollment, new-patient capacity and treatment coverage are not confirmed. Missing access information means unknown.",
+    "lastVerified": "2026-10-02",
+    "lastVerifiedMeaning": "Source research date only; not credential or availability verification.",
+    "reviewStatus": "pending-human-review",
+    "status": "published",
+    "indexable": false,
+    "claimStatus": "unclaimed",
+    "linkBadge": "Medi-Cal*",
+    "badgeExplanation": "*These practices state that they accept Medi-Cal Dental/Denti-Cal. Confirm your coverage, treatment and new-patient availability with the office.",
+    "evidenceSummary": "Source-linked options · access details incomplete"
+  },
+  "importContract": {
+    "mode": "create-new-directory",
+    "scope": "Owner-authorized Irvine Medi-Cal dental cohort, 2026-10-02: two practice entities and two documented Irvine locations.",
+    "entityIdentity": "Public IDs are durable import keys. Application assigns UUIDs after collision/identity checks; organizations must not become individual dentists.",
+    "implementationTarget": "preview-only",
+    "deploymentAuthorized": false,
+    "indexingAuthorized": false,
+    "preserveExistingDirectories": true
+  },
+  "selectionMethod": {
+    "includedWhen": [
+      "Opened practice-owned page explicitly names Medi-Cal Dental or Denti-Cal.",
+      "Opened official page documents an Irvine service location."
+    ],
+    "notUsedAsRankingFactors": [
+      "ratings",
+      "reviews",
+      "advertising",
+      "social popularity"
+    ],
+    "licenseMethod": "No current California credential lookup performed. Entries are organizations, not individually verified clinicians."
+  },
+  "locations": [
+    {
+      "id": "qh-dental-quail-hill",
+      "name": "QH Dental — Quail Hill",
+      "address": {
+        "line1": "6805 Quail Hill Parkway",
+        "city": "Irvine",
+        "state": "CA",
+        "postalCode": "92603",
+        "country": "US"
+      },
+      "phone": "+1-949-823-0006",
+      "website": "https://www.qhdentaloffice.com/",
+      "sourceIds": [
+        "qh-insurance"
+      ],
+      "contactStatus": "source-published-not-called"
+    },
+    {
+      "id": "irvine-smile-irvine-center",
+      "name": "Irvine Smile Dentistry — Irvine",
+      "address": {
+        "line1": "4902 Irvine Center Dr",
+        "line2": "Suite 101",
+        "city": "Irvine",
+        "state": "CA",
+        "postalCode": "92604",
+        "country": "US"
+      },
+      "phone": "+1-949-552-1701",
+      "website": "https://irvinesmiledentistry.com/",
+      "sourceIds": [
+        "irvine-smile-official"
+      ],
+      "contactStatus": "source-published-not-called"
+    }
+  ],
+  "providers": [
+    {
+      "id": "qh-dental-irvine",
+      "name": {
+        "display": "QH Dental"
+      },
+      "entityKind": "organization",
+      "credentials": [],
+      "clinicianType": "dental-practice",
+      "specialties": [],
+      "locationIds": [
+        "qh-dental-quail-hill"
+      ],
+      "profileUrl": "https://www.qhdentaloffice.com/",
+      "portrait": null,
+      "mediaGallery": [],
+      "sourceIds": [
+        "qh-insurance",
+        "qh-access-policy",
+        "qh-man-bio",
+        "qh-zhao-bio"
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-02",
+        "licenseLookupStatus": "pending"
+      },
+      "access": {
+        "ffsEnrollment": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "acceptingNewMediCalPatients": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "appointmentAvailability": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "clinicianLanguages": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "staffLanguages": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "physicalAccessibility": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "teledentistry": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "ageScope": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "treatmentCoverage": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "referralRequirements": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "mediCalDental": {
+          "id": "qh-medi-cal",
+          "attribute": "medi-cal-dental-acceptance",
+          "value": "Denti-Cal",
+          "sourceIds": [
+            "qh-insurance"
+          ],
+          "scope": "Practice statement; individual dentist, member eligibility and treatment coverage not established.",
+          "evidenceStatus": "source-stated",
+          "retrievedOn": "2026-10-02",
+          "sourceAsOf": null,
+          "evidenceLocator": "Insurance list",
+          "limitations": []
+        },
+        "communicationAssistance": {
+          "id": "qh-communication",
+          "attribute": "communication-assistance-policy",
+          "value": [
+            "qualified sign-language interpreters",
+            "large print",
+            "audio",
+            "accessible electronic formats",
+            "language interpretation",
+            "translated written information"
+          ],
+          "sourceIds": [
+            "qh-access-policy"
+          ],
+          "scope": "Practice-published policy; arrangements not tested.",
+          "evidenceStatus": "source-stated",
+          "retrievedOn": "2026-10-02",
+          "sourceAsOf": null,
+          "evidenceLocator": "Free aids and language services",
+          "limitations": [
+            "Service-request contact instruction is blank; ask the office about arrangements.",
+            "Does not establish clinician fluency or on-site interpreter availability."
+          ]
+        }
+      },
+      "reviewNotes": [
+        "Practice participation is source-stated; no government enrollment or current credential check performed.",
+        "Office phone is source-published; not called."
+      ],
+      "story": "QH Dental is an Irvine practice whose website lists Denti-Cal among its insurance options. Its notice describes free language and communication assistance. Confirm arrangements and new-patient capacity with the office.",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-02",
+        "sourceIds": [
+          "qh-man-bio",
+          "qh-zhao-bio"
+        ],
+        "note": "Named clinician assets were opened on the practice domain, but ownership/use and app privacy checks remain unresolved. No image selected for this organization."
+      },
+      "associatedClinicians": [
+        {
+          "id": "chun-piu-man-qh",
+          "name": "Chun Piu Man",
+          "sourceIds": [
+            "qh-man-bio"
+          ],
+          "scope": "Practice biography relationship; no individual network or schedule established.",
+          "licenseStatus": "not-checked"
+        },
+        {
+          "id": "xinwu-zhao-qh",
+          "name": "Xinwu Zhao",
+          "sourceIds": [
+            "qh-zhao-bio"
+          ],
+          "scope": "Practice biography relationship; no individual network or schedule established.",
+          "licenseStatus": "not-checked"
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "medi-cal-participation",
+          "sourceIds": [
+            "qh-insurance"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "communication-policy",
+          "sourceIds": [
+            "qh-access-policy"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ]
+    },
+    {
+      "id": "irvine-smile-dentistry",
+      "name": {
+        "display": "Irvine Smile Dentistry"
+      },
+      "entityKind": "organization",
+      "credentials": [],
+      "clinicianType": "dental-practice",
+      "specialties": [
+        "family general dentistry"
+      ],
+      "locationIds": [
+        "irvine-smile-irvine-center"
+      ],
+      "profileUrl": "https://irvinesmiledentistry.com/",
+      "portrait": null,
+      "mediaGallery": [],
+      "sourceIds": [
+        "irvine-smile-official"
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-02",
+        "licenseLookupStatus": "pending"
+      },
+      "access": {
+        "ffsEnrollment": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "acceptingNewMediCalPatients": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "appointmentAvailability": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "clinicianLanguages": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "staffLanguages": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "physicalAccessibility": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "teledentistry": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "ageScope": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "treatmentCoverage": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "referralRequirements": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "mediCalDental": {
+          "id": "irvine-smile-medi-cal",
+          "attribute": "medi-cal-dental-acceptance",
+          "value": "Medi-Cal Dental",
+          "sourceIds": [
+            "irvine-smile-official"
+          ],
+          "scope": "Practice statement; individual dentist, member eligibility and treatment coverage not established.",
+          "evidenceStatus": "source-stated",
+          "retrievedOn": "2026-10-02",
+          "sourceAsOf": null,
+          "evidenceLocator": "Payment Types",
+          "limitations": []
+        },
+        "communicationAssistance": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "services": {
+          "id": "irvine-smile-services",
+          "attribute": "services",
+          "value": [
+            "checkups",
+            "cleanings",
+            "fillings",
+            "crowns",
+            "bridges",
+            "extractions"
+          ],
+          "sourceIds": [
+            "irvine-smile-official"
+          ],
+          "scope": "Practice service list; no Medi-Cal coverage assertion.",
+          "evidenceStatus": "source-stated",
+          "retrievedOn": "2026-10-02",
+          "sourceAsOf": null,
+          "evidenceLocator": "Family General Dentistry",
+          "limitations": []
+        }
+      },
+      "reviewNotes": [
+        "Practice participation is source-stated; no government enrollment or current credential check performed.",
+        "Office phone is source-published; not called.",
+        "Another practice office is in Orange; only the Irvine location is included."
+      ],
+      "story": "Irvine Smile Dentistry lists Medi-Cal Dental and describes family dental services at its Irvine office. New Medi-Cal patient capacity, language support and specific accommodations remain unconfirmed.",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-02",
+        "sourceIds": [
+          "irvine-smile-official"
+        ],
+        "note": "Opened page exposes third-party-hosted imagery; excluded under physician/practice-owned domain requirement. No portrait selected."
+      },
+      "associatedClinicians": [
+        {
+          "id": "christine-phung-irvine-smile",
+          "name": "Christine Phung",
+          "sourceIds": [
+            "irvine-smile-official"
+          ],
+          "scope": "Named on practice home page; individual Irvine schedule not established.",
+          "licenseStatus": "not-checked"
+        },
+        {
+          "id": "andrew-nguyen-irvine-smile",
+          "name": "Andrew Nguyen",
+          "sourceIds": [
+            "irvine-smile-official"
+          ],
+          "scope": "Named on practice home page; individual Irvine schedule not established.",
+          "licenseStatus": "not-checked"
+        },
+        {
+          "id": "stacey-cao-irvine-smile",
+          "name": "Stacey Cao",
+          "sourceIds": [
+            "irvine-smile-official"
+          ],
+          "scope": "Named on practice home page; individual Irvine schedule not established.",
+          "licenseStatus": "not-checked"
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "medi-cal-participation",
+          "sourceIds": [
+            "irvine-smile-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "irvine-location",
+          "sourceIds": [
+            "irvine-smile-official"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "qh-insurance",
+      "type": "official-practice-page",
+      "publisher": "QH Dental",
+      "url": "https://www.qhdentaloffice.com/patient-information/insurance-payment-options/",
+      "retrievedOn": "2026-10-02",
+      "sourceStatedDate": null,
+      "verificationStatus": "source-stated",
+      "evidenceLocator": "Insurance list; office address/phone"
+    },
+    {
+      "id": "qh-access-policy",
+      "type": "official-practice-page",
+      "publisher": "QH Dental",
+      "url": "https://www.qhdentaloffice.com/patient-information/nondiscrimination-notice/",
+      "retrievedOn": "2026-10-02",
+      "sourceStatedDate": null,
+      "verificationStatus": "source-stated",
+      "evidenceLocator": "Free aids and language services; service-request contact instruction is blank"
+    },
+    {
+      "id": "qh-man-bio",
+      "type": "official-practice-page",
+      "publisher": "QH Dental",
+      "url": "https://www.qhdentaloffice.com/about-us/dr-chun-piu-man/",
+      "retrievedOn": "2026-10-02",
+      "sourceStatedDate": null,
+      "verificationStatus": "source-stated",
+      "evidenceLocator": "Named biography"
+    },
+    {
+      "id": "qh-zhao-bio",
+      "type": "official-practice-page",
+      "publisher": "QH Dental",
+      "url": "https://www.qhdentaloffice.com/about-us/dr-xinwu-zhao/",
+      "retrievedOn": "2026-10-02",
+      "sourceStatedDate": null,
+      "verificationStatus": "source-stated",
+      "evidenceLocator": "Named biography"
+    },
+    {
+      "id": "irvine-smile-official",
+      "type": "official-practice-page",
+      "publisher": "Irvine Smile Dentistry",
+      "url": "https://irvinesmiledentistry.com/",
+      "retrievedOn": "2026-10-02",
+      "sourceStatedDate": null,
+      "verificationStatus": "source-stated",
+      "evidenceLocator": "Payment Types; Irvine location; Dental Services; clinician names"
+    },
+    {
+      "id": "dhcs-directory-help",
+      "type": "government-program-directory",
+      "publisher": "California Department of Health Care Services",
+      "url": "https://dental.dhcs.ca.gov/Members/medi_Cal_Dental/Find_A_Dentist/DentalProviderDirectorySearch",
+      "retrievedOn": "2026-10-02",
+      "verificationStatus": "source-stated",
+      "evidenceLocator": "Availability disclaimer; interpreter/TTY help"
+    }
+  ],
+  "sharedAssistance": {
+    "sourceIds": [
+      "dhcs-directory-help"
+    ],
+    "scope": "State program help, separate from practice accommodation.",
+    "dentistFinding": {
+      "url": "https://dental.dhcs.ca.gov/Members/medi_Cal_Dental/Find_A_Dentist/DentalProviderDirectorySearch",
+      "phone": "+1-800-322-6384",
+      "tty": "+1-800-735-2922"
+    },
+    "limitations": [
+      "Directory listings do not guarantee additional-patient capacity.",
+      "Program interpreter help is not clinician language proficiency."
+    ]
+  },
+  "researchLeads": [
+    {
+      "name": "Dean F Ariaee DDS",
+      "url": "https://www.cosmeticirvinedentist.com/patient-information/",
+      "disposition": "hold-from-initial-cohort",
+      "reason": "Page combines Cal-Optima and Denti-Cal wording. Exact dental participation/routing needs clarification."
+    },
+    {
+      "name": "Elan Dentistry",
+      "url": "https://www.elandentistry.com/blog/looking-for-a-reliable-denti-cal-dentist-in-irvine",
+      "disposition": "excluded-from-irvine",
+      "reason": "Actual page address is in La Habra despite Irvine-focused marketing."
+    },
+    {
+      "name": "OC Smile Dental",
+      "url": "https://www.ocsmiledental.com/insurance_pay.htm",
+      "disposition": "retrieval-unresolved",
+      "reason": "Insurance page timed out; home page returned gateway failure."
+    }
+  ],
+  "futureMatching": {
+    "states": [
+      "supported",
+      "unsupported",
+      "unknown",
+      "conflicting"
+    ],
+    "note": "Match each explicit patient criterion separately. Unknown is not a negative finding or an all-criteria match. Do not infer language/gender or collect sensitive patient details."
+  }
+}
