@@ -10,10 +10,11 @@
       "country": "US",
       "postalCodes": [
         "92603",
-        "92604"
+        "92604",
+        "92620"
       ]
     },
-    "scopeNote": "Initial two-practice cohort, not a complete roster or ranking. Participation is practice-stated; current enrollment, new-patient capacity and treatment coverage are not confirmed. Missing access information means unknown.",
+    "scopeNote": "Initial three-practice cohort, not a complete roster or ranking. Participation is practice-stated; current enrollment, new-patient capacity and treatment coverage are not confirmed. Missing access information means unknown.",
     "lastVerified": "2026-10-02",
     "lastVerifiedMeaning": "Source research date only; not credential or availability verification.",
     "reviewStatus": "pending-human-review",
@@ -26,7 +27,7 @@
   },
   "importContract": {
     "mode": "create-new-directory",
-    "scope": "Owner-authorized Irvine Medi-Cal dental cohort, 2026-10-02: two practice entities and two documented Irvine locations.",
+    "scope": "Owner-authorized Irvine Medi-Cal dental cohort, 2026-10-02: three practice entities and three documented Irvine locations.",
     "entityIdentity": "Public IDs are durable import keys. Application assigns UUIDs after collision/identity checks; organizations must not become individual dentists.",
     "implementationTarget": "preview-only",
     "deploymentAuthorized": false,
@@ -79,6 +80,23 @@
       "website": "https://irvinesmiledentistry.com/",
       "sourceIds": [
         "irvine-smile-official"
+      ],
+      "contactStatus": "source-published-not-called"
+    },
+    {
+      "id": "orange-pro-jeffrey-road",
+      "name": "Orange Pro Dentist — Irvine",
+      "address": {
+        "line1": "14261 Jeffrey Rd",
+        "city": "Irvine",
+        "state": "CA",
+        "postalCode": "92620",
+        "country": "US"
+      },
+      "phone": "+1-949-387-8888",
+      "website": "https://orangeprodentist.com/",
+      "sourceIds": [
+        "orange-pro-official"
       ],
       "contactStatus": "source-published-not-called"
     }
@@ -450,6 +468,175 @@
           "verificationStatus": "source-stated"
         }
       ]
+    },
+    {
+      "id": "orange-pro-dentist-irvine",
+      "name": {
+        "display": "Orange Pro Dentist"
+      },
+      "entityKind": "organization",
+      "credentials": [],
+      "clinicianType": "dental-practice",
+      "specialties": [],
+      "locationIds": [
+        "orange-pro-jeffrey-road"
+      ],
+      "profileUrl": "https://orangeprodentist.com/",
+      "portrait": null,
+      "mediaGallery": [],
+      "sourceIds": [
+        "orange-pro-official",
+        "orange-pro-team"
+      ],
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-02",
+        "licenseLookupStatus": "pending"
+      },
+      "access": {
+        "ffsEnrollment": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "acceptingNewMediCalPatients": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "appointmentAvailability": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "clinicianLanguages": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "staffLanguages": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "physicalAccessibility": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "teledentistry": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "ageScope": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "treatmentCoverage": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "referralRequirements": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        },
+        "mediCalDental": {
+          "id": "orange-pro-medi-cal",
+          "attribute": "medi-cal-dental-acceptance",
+          "value": "Denti-Cal",
+          "sourceIds": [
+            "orange-pro-official"
+          ],
+          "scope": "Practice website statement at documented Irvine location; individual dentist participation, member eligibility and treatment coverage not established.",
+          "evidenceStatus": "source-stated",
+          "retrievedOn": "2026-10-02",
+          "sourceAsOf": null,
+          "evidenceLocator": "Homepage: Insurances Accepted",
+          "limitations": [
+            "Current government enrollment and new Medi-Cal patient capacity not checked."
+          ]
+        },
+        "communicationAssistance": {
+          "value": null,
+          "evidenceStatus": "unresolved",
+          "sourceIds": [],
+          "note": "Not established by this research."
+        }
+      },
+      "reviewNotes": [
+        "Practice participation is source-stated; no government enrollment or current credential check performed.",
+        "Repeated office phone is source-published; not called. Homepage also contains a different template placeholder phone and unfinished FAQ copy; placeholder excluded.",
+        "Practice team listing does not establish individual Irvine schedules or Medi-Cal participation."
+      ],
+      "story": "Orange Pro Dentist publishes an Irvine office on Jeffrey Road and lists Denti-Cal among its insurance options. Confirm new Medi-Cal patient availability, treatment coverage and any language or accessibility arrangements with the office.",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-02",
+        "sourceIds": [
+          "orange-pro-team"
+        ],
+        "note": "No portrait selected. Named team-page images are not cleared for ownership/use or application delivery/privacy."
+      },
+      "associatedClinicians": [
+        {
+          "id": "dina-aleissa-orange-pro",
+          "name": "Dina Aleissa",
+          "sourceIds": [
+            "orange-pro-team"
+          ],
+          "scope": "Named on practice team page; individual Irvine schedule and network participation not established.",
+          "licenseStatus": "not-checked"
+        },
+        {
+          "id": "sal-sheckley-orange-pro",
+          "name": "Sal Sheckley",
+          "sourceIds": [
+            "orange-pro-team"
+          ],
+          "scope": "Named on practice team page; individual Irvine schedule and network participation not established.",
+          "licenseStatus": "not-checked"
+        },
+        {
+          "id": "farnaz-fadavi-orange-pro",
+          "name": "Farnaz Fadavi",
+          "sourceIds": [
+            "orange-pro-team"
+          ],
+          "scope": "Named on practice team page; individual Irvine schedule and network participation not established.",
+          "licenseStatus": "not-checked"
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "medi-cal-participation",
+          "sourceIds": [
+            "orange-pro-official"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "irvine-location",
+          "sourceIds": [
+            "orange-pro-official"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ]
     }
   ],
   "sources": [
@@ -511,6 +698,26 @@
       "retrievedOn": "2026-10-02",
       "verificationStatus": "source-stated",
       "evidenceLocator": "Availability disclaimer; interpreter/TTY help"
+    },
+    {
+      "id": "orange-pro-official",
+      "type": "official-practice-page",
+      "publisher": "Orange Pro Dentist",
+      "url": "https://orangeprodentist.com/",
+      "retrievedOn": "2026-10-02",
+      "sourceStatedDate": null,
+      "verificationStatus": "source-stated",
+      "evidenceLocator": "Homepage insurance statement; repeated Irvine office contact information"
+    },
+    {
+      "id": "orange-pro-team",
+      "type": "official-practice-page",
+      "publisher": "Orange Pro Dentist",
+      "url": "https://orangeprodentist.com/our-team/",
+      "retrievedOn": "2026-10-02",
+      "sourceStatedDate": null,
+      "verificationStatus": "source-stated",
+      "evidenceLocator": "Named practice team biographies"
     }
   ],
   "sharedAssistance": {
@@ -546,6 +753,12 @@
       "url": "https://www.ocsmiledental.com/insurance_pay.htm",
       "disposition": "retrieval-unresolved",
       "reason": "Insurance page timed out; home page returned gateway failure."
+    },
+    {
+      "name": "Boutique Family Dentistry",
+      "url": "https://www.boutiquefamilydentistry.com/patient-information/",
+      "disposition": "participation-unresolved",
+      "reason": "Opened page documents Irvine office and PPO acceptance; no explicit Medi-Cal/Denti-Cal participation found on this page. Website text/font controls do not establish clinical accommodations or staff fluency."
     }
   ],
   "futureMatching": {
