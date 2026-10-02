@@ -1,0 +1,63 @@
+{
+  "schema_version": "openhealthcare.external-source-research.v1",
+  "researched_on": "2026-10-02",
+  "research_status": "reviewed-submission-not-independent-verification",
+  "input": "User-supplied Gemini batch Pasted text(3).txt",
+  "disposition": "No supported directory expansion or patient-access status upgrades.",
+  "reusable_findings": [
+    "General new-patient invitations do not establish new Medi-Cal capacity.",
+    "QH's previously sourced communication assistance policy remains supported; actual arrangements not tested.",
+    "Orange Pro homepage placeholder contact copy was already documented; no new conflict resolution.",
+    "Xinwu Zhao DMD correction retained.",
+    "No photo candidates approved."
+  ],
+  "held_claims": [
+    {
+      "claim": "All four offices have exact DHCS enrollment ties",
+      "reason": "Only ProviderSignal aggregator URL cited; no DHCS original record, dataset row, identifier or official query result supplied. Directory listing is not enrollment proof.",
+      "targeted_retrieval": {
+        "url": "https://providersignal.com/find-a-medicaid-dentist/ca/irvine",
+        "result": "Web open returned inaccessible; contents not independently reviewed."
+      }
+    },
+    {
+      "claim": "Boutique appears in state Medi-Cal directories",
+      "reason": "Aggregator misclassified as state source; preserve participation unknown and research-lead disposition."
+    },
+    {
+      "claim": "Orange Pro offers emergency care or next-day extractions",
+      "reason": "Patient testimonial is not a formal service/availability policy; homepage reviews may concern a differently named practice. Do not import as emergency capability."
+    },
+    {
+      "claim": "QH treats all ages",
+      "reason": "No exact supporting age-scope excerpt supplied; existing age scope remains unknown."
+    },
+    {
+      "claim": "Boutique digital translation English/Persian/Spanish",
+      "reason": "Previously opened page supports font/display controls; submitted combined excerpt does not supply inspectable translation evidence. Do not add languages or upgrade clinical accommodations."
+    },
+    {
+      "claim": "Photos cannot be extracted and physical accessibility is absent from all websites",
+      "reason": "Report describes search snippets and no complete crawl. Record not found in inspected material, not comprehensive absence or impossibility."
+    }
+  ],
+  "corrections": [
+    "Normalize practice website assertions to source-stated, not verified enrollment or credentials.",
+    "Irvine Smile payment participation uses saved homepage evidence; new-patients source establishes general invitation only.",
+    "PPO acceptance does not contradict possible Medi-Cal participation; Boutique is unknown, not a proved conflict.",
+    "Website-published office phone is not confirmed active by a call.",
+    "Do not infer emergency availability, exact age scope or covered services from testimonials or broad summaries.",
+    "Do not infer step-free access from street imagery; specific entry, route, restroom and chair/transfer needs require scoped evidence.",
+    "Reported identical Gemini timestamps are retained only as submission metadata, not our independent retrieval times."
+  ],
+  "photos": [],
+  "directory_changes": [],
+  "next_action": "Ask Gemini to return original government records with exact identifiers/location match or explicitly acknowledge that enrollment remains unverified. Seek new source evidence rather than repeatedly summarize known practices.",
+  "boundaries": {
+    "preview_only": true,
+    "deploy": false,
+    "outreach": false,
+    "preserve_existing_ids": true,
+    "media_holds_preserved": true
+  }
+}
