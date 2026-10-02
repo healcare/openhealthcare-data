@@ -1,0 +1,224 @@
+{
+  "preparedAt": "2026-10-01",
+  "scope": "Remaining five DC sourced narrative drafts and correction notes; contact values and credential identifiers omitted",
+  "baseline": "Managed preview checkpoint 405e9f5: 3 source-linked DC profiles, 5 older; 31 portraits / 48 fallbacks overall. Screenshot report, not independent rerun.",
+  "preserve": [
+    "IDs, canonical paths, aliases, directory membership, indexing/publication/claim/review states and original verification dates.",
+    "Existing working portraits, documented photo blockers, detailed on-page research and dated correction history.",
+    "No deployment or OC factual work; no blanket verified claim."
+  ],
+  "providers": [
+    {
+      "id": "e97eec81-8664-4115-a76f-2ceb0098d0d5",
+      "canonicalPath": "davidheilman",
+      "name": "David A. Heilman",
+      "sources": [
+        {
+          "url": "https://www.davidheilman.com/about/",
+          "retrievedAt": "2026-10-01",
+          "evidence": "source-stated",
+          "sourceDate": "not stated",
+          "limitation": "Practice-published, not independently verified."
+        },
+        {
+          "url": "https://www.davidheilman.com/contact/",
+          "retrievedAt": "2026-10-01",
+          "evidence": "source-stated",
+          "sourceDate": "not stated",
+          "limitation": "Practice-published, not independently verified."
+        }
+      ],
+      "draftSentences": [
+        {
+          "text": "David A. Heilman’s biography traces a path from professional opera singing to clinical psychology, describing earlier music study at Juilliard, the San Francisco Conservatory of Music and Music Academy of the West.",
+          "source": 0
+        },
+        {
+          "text": "He reports a clinical psychology doctorate from George Washington University and a graduate certificate in LGBT Health Policy and Practice.",
+          "source": 0
+        },
+        {
+          "text": "His practice describes work with adults, couples and groups, including LGBTQ+ concerns, adult ADHD and performance anxiety.",
+          "source": 0
+        }
+      ],
+      "conflicts": [
+        {
+          "field": "availability",
+          "sources": [
+            0,
+            1
+          ],
+          "detail": "Biography banner says at capacity/waitlist; contact page says currently accepting new clients. Do not select an accepting-new-patient status or infer which page is current.",
+          "nextAction": "Ask practice or obtain an unambiguous dated current source before marking availability."
+        }
+      ],
+      "legacyLimits": "Do not automatically release all stored EMDR/CBT/IFS/Gottman training claims. Preserve only exact supported, attributed statements; PSYPACT eligibility was not independently checked.",
+      "noticeDraft": "Biography and contact details are linked to practice sources. Current licenses remain unverified, and the practice pages give conflicting appointment-availability information.",
+      "portraitAction": "Preserve existing portrait and checks; no new request."
+    },
+    {
+      "id": "6f2f59dc-409d-4776-a10e-dde638cf828c",
+      "canonicalPath": "ellynturer",
+      "name": "Ellyn L. Turer",
+      "sources": [
+        {
+          "url": "https://psychologistdc.org/",
+          "retrievedAt": "2026-10-01",
+          "evidence": "source-stated",
+          "sourceDate": "not stated",
+          "limitation": "Practice-published, not independently verified."
+        },
+        {
+          "url": "https://psychologistdc.org/professional-profile/",
+          "retrievedAt": "2026-10-01",
+          "evidence": "source-stated",
+          "sourceDate": "not stated",
+          "limitation": "Practice-published, not independently verified."
+        },
+        {
+          "url": "https://psychologistdc.org/contact-us/",
+          "retrievedAt": "2026-10-01",
+          "evidence": "source-stated",
+          "sourceDate": "not stated",
+          "limitation": "Practice-published, not independently verified."
+        }
+      ],
+      "draftSentences": [
+        {
+          "text": "Ellyn L. Turer’s practice emphasizes the relationship between mental and physical health, including support around illness, injury, stress and sleep.",
+          "source": 0
+        },
+        {
+          "text": "Her professional profile reports a psychology BA from Boston University in 2003 and a master’s degree and clinical psychology doctorate from the Illinois School of Professional Psychology in 2010.",
+          "source": 1
+        },
+        {
+          "text": "It describes a 2010–2011 postdoctoral fellowship at Tampa General Hospital focused on burn injury, acute trauma and rehabilitation psychology.",
+          "source": 1
+        }
+      ],
+      "correction": {
+        "field": "undergraduate degree",
+        "old": "BS, Boston University",
+        "proposed": "Practice biography reports BA in Psychology, Boston University, 2003",
+        "source": 1,
+        "reason": "Legacy inventory differs from opened professional biography. Preserve dated correction note and source-stated status."
+      },
+      "legacyLimits": "Current DC/Maryland licenses unchecked. Do not upgrade practice claims to independently verified credentials; PsyD is the practice's own title.",
+      "noticeDraft": "Biography and mailing/contact details are linked to practice sources. Current DC and Maryland license status has not been independently checked.",
+      "portraitAction": "Preserve existing portrait and checks; no new request."
+    },
+    {
+      "id": "acc3abad-695f-4f2d-92fc-aede8a29b9fe",
+      "canonicalPath": "yvanypeery",
+      "name": "Yvany Peery",
+      "sources": [
+        {
+          "url": "https://dctalktherapy.com/member/yvany-peery-licsw-couples-therapist/",
+          "retrievedAt": "2026-10-01",
+          "evidence": "source-stated",
+          "sourceDate": "not stated",
+          "limitation": "Practice-published, not independently verified."
+        },
+        {
+          "url": "https://dctalktherapy.com/accepting-new-clients/",
+          "retrievedAt": "2026-10-01",
+          "evidence": "source-stated",
+          "sourceDate": "not stated",
+          "limitation": "Practice-published, not independently verified."
+        }
+      ],
+      "draftSentences": [
+        {
+          "text": "DC Talk Therapy describes Yvany Peery’s work with adults and couples, including trauma, loss, grief and relationship concerns.",
+          "source": 0
+        },
+        {
+          "text": "Her practice biography reports a social work master’s degree from the University of Maryland and a bachelor’s degree from Howard University.",
+          "source": 0
+        },
+        {
+          "text": "It describes Gottman Method training for couples work and an individual-therapy approach drawing on EMDR, CBT, internal family systems, mindfulness and somatic experiencing.",
+          "source": 0
+        }
+      ],
+      "legacyLimits": "Practice source supports Gottman training, not its exact level. DC/MD/VA licenses remain unchecked. Practice-wide immediate-appointment claim does not prove Peery's availability. Peery Professional Counseling same-surname search result was not used to establish identity.",
+      "noticeDraft": "Biography and practice contact details are source-linked. Current licenses and this clinician’s appointment availability have not been independently checked.",
+      "portraitAction": "Preserve existing portrait and checks; no new request."
+    },
+    {
+      "id": "a8373cb6-63a1-4684-83ee-8e01f5649a31",
+      "canonicalPath": "tashekacox",
+      "name": "Tasheka Cox",
+      "sources": [
+        {
+          "url": "https://mindovermoodhealing.com/",
+          "retrievedAt": "2026-10-01",
+          "evidence": "source-stated",
+          "sourceDate": "not stated",
+          "limitation": "Practice-published, not independently verified."
+        }
+      ],
+      "identityEvidence": "Named Tasheka Cox homepage, matching Mind Over Mood Healing practice; previously recorded cross-site discovery leads support domain association.",
+      "draftSentences": [
+        {
+          "text": "Tasheka Cox’s Mind Over Mood Healing practice describes psychotherapy for women facing anxiety, depression, trauma-related distress, emotional exhaustion and life transitions.",
+          "source": 0
+        },
+        {
+          "text": "Her introduction focuses on how past experiences, beliefs and protective patterns connect.",
+          "source": 0
+        },
+        {
+          "text": "The site also describes educational workshops and speaking engagements for schools, churches, conferences and community organizations.",
+          "source": 0
+        }
+      ],
+      "legacyLimits": "Homepage does not establish degrees, current licenses, publication identity, EMDR/ACT/IFS qualifications or exact telehealth jurisdictions. Do not infer that practice marketing or accepting-clients banner independently confirms these.",
+      "noticeDraft": "Practice description is source-linked. Current credentials, direct contact details and individual appointment availability remain unconfirmed.",
+      "portraitAction": "Keep fallback. Previous text extraction did not expose a portrait URL; no guessed assets or repeated blocked checks."
+    },
+    {
+      "id": "631701d1-55d2-4341-92ca-0e98dc2a3008",
+      "canonicalPath": "tiffanybufortodom",
+      "name": "Tiffany Bufort-Odom",
+      "sources": [
+        {
+          "url": "https://bio.site/journeywithTIFF",
+          "retrievedAt": "2026-10-01",
+          "evidence": "source-stated",
+          "sourceDate": "not stated",
+          "limitation": "Practice-published, not independently verified."
+        },
+        {
+          "url": "https://brainspotting.com/directory/name/tiffany-bufort-odom-lpc/",
+          "retrievedAt": "2026-10-01",
+          "evidence": "named modality-directory listing; current entry observed, underlying qualification not independently audited",
+          "sourceDate": "not stated",
+          "limitation": "Practice-published, not independently verified."
+        }
+      ],
+      "identityEvidence": "Named Bio Sites page links to Psychology Today profile 1004033 and an Our Journey Counseling scheduling destination; matching name/practice context.",
+      "draftSentences": [
+        {
+          "text": "Tiffany Bufort-Odom’s professional link page describes trauma-focused work with an emphasis on complex trauma and relational healing.",
+          "source": 0
+        },
+        {
+          "text": "It lists EMDR and Brainspotting practice, clinical supervision and speaking among her professional activities.",
+          "source": 0
+        },
+        {
+          "text": "The Brainspotting directory separately lists her under its trained and certified therapist categories.",
+          "source": 1
+        }
+      ],
+      "legacyLimits": "Current state licenses, ACS, CCTP, EMDR certification and education remain unchecked. A modality directory category is not a state license check. Do not fill a blank contact from a different provider at the same address.",
+      "noticeDraft": "Professional description is source-linked. Current state licenses and direct practice contact details have not been independently checked.",
+      "portraitAction": "Preserve already mapped portrait and its one-time passed checks; no new image request."
+    }
+  ],
+  "implementation": "Use only sentence-mapped supported claims. Preserve prior records and source observations. Compare contacts to current app before changes; keep unknowns/conflicts explicit. Update cohort badge only after supported research is incorporated, without changing verification state.",
+  "limitations": "No licensing authority checks, human review, call tests, image privacy requests, production checks or deployment were performed. Contact values and license identifiers are excluded from this saved packet."
+}
