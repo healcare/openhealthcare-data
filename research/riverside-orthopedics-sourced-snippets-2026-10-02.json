@@ -1,0 +1,524 @@
+{
+  "research_date": "2026-10-02",
+  "timezone": "Etc/UTC",
+  "directory": "orthopedic-surgeons-riverside",
+  "purpose": "Source-backed narratives and scoped evidence for meaningful provider connections and custom healthcare access.",
+  "stage": "research only; not integrated or deployed",
+  "coverage": {
+    "existing_records_investigated": 7,
+    "source_mapped_narrative_drafts": 6,
+    "current_practice_or_health_system_sources": 4,
+    "historical_institutional_sources": 2,
+    "primary_source_holds": 1,
+    "narrative_sentence_claims": 17
+  },
+  "profiles": [
+    {
+      "provider_id": "833a4455-6e10-46e7-8968-c000be91e9ba",
+      "canonical_path": "babakkhamsiMD",
+      "name": "Babak Khamsi",
+      "stage": "source-mapped narrative draft; not integrated",
+      "proposed_snippet": "Babak Khamsi’s biography describes moving from electrical engineering at UCLA into medicine after encouragement from his grandmother. It reports medical school at SUNY Upstate, orthopedic residency at Rutgers New Jersey Medical School, and a combined neurosurgical and orthopedic spine fellowship at UCLA. He describes a conservative approach to spine care, considering surgery after nonoperative options.",
+      "claims": [
+        {
+          "claim_id": "833a4455-6e10-46e7-8968-c000be91e9ba:narrative:1:2026-10-02",
+          "attribute": "professional_narrative",
+          "sentence": "Babak Khamsi’s biography describes moving from electrical engineering at UCLA into medicine after encouragement from his grandmother.",
+          "source_url": "https://www.khamsimd.com/meet-us",
+          "publisher": "Babak Khamsi practice",
+          "supporting_observation": "Biography explicitly describes engineering-to-medicine transition.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "833a4455-6e10-46e7-8968-c000be91e9ba:narrative:2:2026-10-02",
+          "attribute": "professional_narrative",
+          "sentence": "It reports medical school at SUNY Upstate, orthopedic residency at Rutgers New Jersey Medical School, and a combined neurosurgical and orthopedic spine fellowship at UCLA.",
+          "source_url": "https://www.khamsimd.com/meet-us",
+          "publisher": "Babak Khamsi practice",
+          "supporting_observation": "Named biography lists medical school, residency and spine fellowship.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "833a4455-6e10-46e7-8968-c000be91e9ba:narrative:3:2026-10-02",
+          "attribute": "professional_narrative",
+          "sentence": "He describes a conservative approach to spine care, considering surgery after nonoperative options.",
+          "source_url": "https://www.khamsimd.com/meet-us",
+          "publisher": "Babak Khamsi practice",
+          "supporting_observation": "Named biography describes nonoperative care and surgery as a last resort.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        }
+      ],
+      "limitations": [
+        "Practice or health-system statements are not independent current credential, license, network or availability verification."
+      ],
+      "next_action": "Check issuing authorities or exact plan and appointment details only when required for a user's match.",
+      "portrait_action": "preserve current mapping or fallback; no new image requests or privacy retests",
+      "legacy_date_to_preserve": "2026-05-20T00:00:00.000Z"
+    },
+    {
+      "provider_id": "f9b86381-653d-43c5-a339-7271b2d56a8f",
+      "canonical_path": "geneChoiMD",
+      "name": "Gene Choi",
+      "stage": "source-mapped narrative draft; not integrated",
+      "proposed_snippet": "UC Davis’s 2009 graduate symposium program identifies Gene Choi as a spine fellow preparing to join Riverside Medical Clinic. The program lists medical school at Tufts and orthopedic residency through New York Medical College. In his statement, Choi reflects on learning spine surgery while developing patient relationships, valuing their trust and continuing to learn.",
+      "claims": [
+        {
+          "claim_id": "f9b86381-653d-43c5-a339-7271b2d56a8f:narrative:1:2026-10-02",
+          "attribute": "professional_narrative",
+          "sentence": "UC Davis’s 2009 graduate symposium program identifies Gene Choi as a spine fellow preparing to join Riverside Medical Clinic.",
+          "source_url": "https://health.ucdavis.edu/orthopaedics/pdfs/symposium_program.pdf",
+          "publisher": "UC Davis Department of Orthopaedic Surgery",
+          "supporting_observation": "PDF page index 11 names Gene Choi, Spine Fellow, next step Riverside Medical Clinic; cover dates June 18–19, 2009.",
+          "retrieved_date": "2026-10-02",
+          "source_date": "2009-06-19",
+          "evidence_status": "historical-source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "f9b86381-653d-43c5-a339-7271b2d56a8f:narrative:2:2026-10-02",
+          "attribute": "professional_narrative",
+          "sentence": "The program lists medical school at Tufts and orthopedic residency through New York Medical College.",
+          "source_url": "https://health.ucdavis.edu/orthopaedics/pdfs/symposium_program.pdf",
+          "publisher": "UC Davis Department of Orthopaedic Surgery",
+          "supporting_observation": "PDF page index 11 education block lists Tufts medical school and New York Medical College residency.",
+          "retrieved_date": "2026-10-02",
+          "source_date": "2009-06-19",
+          "evidence_status": "historical-source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "f9b86381-653d-43c5-a339-7271b2d56a8f:narrative:3:2026-10-02",
+          "attribute": "professional_narrative",
+          "sentence": "In his statement, Choi reflects on learning spine surgery while developing patient relationships, valuing their trust and continuing to learn.",
+          "source_url": "https://health.ucdavis.edu/orthopaedics/pdfs/symposium_program.pdf",
+          "publisher": "UC Davis Department of Orthopaedic Surgery",
+          "supporting_observation": "PDF page index 11 personal statement describes patient interaction, trust and continued learning.",
+          "retrieved_date": "2026-10-02",
+          "source_date": "2009-06-19",
+          "evidence_status": "historical-source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        }
+      ],
+      "limitations": [
+        "Historical document; does not establish current affiliation, services, licensure, language, insurance or appointment availability."
+      ],
+      "next_action": "Retrieve an accessible current named clinic profile before using affiliation or services as current matching evidence.",
+      "portrait_action": "preserve current mapping or fallback; no new image requests or privacy retests",
+      "legacy_date_to_preserve": "2026-05-20T00:00:00.000Z"
+    },
+    {
+      "provider_id": "ad60195c-c95f-46a3-9603-7271f4931ed1",
+      "canonical_path": "harkeeratdhillonMD",
+      "name": "Harkeerat S. Dhillon",
+      "stage": "source-mapped narrative draft; not integrated",
+      "proposed_snippet": "UC Riverside’s May 2023 conference program identifies Harkeerat Singh Dhillon as an orthopedic and hand surgeon at Riverside Medical Clinic. The same historical account describes his work beyond medicine, including poetry books and founding the Riverside International Film Festival. It also records an award established with his wife to support Sikh and Punjabi studies in the arts and humanities at UC Riverside.",
+      "claims": [
+        {
+          "claim_id": "ad60195c-c95f-46a3-9603-7271f4931ed1:narrative:1:2026-10-02",
+          "attribute": "professional_narrative",
+          "sentence": "UC Riverside’s May 2023 conference program identifies Harkeerat Singh Dhillon as an orthopedic and hand surgeon at Riverside Medical Clinic.",
+          "source_url": "https://spstudies.ucr.edu/wp-content/uploads/2023/04/8th-Sikh-Studies-Conference-Program.pdf",
+          "publisher": "UC Riverside",
+          "supporting_observation": "PDF cover dates May 5–6, 2023; page index 12 names clinician and Riverside Medical Clinic.",
+          "retrieved_date": "2026-10-02",
+          "source_date": "2023-05-06",
+          "evidence_status": "historical-source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "ad60195c-c95f-46a3-9603-7271f4931ed1:narrative:2:2026-10-02",
+          "attribute": "professional_narrative",
+          "sentence": "The same historical account describes his work beyond medicine, including poetry books and founding the Riverside International Film Festival.",
+          "source_url": "https://spstudies.ucr.edu/wp-content/uploads/2023/04/8th-Sikh-Studies-Conference-Program.pdf",
+          "publisher": "UC Riverside",
+          "supporting_observation": "PDF page index 12 lists poetry books and founder role at film festival.",
+          "retrieved_date": "2026-10-02",
+          "source_date": "2023-05-06",
+          "evidence_status": "historical-source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "ad60195c-c95f-46a3-9603-7271f4931ed1:narrative:3:2026-10-02",
+          "attribute": "professional_narrative",
+          "sentence": "It also records an award established with his wife to support Sikh and Punjabi studies in the arts and humanities at UC Riverside.",
+          "source_url": "https://spstudies.ucr.edu/wp-content/uploads/2023/04/8th-Sikh-Studies-Conference-Program.pdf",
+          "publisher": "UC Riverside",
+          "supporting_observation": "PDF page index 12 describes named research award established by the couple.",
+          "retrieved_date": "2026-10-02",
+          "source_date": "2023-05-06",
+          "evidence_status": "historical-source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        }
+      ],
+      "limitations": [
+        "Historical document; does not establish current affiliation, services, licensure, language, insurance or appointment availability."
+      ],
+      "next_action": "Retrieve an accessible current named clinic profile before using affiliation or services as current matching evidence.",
+      "portrait_action": "preserve current mapping or fallback; no new image requests or privacy retests",
+      "legacy_date_to_preserve": "2026-05-20T00:00:00.000Z"
+    },
+    {
+      "provider_id": "6dbd15b7-b965-4a14-878c-19ef55a932d0",
+      "canonical_path": "lawrencehsuMD",
+      "name": "Lawrence P. Hsu",
+      "stage": "source-mapped narrative draft; not integrated",
+      "proposed_snippet": "Lawrence Hsu’s Kaiser Permanente profile lists medical school and orthopedic residency at Northwestern, followed by a sports medicine fellowship at Kaiser Foundation Hospital in Anaheim. The health system lists him in orthopedics at its Riverside and Murrieta facilities.",
+      "claims": [
+        {
+          "claim_id": "6dbd15b7-b965-4a14-878c-19ef55a932d0:narrative:1:2026-10-02",
+          "attribute": "professional_narrative",
+          "sentence": "Lawrence Hsu’s Kaiser Permanente profile lists medical school and orthopedic residency at Northwestern, followed by a sports medicine fellowship at Kaiser Foundation Hospital in Anaheim.",
+          "source_url": "https://healthy.kaiserpermanente.org/southern-california/physicians/lawrence-hsu-2842632",
+          "publisher": "Kaiser Permanente",
+          "supporting_observation": "Named health-system profile lists Northwestern medical school/residency and Anaheim sports medicine fellowship.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "6dbd15b7-b965-4a14-878c-19ef55a932d0:narrative:2:2026-10-02",
+          "attribute": "professional_narrative",
+          "sentence": "The health system lists him in orthopedics at its Riverside and Murrieta facilities.",
+          "source_url": "https://healthy.kaiserpermanente.org/southern-california/physicians/lawrence-hsu-2842632",
+          "publisher": "Kaiser Permanente",
+          "supporting_observation": "Named clinician profile lists Riverside Medical Center and Murrieta Medical Offices orthopedics.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        }
+      ],
+      "limitations": [
+        "Practice or health-system statements are not independent current credential, license, network or availability verification."
+      ],
+      "next_action": "Check issuing authorities or exact plan and appointment details only when required for a user's match.",
+      "portrait_action": "preserve current mapping or fallback; no new image requests or privacy retests",
+      "legacy_date_to_preserve": "2026-05-20T00:00:00.000Z"
+    },
+    {
+      "provider_id": "50b53690-8eff-45c5-a473-ac0ff766936b",
+      "canonical_path": "lorentholckeDO",
+      "name": "Loren C. Tholcke",
+      "stage": "source-mapped narrative draft; not integrated",
+      "proposed_snippet": "Loren Tholcke’s practice biography describes a path from emergency medical technician to emergency-room technician and orthopedic technician before becoming a surgeon. It reports an osteopathic medical degree at Western University in Pomona, residency at Riverside University Medical Center and additional fellowship training in orthopedic trauma. Outside medicine, the biography describes his enthusiasm for watersports, including wakeboarding and wakesurfing.",
+      "claims": [
+        {
+          "claim_id": "50b53690-8eff-45c5-a473-ac0ff766936b:narrative:1:2026-10-02",
+          "attribute": "professional_narrative",
+          "sentence": "Loren Tholcke’s practice biography describes a path from emergency medical technician to emergency-room technician and orthopedic technician before becoming a surgeon.",
+          "source_url": "https://www.orthopedicsurgeryandsportsmed.com/loren-tholcke-do-orthopaedic-sports-medicine-surgery-temecula-ca/",
+          "publisher": "Orthopaedic Surgery and Sports Medicine",
+          "supporting_observation": "Named biography describes EMT, ER technician and orthopedic technician sequence.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "50b53690-8eff-45c5-a473-ac0ff766936b:narrative:2:2026-10-02",
+          "attribute": "professional_narrative",
+          "sentence": "It reports an osteopathic medical degree at Western University in Pomona, residency at Riverside University Medical Center and additional fellowship training in orthopedic trauma.",
+          "source_url": "https://www.orthopedicsurgeryandsportsmed.com/loren-tholcke-do-orthopaedic-sports-medicine-surgery-temecula-ca/",
+          "publisher": "Orthopaedic Surgery and Sports Medicine",
+          "supporting_observation": "Named biography lists Western University medical degree, Riverside residency and trauma fellowship without institution.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "50b53690-8eff-45c5-a473-ac0ff766936b:narrative:3:2026-10-02",
+          "attribute": "professional_narrative",
+          "sentence": "Outside medicine, the biography describes his enthusiasm for watersports, including wakeboarding and wakesurfing.",
+          "source_url": "https://www.orthopedicsurgeryandsportsmed.com/loren-tholcke-do-orthopaedic-sports-medicine-surgery-temecula-ca/",
+          "publisher": "Orthopaedic Surgery and Sports Medicine",
+          "supporting_observation": "Named biography lists water-based hobbies.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        }
+      ],
+      "limitations": [
+        "Practice or health-system statements are not independent current credential, license, network or availability verification.",
+        "Undergraduate institution is ambiguously named in source; omitted rather than normalized to legacy institution."
+      ],
+      "next_action": "Check issuing authorities or exact plan and appointment details only when required for a user's match.",
+      "portrait_action": "preserve current mapping or fallback; no new image requests or privacy retests",
+      "legacy_date_to_preserve": "2026-05-20T00:00:00.000Z"
+    },
+    {
+      "provider_id": "e924f36d-4599-4f5c-87ea-792c30d3ca1e",
+      "canonical_path": "omarkadriMD",
+      "name": "Omar M. Kadri",
+      "stage": "source-mapped narrative draft; not integrated",
+      "proposed_snippet": "Omar Kadri’s practice biography describes a focus on adult hip and knee reconstruction. It reports medical school at UCLA, orthopedic residency at Henry Ford in Detroit and an adult reconstruction fellowship at Allegheny General Hospital in Pittsburgh. The biography also lists guitar, golf and tennis among his interests outside medicine.",
+      "claims": [
+        {
+          "claim_id": "e924f36d-4599-4f5c-87ea-792c30d3ca1e:narrative:1:2026-10-02",
+          "attribute": "professional_narrative",
+          "sentence": "Omar Kadri’s practice biography describes a focus on adult hip and knee reconstruction.",
+          "source_url": "https://www.orthopedicsurgeryandsportsmed.com/omar-m-kadri-md-orthopaedic-sports-medicine-surgery-temecula-ca/",
+          "publisher": "Orthopaedic Surgery and Sports Medicine",
+          "supporting_observation": "Named biography identifies adult reconstruction care focus.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "e924f36d-4599-4f5c-87ea-792c30d3ca1e:narrative:2:2026-10-02",
+          "attribute": "professional_narrative",
+          "sentence": "It reports medical school at UCLA, orthopedic residency at Henry Ford in Detroit and an adult reconstruction fellowship at Allegheny General Hospital in Pittsburgh.",
+          "source_url": "https://www.orthopedicsurgeryandsportsmed.com/omar-m-kadri-md-orthopaedic-sports-medicine-surgery-temecula-ca/",
+          "publisher": "Orthopaedic Surgery and Sports Medicine",
+          "supporting_observation": "Named biography lists UCLA, Henry Ford and Allegheny General training.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "e924f36d-4599-4f5c-87ea-792c30d3ca1e:narrative:3:2026-10-02",
+          "attribute": "professional_narrative",
+          "sentence": "The biography also lists guitar, golf and tennis among his interests outside medicine.",
+          "source_url": "https://www.orthopedicsurgeryandsportsmed.com/omar-m-kadri-md-orthopaedic-sports-medicine-surgery-temecula-ca/",
+          "publisher": "Orthopaedic Surgery and Sports Medicine",
+          "supporting_observation": "Named biography lists guitar, golf and tennis.",
+          "retrieved_date": "2026-10-02",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        }
+      ],
+      "limitations": [
+        "Practice or health-system statements are not independent current credential, license, network or availability verification."
+      ],
+      "next_action": "Check issuing authorities or exact plan and appointment details only when required for a user's match.",
+      "portrait_action": "preserve current mapping or fallback; no new image requests or privacy retests",
+      "legacy_date_to_preserve": "2026-05-20T00:00:00.000Z"
+    },
+    {
+      "provider_id": "69fee9b1-8b8d-4e0c-84f7-9899c500acd6",
+      "canonical_path": "michaellucianoMD",
+      "name": "Michael C. Luciano",
+      "stage": "primary-source hold",
+      "proposed_snippet": null,
+      "claims": [],
+      "limitations": [
+        "No suitable primary-source biography retrieved. Doximity and an unclaimed IMEPro listing remain discovery leads, not clinician-authored confirmation.",
+        "Same-name Pennsylvania DO family-medicine and Connecticut obituary results must not be merged."
+      ],
+      "next_action": "Locate a matching named hospital/practice biography or directly authored professional profile. Do not infer retirement, identity failure or inactive licensure from missing sources.",
+      "portrait_action": "preserve current mapping or fallback; no new image requests or privacy retests",
+      "legacy_date_to_preserve": "2026-05-20T00:00:00.000Z"
+    }
+  ],
+  "matching_evidence": [
+    {
+      "claim_id": "833a4455-6e10-46e7-8968-c000be91e9ba:language:2026-10-02",
+      "provider_id": "833a4455-6e10-46e7-8968-c000be91e9ba",
+      "canonical_path": "babakkhamsiMD",
+      "attribute": "language",
+      "value": [
+        "Spanish"
+      ],
+      "scope": "practice",
+      "source_url": "https://www.khamsimd.com/meet-us",
+      "retrieved_date": "2026-10-02",
+      "source_date": null,
+      "evidence_status": "source-stated",
+      "supporting_observation": "Office footer says Se Habla Español.",
+      "independent_check": false,
+      "matching_limit": "Does not establish that Khamsi personally speaks Spanish; ask about clinician or interpreter access."
+    },
+    {
+      "claim_id": "6dbd15b7-b965-4a14-878c-19ef55a932d0:language:2026-10-02",
+      "provider_id": "6dbd15b7-b965-4a14-878c-19ef55a932d0",
+      "canonical_path": "lawrencehsuMD",
+      "attribute": "language",
+      "value": [
+        "English"
+      ],
+      "scope": "named clinician",
+      "source_url": "https://healthy.kaiserpermanente.org/southern-california/physicians/lawrence-hsu-2842632",
+      "retrieved_date": "2026-10-02",
+      "source_date": null,
+      "evidence_status": "source-stated",
+      "supporting_observation": "Profile says I speak English.",
+      "independent_check": false,
+      "matching_limit": "Proficiency unspecified; no other language inferred."
+    },
+    {
+      "claim_id": "6dbd15b7-b965-4a14-878c-19ef55a932d0:gender:2026-10-02",
+      "provider_id": "6dbd15b7-b965-4a14-878c-19ef55a932d0",
+      "canonical_path": "lawrencehsuMD",
+      "attribute": "gender",
+      "value": "Male",
+      "scope": "named clinician",
+      "source_url": "https://healthy.kaiserpermanente.org/southern-california/physicians/lawrence-hsu-2842632",
+      "retrieved_date": "2026-10-02",
+      "source_date": null,
+      "evidence_status": "source-stated",
+      "supporting_observation": "Named profile explicitly lists gender Male.",
+      "independent_check": false,
+      "matching_limit": "Source field only; do not infer gender for other clinicians."
+    },
+    {
+      "claim_id": "6dbd15b7-b965-4a14-878c-19ef55a932d0:care_mode:2026-10-02",
+      "provider_id": "6dbd15b7-b965-4a14-878c-19ef55a932d0",
+      "canonical_path": "lawrencehsuMD",
+      "attribute": "care_mode",
+      "value": [
+        "telehealth"
+      ],
+      "scope": "named clinician",
+      "source_url": "https://healthy.kaiserpermanente.org/southern-california/physicians/lawrence-hsu-2842632",
+      "retrieved_date": "2026-10-02",
+      "source_date": null,
+      "evidence_status": "source-stated",
+      "supporting_observation": "Provider page says provider offers telehealth services.",
+      "independent_check": false,
+      "matching_limit": "No live appointment, clinical appropriateness or exact member eligibility confirmation."
+    },
+    {
+      "claim_id": "6dbd15b7-b965-4a14-878c-19ef55a932d0:practice_cities:2026-10-02",
+      "provider_id": "6dbd15b7-b965-4a14-878c-19ef55a932d0",
+      "canonical_path": "lawrencehsuMD",
+      "attribute": "practice_cities",
+      "value": [
+        "Riverside",
+        "Murrieta"
+      ],
+      "scope": "named clinician",
+      "source_url": "https://healthy.kaiserpermanente.org/southern-california/physicians/lawrence-hsu-2842632",
+      "retrieved_date": "2026-10-02",
+      "source_date": null,
+      "evidence_status": "source-stated",
+      "supporting_observation": "Orthopedics locations listed under provider.",
+      "independent_check": false,
+      "matching_limit": "No current schedule or appointment availability confirmation."
+    },
+    {
+      "claim_id": "6dbd15b7-b965-4a14-878c-19ef55a932d0:plan_categories:2026-10-02",
+      "provider_id": "6dbd15b7-b965-4a14-878c-19ef55a932d0",
+      "canonical_path": "lawrencehsuMD",
+      "attribute": "plan_categories",
+      "value": [
+        "EPO",
+        "HMO",
+        "Medi-Cal Managed Care",
+        "POS",
+        "Senior Advantage"
+      ],
+      "scope": "health-system listing for named clinician",
+      "source_url": "https://healthy.kaiserpermanente.org/southern-california/physicians/lawrence-hsu-2842632",
+      "retrieved_date": "2026-10-02",
+      "source_date": null,
+      "evidence_status": "source-stated",
+      "supporting_observation": "Page displays accepted plan categories.",
+      "independent_check": false,
+      "matching_limit": "Broad categories are not exact insurer/product/network/member confirmation."
+    },
+    {
+      "claim_id": "50b53690-8eff-45c5-a473-ac0ff766936b:practice_cities:2026-10-02",
+      "provider_id": "50b53690-8eff-45c5-a473-ac0ff766936b",
+      "canonical_path": "lorentholckeDO",
+      "attribute": "practice_cities",
+      "value": [
+        "Temecula",
+        "Riverside",
+        "Corona"
+      ],
+      "scope": "practice",
+      "source_url": "https://www.orthopedicsurgeryandsportsmed.com/loren-tholcke-do-orthopaedic-sports-medicine-surgery-temecula-ca/",
+      "retrieved_date": "2026-10-02",
+      "source_date": null,
+      "evidence_status": "source-stated",
+      "supporting_observation": "Group biography footer lists three practice office cities.",
+      "independent_check": false,
+      "matching_limit": "Does not establish this clinician's schedule at each office."
+    },
+    {
+      "claim_id": "e924f36d-4599-4f5c-87ea-792c30d3ca1e:practice_cities:2026-10-02",
+      "provider_id": "e924f36d-4599-4f5c-87ea-792c30d3ca1e",
+      "canonical_path": "omarkadriMD",
+      "attribute": "practice_cities",
+      "value": [
+        "Temecula",
+        "Riverside",
+        "Corona"
+      ],
+      "scope": "practice",
+      "source_url": "https://www.orthopedicsurgeryandsportsmed.com/omar-m-kadri-md-orthopaedic-sports-medicine-surgery-temecula-ca/",
+      "retrieved_date": "2026-10-02",
+      "source_date": null,
+      "evidence_status": "source-stated",
+      "supporting_observation": "Group biography footer lists three practice office cities.",
+      "independent_check": false,
+      "matching_limit": "Does not establish this clinician's schedule at each office."
+    }
+  ],
+  "preservation_requirements": [
+    "Preserve provider IDs, exact mixed-case canonical paths, aliases and directory membership.",
+    "Preserve publication/indexing/claim/review states, original verification dates, correction and source histories.",
+    "Preserve all existing photos and withheld/fallback outcomes; no privacy retests.",
+    "Keep Orange County factual research paused.",
+    "Source retrieval date is not a new credential verification date.",
+    "Retain historical attribution in snippets; do not rewrite historical affiliation into current facts."
+  ],
+  "search_outcomes": [
+    {
+      "providers": [
+        "Gene Choi",
+        "Harkeerat S. Dhillon"
+      ],
+      "outcome": "Direct Riverside Medical Clinic biographies returned 403; no bypass attempted.",
+      "urls": [
+        "https://www.riversidemedicalclinic.com/doctors/choi-gene-m-d/",
+        "https://www.riversidemedicalclinic.com/doctors/dhillon-harkeerat-s-m-d/"
+      ]
+    },
+    {
+      "provider": "Gene Choi",
+      "outcome": "Riverside Community Hospital profile returned 403.",
+      "url": "https://www.riversidecommunityhospital.com/physicians/profile/Dr-Gene-Choi-MD"
+    },
+    {
+      "provider": "Gene Choi",
+      "outcome": "UC Davis PDF page screenshot tool failed twice; text extraction clearly names clinician and education block. Date confirmed on cover. No screenshot validation claimed."
+    },
+    {
+      "provider": "Michael C. Luciano",
+      "outcome": "IMEPro profile invites clinician to claim profile; unclaimed intermediary listing not used as primary evidence.",
+      "url": "https://imepro.io/network/dr-luciano-orthopaedic-surgery-qme-torrance/"
+    }
+  ]
+}
