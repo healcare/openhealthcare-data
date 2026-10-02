@@ -1,0 +1,525 @@
+{
+  "research_date": "2026-10-01",
+  "timezone": "America/Los_Angeles",
+  "directory": "dentists-cupertino",
+  "purpose": "Fill missing source-backed snippets and retain criterion-level evidence for future custom healthcare access.",
+  "stage": "research only; not implemented or deployed",
+  "coverage": {
+    "existing_records_investigated": 7,
+    "source_mapped_narrative_drafts": 6,
+    "discovery_only": 1
+  },
+  "profiles": [
+    {
+      "provider_id": "63bb950f-715e-4aca-ae19-00a57b626e78",
+      "canonical_path": "bexteryangDDS",
+      "name": "Bexter M. Yang",
+      "stage": "source-mapped narrative draft; not integrated",
+      "proposed_snippet": "Bexter Yang’s biography describes a path from general dentistry to endodontics, including dental oncology training at Roswell Park and advanced dental training at UCSF. It says he returned to SUNY Buffalo for a master’s degree and endodontic training, then opened his specialty office in 2005. He describes his role as working alongside referring dentists as part of a patient’s care team.",
+      "claims": [
+        {
+          "claim_id": "63bb950f-715e-4aca-ae19-00a57b626e78:narrative:1:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "Bexter Yang’s biography describes a path from general dentistry to endodontics, including dental oncology training at Roswell Park and advanced dental training at UCSF.",
+          "source_url": "https://byendo-cupertino.com/p/Endodontist-Cupertino-CA-Meet-Dr-Yang-p33886.asp",
+          "publisher": "Bexter M. Yang practice",
+          "supporting_observation": "Biography reports dental oncology fellowship, UCSF AEGD, and former general dentist background.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "63bb950f-715e-4aca-ae19-00a57b626e78:narrative:2:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "It says he returned to SUNY Buffalo for a master’s degree and endodontic training, then opened his specialty office in 2005.",
+          "source_url": "https://byendo-cupertino.com/p/Endodontist-Cupertino-CA-Meet-Dr-Yang-p33886.asp",
+          "publisher": "Bexter M. Yang practice",
+          "supporting_observation": "Biography states return to SUNY Buffalo in 1999, master's/endodontic training and specialty office start in 2005.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "63bb950f-715e-4aca-ae19-00a57b626e78:narrative:3:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "He describes his role as working alongside referring dentists as part of a patient’s care team.",
+          "source_url": "https://byendo-cupertino.com/p/Endodontist-Cupertino-CA-Meet-Dr-Yang-p33886.asp",
+          "publisher": "Bexter M. Yang practice",
+          "supporting_observation": "Named quotation describes being part of the patient care team and supporting referring dentists.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        }
+      ],
+      "limitations": [
+        "Current board status and UCSF academic appointment are source claims not independently checked; omitted from current snippet."
+      ],
+      "next_action": "Check current board status at the issuing board and current academic role at UCSF if either is needed for matching.",
+      "portrait_action": "preserve current mapping or fallback; no new image requests or privacy retests",
+      "legacy_date_to_preserve": "2026-05-20T00:00:00.000Z"
+    },
+    {
+      "provider_id": "3de0928a-38b5-475e-a8f3-b01a5239d6f6",
+      "canonical_path": "damarisbrowningDDS",
+      "name": "Damaris Browning",
+      "stage": "source-mapped narrative draft; not integrated",
+      "proposed_snippet": "Damaris Browning’s biography describes studying biology at UCLA and working in its hematology and oncology department before choosing dentistry. She reports earning her dental degree at UCSF in 2006. The same account says she speaks Spanish fluently and enjoys travel.",
+      "claims": [
+        {
+          "claim_id": "3de0928a-38b5-475e-a8f3-b01a5239d6f6:narrative:1:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "Damaris Browning’s biography describes studying biology at UCLA and working in its hematology and oncology department before choosing dentistry.",
+          "source_url": "https://www.cupertinocosmetic.dentist/meet-dr--browning",
+          "publisher": "Valley Dental",
+          "supporting_observation": "First-person bio reports biology degree, three years research associate work and transition from science to dentistry.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "3de0928a-38b5-475e-a8f3-b01a5239d6f6:narrative:2:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "She reports earning her dental degree at UCSF in 2006.",
+          "source_url": "https://www.cupertinocosmetic.dentist/meet-dr--browning",
+          "publisher": "Valley Dental",
+          "supporting_observation": "First-person biography reports UCSF DDS graduation in 2006.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "3de0928a-38b5-475e-a8f3-b01a5239d6f6:narrative:3:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "The same account says she speaks Spanish fluently and enjoys travel.",
+          "source_url": "https://www.cupertinocosmetic.dentist/meet-dr--browning",
+          "publisher": "Valley Dental",
+          "supporting_observation": "Biography explicitly states fluent Spanish and travel interest.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        }
+      ],
+      "limitations": [
+        "Relative 'past 15 years' and 'last year' statements are undated; omitted.",
+        "French passage does not establish French fluency; do not add French."
+      ],
+      "next_action": "Confirm exact insurance product and network using insurer and office evidence when a client specifies a plan.",
+      "portrait_action": "preserve current mapping or fallback; no new image requests or privacy retests",
+      "legacy_date_to_preserve": "2026-05-20T00:00:00.000Z",
+      "search_evidence": [
+        {
+          "claim_id": "3de0928a-38b5-475e-a8f3-b01a5239d6f6:languages:2026-10-01",
+          "attribute": "languages",
+          "value": [
+            {
+              "language": "Spanish",
+              "code": "es",
+              "proficiency": "fluent"
+            }
+          ],
+          "source_url": "https://www.cupertinocosmetic.dentist/meet-dr--browning",
+          "publisher": "Valley Dental",
+          "scope": "clinician",
+          "evidence_status": "source-stated",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "limitations": "Source statement; clinical communication not tested.",
+          "supporting_observation": "Biography explicitly states fluent Spanish.",
+          "independent_check": false
+        },
+        {
+          "claim_id": "3de0928a-38b5-475e-a8f3-b01a5239d6f6:provider_gender:2026-10-01",
+          "attribute": "provider_gender",
+          "value": "Female",
+          "source_url": "https://findadentist.ada.org/dentists/dr-damaris-e-browning-cupertino-0038V00002yjV1pQAE-a1C8V00000lVqqpUAC",
+          "publisher": "American Dental Association Find-a-Dentist",
+          "scope": "named directory entry",
+          "evidence_status": "source-stated",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "limitations": "ADA-listed value; not inferred from photograph, name or pronouns; not independent identity certification.",
+          "supporting_observation": "Named ADA profile lists Female.",
+          "independent_check": false
+        },
+        {
+          "claim_id": "3de0928a-38b5-475e-a8f3-b01a5239d6f6:clinician_type:2026-10-01",
+          "attribute": "clinician_type",
+          "value": "General Practice",
+          "source_url": "https://findadentist.ada.org/dentists/dr-damaris-e-browning-cupertino-0038V00002yjV1pQAE-a1C8V00000lVqqpUAC",
+          "publisher": "American Dental Association Find-a-Dentist",
+          "scope": "named directory entry",
+          "evidence_status": "source-stated",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "limitations": "Does not establish current licensure or orthodontist specialty.",
+          "supporting_observation": "Named ADA listing identifies General Practice.",
+          "independent_check": false
+        }
+      ]
+    },
+    {
+      "provider_id": "9c5160b1-1ded-4148-a935-fa2f8053d51a",
+      "canonical_path": "jacquelineloDMD",
+      "name": "Jacqueline Lo",
+      "stage": "source-mapped narrative draft; not integrated",
+      "proposed_snippet": "Jacqueline Lo’s practice biography describes a general dentistry approach that considers oral health alongside overall health. It reports a dental degree from Tufts and a two-year general dentistry residency at Brigham and Women’s Hospital, including care for patients with complex medical needs. Outside work, the biography says she enjoys traveling.",
+      "claims": [
+        {
+          "claim_id": "9c5160b1-1ded-4148-a935-fa2f8053d51a:narrative:1:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "Jacqueline Lo’s practice biography describes a general dentistry approach that considers oral health alongside overall health.",
+          "source_url": "https://cupertinofamilydental.com/doctor/dr-jacqueline-lo/",
+          "publisher": "Cupertino Family Dental",
+          "supporting_observation": "Biography identifies general dentistry clinical director and explains whole-person/holistic philosophy.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "9c5160b1-1ded-4148-a935-fa2f8053d51a:narrative:2:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "It reports a dental degree from Tufts and a two-year general dentistry residency at Brigham and Women’s Hospital, including care for patients with complex medical needs.",
+          "source_url": "https://cupertinofamilydental.com/doctor/dr-jacqueline-lo/",
+          "publisher": "Cupertino Family Dental",
+          "supporting_observation": "Biography identifies Tufts DMD, two-year residency and work with medically complex patients.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "9c5160b1-1ded-4148-a935-fa2f8053d51a:narrative:3:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "Outside work, the biography says she enjoys traveling.",
+          "source_url": "https://cupertinofamilydental.com/doctor/dr-jacqueline-lo/",
+          "publisher": "Cupertino Family Dental",
+          "supporting_observation": "Biography states travel interest.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        }
+      ],
+      "limitations": [
+        "'Holistic' describes source-stated philosophy; it does not establish an orthodontist specialty or specific natural/biological dentistry materials or procedures.",
+        "Homepage accepting-new-patient text coexists with undated COVID elective-procedure closure text; current availability unresolved.",
+        "Legacy phone not recoverable from opened pages; protected-email placeholders must not become contacts."
+      ],
+      "next_action": "Resolve current availability directly before presenting an accepting-new-patient match; clarify the requested natural-dentistry approach.",
+      "portrait_action": "preserve current mapping or fallback; no new image requests or privacy retests",
+      "legacy_date_to_preserve": "2026-05-20T00:00:00.000Z",
+      "search_evidence": [
+        {
+          "claim_id": "9c5160b1-1ded-4148-a935-fa2f8053d51a:insurance_acceptance:2026-10-01",
+          "attribute": "insurance_acceptance",
+          "value": [
+            "Delta Dental Premier",
+            "Delta Dental PPO"
+          ],
+          "source_url": "https://cupertinofamilydental.com/payment-options/",
+          "publisher": "Cupertino Family Dental",
+          "scope": "practice",
+          "evidence_status": "source-stated",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "limitations": "Practice says accepts; exact member product, individual clinician, network, service coverage and current participation unconfirmed. Do not normalize to in-network.",
+          "supporting_observation": "Payment page names Premier/PPO and separately welcomes out-of-network plans.",
+          "independent_check": false
+        },
+        {
+          "claim_id": "9c5160b1-1ded-4148-a935-fa2f8053d51a:approach_to_care:2026-10-01",
+          "attribute": "approach_to_care",
+          "value": "holistic general dental care",
+          "source_url": "https://cupertinofamilydental.com/doctor/dr-jacqueline-lo/",
+          "publisher": "Cupertino Family Dental",
+          "scope": "clinician",
+          "evidence_status": "source-stated",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "limitations": "Source philosophy only; ambiguous natural dentistry request needs definition.",
+          "supporting_observation": "Biography describes relationship between oral and overall health.",
+          "independent_check": false
+        },
+        {
+          "claim_id": "9c5160b1-1ded-4148-a935-fa2f8053d51a:availability:2026-10-01",
+          "attribute": "availability",
+          "value": null,
+          "source_url": "https://cupertinofamilydental.com/",
+          "publisher": "Cupertino Family Dental",
+          "scope": "practice",
+          "evidence_status": "conflicting/unresolved",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "limitations": "Conflicting/undated homepage statements; no current value selected.",
+          "supporting_observation": "Accepting-new-patient banner coexists with COVID elective-procedure closure text.",
+          "independent_check": false
+        }
+      ]
+    },
+    {
+      "provider_id": "e6953022-721e-4ccc-95d6-4c13e15d53e3",
+      "canonical_path": "michaelbouzidDDS",
+      "name": "Michael Bouzid",
+      "stage": "source-mapped narrative draft; not integrated",
+      "proposed_snippet": "Michael Bouzid’s iTooth Dental biography reports a dental education at the University of the Pacific and additional training in cosmetic, implant and sedation dentistry. It says he speaks French fluently and enjoys soccer, hiking and running.",
+      "claims": [
+        {
+          "claim_id": "e6953022-721e-4ccc-95d6-4c13e15d53e3:narrative:1:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "Michael Bouzid’s iTooth Dental biography reports a dental education at the University of the Pacific and additional training in cosmetic, implant and sedation dentistry.",
+          "source_url": "https://www.drbouzid.com/about-us/dr-michael-bouzid/",
+          "publisher": "iTooth Dental",
+          "supporting_observation": "Biography identifies University of Pacific graduation and additional cosmetic/implant/sedation training.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "e6953022-721e-4ccc-95d6-4c13e15d53e3:narrative:2:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "It says he speaks French fluently and enjoys soccer, hiking and running.",
+          "source_url": "https://www.drbouzid.com/about-us/dr-michael-bouzid/",
+          "publisher": "iTooth Dental",
+          "supporting_observation": "Biography explicitly states fluent French and those interests.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        }
+      ],
+      "limitations": [
+        "Sedation training is practice-stated; it does not establish an independently checked qualification or anxiety-free outcome.",
+        "Homepage claims in-network participation without naming exact plans."
+      ],
+      "next_action": "Resolve insurer product/network and individual clinician participation before marking any insurance match.",
+      "portrait_action": "preserve current mapping or fallback; no new image requests or privacy retests",
+      "legacy_date_to_preserve": "2026-05-20T00:00:00.000Z",
+      "search_evidence": [
+        {
+          "claim_id": "e6953022-721e-4ccc-95d6-4c13e15d53e3:languages:2026-10-01",
+          "attribute": "languages",
+          "value": [
+            {
+              "language": "French",
+              "code": "fr",
+              "proficiency": "fluent"
+            }
+          ],
+          "source_url": "https://www.drbouzid.com/about-us/dr-michael-bouzid/",
+          "publisher": "iTooth Dental",
+          "scope": "clinician",
+          "evidence_status": "source-stated",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "limitations": "Source statement; other languages unspecified.",
+          "supporting_observation": "Biography explicitly states fluent French.",
+          "independent_check": false
+        },
+        {
+          "claim_id": "e6953022-721e-4ccc-95d6-4c13e15d53e3:insurance_participation:2026-10-01",
+          "attribute": "insurance_participation",
+          "value": null,
+          "source_url": "https://www.drbouzid.com/",
+          "publisher": "iTooth Dental",
+          "scope": "practice",
+          "evidence_status": "unknown exact plan",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "limitations": "No insurer/plan named; cannot support a specific plan match.",
+          "supporting_observation": "Homepage says in-network with a variety of plans.",
+          "independent_check": false
+        }
+      ]
+    },
+    {
+      "provider_id": "e9854790-6b9d-4b80-8e51-2bd1c66773cc",
+      "canonical_path": "nickinfantinoDDS",
+      "name": "Nick Infantino",
+      "stage": "source-mapped narrative draft; not integrated",
+      "proposed_snippet": "Nick Infantino’s practice website presents his work in Cupertino as general, cosmetic and implant dentistry. It lists education at Loyola Marymount University and Loyola University’s College of Dental Surgery, and lists English and Spanish.",
+      "claims": [
+        {
+          "claim_id": "e9854790-6b9d-4b80-8e51-2bd1c66773cc:narrative:1:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "Nick Infantino’s practice website presents his work in Cupertino as general, cosmetic and implant dentistry.",
+          "source_url": "https://www.infantinodental.com/",
+          "publisher": "Infantino Dental",
+          "supporting_observation": "Named homepage presents those care areas in Cupertino.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "e9854790-6b9d-4b80-8e51-2bd1c66773cc:narrative:2:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "It lists education at Loyola Marymount University and Loyola University’s College of Dental Surgery, and lists English and Spanish.",
+          "source_url": "https://www.infantinodental.com/",
+          "publisher": "Infantino Dental",
+          "supporting_observation": "Named page education and language sections identify these institutions and languages.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        }
+      ],
+      "limitations": [
+        "Site language listing does not state proficiency level; do not upgrade to fluent.",
+        "Generic endodontics service content does not establish an endodontist specialty.",
+        "'Most dental insurance plans' is not specific network confirmation; undated experience-year counts omitted."
+      ],
+      "next_action": "Check the client's exact insurance plan and language needs with the practice if relevant.",
+      "portrait_action": "preserve current mapping or fallback; no new image requests or privacy retests",
+      "legacy_date_to_preserve": "2026-05-20T00:00:00.000Z",
+      "search_evidence": [
+        {
+          "claim_id": "e9854790-6b9d-4b80-8e51-2bd1c66773cc:languages:2026-10-01",
+          "attribute": "languages",
+          "value": [
+            {
+              "language": "English",
+              "code": "en",
+              "proficiency": null
+            },
+            {
+              "language": "Spanish",
+              "code": "es",
+              "proficiency": null
+            }
+          ],
+          "source_url": "https://www.infantinodental.com/",
+          "publisher": "Infantino Dental",
+          "scope": "named clinician page",
+          "evidence_status": "source-stated",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "limitations": "Proficiency unspecified; clinical communication not tested.",
+          "supporting_observation": "Named page lists English and Spanish.",
+          "independent_check": false
+        },
+        {
+          "claim_id": "e9854790-6b9d-4b80-8e51-2bd1c66773cc:insurance_acceptance:2026-10-01",
+          "attribute": "insurance_acceptance",
+          "value": "most dental insurance plans",
+          "source_url": "https://www.infantinodental.com/",
+          "publisher": "Infantino Dental",
+          "scope": "practice",
+          "evidence_status": "source-stated",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "limitations": "Broad source wording only; no specific plan/network match.",
+          "supporting_observation": "Homepage requests contacting office for specific insurance queries.",
+          "independent_check": false
+        }
+      ]
+    },
+    {
+      "provider_id": "c8ddb975-d651-45be-852c-ae365c9ab732",
+      "canonical_path": "ryansenfDDS",
+      "name": "Ryan Senft",
+      "stage": "source-mapped narrative draft; not integrated",
+      "proposed_snippet": "Ryan Senft’s biography describes a move from economics studies at Duke and work in mergers and acquisitions to dental education. It reports a dental degree from the Arthur A. Dugoni School of Dentistry and a hospital-based general practice residency at the University of Colorado. The biography also describes a longstanding interest in drumming.",
+      "claims": [
+        {
+          "claim_id": "c8ddb975-d651-45be-852c-ae365c9ab732:narrative:1:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "Ryan Senft’s biography describes a move from economics studies at Duke and work in mergers and acquisitions to dental education.",
+          "source_url": "https://www.cupertino.dental/our-team/ryan-senft-dds/",
+          "publisher": "Ryan Senft practice",
+          "supporting_observation": "Biography reports Duke quantitative-focused economics and Washington DC mergers/acquisitions work.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "c8ddb975-d651-45be-852c-ae365c9ab732:narrative:2:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "It reports a dental degree from the Arthur A. Dugoni School of Dentistry and a hospital-based general practice residency at the University of Colorado.",
+          "source_url": "https://www.cupertino.dental/our-team/ryan-senft-dds/",
+          "publisher": "Ryan Senft practice",
+          "supporting_observation": "Biography identifies DDS and Colorado hospital-based GPR.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        },
+        {
+          "claim_id": "c8ddb975-d651-45be-852c-ae365c9ab732:narrative:3:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "The biography also describes a longstanding interest in drumming.",
+          "source_url": "https://www.cupertino.dental/our-team/ryan-senft-dds/",
+          "publisher": "Ryan Senft practice",
+          "supporting_observation": "Biography reports drumming since age nine.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician",
+          "independent_check": false
+        }
+      ],
+      "limitations": [
+        "Current biography/footer publishes a different street location from the site's contact page and legacy record; street location conflicting/unresolved.",
+        "Orthodontic procedures and clear aligners do not establish orthodontist specialty.",
+        "Named band and current accolades omitted from durable snippet pending separate current checks."
+      ],
+      "next_action": "Resolve the two official street locations before making an address actionable or treating either as the current office.",
+      "portrait_action": "preserve current mapping or fallback; no new image requests or privacy retests",
+      "legacy_date_to_preserve": "2026-05-20T00:00:00.000Z"
+    }
+  ],
+  "discovery_holds": [
+    {
+      "provider_id": "0cef6a0a-d125-4810-b2c0-9c875a34866b",
+      "canonical_path": "stanleysunDDS",
+      "name": "Stanley Sun",
+      "source_url": "https://www.cupertinodentalhealth.com/stanley-sun-dds",
+      "status": "underlying page retrieval incomplete",
+      "observation": "Search results from the practice describe NYU dental education and periodontal training. Homepage and individual page retrievals failed or timed out; no snippet elevated from search results.",
+      "proposed_snippet": null,
+      "next_action": "Retrieve the exact named practice biography once access improves, or obtain a matching institutional/issuing-board source; preserve existing record and route.",
+      "portrait_action": "preserve existing fallback; no new image test"
+    }
+  ],
+  "common_unknowns": [
+    "current dental license status",
+    "issuing-board certification",
+    "exact member-plan coverage and in-network status",
+    "current individual availability",
+    "languages or gender where no explicit claim is attached",
+    "specific natural/biological dentistry services",
+    "orthodontist specialty unless separately supported"
+  ],
+  "integration_contract": [
+    "Preserve exact mixed-case paths, permanent IDs, aliases, roster, review/claim/publication/indexing states and old verification dates.",
+    "Map each narrative sentence to its evidence; omit unsupported legacy clinical/contact/promotional claims from current public projections while preserving history.",
+    "Search evidence is a separate dated ledger, not authorization to silently add or infer every attribute in the application.",
+    "Preserve full research on-page, source links, conflicts and specific next steps.",
+    "Current photos and privacy outcomes unchanged; do not retry withheld portraits.",
+    "Orange County factual pause remains; no deployment."
+  ],
+  "roll_forward": "Reusable claims should improve future data while distinguishing clinician/practice scope and supported match/mismatch/unknown/conflict."
+}
