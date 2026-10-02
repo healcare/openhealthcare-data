@@ -85,7 +85,8 @@
     "Label Irvine Smile's general invitation separately from capacity.",
     "Patient questions are optional editorial suggestions, not confirmed accommodations or required outreach.",
     "Separate location and phone columns; normalize Markdown source links.",
-    "Additional three Gemini knowledge-base practice leads remain unestablished; do not upgrade to actual search-retrieved evidence."
+    "Additional three Gemini knowledge-base practice leads remain unestablished; do not upgrade to actual search-retrieved evidence.",
+    "Second editorial return: preserve corrected summaries; retain useful optional questions rather than regenerate facts from an imperfect draft."
   ],
   "preserved_states": {
     "added_provider_records": 0,
@@ -95,5 +96,48 @@
     "app_changed": false,
     "deployment_performed": false,
     "existing_review_and_indexing_states_unchanged": true
+  },
+  "badgeCopy": {
+    "label": "Medi-Cal*",
+    "explanation": "These practices state that they accept Medi-Cal Dental/Denti-Cal. Confirm your coverage, treatment and new-patient availability with the office.",
+    "basis": "Canonical explanation already supplied in the original preview handoff; retained over longer alternatives.",
+    "accessibility": "Show the explanation as readable text reachable with keyboard, touch and screen reader; do not depend on hover or color."
+  },
+  "optionalPatientNeedsQuestions": [
+    {
+      "id": "interpretation",
+      "text": "Can you arrange a qualified interpreter in the spoken or signed language I need? How do I request that assistance?",
+      "scope": "Optional question; no current arrangement or advance scheduling rule established."
+    },
+    {
+      "id": "accessible-information",
+      "text": "Can forms and care instructions be provided in large print, plain text or an accessible electronic format?",
+      "scope": "Optional question; format availability not confirmed."
+    },
+    {
+      "id": "mobility-access",
+      "text": "Is there step-free access from parking to the treatment room? What assistance or equipment is available if I need help getting to the dental chair?",
+      "scope": "Optional question; no facility inspection or transfer capability confirmed."
+    },
+    {
+      "id": "comfort-preferences",
+      "text": "Can we plan for breaks, a quieter setting or step-by-step explanations during my visit?",
+      "scope": "Optional question; no sensory accommodation confirmed."
+    }
+  ],
+  "editorialReview": {
+    "input": "Owner-attached Pasted text(1).txt",
+    "reviewedOn": "2026-10-02",
+    "usefulAdditions": "Concrete communication, format, mobility and comfort questions; concise badge explanation.",
+    "remainingErrorsRemoved": [
+      "Unestablished QH corporate name",
+      "Unestablished leadership/headed-by wording",
+      "Unestablished Section 1557/legal detail",
+      "Omission of saved Xinwu Zhao association",
+      "Generic missing-evidence statements presented as proof that no accommodation exists"
+    ],
+    "auditLimit": "Gemini's self-audit repeats an unsupported legal label and flags some wording not actually present in its final draft. Treat it as drafting assistance, not independent verification.",
+    "newResearchPerformed": false,
+    "appUpdateRequested": false
   }
 }
