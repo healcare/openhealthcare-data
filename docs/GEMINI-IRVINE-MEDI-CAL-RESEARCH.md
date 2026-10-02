@@ -21,3 +21,13 @@ Return one valid JSON object: schema_version "openhealthcare.external-source-res
 Current DHCS FAQ delays the former July 2026 dental-benefit change to July 1, 2027; January 2026 enrollment restrictions are separate. No individual eligibility determinations or immigration information collection.
 
 Open primary sources, validate the JSON and preserve conflicts so supported findings can be reused without repeating the whole search. No ratings/rankings, outreach, access-control bypass, patient-data collection or deployment.
+
+## Evidence-format correction after the second return
+
+The supplied Western Dental/Irvine Children's Dentistry additions are held, not approved. Do not repeat their submitted identities, contacts, accessibility, languages or photos as facts. Use source-stated, never an unsupported source_verified label.
+
+For a dataset claim supply exact export/API resource, version/as-of basis, source record/object ID, actual NPI used and the observed name/service address. A row number plus catalog URL is insufficient. For a practice claim provide exact retrieved page/section and a short observed passage; if the page failed, return unresolved. Date fields require an explicit source basis, not a guessed recent date. Keep retrieval dates distinct.
+
+Resolve same-name practice identity against official location pages before attributing acceptance. The opened same-named Children's Dentistry site publishes an address differing from the return; no silent correction/merge. Western's city page is internally inconsistent in reader output; do not infer closure or a current branch from its generic prose.
+
+Named clinicians require actually retrieved biographies and role/location evidence. Own-domain image hosts do not prove ownership or permitted use. If no image loaded or ownership/use evidence was found, retain unresolved; no positive boolean or claimed caption inspection. Replace anonymous Sample Practice failed attempts with actual requested URLs and observed outcomes, or omit them.
