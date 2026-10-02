@@ -1,0 +1,119 @@
+{
+  "schema_version": "openhealthcare.external-source-research.v1",
+  "researched_on": "2026-10-02",
+  "research_status": "mixed-discovery-and-historical-source",
+  "purpose": "Preserve Gemini snippet leads and targeted county PDF retrieval without current participation upgrades.",
+  "leads": [
+    {
+      "name": "Basem M Airood",
+      "reported_address": "17931 MacArthur Blvd, Irvine CA 92614",
+      "status": "discovery-only",
+      "evidence_method": "Gemini-reported secondary search snippet; not independently opened practice or government enrollment record"
+    },
+    {
+      "name": "Dean F Ariaee",
+      "reported_address": "113 Waterworks Way Ste 310, Irvine CA 92618",
+      "status": "discovery-only",
+      "evidence_method": "Gemini-reported secondary search snippet; not independently opened practice or government enrollment record"
+    },
+    {
+      "name": "Manal Aziz / Family Dental Care Group",
+      "reported_address": "14150 Culver Dr Ste 205, Irvine CA 92604",
+      "status": "discovery-only",
+      "evidence_method": "Gemini-reported secondary search snippet; not independently opened practice or government enrollment record"
+    },
+    {
+      "name": "Karim A Bouhairi",
+      "reported_address": "33 Creek Rd Ste 300, Irvine CA 92604",
+      "status": "discovery-only",
+      "evidence_method": "Gemini-reported secondary search snippet; not independently opened practice or government enrollment record"
+    },
+    {
+      "name": "Soung-Hoon Cho",
+      "reported_address": "2700 Alton Pkwy Ste 225, Irvine CA 92606",
+      "status": "discovery-only",
+      "evidence_method": "Gemini-reported secondary search snippet; not independently opened practice or government enrollment record"
+    },
+    {
+      "name": "Vanila Choudhry",
+      "reported_address": "2500 Alton Pkwy Ste 202, Irvine CA 92606",
+      "status": "discovery-only",
+      "evidence_method": "Gemini-reported secondary search snippet; not independently opened practice or government enrollment record"
+    },
+    {
+      "name": "Nader Dayani",
+      "reported_address": "18124 Culver Dr Ste A, Irvine CA 92612",
+      "status": "discovery-only",
+      "evidence_method": "Gemini-reported secondary search snippet; not independently opened practice or government enrollment record"
+    }
+  ],
+  "sources": [
+    {
+      "id": "oc-historical-specialty",
+      "url": "https://www.ochealthinfo.com/sites/hca/files/import/data/files/104001.pdf",
+      "publisher": "Orange County Health Care Agency",
+      "source_date": "2020-01-30",
+      "retrieved_on": "2026-10-02",
+      "access_method": "opened PDF text and requested page-2 screenshot",
+      "scope": "Historical children's specialty dental care referral list; not a current comprehensive enrollment roster"
+    },
+    {
+      "id": "dentistry4kids-irvine",
+      "url": "https://dentistry4kids.com/locations/irvine/",
+      "publisher": "Dentistry 4 Kids",
+      "source_date": null,
+      "retrieved_on": "2026-10-02",
+      "access_method": "opened practice location page",
+      "scope": "Published Irvine location; no Medi-Cal statement established on inspected page"
+    }
+  ],
+  "historical_records": [
+    {
+      "name": "MARFATIA, RABIN A, DDS INC",
+      "address": "250 E Yale Loop Ste 205, Irvine CA 92604-4697",
+      "phone": "+1-949-299-1111",
+      "locator": "PDF page 2, Irvine row",
+      "status": "historical lead only"
+    },
+    {
+      "name": "WESTERN DENTAL SERVICES, INC",
+      "address": "14370 Culver Dr Ste A, Irvine CA 92604-0319",
+      "phone": "+1-949-733-3433",
+      "locator": "PDF page 2, Irvine row",
+      "status": "historical lead only"
+    }
+  ],
+  "new_practice_leads": [
+    {
+      "name": "Dentistry 4 Kids — Irvine",
+      "address": "14370 Culver Dr # A, Irvine CA 92604",
+      "phone": "+1-949-954-7186",
+      "source_id": "dentistry4kids-irvine",
+      "participation": "unknown",
+      "identity_note": "Same address as 2020 Western row does not establish same organization, ownership succession, practitioner or continued network participation."
+    }
+  ],
+  "corrections": [
+    "Children's Specialty Dental Care is the county document title, not the name associated with phone 949-299-1111. Actual historical row names Rabin Marfatia.",
+    "2020 acceptance, availability, languages and referral fields must not populate current patient-access fields.",
+    "Gemini's no matches arose from web-index searches, not completed official directory queries.",
+    "Not attempting a public API is capability-limited, not an API outage or a negative enrollment finding.",
+    "Managed-care plan directory snippets do not establish individual Irvine provider participation or correct dental routing.",
+    "Dean F Ariaee already has a saved participation/routing ambiguity hold; do not restart or erase it.",
+    "Do not merge historical and current occupants based on an address match.",
+    "Do not infer current languages from old commercial insurer directories or aggregator snippet labels."
+  ],
+  "directory_changes": [],
+  "photos": [],
+  "next_actions": [
+    "Resolve Dentistry 4 Kids current practice-owned Medi-Cal statement, if any, before adding to the cohort.",
+    "Locate current primary source for Rabin Marfatia organization and exact service location.",
+    "Seek official enrollment source with documented dates and identifiers; preserve organization versus individual distinction."
+  ],
+  "boundaries": {
+    "preview_only": true,
+    "current_cohort_count": 3,
+    "no_outreach": true,
+    "no_deploy": true
+  }
+}
