@@ -1,0 +1,282 @@
+{
+  "research_date": "2026-10-01",
+  "timezone": "America/Los_Angeles",
+  "purpose": "Research-only additive snippet delta; reusable claim evidence for future searches.",
+  "directory": "Beverly Hills dermatology",
+  "stage": "draft research; not implemented or deployed",
+  "preservation": {
+    "permanent_ids_and_paths": true,
+    "existing_photos": true,
+    "source_history": true,
+    "old_verification_dates": true,
+    "review_publication_indexing_states": true,
+    "orange_county_factual_pause": true
+  },
+  "reuse_source": "research/beverly-hills-dermatology-photo-review-2026-10-01.json",
+  "profiles": [
+    {
+      "provider_id": "394cd85f-dc8f-47dd-a597-f4c014b80bfc",
+      "canonical_path": "annaguanche",
+      "name": "Anna Guanche",
+      "proposed_snippet": "Anna Guanche’s Bella Skin Institute biography describes a Calabasas practice focused on skin conditions, cosmetic dermatology and laser procedures. It also describes her earlier teaching of dermatology residents at UCLA’s Olive View program.",
+      "claims": [
+        {
+          "claim_id": "394cd85f-dc8f-47dd-a597-f4c014b80bfc:narrative:1:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "Anna Guanche’s Bella Skin Institute biography describes a Calabasas practice focused on skin conditions, cosmetic dermatology and laser procedures.",
+          "source_url": "https://www.bellaskininstitute.com/pages/dr-anna-guanche",
+          "publisher": "Bella Skin Institute",
+          "supporting_observation": "Biography identifies Calabasas and describes skin conditions, cosmetic dermatology and laser surgery.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician biography or practice presentation",
+          "independent_check": false
+        },
+        {
+          "claim_id": "394cd85f-dc8f-47dd-a597-f4c014b80bfc:narrative:2:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "It also describes her earlier teaching of dermatology residents at UCLA’s Olive View program.",
+          "source_url": "https://www.bellaskininstitute.com/pages/dr-anna-guanche",
+          "publisher": "Bella Skin Institute",
+          "supporting_observation": "Biography uses past tense for Olive View staff work and reports teaching UCLA residents.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician biography or practice presentation",
+          "independent_check": false
+        }
+      ],
+      "limitations": [
+        "Calabasas source location requires review of Beverly Hills directory relevance; do not move or remove automatically."
+      ],
+      "not_checked": [
+        "current license",
+        "board certification",
+        "insurance plan participation",
+        "languages",
+        "gender",
+        "accepting new patients",
+        "appointment availability"
+      ],
+      "next_action": "Calabasas source location requires review of Beverly Hills directory relevance; do not move or remove automatically.",
+      "portrait_action": "none; preserve existing display/fallback and privacy outcomes"
+    },
+    {
+      "provider_id": "4d23e61c-0cac-4d95-bcee-5622ecc71bf2",
+      "canonical_path": "haroldlancer",
+      "name": "Harold Lancer",
+      "proposed_snippet": "Harold Lancer’s practice biography links his interest in skin healing to severe burns he experienced as a child. The same account says he opened his Beverly Hills practice in 1983 and earned his medical degree at UC San Diego.",
+      "claims": [
+        {
+          "claim_id": "4d23e61c-0cac-4d95-bcee-5622ecc71bf2:narrative:1:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "Harold Lancer’s practice biography links his interest in skin healing to severe burns he experienced as a child.",
+          "source_url": "https://lancerderm.com/dr-lancer/",
+          "publisher": "Lancer Dermatology",
+          "supporting_observation": "Practice biography describes burns at age seven and their connection to his interest in skin healing.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician biography or practice presentation",
+          "independent_check": false
+        },
+        {
+          "claim_id": "4d23e61c-0cac-4d95-bcee-5622ecc71bf2:narrative:2:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "The same account says he opened his Beverly Hills practice in 1983 and earned his medical degree at UC San Diego.",
+          "source_url": "https://lancerderm.com/dr-lancer/",
+          "publisher": "Lancer Dermatology",
+          "supporting_observation": "Biography states practice opened in 1983 and MD at UCSD.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician biography or practice presentation",
+          "independent_check": false
+        }
+      ],
+      "limitations": [
+        "Different experience-year counts appear on the page; omitted.",
+        "Harvard-related training wording varies within source; omitted from snippet."
+      ],
+      "not_checked": [
+        "current license",
+        "board certification",
+        "insurance plan participation",
+        "languages",
+        "gender",
+        "accepting new patients",
+        "appointment availability"
+      ],
+      "next_action": "Different experience-year counts appear on the page; omitted.",
+      "portrait_action": "none; preserve existing display/fallback and privacy outcomes"
+    },
+    {
+      "provider_id": "f361d60c-0b72-4b4a-80ea-2c281bcda294",
+      "canonical_path": "jessicawu",
+      "name": "Jessica Wu",
+      "proposed_snippet": "Jessica Wu’s professional biography reports that she graduated from Harvard Medical School. It describes her book Feed Your Face and her interest in the relationship between diet and skin.",
+      "claims": [
+        {
+          "claim_id": "f361d60c-0b72-4b4a-80ea-2c281bcda294:narrative:1:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "Jessica Wu’s professional biography reports that she graduated from Harvard Medical School.",
+          "source_url": "https://www.drjessicawu.com/bio",
+          "publisher": "Jessica Wu practice",
+          "supporting_observation": "Official biography identifies Harvard Medical School graduation.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician biography or practice presentation",
+          "independent_check": false
+        },
+        {
+          "claim_id": "f361d60c-0b72-4b4a-80ea-2c281bcda294:narrative:2:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "It describes her book Feed Your Face and her interest in the relationship between diet and skin.",
+          "source_url": "https://www.drjessicawu.com/bio",
+          "publisher": "Jessica Wu practice",
+          "supporting_observation": "Biography identifies her book and diet/skin focus.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician biography or practice presentation",
+          "independent_check": false
+        }
+      ],
+      "limitations": [
+        "Current USC teaching appointment not independently checked; omitted.",
+        "Use matching practice context to distinguish same-name clinician."
+      ],
+      "not_checked": [
+        "current license",
+        "board certification",
+        "insurance plan participation",
+        "languages",
+        "gender",
+        "accepting new patients",
+        "appointment availability"
+      ],
+      "next_action": "Current USC teaching appointment not independently checked; omitted.",
+      "portrait_action": "none; preserve existing display/fallback and privacy outcomes"
+    },
+    {
+      "provider_id": "fbb6c96c-3ab2-4859-a5af-0c3818299771",
+      "canonical_path": "simonourian",
+      "name": "Simon Ourian",
+      "proposed_snippet": "Epione’s profile describes Simon Ourian’s interest in sculpture alongside his work in aesthetic medicine. The practice presents proportion, balance and subtle refinement as central to his approach.",
+      "claims": [
+        {
+          "claim_id": "fbb6c96c-3ab2-4859-a5af-0c3818299771:narrative:1:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "Epione’s profile describes Simon Ourian’s interest in sculpture alongside his work in aesthetic medicine.",
+          "source_url": "https://www.epionebh.com/simon-ourian",
+          "publisher": "Epione Beverly Hills",
+          "supporting_observation": "Profile describes his initial arts/sculpting interest and continued sculpting vocation.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician biography or practice presentation",
+          "independent_check": false
+        },
+        {
+          "claim_id": "fbb6c96c-3ab2-4859-a5af-0c3818299771:narrative:2:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "The practice presents proportion, balance and subtle refinement as central to his approach.",
+          "source_url": "https://www.epionebh.com/simon-ourian",
+          "publisher": "Epione Beverly Hills",
+          "supporting_observation": "Profile FAQ explicitly describes proportion, balance and subtle refinement as philosophy.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician biography or practice presentation",
+          "independent_check": false
+        }
+      ],
+      "limitations": [
+        "Specialty and board certification remain unverified; do not label him a board-certified dermatologist.",
+        "Older embedded interview contains dated market predictions; not used as current evidence."
+      ],
+      "not_checked": [
+        "current license",
+        "board certification",
+        "insurance plan participation",
+        "languages",
+        "gender",
+        "accepting new patients",
+        "appointment availability"
+      ],
+      "next_action": "Specialty and board certification remain unverified; do not label him a board-certified dermatologist.",
+      "portrait_action": "none; preserve existing display/fallback and privacy outcomes"
+    },
+    {
+      "provider_id": "6ff9b213-3354-4798-bf10-22f3ef988c11",
+      "canonical_path": "jasonemer",
+      "name": "Jason Emer",
+      "proposed_snippet": "Jason Emer’s practice website presents his work around cosmetic skin care and body contouring. Its career-path feature describes an interest in combining aesthetic procedures with an artistic approach.",
+      "claims": [
+        {
+          "claim_id": "6ff9b213-3354-4798-bf10-22f3ef988c11:narrative:1:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "Jason Emer’s practice website presents his work around cosmetic skin care and body contouring.",
+          "source_url": "https://www.jasonemermd.com/",
+          "publisher": "Jason Emer practice",
+          "supporting_observation": "Named career-path section describes liposuction and skin rejuvenation; homepage has corresponding service sections.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician biography or practice presentation",
+          "independent_check": false
+        },
+        {
+          "claim_id": "6ff9b213-3354-4798-bf10-22f3ef988c11:narrative:2:2026-10-01",
+          "attribute": "professional_narrative",
+          "sentence": "Its career-path feature describes an interest in combining aesthetic procedures with an artistic approach.",
+          "source_url": "https://www.jasonemermd.com/",
+          "publisher": "Jason Emer practice",
+          "supporting_observation": "Named career-path section describes blending innovation and artistry.",
+          "retrieved_date": "2026-10-01",
+          "source_date": null,
+          "evidence_status": "source-stated",
+          "scope": "named clinician biography or practice presentation",
+          "independent_check": false
+        }
+      ],
+      "limitations": [
+        "Homepage About Dr. Emer link could not be resolved by retrieval tool; richer training narrative remains pending.",
+        "Practice service menu does not establish that this clinician personally performs every listed procedure.",
+        "Precise clinician location requires separate review; website references Beverly Hills, West Hollywood and New York in different contexts."
+      ],
+      "not_checked": [
+        "current license",
+        "board certification",
+        "insurance plan participation",
+        "languages",
+        "gender",
+        "accepting new patients",
+        "appointment availability"
+      ],
+      "next_action": "Homepage About Dr. Emer link could not be resolved by retrieval tool; richer training narrative remains pending.",
+      "portrait_action": "none; preserve existing display/fallback and privacy outcomes"
+    }
+  ],
+  "holds": [
+    {
+      "provider_id": "e955df8b-cd33-413e-aca9-63c8d7285158",
+      "canonical_path": "davidkim",
+      "name": "David Kim",
+      "status": "identity unresolved",
+      "reason": "Saved website describes a Fairfax, Virginia interventional pain clinician, not the intended Beverly Hills dermatology identity.",
+      "proposed_snippet": null,
+      "next_action": "Resolve intended clinician using practice, specialty and location identifiers before selecting any new facts or photo; do not substitute a same-name clinician."
+    }
+  ],
+  "integration_contract": [
+    "Sentence-level source mapping must stay attached to public narrative.",
+    "This packet does not make legacy unsupported descriptions or credentials current.",
+    "Evidence for a narrative is not proof of a future search criterion. Preserve unknown matching attributes.",
+    "Retain full on-page research and historical corrections.",
+    "No new photo requests, cookie-block retries or deployment."
+  ],
+  "future_agent_guidance": "https://github.com/healcare/openhealthcare/blob/main/docs/search-ready-profile-research-2026-10-01.md"
+}
