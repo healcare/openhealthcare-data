@@ -1,0 +1,47 @@
+{
+  "schema_version": "openhealthcare.access-research-delta.v1",
+  "researched_on": "2026-10-02",
+  "directory_import_key": "irvine-dentists",
+  "base_data_commit": "442ee4ecbb748d662ad23b43a2c47486ff338e93",
+  "sources": [
+    {
+      "id": "irvine-smile-new-patients",
+      "publisher": "Irvine Smile Dentistry",
+      "url": "https://irvinesmiledentistry.com/new-patients",
+      "retrieved_on": "2026-10-02",
+      "source_date": null,
+      "access_method": "primary-page-text-retrieved",
+      "evidence_locator": "Page heading and opening invitation",
+      "evidence_status": "source-stated"
+    }
+  ],
+  "claims": [
+    {
+      "id": "irvine-smile-general-new-patient-invitation",
+      "practice_import_key": "irvine-smile-dentistry",
+      "attribute": "general_new_patient_invitation",
+      "value": "Practice website welcomes new patients and families.",
+      "scope": "General invitation only; not Medi-Cal-specific capacity, all-ages eligibility or a booked appointment.",
+      "source_ids": [
+        "irvine-smile-new-patients"
+      ],
+      "evidence_status": "source-stated",
+      "source_as_of": null,
+      "retrieved_on": "2026-10-02",
+      "limitations": [
+        "No Medi-Cal-specific new-patient status.",
+        "No minimum/maximum age established.",
+        "No individual clinician schedule or exact location-specific capacity established."
+      ],
+      "public_wording": "The practice website welcomes new patients; confirm Medi-Cal availability with the office."
+    }
+  ],
+  "integration": {
+    "research_supplement_only": true,
+    "baseline_changed": false,
+    "new_provider_count": 0,
+    "photos_added": 0,
+    "replit_update_requested": false,
+    "deployment_performed": false
+  }
+}
