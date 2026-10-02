@@ -1,0 +1,99 @@
+{
+  "schema_version": "openhealthcare.patient-navigation-copy.v1",
+  "prepared_on": "2026-10-02",
+  "purpose": "Editorial patient guidance derived from already saved primary evidence, not fresh Gemini research or new verification.",
+  "base_data_commit": "442ee4ecbb748d662ad23b43a2c47486ff338e93",
+  "import_scope": "Research supplement only; no app update or publication requested by receipt of draft.",
+  "practices": [
+    {
+      "practice_import_key": "irvine-smile-dentistry",
+      "name": "Irvine Smile Dentistry",
+      "summary": "Irvine Smile Dentistry lists Medi-Cal Dental among its payment options. Its website welcomes new patients and families, but that general invitation does not establish new Medi-Cal patient openings. Ask the office about the care you need and available appointments.",
+      "source_refs": [
+        {
+          "id": "irvine-smile-official",
+          "url": "https://irvinesmiledentistry.com/",
+          "source_research_date": "2026-10-02"
+        },
+        {
+          "id": "irvine-smile-new-patients",
+          "url": "https://irvinesmiledentistry.com/new-patients",
+          "source_research_date": "2026-10-02"
+        }
+      ],
+      "unknowns": [
+        "new Medi-Cal patient capacity",
+        "individual dentist schedule/network",
+        "age limits",
+        "treatment coverage and authorization",
+        "clinician/staff languages",
+        "interpreter arrangements",
+        "physical/sensory accommodations"
+      ],
+      "suggested_patient_questions": [
+        "Are you booking new Medi-Cal Dental patients at your Irvine Center Drive office?",
+        "Can the dentist I would see provide my requested care through Medi-Cal Dental?",
+        "Is authorization needed, and can you explain any expected costs before treatment?",
+        "Can you arrange interpretation in the language or communication format I need?",
+        "Can you describe step-free access, accessible parking, restroom access and getting to the dental chair?"
+      ]
+    },
+    {
+      "practice_import_key": "qh-dental-irvine",
+      "name": "QH Dental",
+      "summary": "QH Dental lists Denti-Cal among its insurance options. Its published notice describes free language interpretation, sign-language interpreters and written information in accessible formats. Confirm new Medi-Cal patient openings and how to request assistance; the notice leaves the service-request contact blank.",
+      "source_refs": [
+        {
+          "id": "qh-insurance",
+          "url": "https://www.qhdentaloffice.com/patient-information/insurance-payment-options/",
+          "source_research_date": "2026-10-02"
+        },
+        {
+          "id": "qh-access-policy",
+          "url": "https://www.qhdentaloffice.com/patient-information/nondiscrimination-notice/",
+          "source_research_date": "2026-10-02"
+        }
+      ],
+      "unknowns": [
+        "new Medi-Cal patient capacity",
+        "government program enrollment",
+        "individual dentist network/schedule",
+        "age limits",
+        "treatment coverage",
+        "clinician/staff spoken languages",
+        "actual interpreter arrangements",
+        "physical/sensory accommodations"
+      ],
+      "suggested_patient_questions": [
+        "Are you booking new Medi-Cal Dental patients at your Quail Hill office?",
+        "Can my requested care be provided through Medi-Cal Dental, and is authorization needed?",
+        "How do I request the interpreter or accessible format described in your notice?",
+        "Can you describe step-free access, accessible parking, restroom access and getting to the dental chair?"
+      ]
+    }
+  ],
+  "shared_patient_questions": [
+    "What is the next available appointment for my type of care?",
+    "If you cannot meet my access needs or see me, can you help identify an appropriate referral?",
+    "Can I discuss comfort needs such as quieter visits, breaks or communication preferences before booking?"
+  ],
+  "review_corrections": [
+    "Do not add the unestablished corporate name or claim QH is headed by Dr. Man.",
+    "Preserve both saved QH biography associations, Chun Piu Man and Xinwu Zhao; no individual network/schedule inference.",
+    "Use QH's exact Denti-Cal listing rather than invent a combined verbatim label.",
+    "Do not add Section 1557 or California statutory assertions absent explicit saved source support.",
+    "Label Irvine Smile's general invitation separately from capacity.",
+    "Patient questions are optional editorial suggestions, not confirmed accommodations or required outreach.",
+    "Separate location and phone columns; normalize Markdown source links.",
+    "Additional three Gemini knowledge-base practice leads remain unestablished; do not upgrade to actual search-retrieved evidence."
+  ],
+  "preserved_states": {
+    "added_provider_records": 0,
+    "selected_photos": 0,
+    "license_checks_performed": 0,
+    "calls_made": 0,
+    "app_changed": false,
+    "deployment_performed": false,
+    "existing_review_and_indexing_states_unchanged": true
+  }
+}
