@@ -1,0 +1,57 @@
+{
+  "schema_version": "openhealthcare.external-source-research.v1",
+  "researched_on": "2026-10-02",
+  "research_status": "source-stated",
+  "scope": "Nearby access-signal follow-up; no Irvine cohort changes.",
+  "findings": [
+    {
+      "subject": "Smiles West / Kereem Husain",
+      "url": "https://smileswest.com/meet-the-doctors/",
+      "access_method": "opened group biography",
+      "supported": "Biography describes pediatric special-needs experience, behavior-management/sedation training, and English/Arabic bilingual ability.",
+      "scope": "Individual practice biography, not license-checked; Lake Forest assignment/schedule and individual Medi-Cal participation unknown.",
+      "not_supported": "Spanish fluency (biography says learning Spanish); local accessibility accommodations or universal special-needs intake."
+    },
+    {
+      "subject": "Pure Santa Ana Dentist",
+      "url": "https://puresantaanadentist.com/services/sedation-dentistry",
+      "access_method": "opened service page",
+      "supported": "Publishes oral sedation service information and invites consultation about candidacy.",
+      "scope": "Practice-stated service, not individual medical advice, guaranteed suitability, sensory accommodation or covered Medi-Cal treatment."
+    },
+    {
+      "subject": "West Coast Dental of Orange",
+      "url": "https://www.westcoastdental.com/locations/orange/",
+      "access_method": "opened location page",
+      "supported": "Location page lists sedation among services and a West Coast Dental insurance section including Medi-Cal Dental.",
+      "scope": "Service on location page; insurance wording is group-branded. Exact clinician, treatment coverage, current panel and accommodations unknown.",
+      "note": "Earlier blog retrieval failed, but alternative primary location page succeeded. Do not infer site-wide failure."
+    },
+    {
+      "subject": "Lollipop Dental",
+      "url": "https://lollipopdental.com/treatment-resources/denti-cal-general-anesthesia/",
+      "access_method": "opened resource, examined location listing",
+      "supported": "Denti-Cal anesthesia checklist and named office contacts.",
+      "scope": "Group process; location list alone does not establish every branch performs anesthesia or accepts new Medi-Cal cases.",
+      "conflict": "Lake Forest body lists 21751 Lake Forest Drive #21; footer lists 21771 Lake Forest Dr Suite 112. Exact current service location unresolved.",
+      "next_step": "Use linked current branch page to resolve physical location and branch-specific anesthesia/intake. Do not import either address as settled."
+    },
+    {
+      "subject": "Western Dental Santa Ana Grand Avenue",
+      "url": "https://www.westerndental.com/en-us/find-a-location/california/santa-ana/1575-north-grand-avenue/",
+      "access_method": "reuse prior retrieved page",
+      "supported": "Generic anxiety/relaxation language with sedation link.",
+      "scope": "Not sufficient for sensory accommodations or exact sedation availability at this branch; preserve template-location caveats."
+    }
+  ],
+  "unknowns": [
+    "ASL/interpreter arrangements",
+    "Wheelchair route and transfer support",
+    "Sensory accommodations",
+    "New Medi-Cal capacity",
+    "Current government enrollment"
+  ],
+  "photos": [],
+  "directory_changes": [],
+  "guidance": "Useful signals retain scope. Biography expertise, offered services, actual accommodation arrangements and program coverage are distinct claims; unknown is not absence."
+}
