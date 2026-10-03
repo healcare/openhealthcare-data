@@ -1,0 +1,59 @@
+ORANGE COUNTY COMMUNITY DENTAL DISCOVERY — SECOND BATCH
+Research date: 2026-10-02 (America/Los_Angeles).
+Input: user-relayed Gemini report of eight snippet-only discovery signals.
+Purpose: attributed research leads and primary-page follow-up for accessible, lower-income dental access. No directory import, deployment, outreach or official enrollment verification.
+
+1. Serve the People, Santa Ana
+Gemini URL: https://www.servethepeople.org/contact
+Query: "Serve the People" dental clinic Santa Ana Medi-Cal
+Input suggested established-patients-only dental and proof-of-income/uninsured requirements for free care. The opened contact page did not reproduce those assertions; retain as snippet-only unresolved, not current intake policy.
+Opened primary dental page: https://www.servethepeople.org/dental
+Locations/contact page: https://www.servethepeople.org/contact
+Dental page describes prevention, periodontal care, emergency dental, restoration, dentures and pediatric dentistry; explicitly states Denti-Cal and income/family-size sliding fees for uninsured patients. Calls directed to 714-352-2911. This is organization-published service scope; individual location delivery, new Medi-Cal capacity, same-day intake and actual appointment availability remain unknown. Emergency service marketing does not establish walk-ins or after-hours response.
+New primary follow-up: https://www.servethepeople.org/medical-transportation
+Describes free transportation coordination for eligible patients through CalOptima/insurance and center-funded Uber Health. Patients must discuss eligibility with transportation team. Dental-specific ride eligibility, wheelchair vehicle availability, service radius, advance notice and capacity are not established. A photograph of a ramp is not an accommodation policy.
+
+2. Southland Integrated Services, Garden Grove lead
+Gemini requested URL: https://www.southlandintegrated.org/wordpress/dentalservices/
+Query: "Southland Integrated Services" dental clinic Garden Grove Medi-Cal
+Opened final URL: https://www.southlandintegrated.org/dentalservices/
+Explicit Denti-Cal acceptance, uninsured care and sliding-fee discount for eligible patients. Lists exams, cleanings, fillings, sealants, root canals, crowns, extractions and specialist referrals. Mobile service describes exams, imaging, screening and referral to clinic for treatment; approximately eight hours monthly at rotating sites. Call 714-620-7000 for current locations. Mobile eligibility mentions Medi-Cal members and self-pay sliding scale. No guaranteed open-door capacity, specific fees or branch address established in this pass; fixed clinic services should not all be assigned to the mobile van. Enrollment application help is published, but presumptive eligibility or immediate coverage is not established.
+
+3. Central City Community Health Center, Anaheim
+URL opened: https://centralcityhealth.org/services/dental-services/
+Query: "Central City Community Health Center" Anaheim dental Medi-Cal
+Explicit Denti-Cal, Liberty Dental, Delta Dental and uninsured welcome; sliding-scale/benefit-program assistance. Page service list includes cleaning, fillings, extractions, prevention and referrals. Therefore snippet uncertainty about strictly preventive organizational scope is partly resolved; exact procedure availability at each branch remains unknown.
+Dental locations listed: 2237 W. Ball Road, Anaheim 92804, 714-490-2750; 1814–1820 W. Lincoln Avenue, Anaheim 92801, 714-805-7719. Page retains COVID-era introductory language and does not give a source update date. Published “no one turned away” language is a clinic statement, not guaranteed immediate care, every requested procedure, zero price or unlimited capacity. Liberty Dental acceptance does not by itself establish a specific HMO product/network.
+
+4. Families Together of Orange County, transportation — duplicate
+URL: https://familiestogetheroc.org/transportation-assistance
+Query: "free transportation" OR "ride" dental clinic Medi-Cal "Orange County"
+Previously opened in first broad batch; no new retrieval this pass.
+Published assistance may cover dental visits for eligible established patients with FTOC as PCP, subject to requirements and availability. Do not promote PCP reassignment solely to obtain rides or infer CalOptima assignment mechanics. Free transit to all patients, wheelchair transport and county-wide service remain unestablished.
+See research/search-signals/2026-10-02-orange-county-broad-dental.txt for original follow-up.
+
+5. Friends of Family Health Center, La Habra — unresolved
+URL: https://fofhealthcenter.org/Transportation
+Query: "free transportation" OR "ride" dental clinic Medi-Cal "Orange County"
+Gemini snippet is general affordable-care mission and 562-690-0400; it does not establish transportation eligibility. Direct retrieval timed out. Keep dental/transportation scope snippet-only. Municipal car-service connection needs separate source and eligibility verification.
+
+6. Nhan Hoa, Garden Grove
+URL opened: https://nhanhoa.org/insurance/
+Query: "Nhan Hoa Comprehensive Health Care Clinic" dental Garden Grove Medi-Cal
+Primary full page resolves the snippet's medical-versus-dental ambiguity: Dental table explicitly lists Medi-Cal (Denti-Cal). General page also describes sliding-fee discounts based on ability to pay and enrollment specialists. Published contact 7761 Garden Grove Blvd, Garden Grove 92841; 714-898-8888.
+The table also lists Access Dental, raising freshness questions; no source update date established, and the footer copyright is not an update date. Verify plan products/routing before recommending them. No official DHCS match, new-patient capacity, presumptive eligibility or immediate dental intervention established.
+
+7. Livingstone Community Health Clinic, Stanton
+URL opened: https://www.livingstonecdc.com/
+Query: "Livingstone CDC" dental clinic Stanton OR Buena Park
+Publishes dental care and Stanton address 12362 Beach Blvd #10, Stanton 90680; 714-248-9500. New-patient process is submit packet then wait for office contact, not a confirmed appointment. Dental forms in English, Spanish and Korean are linked; these do not establish staff fluency or interpreter provision. Homepage directs patients to front desk for transportation arrangements; price, wheelchair capability and eligibility unknown. Insurance and fee details not checked. Broad mission to serve uninsured, disabled and homeless people does not establish a specific accommodation.
+
+8. Share Ourselves/SOS Mission Viejo — secondary lead only
+Input URL: https://www.blackhealth.org/clinic/sos-community-health-center-mission-viejo-mission-viejo-ca-2fb9af39/
+Query: "sliding scale" dental clinic "San Clemente" OR "Mission Viejo"
+Gemini attributed services/address to a third-party directory: 27725 Santa Margarita Pkwy Suite 101, Mission Viejo. Not opened or independently matched to official SOS location/service evidence. Dental availability, urgent extractions, fees and HRSA status remain unverified for this specific branch.
+
+BATCH ASSESSMENT
+Eight supplied signals: seven not present as entries in the preceding broad log, one repeat (Families Together). Six supplied primary URLs attempted: Central City, Southland, Serve the People, Nhan Hoa, Friends of Family, Livingstone. Five retrieved, one timed out. Two additional linked Serve the People pages inspected. Families Together was already checked; SOS secondary page not inspected.
+Corrections: eliminate inferred PCP reassignment strategy, presumptive Medi-Cal eligibility, universal free transportation, Liberty Dental HMO product, and guaranteed same-day/free care. Keep source-stated acceptance, financial assistance, appointment process and transportation eligibility as separate criteria.
+Best future Gemini role: new regional lead discovery with actual URLs and snippets, explicitly excluding these organizations unless materially new evidence appears.
