@@ -1,0 +1,93 @@
+Orange County clinician-language discovery and primary-source audit
+Research date: 2026-10-02 America/Los_Angeles; retrieval session continued 2026-10-03 UTC.
+Purpose: OpenHealthcare supports meaningful patient-provider connections through open, accessible, attributable data.
+Status: Research only. No directory import, badges, publication, deployment or indexing changes.
+
+Input: User-supplied Gemini batch of eleven search-snippet leads. Gemini did not open pages. Preserve that access method independently of the primary checks below. Published website statements are source-stated, not independent fluency assessments or licensing checks.
+
+1. Pegah Naji, DDS — Smile Dental Boutique, Mission Viejo
+URL: https://www.smiledentalboutiquemv.com/
+Gemini: Dr. Naji; first name and credentials unresolved.
+Primary page opened: identifies Pegah Naji and DDS education; attributes fluent Farsi and Spanish “to some extent” to the clinician. Preserve the limited Spanish qualifier.
+Location: 23052 Alicia Pkwy Suite B2, Mission Viejo CA 92692.
+Separate previous practice-source insurance evidence: https://www.smiledentalboutiquemv.com/forms-financing/ states Medi-Cal Dental participation. Neither source establishes new Medi-Cal capacity, personal enrollment, individual procedure benefits or clinician schedule.
+Next: scoped appointment and program availability confirmation, not another generic-language search.
+
+2. Austin Huynh — Lumina Dental Studio, Garden Grove
+URL: https://www.luminadentalstudio.com/our-locations
+Gemini snippet attributes Vietnamese clinical explanations to “Dr. Hyunh”, while lead name spells Huynh.
+Primary retrieval timed out. Remains snippet-only; spelling, credential, location and statement attribution unresolved. No absence inference.
+Next: retry full page and named clinician bio.
+
+3. Michael Zhang, DMD — Zhang Dental Group of Tustin
+URL: https://michaelzhangdmd.com/about/
+Gemini snippet: Mandarin; English/Mandarin/Spanish list with Spanish attribution unclear.
+Primary retrieval returned internal error. Remains snippet-only. Do not assign Spanish to the clinician or claim nonparticipation.
+Next: retrieve full about page, distinguish personal language from office list.
+
+4. James Chiu, DDS — Affinity Dental Center, Santa Ana
+URL: https://affinitydentalcenter.com/dr-chiu/
+Primary page opened, named biography: explicitly attributes Mandarin, Chinese, Taiwanese and English fluency to James Chiu.
+Location: 1920 17th St #100, Santa Ana CA 92705; 714-953-6881.
+Preserve source labels. “Chinese” is broad and “Taiwanese” does not justify silently choosing a standardized dialect code. Do not collapse or expand them. Medi-Cal status unestablished in this check.
+Next: clarify patient-facing language labels; portrait separately inspectable through named image context, not cleared for reuse here.
+
+5. Stan Chien, DDS — Irvine
+URL: https://www.irvinecadentist.com/
+CORRECTION: Full homepage assigns Mandarin/Taiwanese/English fluency to hygienist Stephanie Huang under “Our Lovely Hygienists”, not Dr. Stan Chien.
+Gemini merged nearby navigation/clinician name with hygienist text. Do not use this source to assign those languages to Chien.
+Retain Stephanie Huang as a separate clinician-language lead supported by opened page. Chien language remains unknown from this source. PPO list does not establish Medi-Cal refusal.
+Next: named Chien bio if his language is needed; independent role-specific records for hygienists.
+
+6. Amir Larijani — Santa Margarita Dental Group, Rancho Santa Margarita
+URL: https://santamargaritadental.com/dr-amir-larijani/
+Primary biography opened: explicitly states fluent Farsi. Names ownership of Santa Margarita and co-ownership of Dana Point Dental; ownership does not establish a current appointment schedule.
+Location footer: 22195 El Paseo #260, Rancho Santa Margarita CA 92688; 949-459-9300.
+Do not adopt Gemini's inferred DDS credential: this inspected biography describes dental education without explicitly supplying the suffix.
+Source-quality note: unrelated online medication sales/guide links appear beneath the biography. Do not follow or treat them as clinical advice; record as a page-integrity concern requiring stewardship before promotion.
+Next: corroborate current official biography, qualification and location relationship.
+
+7. Mi Young Chung, DDS — Opus Dental, Fullerton
+URL: https://www.opusfullerton.com/about-us/dr-mi-young-chung/
+Primary page opened: names DDS education and clinician fluency in Korean, English and Spanish.
+Practice header explicitly says most dental PPO and Denti-Cal accepted. Generic new patients welcome is not explicit new Denti-Cal intake.
+Location: 611 S. Euclid St, Fullerton CA 92832; 657-222-6110.
+Bio references an Anaheim practice history; do not infer current Anaheim schedule.
+Photo alt naming differs from page heading (“Dr. Maria Chung” versus Mi Young Chung): no photo approved.
+Next: precise program capacity and named portrait identity reconciliation.
+
+8. Randa Nasr, DDS — Gentle Dental, Orange
+URL: https://gentledental.interdent.com/locations/ca/orange
+Primary branch page opened: named general-dentistry biography explicitly states Arabic fluency and DDS.
+No individual participation, new Medi-Cal capacity or licensing verification established by language bio.
+Additional lead on same page: Tania Tahsili, DMD, fluent English/Farsi/Hindi. Her biography says Irvine while listed on Orange page; location assignment is conflicting/ambiguous, not an automatic Irvine entry.
+Next: confirm individual clinician branch schedule and preserve organization-vs-clinician scope.
+
+9. Jeong Kim, DDS, MD — Gentle Dental, Brea
+URL: https://gentledental.interdent.com/locations/ca/brea
+Primary branch page opened: biography states Korean spoken and identifies oral surgery; do not present as general dentist. Source describes oral/maxillofacial training.
+Branch insurance list includes Medi-Cal. This is practice-stated, not DHCS enrollment or covered surgical procedure/individual participation confirmation.
+Next: specialty referral route, eligibility and capacity; do not inherit all office insurance to every clinician.
+
+10. Maria Isabel Acherman, DDS — Gentle Dental, Irvine
+URL: https://gentledental.interdent.com/locations/ca/irvine
+Primary branch page opened: roster names Maria Acherman; full biography names Maria Isabel Acherman, DDS, general dentist, fluent Spanish.
+Location: 4950 Barranca Parkway Suite 105, Irvine CA 92604; 949-247-7575.
+Checked insurance list does not explicitly name Medi-Cal. Absence is unknown, not refusal; Liberty listing does not establish a specific Medi-Cal network.
+Next: program participation independently of language matching.
+
+11. Michael Danial, DMD — BriteCleanSmiles, Costa Mesa
+URL: https://www.britecleansmiles.com/about/
+Primary page opened: full name Michael Danial, DMD; explicitly speaks English, Arabic and Spanish. Heading and image context identify Costa Mesa.
+Correct Gemini's city inference: area code is not geographic proof; this page supplies actual city evidence. Historical other-office mentions do not establish current clinician schedules.
+Additional clinician: “Dr. Shadi”, fluent Farsi and conversational Spanish. Full identity/credential unresolved; retain as separate discovery lead, not merge with Danial.
+Office amenities include headphones and blankets; do not infer a full sensory accommodation protocol.
+Phone conflict within page: 949-777-1005 versus 949-312-6143; resolve before canonical contact import.
+Medi-Cal unknown in this check.
+Next: contact page for exact address/contact, complete Shadi identity and independently scoped insurance.
+
+Batch result:
+Eight of the original eleven clinician language claims supported by opened primary text; one reassigned to named hygienist; two retrieval failures remain snippet-only.
+Additional leads: Stephanie Huang, Dr. Shadi, Tania Tahsili (branch ambiguity).
+No names, ancestry, area codes, gender, general legal notices, web translation widgets or nearby snippets establish clinician language. Fluency wording is not independent evidence of consent quality. Keep language level, person/role, branch, practice insurance and new-patient capacity separate.
+Future Gemini task: broad batches of exact official URLs plus short attributed snippets, explicit subject/role, language proficiency wording and uncertainty. Avoid repeated granular searches when only snippets are available. These leads reduce retrieval work but do not self-certify.
