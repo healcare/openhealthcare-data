@@ -1,0 +1,57 @@
+{
+  "schema_version": "openhealthcare.external-source-research.v1",
+  "researched_on": "2026-10-02",
+  "research_status": "source-stated",
+  "purpose": "Preserve explicit negative participation evidence to reduce repeated false-positive discovery.",
+  "claims": [
+    {
+      "practice": "Daniel Sung Suh, DDS Joseph Dental Group",
+      "address": "4050 Barranca Pkwy Ste 100, Irvine CA 92604",
+      "source_url": "https://josephdentalcare.com/financial-information/",
+      "access_method": "opened official financial page",
+      "evidence_locator": "Financial Information insurance paragraph",
+      "value": "Practice states it does not accept Medi-Cal.",
+      "quoted_excerpt": "we do not accept HMO plans or Medi-Cal/Medicare",
+      "source_as_of": null,
+      "retrieved_on": "2026-10-02",
+      "evidence_status": "source-stated"
+    },
+    {
+      "practice": "Irvine Family & Implant Dentistry",
+      "address": "2 Osborn Suite 130, Irvine CA 92604",
+      "source_url": "https://www.drjeevandds.com/insurances/",
+      "access_method": "opened official insurance page",
+      "evidence_locator": "Dental Insurance, final paragraph",
+      "value": "Practice states it is not a Medi-Cal provider.",
+      "quoted_excerpt": "Irvine Family & Implant Dentistry is not a Medi-Cal provider.",
+      "source_as_of": null,
+      "retrieved_on": "2026-10-02",
+      "evidence_status": "source-stated"
+    }
+  ],
+  "limitations": [
+    "Website statements, not independent government enrollment determinations; dated retrieval is not publication date.",
+    "Do not generalize beyond the named practice/location or treat as permanent status.",
+    "Gemini no fresh leads applies only to attempted indexed searches, not full Irvine market coverage."
+  ],
+  "neighboring_city_leads": [
+    {
+      "name": "Tustin Smile Care",
+      "city": "Tustin",
+      "url": "https://www.tustinsmilecare.com/",
+      "status": "Gemini snippet-only; not opened this pass; Cal-Optima/Denti-Cal wording needs dental-routing scope"
+    },
+    {
+      "name": "SoCal Micro Endodontics",
+      "cities": [
+        "Placentia",
+        "Orange"
+      ],
+      "url": "https://socalmicroendodontics.com/medi-cal-root-canal-treatment/",
+      "status": "Gemini snippet-only; not opened this pass"
+    }
+  ],
+  "directory_changes": [],
+  "photos": [],
+  "next_action": "Rotate snippet research to nearby patient-access alternatives or exact original government resource links; keep adjacent cities separate from Irvine cohort."
+}
