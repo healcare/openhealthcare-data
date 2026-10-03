@@ -44,3 +44,10 @@ Gemini reported search-snippet-only capabilities. Its indexed web queries return
 
 FUTURE BADGES
 Candidate wording: No Medi-Cal — practice-stated. HMO nonparticipation requires separate explicit evidence. Badges need primary source, exact scope/date, correction/refresh handling and accessible text. No badge deployed by this log; no motive or quality assessment implied.
+
+GEMINI FOLLOW-UP — NEARBY ACCESS LEADS (reported 2026-10-02)
+Access level: Gemini-reported snippets only; exact new result URLs not supplied.
+Lollipop Lake Forest: multiple reported snippets use 21771 Lake Forest Dr Suite 112; anesthesia page body uses 21751 Lake Forest Drive #21. We already opened that page and observed both addresses. Repetition may reflect shared footers, not independent confirmations. Conflict unresolved; do not select by majority count.
+Denti-Cal anesthesia intake/referrals: no new branch-scoped intake or referral evidence in latest snippets. Existing opened group checklist remains the source; do not reinterpret missing snippets as missing procedures.
+Kereem Husain: Gemini reports a surgeon-directory snippet and a La Puente Smiles West doctors-page snippet with 15448 Amar Rd, La Puente CA 91774. Candidate location association only; exact page URLs needed. No evidence supplied establishing exclusive practice there, absence elsewhere or current schedule. Lake Forest assignment remains unknown. Do not infer individual Medi-Cal participation from group insurance statements.
+Next retrieval: exact current Lake Forest branch contact page; exact La Puente biography/location relationship page. Do not repeat same group resource as new branch confirmation.
