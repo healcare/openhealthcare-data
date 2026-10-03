@@ -11,7 +11,7 @@ Garth Fisher
 New biography URL opened: https://www.garthfisher.com/about-dr-fisher/meet-dr-fisher/
 This resolves the earlier inaccessible guessed /about/dr-garth-fisher/ path: an actual official biography is accessible.
 No eligible own-domain portrait established in retrieved page content. Visible linked image was a third-party-hosted Bio Med Spa logo, not clinician portrait. Gemini's Getty lead is ineligible and not independently inspected.
-Retain exact official biography for future source checks. No new profile facts imported; page mixes older and newer text, including a release scheduled for 2016. Practice-published phone 310-273-5995 differs from earlier public bundle 310-273-5995/5995 source history? Existing bundle fetched earlier has 310-273-5995? Verify exact current app value before any change; no contact edit in this pass.
+Retain exact official biography for future source checks. No new profile facts imported; page mixes older and newer text, including a release scheduled for 2016. No contact edits made in this photo audit.
 
 Rady Rahban
 Repeat official biography: https://www.radyrahban.com/our-practice/dr-rady-rahban/
