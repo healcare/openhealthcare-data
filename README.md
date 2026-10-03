@@ -99,7 +99,11 @@ Run `npm run test:refresh` when changing refresh validation.
 
 ## Irvine Medi-Cal access pilot — October 2, 2026
 
-- [Two source-stated Irvine practice records](data/directories/us/ca/irvine/dentists.json), source research dated October 2. Practice participation, panel status, language, accommodations and treatment coverage are separate fields; unknowns are explicit.
+- [Three source-stated Irvine practice records](data/directories/us/ca/irvine/dentists.json), source research dated October 2. Practice participation, panel status, language, accommodations and treatment coverage are separate fields; unknowns are explicit.
 - [Replit handoff](docs/REPLIT-IRVINE-MEDI-CAL-HANDOFF.md): new owner-authorized directory, accessible Medi-Cal* link badge, organization identities, pending review, no indexing or deployment.
 
 This new Irvine scope does not reopen the existing Orange County plastic-surgeon factual hold. It supports lower-income patients and reusable criterion-level evidence for future search agents.
+
+## Open search signals
+
+[Lightweight research logs](research/search-signals/README.md) preserve attributable positive/negative insurance statements, snippet leads, failed retrievals, historical records and corrections. They supplement structured evidence without automatically changing profile claims or badges. The [Irvine insurance log](research/search-signals/2026-10-02-irvine-dental-insurance.txt) includes explicit practice-stated Medi-Cal/HMO nonparticipation and future badge guidance.
