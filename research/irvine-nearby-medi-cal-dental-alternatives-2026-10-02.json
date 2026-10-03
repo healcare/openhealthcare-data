@@ -1,0 +1,191 @@
+{
+  "schema_version": "openhealthcare.external-source-research.v1",
+  "researched_on": "2026-10-02",
+  "research_status": "source-stated",
+  "scope": "Nearby dental alternatives research only; not added to Irvine cohort or deployed.",
+  "practices": [
+    {
+      "id": "research-pure-santa-ana",
+      "name": "Pure Santa Ana Dentist",
+      "city": "Santa Ana",
+      "address": "1125 17th St Suite E227, Santa Ana CA 92701",
+      "phone": "+1-714-705-6852",
+      "source_url": "https://puresantaanadentist.com/services/denti-cal--medi-cal",
+      "retrieved_on": "2026-10-02",
+      "source_as_of": null,
+      "claims": [
+        {
+          "attribute": "medi-cal-dental-acceptance",
+          "value": true,
+          "scope": "Named practice/location website",
+          "locator": "Denti-Cal Dentist acceptance paragraph"
+        },
+        {
+          "attribute": "emergency-service",
+          "value": "Website says it will try same-day care during office hours; after-hours contact may be possible.",
+          "scope": "Practice statement; not guaranteed slot",
+          "locator": "Dental Emergencies"
+        }
+      ],
+      "limitations": [
+        "CalOptima/medical-versus-dental terms conflated; retain explicit dental acceptance but do not import routing equivalence.",
+        "Coverage section labeled 2022; do not use eligibility/benefit copy as current official advice.",
+        "List of persons with disabilities concerns benefit populations, not facility accessibility.",
+        "New Medi-Cal capacity and specific accommodations unknown."
+      ]
+    },
+    {
+      "id": "research-smiles-west-lake-forest",
+      "name": "Smiles West Dental & Orthodontics — Lake Forest",
+      "city": "Lake Forest",
+      "address": "23082 Ridge Route Dr, Lake Forest CA 92630",
+      "phone": "+1-949-837-2766",
+      "source_url": "https://smileswest.com/lake-forest/",
+      "retrieved_on": "2026-10-02",
+      "source_as_of": null,
+      "claims": [
+        {
+          "attribute": "medi-cal-dental-acceptance",
+          "value": true,
+          "scope": "Location-specific FAQ for eligible patients",
+          "locator": "Do you accept Medi-Cal at Smiles West – Lake Forest?"
+        },
+        {
+          "attribute": "language-support",
+          "value": [
+            "English",
+            "Spanish"
+          ],
+          "scope": "Location FAQ states Spanish-speaking dentists and staff; no named clinician/shift availability established",
+          "locator": "Are you a bilingual dental office?"
+        },
+        {
+          "attribute": "emergency-service",
+          "value": "Same-day emergency appointments whenever schedule allows",
+          "scope": "Location-specific statement; not live availability",
+          "locator": "Do you offer same-day emergency dental appointments?"
+        },
+        {
+          "attribute": "general-new-patients",
+          "value": true,
+          "scope": "General invitation, not explicit new Medi-Cal capacity",
+          "locator": "Are you accepting new patients?"
+        },
+        {
+          "attribute": "age-scope",
+          "value": "all ages",
+          "scope": "Practice-stated location FAQ; specific case acceptance unknown",
+          "locator": "Are you accepting new patients?"
+        }
+      ],
+      "limitations": [
+        "Broad all-insurance/coverage-guarantee marketing excluded.",
+        "Offered services are not necessarily Medi-Cal covered.",
+        "Physical and sensory accommodations, current enrollment and new Medi-Cal capacity unknown."
+      ]
+    },
+    {
+      "id": "research-western-bristol",
+      "name": "Western Dental Kids — Bristol Street",
+      "city": "Santa Ana",
+      "source_url": "https://www.westerndental.com/en-us/find-a-location/california/santa-ana/2144-bristol-st/",
+      "retrieved_on": "2026-10-02",
+      "source_as_of": null,
+      "claims": [
+        {
+          "attribute": "medi-cal-dental-acceptance",
+          "value": true,
+          "scope": "Specific About the Western Dental Kids 2144 Bristol St location section"
+        },
+        {
+          "attribute": "age-scope",
+          "value": "infants, toddlers, children and teens",
+          "scope": "Named-location section; exact age cutoff unknown"
+        },
+        {
+          "attribute": "walk-ins",
+          "value": "welcomed",
+          "scope": "Named-location statement, no guaranteed appointment"
+        }
+      ],
+      "limitations": [
+        "Other sections wrongly mention Inglewood and all-age care; do not use them as local facts.",
+        "Published hours differ from general evening/weekend copy; current schedule needs confirmation.",
+        "Free exam promotion has expired 2025 terms and excludes government-covered patients; do not advertise it as Medi-Cal benefit.",
+        "Images third-party Cloudinary; excluded from asset candidates.",
+        "Enrollment, explicit new Medi-Cal capacity and accommodations unknown."
+      ]
+    },
+    {
+      "id": "research-western-grand",
+      "name": "Western Dental & Orthodontics — North Grand Avenue",
+      "city": "Santa Ana",
+      "source_url": "https://www.westerndental.com/en-us/find-a-location/california/santa-ana/1575-north-grand-avenue/",
+      "retrieved_on": "2026-10-02",
+      "source_as_of": null,
+      "claims": [
+        {
+          "attribute": "medi-cal-dental-acceptance",
+          "value": true,
+          "scope": "Specific About the 1575 North Grand Avenue location section"
+        },
+        {
+          "attribute": "age-scope",
+          "value": "all ages, including young children",
+          "scope": "Named-location statement"
+        },
+        {
+          "attribute": "walk-ins",
+          "value": "welcomed",
+          "scope": "Named-location statement, no guaranteed appointment"
+        }
+      ],
+      "limitations": [
+        "Other sections wrongly mention Inglewood; exclude generic mismatched local claims.",
+        "General extended-hours copy not reconciled with displayed location schedule.",
+        "Expired exam promotion excluded; third-party imagery not approved.",
+        "Enrollment, new Medi-Cal capacity and accommodations unknown."
+      ]
+    },
+    {
+      "id": "research-lollipop-anesthesia",
+      "name": "Lollipop Dental",
+      "cities": [
+        "Lake Forest",
+        "Tustin"
+      ],
+      "source_url": "https://lollipopdental.com/treatment-resources/denti-cal-general-anesthesia/",
+      "retrieved_on": "2026-10-02",
+      "source_as_of": null,
+      "claims": [
+        {
+          "attribute": "denti-cal-anesthesia-process",
+          "value": "Practice-published checklist for Denti-Cal general anesthesia in its office",
+          "scope": "Group treatment resource; exact branch and current intake unresolved",
+          "locator": "Checklist for Denti-cal General Anesthesia in our Office"
+        },
+        {
+          "attribute": "special-healthcare-needs",
+          "value": "Practice describes pediatric team experience with children with special needs",
+          "scope": "Group statement; not specific accommodations or universal capacity",
+          "locator": "Our Pediatric Dentists"
+        }
+      ],
+      "limitations": [
+        "Resource does not prove each branch accepts all new Medi-Cal cases.",
+        "Page lists a fee and preoperative instructions; do not republish as endorsed benefit rules or individualized medical instructions.",
+        "Specific location, authorization, covered versus non-covered charges and accommodations require source clarification."
+      ]
+    }
+  ],
+  "failed_attempts": [
+    {
+      "name": "West Coast Dental of Orange",
+      "url": "https://www.westcoastdental.com/blog/medi-cal-dentist-in-orange-county/",
+      "result": "Web open inaccessible; Gemini snippet remains discovery-only."
+    }
+  ],
+  "photos": [],
+  "directory_changes": [],
+  "next_action": "Research precise accommodations and referral/intake scope; keep geographic labels explicit. No new nearby directory creation, outreach or deployment performed."
+}
