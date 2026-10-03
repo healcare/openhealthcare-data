@@ -1,0 +1,14 @@
+Beverly Hills portrait second pass — October 2, 2026, America/Los_Angeles
+Research only; no new photo approval or hold clearance.
+
+Malcolm Lesavoy: reopened official https://lesavoyplasticsurgery.com/about/ . Named portrait link still resolves through the web reader to homepage HTML rather than image bytes: https://lesavoyplasticsurgery.com/wp-content/uploads/2024/10/plasticsurgeonbeverlyhills.jpg . Next useful action is rendered-page inspection to see whether the named portrait itself is visible and qualifies for the user's authorized screenshot-preview workflow. Do not screenshot sponsored Faceliftology assets or infer reuse permission from visible display.
+
+Garth Fisher: reopened https://www.garthfisher.com/about-dr-fisher/meet-dr-fisher/ . Reader still exposes Bio Med Spa logo on DatoCMS rather than an eligible clinician portrait. Text reader cannot establish all rendered/background images. Next: visually inspect official biography/homepage, distinguishing physician-domain portrait assets from excluded CDN images. No removal of existing working images authorized by this check.
+
+Michael Obeng: reopened https://www.mikoplasticsurgery.com/dr-michael-k-obeng . Retrieved biography includes external irp.cdn-website.com media; no eligible new own-domain portrait established. Independent editorial hold unchanged. No inferred absence.
+
+Daniel Barrett: reopened https://www.drdanielbarrett.com/dr-barrett . Exposed image at cdn.prod.website-files.com is still outside user's own-domain requirement. No Getty, YouTube thumbnail or CDN substitution.
+
+Daniel Gould: reopened https://drgouldplasticsurgery.com/about/dr-daniel-gould/ . Page identifies an image as Beverly Hills Plastic Surgeon — Dr. Gould; web-reader click could not resolve. Existing candidate https://drgouldplasticsurgery.com/assets/img/feature/dr-gould-11.jpg needs a successful decode and visual match; no fabricated alternate paths. Keep existing working portrait unless evidence warrants a repair.
+
+Gemini assistance: best task is new official biography/team/press page discovery for these named clinicians, exact returned URLs with concise snippets, access method and ownership uncertainty. Search-only tools must not claim image inspection, invent filenames or infer no image exists. New targets only, not repeat loops through already checked links. Static screenshot preview approval applies to eligible own-domain delivery issues, not blanket approval of third-party images or independent review holds.
