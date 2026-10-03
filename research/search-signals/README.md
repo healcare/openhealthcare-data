@@ -25,3 +25,5 @@ Preserve enough provenance to reduce repeated work. Summarize rather than archiv
 ## Current logs
 
 - [Irvine dental insurance search signals, October 2, 2026](2026-10-02-irvine-dental-insurance.txt)
+
+- [Broad Orange County dental discovery, October 2, 2026](2026-10-02-orange-county-broad-dental.txt): fourteen leads/signals, selected primary-source checks and patient-access limits.
