@@ -1,0 +1,14 @@
+{
+  "researchDate": "2026-10-02",
+  "providerId": "ed4cf1f5-d064-4123-b51f-6807ce96ba36",
+  "canonicalPath": "rachelbradleywilliams",
+  "sourcePage": "https://rachelbradleywilliams.com/about/",
+  "currentPageImageLink": "https://rachelbradleywilliams.com/wp-content/uploads/2021/09/5fdb3080-1a57-11ec-a996-116aa84e956f.jpg",
+  "observation": "Web reader opened named about page and its image link. Same exact asset was already preserved in research/washington-dc-three-portrait-delta-2026-10-01.json. This is not a newly discovered portrait.",
+  "appDisclosureImageUrl": "https://rachelbradleywilliams.com/wp-content/uploads/2024/03/Rachel-Bradley-Williams.jpg",
+  "recordedAppHold": "Private shared/public-editorial-disclosure.ts reports image loaded but response set Cloudflare __cf_bm and Chromium stored cookie; withheld under zero-cookie policy.",
+  "unresolved": "Research candidate and app disclosure name different exact URLs. No assumption that source-linked 2021 asset passed, failed or inherits exact response behavior of 2024 asset. Determine actual browser test URL from app evidence before correcting disclosure or mapping.",
+  "nextAction": "Reconcile exact request record with candidate. Do not clear existing hold or retry known blocked asset. Any distinct candidate requires appropriate app/privacy checks before display under existing policy.",
+  "replitReadOnlyAttempt": "Agent busy; question not submitted or queued.",
+  "preservation": "No photo approved, copied, proxied, rehosted or deployed. Profile claims/review/publication/indexing unchanged."
+}
