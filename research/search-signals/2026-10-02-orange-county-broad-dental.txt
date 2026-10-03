@@ -1,0 +1,78 @@
+OPENHEALTHCARE — BROAD ORANGE COUNTY DENTAL DISCOVERY
+Date: 2026-10-02, America/Los_Angeles
+Input: User-supplied Gemini Pasted text(4).txt. Report claimed 15; actual entries 14 across 13 organizations (Families Together has two entries).
+Scope: Research signals only. Five submitted source URLs opened plus one linked transportation policy. Remaining nine submitted URLs are snippet-only. No directory imports, new badges, photo clearance, outreach or deployment.
+Primary website statements are source-stated, not credential/network certification. Unopened snippets are attributed leads, not accepted claims.
+
+1. Cal Dental Anaheim
+Geography: Anaheim
+Source URL: https://caldentistry.com/
+Signal and limits: Opened: limited Medi-Cal services; explicitly no HMO, Original Medicare or Delta Dental PPO. Specific limited treatments unknown. Source contact 3006 W Lincoln Ave, 714-828-0508. Separately stated attributes; no-HMO is compatible with limited Medi-Cal.
+
+2. Hurtt Family Health Clinic
+Geography: Multiple OC locations
+Source URL: https://www.hurttclinic.org/programs-and-services/dental/
+Signal and limits: Opened: dental page lists Denti-Cal and eligible sliding-fee patients; explicitly does not provide sedation dentistry, cosmetic dentistry, implants or other specialty care. Crowns Santa Ana only with exceptions. Do not equate CalOptima medical plan wording to dental routing or assume all locations offer all care.
+
+3. Quinn Dental
+Geography: Buena Park
+Source URL: https://quinndentaloc.com/dentist-that-accepts-denti-cal-in-buena-park/
+Signal and limits: Opened: September 20 2026 practice article explicitly accepts new and existing Denti-Cal patients, treating older children, teens and adults; says not equipped for toddlers/very young kids. Numeric minimum age unknown. Care described in English/Spanish without named clinician/shift allocation. No live slot or government enrollment verified; benefit/policy commentary not imported as official advice.
+
+4. St Jude Services for the Underserved
+Geography: Buena Park/Fullerton
+Source URL: https://www.providence.org/locations/socal/st-jude-medical-center/about-us/community-benefit/health-services-for-the-underserved
+Signal and limits: Gemini snippet-only: uninsured and DentiCal pediatric services ages 0–18; exact site eligibility/schedule/fees not checked.
+
+5. Share Ourselves
+Geography: Costa Mesa/Newport Beach
+Source URL: https://shareourselves.org/news/category/clinics/
+Signal and limits: Gemini snippet-only: community health center/dental center serving across income or insurance status. Category news page may be historical. Mission is not guaranteed free dental service or no eligibility limits.
+
+6. Western Dental Costa Mesa
+Geography: Costa Mesa
+Source URL: https://www.westerndental.com/en-us/find-a-location/california/costa-mesa/1835-newport-boulevard-ste-c-138/
+Signal and limits: Gemini snippet-only: Denti-Cal, walk-ins and extended-hours statements. Actual schedule, scope and template accuracy not inspected; no guaranteed emergency slot.
+
+7. Cheri Harris Dental Center
+Geography: Costa Mesa
+Source URL: https://www.assistanceleague.org/chapter/newportmesa/cheri-harris-dental-center
+Signal and limits: Gemini snippet-only: nonprofit Medi-Cal and reduced-rate care. Snippet 2220 Fairview Road belongs to thrift/consignment shops; do not assume it is dental service address.
+
+8. Elevate Kids Dental
+Geography: Fullerton
+Source URL: https://www.elevatekidsdental.com/fullerton-ca/special-needs-dentist-for-kids/
+Signal and limits: Gemini snippet-only: special-needs service page candidate. General advice about looking for sedation is not confirmation this practice provides it, accepts Medi-Cal or can treat every case.
+
+9. CHOC dentistry
+Geography: Garden Grove lead
+Source URL: https://choc.org/dentistry/
+Signal and limits: Gemini snippet-only: pediatric common/complex care and center address. Referral/intake, current service location, insurance and exact clinical capacity unknown.
+
+10. Little Heroes Pediatric Dentistry
+Geography: Laguna Hills
+Source URL: https://littleheroespediatric.com/special-needs-dentist-in-orange-county-ca/
+Signal and limits: Opened: invites accommodation requests including dimming lights/turning off music; describes special cognitive/emotional/physical/sensory/developmental needs care and coordination with physicians/therapists. Source address 25251 Paseo de Alicia suite 202, phone 949-342-1484. Practice statement not tested arrangement; Medi-Cal participation, new capacity and exact case suitability unknown. Sedation offered is separate from environmental accommodations.
+
+11. Lestonnac Free Clinic
+Geography: Orange lead
+Source URL: https://www.lestonnacfreeclinic.org/programs
+Signal and limits: Gemini snippet-only: uninsured dental services, veterans mentioned. Organization name does not prove every dental treatment free; eligibility, location and fees need source check.
+
+12. Camino Health Center
+Geography: San Clemente/San Juan Capistrano/Lake Forest
+Source URL: https://caminohealthcenter.org/sliding-fee-scale/
+Signal and limits: Gemini snippet-only: sliding-fee policy linked to Federal Poverty Guidelines. Dental service availability at each site and discount eligibility/application details unknown.
+
+13. Families Together dental services
+Geography: Tustin/Garden Grove leads
+Source URL: https://familiestogetheroc.org/medi-cal-dental-services-orange-county
+Signal and limits: Gemini snippet-only: Medi-Cal dental services advertised. Do not infer orthodontics coverage, guaranteed low/no cost or current panel capacity.
+
+14. Families Together mobile units
+Geography: Orange County mobile program
+Source URL: https://familiestogetheroc.org/mobile-units
+Signal and limits: Opened: mobile dental program described with community/school/shelter settings. No patient home-visit guarantee, schedule or mobile wheelchair access established. Follow-up official transportation page https://familiestogetheroc.org/transportation-assistance opened: assistance may be available for established FTOC patients with FTOC as PCP and meeting program requirements, subject to availability. Ask when scheduling or call published Transportation Team 657-567-0482; phone not called. Broad free-transportation slogan must retain eligibility limits.
+
+Research themes: environmental accommodation requests; explicit age/intake restrictions; affordability and transportation eligibility. Do not rank clinics by medical suitability or infer sedation is unnecessary/necessary. All limitations belong with future patient-facing reuse.
+Next pass: inspect unopened community/nonprofit sources; resolve exact dental service locations and eligibility. Nearby cities stay separate from Irvine count.
