@@ -1,0 +1,49 @@
+SOUTH ORANGE COUNTY DENTAL DISCOVERY
+Research date: October 2, 2026, America/Los_Angeles.
+User-relayed Gemini batch: eight snippet-only leads. Primary web-reader follow-up below. Research only, no app import, deployment or patient outreach. Source-stated acceptance does not establish official enrollment, new Medi-Cal capacity, individual participation or covered procedures. No photos approved.
+
+OC Premier Dentistry, Laguna Hills
+URL opened: https://www.ocpremierdentistry.com/patient-information/why-choose-us/
+Input query: "Laguna Hills" "Denti-Cal" OR "Medi-Cal Dental" clinic OR dentist -Camino -Western
+Primary page explicitly includes Medi-Cal Dental among accepted plans. Published address 27001 Moulton Parkway A206, Laguna Hills 92653; 949-831-8391. Publishes nitrous oxide and oral sedation, and describes metal-free practice for metal allergies. These are treatment/material statements, not evidence of physical accessibility, allergy safety for every material, sedation suitability, painless outcomes or insurance coverage for sedation. New Medi-Cal intake and age bounds unknown. Service-area city lists are not additional branches.
+
+Smile Craft Dental Group, Laguna Hills
+URL opened: https://smilecraftdentalgroup.com/
+Input query: "Laguna Hills" "Denti-Cal" OR "Medi-Cal Dental" dentist OR clinic -Lollipop -Little
+FAQ explicitly accepts Denti-Cal and PPO. Address 23141 Moulton Parkway Suite 211, Laguna Hills 92653; 949-916-0568. Separate FAQ welcomes all ages; no program-specific age limit or new Denti-Cal capacity established. Publishes comfort amenities: noise-canceling headphones, neck pillows and blankets. These are source-stated amenities, not independently tested sensory accommodations. Spanish availability appears in header but staff/clinician allocation not identified. General same-day emergency service claim is not verified appointment capacity. No official enrollment match.
+
+Smile Dental Boutique, Mission Viejo
+URL opened: https://www.smiledentalboutiquemv.com/forms-financing/
+Input query: "Laguna Niguel" "Medi-Cal Dental" OR "Denti-Cal" clinic OR dentist
+Explicit heading We Accept Medi-Cal Dental. Address clearly Mission Viejo: 23052 Alicia Pkwy Suite B2, Mission Viejo 92692; 949-273-1900. This resolves Gemini geographic ambiguity; serving Laguna Niguel does not establish a branch there. PPO, financing and paid membership are separate access/payment options. Broad partner wording does not establish a grant, every plan product, no cost for every treatment or immediate intake. Promotional specials are not Medi-Cal benefits. New program capacity, ages and official enrollment unknown.
+
+Laguna Beach Community Clinic, historical/undated legacy page
+URL opened: https://www.lbclinic.org/2pgs/dental.htm
+Input query: "Laguna Beach Community Clinic" dental OR "sliding scale"
+Page lists on-site Dr. Carlos Garcia dental office, walk-ins/appointments, Medi-Cal/Denti-Cal/Healthy Families, second-floor dental, 949-494-2111, 362 Third Street. Copyright 2008 and obsolete program terminology are freshness flags, not proof of publication date or current operating status. Image alt identifies a different clinician; no identity merge. Retain legacy claims separately pending current clinic source. Second floor does not establish elevator presence or inaccessibility. Walk-ins do not establish current emergency, after-hours or same-day availability. Current primary successor site not located in this pass.
+
+Affordable Dentist Orange County, location unresolved
+URL opened: https://www.affordabledentist.info/
+Input query: "Dana Point" "Medi-Cal Dental" OR "Denti-Cal" clinic OR dentist
+Opened page, but no exact South County physical service location was established in this pass. Gemini attributed Medi-Cal/CalOptima/Denti-Cal acceptance, uninsured savings plan and Charles Zahedi association from snippets; preserve as location-unresolved leads. Review/testimonial city references are not clinic addresses. Do not assign network-wide payment statements to a hypothetical Dana Point clinic or assume Medicare dental coverage or medical CalOptima routing.
+
+Age Well Senior Services, South Orange County
+Input secondary URL: https://thesusiq.org/library-q-online-resources/
+Input query: "Age Well Senior Services" dental "Orange County"
+Primary follow-ups opened: https://agewellseniorservices.org/transportation/ and https://agewellseniorservices.org/transporte/
+Official search also surfaced dated 2024 flyer: https://agewellseniorservices.org/wp-content/uploads/2024/06/Age-Well-Transportation-Flyer-2024.pdf
+Primary program descriptions include non-emergency dental transport. English page specifies age 60+, South OC designated area, enrollment before use, five business days advance booking, availability limits, up to 16 one-way rides monthly, $2 per trip, weekdays 7am–6pm excluding holidays, 949-855-9766. No dual Medicare/Medi-Cal requirement established. Accessible vans statement does not establish a particular wheelchair/lift capacity or transfer assistance. Confirm current criteria with program before booking. Distinct AgeWell Services in Muskegon County is not this organization.
+
+7 Day Dental, Mission Viejo
+URL opened: https://www.7daydental.com/mission-viejo-dental-office/
+Input query: "Mission Viejo" "Denti-Cal" OR "Medi-Cal Dental" clinic OR dentist -Share -Camino -Western
+Address 26391 Crown Valley Pkwy Suite 140, Mission Viejo 92691; 949-365-1900. Branch hours table says Saturday/Sunday closed, while narrative says emergency dentists available seven days including holidays via 866-989-1335. Retain discrepancy; network emergency access may differ from local office hours, but not established. Page has general most-insurance and financing statements. Medi-Cal/Denti-Cal references found in patient reviews are not formal acceptance policy; exact branch participation remains unknown. Published language list is office-scoped, not individual fluency or per-shift availability. Financing presence alone does not establish intent to steer patients into debt. Uber link is not a free transportation benefit.
+
+Dapper Dentistry, San Clemente
+URL opened: https://dapper-dentistry.com/
+Input query: "San Clemente" "Denti-Cal" OR "Medi-Cal Dental" clinic OR dentist -Camino -Western
+Gemini incorrectly inferred exclusion from PPO/CareCredit wording. That inference is rejected. Separately, full page contains explicit current Medi-Cal Dental refusal in insurance section and repeats it near contact form. Short excerpt: “We do not accept Medi-Cal Dental at this time.”
+Address 128 West El Portal, San Clemente 92672; 949-492-1984. This supports dated practice-stated negative Medi-Cal signal. It does not establish HMO refusal, private-insured-only policy, physician motivation or care quality. Insurance policy may change; preserve date/source and correction path. No negative badge deployed.
+
+BATCH RESULT
+Seven supplied practice URLs opened; Age Well secondary lead followed to two official program pages. Three explicit positive practice statements and one explicit negative found. Legacy Laguna Beach data, 7 Day local-hours conflict and Affordable Dentist service-location identity remain unresolved. None of these resources were added to the Irvine-only directory.
