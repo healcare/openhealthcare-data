@@ -1,0 +1,30 @@
+BEVERLY HILLS PHOTO DISCOVERY FOLLOW-UP
+Research date: 2026-10-02, America/Los_Angeles.
+User supplied five Gemini snippet-only results. Two newly useful page targets directly opened via web reader; three repeat sources retained without repeat fetch. Research only; no approved new photos or changes to existing review holds.
+
+Malcolm Lesavoy
+Input called https://faceliftology.com/facelift-surgeon/malcolm-lesavoy-md/ an official biography and suggested intertwined domains.
+Direct page identifies a profile sponsored by Lesavoy Plastic Surgery and describes Faceliftology as publishing informational/sponsored provider listings. Sponsorship and links to lesavoyplasticsurgery.com do not establish physician ownership/control of Faceliftology. Classify as sponsored secondary discovery source until control is independently established, not official practice biography.
+Page prohibits copying/republishing images/content without written permission. No photo approved; no licensing outreach performed. Practice website remains https://lesavoyplasticsurgery.com/about/ . Previous own-domain portrait link redirected to homepage HTML; do not infer photo removal or absent portraits from one retrieval failure. Patient before/after images are not portrait substitutes. Current credentials, academic appointment and procedural outcome claims not adopted.
+
+Garth Fisher
+New biography URL opened: https://www.garthfisher.com/about-dr-fisher/meet-dr-fisher/
+This resolves the earlier inaccessible guessed /about/dr-garth-fisher/ path: an actual official biography is accessible.
+No eligible own-domain portrait established in retrieved page content. Visible linked image was a third-party-hosted Bio Med Spa logo, not clinician portrait. Gemini's Getty lead is ineligible and not independently inspected.
+Retain exact official biography for future source checks. No new profile facts imported; page mixes older and newer text, including a release scheduled for 2016. Practice-published phone 310-273-5995 differs from earlier public bundle 310-273-5995/5995 source history? Existing bundle fetched earlier has 310-273-5995? Verify exact current app value before any change; no contact edit in this pass.
+
+Rady Rahban
+Repeat official biography: https://www.radyrahban.com/our-practice/dr-rady-rahban/
+Gemini again surfaced DatoCMS hosting; prior direct review established external-hosted attributed image. No eligible new own-domain portrait found. Do not interpret no new result as exhaustive absence.
+
+Daniel Barrett
+Repeat official biography: https://www.drdanielbarrett.com/dr-barrett
+Gemini surfaced Webflow CDN again. No eligible new own-domain portrait found. Snippet claims about outcomes, scars and case totals are not new independently verified evidence.
+
+Michael K. Obeng
+Repeat official homepage: https://www.mikoplasticsurgery.com/
+Gemini reported Getty lead, ineligible and uninspected. Its failure to find a standalone biography does not establish none exists: earlier source research already identifies https://www.mikoplasticsurgery.com/dr-michael-k-obeng .
+Do not replace a known biography with an assumed homepage-only conclusion. Independent human-review hold remains.
+
+RESEARCH LESSON
+Search-only Gemini should return genuinely new target URLs, mark sponsor/aggregator ownership uncertainty, and distinguish failure to surface a page from absence. No URL construction, CDN substitution, rights approval or patient-photo reuse. Current heart-illustration fallback work may proceed separately; this batch does not authorize any photo substitution.
