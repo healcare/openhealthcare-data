@@ -1,0 +1,64 @@
+{
+  "schema_version": "openhealthcare.external-source-research.v1",
+  "researched_on": "2026-10-02",
+  "research_status": "source-stated",
+  "practice": {
+    "name": "Dentistry 4 Kids",
+    "entity_kind": "organization",
+    "irvine_location": {
+      "address": "14370 Culver Dr # A, Irvine CA 92604",
+      "phone": "+1-949-954-7186",
+      "source_url": "https://dentistry4kids.com/locations/irvine/"
+    }
+  },
+  "claim": {
+    "attribute": "medi-cal-dental-acceptance",
+    "value": "Medi-Cal/Denti-Cal",
+    "scope": "Group-wide About Us statement; exact Irvine panel/clinician/treatment participation not independently established.",
+    "evidence_status": "source-stated",
+    "source_url": "https://dentistry4kids.com/about-us/",
+    "evidence_locator": "About Us paragraph following founder/team introduction",
+    "quoted_excerpt": "We accept most PPO/HMO insurance plans, as well as Medi-Cal/Denti-Cal",
+    "source_as_of": null,
+    "retrieved_on": "2026-10-02"
+  },
+  "disposition": "Stronger candidate: group statement supported, retain exact Irvine acceptance as unresolved until location-scoped evidence. Not yet imported.",
+  "unknowns": [
+    "Official current enrollment",
+    "Explicit new Medi-Cal patient capacity at Irvine",
+    "Exact patient age limits",
+    "Irvine languages/interpreter arrangements",
+    "Physical and sensory accommodations",
+    "Individual clinician participation and schedules",
+    "Treatment coverage"
+  ],
+  "source_quality_notes": [
+    "About page alternates 15 and 14 location counts; no location count imported.",
+    "Parking/convenient hours language is not wheelchair accessibility.",
+    "Historical Western Dental at same address is not evidence of corporate succession or continuing enrollment."
+  ],
+  "other_batch_dispositions": [
+    {
+      "name": "Heritage Family Dental",
+      "reason": "Different name and Suite 300; do not merge with Family Dental Care Group/Manal Aziz Suite 205."
+    },
+    {
+      "name": "I Smile Dentistry",
+      "reason": "Contact URL is already opened and address corrected to 41 Creek Rd; no new insurance evidence."
+    },
+    {
+      "name": "First Smile Irvine",
+      "reason": "Official biography and office-policy pages already retrieved; no new participation evidence."
+    },
+    {
+      "name": "KMC Dental Group",
+      "reason": "Aggregator only; official domain remains unresolved."
+    }
+  ],
+  "photos": [],
+  "directory_changes": [],
+  "next_research": [
+    "Find explicit Irvine-scoped acceptance or source statement that acceptance applies to all locations.",
+    "Discover exact insurance/payment URLs for unresolved leads without guessing."
+  ]
+}
