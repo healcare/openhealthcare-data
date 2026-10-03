@@ -23,7 +23,7 @@ SUPPORTED POSITIVE BASELINE
 QH Dental: opened practice insurance page explicitly lists Denti-Cal; Irvine location documented. Published communication-assistance policy separate from actual arrangements.
 Irvine Smile Dentistry: opened homepage lists Medi-Cal Dental; only Irvine office in cohort. General new-patient invitation is not new Medi-Cal capacity.
 Orange Pro Dentist: opened homepage lists Denti-Cal; repeated Irvine office contact used, template placeholder phone excluded.
-Current cohort: ../../../data/directories/us/ca/irvine/dentists.json
+Current cohort: ../../data/directories/us/ca/irvine/dentists.json
 All three: current government enrollment, new Medi-Cal patient capacity and individualized coverage unknown. Existing identity/review/media states preserved.
 
 PARTIAL / AMBIGUOUS
