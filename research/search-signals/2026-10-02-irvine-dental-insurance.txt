@@ -1,0 +1,46 @@
+OPENHEALTHCARE — IRVINE DENTAL SEARCH SIGNALS
+Research date: 2026-10-02 (America/Los_Angeles)
+Purpose: Useful positive, negative, unresolved and historical clues for patient search. Research only; not a directory import or permanent assessment.
+
+JOSEPH DENTAL GROUP / DANIEL SUNG SUH, DDS
+Scope: Practice at 4050 Barranca Pkwy Suite 100, Irvine CA 92604.
+Source: https://josephdentalcare.com/financial-information/
+Access: Primary page opened 2026-10-02; practice-stated; source publication date unknown.
+Short excerpt: "we do not accept HMO plans or Medi-Cal/Medicare"
+Signals: Explicit no HMO; explicit no Medi-Cal; explicit no Medicare. Separate attributes, not interchangeable. Most PPO plans accepted is another practice statement, not all private plans.
+Use: Avoid recommending this practice as a Medi-Cal option on this evidence. Do not infer private-insurance-only or reasons for its policy. Phone not called; independent state enrollment not checked.
+Structured audit: ../irvine-dentists-explicit-nonparticipation-2026-10-02.json
+
+IRVINE FAMILY & IMPLANT DENTISTRY
+Scope: Practice at 2 Osborn Suite 130, Irvine CA 92604.
+Source: https://www.drjeevandds.com/insurances/
+Access: Primary page opened 2026-10-02; practice-stated; source publication date unknown.
+Short excerpt: "Irvine Family & Implant Dentistry is not a Medi-Cal provider."
+Signals: Explicit no Medi-Cal. No independent no-HMO finding established in this pass. Do not infer all insurance participation from PPO descriptions or insurer logos.
+Use: Avoid recommending as Medi-Cal option on this evidence. Scope/date matter; statement may change.
+
+SUPPORTED POSITIVE BASELINE
+QH Dental: opened practice insurance page explicitly lists Denti-Cal; Irvine location documented. Published communication-assistance policy separate from actual arrangements.
+Irvine Smile Dentistry: opened homepage lists Medi-Cal Dental; only Irvine office in cohort. General new-patient invitation is not new Medi-Cal capacity.
+Orange Pro Dentist: opened homepage lists Denti-Cal; repeated Irvine office contact used, template placeholder phone excluded.
+Current cohort: ../../../data/directories/us/ca/irvine/dentists.json
+All three: current government enrollment, new Medi-Cal patient capacity and individualized coverage unknown. Existing identity/review/media states preserved.
+
+PARTIAL / AMBIGUOUS
+Dentistry 4 Kids: https://dentistry4kids.com/about-us/ states group Medi-Cal/Denti-Cal acceptance. Opened Irvine page documents 14370 Culver Dr #A. Exact Irvine intake/network scope unresolved. A form option is not full participation proof.
+Boutique Family Dentistry: opened patient page establishes PPO statement, not Medi-Cal acceptance or nonacceptance. Website display tools do not prove physical accommodations or staff language fluency.
+I Smile / Karim Bouhairi: opened contact page states 41 Creek Rd Suite 300; secondary lead claimed 33 Creek Rd. Keep mismatch; no Medi-Cal evidence established.
+OC Smile / Basem Airood: patient-forms page opened and identity/contact documented; insurance page returned 502. Retrieval failure is unknown, not refusal.
+Dean Ariaee: earlier CalOptima/Denti-Cal routing ambiguity hold remains; do not discard prior work or import as clarified.
+Heritage Family Dental Suite 300 is not Family Dental Care Group/Manal Aziz Suite 205 merely because both use 14150 Culver Dr.
+
+HISTORICAL / CORRECTED
+County PDF https://www.ochealthinfo.com/sites/hca/files/import/data/files/104001.pdf is dated 2020-01-30. Children's Specialty Dental Care is the document title. Irvine rows name Rabin Marfatia and Western Dental. No current participation/availability inference.
+Current Dentistry 4 Kids page uses same address as historical Western row; no identity/succession inference.
+ProviderSignal is third-party, not original DHCS enrollment evidence. Earlier Gemini claims of four verified enrollments withdrawn.
+
+SEARCH OUTCOME
+Gemini reported search-snippet-only capabilities. Its indexed web queries returned no fresh explicit Irvine acceptance pages in the final pass. This is an attempted-query result, not a census or proof no additional providers exist. Nearby-city discoveries are saved separately; not Irvine entities.
+
+FUTURE BADGES
+Candidate wording: No Medi-Cal — practice-stated. HMO nonparticipation requires separate explicit evidence. Badges need primary source, exact scope/date, correction/refresh handling and accessible text. No badge deployed by this log; no motive or quality assessment implied.
