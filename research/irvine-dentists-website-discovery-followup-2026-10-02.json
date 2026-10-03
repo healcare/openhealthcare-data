@@ -1,0 +1,101 @@
+{
+  "schema_version": "openhealthcare.external-source-research.v1",
+  "researched_on": "2026-10-02",
+  "research_status": "source-stated-and-discovery",
+  "purpose": "Targeted retrieval after Gemini nine-lead website discovery table; preserve useful corrections without participation upgrades.",
+  "findings": [
+    {
+      "name": "I Smile Dentistry / Karim Bouhairi",
+      "url": "https://www.ismileirvine.com/contact/",
+      "access_method": "opened-practice-contact-page",
+      "published_address": "41 Creek Rd suite 300, Irvine CA 92604",
+      "published_phone": "+1-949-333-2717",
+      "correction": "Gemini/aggregator lead used 33 Creek Rd. Preserve mismatch; current opened contact page states 41.",
+      "participation": "unknown",
+      "additional_url": "https://www.ismileirvine.com/new-patients/",
+      "note": "New-patients page describes visit process; no explicit Medi-Cal statement established."
+    },
+    {
+      "name": "First Smile Pediatric Dentistry / Rabin Marfatia",
+      "url": "https://firstsmileirvine.com/your-child-s-pediatric-dentist/",
+      "access_method": "opened-practice-biography",
+      "published_address": "250 E Yale Loop Ste 205, Irvine CA 92604",
+      "published_phone": "+1-949-299-1111",
+      "participation": "unknown-current; historical 2020 county row already recorded",
+      "patient_policy": {
+        "url": "https://firstsmileirvine.com/office-policy/",
+        "scope": "practice-published; not tested",
+        "finding": "Parents welcome and encouraged in treatment area for routine cleanings and operative appointments.",
+        "limitations": "Not a comprehensive sensory/disability accommodation or guaranteed individualized arrangement."
+      },
+      "insurance_note": "Office policy says most major insurance; does not explicitly name Medi-Cal on inspected page.",
+      "identity_note": "Do not combine with same-name firstsmilede.com in Delaware or firstsmiledds.com in Sunnyvale."
+    },
+    {
+      "name": "Dentistry 4 Kids",
+      "url": "https://dentistry4kids.com/appointment/",
+      "access_method": "opened-multi-location-appointment-page",
+      "finding": "Retrieved text shows Location, Insurance Type and New Patient selectors; individual option values not exposed.",
+      "participation": "unknown",
+      "limitations": "Gemini snippet claimed Medi-Cal choice; not independently established in retrieved text. Even an insurance choice does not alone establish exact Irvine clinician/treatment participation or current intake capacity."
+    },
+    {
+      "name": "OC Smile Dental / Basem Airood",
+      "url": "https://www.ocsmiledental.com/patient_forms.htm",
+      "access_method": "opened-practice-patient-forms-page",
+      "published_address": "17931 MacArthur Blvd, Irvine CA 92614",
+      "published_phone": "+1-949-862-0028",
+      "participation": "unknown",
+      "failure": {
+        "url": "https://www.ocsmiledental.com/insurance_pay.htm",
+        "result": "502 Bad Gateway"
+      },
+      "note": "Partial identity/location retrieval succeeded; prior complete home retrieval failure is not proof website unavailable forever."
+    },
+    {
+      "name": "Vanila Choudhry candidate page",
+      "url": "https://ceramicdentalimplants.com/locations/irvine-ca/dr-vanila-choudhry",
+      "access_method": "opened-implant-promotional-page",
+      "published_address": "2500 Alton Parkway Suite 202, Irvine CA 92606",
+      "published_phone": "+1-949-325-7550",
+      "participation": "unknown",
+      "ownership_status": "not-established-as-physician-owned",
+      "insurance_note": "Most insurance wording only; no explicit Medi-Cal statement.",
+      "limitations": "Domain ownership/control not proven by a named landing page. Do not clear image ownership or copy medical superiority claims."
+    }
+  ],
+  "unopened_leads": [
+    {
+      "name": "Manal Aziz / Family Dental Care Group",
+      "url": "https://www.dentalplans.com/dentists/california/irvine/92604/dr-manal-aziz-13108/",
+      "status": "Gemini secondary snippet only"
+    },
+    {
+      "name": "Soung-Hoon Cho / KMC Dental Group",
+      "url": "https://doctor.webmd.com/doctor/soung-cho-aaaba0bc-d7eb-4671-aaf9-66705c88a7b7-overview",
+      "status": "Gemini secondary snippet only"
+    },
+    {
+      "name": "Nader Dayani",
+      "url": "https://www.deltadental.com/member/find-a-dentist/california/irvine-dentists/",
+      "status": "Gemini insurer-directory snippet only; commercial plan participation is not Medi-Cal"
+    }
+  ],
+  "existing_hold": {
+    "name": "Dean F Ariaee",
+    "note": "Previously saved Cal-Optima/Denti-Cal routing ambiguity retained; no duplicate research this pass."
+  },
+  "photos": [],
+  "directory_changes": [],
+  "next_actions": [
+    "Seek Dentistry 4 Kids explicit Irvine insurance statement or scoped official record, not just selector.",
+    "Find I Smile practice-owned insurance evidence using corrected address.",
+    "Research First Smile current Medi-Cal evidence separately from 2020 county listing."
+  ],
+  "boundaries": {
+    "current_preview_practices": 3,
+    "no_outreach": true,
+    "no_deployment": true,
+    "no_photo_approval": true
+  }
+}
