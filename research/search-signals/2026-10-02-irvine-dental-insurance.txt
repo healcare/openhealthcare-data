@@ -51,3 +51,11 @@ Lollipop Lake Forest: multiple reported snippets use 21771 Lake Forest Dr Suite 
 Denti-Cal anesthesia intake/referrals: no new branch-scoped intake or referral evidence in latest snippets. Existing opened group checklist remains the source; do not reinterpret missing snippets as missing procedures.
 Kereem Husain: Gemini reports a surgeon-directory snippet and a La Puente Smiles West doctors-page snippet with 15448 Amar Rd, La Puente CA 91774. Candidate location association only; exact page URLs needed. No evidence supplied establishing exclusive practice there, absence elsewhere or current schedule. Lake Forest assignment remains unknown. Do not infer individual Medi-Cal participation from group insurance statements.
 Next retrieval: exact current Lake Forest branch contact page; exact La Puente biography/location relationship page. Do not repeat same group resource as new branch confirmation.
+
+FOLLOW-UP PRIMARY PAGES OPENED — 2026-10-02
+Lollipop https://lollipopdental.com/lake-forest/ explicitly publishes 21771 Lake Forest Dr Suite 112, Lake Forest CA 92630 in its branch-specific Visit Us block and footer, phone 949-250-1100. This supports the branch-published contact address, independent of a shared footer alone. The older/group anesthesia resource still contains 21751 #21: retain conflict in that resource and do not assume actual surgery venue or move history. No branch-specific Medi-Cal anesthesia intake confirmed.
+Kereem Husain appears by name on these opened practice pages:
+https://smileswest.com/la-puente/meet-the-doctors/ — named biography; page contact 15448 Amar Rd, La Puente CA 91774.
+https://smileswest.com/bell/ — Meet Our Doctors lists him as pedodontist; page contact 5021 Florence Ave, Bell CA 90201.
+https://smileswest.com/lynwood/ — Meet Our Doctors lists him as pedodontist; page contact 11035 Long Beach Blvd #5, Lynwood CA 90262.
+Evidence level: practice-published location roster association only. Schedule, active credential status, individual insurance participation and appointment capacity not checked. Multiple listings correct earlier suggestion of La Puente exclusivity. Lake Forest assignment remains unknown; do not infer absence elsewhere. No photos approved or directory imports/deployment.
