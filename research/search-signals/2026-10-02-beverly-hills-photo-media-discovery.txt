@@ -1,0 +1,19 @@
+Beverly Hills photo/media discovery — October 2, 2026 America/Los_Angeles
+Input: five Gemini snippet-only leads; no image URLs exposed in Gemini session. Research only, no photo approvals or profile import.
+
+New target 1 — Garth Fisher
+https://www.garthfisher.com/international/
+Opened primary page. No eligible clinician portrait link exposed in reader content; not proof that rendered images are absent. Page describes a consultant relationship with Hobbs Clinic in Dubai. This is practice-stated and would require current location/schedule corroboration before expanding service locations. Promotional quality/outcome claims not adopted. No new photo approved.
+
+New target 2 — Rady Rahban
+https://www.radyrahban.com/resources/podcast/
+Opened primary page. It names Plastic Surgery Uncensored and attributes creation/hosting to Rahban. This could support a succinct source-linked At a glance detail: Hosts Plastic Surgery Uncensored. Podcast links are optional educational resources, not endorsements or proof of clinical outcomes. Exposed named image describes Rahban leaning against a car and is hosted at www.datocms-assets.com, outside the user's own-domain asset requirement. No screenshot/CDN approval. Do not adopt revision percentages, prevention guarantees or superiority marketing.
+
+New target 3 — Daniel Barrett
+https://www.drdanielbarrett.com/meet-the-team
+Opened primary page. Exposed named team images and footer practice image use cdn.prod.website-files.com. No eligible own-domain portrait established. Staff biographies and patient stories are not clinician portrait substitutes. Do not inherit a staff member's hobbies or qualifications to Barrett.
+
+Repeat targets — Malcolm Lesavoy homepage https://lesavoyplasticsurgery.com/ and Michael Obeng biography https://www.mikoplasticsurgery.com/dr-michael-k-obeng
+Already inspected in prior logs; no repeat fetch needed for this batch. Gemini should label known targets as repeats instead of claiming all five are new. Replit's separate Lesavoy rendered-page inspection remains the productive next step. Independent review holds remain unchanged.
+
+Assessment: useful discovery discipline (snippet-only and no fabricated image URLs), three new pages, zero newly approved portraits. Record failed/blocked photo searches so future agents do not repeat identical work. Do not claim exhaustive absence. Better Gemini focus now: broad patient-facing language/access/insurance discovery, or new source-backed career/interests/educational-resource facts suitable for At a glance summaries, with explicit named subject and evidence limits.
