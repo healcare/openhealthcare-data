@@ -1,0 +1,16 @@
+Daniel Gould Gemini batch review — 2026-10-10 UTC
+No public profile changes or credentials approval.
+
+Critical correction: https://uciheadandneck.com/uci-rhinoplasty-vi/aesthetics-course-faculty/ was opened. Its Volunteer Associate Clinical Professor sentence belongs to Dr. Boeckmann, NOT Daniel Gould. Reject/remove this candidate from Gould research and any generated nugget. Shared faculty-page search snippets crossed person boundaries.
+
+Gould's own named section on that UCI page lists his medicine/bioengineering education and research/editorial background, and establishes that he is listed as course faculty. It does not establish a current UCI faculty appointment or teaching this term. Candidate source-attributed nugget: Listed among UCI's aesthetics course faculty. Course date needs checking before describing a current event.
+
+https://drgouldplasticsurgery.com/about/dr-daniel-gould/ — already opened in prior pass; bioengineering PhD and mentoring are practice-stated, not new independent verification. Do not relabel this repeated URL as a new source.
+
+https://drgouldplasticsurgery.com/about/articles/ — opened. Lists facelift SMASectomy study and intercostal nerve transfer review with publisher links. Primary publisher author lists should be checked before independent authorship claims; listed research is not evidence of treatment outcomes or availability. Next retrieval: linked papers, authors, dates and DOI; no broad efficacy claims.
+
+https://www.meetthedoctorpodcast.com/daniel-gould-md-plastic-surgeon-in-beverly-hills-california/ — supplied snippet-only May2023 lead. Fragmented hobbies-have-disappeared quote is not suitable first-screen personal detail; not current and context missing. Publisher primary for its own episode, not physician-owned.
+
+https://podcasts.apple.com/in/podcast/dr-daniel-gould/id1713256565?i=1000773809202 — supplied snippet-only episode lead, June2026 visibility supplied but not independently checked. Apple is platform metadata, not physician/practice-owned; guest appearance needs matching publisher/episode details. No claim he hosts The FACE.
+
+Research instruction: A result containing the target name does not bind every sentence on the page to that person. On multi-person pages require the person's heading and adjoining paragraph; if snippet-only and the connection isn't visible, mark attribution unresolved. Classify sources as practice, institution, original publisher or distribution platform. Separate number of findings from number of new source URLs. No new eligible portrait URL exposed is not proof of no portrait. Preserve existing contact conflict and review flags.
