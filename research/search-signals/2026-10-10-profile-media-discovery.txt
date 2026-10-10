@@ -1,0 +1,30 @@
+External media Gemini batch — 2026-10-10 UTC
+All supplied leads snippet-only. Follow-up retrieval dispositions below. No external artwork/portrait rights approved; no embeds; new-tab external links only. Publication/review flags unchanged.
+
+1 Gould guest / The Face with Alex Pike:
+Supplied YouTube https://www.youtube.com/watch?v=FTv0Sx7Rvxo , supplied June24,2026 duration36:55. Direct fetch throttled; exact-ID indexed search did not independently match. Keep video metadata discovery-only, no video-card substitution yet.
+Opened show distribution https://omny.fm/shows/the-face/dr-daniel-gould confirms named guest and topics facial ageing/anatomy/regenerative aesthetics. Safe audio card description: “Daniel Gould joins Alex Pike for a conversation about facial ageing, anatomy and regenerative aesthetics.” Existing audio35:13 differs from supplied video runtime; these may differ by format, not proven error. Do not transfer timestamps/date/duration between versions.
+
+2 Rahban host / Plastic Surgery Uncensored:
+Supplied https://podcasts.apple.com/us/podcast/plastic-surgery-uncensored/id1462543521 is SERIES, not specific episode. Do not assign recent53min episode duration to whole series. Existing opened official practice source https://www.radyrahban.com/resources/podcast/ supports host association. Show card should say Explore the podcast, omit episode-specific runtime/date unless matched. Apple is distribution, not original publisher.
+
+3 Barrett / The Natural Plastic Surgeon:
+Opened https://www.drdanielbarrett.com/podcast confirms series named at page heading and FAQ-oriented description. Safe series card: “Explore Daniel Barrett's podcast conversations and plastic-surgery questions.” Destination practice page may use tracking; OHC does not load it until explicit navigation. Avoid importing its efficacy/holistic marketing or patient narratives.
+
+4 Barrett / CareCredit:
+Supplied https://www.youtube.com/watch?v=NdDpD0bQaaY , March15,2022. Direct fetch failed, indexed exact-ID search no independent match. Discovery-only. CareCredit is commercial healthcare financing publisher, not neutral independent clinical evidence. If later matched, display publisher visibly; do not add financing CTA or imply endorsement or affordable/uninsured assistance.
+
+5 Fisher / The Morning After with Kelly Stafford:
+Supplied https://podcasts.apple.com/us/podcast/the-morning-after-with-celebrity-plastic-surgeon-dr-fisher/id1585848116?i=1000709876109 , May26,2025 /51min. Not opened this pass; discovery-only.
+
+6 Fisher / The Face with Alex Pike:
+Supplied https://www.youtube.com/watch?v=pUanJRpJ988 .
+Opened distribution https://omny.fm/shows/the-face/sculpting-dreams-a-conversation-with-renowned-beve explicitly supplies https://youtu.be/pUanJRpJ988 and named Fisher episode. Publisher-supported video-link candidate; actual YouTube page/playability not tested. Neutral card display: “Garth Fisher in conversation with Alex Pike” with Watch on YouTube / Listen alternative. No duration/date guessed, no promotional superlatives repeated. Apple distribution result lists April2,2024 /39min, not independently opened; do not transfer that audio duration to video.
+
+7 Chiu / From Vision To Creation:
+Supplied https://www.youtube.com/watch?v=xOi7myQixHY , December3,2025. Direct reader failed, exact-ID indexed search no independent match. Discovery-only; no new card until matching source identity.
+
+8 Lesavoy / 50 Shades of Beautiful:
+Supplied https://podcasts.apple.com/gr/podcast/beauty-is-in-the-eye-of-the-beholdee/id1516591959?i=1000486173470 , July26,2020 /49min. Not opened, discovery-only; retain date if subsequently checked. Old interview not current practice/credential/availability evidence.
+
+Replit acceptance: prefer one meaningful media card per profile, broader series card appropriate for Rahban/Barrett. Local original graphic or approved local image only. No remote provider thumbnails, player iframes/scripts/autoplay/preconnect before click. New-tab action and accessible external notice. Educational/conversational source labeling, never proof of safety/outcomes/bedside manner. Continue to preserve Obeng hold. No deploy.
