@@ -1,0 +1,19 @@
+Gemini discovery review — retrieved 2026-10-10 UTC
+Status: supplied snippet discoveries except explicitly opened sources below. No public profile or review flags changed.
+
+Identity correction: Prior assistant prompt incorrectly requested Michael Gould. Intended Beverly Hills clinician is Daniel Gould, MD, PhD, named on opened official biography https://drgouldplasticsurgery.com/about/dr-daniel-gould/ . Gemini appropriately excluded unmatched results. Correct future target.
+
+Supplied leads and disposition:
+1 Gabriel Chiu https://www.beverlyhillsplasticsurgeryinc.com/surgeon/ — hobbies discovery, largely repeats existing photography/49ers material. Do not prioritize religious detail or wine merely because present.
+2 Chiu https://www.beverlyhillsplasticsurgeryinc.com/blog/the-man-behind-beauty-and-the-beauty-behind-this-man/ — supplied 2010 date and natural/homeopathic recovery marketing. Historical discovery only; no current protocol or efficacy inference, no first-screen nugget.
+3 Malcolm Lesavoy https://lesavoyplasticsurgery.com/ — supplied historical Harbor-UCLA leadership/books. Keep past tense; 25-year duration not reconciled with prior 1976–1999 record. No unqualified current Chief title.
+4 Garth Fisher https://www.garthfisher.com/about-dr-fisher/personal/my-dad-and-me/ — opened page, main text confirms practice-stated contribution to Larry King's My Dad and Me in 2006. Candidate: His website describes contributing a story to Larry King's My Dad and Me. Do not copy lengthy copyrighted memoir or amplify private family trauma as a fun nugget.
+5 Jodie https://www.garthfisher.com/our-office/our-staff/ — staff-person discovery only, not Fisher's volunteering. No separate clinician record without full identity.
+6 Daniel Barrett https://www.drdanielbarrett.com/podcast/all-good-things-podcast-consulting-with-a-plastic-surgeon — supplied fragmented transcript. Candidate guest appearance only, not host; title/appearance needs page verification. Fragment says volunteer my body, not charitable service.
+7 Obeng https://www.mikoplasticsurgery.com/dr-michael-k-obeng — duplicate RESTORE background already retrieved; mission participation does not establish mission leadership. Historical dates must not imply current cadence.
+8 Obeng https://www.mikoplasticsurgery.com/procedures — opened page TRANSGENDER section lists gender-confirmation procedures including facial and top/bottom surgery categories. New practice-stated service discovery, not independently verified competence, current availability, eligibility or insurance. Preserve current editorial/license/contact hold. Same conflicting 3102752750 and 3102752705 phones remain.
+
+No new portrait approval, no rights clearance. Snippet-only no-image result means tools did not expose an eligible URL, not that a portrait is absent.
+
+Research reinforcement:
+Return fewer high-value sources; mark new vs repeat and publication date if observed. Say not established when unknown. Match full clinician name, specialty, city and exact source identity before enrichment. A snippet-only observation supports a discovery candidate, not a current verified claim. Hobbies/education/background and clinical services require different review. Skip efficacy/safety claims, promotional superiority and inferred leadership. Keep staff and clinician facts separate. Continue discovery for Daniel Gould using the corrected official biography and its publication/podcast links. No outreach or deployment authorized.
