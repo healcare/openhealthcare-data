@@ -10,7 +10,7 @@ inventing a new schema.
 
    `data/directories/{country}/{region}/{city}/{topic}.json`
 
-2. Replace every example value. Use lowercase ASCII slugs with hyphens.
+2. Replace every example value. Directory/topic slugs may use lowercase ASCII with hyphens. New person-profile paths follow `docs/profile-url-standard-2026-10-12.md`; preserve existing shared canonical paths.
 3. Add sources first, then locations and providers that cite those source IDs.
 4. Keep new research cohorts `published`, `unclaimed`, and `indexable: false` while
    `reviewStatus` is `pending-human-review`.
@@ -91,10 +91,7 @@ for conflicts and unresolved results.
 
 ## Media
 
-Images remain remote references unless a separate rights review authorizes copying.
-Every portrait and gallery item needs an image URL, accessible alt text, a click-through
-to the publishing page, and `usage: "remote-reference-only"`. Do not fabricate, cache,
-or duplicate thumbnails. A single usable image should produce a single-image profile.
+Ordinary images follow the user-adopted modest source-linked preview policy: inspected identity, source-page link, accessible alt text, provenance and accurate image-use status. Serve previews locally to avoid third-party render-time requests; screenshot crops are permitted where extraction is unavailable. Do not claim ownership or an unstated license. Keep derivative trading-card/composite eligibility separate. Preserve legacy usage fields accurately; do not label a local preview remote-reference-only. Do not fabricate portraits or duplicate gallery content. A single usable image should produce a single-image profile.
 
 ## Public discovery signals
 
@@ -141,8 +138,8 @@ change that status.
 `portrait: null` is permitted in 1.2.0 only with `mediaReview.status: unresolved`, a
 specific note, a check date, and cited attempted sources. Never substitute a page URL,
 logo, or guessed asset to satisfy validation. Existing portraits with newer valid
-provenance should survive a refresh with unresolved media. Continue remote-reference
-and no-duplicate-thumbnail rules.
+provenance should survive a refresh with unresolved media. Continue ordinary source-linked preview delivery
+and no-duplicate-gallery rules.
 
 `reviewNotes` travel with the record and must be visible wherever relevant. They may
 record source conflicts or historical regulatory documents without implying a completed
@@ -164,3 +161,7 @@ stay in the ChatGPT research workflow. Replit preserves supplied decisions and r
 technical checks; it does not repeat research or perform a simulated human review.
 Actual human-review requirements remain pending until a human completes them. Held
 records do not block eligible records or unrelated site-building work.
+
+## Scalable enrichment
+
+Follow [Scalable profile enrichment](SCALABLE-PROFILE-ENRICHMENT.md). Use separate profile-ready records as default import input, preserve claim-level corrections and scoped verification, and keep full research journeys outside profile prose. Build incrementally on existing sharded bundles, identities and checks.
