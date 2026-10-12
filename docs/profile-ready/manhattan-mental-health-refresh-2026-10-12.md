@@ -14,7 +14,7 @@ Career-path claim supplements the existing clinical summary: Columbia describes 
 
 Keep clinical focus, appointments, address and phone in attributed fields/sections. Columbia's new-patient listing is not a capacity guarantee. Fees, insurance, telehealth and current license remain unverified.
 
-Portrait: shown beside his name on Columbia's page; 400×412 PNG; local delivery /images/providers/michaelbfirst-source-preview.png; link to the Columbia profile. Reuse terms not stated; not derivative approval.
+Portrait: the Columbia page directly associates a Profile Hero with First; the usable image is a locally served 400×412 PNG at /images/providers/michaelbfirst-source-preview.png. The inspected page HTML exposes only a 40×41 placeholder and no separate asset URL; retain the modest source-linked preview and page link. Image-use terms are unstated; not derivative approval.
 
 ## Controls
 Do not alter existing review/indexing decisions, identities, route aliases or access distinctions. No new personal-interest or credential claim is approved.
