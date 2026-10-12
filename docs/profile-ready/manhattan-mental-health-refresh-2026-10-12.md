@@ -7,7 +7,7 @@ Biography claim replaces the previous status-led narrative: his official biograp
 
 Retained access claim: FAQ says the site and community are for learning, not professional treatment, and that he is not accepting patients. Source: https://www.alimattu.com/faq/ (retrieved 2026-10-12; source-stated). Keep this in access, not as his biography.
 
-Portrait: identity-matched 926×926 JPEG observed on official site; local delivery /images/providers/alimattu-source-preview.jpg; Ghost image host; link to the biography. No stated image-use terms; ordinary source-linked preview only, not derivative approval.
+Portrait: official About page displays the source image https://storage.ghost.io/c/56/81/56818202-f7a0-4cc8-b1dc-3312beb23a4a/content/images/2025/03/ali-mattu-2025-3-1.jpg (1903×1870 JPEG, Ghost host). Locally served square preview /images/providers/alimattu-source-preview.jpg is 926×926. The profile links to the official FAQ as the source page. No stated image-use terms; ordinary source-linked preview only, not derivative approval.
 
 ## Michael B. First — /michael-b-first
 Career-path claim supplements the existing clinical summary: Columbia describes electrical engineering/computer science at Princeton, graduate computer science and medical degrees at Pittsburgh, psychiatry residency at Columbia, then a biometrics research fellowship. Source: https://www.columbiapsychiatry.org/profile/michael-b-first-md (inspected 2026-10-12; source-stated).
