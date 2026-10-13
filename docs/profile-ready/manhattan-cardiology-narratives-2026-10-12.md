@@ -23,5 +23,22 @@ Profile-ready copy for existing records, separate from repository research. Appl
 **Story:** Bolon's practice biography lists golf and fishing as interests and says he enjoys time with his family. His prevention-focused practice approach and education are described separately below.
 **Claims:** db-interests; db-founder; db-approach; db-education. Source: https://www.micnyc.com/provider/david-bolon-md, opened 2026-10-10, practice-biography scope, source-stated. English remains attributed to Mount Sinai. Keep the competing practice and Mount Sinai phone numbers unresolved.
 
+
+## Editorial disposition — 2026-10-13
+
+### Valentin Fuster — valentinfuster
+**Four-item glance:** clinical focus; languages (Mount Sinai-listed English and Spanish); 1190 Fifth Avenue, Floor 1; adult cardiology.
+
+**Visible access section:** Mount Sinai's office-specific Insurance Information for Cardiovascular Medicine Associates, 1190 Fifth Avenue, Floor 1, retrieved 2026-10-10, lists Amidacare Medicaid; EmblemHealth - HIP-Medicaid; HealthFirst Medicaid; NY Medicaid; VNSNY Select Health Medicaid; Medicare NY; Medicare NJ; AETNA Medicare. The same source lists 212-241-7911 and accepting-new-patient status. Labels are source-stated, not independently verified coverage; plans can change, confirm with the office; appointment capacity is not guaranteed; hospital participation is distinct from physician participation. No Essential Plan was identified and generic Fidelis/MetroPlus names are not inferred as Medicaid or Essential Plan products. Claim scope: named office listing; observed 2026-10-10; source-stated, current coverage unchecked.
+
+**Staged only:** the childhood-health education detail awaits editorial disposition and is not profile copy. Do not infer a launch date or current schedule. The source portrait is 130×170; this pass does not substitute it or the unapproved Foundation composite.
+
+### Karishma Patwa — karishmapatwa
+**Four-item glance:** clinical focus; languages with English separately attributed to Manhattan Cardiology and Gujarati to NYU Langone; the practice-listed 112B West 72nd Street with NYU's other four Manhattan listings marked unconfirmed; unresolved NYU insurance conflict.
+
+**Visible access section:** the practice page lists 212-920-9196 and supports 112B West 72nd Street; appointment availability is not established. NYU separately lists four Manhattan locations; current service/scheduling there is unconfirmed. NYU lists commercial, HMO and Medicare products while also stating she does not accept insurance; participation remains unresolved. The source observations are dated 2026-10-10 and are not independent coverage or location verification. The same source links remain attached to the fact/section; no phone or location is silently selected beyond the practice-listed address.
+
+These are profile-ready editorial dispositions, not clearance of the Manhattan pilot's human-review or noindex status.
+
 ## Import notes
 Do not repeat the above details in supporting sections. Keep each practice-stated fact distinct from institution-stated information. Do not change appointment scope, contact/insurance conflicts, credentials, IDs, canonical URLs, portraits, publication/indexing or review state. No hobby is invented for Gould or Amirian.
