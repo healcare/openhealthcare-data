@@ -39,3 +39,26 @@ Patel's ordinary named practice biography showed no clinician portrait; the visi
 The generated audit now separates actionable content/media, research exceptions and review-only records. A cited `highlight.text` is recognized as an existing story candidate. Licensing/identity concerns remain a separate signal from practical access uncertainty; portrait review resolves neither.
 
 Checks completed: preservation guard, entity-data validation, URL contract tests, all 107 HTTP tests, TypeScript check, and all five La Jolla browser tests. The browser coverage included desktop/mobile local-image delivery, official source links, and no external requests or CPCMG cookies before interaction. No deployment was performed.
+
+## La Jolla pediatric portrait regression — October 13, 2026
+
+**Cause:** commit 2e40424 cleared imageUrl for every member of the ten-person La Jolla roster, retaining imageClickThroughUrl and remote-reference-only usage. The component consequently rendered heart fallbacks; a named-page link alone is not a delivered image. Commit 1041fd8 is the last portrait-bearing data version. The public source bundle still maps all ten biographies to exact named portrait assets. No license or permission reason is documented. The locally served previews below use the bundle assets, retain outward biography links, omit portrait JSON-LD, and do not claim ownership. Reuse terms were not stated.
+
+| Provider | Original dimensions | Local preview |
+|---|---:|---:|
+| Kendall Roberts | 4480×6720 | 280×420 |
+| Genevieve Parsons | 1829×2560 | 300×420 |
+| Sheetal Gandhi | 427×640 | 280×420 |
+| Tory Twito | 426×640 | 280×420 |
+| Christine Johnson | 800×1152 | 292×420 |
+| Lauren Fulkerson | 814×1280 | 267×420 |
+| Maria Capetanakis | 688×960 | 301×420 |
+| Vivian Tung | 1621×1459 | 320×288 |
+| Gretchen Gainor | 144×192 | 144×192 |
+| Asako Komiya, PNP | 1786×2560 | 293×420 |
+
+All ten named CPCMG image responses were retrieved without cookies and the contact sheet was inspected. Previews were resized proportionally without cropping. The earlier Johnson/Komiya screenshot crops are superseded by the original bundle assets.
+
+**Applied:** local source-linked preview for each of ten; no unresolved portrait holds. **Preserved:** identity, canonical path, clinical role, sourced story/evidence, review/indexing holds. App API returns the local paths; browser checks verified image loads and source links at desktop/mobile with no external requests/cookies before interaction. Production API still returns null for these photos. Deployment metadata reports a successful build but no revision SHA; no deployment occurred.
+
+**Regression control:** the existing-profile import validator now rejects silent removal/downgrade of an active local preview. A dated, explained media status of held, failed, or unavailable is the explicit exception.
