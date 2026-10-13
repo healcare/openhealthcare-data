@@ -39,3 +39,12 @@ An absent explicit story field can coexist with useful supporting narrative; avo
 
 ## Technical acceptance
 Inspect local preview identity/dimensions and alt/source attribution; no third-party requests or cookies before interaction. Preserve all source and conflict notices. No derivative approval, indexing changes or deployment. Update clean packet with inspected media records and actual applied/held outcomes; keep deeper investigation separately.
+
+
+## October 13, 2026 application and media disposition
+
+Applied the attributed narratives for Chang, Rajpal and Guanche to their existing profiles. Guanche's Calabasas geography and unresolved Beverly Hills directory relevance remain visible. No unsupported award, ranking, credential, prestige or outcome claims were restored. For Norfolk, reused the reviewed stories and localized only portraits for Rawlings, Schlichter and Mason; the August 20 license outcomes and failed roster evidence remain unchanged. No new government lookup, human review, indexing change or derivative-image approval occurred.
+
+Five official portrait candidates were visually inspected and locally delivered; Chang's retained UCSF candidate returned HTTP 403, so her fallback remains and no substitute was guessed. Original/local dimensions and profile-specific notes are recorded in [separate media/application notes](existing-directory-enrichment-media-review-2026-10-13.md).
+
+The audit now reports licensing/identity concerns separately from practical-access uncertainty. No Manhattan header changes were made based on stored fact counts; see the separate notes for the rendered-count caveat.
