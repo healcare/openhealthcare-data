@@ -43,4 +43,17 @@ No routine enrichment change requested for this batch. Her unknown access/pendin
 
 ## Reusable audit/import lesson
 A runtime missing-story signal must be reconciled with clean authoring packets before new discovery. Preserve record identity and stronger/newer evidence while importing omitted supported copy. Classify queue items as content/media-ready, research-needed or review-only; avoid repeatedly selecting pending human review or irreducible unknowns as automatic work.
-Update this packet with actual inspected media records and applied/held disposition; preserve investigation separately.
+## Applied and held outcome — October 13, 2026
+
+| Profile | Applied | Held or unchanged |
+|---|---|---|
+| Asako Komiya | Reconciled the already-authored, source-linked biography story into the provider story field; added matching source IDs. Local official-page screenshot preview, 320×372 px. | PNP role retained; non-indexable and human-review state unchanged. CPCMG image-host cookie finding retained; capture tool did not expose its cookie store. |
+| Christine Johnson | Reconciled the existing source-linked biography story into the provider story field; added source IDs. Local official-page screenshot preview, 320×372 px. | MD role retained; non-indexable and human-review state unchanged. CPCMG cookie limitation recorded as above. |
+| David A. Heilman | Named biography preview delivered locally from a 150×150 px screenshot crop. | Waitlist/capacity versus accepting-new-clients conflict remains unresolved. |
+| Jacqueline Lo | Named static biography portrait delivered locally from a 306×536 px screenshot crop; separate video still excluded. | Availability conflict and practice-level-only insurance evidence remain unchanged. |
+| Chirag Patel | Imported the retained biography story from the named source. | No portrait: blocked candidate remains held and fallback retained; phone and credential/language/travel holds unchanged. |
+| Chloe Carmichael | No routine rewrite. | Pending review and unknown access remain review-only. |
+
+No identifiers, paths, aliases, memberships, newer evidence, publication/review/indexing states, or Obeng hold changed. The generated queue now distinguishes actionable content/media, research exceptions, and review-only work. No deployment.
+
+Deeper capture and preservation notes are recorded separately in [the research note](docs/profile-ready/research-notes/existing-directory-enrichment-batch2-2026-10-13.md).
