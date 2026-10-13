@@ -27,7 +27,15 @@ Shared renderer, optional content:
 - Local source-linked preview and external educational media when eligible.
 Missing evidence omits optional content; it must not trigger invented filler or quality claims. A statement that a person is not accepting patients belongs in access, not as their entire biography. Public education and coaching remain distinct from clinical care.
 
-## Media
+## Moving practical evidence below the header
+
+    Keep the glance panel to about four high-value facts. Move appointment status, phone numbers and office-specific plan evidence into a visible practical section immediately below it, not only into collapsed research notes. Keep the source/date and office scope adjacent to each detail; clearly mark unverified coverage, capacity limits, unknown booking eligibility and conflicting source statements. Combine separately sourced language observations only if each source remains explicit. Keep location qualifications visible in both the concise fact and the practical section when multiple directory locations are unconfirmed. Before trimming, assert that all removed header details still render in the visible section on desktop and mobile.
+
+    ## Preview capture provenance
+
+    A screenshot without a revision is not evidence of current copy. Capture from a fresh browser context with service workers blocked and no-cache headers; wait for distinctive expected text, record the running preview origin and Git revision, inspect source links and viewport overflow, and confirm no third-party request before interaction. If a built-in capture conflicts with live API/browser evidence, preserve the mismatch and its unknown cause until a revision-tagged fresh capture reproduces it.
+
+    ## Media
 Inspect identity before import. Record source page, asset URL/host, dimensions, inspection date, delivery asset and image-use disposition.
 Ordinary modest source-linked previews may be served locally under the user-adopted preview policy; no third-party render-time request. Screenshot crop is fallback. Keep source attribution, accessible alt text, correction/removal support. Do not infer ownership or license from visibility.
 Derivative cards/composites have separate eligibility. Do not treat ordinary preview review as derivative approval.
