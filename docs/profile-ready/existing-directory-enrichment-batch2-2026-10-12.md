@@ -57,3 +57,7 @@ A runtime missing-story signal must be reconciled with clean authoring packets b
 No identifiers, paths, aliases, memberships, newer evidence, publication/review/indexing states, or Obeng hold changed. The generated queue now distinguishes actionable content/media, research exceptions, and review-only work. No deployment.
 
 Deeper capture and preservation notes are recorded separately in [the research note](docs/profile-ready/research-notes/existing-directory-enrichment-batch2-2026-10-13.md).
+
+## La Jolla portrait regression resolution — October 13, 2026
+
+Git history identifies commit 2e40424 as the change that set imageUrl to null on all ten La Jolla pediatric profiles while keeping source links. This caused the heart fallbacks; the commit does not establish a licensing/permission decision. All ten named CPCMG images from the existing pediatrics bundle were visually inspected and are now modest, proportionally resized, locally served, source-linked previews with full faces in frame. Portraits stay out of JSON-LD; ordinary preview terms are unstated and ownership is not claimed. No image remains held in this cohort. Names, routes, roles, stories, and review/indexing controls were preserved. Added an import guard against silent loss of active local previews and desktop/mobile no-external-request tests. Details and dimensions: [research notes](research-notes/existing-directory-enrichment-batch2-2026-10-13.md#la-jolla-pediatric-portrait-regression).
