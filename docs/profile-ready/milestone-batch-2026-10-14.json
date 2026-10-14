@@ -1,0 +1,76 @@
+{
+  "checkedOn": "2026-10-14",
+  "scope": "Named biography statements checked by AI against official pages, not human approval or independent license verification. Additions only; retain earlier corrections, uncertainty and review states.",
+  "profiles": [
+    {
+      "id": "6ff9b213-3354-4798-bf10-22f3ef988c11",
+      "name": "Jason Emer",
+      "source": {
+        "id": "jasonemer-named-biography-2026-10-14",
+        "url": "https://www.jasonemermd.com/about-us/dr-emer",
+        "label": "Dr. Emer — official biography",
+        "publisher": "Jason Emer practice",
+        "sourceType": "official-provider-profile",
+        "retrievedDate": "2026-10-14",
+        "verificationStatus": "source-stated"
+      },
+      "claims": [
+        {
+          "text": "Jason Emer's official biography traces his path from an internship at Saint Joseph Hospital in Chicago to a two-year dermatopharmacology fellowship at Mount Sinai in Manhattan.",
+          "evidence": "A PRESTIGIOUS BACKGROUND: internship at Saint Joseph Hospital in Chicago; two-year dermatopharmacology fellowship at Mount Sinai Hospital in Manhattan."
+        },
+        {
+          "text": "It describes clinical-trial work in cosmetic, laser and surgical dermatology, followed by a residency interest in contouring and fat transfer.",
+          "evidence": "Same biography section: multiple clinical trials on investigational treatments in cosmetic, laser and surgical dermatology; residency interests include contouring and fat transfers."
+        },
+        {
+          "text": "The biography also describes starting an HIV treatment clinic that used cosmetic procedures to address facial and body changes.",
+          "evidence": "Same section: began an HIV treatment clinic using fat transfer, fillers and other procedures to address facial features and body disproportions."
+        }
+      ],
+      "humanDetail": "His biography describes starting an HIV treatment clinic as part of his career.",
+      "access": "The biography mentions Beverly Hills/West Hollywood and New York City. It does not establish current appointment capacity, insurance participation, referral requirements, prices or the location for an individual appointment. Confirm these with the practice before arranging care.",
+      "media": "Existing inspected local portrait retained unchanged; no newly approved asset."
+    },
+    {
+      "id": "f361d60c-0b72-4b4a-80ea-2c281bcda294",
+      "name": "Jessica Wu",
+      "source": {
+        "id": "jessicawu-about-2026-10-14",
+        "url": "https://www.drjessicawu.com/about",
+        "label": "About — Dr. Jessica Wu",
+        "publisher": "Jessica Wu practice",
+        "sourceType": "official-provider-profile",
+        "retrievedDate": "2026-10-14",
+        "verificationStatus": "source-stated"
+      },
+      "claims": [
+        {
+          "text": "Jessica Wu's official biography connects her dermatology work with writing about the relationship between food and skin in Feed Your Face.",
+          "evidence": "She has never been afraid to go first: Feed Your Face; book about what you eat and your skin."
+        },
+        {
+          "text": "It describes founding WUME after patients raised questions about skin alongside hair, hormones, sleep and energy.",
+          "evidence": "That habit is what led to WUME: patient questions about skin, hair, hormones, sleep, weight and energy; dermatology and women's health physicians practice together."
+        },
+        {
+          "text": "Away from work, the biography says she rides motorcycles and is a Canadian ski instructor.",
+          "evidence": "OUTSIDE THE OFFICE: rides motorcycles and is a certified Canadian ski instructor. Instructor status is attributed, not independently verified."
+        }
+      ],
+      "humanDetail": "Her official biography describes motorcycling and ski instruction outside work.",
+      "access": "Her official homepage directs appointment and patient-care inquiries to WUME. This research does not establish individual appointment capacity, prices, insurance participation, referral requirements or a current actionable office address. Confirm these directly before arranging care.",
+      "accessSource": "https://www.drjessicawu.com/",
+      "media": {
+        "sourcePage": "https://www.drjessicawu.com/about",
+        "sourceAsset": "https://images.squarespace-cdn.com/content/v1/5a64d4db914e6b3776cf97e6/3a5f29e9-def5-4f61-8741-d1221075587a/About.jpeg",
+        "width": 1100,
+        "height": 1375,
+        "format": "webp",
+        "inspection": "One full-face ordinary portrait explicitly embedded in named official About page; original image viewed. HTTP 200; source supplies WebP bytes despite JPEG URL suffix.",
+        "localPath": "/images/providers/jessicawu-source-preview.webp",
+        "rights": "Reuse terms unknown; modest source-linked preview only, no ownership, blanket licensing or derivative-card approval."
+      }
+    }
+  ]
+}
