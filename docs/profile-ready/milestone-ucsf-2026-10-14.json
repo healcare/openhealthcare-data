@@ -1,0 +1,59 @@
+{
+  "checkedOn": "2026-10-14",
+  "scope": "Four existing UCSF-affiliated identities with already inspected approved local portraits. Named institutional biographies opened normally; sentence-level claims below are institution-stated, not independent license verification or human approval. Preserve older source evidence and all identity, role, route, hold and indexing controls.",
+  "profiles": [
+    {
+      "id": "597f9450-2ad6-431b-8e07-af774761455a",
+      "name": "Kelly Cordoro",
+      "sourceId": "cordoro-narrative-2026-10-14",
+      "sourcePage": "https://dermatology.ucsf.edu/about-us/our-team/kelly-cordoro-md",
+      "claims": [
+        "UCSF's biography describes Kelly Cordoro's work with children who have complex inflammatory skin conditions and her research interest in pediatric psoriasis.",
+        "It connects her work with teaching and directing a pediatric dermatology fellowship.",
+        "A particular concern described in the biography is addressing the psychological and emotional stigma of visible skin disease with children and their families."
+      ],
+      "evidence": "Opening named biography: complex medical dermatology/inflammatory diseases in children; pediatric psoriasis research; fellowship director; passionate educator; specifically reducing psychological/emotional stigma of visible skin disease.",
+      "access": "The department page lists 415-353-7800 and 1701 Divisadero Street, third floor, and links to clinical profiles. This institutional contact listing does not establish appointment capacity, prices, accepted insurance or whether a referral is required; confirm the correct clinic before arranging care."
+    },
+    {
+      "id": "70e740e8-6db6-461d-8c4c-ddd5fc8abe05",
+      "name": "Regina-Celeste Ahmad",
+      "sourceId": "ahmad-narrative-2026-10-14",
+      "sourcePage": "https://www.ucsfbenioffchildrens.org/providers/regina-celeste-ahmad",
+      "claims": [
+        "UCSF Benioff's biography describes Regina-Celeste Ahmad's path through medical and doctoral study in Chicago, pediatrics and dermatology residencies at Stanford, and pediatric dermatology fellowship at UCSF.",
+        "It describes helping establish clinics that bring dermatology and rheumatology together for children with autoimmune conditions.",
+        "The profile also introduces her as a hiker and environmentalist, and notes an interest in sustainable health care."
+      ],
+      "evidence": "Named About me: University of Chicago MD/PhD, Stanford residencies, UCSF fellowship; helped found combined pediatric clinics; sustainable health care; named headline hiker and environmentalist.",
+      "access": "The named clinical page offers appointment-request and patient-referral links and lists multiple patient locations. A request link is not proof of available appointments or a universal referral requirement. Exact clinic, prices, accepted plan and current individual capacity should be confirmed with UCSF Benioff; do not treat academic affiliation as a specific San Francisco appointment."
+    },
+    {
+      "id": "75255896-d1b2-4c5d-a512-4cda77a6232c",
+      "name": "Erin Amerson",
+      "sourceId": "amerson-narrative-2026-10-14",
+      "sourcePage": "https://dermatology.ucsf.edu/about-us/our-team/erin-amerson-md",
+      "claims": [
+        "UCSF's biography describes Erin Amerson's career in adult dermatology and teaching at Zuckerberg San Francisco General.",
+        "After training in Wisconsin and Minnesota, she completed an HIV dermatology fellowship working at UCSF and Mbarara Regional Referral Hospital in Uganda.",
+        "Her biography connects research on equitable access with founding membership of GloDerm, and introduces her labradoodle, Boomer, in its account of life outside work."
+      ],
+      "evidence": "Named biography: adult dermatology and ZSFG teaching; Wisconsin MD, Minnesota residency; yearlong HIV dermatology fellowship UCSF/Mbarara Uganda; equitable-access research and founding GloDerm membership; labradoodle Boomer.",
+      "access": "The departmental address is an institutional contact, not proof of the clinic for an appointment. The biography links to a clinical profile but does not establish individual appointment capacity, prices, accepted insurance or referral requirements. Confirm the correct clinic and access requirements before arranging care."
+    },
+    {
+      "id": "bcc8ed10-6fb4-45b0-a985-644e13055d80",
+      "name": "Susana Ortiz-Urda",
+      "sourceId": "ortizurda-narrative-2026-10-14",
+      "sourcePage": "https://profiles.ucsf.edu/susana.ortiz-urda",
+      "claims": [
+        "UCSF's named biography describes Susana Ortiz-Urda's work in melanoma care alongside research on genetic signaling, cancer progression and resistance to treatment.",
+        "It traces medical and doctoral study in Vienna, dermatology and epithelial-biology training at Stanford, and cutaneous oncology fellowship at UCSF.",
+        "The same biography records a later MBA from New York University, adding a business-school chapter to the research and clinical career."
+      ],
+      "evidence": "Named overview and education table: melanoma specialist/co-director; genetic sequencing/signaling, drug resistance/progression; Vienna MD/PhD; Stanford residency/epithelial biology fellowship; UCSF derm-oncology; NYU MBA 2014.",
+      "access": "UCSF Profiles is an academic biography; its address is not a verified appointment destination. This source does not establish current appointment capacity, prices, accepted insurance or referral requirements. Confirm melanoma-clinic scheduling and access requirements through the clinical service."
+    }
+  ],
+  "notIncluded": [{"name":"Jenna Lester","reason":"The opened primary Profiles page supplied a publication list rather than a narrative overview. Do not infer a biography or access promise from automatically derived publications; additional named narrative evidence is needed."}]
+}
