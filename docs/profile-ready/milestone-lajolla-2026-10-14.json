@@ -1,0 +1,115 @@
+{
+  "checkedOn": "2026-10-14",
+  "scope": "Eight existing La Jolla identities: original narrative checked sentence by sentence against retained named CPCMG biographies opened October 14. Existing portraits already visually inspected and deliberately approved October 13. AI source checks are not human approval or independent clinical verification.",
+  "accessLimit": "CPCMG's named biography lists the office below. That listing does not establish individual appointment capacity, accepted insurance, out-of-pocket prices or referral requirements; confirm these with CPCMG before arranging care.",
+  "profiles": [
+    {
+      "id": "09343a88-1355-430e-bc16-0f0a862e1fd4",
+      "name": "Kendall Roberts",
+      "sourceId": "kendall-roberts-profile",
+      "sourcePage": "https://www.cpcmg.net/cpcmg_doctor/kendall-roberts-md/",
+      "office": "Regents, La Jolla",
+      "claims": [
+        "Kendall Roberts describes watching patients and families grow as the most rewarding part of pediatrics.",
+        "His CPCMG personal statement connects an interest in eczema and skin problems with his children's experience of eczema.",
+        "Outside work, he describes family games, biking and reading."
+      ],
+      "evidence": "Named personal statement: watching patients and families grow; children suffer from eczema; free time with family, games, biking and reading."
+    },
+    {
+      "id": "2707b96e-3085-4eb0-9ae7-d53f4a269e53",
+      "name": "Genevieve Parsons",
+      "sourceId": "genevieve-parsons-profile",
+      "sourcePage": "https://www.cpcmg.net/cpcmg_doctor/genevieve-parsons-md/",
+      "office": "Girard, La Jolla",
+      "claims": [
+        "Genevieve Parsons describes pediatrics as watching children thrive while guiding caregivers through everyday parenting challenges.",
+        "Her CPCMG personal statement notes an interest in behavioral and developmental concerns.",
+        "Away from the office, she enjoys reading, singing and running."
+      ],
+      "evidence": "Named personal statement: watching children thrive; guiding caregivers; behavioral and developmental concerns; reading, singing and running."
+    },
+    {
+      "id": "3b2fea38-0173-4aaa-9b16-6069c3d72107",
+      "name": "Sheetal Gandhi",
+      "sourceId": "sheetal-gandhi-official",
+      "sourcePage": "https://www.cpcmg.net/cpcmg_doctor/sheetal-gandhi-md/",
+      "office": "Regents, La Jolla",
+      "claims": [
+        "Sheetal Gandhi's CPCMG personal statement describes an evidence-based, prevention-minded approach and the pleasure of seeing young patients grow.",
+        "It also describes volunteering at a local school, including school council work and coaching Science Olympiad.",
+        "Family games, hiking and reading are among the interests she lists outside work."
+      ],
+      "evidence": "Named personal statement: evidence based and preventive medicine; patients grow; school site council, room mom, coaching Science Olympiad; games, hiking and reading."
+    },
+    {
+      "id": "6ccc7ec7-445d-4979-9252-093fde4b30cd",
+      "name": "Christine Johnson",
+      "sourceId": "christine-johnson-profile",
+      "sourcePage": "https://www.cpcmg.net/cpcmg_doctor/christine-l-johnson-md-faap/",
+      "office": "Girard, La Jolla",
+      "claims": [
+        "Christine Johnson's CPCMG biography describes a pediatric career that includes Air Force, Navy and government service.",
+        "She emphasizes long-term relationships with children and families.",
+        "Outside the clinic, she describes raising CPR and AED awareness to help local schools become heart safe, alongside reading, baking and travel."
+      ],
+      "evidence": "Named personal statement: military and government-service pediatrician; long-term relationships; CPR/AED school awareness; reading, baking and traveling. No independent chronology validation; no new duration calculations."
+    },
+    {
+      "id": "7d3ac2fc-1c0e-40c1-985d-c6578302fbd0",
+      "name": "Lauren Fulkerson",
+      "sourceId": "lauren-fulkerson-profile",
+      "sourcePage": "https://www.cpcmg.net/cpcmg_doctor/lauren-fulkerson-md-faap/",
+      "office": "Regents, La Jolla",
+      "claims": [
+        "Lauren Fulkerson's CPCMG biography follows a path through UCLA pediatric residency, outpatient work in Southern California and time living in Hong Kong before settling in San Diego.",
+        "She describes child advocacy and partnering with parents as central to her work.",
+        "A mother of four and parenting coach, she also describes running and supporting a first-responder nonprofit."
+      ],
+      "evidence": "Named personal statement: UCLA residency, outpatient Southern California, Hong Kong, San Diego; child advocacy and parent partnership; mother of four, parenting coach, runner, first-responder nonprofit."
+    },
+    {
+      "id": "82d2a63a-16a9-4b49-a549-3e0c680da73e",
+      "name": "Maria Capetanakis",
+      "sourceId": "maria-capetanakis-profile",
+      "sourcePage": "https://www.cpcmg.net/cpcmg_doctor/maria-capetanakis-do/",
+      "office": "Regents, La Jolla",
+      "claims": [
+        "Maria Capetanakis's CPCMG profile traces her medical training from Touro University's College of Osteopathic Medicine to pediatric residency at Adventist Health White Memorial.",
+        "The same named profile lists Spanish and Greek.",
+        "This is a source-stated training and language account, not independent credential or language-proficiency verification."
+      ],
+      "evidence": "Named structured biography: medical school Touro University College of Osteopathic Medicine; residency Adventist Health White Memorial; languages Spanish, Greek. No personal statement or hobby available; no invented filler."
+    },
+    {
+      "id": "a08b35d3-c136-40a2-9f5b-13cbe0f8378c",
+      "name": "Vivian Tung",
+      "sourceId": "vivian-tung-profile",
+      "sourcePage": "https://www.cpcmg.net/cpcmg_doctor/vivian-tung-md/",
+      "office": "Girard, La Jolla",
+      "claims": [
+        "Vivian Tung's CPCMG personal statement connects a love of science and working with children with her path from biology at MIT to medicine at Mount Sinai and pediatric residency at UCLA.",
+        "She describes particular interests in food allergies, asthma and eczema.",
+        "Outside work, she enjoys travel, tennis and cooking with time for her family."
+      ],
+      "evidence": "Named personal statement: love of science/children; MIT biology, Mount Sinai MD, UCLA residency; food allergies/asthma/eczema; traveling, tennis, cooking and family."
+    },
+    {
+      "id": "dfb4bcb0-450c-4f53-b3bd-22ba3bf19c47",
+      "name": "Asako Komiya",
+      "sourceId": "asako-komiya-profile",
+      "sourcePage": "https://www.cpcmg.net/cpcmg_doctor/asako-komiya-pnp/",
+      "office": "Regents, La Jolla",
+      "claims": [
+        "Asako Komiya describes choosing pediatric nursing because she loves working with children.",
+        "Her CPCMG personal statement describes the privilege of helping children grow and supporting their families with compassionate care.",
+        "A mother of twin daughters, she enjoys cooking and baking with them, traveling and hiking with their dog."
+      ],
+      "evidence": "Named personal statement: Pediatric Nurse Practitioner, love children; watching children grow, compassionate care; twin girls, cooking/baking/travel, hiking with dog. Preserve nurse-practitioner role."
+    }
+  ],
+  "notIncluded": [
+    {"name": "Gretchen Gainor", "reason": "Current named page does not corroborate historical training narrative; retain historical copy and provenance without treating it as newly confirmed."},
+    {"name": "Tory Twito", "reason": "Current named page supports virtual-only practical scope, not an expanded human narrative. Preserve existing telehealth disclosure; no filler for quota."}
+  ]
+}
