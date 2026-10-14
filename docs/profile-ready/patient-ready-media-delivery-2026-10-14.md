@@ -2,12 +2,13 @@
 
 Clean applied/held results, separate from the detailed investigation. These are source-linked ordinary previews, not ownership, blanket licensing, derivative-card approval or independent clinical-identity verification. Clinical/publication holds remain unchanged. Exact retained image bytes and existing inspected screenshot crops are served locally; remote galleries require explicit activation.
 
-69 reviewed effective deliveries: 64 local source-image previews and five screenshot crops. Includes runtime overrides, not merely stored primary fields. The expanded recovery/preparation comprises 35 previews, including ten prepared in the preceding pass; 25 were added in this continuation. Not every prepared photo was a proven historical erasure.
+70 reviewed effective deliveries: 65 local source-image previews and five screenshot crops. Includes runtime overrides, not merely stored primary fields. The expanded recovery/preparation comprised 35 previews, including ten prepared in the preceding pass and 25 in its continuation. Jason Emer is a separate newly added preview, not a recovered prior photo; the remaining photo gaps now number 23. Not every prepared photo was a proven historical erasure.
 
 ## Applied and preserved delivery inventory
 
 | Stable identity | Profile path | Local delivery | Dimensions | Outward source page | Original asset provenance | SHA-256 |
 |---|---|---|---|---|---|---|
+| 6ff9b213-3354-4798-bf10-22f3ef988c11 | /jasonemer | /images/providers/jasonemer-source-preview.jpg | 920 × 830 | https://www.jasonemermd.com/about-us/dr-emer | https://www.jasonemermd.com/wp-content/uploads/2020/06/1570592176-dr-emer.jpg | dcc2aca4b4b2d5c02e592f134dc3f980205fca3b19f6b7fa1aa962be41bb34af |
 | 04910f03-044d-409f-bea5-1b900e2acb7c | /ali-mattu | /images/providers/alimattu-source-preview.jpg | 926 × 926 | https://www.alimattu.com/faq/ | Retained named-source review; original asset URL not duplicated in this inventory | db301fc0d74574dda4e74897db5ba7f0bc5107f054fac65f44cb370af43ee3b4 |
 | fe17b408-ac6c-4a1e-923f-47b92c2eb395 | /alisajjadian | /images/providers/alisajjadian-source-preview.jpg | 665 × 680 | https://www.drsajjadian.com/about/ali-sajjadian-md/ | Retained named-source review; original asset URL not duplicated in this inventory | a10ecb2fd2ec089e06f5f0d4dbcb2b3fdd4883d9b3925b20ee4b657d191a91e2 |
 | fae79931-bb0b-4c96-b8cd-77cd19b112d7 | /alisepehr | /images/providers/alisepehr-source-preview.jpg | 240 × 300 | https://www.orangecountyfacialplasticsurgery.com/about/surgeon-ali-sepehr/ | https://www.orangecountyfacialplasticsurgery.com/wp-content/uploads/2019/06/Sepehr-Ali-240x300.jpg | f2eff277d1a843ab94f79b0a8d2c830245424d9666ea4554ea6bf2b8a6fc7906 |
@@ -93,7 +94,6 @@ A gap is not automatically a deletion or an actionable copy task. No unavailable
 | 5a9cddfd-9de3-45b1-904d-83c8c07034e5 | /josephgoodman | beverly-hills-cosmetic-dentists | No suitable inspected retained primary candidate available in this pass; labeled fallback preserved. |
 | 63bb950f-715e-4aca-ae19-00a57b626e78 | /bexteryangDDS | dentists-cupertino | No suitable inspected retained primary candidate available in this pass; labeled fallback preserved. |
 | 69fee9b1-8b8d-4e0c-84f7-9899c500acd6 | /michaellucianoMD | orthopedic-surgeons-riverside | No suitable inspected retained primary candidate available in this pass; labeled fallback preserved. |
-| 6ff9b213-3354-4798-bf10-22f3ef988c11 | /jasonemer | dermatologists-beverly-hills | No suitable inspected retained primary candidate available in this pass; labeled fallback preserved. |
 | 76d7b7bd-6cd6-4ae1-8bdb-a23020410bc3 | /michaelwaul | san-francisco-dermatologists | Named page and retained image returned 403 in ordinary requests. |
 | 833a4455-6e10-46e7-8968-c000be91e9ba | /babakkhamsiMD | orthopedic-surgeons-riverside | No suitable inspected retained primary candidate available in this pass; labeled fallback preserved. |
 | 91038e32-1b62-462c-8e6d-6b139363cc94 | /sanjaygrover | plastic-surgeons-orange-county | Retained magazine graphic is not an ordinary portrait preview. |
@@ -112,3 +112,11 @@ A gap is not automatically a deletion or an actionable copy task. No unavailable
 ## Evidence boundaries
 
 Kevin Sadati’s initial retained image was a magazine cover, rejected as a portrait. The replacement came from an explicit named-page image URL and was visually inspected at 430 × 430. Amy Bandy’s previously blocked-source finding remains historical; an ordinary browser visit loaded the source page’s lazy image at 750 × 738 after scrolling, without interception or bypass. Dr. J’s portrait-only citations do not supply clinical claims or change the hold. Dated Norfolk license outcomes and failed roster evidence remain untouched. API notes previously bypassed by local-mode presentation are preserved as historical source-delivery evidence, not new live response claims.
+
+## WebKit privacy verification — 2026-10-14
+
+Playwright WebKit 26.5 automation using the Linux GTK backend and a touch-enabled 390 × 844 context passed the actual browser privacy check. All 69 approved local previews decoded at their reviewed dimensions and retained their exact source-page links. Across initial directory/profile loads, the browser made zero third-party requests and stored zero cookies. Two trusted touch taps opened and closed Ruth Bybee’s photo research disclosure.
+
+After a trusted touch tap on the retained remote-gallery choice, WebKit made the actual Psychology Today image request and received HTTP 200. The image decoded at 320 × 400; this response had no `Set-Cookie` header and WebKit stored no cookie for that image source, while the attribution link remained correct. These are observations about this deliberately activated source request, not a requirement or guarantee about external websites. The test records post-activation response headers and source-scoped cookie metadata without values, and does not fail if the source sets cookies. No image/request interception was used; these results are distinct from simulated image-failure fallback tests.
+
+This is WebKit browser automation only, not a physical Safari/iOS-device audit. No real screen-reader/manual audit is claimed.

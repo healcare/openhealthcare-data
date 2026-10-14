@@ -117,3 +117,12 @@ Historical coverage remains the earlier 107 first-parent commits from 2e40424 th
 - GitHub synchronization follows these checks; no deployment performed. Production is not certified as this candidate until a separate publish and live verification.
 
 Checked app candidate synchronized to main: 6ec3dbb594f519d53c1486885173b2e216d05c67. App local main and origin/main were equal after normal synchronization; no deployment performed. Learning page: https://github.com/healcare/openhealthcare/blob/6ec3dbb594f519d53c1486885173b2e216d05c67/docs/data-integrity.md
+
+
+## Jason Emer: newly enriched portrait gap — 2026-10-14
+
+This is new enrichment, not restoration: fourteen historical registry versions and the original file-backed record had no photo; the October 1 candidate inventory had no resolved asset. A named official biography now supplies a visually inspected ordinary 920 × 830 portrait. Its exact computed CSS asset delivered HTTP 200 in an unmodified browser, while a separate command-line request returned 429. Preserve both observations; extracted markdown can omit CSS portraits and a transport failure alone does not establish loss or a universal source block. Do not guess assets or bypass restrictions.
+
+One explicit reviewed inventory addition brings effective approved previews to 70, with 23 explained photo gaps. Existing 69 entries and every non-media provider field were checked against a fixed pre-change revision and remained identical. Portrait-only source metadata does not add clinical claim support; rights terms remain unknown and structured-data imagery stays withheld. Desktop/mobile directory/profile image, framing, source/alt, API and initial privacy checks passed, as did cross-directory photo outcomes, 67 contracts, 107 HTTP/API tests, data/preservation/type checks and build. Prior full-suite and merged 69-preview WebKit evidence retain their original scope; they are not new full-suite runs or WebKit evidence for this new portrait. No deployment.
+
+Keep clean applied results in docs/profile-ready/jason-emer-photo-enrichment-2026-10-14.md and the detailed investigation in docs/research/jason-emer-photo-enrichment-2026-10-14.md.
