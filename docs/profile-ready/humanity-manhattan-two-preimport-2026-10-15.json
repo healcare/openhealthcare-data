@@ -1,0 +1,161 @@
+{
+  "checkedOn": "2026-10-15",
+  "purpose": "Pre-import clean packet for two new profiles in the existing Manhattan cardiology pilot; not an applied result or review/indexing promotion.",
+  "appPreImportRevision": "0aeb09d9c8c896e288f017540487fe5c5eb7eb5c",
+  "fixedPreservationBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "incomingResearch": {
+    "candidatePacket": "docs/profile-ready/humanity-followon-cardiology-dc-2026-10-15.json",
+    "revision": "c77aebcb90ca91ce414022108c4f6947d884e6de",
+    "review": "docs/research/humanity-followon-cardiology-dc-review-2026-10-15.md",
+    "revisionReview": "ca914f07a4111bf9c4619b990edd3a555a2a5d70"
+  },
+  "starting": {
+    "qualifyingUniqueIds": 70,
+    "providerRecords": 99,
+    "approvedLocalPortraitDeliveries": 85
+  },
+  "directory": {
+    "slug": "manhattan-cardiology",
+    "existingMembers": 10,
+    "selection": "Named official source must list a Manhattan service location.",
+    "status": "published",
+    "indexable": false,
+    "reviewStatus": "pending-human-review"
+  },
+  "newRecords": [
+    {
+      "id": "4af1f6f0-c5c1-42d2-979f-f4a305c7afa6",
+      "name": "Nieca Goldberg",
+      "canonicalPath": "niecagoldberg",
+      "nameParts": {
+        "display": "Nieca Goldberg",
+        "given": "Nieca",
+        "family": "Goldberg",
+        "sourceIds": [
+          "goldberg-nyu"
+        ]
+      },
+      "directory": "manhattan-cardiology",
+      "status": {
+        "indexable": false,
+        "claimStatus": "unclaimed",
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending"
+      },
+      "narrative": {
+        "heading": "A path into heart health",
+        "text": "Nieca Goldberg’s interest in cardiology began when her father developed heart disease at a young age. Her NYU biography describes summer work with a cardiologist and a later decision to focus on women after encountering dismissive assumptions about their heart health during residency. Questions from patients also shaped her interest in making space for dialogue: she describes beginning visits by asking what patients want to discuss.",
+        "sourceIds": [
+          "goldberg-nyu"
+        ]
+      },
+      "access": {
+        "heading": "Before contacting the practice",
+        "text": "NYU Langone lists Cardiology Associates at 530 1st Avenue, HCC 4th Floor, New York, NY 10016, and the phone 212-263-4320. The profile lists English and French and source-stated, location-dependent insurance information; languages have not been independently assessed, and the exact plan is not confirmed. A scheduling link was observed on the profile but was not tested by booking. Current capacity, fees and referral requirements are not established; confirm current intake and exact plan with the office.",
+        "sourceIds": [
+          "goldberg-nyu"
+        ]
+      },
+      "source": {
+        "id": "goldberg-nyu",
+        "url": "https://nyulangone.org/doctors/1912084062/nieca-goldberg",
+        "publisher": "NYU Langone",
+        "label": "Nieca Goldberg physician profile",
+        "retrievedDate": "2026-10-15"
+      },
+      "portrait": {
+        "sourcePage": "https://nyulangone.org/doctors/1912084062/nieca-goldberg",
+        "sourceAsset": "https://nyulangone.org/images/doctors/g/goldberg/1912084062/nieca-goldberg-square.jpg",
+        "localDelivery": "/images/providers/niecagoldberg-source-preview.jpg",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "bytes": 103225,
+        "sha256": "34e2cd7ed264e723d3f9d8f227f5c441a59b6aaf7207275d101dd48228656ea8",
+        "inspection": "Exact bytes decoded and visually inspected as a clear full-face individual portrait; HTTP 200 and no Set-Cookie observed."
+      }
+    },
+    {
+      "id": "d377c6cd-427a-4da3-b92a-9047169c47fd",
+      "name": "Anuradha (Anu) Lala-Trindade",
+      "canonicalPath": "anuradhalalatrindade",
+      "nameParts": {
+        "display": "Anuradha (Anu) Lala-Trindade",
+        "given": "Anuradha",
+        "family": "Lala-Trindade",
+        "sourceIds": [
+          "lala-profile",
+          "lala-podcast"
+        ]
+      },
+      "directory": "manhattan-cardiology",
+      "status": {
+        "indexable": false,
+        "claimStatus": "unclaimed",
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending"
+      },
+      "narrative": {
+        "heading": "A childhood spark and human connection",
+        "text": "Anu Lala-Trindade traces her wish to become a cardiologist to a childhood encounter with her grandmother’s illness. In Mount Sinai’s June 25, 2021 Heart to Heart interview, she recalls feeling her grandmother’s pulse and becoming fascinated by the connection between the heartbeat and a person’s life. She also describes the importance of human connection in caring for patients and supporting families through uncertainty.",
+        "sourceIds": [
+          "lala-podcast"
+        ]
+      },
+      "access": {
+        "heading": "Before contacting Mount Sinai",
+        "text": "Mount Sinai lists the Lauder Family Cardiovascular Ambulatory Center at 1190 Fifth Avenue, First Floor, New York, NY 10029, phone 212-241-7300, adult care, English and video visits. The page listed accepting-new-patient status when observed on October 15, 2026; this is not a capacity guarantee. Insurance information is source-stated and location-specific; confirm the exact plan and current clinician participation. Fees and referral requirements are not established here.",
+        "sourceIds": [
+          "lala-profile"
+        ]
+      },
+      "sources": [
+        {
+          "id": "lala-profile",
+          "url": "https://profiles.mountsinai.org/anuradha-lala-trindade",
+          "publisher": "Mount Sinai",
+          "label": "Mount Sinai profile for Anuradha Lala-Trindade",
+          "retrievedDate": "2026-10-15"
+        },
+        {
+          "id": "lala-podcast",
+          "url": "https://www.mountsinai.org/about/newsroom/podcasts/road-resilience/archive/heart-to-heart",
+          "title": "Heart to Heart",
+          "publisher": "Mount Sinai, Road to Resilience",
+          "label": "Heart to Heart transcript",
+          "retrievedDate": "2026-10-15"
+        }
+      ],
+      "portrait": {
+        "sourcePage": "https://profiles.mountsinai.org/anuradha-lala-trindade",
+        "sourceAsset": "https://www.mountsinai.org/files/images/fad-images/0000076810111382084371.jpg",
+        "localDelivery": "/images/providers/anuradhalalatrindade-source-preview.jpg",
+        "format": "JPEG",
+        "width": 448,
+        "height": 590,
+        "bytes": 197642,
+        "sha256": "a2b1b66903baf6d6b9beefcd9556da2b8197a915dd9961a352d0bc5a74ff1b76",
+        "inspection": "Exact bytes decoded and visually inspected as a clear full-face individual portrait; HTTP 200 and no Set-Cookie observed."
+      }
+    }
+  ],
+  "heldOrNotIncluded": [
+    {
+      "name": "Holly S. Andersen",
+      "reason": "No named Manhattan service location in the packet; 144×217 portrait is low-resolution and must not be upscaled."
+    },
+    {
+      "name": "Tara Narula / Tara Narula Cangello",
+      "reason": "Name variant and identity reconciliation unresolved; official Northwell pages returned HTTP 403. No bypass."
+    },
+    {
+      "name": "DC psychotherapist candidates",
+      "reason": "Separate directory-scope and directory-description/indexing review required before importing into the currently indexable Washington, DC directory."
+    },
+    {
+      "name": "Andrea Bonior",
+      "reason": "Source-stated DC telehealth with Bethesda physical practice; no DC physical office. Do not add unless existing directory scope permits, with geography explicit."
+    }
+  ],
+  "terms": "Reuse terms are not established; ordinary modest source-linked previews only. No ownership, blanket license, derivative-card, clinical or human-review approval."
+}
