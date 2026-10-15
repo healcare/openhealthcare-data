@@ -19,9 +19,9 @@
       "canonicalPath": "michaelbouzidDDS",
       "disposition": "enrich-existing",
       "narrative": {
-        "sectionId": "humanity-interests-2026-10-14",
-        "heading": "Interests beyond dentistry",
-        "text": "Michael Bouzid’s iTooth Dental biography says he plays soccer regularly and enjoys hiking and running. It also reports fluent French; this remains a source-stated language claim, not an assessment of clinical communication.",
+        "sectionId": "e6953022-721e-4ccc-95d6-4c13e15d53e3:narrative:2:2026-10-01",
+        "heading": "Interests and language",
+        "text": "It says he speaks French fluently and enjoys soccer, hiking and running. The biography adds that he plays soccer regularly. The French-language statement is source-stated; it is not an assessment of clinical communication.",
         "source": {
           "id": "cupertino-michael-bouzid-humanity-2026-10-14",
           "url": "https://www.drbouzid.com/about-us/dr-michael-bouzid/",
@@ -40,7 +40,8 @@
             "claim": "The named biography reports fluent French; this is not a test of clinical communication.",
             "excerpt": "he is multi-lingual and speaks French fluently."
           }
-        ]
+        ],
+        "disposition": "Extend the existing sentence-mapped profile section in place; preserve its original sentence, keep the older source citation and add the newly retrieved dated biography citation. No duplicate story section."
       },
       "accessScope": "Keep the existing practice-level insurance note: the homepage names no plans, does not establish a clinician/member match, and actual availability is unchecked. Existing language and sedation-training cautions remain. No clinical fields or verification dates change.",
       "media": {
@@ -76,9 +77,9 @@
       "canonicalPath": "davidheilman",
       "disposition": "enrich-existing",
       "narrative": {
-        "sectionId": "humanity-performance-and-approach-2026-10-14",
-        "heading": "From opera to psychology",
-        "text": "Before training as a psychologist, David A. Heilman says he worked as a professional opera singer. He says that experience continues to shape how he understands performing under pressure and being evaluated. In the same biography, he describes his approach as collaborative, direct and grounded, with attention to relationships and recurring patterns; these are his descriptions, not a promise of outcome.",
+        "sectionId": "professional-background",
+        "heading": "Professional background",
+        "text": "David A. Heilman’s biography traces a path from professional opera singing to clinical psychology, describing earlier music study at Juilliard, the San Francisco Conservatory of Music and Music Academy of the West. He says that opera experience continues to shape how he understands performing under pressure and being evaluated. He describes his therapeutic approach as collaborative, direct and grounded, with attention to how relationships and recurring patterns emerge; these are his descriptions, not promises of outcome.",
         "source": {
           "id": "david-heilman-biography-2026-10-14",
           "url": "https://www.davidheilman.com/about/",
@@ -101,7 +102,8 @@
             "claim": "He describes his approach as collaborative, direct and grounded, and centers the therapeutic relationship and recurring patterns.",
             "excerpt": "At the center of my work is the belief that meaningful change happens through relationship. The therapeutic relationship itself often becomes a place where familiar patterns emerge and can be explored with care and openness. [...] My approach is collaborative, direct, and grounded."
           }
-        ]
+        ],
+        "disposition": "Extend the existing dated professional-background narrative in place, retaining its original career and training sentence, older source citation and adding a fresh dated biography source. No duplicate journey section."
       },
       "access": {
         "sectionId": "availability-observation-2026-10-14",
