@@ -2,7 +2,25 @@
 
 **Goal: 100 unique provider IDs. Not yet reached. No deployment authorized.**
 
-## Latest checked continuation: 63 → 65
+## Latest checked continuation: 65 → 66
+
+Current qualifying intersection: **66 stable unique provider IDs; 34 remain**.
+App main: `86bb5839462d1995ecd2fa257a6151be9882cec9`. Inventory: 95 provider
+records and 81 independently maintained local portrait deliveries.
+Michael Waul adds one source-backed education/community narrative with an
+inspected immediate local screenshot portrait from his named UCSF page.
+Hyatt's personal-learning narrative and Sadati's dated evidence are additive,
+but their credential-label conflicts independently keep them out of the
+accepted cohort. No new IDs, route changes, clinical approval or indexing/
+review promotion occurred.
+
+Clean actual content, media provenance, applied/held outcomes and fresh
+validation: `humanity-batch-results-65-to-66-2026-10-15.json`.
+Detailed reconciliation: `../research/humanity-proactive-reconciliation-65-to-66-2026-10-15.md`.
+The earlier twelve-candidate packet remains research input, not twelve
+applied or accepted profiles. No deployment.
+
+## Prior checked continuation: 63 → 65
 
 Current qualifying intersection: **65 stable unique provider IDs; 35 remain**.
 App main: `df2d87a3c2188a786a2ee1e0423584d8d18b5ca5`. Inventory: 95 provider

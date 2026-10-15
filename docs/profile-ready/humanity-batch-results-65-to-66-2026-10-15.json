@@ -1,0 +1,98 @@
+{
+  "checkedOn": "2026-10-15",
+  "appRevision": "86bb5839462d1995ecd2fa257a6151be9882cec9",
+  "fixedPreBatchAppRevision": "df2d87a3c2188a786a2ee1e0423584d8d18b5ca5",
+  "inputPacket": "docs/profile-ready/humanity-proactive-research-packet-2026-10-15.json",
+  "inputPacketRevision": "37ad79cbfbf395eadcdf570d2e81b0e91cecca29",
+  "counts": {
+    "before": 65,
+    "after": 66,
+    "netNewQualifyingIds": 1,
+    "providerRecords": 95,
+    "approvedLocalPortraitDeliveries": 81
+  },
+  "newlyQualifying": [
+    {
+      "id": "76d7b7bd-6cd6-4ae1-8bdb-a23020410bc3",
+      "name": "Michael Waul",
+      "canonicalPath": "michaelwaul",
+      "directory": "san-francisco-dermatologists",
+      "sourceId": "waul-humanity-2026-10-15",
+      "sourcePage": "https://dermatology.ucsf.edu/about-us/our-team/michael-waul-md",
+      "narrative": {
+        "heading": "Education and community-building",
+        "text": "Michael Waul's UCSF biography describes a commitment to elevating the voices of people underrepresented in medicine. It describes advising medical students, supporting trainee wellbeing, developing educational resources representing a wider range of skin colors, and using restorative justice to build community and address minority trainee burnout. These are his stated work and aims, not demonstrated patient outcomes or independently verified clinical credentials.",
+        "sourceIds": ["waul-humanity-2026-10-15"]
+      },
+      "access": {
+        "heading": "Before seeking care",
+        "text": "The UCSF departmental page lists a Parnassus Avenue contact address associated with dermatology education and projects, not a confirmed individual appointment location. This profile does not establish current patient capacity, accepted insurance, fees or referral requirements. Confirm the appropriate clinical intake route directly with UCSF.",
+        "sourceIds": ["waul-humanity-2026-10-15"]
+      },
+      "portrait": {
+        "delivery": "/images/providers/michaelwaul-source-screenshot.png",
+        "usage": "local-source-screenshot",
+        "format": "PNG",
+        "width": 150,
+        "height": 150,
+        "bytes": 50928,
+        "sha256": "6d2808298e2df930983595e87489bc9c6969d70dd01bddb3391a64feaa1ff10e",
+        "sourceAsset": "https://dermatology.ucsf.edu/sites/dermatology.ucsf.edu/files/styles/max_fp_650x650/public/2023-10/Michael_Waul.jpeg.webp?h=a16a0739&itok=OzJkqWXN",
+        "ownerInspectedOriginal": {
+          "format": "WebP",
+          "width": 650,
+          "height": 650,
+          "sha256": "eed4d91d39945066002fb42a443006691a92faf7031c6f5fd934cc8313eb6404"
+        },
+        "appInspection": "The exact standalone asset returned HTTP 403 here. The ordinary named source-page screenshot rendered the full-face portrait beside Michael Waul, MD. A 150×150 crop at x329/y258 from a 1920×1080 capture was inspected without enlargement; local bytes differ from the original WebP.",
+        "terms": "Unknown. Modest source-linked preview only; no ownership, blanket license, derivative-card, clinical or human-review approval."
+      },
+      "intentionalCorrection": "Dated scoped source-correction replaced the previous asserted diagnostic-accuracy effect with the attributed education-project description. No independent outcome evidence was established.",
+      "states": "Existing ID, path, aliases, membership, nonindexable research-pilot and review/clinical states preserved."
+    }
+  ],
+  "heldContentUpdates": [
+    {
+      "id": "4a21c081-fbba-4331-9455-fb4d9995a84f",
+      "name": "Nancy Hyatt",
+      "sourceId": "hyatt-humanity-2026-10-15",
+      "sourcePage": "https://www.nancyhyatt.com/",
+      "narrative": "Nancy Hyatt's own account places personal learning alongside professional training. She describes marriage and parenting as continuing sources of humility and growth, and connects her work with longstanding interests in relationships. Her biography also describes leadership education beyond her psychotherapy practice. These are attributed personal and professional details, not therapeutic-efficacy or current-availability claims.",
+      "access": "Published credential labels and phone observations conflict; no phone number or street address is selected here as current. This profile has not established current appointment capacity, accepted insurance, fees, or referral requirements. Confirm current intake and credentials directly with the practice or relevant licensing authority.",
+      "accessSourceIds": ["nancy-hyatt-home-2026-10-01", "nancy-hyatt-contact-2026-10-01"],
+      "claimMapping": [
+        "Personal-learning claim → hyatt-humanity-2026-10-15",
+        "Mobius Executive Leadership account → hyatt-humanity-2026-10-15"
+      ],
+      "heldReason": "Existing LICSW/LCSW-C credential-label conflict remains unresolved; not added to accepted cohort. Older phone/address observations, stories, sources and approved local portrait retained."
+    },
+    {
+      "id": "9cb1abfe-e004-4693-9541-1e01867c2082",
+      "name": "Kevin Sadati",
+      "sourceId": "sadati-humanity-2026-10-15",
+      "sourcePage": "https://galleryofcosmeticsurgery.com/teams/dr-kevin-sadati/",
+      "narrative": "Existing art-and-training story retained without rewriting.",
+      "claimMapping": [
+        "Evening painting/sculpture study during surgical training → sadati-humanity-2026-10-15",
+        "Practice account linking artistic composition to facial form and teaching surgeons → sadati-humanity-2026-10-15"
+      ],
+      "heldReason": "Existing MD/DO credential-label conflict remains unresolved; not added to accepted cohort. Earlier source observations and approved local portrait retained."
+    }
+  ],
+  "freshChecks": {
+    "entityFiles": 111,
+    "portraitInventory": 81,
+    "humanityCohort": 66,
+    "fixedAndImmediateParentPreservation": "passed",
+    "typecheck": "passed",
+    "build": "passed",
+    "http": "108/108",
+    "sfPilot": "64/64",
+    "contract": "75/75",
+    "providerCards": "4/4",
+    "waulDesktopTouchMobile": "2/2 complete narrative/citations, actual local image and initial privacy",
+    "hyattSadatiDesktopMobile": "4/4 visible copy/source/local-image checks; zero initial third-party requests or cookies",
+    "sharedCaptionCrossDirectory": "Waul, Chang, Bradley Williams and Lancer on desktop/mobile: 8/8 image/source/caption/privacy checks"
+  },
+  "limits": "Not a full browser-suite rerun, load/performance test, clinical verification, human approval, real-device Safari or screen-reader audit. No deployment. Research wall-clock duration was not measured."
+}

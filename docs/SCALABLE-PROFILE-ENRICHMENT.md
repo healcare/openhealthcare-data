@@ -209,6 +209,49 @@ The app revision is `0cfb694f9dcc59e558e2b8ef931e43e64c8baf11`; local main and o
 Validation: 75 URL contracts, 108 HTTP/API tests, all-record/data-asset checks, the fixed-baseline historical-cohort test, the per-batch import guard, type-check and production build passed. Fresh targeted browser coverage passed all five profiles on desktop and touch-mobile, with local portrait decoding, source links and zero initial external requests/cookies. Timings in the result are functional shared-context checks, not cold-cache, load or thousand-profile measurements. No deployment or clinical/review promotion. External Gemini/Copilot requests remain pending and unanswered.
 
 
+## Checked continuation through 66 — October 15, 2026
+
+The clean 63→65 reconciliation and subsequent proactive-packet pass are
+separate from research drafts. Current checked app main is
+`86bb5839462d1995ecd2fa257a6151be9882cec9`: **66 qualifying unique IDs,
+34 remaining**, 95 provider records, 81 deliberately maintained local
+portrait deliveries. Clean applied/held outcomes are
+`profile-ready/humanity-batch-results-65-to-66-2026-10-15.json`; deeper
+inspection and rejected/held evidence are in
+`research/humanity-proactive-reconciliation-65-to-66-2026-10-15.md`.
+
+Waul adds one new qualifier from the twelve-candidate input. Hyatt's
+personal-learning story and Sadati's dated source mappings are useful
+additions, but their credential conflicts remain independently
+disqualifying. Do not count packet candidates or newly downloaded photos
+as accepted profiles; do not weaken the existing guard to reach a quota.
+Preserve earlier dated observations beside newer ones.
+
+The owner inspected Waul's original 650×650 image elsewhere; this
+workspace's standalone request returned 403. The normally rendered named
+UCSF page supplied an inspected unenlarged 150×150 screenshot crop.
+Record the delivered crop's hash/dimensions separately from the original;
+unknown reuse terms are not a derivative-use approval. Use source-neutral
+captions rather than assuming institutional biographies are practice pages.
+A dated scoped source-correction explains the deliberate removal of an
+unsupported patient-effect assertion while retaining the education project.
+
+Full HTTP 108/108, SF pilot 64/64, contracts 75/75, cards 4/4, type check,
+build, all-record assets/cohort and fixed/immediate-parent preservation
+checks passed. New Waul desktop/touch-mobile checks protect full narrative,
+citations, actual local image and initial privacy. Hyatt/Sadati received
+four affected-page checks; the caption-only shared edit received eight
+desktop/mobile checks across four profiles/directories, with no initial
+third-party requests/cookies. This is not a new full browser-suite run,
+screen-reader/device audit, human approval, clinical verification or
+thousands-profile performance demonstration. No deployment.
+
+The preceding 65-profile HTTP repair retained complete assertions while
+correcting an obsolete all-October-1 date expectation and serialized-HTML
+text expectations. Use explicit assertion messages: Node's error-message
+inference over a large one-line TSX source map can consume CPU and look
+like a stalled server. Diagnose the stack before assuming a runtime hang.
+
 ## Humanity continuation, 62 → 63 — October 15, 2026
 
 The current checked intersection is 63 distinct provider IDs of the 100 goal; 37 remain. The dataset has 95 provider records and 77 entries in the independent local-preview inventory. Michael Bouzid is the single net new qualifier. David A. Heilman was already accepted at 62 and receives only a portrait-source upgrade and separately cited work-approach/access sections. See `profile-ready/humanity-batch-results-62-to-63-2026-10-15.json` for the clean applied record and exact media evidence. The packet at `profile-ready/humanity-source-packet-bouzid-heilman-2026-10-14.json` predates import.
