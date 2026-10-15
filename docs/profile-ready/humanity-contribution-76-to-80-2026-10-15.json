@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-15",
+  "preparedBeforeImport": true,
+  "status": "four candidates reconciled to current app; source-mapped copy, access facts, paths and media prepared for a small pending-review contribution",
+  "currentAppCheckpoint": {
+    "revision": "6eb3f0650c41c265702499b4fb61b01100b4db29",
+    "qualifyingUniqueIds": 76,
+    "providerRecords": 103,
+    "independentPortraitInventory": 90,
+    "fixedBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894"
+  },
+  "reconciliation": {
+    "exactNameMatches": 0,
+    "assignedIdsAlreadyPresent": 0,
+    "canonicalOrAliasCollisions": 0,
+    "directoryPathsRemainNonindexable": true,
+    "reviewDatesRemainUnchanged": true
+  },
+  "recordDefaults": {
+    "status": "published",
+    "indexable": false,
+    "claimStatus": "unclaimed",
+    "sourceVerification": "source-stated",
+    "reviewStatus": "pending-human-review",
+    "licenseLookupStatus": "pending",
+    "clinicalVerification": false
+  },
+  "candidates": [
+    {
+      "id": "50a8f698-2778-46d0-9cce-f4cd68b0db1e",
+      "name": "Holly S. Andersen",
+      "canonicalPath": "hollyandersen",
+      "directory": "manhattan-cardiology",
+      "sourceDisposition": "New evidence addresses previous named-location and low-resolution portrait gaps; import-time reconciliation still required.",
+      "narrative": {
+        "heading": "Taking heart education into the community",
+        "text": "Holly Andersen’s education work reaches beyond the cardiology office. NewYork-Presbyterian’s 2017 campaign announcement identifies her as the leader of its hands-only CPR awareness effort, designed to help ordinary bystanders learn how to respond. Her practice biography also describes launching HeartSmarts, a community outreach program. These projects give a concrete view of her interest in public heart-health education.",
+        "sourceIds": [
+          "andersen-cpr-2017",
+          "andersen-nyca-20261015"
+        ]
+      },
+      "claimMap": [
+        {
+          "claim": "Led the institution's 2017 hands-only CPR campaign",
+          "sourceIds": [
+            "andersen-cpr-2017"
+          ],
+          "excerpt": "Led by Dr. Holly Andersen"
+        },
+        {
+          "claim": "Practice describes launching community outreach",
+          "sourceIds": [
+            "andersen-nyca-20261015"
+          ],
+          "excerpt": "Andersen launched the very successful community faith-based outreach program, HeartSmarts.",
+          "limits": "Do not adopt promotional success language or infer measured outcomes."
+        }
+      ],
+      "sources": [
+        {
+          "id": "andersen-nyca-20261015",
+          "url": "https://www.newyorkcardiologyassoc.com/andersen",
+          "label": "Holly S. Andersen — New York Cardiology Associates",
+          "publisher": "New York Cardiology Associates",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "Opened named practice biography",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "andersen-nyca-home-20261015",
+          "url": "https://www.newyorkcardiologyassoc.com/",
+          "label": "New York Cardiology Associates — practice and physician roster",
+          "publisher": "New York Cardiology Associates",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "Opened practice page",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "andersen-cpr-2017",
+          "url": "https://www.nyp.org/news/nyp-and-perelman-heart-instuture-launch-handsonlycpr-campaign",
+          "label": "Hands-only CPR campaign launch",
+          "publisher": "NewYork-Presbyterian",
+          "publishedDate": "2017-06-01",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "Opened institutional announcement in prior preparation",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "access": {
+        "heading": "Practice-listed Manhattan office",
+        "text": "New York Cardiology Associates lists Holly Andersen on its named physician page and gives 425 East 61st Street, 6th floor, New York, NY 10065, with practice phone 212-752-2000. Confirm her current office and intake directly; individual capacity, fees, referral rules, telehealth and exact-plan coverage remain unestablished.",
+        "sourceIds": [
+          "andersen-nyca-20261015",
+          "andersen-nyca-home-20261015"
+        ],
+        "bookingSourcePage": "https://www.newyorkcardiologyassoc.com/andersen",
+        "limitations": "Practice-level contact information appears on her named page, not independently confirmed by calling. Page has placeholder specialty fields and a malformed Tuesday office-hour line; do not import those hours, placeholder text, rankings or undated current titles."
+      },
+      "portrait": {
+        "url": "https://static.wixstatic.com/media/dd4633_e1b28963eb4a489f919cb74800fc09f7~mv2.jpg/v1/fill/w_980%2Ch_980%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/3_edited.jpg",
+        "status": 200,
+        "format": "JPEG",
+        "width": 980,
+        "height": 980,
+        "bytes": 84622,
+        "sha256": "74b5c6950f49f6b9347adf01d271235d765f2cb3d4571777b9bf2a068d72b495",
+        "setCookie": false,
+        "sourcePage": "https://www.newyorkcardiologyassoc.com/andersen",
+        "association": "Named page image alt: Dr Holly Andersen wearing a white medical gown. Inspected individual full-face image; white coat bears her name.",
+        "visualInspection": "Clear face and upper-body portrait in a clinical hallway. No crop or upscale made by this researcher.",
+        "note": "Wix URL contains image-transformation instructions and enc_avif but returned decoded JPEG; record actual response separately from original-photo/rights claims.",
+        "observedAt": "2026-10-15",
+        "reuseTerms": "Unknown; source-linked modest local preview only, not ownership or derivative-card approval.",
+        "proposedUse": "Modest local source-linked preview under existing policy; no runtime source-host request.",
+        "visualInspectionStatus": "Exact downloaded source response decoded and visually inspected",
+        "localPath": "/images/providers/hollyandersen-source-preview.jpg",
+        "deliveryDimensions": "640x640",
+        "deliveryBytes": 62531,
+        "deliverySha256": "a09d0bb1d708997a5200c7e7d2056ad5bd77c754cffef11c5602472bd9241d0e",
+        "sourceImageSetCookie": false
+      }
+    },
+    {
+      "id": "588db3f8-5807-4e36-993b-3a6baa951081",
+      "name": "Allison Dobry",
+      "canonicalPath": "allisondobry",
+      "directory": "san-francisco-dermatologists",
+      "sourceDisposition": "Prepared new candidate; resolve source freshness and confirm current admission before import.",
+      "narrative": {
+        "heading": "Teaching, music and making things",
+        "text": "Allison Dobry’s UCSF biography pairs her work with complex skin conditions with teaching dermatology residents at the Veterans Health Administration in San Francisco. Outside work, the same account describes discovering new music, reading fiction and finding new knitting and crochet projects. These documented interests add a personal dimension alongside her clinical and teaching work.",
+        "sourceIds": [
+          "dobry-ucsf-20261015"
+        ]
+      },
+      "claimMap": [
+        {
+          "claim": "Teaches residents at the San Francisco Veterans Health Administration",
+          "sourceIds": [
+            "dobry-ucsf-20261015"
+          ]
+        },
+        {
+          "claim": "Enjoys music discovery, fiction, knitting and crochet",
+          "sourceIds": [
+            "dobry-ucsf-20261015"
+          ],
+          "excerpt": "discovering new music, reading fiction, finding new things to knit and crochet"
+        }
+      ],
+      "sources": [
+        {
+          "id": "dobry-ucsf-20261015",
+          "url": "https://www.ucsfhealth.org/providers/allison-dobry",
+          "label": "Allison Dobry — UCSF Health",
+          "publisher": "UCSF Health",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "Opened official named biography; current HTML inspected",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "missionbay-ucsf-20261015",
+          "url": "https://www.ucsfhealth.org/locations/dermatology-mission-bay",
+          "label": "Dermatology Mission Bay — UCSF Health",
+          "publisher": "UCSF Health",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "Opened clinic page; named roster includes Dobry and Francois",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "access": {
+        "heading": "Source-listed clinic and intake",
+        "text": "UCSF’s current profile and Mission Bay roster list Dobry at Dermatology Mission Bay, 520 Illinois Street, Third Floor, San Francisco, CA 94158. Her profile gives clinic phone 415-353-7800 and advertises telehealth. Confirm intake and exact-plan coverage with UCSF.",
+        "sourceIds": [
+          "dobry-ucsf-20261015",
+          "missionbay-ucsf-20261015"
+        ],
+        "limitations": "Current appointment capacity, fees, referral requirements and exact insurance-product participation were not established. An appointment link or advertised telehealth is not proof of an available slot. No independent license or clinical credential check performed. Older extraction of the /providers/dr-allison-dobry URL showed China Basin, 185 Berry Street. Current canonical page and clinic roster show Mission Bay. Retain both dated observations; this does not independently prove a relocation or that the older clinic is closed."
+      },
+      "portrait": {
+        "url": "https://cdn-images.kyruus.com/providermatch/ucsf/photos/orig/dobry-allison-1235660234.jpg",
+        "status": 200,
+        "format": "JPEG",
+        "width": 640,
+        "height": 640,
+        "bytes": 132141,
+        "sha256": "031beffb4cf5884ad6b6f99d18512a8932ed97335c956f38a72e5b69425e00cf",
+        "setCookie": false,
+        "sourcePage": "https://www.ucsfhealth.org/providers/dr-allison-dobry",
+        "association": "Opened older official extraction labels the exact Kyruus asset Allison Dobry; individual clear full-face portrait inspected.",
+        "visualInspection": "Single full-face headshot; long blonde hair, mustard-colored clothing.",
+        "currentMarkupAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/dobry-allison-1235660234-c9cdade1674670f654c9765215b4b2db.jpg",
+        "currentMarkupAssetStatus": "Direct request returned 403; no bypass or hash claimed. The older exact named official Kyruus asset returned 200 and was independently decoded/inspected. Reconfirm acceptable source association at import.",
+        "observedAt": "2026-10-15",
+        "reuseTerms": "Unknown; source-linked modest local preview only, not ownership or derivative-card approval.",
+        "proposedUse": "Modest local source-linked preview under existing policy; no runtime source-host request.",
+        "visualInspectionStatus": "Exact downloaded source response decoded and visually inspected",
+        "localPath": "/images/providers/allisondobry-source-preview.jpg",
+        "deliveryDimensions": "640x640",
+        "deliveryBytes": 132141,
+        "deliverySha256": "031beffb4cf5884ad6b6f99d18512a8932ed97335c956f38a72e5b69425e00cf",
+        "sourceImageSetCookie": false,
+        "sourcePageSetCookie": true
+      }
+    },
+    {
+      "id": "ea22c556-2993-4c55-8a5b-023db4ec6381",
+      "name": "Amanda Twigg",
+      "canonicalPath": "amandatwigg",
+      "directory": "san-francisco-dermatologists",
+      "sourceDisposition": "Prepared new candidate subject to current duplicate/admission checks.",
+      "narrative": {
+        "heading": "Access to care and time outdoors",
+        "text": "Amanda Twigg’s UCSF biography describes research into teledermatology and its potential to improve access in rural areas, alongside an interest in educating dermatology residents. Away from work, she enjoys San Francisco places such as Ocean Beach, Lands End and Golden Gate Park, with hiking, whale-watching and bird-watching among her activities. Her profile also describes her as an amateur baker.",
+        "sourceIds": [
+          "twigg-ucsf-20261015"
+        ]
+      },
+      "claimMap": [
+        {
+          "claim": "Research interest in rural access through teledermatology and resident education",
+          "sourceIds": [
+            "twigg-ucsf-20261015"
+          ],
+          "limits": "Research purpose, not established access or health-outcome improvement."
+        },
+        {
+          "claim": "Named San Francisco outdoor interests and amateur baking",
+          "sourceIds": [
+            "twigg-ucsf-20261015"
+          ],
+          "excerpt": "Educator and amateur baker"
+        }
+      ],
+      "sources": [
+        {
+          "id": "twigg-ucsf-20261015",
+          "url": "https://www.ucsfhealth.org/providers/amanda-twigg",
+          "label": "Amanda Twigg — UCSF Health",
+          "publisher": "UCSF Health",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "Opened official named biography; current HTML inspected",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "access": {
+        "heading": "Source-listed clinic and intake",
+        "text": "UCSF lists Twigg at Dermatology Mount Zion, 1701 Divisadero Street, San Francisco, CA 94115, with clinic phone 415-353-7800 and telehealth visits. Her biography describes adult care. Confirm individual intake and exact-plan coverage with UCSF.",
+        "sourceIds": [
+          "twigg-ucsf-20261015"
+        ],
+        "limitations": "Current appointment capacity, fees, referral requirements and exact insurance-product participation were not established. An appointment link or advertised telehealth is not proof of an available slot. No independent license or clinical credential check performed."
+      },
+      "portrait": {
+        "url": "https://providers.ucsfhealth.org/sparkle-assets/images/twigg-amanda-1902196454-4ace6d65950fccc09407f54cb378e008.jpg",
+        "status": 200,
+        "format": "JPEG",
+        "width": 640,
+        "height": 640,
+        "bytes": 245454,
+        "sha256": "f7f60916879826c1a9ed87267501b7f0fab5531e20287ddc4359225d3c50882c",
+        "setCookie": false,
+        "sourcePage": "https://www.ucsfhealth.org/providers/amanda-twigg",
+        "association": "Exact current img src, alt Portrait of Amanda Twigg.",
+        "visualInspection": "Single full-face headshot; long reddish hair, navy clothing.",
+        "observedAt": "2026-10-15",
+        "reuseTerms": "Unknown; source-linked modest local preview only, not ownership or derivative-card approval.",
+        "proposedUse": "Modest local source-linked preview under existing policy; no runtime source-host request.",
+        "visualInspectionStatus": "Exact downloaded source response decoded and visually inspected",
+        "localPath": "/images/providers/amandatwigg-source-preview.jpg",
+        "deliveryDimensions": "640x640",
+        "deliveryBytes": 245454,
+        "deliverySha256": "f7f60916879826c1a9ed87267501b7f0fab5531e20287ddc4359225d3c50882c",
+        "sourceImageSetCookie": false
+      }
+    },
+    {
+      "id": "5bb86280-2ede-4956-8534-e0be3302a194",
+      "name": "Rony A. François",
+      "canonicalPath": "ronyfrancois",
+      "directory": "san-francisco-dermatologists",
+      "sourceDisposition": "Prepared new candidate; retain source-supported accent/name variants and check identity collisions.",
+      "narrative": {
+        "heading": "Music, curiosity and life outside work",
+        "text": "Rony François’s UCSF biography describes interests in learning about different cuisines, languages and cultures. It also identifies him as an audiophile and auditory learner who enjoys music and karaoke. Alongside his clinical and research work, the profile lists skiing and travel among his activities. These are his publisher-described interests, rather than conclusions about personality or bedside manner.",
+        "sourceIds": [
+          "francois-ucsf-20261015"
+        ]
+      },
+      "claimMap": [
+        {
+          "claim": "Interests in cuisines, languages and cultures",
+          "sourceIds": [
+            "francois-ucsf-20261015"
+          ]
+        },
+        {
+          "claim": "Audiophile, auditory learner, music and karaoke interests",
+          "sourceIds": [
+            "francois-ucsf-20261015"
+          ],
+          "excerpt": "he enjoys listening to music and singing karaoke"
+        },
+        {
+          "claim": "Skiing and travel",
+          "sourceIds": [
+            "francois-ucsf-20261015"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "francois-ucsf-20261015",
+          "url": "https://www.ucsfhealth.org/providers/rony-francois",
+          "label": "Rony A. Francois — UCSF Health",
+          "publisher": "UCSF Health",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "Opened official named biography; current HTML inspected",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "missionbay-ucsf-20261015",
+          "url": "https://www.ucsfhealth.org/locations/dermatology-mission-bay",
+          "label": "Dermatology Mission Bay — UCSF Health",
+          "publisher": "UCSF Health",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "Opened official named biography; current HTML inspected",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "access": {
+        "heading": "Source-listed clinic and intake",
+        "text": "UCSF lists François at Dermatology Mission Bay, 520 Illinois Street, Third Floor, San Francisco, CA 94158, with clinic phone 415-353-7800 and telehealth visits. The clinic roster also names him. Confirm individual intake and exact-plan coverage with UCSF.",
+        "sourceIds": [
+          "francois-ucsf-20261015",
+          "missionbay-ucsf-20261015"
+        ],
+        "limitations": "Current appointment capacity, fees, referral requirements and exact insurance-product participation were not established. An appointment link or advertised telehealth is not proof of an available slot. No independent license or clinical credential check performed. Learning about languages does not establish spoken or clinical-language proficiency."
+      },
+      "portrait": {
+        "url": "https://providers.ucsfhealth.org/sparkle-assets/images/francois-rony-1457882052-a36cc34dace6851e1d5cdf20561b8c6e.jpg",
+        "status": 200,
+        "format": "JPEG",
+        "width": 640,
+        "height": 640,
+        "bytes": 318973,
+        "sha256": "af6d00e947aa45b3a4872fa378765622a2c2a4fb9ad9efc1df788b1a7b403615",
+        "setCookie": false,
+        "sourcePage": "https://www.ucsfhealth.org/providers/rony-francois",
+        "association": "Exact current img src, alt Portrait of Rony A. Francois.",
+        "visualInspection": "Single clear full-face portrait; blue jacket, greenery behind.",
+        "observedAt": "2026-10-15",
+        "reuseTerms": "Unknown; source-linked modest local preview only, not ownership or derivative-card approval.",
+        "proposedUse": "Modest local source-linked preview under existing policy; no runtime source-host request.",
+        "visualInspectionStatus": "Exact downloaded source response decoded and visually inspected",
+        "localPath": "/images/providers/ronyfrancois-source-preview.jpg",
+        "deliveryDimensions": "640x640",
+        "deliveryBytes": 318973,
+        "deliverySha256": "af6d00e947aa45b3a4872fa378765622a2c2a4fb9ad9efc1df788b1a7b403615",
+        "sourceImageSetCookie": false
+      }
+    }
+  ],
+  "exclusion": {
+    "name": "Jeffrey P. North",
+    "reason": "Not imported; evidence does not establish direct patient-care clinic scope. Keep the research-only scope issue separate."
+  },
+  "controls": {
+    "identityOrDirectoryHoldWeakened": false,
+    "reviewOrIndexingPromotion": false,
+    "credentialOrLicensePromotion": false,
+    "paidImageSearch": false,
+    "deployment": false
+  }
+}

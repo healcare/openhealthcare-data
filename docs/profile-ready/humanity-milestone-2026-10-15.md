@@ -249,3 +249,13 @@ Nieca Goldberg (`4af1f6f0-c5c1-42d2-979f-f4a305c7afa6`) and Anuradha (Anu) Lala-
 The new exact named-source portraits decode locally and appear immediately; no pre-activation external request or cookie was observed. Reuse terms remain unknown. Both profiles remain nonindexable/unclaimed and pending human review and license lookup; no clinical or rights approval is implied. All older evidence, access conflicts, IDs, paths, and holds remain.
 
 Validation fresh for this batch: 117 entity files, 101 providers, 13 directories, 3 organizations, one bundle; 87 portrait deliveries; 72 qualifying IDs; fixed baseline; check/build; HTTP/API 108/108; contract 78/78; cards 4/4; SF pilot 81/81; targeted browser 3/3 plus one affected Manhattan directory test. This is not a fresh full browser run, a screen-reader or real-device Safari audit, or a thousands-profile load trial. No deployment.
+
+## Checked continuation 74 → 76 — October 15, 2026
+
+The checked qualifying intersection advanced from 74 to 76 unique provider IDs (24 remain), across 103 provider records and 90 independent local portrait deliveries. Tiffany Bufort-Odom was enriched without changing her portrait; Michael A. Bain gained a source-mapped narrative, dated access summary and individually inspected immediate local preview. Full claims, citations, media provenance and preservation are in the clean [74-to-76 result](humanity-batch-results-74-to-76-2026-10-15.json). The app checks recorded 149 discovered tests across separate passing runs; see the result and scalable guide for exact scope and limitations.
+
+This is not clinical verification, human review, rights clearance, a scale/load test or deployment. Review/indexing states, IDs, routes, aliases, existing holds, new evidence and source history remain unchanged.
+
+## Prepared next candidates after 76 — October 15, 2026
+
+Four source-prepared candidates are under current identity, URL and directory-fit reconciliation after the checked 76/100 point: Holly S. Andersen, Allison Dobry, Amanda Twigg and Rony A. François. Their clean contribution packet and deeper import review are linked separately. This is not a count increase; pending review/indexing/license states remain unchanged. The current app revision is 6eb3f0650c41c265702499b4fb61b01100b4db29.

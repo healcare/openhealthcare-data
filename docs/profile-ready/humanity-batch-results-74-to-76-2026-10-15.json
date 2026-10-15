@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "appliedOn": "2026-10-15",
+  "status": "applied; browser and release checks passed; normal repository sync pending",
+  "milestone": {
+    "acceptedUniqueProviderIdsBefore": 74,
+    "acceptedUniqueProviderIdsAfter": 76,
+    "target": 100,
+    "netGain": 2,
+    "providerRecordsBefore": 103,
+    "providerRecordsAfter": 103,
+    "independentlyInventoriedLocalPortraitsBefore": 89,
+    "independentlyInventoriedLocalPortraitsAfter": 90,
+    "countingRule": "Count stable provider IDs only; directory appearances, aliases, narrative-only changes and portrait-only changes do not add a qualifying ID."
+  },
+  "fixedPreservationBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "applicationParent": "deaa2ee",
+  "reconciledIncomingDocumentation": {
+    "appMainCommit": "63e4a23d00288f319de064319388f9d57b6ac7b7",
+    "publicDataMainCommit": "307be5774f8c3623f5439f2755fecb0bac6d58d7"
+  },
+  "profiles": [
+    {
+      "id": "631701d1-55d2-4341-92ca-0e98dc2a3008",
+      "name": "Tiffany Bufort-Odom",
+      "canonicalPath": "tiffanybufortodom",
+      "directory": "psychotherapists-washington-dc",
+      "change": "Enriched the existing identity with a source-mapped career/community narrative and dated practical access observations.",
+      "humanityNarrative": {
+        "heading": "From hospital work to school and community programs",
+        "text": "An Influential Women profile describes her path from hospital psychotherapist and lead-therapist roles to helping establish trauma-informed schools in Pennsylvania. It says she later created and oversaw an at-risk program across three Washington, DC schools, including wraparound support and grief counseling for displaced families during the COVID-19 pandemic.",
+        "sourceIds": [
+          "tiffany-bufort-odom-influential-women-2026-10-15"
+        ],
+        "verification": "Attributed source-stated account; career claims were not independently corroborated. No credentials, current role, patient outcomes or clinical claims were imported."
+      },
+      "practicalAccess": {
+        "observationDate": "2026-10-15",
+        "sourceIds": [
+          "tiffany-psychology-today-access-2026-10-15",
+          "our-journey-sessionshealth-access-2026-10-15"
+        ],
+        "limits": "The online-therapy waitlist remains visible beside a generic new-client scheduler link. Exact telehealth geography, current capacity, street address and plan/service coverage remain unknown."
+      },
+      "portrait": {
+        "disposition": "Retained existing independently inventoried local preview; no new bytes and no reapproval.",
+        "localPath": "/images/providers/tiffanybufortodom-source-preview.jpg",
+        "sourcePage": "https://bio.site/journeywithTIFF",
+        "sourceAsset": "https://media.bio.site/sites/bdd0538b-c12a-434f-836a-29531d4dfbe8/kop98a4XVWUgy9mecudQKY.jpg",
+        "dimensions": "3131x2931",
+        "bytes": 1386382,
+        "sha256": "b2a45634443b5e438c82e59155328e26e668ea621b997d66da74c82ea106ea9d",
+        "reuseTerms": "Unknown; existing modest source-linked local preview only, not ownership or derivative-card approval."
+      },
+      "preservation": "ID, route, aliases, directory membership, older dated observations, sources, portrait attribution, clinical fields, access uncertainty, review/indexing/claim states and verification dates retained."
+    },
+    {
+      "id": "d7808e05-d356-4b6e-9adb-774854c56ba2",
+      "name": "Michael A. Bain",
+      "canonicalPath": "michaelbain",
+      "directory": "plastic-surgeons-orange-county",
+      "change": "Enriched the existing identity with a named-source account of local/institutional connection and personal interest, a dated source-stated access observation, and a new local portrait preview.",
+      "humanityNarrative": {
+        "heading": "A local and institutional connection",
+        "text": "Hoag describes Michael A. Bain as a Newport Beach native and second-generation Hoag physician, and says he has a personal interest in regenerative medicine. This is Hoag's description of his connection and interest; it does not establish motivation, outcomes or independently verified credentials.",
+        "sourceIds": [
+          "michael-bain-hoag-profile-2026-10-15"
+        ],
+        "verification": "Named-page source-stated narrative, not independent clinical or credential verification. Existing professional-background copy and citations remain."
+      },
+      "practicalAccess": {
+        "observationDate": "2026-10-15",
+        "sourceIds": [
+          "michael-bain-hoag-profile-2026-10-15"
+        ],
+        "summary": "Hoag listed 366 San Miguel Dr, Suite 307, Newport Beach, CA 92660; (949) 720-0270; accepting new patients: Yes; and Aetna, Anthem, Blue Shield, Cigna, SCAN and United Healthcare.",
+        "limits": "Dated page statements only; no appointment slot, phone confirmation or plan-specific network status was established. The earlier 2026-09-30 untested-phone observation remains history."
+      },
+      "portrait": {
+        "disposition": "New, modest, exact-byte local source-linked preview; immediate local delivery.",
+        "localPath": "/images/providers/michaelbain-source-preview.jpg",
+        "sourcePage": "https://www.hoag.org/physician/michael-a-bain-md/",
+        "sourceAsset": "https://public.hoag.org/hoagmdimages/2401.jpg",
+        "contentType": "image/jpeg",
+        "dimensions": "400x477",
+        "bytes": 28676,
+        "sha256": "f646fc459cce5f9a0a0f2c405556e7b90a22404cfed75d8d8eef426b176fa87c",
+        "visualInspection": "Decoded and visually inspected as a clear individual full-face portrait; association is supported by the linked named Hoag page and matching image alt.",
+        "reuseTerms": "Unknown; modest source-linked preview only. No ownership, blanket license, derivative-card, clinical or human-review approval.",
+        "olderMediaObservation": "The separate drbain.com written-permission limitation and security-challenge observation remain recorded; their scope relative to this Hoag-hosted asset is not established. No bypass or guessed asset was used."
+      },
+      "preservation": "ID, route, aliases, directory membership, older sources and dated access observation, clinical fields, unknowns, holds, review/indexing/claim states and verification dates retained."
+    }
+  ],
+  "controls": {
+    "newProviderRecords": 0,
+    "reviewOrIndexingPromotion": false,
+    "clinicalOrLicenseVerification": false,
+    "credentialPromotion": false,
+    "deployment": false,
+    "paidImageSearch": false,
+    "geminiOrCopilot": "No external handoff was sent or received."
+  },
+  "verification": {
+    "playwrightDiscovery": "149 tests in 8 files; no syntax or discovery errors.",
+    "browserSuite": "tests/browser.spec.ts passed 128/128 in its prior run; the other 10 unchanged non-portrait cases passed in earlier targeted runs; patient-ready-directory passed 11/11, covering the full 90-portrait inventory on desktop and touch-mobile. All 149 discovered cases have passing results across separate invocations; no tests were skipped or weakened.",
+    "targetedPortraitDelivery": "The complete independent 90-portrait inventory passed desktop and touch-mobile API/profile checks, exact local image decode dimensions, alt text, source links, disclosures, and zero third-party requests/cookies before activation.",
+    "testFailureClassification": "The initial portrait timeout was a locator defect: an offscreen loading=lazy image had a zero-size box until its figure or shared portrait frame was scrolled into view. The test now scrolls the nonzero frame before asserting image visibility and decode. The actual images and app behavior passed; no app fix or expectation weakening was needed.",
+    "dataAndPreservation": "npm run validate-data passed for 119 entity files, 90 independent portrait deliveries, 76 qualifying IDs, and the fixed-baseline preservation guard; the baseline commit exists.",
+    "typeAndDiff": "npm run check and git diff --check passed.",
+    "contracts": "81 passed, 0 failed.",
+    "httpApi": "109 passed, 0 failed.",
+    "productionBuild": "Passed; existing Browserslist freshness, PostCSS from-option, and large-chunk warnings remain.",
+    "sourceAvailability": "Hoag's linked portrait asset was normally retrieved and decoded; the new app delivery is same-origin and the outward named-page source link is retained.",
+    "scaleLimit": "Functional integrity coverage at the current cohort; not a load or performance test at thousands of profiles."
+  },
+  "checkedAppRevision": "6eb3f0650c41c265702499b4fb61b01100b4db29",
+  "localOriginAgreement": true,
+  "syncStatus": "App main and origin/main agree at the checked revision; data result will be synced separately."
+}
