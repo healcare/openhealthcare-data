@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-15",
+  "status": "applied-and-checked",
+  "qualificationRule": "Count a stable unique provider ID only when it has a source-checked original narrative conveying documented humanity and a visually inspected, immediately delivered local source-linked portrait. This is content completeness, not human review or independent clinical verification.",
+  "milestone": {
+    "targetUniqueProviderIds": 100,
+    "previousCheckedUniqueProviderIds": 72,
+    "currentCheckedUniqueProviderIds": 74,
+    "remaining": 26,
+    "totalProviderRecords": 103,
+    "independentlyMaintainedLocalPortraitDeliveries": 89,
+    "newlyQualifyingIds": [
+      "fc324301-6429-4791-9abb-2acf8817ec2d",
+      "737d2e5e-ec5c-4c6f-be98-2625c349e0a9"
+    ]
+  },
+  "revisions": {
+    "appRepository": "healcare/openhealthcare",
+    "appPreImportRevision": "8b8597551bfe778aa8f821ac1fe1e9437a649716",
+    "appCheckedRevision": "b0c16009d5810f4a2cf670cad2c9cfe293033604",
+    "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+    "dataRepository": "healcare/openhealthcare-data",
+    "dataPreImportRevision": "e5f3e9bac0466ecff7300681551c620b24b2ea35",
+    "cleanPreImportPacket": "docs/profile-ready/humanity-dc-two-preimport-2026-10-15.json",
+    "detailedResearch": "docs/research/humanity-dc-two-preimport-2026-10-15.md"
+  },
+  "directory": {
+    "slug": "psychotherapists-washington-dc",
+    "id": "04359ce6-dc08-495f-ba76-b1838fb04b84",
+    "priorMemberCount": 8,
+    "currentMemberCount": 10,
+    "directoryIndexable": true,
+    "directoryReviewOrVerificationDateChanged": false,
+    "notes": "Existing member sources and dates, directory verification date, routes, IDs, aliases, flags, holds and review/indexing states were preserved. Both new profiles are nonindexable and pending review/license lookup."
+  },
+  "appliedProfiles": [
+    {
+      "id": "fc324301-6429-4791-9abb-2acf8817ec2d",
+      "name": "Stacy Notaras Murphy",
+      "canonicalPath": "stacynotarasmurphy",
+      "directory": "psychotherapists-washington-dc",
+      "outcome": "applied-and-qualifies",
+      "claimStatus": "unclaimed",
+      "factualStatus": "source-stated",
+      "reviewStatus": "pending-human-review",
+      "licenseLookupStatus": "pending",
+      "indexable": false,
+      "humanityNarrative": {
+        "heading": "Writing and learning about relationships",
+        "text": "Before her counseling career, Stacy Notaras Murphy worked as a business writer and editor. Her biography says she began bringing those reporting skills to psychology writing in 2005, when she became a regular contributor to Counseling Today. She describes an interest in relationships leading into couples work and later study of trauma’s effects on relationships. She also describes meeting with other therapists for consultation and support.",
+        "sourceIds": [
+          "murphy-about"
+        ]
+      },
+      "practicalAccess": {
+        "heading": "Before arranging care",
+        "text": "Her FAQ lists in-person sessions at a Dupont Circle office and telehealth for residents of DC or Virginia; Maryland residents are seen in person only. The reviewed page does not establish a street address. It lists $250 for individual 50-minute sessions and $315 for 55-minute couples/family sessions, observed October 15, 2026. The page describes an out-of-network model, full payment at service, and monthly statements that may support reimbursement; reimbursement is not guaranteed. Current appointment capacity and age eligibility are not established.",
+        "sourceIds": [
+          "murphy-access"
+        ]
+      },
+      "sources": [
+        {
+          "id": "murphy-about",
+          "url": "https://www.stacymurphylpc.com/about-me",
+          "label": "Biography",
+          "publisher": "Stacy Notaras Murphy",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "murphy-access",
+          "url": "https://www.stacymurphylpc.com/faqs-fees",
+          "label": "FAQs + Fees",
+          "title": "FAQs + Fees",
+          "publisher": "Stacy Notaras Murphy",
+          "sourceType": "official-practice-page",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "portrait": {
+        "sourcePage": "https://www.stacymurphylpc.com/about-me",
+        "sourceAsset": "https://images.squarespace-cdn.com/content/v1/5e10c7d04eae7b3046077bdb/70d56df3-0aee-4b10-958c-af8122c84531/Stacy+headshot+2026.png",
+        "currentSource": {
+          "format": "PNG",
+          "width": 1186,
+          "height": 1327,
+          "bytes": 3301095,
+          "sha256": "fccaef0cf63fa1e67f062b847131ab72415354a61e3762de8f0ca41bea1cf243",
+          "httpStatus": 200,
+          "setCookieHeader": false
+        },
+        "packetObservation": {
+          "format": "WebP",
+          "width": 1186,
+          "height": 1327,
+          "sha256": "b313426dd2fafbf55a099615544f30ea9edb2c7049e329ca4d4aaf91738568a2"
+        },
+        "localDelivery": {
+          "url": "/images/providers/stacynotarasmurphy-source-preview.webp",
+          "format": "WebP",
+          "width": 572,
+          "height": 640,
+          "bytes": 40778,
+          "sha256": "ada94eacbe65eae9919d06c96b83b175d6d8f68874ff76d6e232a6c8577b1657",
+          "method": "Proportional resize to a 640-pixel maximum dimension; no crop."
+        },
+        "visualInspection": "Exact image fetched from the URL linked in current official biography; clear individual full-face portrait. Source and local resized delivery both visually inspected.",
+        "reuseTerms": "Unknown; modest source-linked local preview only, no ownership or derivative-card approval.",
+        "repositoryPath": "client/public/images/providers/stacynotarasmurphy-source-preview.webp"
+      }
+    },
+    {
+      "id": "737d2e5e-ec5c-4c6f-be98-2625c349e0a9",
+      "name": "Kathleen Smith",
+      "canonicalPath": "kathleensmith",
+      "directory": "psychotherapists-washington-dc",
+      "outcome": "applied-and-qualifies",
+      "claimStatus": "unclaimed",
+      "factualStatus": "source-stated",
+      "reviewStatus": "pending-human-review",
+      "licenseLookupStatus": "pending",
+      "indexable": false,
+      "humanityNarrative": {
+        "heading": "Writing, teaching and relationship patterns",
+        "text": "Kathleen Smith’s biography describes writing a therapy newsletter as one of her favorite parts of the work week. It also describes talking with friends about relationships in television shows and teaching family-systems ideas to clinicians and other professional groups. The profile keeps these documented writing, interest and teaching details separate from claims about treatment results.",
+        "sourceIds": [
+          "smith-about"
+        ]
+      },
+      "practicalAccess": {
+        "heading": "Therapy access and separate services",
+        "text": "Her therapy page lists an office at 1900 L Street NW, Washington, DC, and says she also sees clients virtually. She says she does not accept insurance directly but can provide documentation for possible out-of-network reimbursement for DC residents or people seen in DC; reimbursement is not guaranteed. The site separately describes virtual Bowen Theory coaching/consulting for people worldwide. That coaching geography does not establish therapy eligibility outside DC. Current therapy-location eligibility, capacity, fees and age eligibility are not established.",
+        "sourceIds": [
+          "smith-therapy"
+        ]
+      },
+      "sources": [
+        {
+          "id": "smith-about",
+          "url": "https://kathleensmithwrites.com/therapist-and-author/",
+          "label": "Meet Kathleen",
+          "title": "Meet Kathleen",
+          "publisher": "Kathleen Smith",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "smith-therapy",
+          "url": "https://kathleensmithwrites.com/therapy/",
+          "label": "Therapy, Coaching & Consulting",
+          "title": "Therapy, Coaching & Consulting",
+          "publisher": "Kathleen Smith",
+          "sourceType": "official-practice-page",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "portrait": {
+        "sourcePage": "https://kathleensmithwrites.com/therapy/",
+        "sourceAsset": "https://kathleensmithwrites.com/wp-content/uploads/2023/11/Author-and-Therapist-Kathleen-Smith_BW-scaled.jpg",
+        "currentSource": {
+          "format": "JPEG",
+          "width": 1707,
+          "height": 2560,
+          "bytes": 490827,
+          "sha256": "4b2c6cf27dc38ddacbd366755dcebd802aa757bf30503c004e9c4eea8b830197",
+          "packetHashMatched": true,
+          "httpStatus": 200,
+          "setCookieHeader": false
+        },
+        "localDelivery": {
+          "url": "/images/providers/kathleensmith-source-preview.webp",
+          "format": "WebP",
+          "width": 427,
+          "height": 640,
+          "bytes": 25468,
+          "sha256": "868f26cc0fd1c6a147de3d218110fbeaa110e4e35dc977da79e33dd217009f2a",
+          "method": "Proportional resize to a 640-pixel maximum dimension; no crop."
+        },
+        "visualInspection": "Exact image linked from current official therapy page; clear individual full-face black-and-white portrait. Source and local resized delivery both visually inspected.",
+        "reuseTerms": "Unknown; modest source-linked local preview only, no ownership or derivative-card approval.",
+        "repositoryPath": "client/public/images/providers/kathleensmith-source-preview.webp"
+      }
+    }
+  ],
+  "notAdmittedFromPreparedQueue": [
+    {
+      "name": "Holly S. Andersen",
+      "reason": "The existing Manhattan selection rule requires a named Manhattan service location; this research did not establish one. The portrait is low resolution and was not upscaled."
+    },
+    {
+      "name": "Tara Narula",
+      "reason": "Northwell name/location reconciliation remains unresolved; the full access pages returned 403, so directory fit and access were not inferred."
+    },
+    {
+      "name": "Andrea Bonior",
+      "reason": "Bethesda physical practice with source-stated DC telehealth does not establish fit under the current DC directory scope; no remote-geography exception was invented."
+    }
+  ],
+  "checks": {
+    "allRecordAndPreservation": {
+      "command": "npm run validate-data",
+      "result": "passed",
+      "providers": 103,
+      "directories": 13,
+      "portraitInventoryEntries": 89,
+      "qualifyingUniqueIds": 74,
+      "fixedBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894"
+    },
+    "typeCheck": {
+      "command": "npm run check",
+      "result": "passed"
+    },
+    "build": {
+      "command": "npm run build",
+      "result": "passed",
+      "caveat": "Existing nonblocking Browserslist, PostCSS and chunk-size warnings."
+    },
+    "httpApi": {
+      "command": "npm run test:http",
+      "result": "109/109 passed",
+      "failures": 0,
+      "skipped": 0
+    },
+    "contract": {
+      "command": "npm run test:contract",
+      "result": "81/81 passed",
+      "failures": 0,
+      "skipped": 0
+    },
+    "targetedBrowser": [
+      {
+        "command": "HUMANITY_IDS=fc324301-6429-4791-9abb-2acf8817ec2d,737d2e5e-ec5c-4c6f-be98-2625c349e0a9 npx playwright test tests/humanity-patient-ready.spec.ts",
+        "result": "3/3 passed",
+        "scope": "desktop and touch-mobile narrative, citations, local image decoding and initial privacy checks; Murphy touch activation included"
+      },
+      {
+        "command": "HUMANITY_IDS=737d2e5e-ec5c-4c6f-be98-2625c349e0a9 npx playwright test tests/humanity-patient-ready.spec.ts --grep 'touch activation'",
+        "result": "1/1 passed",
+        "scope": "actual touch activation for Smith; exact outbound URL and no adjacent disclosure toggle"
+      },
+      {
+        "command": "npx playwright test tests/browser.spec.ts --grep 'Washington DC cards keep photo notes concise|DC narrative-only cards suppress legacy fields'",
+        "result": "2/2 passed",
+        "scope": "affected desktop/mobile directory cards and narrative-only presentation"
+      }
+    ],
+    "visualInspection": {
+      "result": "passed",
+      "screenshots": 4,
+      "scope": "both profile pages on desktop and mobile; full-face proportional portraits, stories, access details and source links"
+    },
+    "initialPrivacy": {
+      "result": "passed",
+      "scope": "no third-party requests or cookies before explicit interaction"
+    }
+  },
+  "limitations": [
+    "The complete unrelated browser suite was not rerun.",
+    "Touch activation verified the exact outbound URL/request after a tap, not successful external page-body loading.",
+    "No real screen-reader audit or real Safari/iPhone/iPad test was performed.",
+    "No independent clinical/licensing verification, human review, load/performance trial or deployment is claimed.",
+    "Reuse terms remain unknown; local files are modest source-linked previews, not ownership, blanket reuse or derivative-card approval."
+  ],
+  "provenanceNote": "Murphy’s exact official image URL returned a 1186×1327 WebP in the earlier packet and PNG bytes on the fresh October 15 request. Both hashes are retained in this result and the detailed research note; why the response differed is unknown."
+}
