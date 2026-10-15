@@ -2,9 +2,9 @@
 
 **Goal: 100 unique provider IDs. Not yet reached. No deployment authorized.**
 
-## Latest checked continuation: 65 → 66
+## Prior checked continuation: 65 → 66
 
-Current qualifying intersection: **66 stable unique provider IDs; 34 remain**.
+At that checkpoint, the qualifying intersection was **66 stable unique provider IDs; 34 remained**.
 App main: `86bb5839462d1995ecd2fa257a6151be9882cec9`. Inventory: 95 provider
 records and 81 independently maintained local portrait deliveries.
 Michael Waul adds one source-backed education/community narrative with an
