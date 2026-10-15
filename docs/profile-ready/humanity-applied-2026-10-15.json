@@ -1,0 +1,20 @@
+{
+  "checkedOn":"2026-10-15",
+  "fixedAppBaseline":"0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "sourcePreparationRevision":"8aa83158ab0c01bbdac0a0577bb64d1cbd6ef4bd",
+  "startingPatientReady":44,
+  "currentPatientReady":54,
+  "target":100,
+  "uniqueProviders":94,
+  "independentPortraitDeliveries":72,
+  "meaning":"AI source/content completeness, not human approval or independent clinical verification. No indexing, review or hold promotion.",
+  "enrichedIds":["0fa2606b-df6d-4b94-9064-2bd44ff8637d","21121cf7-7c35-41ae-9a5b-8e625d731e6f","acc3abad-695f-4f2d-92fc-aede8a29b9fe","ed4cf1f5-d064-4123-b51f-6807ce96ba36","b77b6cde-e1c4-4ab6-966e-f5090f4ed8f7","fae79931-bb0b-4c96-b8cd-77cd19b112d7"],
+  "newId":"75659ed7-d64b-40ee-b686-f131620a48e2",
+  "newPath":"deborahekstrom",
+  "reconciledNarrativePresentationIds":["6ed71c37-a467-489d-9cd2-a0a94ea330d7","74cfebb6-b3b4-45ef-a0df-1ace4c96f47a","b44ffdb2-7e23-4ce6-91cc-5a661909748c"],
+  "newPortrait":{"id":"75659ed7-d64b-40ee-b686-f131620a48e2","sourcePage":"https://orangecountyplasticsurgery.com/","exactAsset":"https://17184ca6.delivery.rocketcdn.me/wp-content/uploads/2025/12/ekstrom-min.jpg","localAsset":"/images/providers/deborahekstrom-source-preview.jpg","width":634,"height":686,"sha256":"4cd7b8be1089b5efd845788de11c4c6c3e537fd7569d0e6e4fe991186e442128","visualInspection":"2026-10-15: single full-face portrait associated directly with named official practice biography; original JPEG retained.","nativeResponse":"HTTP 200; no Set-Cookie header observed for that response, not a host-wide guarantee.","terms":"Unknown; ordinary modest source-linked preview only, no ownership, blanket license or derivative approval."},
+  "held":{"toryTwito":"New Florida source needs identity/geography reconciliation; retained La Jolla facts and existing local preview remain.","nickInfantino":"Opened official source chiefly supplies credentials, languages and marketing/testimonials; insufficient distinctive humanity evidence.","michaelFirst":"Education-only candidate is not counted as humanity; legitimate record, portrait and states preserved.","otherHolds":"All existing Obeng, Norfolk, credential/identity and other editorial holds remain. No licensing outcome or roster failure was cleared by portrait work."},
+  "validation":{"nativePatientRoutes":54,"viewports":["desktop","touch-enabled mobile"],"initialThirdPartyRequests":0,"initialCookies":0,"interceptedImages":false,"contractTests":67,"httpTests":108,"newAssessmentCitationTests":5,"allRecordIntegrity":true,"independentAssetIntegrity":true,"fixedBaselineImportGuard":true,"typeCheck":true,"build":true,"fullBrowserSuite":"Unchanged broader evidence retained, not rerun or relabeled. Final release checks await a complete milestone candidate.","screenReader":"No new real screen-reader audit claimed."},
+  "remaining":"46 more genuinely qualifying profiles are needed. Unassessed or unqualified records are not erased content. Additional evidence/portrait work and eligible new identities remain within the authorized milestone; this packet does not lower standards or declare 100 impossible.",
+  "deployment":"Not authorized; not performed."
+}
