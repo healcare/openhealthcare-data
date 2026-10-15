@@ -1,0 +1,49 @@
+{
+  "preparedOn":"2026-10-15",
+  "batchBaseline":"ce90ccebe9cd68e3dc866f12a899c73c134ec462",
+  "fixedBaseline":"0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "status":"source-prepared-before-import",
+  "scope":"Three existing identities. No new clinical claims, credentials, review/indexing promotion, routes or availability promises. Preserve original sources/sections and independent media expectations. Humanity is source-backed content, not human or clinical approval.",
+  "profiles":[
+    {
+      "id":"e898c6dd-92f8-49e2-87bb-68a0689b8fe8","name":"Michael B. First","directory":"manhattan-mental-health","canonicalPath":"michael-b-first",
+      "sourceId":"first-journey-2026-10-15","sourcePage":"https://www.columbiapsychiatry.org/profile/michael-b-first-md","sourceTitle":"Michael B First, MD — Overview","publisher":"Columbia University Department of Psychiatry",
+      "sectionId":"humanity-journey-2026-10-15","heading":"Across disciplines, with a mentor",
+      "narrative":"Michael B. First's Columbia biography follows a route from electrical engineering and computer science into medicine and psychiatry. It names Robert Spitzer as his mentor during a biometrics research fellowship. That path gives context to the biography's description of his work on diagnostic questions and structured assessment tools, alongside a Manhattan practice.",
+      "claimMap":[
+        {"claim":"Michael B. First's Columbia biography follows a route from electrical engineering and computer science into medicine and psychiatry.","excerpt":"Dr. First got his undergraduate degree in Electrical Engineering and Computer Science from Princeton University, received a Masters in Computer Science and a Medical Degree from the University of Pittsburgh, did his psychiatry residency at Columbia University"},
+        {"claim":"It names Robert Spitzer as his mentor during a biometrics research fellowship.","excerpt":"did a fellowship in Biometrics Research under the direction of his mentor, Dr. Robert Spitzer."},
+        {"claim":"That path gives context to the biography's description of his work on diagnostic questions and structured assessment tools, alongside a Manhattan practice.","excerpt":"maintains a schematherapy and psychopharmacology practice in Manhattan [...] My research focuses on diagnostic and assessment issues in psychiatry. This includes [...] the development of structured diagnostic assessment tools."}
+      ],
+      "media":{"disposition":"retain-existing-inspected-local-preview","imageUrl":"/images/providers/michaelbfirst-source-preview.png","inventory":"data/patient-ready-portraits.json","newApproval":false},
+      "access":"Existing new-patient listing is source-stated, not capacity. Retain fee, insurance, age and telehealth unknowns."
+    },
+    {
+      "id":"4a98055c-0b28-482a-b904-7b46c3875d8b","name":"Jamielynn Hanam-Jahr","directory":"beverly-hills-cosmetic-dentists","canonicalPath":"jamielynnhanamjahr",
+      "sourceId":"hanamjahr-journey-2026-10-15","sourcePage":"https://mybeverlyhillsdentist.com/about-us/meet-dr-hanam-jahr/","sourceTitle":"Meet Dr. Jamielynn Hanam-Jahr","publisher":"Beverly Hills Aesthetic Dentistry",
+      "sectionId":"humanity-journey-2026-10-15","heading":"From intensive care to dentistry",
+      "narrative":"Jamielynn Hanam-Jahr's practice biography begins her career story in a steel town outside Pittsburgh, before nursing work in surgical and trauma intensive care. It traces her move into dentistry through New Orleans and later California. The same account describes Give Back A Smile volunteer work, and interests in cooking, music, piano, learning guitar and photography. These are the practice's descriptions of her journey and life outside work, not independently checked credentials or a promise about care.",
+      "claimMap":[
+        {"claim":"Jamielynn Hanam-Jahr's practice biography begins her career story in a steel town outside Pittsburgh, before nursing work in surgical and trauma intensive care.","excerpt":"She grew up in a steel town outside of Pittsburgh [...] she served as both staff nurse and charge nurse in several surgical and trauma intensive care units"},
+        {"claim":"It traces her move into dentistry through New Orleans and later California.","excerpt":"worked as an associate dentist in private practice in New Orleans for one year. After relocating to California, she worked as a civilian consultant dentist at McClellan Air Force Base"},
+        {"claim":"The same account describes Give Back A Smile volunteer work, and interests in cooking, music, piano, learning guitar and photography.","excerpt":"She has been a Give Back A Smile volunteer [...] Her leisure interests include cooking, music, playing piano, and learning guitar and photography."}
+      ],
+      "media":{"disposition":"prepare-new-local-preview","sourceAsset":"https://mybeverlyhillsdentist.com/wp-content/uploads/2024/09/20240715_095438-scaled-1.webp","sourceWidth":1871,"sourceHeight":2560,"inspectedOn":"2026-10-15","inspection":"Single full-face person associated with named biography/og:image, name-bearing coat and practice sign; retain entire frame without cropping.","deliveryPath":"/images/providers/jamielynnhanamjahr-source-preview.webp","reuseTerms":"Unknown; ordinary modest source-linked preview only, no ownership, blanket license or derivative-card approval.","historicalBoundary":"2026-10-01 remote-cookie observation remains true as a dated observation. Local preview makes no source request; it is not a source-cookie workaround or assurance that the external site is cookie-free."},
+      "access":"Retain existing practice/contact evidence and unknown appointment capacity, fees, referrals and insurer/product participation; do not restore removed awards or credential suffixes."
+    },
+    {
+      "id":"a8373cb6-63a1-4684-83ee-8e01f5649a31","name":"Tasheka Cox","directory":"psychotherapists-washington-dc","canonicalPath":"tashekacox",
+      "sourceId":"cox-journey-2026-10-15","sourcePage":"https://mindovermoodhealing.com/meet-dr-cox","sourceTitle":"Meet Dr. Cox — My Philosophy and A Little About My Story","publisher":"Mind Over Mood Healing",
+      "sectionId":"humanity-journey-2026-10-15","heading":"The experience behind her approach",
+      "narrative":"On her named biography, Tasheka Cox connects her professional work with her own experience of learning to understand the protective patterns behind achievement and independence. She describes this realization as a foundation of her professional work. Her stated approach asks what a pattern once protected and focuses on noticing it before intentionally choosing a response. This is Cox's account of her motivation and approach, not evidence that therapy will produce a particular outcome.",
+      "claimMap":[
+        {"claim":"On her named biography, Tasheka Cox connects her professional work with her own experience of learning to understand the protective patterns behind achievement and independence.","excerpt":"The more I achieved, the more I felt secure. Independence helped me feel protected. [...] My healing journey taught me that I did not need to reject the high achieving woman I had become. I needed to understand her"},
+        {"claim":"She describes this realization as a foundation of her professional work.","excerpt":"That realization became deeply personal and eventually, it became the foundation of my professional work."},
+        {"claim":"Her stated approach asks what a pattern once protected and focuses on noticing it before intentionally choosing a response.","excerpt":"exploring the protective purpose beneath the pattern [...] we want to notice when they are present and intentionally choose how to respond instead of automatically reacting."}
+      ],
+      "media":{"disposition":"prepare-new-local-preview","sourceAsset":"https://img1.wsimg.com/isteam/ip/57f94dfd-d63d-4ab3-858d-eee127d6dd6a/IMG_3173.PNG/:/cr=t:0%25,l:25.01%25,w:49.99%25,h:100%25/rs=w:600,h:800,cg:true","sourceWidth":599,"sourceHeight":800,"inspectedOn":"2026-10-15","inspection":"Single full-face seated person directly under Meet Dr. Cox; decoded JPEG despite PNG in source asset name. Preserve received framing; no guessed asset or crop alteration.","deliveryPath":"/images/providers/tashekacox-source-preview.webp","reuseTerms":"Unknown; ordinary source-linked preview, not ownership or derivative-card permission."},
+      "access":"Existing phone/contact, credential and availability cautions remain. The practice's state/accepting-client banner does not independently establish license, telehealth jurisdiction or capacity."
+    }
+  ],
+  "pendingExternalHandoffs":{"received":false,"gemini":["Shannon Schaubach","Tiffany Bufort-Odom","Maria Capetanakis","Gretchen Gainor"],"copilot":["Aileen Chang — UCSF","Michael A. Bain — Newport Beach"],"notes":"Retain exact prompts in separate research notes. No assertion of contact or received evidence."}
+}
