@@ -1,0 +1,618 @@
+{
+  "packetVersion": 1,
+  "preparedOn": "2026-10-15",
+  "purpose": "Proactive humanity research for continuation toward 100; clean bounded candidate copy and evidence mapping, not applied data or automatic importer input.",
+  "applicationReadSnapshot": "14aa5b9346cbc750e477dd81ca9bf54d2f106d1a",
+  "observedSnapshot": {
+    "providerRecords": 95,
+    "acceptedNarrativeIds": 63,
+    "unacceptedRecords": 32
+  },
+  "currentRuntimeState": "Not observed. Replit may have newer uncommitted or committed work; reconcile stable IDs and current accepted cohort before import.",
+  "countEffect": "None until actual profile assessment, delivery and checks complete. Candidates are not accepted profiles.",
+  "rules": [
+    "Preserve source-stated versus independently verified distinctions; no clinical, license, review, indexing or hold promotion.",
+    "Preserve all existing identities, canonicals, aliases, membership, complete narratives, citations and approved portrait delivery.",
+    "Existing portrait-use holds require their actual scoped disposition; a new source host does not clear a hold.",
+    "New records require clean available name-based route suggestions, identity/collision checks, source-mapped claims and existing pending-review/nonindexable treatment.",
+    "Education-only drafts need appropriate resource placement; do not imply local clinical access or invent a new directory just to count them.",
+    "Modest local source-linked previews only, unknown reuse terms, no derivative approval. No initial remote requests or cookies.",
+    "Retain historical failed asset evidence separately from new successful observations. No CAPTCHA or security bypass.",
+    "No deployment."
+  ],
+  "candidates": [
+    {
+      "key": "michael-waul",
+      "name": "Michael Waul",
+      "existingProviderId": "76d7b7bd-6cd6-4ae1-8bdb-a23020410bc3",
+      "scope": "existing san-francisco-dermatologists record",
+      "priority": 1,
+      "sources": [
+        {
+          "id": "waul-humanity-2026-10-15",
+          "url": "https://dermatology.ucsf.edu/about-us/our-team/michael-waul-md",
+          "publisher": "UCSF Department of Dermatology",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "official-page-opened",
+          "verificationStatus": "source-stated",
+          "supportingExcerpt": "My academic work improves the experiences and elevates the voices of underrepresented people in medicine"
+        }
+      ],
+      "narrative": "Michael Waul's UCSF biography describes a commitment to supporting people who have been underrepresented in medicine. His work includes advising medical students, supporting trainee wellbeing and developing educational materials that represent a wider range of skin colors. He also describes using restorative justice to build community and address burnout among minority trainees.",
+      "claimMap": [
+        {
+          "claim": "Medical-student advising and trainee wellbeing are part of his described work.",
+          "sourceIds": [
+            "waul-humanity-2026-10-15"
+          ]
+        },
+        {
+          "claim": "Inclusive Skin Color and restorative-justice projects are specifically named in his account.",
+          "sourceIds": [
+            "waul-humanity-2026-10-15"
+          ]
+        }
+      ],
+      "media": {
+        "candidateStatus": "visually-inspected-source-preview-candidate",
+        "assetUrl": "https://dermatology.ucsf.edu/sites/dermatology.ucsf.edu/files/styles/max_fp_650x650/public/2023-10/Michael_Waul.jpeg.webp?h=a16a0739&itok=OzJkqWXN",
+        "originalWidth": 650,
+        "originalHeight": 650,
+        "format": "WEBP",
+        "sha256": "eed4d91d39945066002fb42a443006691a92faf7031c6f5fd934cc8313eb6404",
+        "visualObservation": "Clear individual headshot outdoors; full face visible.",
+        "sourceAssociation": "Named departmental biography, img alt Michael Waul.",
+        "retrieval": "Ordinary exact-asset download; Pillow decode; actual visual inspection. AVIF converted to PNG only for inspection where necessary.",
+        "terms": "not established",
+        "derivativeApproval": false
+      },
+      "access": "Retain current record access fields. This academic source does not establish capacity, coverage, prices or referral rules.",
+      "limitations": [
+        "Projects' aims are source-stated; do not claim demonstrated patient-outcome improvements."
+      ]
+    },
+    {
+      "key": "kevin-sadati",
+      "name": "Kevin Sadati",
+      "existingProviderId": "9cb1abfe-e004-4693-9541-1e01867c2082",
+      "scope": "existing plastic-surgeons-orange-county record",
+      "priority": 1,
+      "sources": [
+        {
+          "id": "sadati-humanity-2026-10-15",
+          "url": "https://galleryofcosmeticsurgery.com/teams/dr-kevin-sadati/",
+          "publisher": "Gallery of Cosmetic Surgery",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "official-page-opened",
+          "verificationStatus": "source-stated",
+          "supportingExcerpt": "While training as a surgeon by day, he enrolled in art school to study oil painting in his spare time."
+        }
+      ],
+      "narrative": "Kevin Sadati's practice biography connects his medical career with a longstanding interest in art. During surgical training in Philadelphia, he also studied painting and sculpture in evening classes. The account describes artistic composition as part of how he thinks about facial form, alongside an interest in sharing his work with other surgeons.",
+      "claimMap": [
+        {
+          "claim": "His biography describes evening painting and sculpture study during residency.",
+          "sourceIds": [
+            "sadati-humanity-2026-10-15"
+          ]
+        },
+        {
+          "claim": "His account connects art and medicine and describes teaching surgeons.",
+          "sourceIds": [
+            "sadati-humanity-2026-10-15"
+          ]
+        }
+      ],
+      "media": {
+        "candidateStatus": "retain-existing-inspected-local-preview",
+        "localPath": "/images/providers/kevinsadati-source-preview.jpg",
+        "sourcePage": "https://galleryofcosmeticsurgery.com/teams/dr-kevin-sadati/",
+        "evidence": "Existing stored media review records a 430×430 source image visually inspected on 2026-10-14. No new visual inspection or replacement of those local bytes is claimed here."
+      },
+      "access": "Preserve degree/certification cautions and existing contact/access fields.",
+      "limitations": [
+        "Existing story already covers this subject: prefer assessment and citation reconciliation over unnecessary rewriting.",
+        "Keep DO as currently stored; do not adopt broad MD/board-certified marketing as independent verification.",
+        "Fresh expanded biography contains wartime and immigration anecdotes, but they are not required for this bounded candidate."
+      ]
+    },
+    {
+      "key": "nancy-hyatt",
+      "name": "Nancy Hyatt",
+      "existingProviderId": "4a21c081-fbba-4331-9455-fb4d9995a84f",
+      "scope": "existing psychotherapists-washington-dc record",
+      "priority": 2,
+      "sources": [
+        {
+          "id": "hyatt-humanity-2026-10-15",
+          "url": "https://www.nancyhyatt.com/",
+          "publisher": "Nancy Hyatt practice",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "official-page-opened",
+          "verificationStatus": "source-stated",
+          "supportingExcerpt": "the greatest source of my learning, humility and growth"
+        }
+      ],
+      "narrative": "Nancy Hyatt's own account places personal learning alongside professional training. She describes marriage and parenting as continuing sources of humility and growth, and connects her work with longstanding interests in relationships. Her biography also describes leadership education beyond her psychotherapy practice.",
+      "claimMap": [
+        {
+          "claim": "She describes family life as a source of learning and growth.",
+          "sourceIds": [
+            "hyatt-humanity-2026-10-15"
+          ]
+        },
+        {
+          "claim": "She describes work with Mobius Executive Leadership.",
+          "sourceIds": [
+            "hyatt-humanity-2026-10-15"
+          ]
+        }
+      ],
+      "media": {
+        "candidateStatus": "retain-existing-inspected-local-preview",
+        "localPath": "/images/providers/nancyhyatt-source-preview.jpg",
+        "sourcePage": "https://www.nancyhyatt.com/",
+        "evidence": "Existing delivered source-linked preview retained; no new visual inspection of local bytes is claimed."
+      },
+      "access": "Existing credential-label and contact conflicts remain unresolved. Do not choose a phone, publish the questionable street address or promote license status.",
+      "limitations": [
+        "No therapeutic-efficacy claim from the website is adopted.",
+        "Assess eligibility under existing holds independently; a supported anecdote does not resolve credential conflicts."
+      ]
+    },
+    {
+      "key": "sanjay-grover",
+      "name": "Sanjay Grover",
+      "existingProviderId": "91038e32-1b62-462c-8e6d-6b139363cc94",
+      "scope": "existing plastic-surgeons-orange-county record",
+      "priority": 2,
+      "sources": [
+        {
+          "id": "grover-humanity-2026-10-15",
+          "url": "https://www.drgrover.com/our-practice/dr-grover/",
+          "publisher": "Grover Aesthetics",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "official-page-opened",
+          "verificationStatus": "source-stated",
+          "supportingExcerpt": "their puppy, Bijoux"
+        }
+      ],
+      "narrative": "Sanjay Grover's biography traces a career through California and an additional training period in Atlanta. Alongside that professional account, the practice includes a glimpse of family life, describing his wife, three children and their puppy, Bijoux.",
+      "claimMap": [
+        {
+          "claim": "The biography includes family life and a puppy named Bijoux.",
+          "sourceIds": [
+            "grover-humanity-2026-10-15"
+          ]
+        }
+      ],
+      "media": {
+        "candidateStatus": "visually-inspected-source-preview-candidate",
+        "assetUrl": "https://www.drgrover.com/assets/img/banners/dr-grover.jpg",
+        "originalWidth": 2000,
+        "originalHeight": 1600,
+        "format": "JPEG",
+        "sha256": "87331d67e55f614e0369998cc1ba3d26cb5d4ff7c9241ba48fcf2c98169ca7c6",
+        "visualObservation": "Single man in white coat facing camera; name on coat; photographed in clinic corridor with awards on walls. Actual ordinary photograph, not a magazine-cover graphic.",
+        "sourceAssociation": "Exact background URL in named biography HTML/CSS; body class dr-grover. Independently inspect rendered use before importing.",
+        "retrieval": "Ordinary exact-asset download; Pillow decode; actual visual inspection. AVIF converted to PNG only for inspection where necessary.",
+        "terms": "not established",
+        "derivativeApproval": false
+      },
+      "access": "Preserve existing professional-leadership timing conflict. Family details are undated biography statements, not verified current household/location information.",
+      "limitations": [
+        "Do not import award claims from photo background or marketing text.",
+        "A second suit portrait was decoded from a CSS-declared asset, but its current rendered use was not established; it is not the preferred candidate.",
+        "Narrative is modest; assess actual humanity quality rather than accepting solely for its length."
+      ]
+    },
+    {
+      "key": "chirag-patel",
+      "name": "Chirag Patel",
+      "existingProviderId": "116186fd-1a14-4e32-9e12-8d8e7497ec4e",
+      "scope": "existing beverly-hills-cosmetic-dentists record",
+      "priority": 3,
+      "sources": [
+        {
+          "id": "patel-humanity-2026-10-15",
+          "url": "https://www.smilesbydrp.com/our-doctors/chirag-patel.html",
+          "publisher": "Smiles by Dr. P",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "official-page-opened",
+          "verificationStatus": "source-stated",
+          "supportingExcerpt": "I grew up surrounded by aesthetics, fashion and perfection."
+        }
+      ],
+      "narrative": "In his first-person biography, Chirag Patel links his interest in dental aesthetics with growing up around fashion and visual design. He describes tailoring plans to individual patients and organizing the practice around one smile-makeover case in a day.",
+      "claimMap": [
+        {
+          "claim": "He connects his interest in aesthetics to his upbringing.",
+          "sourceIds": [
+            "patel-humanity-2026-10-15"
+          ]
+        },
+        {
+          "claim": "The page describes concentrating on one smile-makeover case per day.",
+          "sourceIds": [
+            "patel-humanity-2026-10-15"
+          ]
+        }
+      ],
+      "media": {
+        "candidateStatus": "primary-portrait-gap-context-images-only",
+        "sourcePage": "https://www.smilesbydrp.com/our-doctors/chirag-patel.html",
+        "assetUrl": "https://static.royacdn.com/Site-f52920ff-3a34-4017-a4d8-99b17817c227/InnerteamPage/img_2.png",
+        "format": "PNG",
+        "originalWidth": 960,
+        "originalHeight": 704,
+        "sha256": "99f7c31cad6bcac69140933eb5ccbc1feda52359f46368eab61239ac937a24b3",
+        "visualObservation": "Black-and-white work scene with man studying dental articulator, face turned sideways. Page names clinician but img alt is empty. Context candidate, not a newly approved clear front-facing portrait.",
+        "otherInspected": "img_1.png is a phone graphic; img_3.png is a two-scene work collage. Neither is a suitable primary portrait.",
+        "retrieval": "Normal exact-asset download succeeded; earlier blocked-by-client browser result is preserved as separate historical evidence."
+      },
+      "access": "Preserve existing certification, language and phone discrepancies; no number selected and no board status promoted.",
+      "limitations": [
+        "No primary portrait approval or milestone addition from this research."
+      ]
+    },
+    {
+      "key": "nina-botto",
+      "name": "Nina Botto",
+      "existingProviderId": null,
+      "scope": "proposed new san-francisco-dermatologists record",
+      "priority": 1,
+      "sources": [
+        {
+          "id": "botto-humanity-2026-10-15",
+          "url": "https://www.ucsfhealth.org/providers/nina-botto",
+          "publisher": "UCSF Health",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "official-page-opened",
+          "verificationStatus": "source-stated",
+          "supportingExcerpt": "Dermatitis researcher and karaoke enthusiast"
+        }
+      ],
+      "narrative": "Nina Botto's UCSF biography describes work on the human side of health care as well as skin disease. She has helped lead efforts to improve patients' experiences and participates in a UCSF group focused on communication among care teams. Outside that professional account, the profile shares a lighter interest: karaoke.",
+      "claimMap": [
+        {
+          "claim": "The biography describes departmental patient-experience work and participation in a communication-focused center.",
+          "sourceIds": [
+            "botto-humanity-2026-10-15"
+          ]
+        },
+        {
+          "claim": "UCSF lists karaoke as an interest.",
+          "sourceIds": [
+            "botto-humanity-2026-10-15"
+          ]
+        }
+      ],
+      "media": {
+        "candidateStatus": "visually-inspected-source-preview-candidate",
+        "assetUrl": "https://providers.ucsfhealth.org/sparkle-assets/images/botto-nina-1528299716-55e623b31288d8638852f2cfc381f797.jpg",
+        "originalWidth": 640,
+        "originalHeight": 640,
+        "format": "JPEG",
+        "sha256": "a8557469c1771d1f2850308fa92b4fbce2bd5f4cf417b5e3294a0f5c5f6e6a2e",
+        "visualObservation": "Clear individual headshot, full face visible, light hair, blue top.",
+        "sourceAssociation": "Exact image linked from named UCSF Health page as Portrait of Nina Botto.",
+        "retrieval": "Ordinary exact-asset download; Pillow decode; actual visual inspection. AVIF converted to PNG only for inspection where necessary.",
+        "terms": "not established",
+        "derivativeApproval": false
+      },
+      "access": "Source lists Dermatology Mount Zion, 1701 Divisadero Street, San Francisco CA 94115; clinic phone 415-353-7800 and telehealth. These are publisher-stated routing details, not confirmed capacity, eligibility or coverage. Use source profile as intake link; no booking submission tested.",
+      "limitations": [
+        "Source-stated specialty/degree only; independent license, board, current availability and plan participation not verified.",
+        "Do not import star ratings, testimonials or efficacy claims."
+      ]
+    },
+    {
+      "key": "lindy-fox",
+      "name": "Lindy P. Fox",
+      "existingProviderId": null,
+      "scope": "proposed new san-francisco-dermatologists record",
+      "priority": 1,
+      "sources": [
+        {
+          "id": "fox-humanity-2026-10-15",
+          "url": "https://www.ucsfhealth.org/providers/lindy-fox",
+          "publisher": "UCSF Health",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "official-page-opened",
+          "verificationStatus": "source-stated",
+          "supportingExcerpt": "Hula-Hoop dancer, jigsaw puzzle lover"
+        }
+      ],
+      "narrative": "Lindy Fox's UCSF profile describes an interest in the care people receive for skin conditions while hospitalized, including continuity between stages of care. It also shares two interests outside her professional work: Hula-Hoop dancing and jigsaw puzzles.",
+      "claimMap": [
+        {
+          "claim": "Her research addresses hospital dermatology and continuity of care.",
+          "sourceIds": [
+            "fox-humanity-2026-10-15"
+          ]
+        },
+        {
+          "claim": "The profile lists Hula-Hoop dancing and jigsaw puzzles.",
+          "sourceIds": [
+            "fox-humanity-2026-10-15"
+          ]
+        }
+      ],
+      "media": {
+        "candidateStatus": "visually-inspected-source-preview-candidate",
+        "assetUrl": "https://providers.ucsfhealth.org/sparkle-assets/images/fox-lindy-1790738953-63985f53ff9563cbb812251fea108748.jpg",
+        "originalWidth": 640,
+        "originalHeight": 640,
+        "format": "JPEG",
+        "sha256": "9b07e3ad1dbd363a8e292df2a3a5cbf3b1e2f8e7aa2161b7b981034b6ac67952",
+        "visualObservation": "Clear individual headshot, full face visible, dark jacket.",
+        "sourceAssociation": "Exact linked portrait on named UCSF Health profile.",
+        "retrieval": "Ordinary exact-asset download; Pillow decode; actual visual inspection. AVIF converted to PNG only for inspection where necessary.",
+        "terms": "not established",
+        "derivativeApproval": false
+      },
+      "access": "Source lists Dermatology Mount Zion, 1701 Divisadero Street, San Francisco CA 94115; clinic phone 415-353-7800 and telehealth. No capacity, referral requirement, price, age eligibility or plan match established.",
+      "limitations": [
+        "Do not repeat undated society leadership as independently verified current positions.",
+        "New record requires stable identity/path collision checks and pending review/noindex controls."
+      ]
+    },
+    {
+      "key": "anna-haemel",
+      "name": "Anna Haemel",
+      "existingProviderId": null,
+      "scope": "proposed new san-francisco-dermatologists record",
+      "priority": 2,
+      "sources": [
+        {
+          "id": "haemel-humanity-2026-10-15",
+          "url": "https://www.ucsfhealth.org/providers/anna-haemel",
+          "publisher": "UCSF Health",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "official-page-opened",
+          "verificationStatus": "source-stated",
+          "supportingExcerpt": "Simple-yet-delicious food enthusiast and amateur pianist"
+        }
+      ],
+      "narrative": "Anna Haemel's UCSF biography describes caring for people whose skin conditions may accompany illnesses affecting other parts of the body. Beyond medicine, it offers a glimpse of her interests in everyday life: simple, enjoyable food and playing the piano as an amateur.",
+      "claimMap": [
+        {
+          "claim": "Her clinical account includes skin disease with systemic illness.",
+          "sourceIds": [
+            "haemel-humanity-2026-10-15"
+          ]
+        },
+        {
+          "claim": "UCSF lists an interest in food and amateur piano.",
+          "sourceIds": [
+            "haemel-humanity-2026-10-15"
+          ]
+        }
+      ],
+      "media": {
+        "candidateStatus": "visually-inspected-source-preview-candidate",
+        "assetUrl": "https://providers.ucsfhealth.org/sparkle-assets/images/haemel-anna-1962448522-4855cddb2acdcb0f9086151b6e6c259b.jpg",
+        "originalWidth": 640,
+        "originalHeight": 640,
+        "format": "JPEG",
+        "sha256": "0820659a34088d621fea1d1613fe75b9f45f2ecfe6583c2af5c187df5b9fb13f",
+        "visualObservation": "Clear individual headshot with full face visible, dark jacket.",
+        "sourceAssociation": "Exact named portrait linked from UCSF Health profile.",
+        "retrieval": "Ordinary exact-asset download; Pillow decode; actual visual inspection. AVIF converted to PNG only for inspection where necessary.",
+        "terms": "not established",
+        "derivativeApproval": false
+      },
+      "access": "Source lists Dermatology Mount Zion, 1701 Divisadero Street, San Francisco CA 94115; 415-353-7800, telehealth and Spanish. Language is publisher-listed, not independently tested clinical proficiency. Capacity and coverage unknown.",
+      "limitations": [
+        "Do not infer that piano/food interests affect treatment style or outcomes.",
+        "Do not embellish a short documented interest into a fictional life journey."
+      ]
+    },
+    {
+      "key": "jack-resneck",
+      "name": "Jack S. Resneck Jr.",
+      "existingProviderId": null,
+      "scope": "proposed new san-francisco-dermatologists record",
+      "priority": 1,
+      "sources": [
+        {
+          "id": "resneck-humanity-2026-10-15",
+          "url": "https://www.ucsfhealth.org/providers/jack-resneck",
+          "publisher": "UCSF Health",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "official-page-opened",
+          "verificationStatus": "source-stated",
+          "supportingExcerpt": "patient access to care, health care delivery and affordability"
+        }
+      ],
+      "narrative": "Jack Resneck's UCSF biography connects dermatology with a longstanding interest in public policy. Raised in Louisiana, he studied policy before medicine and later pursued health-policy training. His described advocacy focuses on access and affordability, including testimony to Congress and work on ethical protections for people taking part in medical research.",
+      "claimMap": [
+        {
+          "claim": "The profile traces Louisiana roots, public-policy study and later medical and policy training.",
+          "sourceIds": [
+            "resneck-humanity-2026-10-15"
+          ]
+        },
+        {
+          "claim": "His described work includes access, affordability, congressional testimony and research ethics.",
+          "sourceIds": [
+            "resneck-humanity-2026-10-15"
+          ]
+        }
+      ],
+      "media": {
+        "candidateStatus": "visually-inspected-source-preview-candidate",
+        "assetUrl": "https://providers.ucsfhealth.org/sparkle-assets/images/resneck-jack-1760449292-da721a34661b6699b194a715449dadc6.jpg",
+        "originalWidth": 640,
+        "originalHeight": 640,
+        "format": "JPEG",
+        "sha256": "330a2a7de8ae282748c5a7f6638a5db59fc56fdbf3173bb4f4680f79696a143b",
+        "visualObservation": "Clear individual headshot with full face visible, suit and blue tie.",
+        "sourceAssociation": "Exact named portrait linked from UCSF Health profile.",
+        "retrieval": "Ordinary exact-asset download; Pillow decode; actual visual inspection. AVIF converted to PNG only for inspection where necessary.",
+        "terms": "not established",
+        "derivativeApproval": false
+      },
+      "access": "Source lists Dermatology Mount Zion, 1701 Divisadero Street, San Francisco CA 94115; 415-353-7800 and telehealth. Treat as routing only, not availability or coverage confirmation.",
+      "limitations": [
+        "Keep leadership roles attributed and dated; the narrative does not depend on a current title.",
+        "No independent license/board check performed."
+      ]
+    },
+    {
+      "key": "esther-perel",
+      "name": "Esther Perel",
+      "existingProviderId": null,
+      "scope": "existing requested education-profile draft; not automatically a Manhattan clinical listing",
+      "priority": 2,
+      "sources": [
+        {
+          "id": "perel-humanity-2026-10-15",
+          "url": "https://www.estherperel.com/about",
+          "publisher": "Esther Perel",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "official-page-opened",
+          "verificationStatus": "source-stated",
+          "supportingExcerpt": "I enjoy explaining the mysteries of the human condition in simple words."
+        }
+      ],
+      "narrative": "Esther Perel's own biography connects her work with growing up in Antwerp and later studying in Jerusalem and the United States. She describes learning from her family's experiences of displacement and working with couples navigating cultural differences. Her public education continues to explore relationships through writing and conversation.",
+      "claimMap": [
+        {
+          "claim": "Her official account connects cultural transition and family history to her early work.",
+          "sourceIds": [
+            "perel-humanity-2026-10-15"
+          ]
+        },
+        {
+          "claim": "The account traces Antwerp, Jerusalem and graduate study in the United States.",
+          "sourceIds": [
+            "perel-humanity-2026-10-15"
+          ]
+        }
+      ],
+      "media": {
+        "candidateStatus": "visually-inspected-source-preview-candidate",
+        "assetUrl": "https://cdn.prod.website-files.com/68a4ceab2a1eb85b0d214930/68f7113a75270baedb86d45f_e6a9e03f4e6c6117be38de2f2ca16288e86faf7e.avif",
+        "originalWidth": 1984,
+        "originalHeight": 1355,
+        "format": "AVIF",
+        "sha256": "e5e4855f5119c9cdb539f6874635606fdc24fe54f14f61dc2965b6b91d638573",
+        "visualObservation": "Single posed portrait in orange clothing; face visible at an angle; wide composition. Preserve face at modest rendition size; do not substitute the panel/group image.",
+        "sourceAssociation": "Named About page's about-hero__image background rule in its linked first-party stylesheet; matches the previously prepared official portrait candidate.",
+        "retrieval": "Ordinary exact-asset download; Pillow decode; actual visual inspection. AVIF converted to PNG only for inspection where necessary.",
+        "terms": "not established",
+        "derivativeApproval": false
+      },
+      "access": "Education-only proposal. Current Manhattan intake, capacity, fees, insurance and telehealth eligibility not established. Unknown is not closed. Do not turn speaking/podcast forms into therapy intake.",
+      "limitations": [
+        "Reconcile docs/profile-ready/esther-perel-2026-10-11.md rather than duplicate its profile or re-research its established episode.",
+        "Another image labeled esther portrait actually shows a panel discussion; treat it as contextual, not primary."
+      ]
+    },
+    {
+      "key": "laura-markham",
+      "name": "Laura Markham",
+      "existingProviderId": null,
+      "scope": "proposed education-focused continuation of original seven mental-health leads; no Manhattan care claim",
+      "priority": 2,
+      "sources": [
+        {
+          "id": "markham-humanity-2026-10-15",
+          "url": "https://www.peacefulparenthappykids.com/about",
+          "publisher": "Peaceful Parent Happy Kids",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "official-page-opened",
+          "verificationStatus": "source-stated",
+          "supportingExcerpt": "she’s also a mom"
+        }
+      ],
+      "narrative": "Laura Markham's official biography brings together her psychology background and experience as a parent. Her public teaching focuses on how adults respond during difficult family moments, emphasizing their own emotional regulation and connection with children. Books, articles and parenting resources are the main routes to her work presented on the site.",
+      "claimMap": [
+        {
+          "claim": "Her official biography relates parenting experience to public teaching.",
+          "sourceIds": [
+            "markham-humanity-2026-10-15"
+          ]
+        },
+        {
+          "claim": "The site presents calm, connection and coaching as its framework.",
+          "sourceIds": [
+            "markham-humanity-2026-10-15"
+          ]
+        }
+      ],
+      "media": {
+        "candidateStatus": "visually-inspected-source-preview-candidate",
+        "assetUrl": "https://files.us-siteglide.com/instances/83/assets/images/2025-redesign/041-Markham%20Laura-Professional.png?updated=1791906074",
+        "originalWidth": 559,
+        "originalHeight": 744,
+        "format": "PNG",
+        "sha256": "2ddfd2bf59cd1cc52579939269235926cc4bc9bdd007c01d938fe1f3a02bc15b",
+        "visualObservation": "Single posed portrait, full face visible, gray hair, dark jacket and mustard top.",
+        "sourceAssociation": "Named About page, alt Dr. Laura Markham.",
+        "retrieval": "Ordinary exact-asset download; Pillow decode; actual visual inspection. AVIF converted to PNG only for inspection where necessary.",
+        "terms": "not established",
+        "derivativeApproval": false
+      },
+      "access": "Education-only proposal. No current individual clinical intake, fees, plan participation or Manhattan location established. Separate education from clinical care; a source listing Brooklyn elsewhere would not establish Manhattan practice.",
+      "limitations": [
+        "No independent license or effectiveness assessment.",
+        "Do not repeat marketing promises that a child will cooperate or family outcomes will improve.",
+        "No new city directory is requested by this packet."
+      ]
+    },
+    {
+      "key": "lisa-damour",
+      "name": "Lisa Damour",
+      "existingProviderId": null,
+      "scope": "proposed education-focused continuation of original seven mental-health leads; Ohio geography, not Manhattan care",
+      "priority": 2,
+      "sources": [
+        {
+          "id": "damour-humanity-2026-10-15",
+          "url": "https://drlisadamour.com/about/",
+          "publisher": "Lisa Damour",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "official-page-opened",
+          "verificationStatus": "source-stated",
+          "supportingExcerpt": "Dr. Damour is not accepting new clients"
+        }
+      ],
+      "narrative": "Lisa Damour's official biography describes taking adolescent mental-health education beyond her clinical work. Her collaborations include parenting resources with UNICEF and consultation on Pixar's Inside Out 2. Alongside books and the Ask Lisa podcast, the account describes a commitment to helping families understand the emotional lives of young people.",
+      "claimMap": [
+        {
+          "claim": "The official biography describes UNICEF collaboration and Inside Out 2 consultation.",
+          "sourceIds": [
+            "damour-humanity-2026-10-15"
+          ]
+        },
+        {
+          "claim": "Her work includes books and the Ask Lisa podcast.",
+          "sourceIds": [
+            "damour-humanity-2026-10-15"
+          ]
+        }
+      ],
+      "media": {
+        "candidateStatus": "visually-inspected-source-preview-candidate",
+        "assetUrl": "https://drlisadamour.com/wp-content/uploads/2026/08/about.jpg",
+        "originalWidth": 1920,
+        "originalHeight": 1166,
+        "format": "JPEG",
+        "sha256": "fc5a8bf771e5f4f15a0392cc4b87511f189f618574577cc65fde67a15beb7dd8",
+        "visualObservation": "Clear individual posed portrait, full face visible; short hair, navy clothing, chin resting on hand.",
+        "sourceAssociation": "About Me section on named official site, lazy image data-src; alt About.",
+        "retrieval": "Ordinary exact-asset download; Pillow decode; actual visual inspection. AVIF converted to PNG only for inspection where necessary.",
+        "terms": "not established",
+        "derivativeApproval": false
+      },
+      "access": "Current official page explicitly says not accepting new clients and lists a Beachwood, Ohio mailing address. Preserve that dated statement; no Manhattan clinical access. Speaking, media and membership contacts are not therapy intake.",
+      "limitations": [
+        "Education-only proposal; do not create misleading Manhattan membership to meet the numerical milestone.",
+        "Future book dated February 2027 is forthcoming, not already published.",
+        "Professional/clinical details remain publisher-stated, not independently verified."
+      ]
+    }
+  ]
+}
