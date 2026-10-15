@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-15",
+  "status": "prepared-before-app-import",
+  "changeType": "portrait-only-update-for-existing-provider",
+  "qualificationImpact": {
+    "humanityCountBefore": 75,
+    "humanityCountAfterExpected": 75,
+    "reason": "Bain's stored profile has only an international-speaking fact and no assessed humanity narrative; a portrait alone does not qualify."
+  },
+  "inventoryImpact": {
+    "approvedPortraitsBefore": 89,
+    "expectedAfterIfAllChecksPass": 90,
+    "updateMethod": "manually add one reviewed entry; do not regenerate the existing baseline"
+  },
+  "revisions": {
+    "appSource": "deaa2ee38ad1f43d953c725e73e87e3e85e522a9",
+    "dataSource": "c5e0b771d6666b9512298b47641c80239c07820e"
+  },
+  "provider": {
+    "id": "d7808e05-d356-4b6e-9adb-774854c56ba2",
+    "name": "Michael A. Bain",
+    "canonicalPath": "michaelbain",
+    "directory": "plastic-surgeons-orange-county",
+    "preserve": [
+      "ID",
+      "canonical path and aliases",
+      "directory membership",
+      "clinical facts and roles",
+      "existing sources and career narrative",
+      "access information and conflicts",
+      "review/indexing/claim states",
+      "verification dates"
+    ],
+    "noChangesTo": [
+      "humanity assessment",
+      "license or credential claims",
+      "appointment capacity",
+      "directory geography",
+      "indexability",
+      "review state"
+    ]
+  },
+  "portrait": {
+    "sourcePage": "https://www.hoag.org/physician/michael-a-bain-md/",
+    "sourcePageTitle": "Michael A. Bain — Hoag",
+    "pageImageAlt": "Michael A. Bain, MD",
+    "assetUrl": "https://public.hoag.org/hoagmdimages/2401.jpg",
+    "retrievedOn": "2026-10-15",
+    "httpStatus": 200,
+    "contentType": "image/jpeg",
+    "sourceBytes": 28676,
+    "sourceWidth": 400,
+    "sourceHeight": 477,
+    "sourceSha256": "f646fc459cce5f9a0a0f2c405556e7b90a22404cfed75d8d8eef426b176fa87c",
+    "visualInspection": "Decoded and visually inspected in the app workspace; clear full-face individual portrait. Identity association comes from the named Hoag page and its matching image alt, not face recognition alone.",
+    "setCookieHeaderObserved": false,
+    "delivery": {
+      "plannedImageUrl": "/images/providers/michaelbain-source-preview.jpg",
+      "method": "serve exact modest 400x477 JPEG bytes without crop or enlargement",
+      "plannedBytes": 28676,
+      "plannedSha256": "f646fc459cce5f9a0a0f2c405556e7b90a22404cfed75d8d8eef426b176fa87c",
+      "usage": "local-source-preview",
+      "clickThroughUrl": "https://www.hoag.org/physician/michael-a-bain-md/",
+      "alt": "Portrait of Michael A. Bain, MD"
+    },
+    "reuseTerms": "Unknown; modest source-linked portrait preview only. No ownership, blanket license, derivative-card, or clinical approval."
+  },
+  "sourceObservations": {
+    "hoagPage": "The normally retrieved named Hoag page labels the individual image Michael A. Bain, MD. The page also includes clinical, credential and capacity claims, none imported in this portrait-only change.",
+    "priorDrBainChallenge": "Earlier 2026-10-15 research recorded a different drbain.com image endpoint as a security-challenge HTML response. This Hoag response is a separate source and is not evidence that the challenged endpoint works; no challenge bypass or guessed URL was used.",
+    "aileenChang": "The owner's prior decoded 650x650 UCSF WebP inspection remains in research, but this workspace's normal exact-asset GET returned HTTP 403 text/html (4,543 bytes). Keep Aileen's existing 150x150 screenshot preview and its existing approved inventory row; do not overwrite it with error HTML, guess another asset, or bypass the source restriction."
+  },
+  "checksBeforeCountChange": [
+    "copy bytes only after packet review",
+    "verify source hash and delivered hash match",
+    "validate profile API source link and local image path",
+    "patient-ready portrait guard and fixed preservation baseline",
+    "targeted desktop profile and touch-mobile directory image checks",
+    "no third-party request or cookie needed to render local preview"
+  ],
+  "limitations": [
+    "Portrait addition does not establish Bain's humanity narrative; remain outside the 75 qualifying IDs.",
+    "No new practice-access, credential, license, clinical outcome or accepting-patient claim is imported.",
+    "No independent human review, license verification, derivative approval or deployment is implied."
+  ]
+}

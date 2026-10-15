@@ -31,3 +31,11 @@ Image reuse terms were not established in this research. No ownership, blanket l
 
 ## Scaling lesson
 Search-credit limits in the app are not a factual media gap. Named official departmental and institutional pages may expose ordinary image assets even when another endpoint fails. A successful image response alone is insufficient: require named source association, actual decode and visual inspection. Preserve failed endpoint evidence alongside a newly usable alternative.
+
+## App-workspace source retrieval and visual inspection — October 15, 2026
+
+Michael A. Bain: the named Hoag profile at https://www.hoag.org/physician/michael-a-bain-md/ was retrieved normally and identifies the linked image with alt text ‘Michael A. Bain, MD’. A normal direct GET of https://public.hoag.org/hoagmdimages/2401.jpg returned HTTP 200 image/jpeg, 28,676 bytes, 400 × 477, SHA-256 f646fc459cce5f9a0a0f2c405556e7b90a22404cfed75d8d8eef426b176fa87c. The response had no Set-Cookie header. The bytes were decoded and visually inspected: a clear full-face individual portrait. The exact modest image is ready for a source-linked local preview; this is media evidence only, not a qualifying humanity story or rights approval.
+
+Aileen Chang: a new ordinary direct GET to the exact owner-researched UCSF asset returned HTTP 403 text/html, 4,543 bytes, rather than image bytes. Retain the previously inspected owner-supplied 650 × 650 WebP observation, but keep the current 150 × 150 local source-page screenshot and existing inventory entry in this workspace. No guessed URL, authentication, security bypass or error-page image was used.
+
+The old drbain.com security-challenge observation and the Hoag image response are distinct. Nothing in this retrieval establishes that the earlier challenge now works. The portrait-only Bain packet is separate at docs/profile-ready/humanity-bain-media-preimport-2026-10-15.json; it does not alter the humanity count.
