@@ -1,0 +1,53 @@
+{
+  "preparedOn":"2026-10-15",
+  "appBase":"ee980c52bd6e5d3dc11bafaaffc15e16c43e3a46",
+  "fixedPreservationBase":"0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "scope":"Original named-source narrative additions to existing identities only; retained inspected local portraits, clinical facts, access cautions, review/indexing states and holds unchanged. Source statements are not independent clinical verification.",
+  "presentationRecovery":{"id":"242e2dde-c7d5-41d2-a39f-f6c3fa4c37d2","name":"Chloe Carmichael","action":"Deliver the entire existing public API story as a sourced body section. Full-block checking found only its yoga anchor/human fact and related educational material readable. This is not routine rewriting or an access/review promotion.","sourceIds":["carmichael-about","carmichael-homepage","carmichael-coaching"]},
+  "providers":[
+    {
+      "id":"bcc8ed10-6fb4-45b0-a985-644e13055d80",
+      "name":"Susana Ortiz-Urda",
+      "sectionId":"humanity-purpose-2026-10-15",
+      "heading":"The question behind her research",
+      "text":"Susana Ortiz-Urda's UCSF biography describes a question behind her laboratory work: why melanoma progresses or becomes resistant to treatment. Her group studies genetic signaling and transcripts in human models of melanoma and epithelial tumors. The biography identifies her hope that this work will reveal biomarkers or new treatment targets; that is a research aim, not a promised benefit for an individual patient.",
+      "source":{"id":"ortizurda-humanity-purpose-2026-10-15","url":"https://profiles.ucsf.edu/susana.ortiz-urda","label":"Susana Ortiz-Urda — UCSF research purpose","publisher":"UCSF Profiles","sourceType":"institutional-profile","retrievedDate":"2026-10-15","verificationStatus":"source-stated"},
+      "evidence":[
+        {"claim":"Her laboratory investigates factors associated with drug resistance and cancer progression.","excerpt":"She studies cancer signaling at a genetic sequencing level to identify novel transcripts, their functions and the factors that promote resistance to drugs or cancer progression."},
+        {"claim":"Her group works with human models of melanoma and epithelial tumors.","excerpt":"Ortiz-Urda’s lab works with human models of epithelial neoplasia and melanoma."},
+        {"claim":"Her stated research hope concerns biomarkers and treatment targets, not demonstrated patient outcomes.","excerpt":"She hopes her findings may point to key biomarkers or new targets for treating melanoma."}
+      ]
+    },
+    {
+      "id":"85e45b1d-b342-45e9-8144-0e8bc3477b01",
+      "name":"Valentin Fuster",
+      "sectionId":"humanity-mentors-2026-10-15",
+      "heading":"A tennis court and a mentor",
+      "text":"In a published first-person interview, Valentin Fuster recalls that agriculture and tennis interested him before medicine. A meeting with physician Pedro Farreras at a tennis club became a mentoring relationship; Fuster credits Farreras's advice with his decision to pursue medicine and later cardiology. He also recalls a pathology slide of a blood clot that prompted a question about heart attacks, connecting his scientific curiosity with his later interest in prevention and health education.",
+      "source":{"id":"fuster-journey-interview-2026-10-15","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6159477/","label":"Featuring: Dr Valentin Fuster — first-person interview","publisher":"European Cardiology Review (PMC archive)","sourceType":"published-interview","retrievedDate":"2026-10-15","verificationStatus":"source-stated"},
+      "evidence":[
+        {"claim":"He recalls an early interest in agriculture and competitive tennis.","excerpt":"Actually I was more interested in the environment and researching plants. I wanted to study agriculture ... I also had a passion for tennis and played at a national level"},
+        {"claim":"Farreras met him at a tennis club and became a mentor who encouraged medicine and cardiology.","excerpt":"It was at a tennis club that I met Spain’s leading physician at that time, Pedro Farreras ... It was Pedro who told me that I’d make a great doctor ... Pedro became my mentor ... he told me I should become a cardiologist"},
+        {"claim":"A pathology slide prompted his investigation of blood clots and his described prevention/education interest.","excerpt":"Professor Sheehan suggested I investigate it for my thesis ... I guess my tendency has always been to get to the root of the problem and it all started with that slide ... passionate about global health ... promoting healthy habits"}
+      ]
+    },
+    {
+      "id":"60d1d4c2-96bb-4815-899c-baff1d5e66ae",
+      "name":"Randy Gould",
+      "sectionId":"humanity-career-chapter-2026-10-15",
+      "heading":"A return to New York",
+      "text":"Randy Gould's practice biography describes a return to New York City, where his earlier residency and cardiovascular fellowship had taken place. Alongside cardiology, it records a sustained chapter of work with venous insufficiency, a problem affecting circulation in the legs. These details describe the places and two areas of care in his professional journey; they do not establish a reason for relocating, a personality trait or a patient outcome.",
+      "source":{"id":"gould-career-return-2026-10-15","url":"https://manhattancardiology.com/team/dr-randy-gould/","label":"Randy Gould — named Manhattan Cardiology biography","publisher":"Manhattan Cardiology","sourceType":"practice-profile","retrievedDate":"2026-10-15","verificationStatus":"source-stated"},
+      "evidence":[
+        {"claim":"The practice describes his return to New York City.","excerpt":"He has recently relocated back to New York City"},
+        {"claim":"The biography places his residency and cardiovascular fellowship in New York.","excerpt":"completed his residency in Internal Medicine at Saint Vincent’s Hospital and Medical Center in New York ... fellowship at Saint Vincent Catholic Medical Centers of New York"},
+        {"claim":"Venous-insufficiency care is described as a sustained additional focus.","excerpt":"In addition to his work in cardiology, Dr. Gould has dedicated over 12 years to the diagnosis and treatment of venous insufficiency"}
+      ]
+    }
+  ],
+  "held":[
+    {"name":"Shannon Schaubach","reason":"Official page inspected; offers a modality/service list and attributed approach language, but no sufficiently distinctive personal journey or motivation identified in this pass."},
+    {"name":"Tiffany Bufort-Odom","reason":"Opened retained Bio Site and Brainspotting listing; scheduling/newsletter/training links and directory facts do not supply a sufficiently distinctive narrative. Newsletter is a followable research lead, not assumed evidence."},
+    {"name":"Lawrence P. Hsu","reason":"Search results mixed unrelated names and a Seattle acupuncturist. Do not attach those biographies to the La Jolla pediatrician."}
+  ]
+}
