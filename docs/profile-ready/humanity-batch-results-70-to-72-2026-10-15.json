@@ -1,0 +1,272 @@
+{
+  "checkedOn": "2026-10-15",
+  "goal": 100,
+  "counts": {
+    "qualifyingUniqueIdsBefore": 70,
+    "qualifyingUniqueIdsAfter": 72,
+    "netNewQualifyingIds": 2,
+    "remaining": 28,
+    "providerRecordsBefore": 99,
+    "providerRecordsAfter": 101,
+    "independentLocalPortraitDeliveriesBefore": 85,
+    "independentLocalPortraitDeliveriesAfter": 87,
+    "manhattanDirectoryMembersBefore": 10,
+    "manhattanDirectoryMembersAfter": 12
+  },
+  "app": {
+    "parentRevision": "0aeb09d9c8c896e288f017540487fe5c5eb7eb5c",
+    "checkedAndSyncedRevision": "8b8597551bfe778aa8f821ac1fe1e9437a649716",
+    "fixedBaselineRevision": "0e71f02b718ddcd1003dd504aa44c1bb103c6894"
+  },
+  "dataInputs": {
+    "candidatePacket": "docs/profile-ready/humanity-followon-cardiology-dc-2026-10-15.json",
+    "candidatePacketRevision": "c77aebcb90ca91ce414022108c4f6947d884e6de",
+    "researchReview": "docs/research/humanity-followon-cardiology-dc-review-2026-10-15.md",
+    "researchReviewRevision": "ca914f07a4111bf9c4619b990edd3a555a2a5d70",
+    "cleanPreImportPacket": "docs/profile-ready/humanity-manhattan-two-preimport-2026-10-15.json",
+    "preImportDataRevision": "a011eb052888ef37d090b2cfe36b34a364c20012"
+  },
+  "directory": {
+    "path": "manhattan-cardiology",
+    "status": "published",
+    "indexable": false,
+    "reviewStatus": "pending-human-review",
+    "memberCountBefore": 10,
+    "memberCountAfter": 12,
+    "existingRosterAndEvidencePreserved": true,
+    "sourceAdditions": 3,
+    "lastVerifiedRemains": "2026-10-10",
+    "meaning": "Supplied official pages were inspected for source-stated content. Mount Sinai lists office-specific plans for Fuster, Mehran, and Sharma, not independently verified coverage; Ghalchi, Patwa, and Reynolds insurance conflicts remain unresolved. The October 10 full-directory date applies to the existing cohort; Goldberg and Lala-Trindade sources were separately reviewed October 15 and do not refresh other records. Not a license, capacity, accessibility, or human review."
+  },
+  "newlyQualifying": [
+    {
+      "id": "4af1f6f0-c5c1-42d2-979f-f4a305c7afa6",
+      "name": "Nieca Goldberg",
+      "canonicalPath": "niecagoldberg",
+      "directory": "manhattan-cardiology",
+      "status": {
+        "providerStatus": "published",
+        "indexable": false,
+        "claimStatus": "unclaimed",
+        "sourceStatus": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending"
+      },
+      "narrative": {
+        "id": "humanity-family-and-questions-goldberg-2026-10-15",
+        "heading": "A path into heart health",
+        "text": "Nieca Goldberg’s interest in cardiology began when her father developed heart disease at a young age. Her NYU biography describes summer work with a cardiologist and a later decision to focus on women after encountering dismissive assumptions about their heart health during residency. Questions from patients also shaped her interest in making space for dialogue: she describes beginning visits by asking what patients want to discuss.",
+        "sourceIds": [
+          "goldberg-nyu"
+        ]
+      },
+      "access": {
+        "id": "patient-access-goldberg-2026-10-15",
+        "heading": "Before contacting the practice",
+        "text": "NYU Langone lists Cardiology Associates at 530 1st Avenue, HCC 4th Floor, New York, NY 10016, and the phone 212-263-4320. The profile lists English and French and source-stated, location-dependent insurance information; languages have not been independently assessed, and the exact plan is not confirmed. A scheduling link was observed on the profile but was not tested by booking. Current capacity, fees and referral requirements are not established; confirm current intake and exact plan with the office.",
+        "sourceIds": [
+          "goldberg-nyu"
+        ]
+      },
+      "glanceFacts": [
+        {
+          "label": "Clinical focus",
+          "value": "Cardiology, as listed by NYU Langone",
+          "sourceIds": [
+            "goldberg-nyu"
+          ]
+        },
+        {
+          "label": "Location",
+          "value": "530 1st Avenue, HCC 4th Floor, New York",
+          "sourceIds": [
+            "goldberg-nyu"
+          ]
+        },
+        {
+          "label": "Languages",
+          "value": "English and French, as listed by NYU Langone; not independently assessed",
+          "sourceIds": [
+            "goldberg-nyu"
+          ]
+        },
+        {
+          "label": "Phone",
+          "value": "212-263-4320",
+          "sourceIds": [
+            "goldberg-nyu"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "goldberg-nyu",
+          "url": "https://nyulangone.org/doctors/1912084062/nieca-goldberg",
+          "label": "Nieca Goldberg physician profile",
+          "publisher": "NYU Langone",
+          "sourceType": "institutional-profile",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "portrait": {
+        "id": "4af1f6f0-c5c1-42d2-979f-f4a305c7afa6",
+        "slug": "niecagoldberg",
+        "directory": "manhattan-cardiology",
+        "imageUrl": "/images/providers/niecagoldberg-source-preview.jpg",
+        "imageUsage": "local-source-preview",
+        "sourcePage": "https://nyulangone.org/doctors/1912084062/nieca-goldberg",
+        "sourceAsset": "https://nyulangone.org/images/doctors/g/goldberg/1912084062/nieca-goldberg-square.jpg",
+        "sourceWidth": 1000,
+        "sourceHeight": 1000,
+        "sourceSha256": "34e2cd7ed264e723d3f9d8f227f5c441a59b6aaf7207275d101dd48228656ea8",
+        "sourceImageSetCookie": false,
+        "width": 1000,
+        "height": 1000,
+        "sha256": "34e2cd7ed264e723d3f9d8f227f5c441a59b6aaf7207275d101dd48228656ea8",
+        "checkedOn": "2026-10-15",
+        "reason": "Exact JPEG from the named NYU Langone profile matched the prepared packet, decoded and was visually inspected as a clear individual full-face portrait. Original 1000×1000 bytes served locally without crop or resize. Reuse terms unknown; no ownership, blanket license, derivative-card or clinical approval."
+      }
+    },
+    {
+      "id": "d377c6cd-427a-4da3-b92a-9047169c47fd",
+      "name": "Anuradha (Anu) Lala-Trindade",
+      "canonicalPath": "anuradhalalatrindade",
+      "directory": "manhattan-cardiology",
+      "status": {
+        "providerStatus": "published",
+        "indexable": false,
+        "claimStatus": "unclaimed",
+        "sourceStatus": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending"
+      },
+      "narrative": {
+        "id": "humanity-grandmother-and-human-connection-lala-2026-10-15",
+        "heading": "A childhood spark and human connection",
+        "text": "Anu Lala-Trindade traces her wish to become a cardiologist to a childhood encounter with her grandmother’s illness. In Mount Sinai’s June 25, 2021 Heart to Heart interview, she recalls feeling her grandmother’s pulse and becoming fascinated by the connection between the heartbeat and a person’s life. She also describes the importance of human connection in caring for patients and supporting families through uncertainty.",
+        "sourceIds": [
+          "lala-podcast"
+        ]
+      },
+      "access": {
+        "id": "patient-access-lala-2026-10-15",
+        "heading": "Before contacting Mount Sinai",
+        "text": "Mount Sinai lists the Lauder Family Cardiovascular Ambulatory Center at 1190 Fifth Avenue, First Floor, New York, NY 10029, phone 212-241-7300, adult care, English and video visits. The page listed accepting-new-patient status when observed on October 15, 2026; this is not a capacity guarantee. Insurance information is source-stated and location-specific; confirm the exact plan and current clinician participation. Fees and referral requirements are not established here.",
+        "sourceIds": [
+          "lala-profile"
+        ]
+      },
+      "glanceFacts": [
+        {
+          "label": "Clinical focus",
+          "value": "Adult cardiology, as listed by Mount Sinai",
+          "sourceIds": [
+            "lala-profile"
+          ]
+        },
+        {
+          "label": "Location",
+          "value": "Lauder Family Cardiovascular Ambulatory Center, 1190 Fifth Avenue",
+          "sourceIds": [
+            "lala-profile"
+          ]
+        },
+        {
+          "label": "Visit format",
+          "value": "Video visits, as listed by Mount Sinai",
+          "sourceIds": [
+            "lala-profile"
+          ]
+        },
+        {
+          "label": "Language",
+          "value": "English, as listed by Mount Sinai; not independently assessed",
+          "sourceIds": [
+            "lala-profile"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "lala-profile",
+          "url": "https://profiles.mountsinai.org/anuradha-lala-trindade",
+          "label": "Mount Sinai profile for Anuradha Lala-Trindade",
+          "publisher": "Mount Sinai",
+          "sourceType": "institutional-profile",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "lala-podcast",
+          "url": "https://www.mountsinai.org/about/newsroom/podcasts/road-resilience/archive/heart-to-heart",
+          "label": "Heart to Heart transcript",
+          "title": "Heart to Heart",
+          "publisher": "Mount Sinai, Road to Resilience",
+          "sourceType": "podcast-transcript",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "portrait": {
+        "id": "d377c6cd-427a-4da3-b92a-9047169c47fd",
+        "slug": "anuradhalalatrindade",
+        "directory": "manhattan-cardiology",
+        "imageUrl": "/images/providers/anuradhalalatrindade-source-preview.jpg",
+        "imageUsage": "local-source-preview",
+        "sourcePage": "https://profiles.mountsinai.org/anuradha-lala-trindade",
+        "sourceAsset": "https://www.mountsinai.org/files/images/fad-images/0000076810111382084371.jpg",
+        "sourceWidth": 448,
+        "sourceHeight": 590,
+        "sourceSha256": "a2b1b66903baf6d6b9beefcd9556da2b8197a915dd9961a352d0bc5a74ff1b76",
+        "sourceImageSetCookie": false,
+        "width": 448,
+        "height": 590,
+        "sha256": "a2b1b66903baf6d6b9beefcd9556da2b8197a915dd9961a352d0bc5a74ff1b76",
+        "checkedOn": "2026-10-15",
+        "reason": "Exact JPEG linked from the named Mount Sinai profile matched the prepared packet, decoded and was visually inspected as a clear individual full-face portrait. Original 448×590 bytes served locally without crop or resize. Reuse terms unknown; no ownership, blanket license, derivative-card or clinical approval."
+      }
+    }
+  ],
+  "preserved": {
+    "existingProviderIdsPathsAliasesAndMemberships": "unchanged",
+    "existingEvidenceAndAccessConflicts": "preserved",
+    "reviewIndexingAndClinicalHoldStates": "preserved; the directory remains pending review and nonindexable; both new records are nonindexable, unclaimed, source-stated, pending human review and pending license lookup",
+    "portraitInventory": "two exact source-linked preview entries added deliberately; no regeneration; terms remain unknown and no derivative approval is claimed",
+    "obengAndOtherHolds": "unchanged"
+  },
+  "otherCandidateDisposition": {
+    "hollyAndersen": "Not imported: packet lacks the named Manhattan service location required by the existing directory selection rule. Original portrait is 144×217; do not upscale. Further work needs an eligible named Manhattan location and an editorial decision on native-size delivery.",
+    "taraNarula": "Not imported: reconcile Tara Narula with Northwell listing Tara Narula Cangello and establish a named Manhattan service location from an accessible official source. The Northwell page returned 403; no bypass. AHA narrative/portrait do not establish directory fit alone.",
+    "stacyNotarasMurphy": "Prepared for next batch; DC physical office is source-stated. Current ID/path collision review, byte-matched local delivery, app integration and affected-page/privacy checks remain.",
+    "kathleenSmith": "Prepared for next batch; DC physical office is source-stated. Current ID/path collision review, byte-matched local delivery, app integration and affected-page/privacy checks remain; keep worldwide coaching distinct from DC clinical therapy.",
+    "andreaBonior": "Held: physical practice is in Bethesda; DC telehealth is source-stated. The directory title alone does not establish telehealth/geographic admission policy, so no membership or count added."
+  },
+  "checks": {
+    "dataValidation": "npm run validate-data passed: 117 entity files, 101 provider records, 13 directories, 3 organizations and 1 organization bundle valid",
+    "independentPortraitGuard": "87 approved local portrait hashes and source links passed",
+    "humanityAndBaseline": "72 unique qualifying IDs; fixed baseline 0e71f02b718ddcd1003dd504aa44c1bb103c6894 retained and preservation guard passed",
+    "typeCheck": "npm run check passed",
+    "build": "npm run build passed; existing nonblocking Browserslist/PostCSS/chunk-size warnings only",
+    "contract": "78/78 passed",
+    "httpApi": "108/108 passed",
+    "cards": "4/4 passed",
+    "sanFranciscoPilot": "81/81 passed",
+    "targetedBrowser": "humanity suite 3/3: desktop and touch-mobile full-story/citation/local-image/privacy checks, plus actual touch citation activation opening the exact NYU URL without toggling a disclosure",
+    "manhattanBrowser": "1/1 affected directory case passed across desktop/mobile",
+    "visual": "Goldberg desktop and Lala-Trindade mobile screenshots inspected; full faces and source-linked UI visible",
+    "nativeImageResponses": "Both exact source image GETs returned HTTP 200; no Set-Cookie header observed for those responses",
+    "initialPrivacy": "Zero third-party requests/cookies before activation; local portrait assets decoded immediately; no intercepted image used",
+    "activationLimit": "The touch test asserted request and popup URL after the tap; it did not claim a successful external-page body load."
+  },
+  "limits": [
+    "No full unrelated browser suite rerun in this batch.",
+    "No real-device Safari or screen-reader audit.",
+    "No independent human review, clinical/license verification, insurance adjudication, rights or derivative-card approval.",
+    "No cold-cache, concurrent-load or thousands-profile performance evidence.",
+    "No deployment."
+  ]
+}
