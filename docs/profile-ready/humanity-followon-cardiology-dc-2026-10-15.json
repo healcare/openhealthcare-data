@@ -1,0 +1,502 @@
+{
+  "schemaPurpose": "Research handoff, not direct provider import schema",
+  "preparedAt": "2026-10-15",
+  "reportedCheckpoint": {
+    "qualifying": 66,
+    "target": 100,
+    "independentlyRerun": false
+  },
+  "scope": "Seven proposed new candidates, subject to current-record identity/directory reconciliation. Continue ongoing four-person San Francisco batch separately.",
+  "rules": [
+    "No candidate is counted until sourced complete humanity narrative, usable citations and inspected local portrait are delivered on actual patient pages.",
+    "Preserve existing IDs, routes, evidence, holds and review/indexing states. Check new names against live inventory before adding records.",
+    "No independent license verification, coverage verification, booking test, clinical-outcome evidence or rights clearance is claimed.",
+    "Use appropriate decoded format and modest local preview, preserving exact source association and photo credit. Do not upscale low-resolution originals.",
+    "Keep research limitations separate from polished public copy; material access/geography uncertainty remains visible.",
+    "No deployment authorized by this packet."
+  ],
+  "candidates": [
+    {
+      "name": "Nieca Goldberg",
+      "directory": "Manhattan cardiology",
+      "narrative": "Nieca Goldberg’s interest in cardiology began when her father developed heart disease at a young age. Her NYU biography describes summer work with a cardiologist and a later decision to focus on women after encountering dismissive assumptions about their heart health during residency. Questions from patients also shaped her interest in making space for dialogue: she describes beginning visits by asking what patients want to discuss.",
+      "humanityBasis": "Family experience, a documented choice of specialty, and patient-question-centered practice.",
+      "sources": [
+        {
+          "id": "goldberg-nyu",
+          "url": "https://nyulangone.org/doctors/1912084062/nieca-goldberg",
+          "publisher": "NYU Langone",
+          "method": "opened official physician profile",
+          "supports": [
+            "father's early heart disease",
+            "summer cardiology experience",
+            "women's heart health motivation",
+            "asking for patient questions",
+            "office and source-listed languages"
+          ],
+          "excerpt": "Languages: English, French"
+        }
+      ],
+      "access": {
+        "sourceId": "goldberg-nyu",
+        "office": "NYU Langone Cardiology Associates—4th Floor, 530 1st Avenue, HCC 4th Floor, New York, NY 10016",
+        "phone": "212-263-4320",
+        "languagesSourceListed": [
+          "English",
+          "French"
+        ],
+        "appointmentLink": "https://nyulangone.org/doctors/1912084062/nieca-goldberg",
+        "limits": "Scheduling link observed, not tested by booking. Current capacity, fees and exact-plan coverage are not verified. Profile insurance participation is source-stated and location-dependent."
+      },
+      "portrait": {
+        "url": "https://nyulangone.org/images/doctors/g/goldberg/1912084062/nieca-goldberg-square.jpg",
+        "sourceId": "goldberg-nyu",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "bytes": 103225,
+        "sha256": "34e2cd7ed264e723d3f9d8f227f5c441a59b6aaf7207275d101dd48228656ea8",
+        "visual": "Clear individual full-face portrait; reddish short hair, black turtleneck, gray background.",
+        "review": {
+          "status": "visually inspected exact downloaded source image",
+          "observedAt": "2026-10-15",
+          "usage": "Candidate for modest local source-linked preview; no initial source-host request.",
+          "reuseTerms": "Not established",
+          "derivativeApproval": false
+        }
+      },
+      "claimStatus": "Source-supported narrative candidate; not independently verified clinical credentials or a counted milestone entry.",
+      "observedAt": "2026-10-15",
+      "narrativeSourceIds": [
+        "goldberg-nyu"
+      ]
+    },
+    {
+      "name": "Holly S. Andersen",
+      "directory": "Manhattan cardiology",
+      "narrative": "Holly Andersen’s public education work reaches beyond the cardiology office. NewYork-Presbyterian’s 2017 announcement identifies her as the leader of its hands-only CPR awareness campaign, built around helping ordinary bystanders feel able to respond to cardiac arrest. The campaign gives her profile a concrete community connection: translating cardiovascular knowledge into something people outside medicine can learn and share.",
+      "humanityBasis": "A specific community education project, rather than a generic service description.",
+      "sources": [
+        {
+          "id": "andersen-cornell",
+          "url": "https://weillcornell.org/holly-s-andersenmd-6095",
+          "publisher": "Weill Cornell Medicine",
+          "method": "opened official physician profile",
+          "supports": [
+            "named physician identity",
+            "portrait association",
+            "source-listed English"
+          ]
+        },
+        {
+          "id": "andersen-cpr-launch",
+          "url": "https://www.nyp.org/news/nyp-and-perelman-heart-instuture-launch-handsonlycpr-campaign",
+          "publisher": "NewYork-Presbyterian",
+          "method": "opened institutional campaign announcement",
+          "published": "2017-06-01",
+          "supports": [
+            "campaign leadership",
+            "public education purpose"
+          ],
+          "excerpt": "Led by Dr. Holly Andersen"
+        },
+        {
+          "id": "andersen-cpr",
+          "url": "https://www.nyp.org/cpr",
+          "publisher": "NewYork-Presbyterian",
+          "method": "opened institutional education page",
+          "supports": [
+            "continuing publisher-hosted CPR education context"
+          ]
+        }
+      ],
+      "access": {
+        "sourceId": "andersen-cornell",
+        "languagesSourceListed": [
+          "English"
+        ],
+        "appointmentLink": "https://weillcornell.org/holly-s-andersenmd-6095",
+        "limits": "Concrete office address, appointment phone, current intake capacity, fees and exact-plan coverage were not established in the reviewed profile. Do not substitute hospital-wide contact details."
+      },
+      "portrait": {
+        "url": "https://images.med.cornell.edu/headshots/hsander.jpg?f1951fcfc0",
+        "sourceId": "andersen-cornell",
+        "format": "JPEG",
+        "width": 144,
+        "height": 217,
+        "bytes": 9430,
+        "sha256": "008aa410ae2f0b763fc40cb26582842a1a64ffe612c3bf576ecda1d45b774959",
+        "visual": "Clear individual face; red clothing and event backdrop.",
+        "limits": "Low-resolution original. Retain modest native-size presentation; do not upscale.",
+        "review": {
+          "status": "visually inspected exact downloaded source image",
+          "observedAt": "2026-10-15",
+          "usage": "Candidate for modest local source-linked preview; no initial source-host request.",
+          "reuseTerms": "Not established",
+          "derivativeApproval": false
+        }
+      },
+      "claimStatus": "Source-supported narrative candidate; not independently verified clinical credentials or a counted milestone entry.",
+      "observedAt": "2026-10-15",
+      "narrativeSourceIds": [
+        "andersen-cpr-launch"
+      ]
+    },
+    {
+      "name": "Tara Narula",
+      "identityNote": "Northwell lists Tara Narula Cangello. Reconcile the institutional and media names before assigning any new ID or route.",
+      "directory": "Manhattan cardiology",
+      "narrative": "Tara Narula took an unusual route into medicine. An American Heart Association profile describes how she first started a smoothie business in Miami before returning to medical training. Her later work combines cardiology with medical journalism and public education. In the same interview, she explains a desire to reach people beyond her office and describes discussing everyday stress alongside cardiovascular care.",
+      "humanityBasis": "Entrepreneurship-to-medicine journey and an attributed public education motivation.",
+      "sources": [
+        {
+          "id": "narula-aha",
+          "url": "https://www.heart.org/en/around-the-aha/honoree-focuses-on-heart-health-urges-resilience",
+          "publisher": "American Heart Association",
+          "author": "Katherine Shaver",
+          "method": "opened named interview/profile",
+          "sourceReviewDate": "2026-06-15",
+          "supports": [
+            "Sun Juice Smoothies business before medicine",
+            "medical journalism",
+            "public education purpose",
+            "stress discussions",
+            "named portrait and photo credit"
+          ],
+          "excerpt": "My whole mission in life is to see how many people I can reach"
+        },
+        {
+          "id": "narula-abc",
+          "url": "https://www.detpress.com/abcnews/bios/dr-tara-narula/",
+          "publisher": "ABC News",
+          "method": "opened employer biography",
+          "supports": [
+            "public medical communication role"
+          ]
+        },
+        {
+          "id": "narula-northwell",
+          "url": "https://www.northwell.edu/find-care/find-a-doctor/dr-tara-narula-cangello-md-1427127547",
+          "publisher": "Northwell Health",
+          "method": "official search snippet only; direct open returned 403",
+          "supports": [
+            "institutional named clinical listing"
+          ],
+          "limits": "Full page not inspected; not license verification."
+        },
+        {
+          "id": "narula-practice",
+          "url": "https://www.northwell.edu/doctors-offices/cardiology-midtown-59th-street",
+          "publisher": "Northwell Health",
+          "method": "official search snippet only; direct open returned 403",
+          "supports": [
+            "Midtown practice listing lead"
+          ],
+          "limits": "Do not promote snippet-only contact or office scope to verified access."
+        }
+      ],
+      "access": {
+        "appointmentLink": "https://www.northwell.edu/find-care/find-a-doctor/dr-tara-narula-cangello-md-1427127547",
+        "limits": "Clinical access research remains incomplete because official Northwell pages returned 403. Office address, appointment capacity, fees, insurance, languages and telehealth eligibility remain unverified. No security bypass attempted."
+      },
+      "portrait": {
+        "url": "https://www.heart.org/en/-/media/Images/Around-the-AHA/Tara_Narula.jpg?sc_lang=en",
+        "sourceId": "narula-aha",
+        "credit": "Heidi Gutman for ABC News",
+        "format": "JPEG",
+        "width": 800,
+        "height": 600,
+        "bytes": 29280,
+        "sha256": "58cc80e90a58b0f349c61f40078e9d847a28159f079327abee23ab639a373bae",
+        "visual": "Clearly identified individual full-face portrait; dark hair, red sleeveless clothing.",
+        "review": {
+          "status": "visually inspected exact downloaded source image",
+          "observedAt": "2026-10-15",
+          "usage": "Candidate for modest local source-linked preview; no initial source-host request.",
+          "reuseTerms": "Not established",
+          "derivativeApproval": false
+        }
+      },
+      "claimStatus": "Source-supported narrative candidate; not independently verified clinical credentials or a counted milestone entry.",
+      "observedAt": "2026-10-15",
+      "narrativeSourceIds": [
+        "narula-aha"
+      ]
+    },
+    {
+      "name": "Anuradha (Anu) Lala-Trindade",
+      "directory": "Manhattan cardiology",
+      "narrative": "Anu Lala-Trindade traces her wish to become a cardiologist to a childhood encounter with her grandmother’s illness. In Mount Sinai’s Heart to Heart interview, she recalls feeling her grandmother’s pulse and becoming fascinated by the connection between the heartbeat and a person’s life. She also describes the importance of human connection in caring for patients and supporting families through uncertainty.",
+      "humanityBasis": "First-person childhood motivation and a specific account of relationships in care.",
+      "sources": [
+        {
+          "id": "lala-profile",
+          "url": "https://profiles.mountsinai.org/anuradha-lala-trindade",
+          "publisher": "Mount Sinai",
+          "method": "opened official physician profile",
+          "supports": [
+            "name variants",
+            "clinical focus",
+            "office",
+            "source-listed adult care, English and video visits",
+            "portrait"
+          ]
+        },
+        {
+          "id": "lala-podcast",
+          "url": "https://www.mountsinai.org/about/newsroom/podcasts/road-resilience/archive/heart-to-heart",
+          "publisher": "Mount Sinai, Road to Resilience",
+          "title": "Heart to Heart",
+          "published": "2021-06-25",
+          "method": "opened podcast page and transcript",
+          "supports": [
+            "childhood grandmother/pulse account around 05:03",
+            "human connection and family support around 10:19"
+          ],
+          "excerpt": "From that experience on, I knew I wanted to be a doctor"
+        }
+      ],
+      "access": {
+        "sourceId": "lala-profile",
+        "office": "Lauder Family Cardiovascular Ambulatory Center, 1190 Fifth Avenue, First Floor, New York, NY 10029",
+        "phone": "212-241-7300",
+        "languagesSourceListed": [
+          "English"
+        ],
+        "careFormatSourceListed": [
+          "Adults",
+          "Video visits"
+        ],
+        "limits": "Accepting-new-patient statement is publisher-stated, not a capacity guarantee. Insurance list is source-stated and location-specific; confirm physician and exact plan. No independent license lookup performed."
+      },
+      "portrait": {
+        "url": "https://www.mountsinai.org/files/images/fad-images/0000076810111382084371.jpg",
+        "sourceId": "lala-profile",
+        "format": "JPEG",
+        "width": 448,
+        "height": 590,
+        "bytes": 197642,
+        "sha256": "a2b1b66903baf6d6b9beefcd9556da2b8197a915dd9961a352d0bc5a74ff1b76",
+        "visual": "Clear individual full-face headshot; long dark hair, white coat.",
+        "review": {
+          "status": "visually inspected exact downloaded source image",
+          "observedAt": "2026-10-15",
+          "usage": "Candidate for modest local source-linked preview; no initial source-host request.",
+          "reuseTerms": "Not established",
+          "derivativeApproval": false
+        }
+      },
+      "claimStatus": "Source-supported narrative candidate; not independently verified clinical credentials or a counted milestone entry.",
+      "observedAt": "2026-10-15",
+      "narrativeSourceIds": [
+        "lala-podcast"
+      ]
+    },
+    {
+      "name": "Stacy Notaras Murphy",
+      "directory": "Washington, DC psychotherapists",
+      "narrative": "Before becoming a counselor, Stacy Notaras Murphy worked as a business writer and editor. Her biography describes bringing those reporting skills into psychology writing for Counseling Today in 2005. An interest in relationships led her toward additional couples work, followed by further study of trauma and its effects on relationships. She also describes meeting with other therapists for continuing consultation and support.",
+      "humanityBasis": "Writing-to-counseling journey and a documented continuing-learning motivation.",
+      "sources": [
+        {
+          "id": "murphy-about",
+          "url": "https://www.stacymurphylpc.com/about-me",
+          "publisher": "Stacy Notaras Murphy",
+          "method": "opened official biography; live HTML also inspected",
+          "supports": [
+            "business writing/editing before counseling",
+            "Counseling Today contribution in 2005",
+            "relationships and trauma learning journey",
+            "peer consultation",
+            "live portrait association"
+          ],
+          "excerpt": "Before I began my counseling career, I spent several years working as a business writer and editor."
+        },
+        {
+          "id": "murphy-access",
+          "url": "https://www.stacymurphylpc.com/faqs-fees",
+          "publisher": "Stacy Notaras Murphy",
+          "method": "opened official FAQ/fees page",
+          "supports": [
+            "Dupont Circle in-person office",
+            "source-stated DC/Virginia telehealth",
+            "fees",
+            "out-of-network model"
+          ]
+        }
+      ],
+      "access": {
+        "sourceId": "murphy-access",
+        "office": "Dupont Circle, Washington, DC; exact street address not established here",
+        "individualFeeSourceListed": "$250 / 50 minutes",
+        "couplesFamilyFeeSourceListed": "$315 / 55 minutes",
+        "insurance": "Out of network; payment at service and statements for possible reimbursement. Reimbursement not guaranteed.",
+        "telehealth": "Publisher states DC and Virginia residents; Maryland residents in person only. This is not independent license verification.",
+        "appointmentLink": "https://www.stacymurphylpc.com/faqs-fees",
+        "limits": "Current appointment capacity and age eligibility unknown. Fee observations dated 2026-10-15; no booking or insurance adjudication performed."
+      },
+      "portrait": {
+        "url": "https://images.squarespace-cdn.com/content/v1/5e10c7d04eae7b3046077bdb/70d56df3-0aee-4b10-958c-af8122c84531/Stacy+headshot+2026.png",
+        "sourceId": "murphy-about",
+        "format": "WebP",
+        "width": 1186,
+        "height": 1327,
+        "bytes": 1539494,
+        "sha256": "b313426dd2fafbf55a099615544f30ea9edb2c7049e329ca4d4aaf91738568a2",
+        "visual": "Clear individual full-face portrait; brown hair, navy clothing, green necklace.",
+        "limits": "URL suffix .png but decoded bytes are WebP. Search/text extraction surfaced an older 2020 image; preferred asset is from inspected live HTML.",
+        "review": {
+          "status": "visually inspected exact downloaded source image",
+          "observedAt": "2026-10-15",
+          "usage": "Candidate for modest local source-linked preview; no initial source-host request.",
+          "reuseTerms": "Not established",
+          "derivativeApproval": false
+        }
+      },
+      "claimStatus": "Source-supported narrative candidate; not independently verified clinical credentials or a counted milestone entry.",
+      "observedAt": "2026-10-15",
+      "narrativeSourceIds": [
+        "murphy-about"
+      ]
+    },
+    {
+      "name": "Kathleen Smith",
+      "directory": "Washington, DC psychotherapists",
+      "narrative": "Kathleen Smith carries her interest in relationship patterns into both therapy and writing. Her official biography describes a therapy newsletter as a favorite part of her work and says she enjoys talking with friends about relationships in television shows. Her teaching also brings family-systems ideas to clinicians and other professional groups, giving her public writing and clinical work a shared focus on how people relate to one another.",
+      "humanityBasis": "Specific writing interest, television discussion hobby and documented teaching connection.",
+      "sources": [
+        {
+          "id": "smith-about",
+          "url": "https://kathleensmithwrites.com/therapist-and-author/",
+          "publisher": "Kathleen Smith",
+          "method": "opened official biography; live HTML inspected",
+          "supports": [
+            "newsletter as favorite work activity",
+            "television/fan friends interest",
+            "teaching clinicians and other professional groups"
+          ],
+          "excerpt": "texting with her fangirl friends",
+          "limits": "Undated page still calls a July 2024 book upcoming; newsletter frequency differs across page elements. Do not copy those as current facts."
+        },
+        {
+          "id": "smith-therapy",
+          "url": "https://kathleensmithwrites.com/therapy/",
+          "publisher": "Kathleen Smith",
+          "method": "opened official therapy page",
+          "supports": [
+            "DC office",
+            "therapy formats",
+            "separate worldwide coaching/consulting",
+            "out-of-network model",
+            "portrait association"
+          ]
+        }
+      ],
+      "access": {
+        "sourceId": "smith-therapy",
+        "office": "1900 L Street NW, Washington, DC",
+        "insurance": "Does not accept insurance directly; documentation for possible out-of-network reimbursement, not a reimbursement guarantee.",
+        "appointmentLink": "https://kathleensmithwrites.com/therapy/",
+        "limits": "Clinical therapy and worldwide coaching/consulting are separate offerings. Do not infer worldwide therapy authorization. Current capacity, fees, age eligibility and therapy eligibility outside DC not established."
+      },
+      "portrait": {
+        "url": "https://kathleensmithwrites.com/wp-content/uploads/2023/11/Author-and-Therapist-Kathleen-Smith_BW-scaled.jpg",
+        "sourceId": "smith-therapy",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 490827,
+        "sha256": "4b2c6cf27dc38ddacbd366755dcebd802aa757bf30503c004e9c4eea8b830197",
+        "visual": "Clear individual full-face black-and-white portrait; long hair, patterned clothing and necklace.",
+        "review": {
+          "status": "visually inspected exact downloaded source image",
+          "observedAt": "2026-10-15",
+          "usage": "Candidate for modest local source-linked preview; no initial source-host request.",
+          "reuseTerms": "Not established",
+          "derivativeApproval": false
+        }
+      },
+      "claimStatus": "Source-supported narrative candidate; not independently verified clinical credentials or a counted milestone entry.",
+      "observedAt": "2026-10-15",
+      "narrativeSourceIds": [
+        "smith-about"
+      ]
+    },
+    {
+      "name": "Andrea Bonior",
+      "directory": "Washington, DC psychotherapists — telehealth scope decision required",
+      "narrative": "Andrea Bonior began writing advice while pursuing her doctorate, looking for a creative outlet beyond her coursework. In an American Psychological Association interview, she describes how that early column grew into years of public-facing psychology writing and television work. Her official biography also describes teaching students to facilitate a university belonging program, connecting her interest in communication with work on relationships and community.",
+      "humanityBasis": "First-person creative writing journey and a concrete student/community education role.",
+      "sources": [
+        {
+          "id": "bonior-apa",
+          "url": "https://www.apa.org/monitor/2026/10/andrea-bonior-washington-post-columnist-psychology-insights",
+          "publisher": "American Psychological Association, Monitor on Psychology",
+          "author": "Zara Abrams",
+          "published": "2026-10-01",
+          "method": "opened named interview",
+          "supports": [
+            "advice writing during doctoral training",
+            "creative motivation",
+            "later public education work",
+            "Bethesda practice"
+          ],
+          "excerpt": "I wanted to engage a part of myself that didn’t fit into my coursework"
+        },
+        {
+          "id": "bonior-about",
+          "url": "https://drandreabonior.com/about/",
+          "publisher": "Andrea Bonior",
+          "method": "opened official biography and inspected portrait",
+          "supports": [
+            "Hoyas Connected leadership and student facilitator teaching",
+            "portrait association"
+          ]
+        },
+        {
+          "id": "bonior-access",
+          "url": "https://drandreabonior.com/online-anxiety-therapist-near-washington-dc",
+          "publisher": "Andrea Bonior",
+          "method": "opened official online therapy page",
+          "supports": [
+            "source-stated DC telehealth offering",
+            "private-pay model",
+            "possible out-of-network documentation"
+          ],
+          "limits": "Publisher's Maryland/PSYPACT authorization claims were not independently verified. Do not repeat a changing state count as current verified eligibility."
+        }
+      ],
+      "access": {
+        "sourceId": "bonior-access",
+        "office": "APA interview describes a Bethesda, Maryland practice; no physical Washington, DC office established.",
+        "appointmentLink": "https://drandreabonior.com/online-anxiety-therapist-near-washington-dc",
+        "insurance": "Private pay; documentation for possible out-of-network reimbursement, not guaranteed.",
+        "limits": "DC telehealth is publisher-stated. Confirm patient-location eligibility and current appointment capacity directly. Fees and age eligibility not established. Directory admission depends on existing telehealth/geography rules; do not force DC office membership."
+      },
+      "portrait": {
+        "url": "https://images.squarespace-cdn.com/content/v1/5952f56f36e5d316f6880ec6/1585417198165-3PUJD5Y5E4B6BTFJZCPH/136.jpg",
+        "sourceId": "bonior-about",
+        "format": "WebP",
+        "width": 2500,
+        "height": 2000,
+        "bytes": 1074702,
+        "sha256": "371b3774058011f022dd4ac9e81adec7d9402b880ebb97efaa6e44824fdbf46e",
+        "visual": "Clear individual full-face portrait; blonde hair, purple top, indoor greenery.",
+        "limits": "URL suffix .jpg but decoded bytes are WebP.",
+        "review": {
+          "status": "visually inspected exact downloaded source image",
+          "observedAt": "2026-10-15",
+          "usage": "Candidate for modest local source-linked preview; no initial source-host request.",
+          "reuseTerms": "Not established",
+          "derivativeApproval": false
+        }
+      },
+      "claimStatus": "Source-supported narrative candidate; not independently verified clinical credentials or a counted milestone entry.",
+      "observedAt": "2026-10-15",
+      "narrativeSourceIds": [
+        "bonior-apa",
+        "bonior-about"
+      ]
+    }
+  ]
+}
