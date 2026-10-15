@@ -99,3 +99,61 @@ The fixed starting revision will not advance to hide losses.
 Independent portrait expectations were extended deliberately by one entry,
 not regenerated. Failed/timed-out initial browser attempts are not passes.
 Automated accessible names/operability are not a real screen-reader audit.
+
+
+## Latest checked continuation — 2026-10-15
+
+App revision: ce90ccebe9cd68e3dc866f12a899c73c134ec462
+
+
+**Current checked intersection: 57 unique IDs; 43 remain.** Inventory is still
+94 providers and 72 independently approved local portraits. This adds three
+existing-profile humanity narratives, not three new identities or portraits:
+Susana Ortiz-Urda (`bcc8ed10-6fb4-45b0-a985-644e13055d80`), Valentin Fuster
+(`85e45b1d-b342-45e9-8144-0e8bc3477b01`) and Randy Gould
+(`60d1d4c2-96bb-4815-899c-baff1d5e66ae`).
+Clean claim/excerpt preparation preceded import at data revision
+`0b0871677413ab447b7bd2ed1f7e799fedb83fff`.
+
+The review commit `ee980c52bd6e5d3dc11bafaaffc15e16c43e3a46` was
+fast-forwarded and retained unchanged. The fixed starting revision and
+accepted first-batch checkpoint remain distinct from the evolving cohort.
+The **44 → 54** figures below are the historical first-batch checkpoint, not
+the latest count. Retrospective assessment of old content is not an assessment
+that existed at the old revision.
+
+Complete-block checks exposed an additional presentation omission for Chloe
+Carmichael: the yoga fact was visible but the whole retained API story was
+not. That unchanged story now has a body section with its biography,
+homepage and coaching citations. This is no extra qualifying ID, no routine
+rewrite and no clinical/access/review promotion.
+
+Coverage and functional elapsed time:
+- Required checks passed: type, all-record validation, 72 independent asset
+  checks, immutable-baseline import comparison, 75 contract/assessment/citation
+  tests, 108 API tests and build. New assessment/citation tests run through
+  `test:contract` and therefore `test:all`; immutable history failure is tested.
+- Stronger 57-route native Chromium sweep: 56 desktop completions in 54.579s
+  and 57 touch-mobile completions in 47.455s. The desktop failure was a locator
+  defect: a decorative header thumbnail's empty alt was selected before its
+  lazy main portrait. The check now targets the actual main portrait.
+- Focused confirmation for Ekstrom, Chloe and all three enrichments: five IDs
+  in both viewports passed, desktop 5.9s and mobile 4.059s (16.7s runner total).
+  Thus every current qualifying ID has full-block/citation and actual image,
+  attribution, responsive visibility and initial zero-request/cookie coverage
+  in both viewports. Initial failed runs remain failures, not whole-suite
+  passes. No image interception.
+- Shared-cache contexts/fresh pages are functional evidence, not cold-cache,
+  concurrency, request-latency or thousand-profile performance evidence.
+  The complete unrelated browser suite was not rerun or relabeled.
+
+Additional source/portrait attempts: Aileen Chang's exact named photo handler
+returned HTTP 200 with the text “No Image Found”, not an image. Michael Bain's
+exact named image returned HTTP 202 with a security-challenge HTML page.
+Neither was inspected, delivered or approved; no challenge bypass or guessed
+replacement was attempted. Their fallbacks remain. Schaubach/Bufort-Odom need
+stronger distinctive humanity evidence; mixed Hsu search results were rejected.
+Detailed notes and optional external-research prompts are separate.
+
+The milestone remains open. No deployment or indexing/review/hold promotion.
+
