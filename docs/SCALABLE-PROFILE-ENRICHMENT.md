@@ -6,6 +6,38 @@ October 12, 2026. Goal: help patients understand healthcare choices while depict
 - Selected public evidence/corrections: accessible expandable source detail, with material access conflicts visible beside affected facts.
 - Research archive: deeper investigations, rejected claims, failed retrievals and prompts. Never import wholesale into profile bodies.
 
+## Checked continuation: 63 to 65 — October 15, 2026
+
+The clean [batch output](profile-ready/humanity-batch-results-63-to-65-2026-10-15.json)
+records two qualifying IDs from six existing-profile handoffs. Story-only and
+portrait-only improvements do not inflate the count. Compare accepted IDs
+before sending research handoffs: Lancer was already accepted; Browning,
+Goodman and Ourian still lack appropriate individual portraits, and Sands
+still lacks a qualifying distinctive narrative. Clinical/identity status is
+independent of narrative or media approval.
+
+Preserve prepared candidate packets separately from exact applied output.
+Naysan's final conservative paraphrase retains the candidate's named-source
+planning claims, but the result records its actual paragraph rather than
+rewriting the original input. Source-date additions must remain additive:
+Browning's October 15 observation does not replace her October 1 source.
+Chang's local 150×150 screenshot crop has different provenance from the
+owner-inspected 650×650 original; direct asset 403 and normally rendered
+biography evidence are distinct observations.
+
+Fresh validation at app `df2d87a3c2188a786a2ee1e0423584d8d18b5ca5`:
+108 HTTP tests, 75 contract tests, type check and 111-entity/80-portrait/65-ID/
+fixed-baseline guards passed. Targeted desktop/touch-mobile, actual local image
+decoding, initial privacy and build evidence from the unchanged save candidate
+is reused. Full unrelated browser, real-device/screen-reader and scale/load
+results are not claimed. A failed assertion's inferred Node error formatting
+caused the apparent HTTP stall; inspect the active stack and give exact
+date/content assertions explicit messages before blaming API behavior.
+Keep complete-copy assertions HTML-serialization-aware without reducing them
+to anchor phrases. The [research reconciliation](research/humanity-five-handoffs-reconciliation-2026-10-15.md)
+records unsuccessful runs and the evidence-supported cause. No paid search,
+review/indexing promotion or deployment occurred.
+
 ## One reusable pipeline
 Discover → capture dated evidence → resolve identity and claim scope → compose original content → inspect preview media → validate → import eligible changes → editorial review/indexing decision.
 Each stage can pause one claim without blocking unrelated eligible claims or profiles. Research judgment and human review are not simulated by technical validation.

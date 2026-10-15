@@ -1,0 +1,159 @@
+{
+  "recordedOn": "2026-10-15",
+  "appRevision": "df2d87a3c2188a786a2ee1e0423584d8d18b5ca5",
+  "appParent": "14aa5b9346cbc750e477dd81ca9bf54d2f106d1a",
+  "appSaveCheckpoint": "fc240191742220e55b06f3b5dbaa868cc49a05b3",
+  "fixedBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "preImportPacketRevision": "0fad29f97c891be90c696158e9549b6c72770b95",
+  "preImportPacket": "docs/profile-ready/humanity-import-batch-63-to-65-2026-10-15.json",
+  "researchInputs": [
+    "docs/research/humanity-five-handoffs-source-media-2026-10-15.md",
+    "docs/profile-ready/humanity-five-handoffs-candidates-2026-10-15.md",
+    "docs/research/humanity-portrait-alternatives-chang-bain-2026-10-15.md"
+  ],
+  "count": {
+    "startingQualifyingUniqueIds": 63,
+    "finalQualifyingUniqueIds": 65,
+    "netGain": 2,
+    "remainingTo100": 35,
+    "newProviderRecords": 0,
+    "totalProviderRecords": 95,
+    "independentLocalPortraitInventory": 80,
+    "meaning": "Source-backed humanity narrative plus inspected immediate local source-linked portrait. Not clinical verification or completed human review."
+  },
+  "applied": [
+    {
+      "id": "2648ca1f-a0da-4c4a-befc-6b46dc525e87",
+      "name": "Aileen Chang",
+      "path": "aileenchang",
+      "directory": "san-francisco-dermatologists",
+      "qualifyingNetGain": 1,
+      "narrativeSectionId": "humanity-narrative-aileen-chang-2026-10-15",
+      "narrativeText": "Aileen Chang's UCSF Department of Dermatology biography describes research on how social and structural factors shape the development, clinical presentation, and treatment of skin conditions. It also describes her interdisciplinary work on lymphedema and wound care, and dermatology capacity in low-resource settings. From 2017 to 2024, she served as founding director of the ZSFG Dermatology Consult Service. This is the department's account of her work, not verified patient outcomes or a current appointment offer.",
+      "sourceIds": ["aileen-chang-dermatology-profile"],
+      "sourcePage": "https://dermatology.ucsf.edu/about-us/our-team/aileen-chang-md",
+      "accessSectionId": "patient-access-aileen-chang-2026-10-15",
+      "portrait": {
+        "usage": "local-source-screenshot",
+        "sourceAsset": "https://dermatology.ucsf.edu/sites/dermatology.ucsf.edu/files/styles/max_fp_650x650/public/2024-09/Aileen%20Chang_Headshot.jpg.webp?h=6c0ecf46&itok=PupvRp60",
+        "sourceObservation": "Owner inspected the 650x650 original WebP. Workspace direct GET returned 403; the normally rendered named official page displayed the portrait. Local delivery is an unenlarged page screenshot crop, not those original bytes.",
+        "path": "/images/providers/aileenchang-source-screenshot.png",
+        "width": 150,
+        "height": 150,
+        "sha256": "2b8ed5b3c278d1808901e49c93b1a22ea4cc46bcf60dea5428a0366c5973ceb8",
+        "checkedOn": "2026-10-15"
+      }
+    },
+    {
+      "id": "d770d623-3204-4cf7-b529-f16b2bcdc501",
+      "name": "Daniel Naysan",
+      "path": "danielnaysan",
+      "directory": "beverly-hills-cosmetic-dentists",
+      "qualifyingNetGain": 1,
+      "narrativeSectionId": "humanity-approach-naysan-2026-10-15",
+      "narrativeText": "Bedford Dental Group's profile says Daniel Naysan considers facial structure and bite while planning care. The practice describes inviting patients to try wearable mockups before permanent work, giving them a role in shaping the proposed result. This is the practice's account of a planning method; it does not establish outcomes, promise a particular result, or show that every case uses the same process.",
+      "wordingReconciliation": "This conservative applied paraphrase differs from the pre-import candidate draft; it retains the same source-mapped planning claims and explicit outcome/every-case limits. The original pre-import packet remains unchanged.",
+      "sourceIds": ["naysan-humanity-approach-2026-10-15"],
+      "sourcePage": "https://www.bhdentists.com/who-we-are/",
+      "accessSectionId": "patient-access-naysan-2026-10-15",
+      "portrait": {
+        "usage": "local-source-preview",
+        "sourcePage": "https://www.bhdentists.com/daniel-naysan-dds/",
+        "sourceAsset": "https://www.bhdentists.com/wp-content/uploads/2026/07/bdg-dr-daniel-hero.jpg",
+        "path": "/images/providers/danielnaysan-source-preview.jpg",
+        "width": 1200,
+        "height": 800,
+        "sha256": "62e49eee2cf8a101dec18d5c4708f6310839b700fb01bea16c29a92db87ab5eb",
+        "checkedOn": "2026-10-15"
+      }
+    },
+    {
+      "id": "3de0928a-38b5-475e-a8f3-b01a5239d6f6",
+      "name": "Damaris Browning",
+      "path": "damarisbrowningDDS",
+      "directory": "dentists-cupertino",
+      "qualifyingNetGain": 0,
+      "narrativeSectionId": "humanity-career-and-interests-browning-2026-10-15",
+      "narrativeText": "Browning's first-person biography says her interest in science led her to dentistry. The account describes studying biology at UCLA and spending three years in hematology and oncology research involving recombinant DNA and stem cells before she chose dentistry. It also says she enjoys travel and completed three Spartan races with her husband; the source's relative timing is undated, so no calendar year is supplied. These details are attributed to her practice biography, not independent clinical findings.",
+      "sourceIds": ["cupertino-damaris-browning-humanity-2026-10-15"],
+      "sourcePage": "https://www.cupertinocosmetic.dentist/meet-dr--browning",
+      "held": "Couple photograph does not explicitly identify her position. No assumed identity, crop or primary portrait approval."
+    },
+    {
+      "id": "5a9cddfd-9de3-45b1-904d-83c8c07034e5",
+      "name": "Joseph Goodman",
+      "path": "josephgoodman",
+      "directory": "beverly-hills-cosmetic-dentists",
+      "qualifyingNetGain": 0,
+      "narrativeSectionId": "humanity-second-opinion-goodman-2026-10-15",
+      "narrativeText": "A September 2026 article published by his practice says a second opinion is not automatically about disagreeing with the first dentist. It describes Goodman's emphasis on explaining proposed care, alternatives, and longer-term implications before major smile changes. This is the practice's account, not an independent assessment of the merits of any recommendation. Conflicting biography chronology and training descriptions remain unresolved and are not repeated here.",
+      "sourceIds": ["goodman-second-opinion-2026-10-15"],
+      "sourcePage": "https://topbeverlyhillsdentist.com/cosmetic-dentistry-second-opinion-beverly-hills-ca-highlights-why-patients-are-asking-more-questions-before-major-smile-changes/",
+      "held": "No suitable named individual portrait; studio group photo remains rejected. Chronology/training discrepancies remain unresolved."
+    },
+    {
+      "id": "c80972df-6008-4246-8665-e5c46f90dfbd",
+      "name": "Kevin Sands",
+      "path": "kevinsands",
+      "directory": "beverly-hills-cosmetic-dentists",
+      "qualifyingNetGain": 0,
+      "sourceIds": ["sands-portrait-2026-10-15"],
+      "sourcePage": "https://www.90210dentist.net/practice-overview/",
+      "portrait": {
+        "usage": "local-source-preview",
+        "sourceAsset": "https://www.90210dentist.net/wp-content/uploads/2019/04/drsands2.png",
+        "path": "/images/providers/kevinsands-source-preview.png",
+        "width": 548,
+        "height": 822,
+        "sha256": "6621cac9f2128303973a1cd18950a4108eb57eac9e84344a22814d0a128fec0f",
+        "checkedOn": "2026-10-15"
+      },
+      "held": "No qualifying distinctive narrative established. Earlier cookie evidence concerned a separate sister-site image and remains dated history."
+    },
+    {
+      "id": "fbb6c96c-3ab2-4859-a5af-0c3818299771",
+      "name": "Simon Ourian",
+      "path": "simonourian",
+      "directory": "dermatologists-beverly-hills",
+      "qualifyingNetGain": 0,
+      "narrativeSectionId": "humanity-sculpture-interest-ourian-2026-10-15",
+      "narrativeText": "Epione's official biography describes Simon Ourian's early interest in art and sculpture and his continuing interest in sculpture alongside his medical work. The page calls him a sculptor by vocation and connects attention to human form with his artistic interests. This is the practice's account of an interest and work approach; it does not establish clinical outcomes, board certification, or an independently verified specialty credential.",
+      "sourceIds": ["simonourian-epione-humanity-2026-10-15"],
+      "sourcePage": "https://www.epionebh.com/simon-ourian",
+      "held": "Inspected sculpting image is contextual, not a full-face primary portrait; no primary image imported."
+    }
+  ],
+  "excludedAlreadyAccepted": ["Harold Lancer"],
+  "preserved": [
+    "All stable IDs, canonical paths, aliases and directory memberships",
+    "Complete earlier stories, sources, dated evidence and corrections",
+    "Unknown access facts and material availability, identity and clinical conflicts",
+    "Obeng hold and all clinical, licensing, review and indexing controls",
+    "Prior rejected media and unsuccessful source observations"
+  ],
+  "checks": {
+    "fresh": {
+      "http": {"passed": 108, "failed": 0, "skipped": 0, "durationMs": 9607.668469},
+      "contract": {"passed": 75, "failed": 0, "skipped": 0},
+      "typeCheck": "passed",
+      "allRecordValidation": "111 entity files passed",
+      "approvedPortraitGuard": "80 independent deliveries, hashes and source links passed",
+      "humanityGuard": "65 unique IDs passed",
+      "fixedBaselinePreservation": "passed"
+    },
+    "reusedUnchangedFromSaveCheckpoint": [
+      "Production build passed",
+      "Two targeted Chang/Naysan desktop and touch-enabled mobile browser tests passed",
+      "Six affected routes in both viewports: complete additions, source links, actual local image decoding and zero initial external requests/cookie observations",
+      "Direct API checks for six profiles and Cupertino directory"
+    ],
+    "limitations": [
+      "No newly run full unrelated browser suite or real-device Safari/screen-reader audit",
+      "No load/performance demonstration at thousands",
+      "No intercepted portrait used as proof of actual external source delivery",
+      "No human-review, clinical-verification, license-verification or indexing promotion"
+    ]
+  },
+  "mediaTerms": "Unknown reuse terms remain unknown. Ordinary modest local source-linked previews only; no ownership, blanket license, derivative-card or clinical approval.",
+  "deployment": "Not authorized; not performed."
+}

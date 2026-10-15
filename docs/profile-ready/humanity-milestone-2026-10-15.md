@@ -2,6 +2,36 @@
 
 **Goal: 100 unique provider IDs. Not yet reached. No deployment authorized.**
 
+## Latest checked continuation: 63 → 65
+
+Current qualifying intersection: **65 stable unique provider IDs; 35 remain**.
+App main: `df2d87a3c2188a786a2ee1e0423584d8d18b5ca5`. Inventory: 95 provider
+records and 80 independently recorded local portrait deliveries. No new
+provider identities in this batch.
+
+Aileen Chang and Daniel Naysan add two qualifiers. Browning, Goodman and Ourian
+received supported narratives but remain without suitable primary portraits.
+Sands received an inspected immediate local portrait but has no qualifying
+humanity narrative. Lancer was already counted and excluded. Bexter's completed
+image research was not repeated.
+
+Clean applied text/media/counts and actual validation scope:
+[`humanity-batch-results-63-to-65-2026-10-15.json`](humanity-batch-results-63-to-65-2026-10-15.json).
+Detailed investigation and unresolved handoffs are separate in
+[`humanity-five-handoffs-reconciliation-2026-10-15.md`](../research/humanity-five-handoffs-reconciliation-2026-10-15.md).
+The pre-import packet remains at `0fad29f`; incoming owner research/candidate
+commits were preserved.
+
+Fresh full HTTP 108/108, contract 75/75, type and all-record/portrait/humanity/
+fixed-baseline guards passed. Earlier unchanged targeted desktop/touch-mobile,
+actual local decoding/privacy and build results are reused, not relabeled as
+new runs. Earlier HTTP timeouts were diagnosed and resolved without skipping
+tests. No unrelated full browser rerun, performance/load or clinical/human
+approval is claimed. All holds, source history, IDs/routes and review/indexing
+controls remain; no deployment.
+
+The sections below retain historical checkpoint counts.
+
 Fixed starting app revision: `0e71f02b718ddcd1003dd504aa44c1bb103c6894`.
 Source preparation: public data revision
 `8aa83158ab0c01bbdac0a0577bb64d1cbd6ef4bd`, before import.
