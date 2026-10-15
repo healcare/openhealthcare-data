@@ -79,9 +79,9 @@
       "canonicalPath": "davidheilman",
       "disposition": "enrich-existing",
       "narrative": {
-        "sectionId": "professional-background",
-        "heading": "Professional background",
-        "text": "David A. Heilman’s biography traces a path from professional opera singing to clinical psychology, describing earlier music study at Juilliard, the San Francisco Conservatory of Music and Music Academy of the West. He says that opera experience continues to shape how he understands performing under pressure and being evaluated. He describes his therapeutic approach as collaborative, direct and grounded, with attention to how relationships and recurring patterns emerge; these are his descriptions, not promises of outcome.",
+        "sectionId": "work-approach-2026-10-14",
+        "heading": "How he describes his work",
+        "text": "He says that his opera experience continues to shape how he understands performing under pressure and being evaluated. He describes his therapeutic approach as collaborative, direct and grounded, with attention to how relationships and recurring patterns emerge; these are his descriptions, not promises of outcome.",
         "source": {
           "id": "david-heilman-biography-2026-10-14",
           "url": "https://www.davidheilman.com/about/",
@@ -93,19 +93,15 @@
         },
         "claimMap": [
           {
-            "claim": "Heilman reports working as a professional opera singer before psychologist training.",
-            "excerpt": "Before training as a psychologist, I worked as a professional opera singer and studied at The Juilliard School, The San Francisco Conservatory of Music, and Music Academy of the West."
-          },
-          {
-            "claim": "He says that experience continues to shape his understanding of performing under pressure and evaluation.",
+            "claim": "He says that his opera experience continues to shape how he understands performing under pressure and being evaluated.",
             "excerpt": "That experience continues to shape my understanding of what it means to perform under pressure and to have one’s work evaluated in highly visible, high stakes settings."
           },
           {
-            "claim": "He describes his approach as collaborative, direct and grounded, and centers the therapeutic relationship and recurring patterns.",
+            "claim": "He describes his therapeutic approach as collaborative, direct and grounded, with attention to how relationships and recurring patterns emerge; these are his descriptions, not promises of outcome.",
             "excerpt": "At the center of my work is the belief that meaningful change happens through relationship. The therapeutic relationship itself often becomes a place where familiar patterns emerge and can be explored with care and openness. [...] My approach is collaborative, direct, and grounded."
           }
         ],
-        "disposition": "Extend the existing dated professional-background narrative in place, retaining its original career and training sentence, older source citation and adding a fresh dated biography source. No duplicate journey section."
+        "disposition": "Add a distinct source-mapped work-approach section while preserving the previously accepted professional-background block and its October 1 citation. This profile was already counted at the 62-ID baseline; no net milestone gain."
       },
       "access": {
         "sectionId": "availability-observation-2026-10-14",
@@ -165,7 +161,13 @@
       },
       "clinicalProjection": "The existing Washington DC sourceStatedNarrativeOnlyPaths already contains davidheilman. Keep it unchanged; no clinical or credential fields change.",
       "milestoneDisposition": "already accepted at the 62-ID starting checkpoint via professional-background; this batch is media/access enrichment only, not a new qualifier",
-      "expectedNetGain": 0
+      "expectedNetGain": 0,
+      "alreadyAcceptedNarrative": {
+        "field": "professional-background",
+        "sourceId": "david-heilman-bio-2026-10-01",
+        "text": "David A. Heilman’s biography traces a path from professional opera singing to clinical psychology, describing earlier music study at Juilliard, the San Francisco Conservatory of Music and Music Academy of the West.",
+        "disposition": "Preserved verbatim; no acceptance decision changed."
+      }
     }
   ],
   "held": [
