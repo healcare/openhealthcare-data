@@ -2,6 +2,19 @@
 
 **Goal: 100 unique provider IDs. Not yet reached. No deployment authorized.**
 
+## Current checked continuation: 72 → 74 — October 15, 2026
+
+**Current checked intersection: 74 of 100 unique provider IDs; 26 remain.** The roster contains 103 stable provider IDs and the independent local portrait inventory contains 89 deliveries. The checked app revision is `b0c16009d5810f4a2cf670cad2c9cfe293033604` (parent `8b8597551bfe778aa8f821ac1fe1e9437a649716`); fixed baseline `0e71f02b718ddcd1003dd504aa44c1bb103c6894`. The input data main revision was `e5f3e9bac0466ecff7300681551c620b24b2ea35`.
+
+Two new source-backed records qualify in the existing Washington, DC psychotherapy directory: Stacy Notaras Murphy (`fc324301-6429-4791-9abb-2acf8817ec2d`, `/stacynotarasmurphy`) and Kathleen Smith (`737d2e5e-ec5c-4c6f-be98-2625c349e0a9`, `/kathleensmith`). Each has a distinct source-mapped humanity narrative, useful access observations and unknowns, and an individually inspected immediately served local portrait with source attribution. They remain source-stated, unclaimed, nonindexable, pending human review and pending license lookup. No clinical/licensing verification, rights clearance, human approval or review/index promotion is implied.
+
+The directory increased from 8 to 10 members; existing member dates, its directory verification date, indexability and older evidence were preserved. Murphy’s source-supported regional telehealth/in-person limits and out-of-network terms remain visible. Smith’s DC therapy location is distinct from worldwide Bowen Theory coaching; that coaching geography does not establish psychotherapy eligibility. Reimbursement is not guaranteed, and unknown age/capacity/geography/fee details remain explicit.
+
+Clean applied record with narrative, access, named source URLs, exact source/local image dimensions and hashes, status, tests and limitations: [`humanity-batch-results-72-to-74-2026-10-15.json`](humanity-batch-results-72-to-74-2026-10-15.json). Clean pre-import input: [`humanity-dc-two-preimport-2026-10-15.json`](humanity-dc-two-preimport-2026-10-15.json). Separate detailed source observations, including Murphy’s changed response format/hash and access-source retrieval notes: [`../research/humanity-dc-two-preimport-2026-10-15.md`](../research/humanity-dc-two-preimport-2026-10-15.md).
+
+Fresh validation: all-record/preservation and fixed-baseline checks; 103 providers, 13 directories, 89 independent portrait records and 74 qualifying IDs; type-check, build, HTTP/API 109/109 and contract 81/81 passed. Six targeted browser cases passed (3 patient-ready desktop/touch-mobile, 1 separate Smith touch activation, 2 affected DC directory cases), and four screenshots were inspected. No third-party request or cookie was observed before explicit interaction. The tap test establishes the post-tap URL/request, not external page-body success. The unrelated full browser suite, real screen-reader/Safari test, clinical/license verification, load/performance trial and deployment were not performed.
+
+Three prepared queue candidates remain unadmitted: Andersen lacks the required named Manhattan location and has low-resolution portrait media; Narula’s identity/location reconciliation is blocked by inaccessible (403) access pages; Bonior’s Bethesda practice plus DC telehealth does not establish DC directory fit. No search was repeated or exception inferred.
 ## Prior checked continuation: 65 → 66
 
 At that checkpoint, the qualifying intersection was **66 stable unique provider IDs; 34 remained**.
