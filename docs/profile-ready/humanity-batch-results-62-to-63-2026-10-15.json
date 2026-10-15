@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-15",
+  "purpose": "Applied results for the pre-import Bouzid/Heilman packet; deeper candidate research is recorded separately.",
+  "startingQualifyingUniqueProviderIds": 62,
+  "endingQualifyingUniqueProviderIds": 63,
+  "remainingToGoal": 37,
+  "providerRecords": 95,
+  "independentlyInventoriedLocalPortraitDeliveries": 77,
+  "qualifiedIdsAdded": 1,
+  "newProviderRecords": 0,
+  "profiles": [
+    {
+      "id": "e6953022-721e-4ccc-95d6-4c13e15d53e3",
+      "name": "Michael Bouzid",
+      "path": "/michaelbouzidDDS",
+      "directory": "dentists-cupertino",
+      "result": "newly qualifies; net +1",
+      "narrative": "Extended the existing source-mapped interests section with the biography's specific statement that he plays soccer regularly; the French-language statement remains explicitly source-stated, not a clinical-communication assessment.",
+      "sources": [
+        "https://www.drbouzid.com/about-us/dr-michael-bouzid/"
+      ],
+      "portrait": {
+        "disposition": "new immediate local source-linked preview",
+        "localPath": "/images/providers/michaelbouzid-source-preview.webp",
+        "sourcePage": "https://www.drbouzid.com/about-us/dr-michael-bouzid/",
+        "exactAsset": "https://www.drbouzid.com/wp-content/uploads/sites/7535/2020/10/Dr-Bouzid.jpg?resize=300,199",
+        "decodedDimensions": "300x199",
+        "sha256": "04b943314e2716b17c4992401ec2388988473a0db32b5e517924fbd5261637e6",
+        "visuallyInspectedOn": "2026-10-14",
+        "sourceImageSetCookieObserved": false,
+        "reuseTerms": "Unknown. Ordinary modest source-linked preview only; no ownership, blanket license, derivative-card, or clinical approval."
+      },
+      "preservation": "Existing ID, canonical path, aliases, directory membership, structured clinical fields, review/indexing states, contact and insurance limits remain unchanged."
+    },
+    {
+      "id": "e97eec81-8664-4115-a76f-2ceb0098d0d5",
+      "name": "David A. Heilman",
+      "path": "/davidheilman",
+      "directory": "psychotherapists-washington-dc",
+      "result": "already qualified at starting checkpoint; net +0",
+      "narrative": "The accepted professional-background block remains unchanged. A separate source-mapped section describes the biography's account of how opera experience informs his work approach. A dated access section reports the contact-page new-client statement, retains the October 1 availability conflict, and says actual appointment capacity/opening is not established.",
+      "sources": [
+        "https://www.davidheilman.com/about/",
+        "https://www.davidheilman.com/contact/"
+      ],
+      "portrait": {
+        "disposition": "upgrade of existing approved delivery, not a new approval",
+        "localPath": "/images/providers/davidheilman-source-preview.webp",
+        "sourcePage": "https://www.davidheilman.com/about/",
+        "exactAsset": "https://www.davidheilman.com/wp-content/uploads/2022/04/DHHeadshot-Square.jpg.webp",
+        "decodedDimensions": "2046x2046",
+        "sha256": "96a20efd8d9543b8dbba4050868543da51aa3fc41119cb8e10f44eaf308893da",
+        "visuallyInspectedOn": "2026-10-14",
+        "sourceImageSetCookieObserved": false,
+        "reuseTerms": "Unstated. Source-linked preview only; no ownership, blanket license, derivative-card, identity, or clinical approval."
+      },
+      "preservation": "Existing ID, route, aliases, sources, structured clinical fields, editorial narrative-only boundary and review/indexing states preserved; availability conflict remains visible."
+    }
+  ],
+  "held": {
+    "bexterYang": {
+      "result": "not qualified; fallback retained",
+      "note": "The user's reconciled research at public data commit 619111524920da4180370db5f6c326e3adccd589 records a 640x426 office/context image with limited headshot detail, a generic UCSF avatar, and an unrelated stock scene. His named-biography work-approach lead is already captured. No image search was repeated; no new asset, crop, upscaling, or primary-portrait approval."
+    }
+  },
+  "validation": {
+    "typecheck": "npm run check passed",
+    "productionBuild": "passed",
+    "urlAssessmentCitationContracts": "75 passed, 0 skipped",
+    "httpApiTests": "108 passed, 0 skipped",
+    "humanityAudit": "63 qualifying IDs",
+    "patientReadyPortraitGuard": "77 deliveries passed",
+    "perBatchImportGuard": "passed against app parent 7c32ac4c641229acc89b39031866bc80213374ff",
+    "fixedHistoricalPreservation": "passed using immutable baseline 0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+    "targetedPatientReadyBrowser": {
+      "desktop": "passed; both affected IDs checked",
+      "touchMobile": "passed; both affected IDs checked",
+      "initialThirdPartyRequests": 0,
+      "initialThirdPartyCookies": 0,
+      "localPortraits": "actual local images decoded with expected dimensions and visible source links"
+    },
+    "firstHttpAttempt": {
+      "classification": "two stale exact-value test expectations, not application regressions",
+      "resolution": "updated assertions to require Bouzid's additive source-backed copy and Heilman's new sections, sources, and visible access conflict; rerun passed 108/108"
+    },
+    "fullBrowserSuite": "Not rerun for this data-only batch; targeted affected-profile checks were fresh. Earlier broader suite evidence is not relabeled as fresh.",
+    "limitations": "Functional checks do not establish performance at thousands, independent clinical verification, human review, physical Safari, or a screen-reader audit."
+  },
+  "sourcePreparationRevision": "bf20ca8598e49437058e7b660b696a003bc9704b",
+  "appParentRevision": "7c32ac4c641229acc89b39031866bc80213374ff",
+  "appRevision": "7a933bde33a433c8a71292a904cfb5bd507814d6",
+  "appLocalAndOriginAgree": true,
+  "deployment": "Not performed."
+}
