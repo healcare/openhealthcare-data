@@ -68,7 +68,9 @@
         "localSha256": "04b943314e2716b17c4992401ec2388988473a0db32b5e517924fbd5261637e6",
         "terms": "Unknown. Ordinary source-linked profile preview only; no ownership, blanket license, derivative-card approval or clinical verification claim."
       },
-      "clinicalProjection": "The existing dentists-cupertino sourceStatedNarrativeOnlyPaths already contains michaelbouzidDDS. Keep it unchanged; new narrative sources do not verify or broaden credential claims."
+      "clinicalProjection": "The existing dentists-cupertino sourceStatedNarrativeOnlyPaths already contains michaelbouzidDDS. Keep it unchanged; new narrative sources do not verify or broaden credential claims.",
+      "milestoneDisposition": "potential-new-qualifier; the existing narrative lacked an explicit humanity assessment and an approved local portrait at the app baseline",
+      "expectedNetGain": 1
     },
     {
       "id": "e97eec81-8664-4115-a76f-2ceb0098d0d5",
@@ -161,7 +163,9 @@
         "identityAndLicenseReview": "not independently verified; no review promotion",
         "availability": "append current dated source statement and keep historical conflict/unknown actual capacity"
       },
-      "clinicalProjection": "The existing Washington DC sourceStatedNarrativeOnlyPaths already contains davidheilman. Keep it unchanged; no clinical or credential fields change."
+      "clinicalProjection": "The existing Washington DC sourceStatedNarrativeOnlyPaths already contains davidheilman. Keep it unchanged; no clinical or credential fields change.",
+      "milestoneDisposition": "already accepted at the 62-ID starting checkpoint via professional-background; this batch is media/access enrichment only, not a new qualifier",
+      "expectedNetGain": 0
     }
   ],
   "held": [
@@ -182,6 +186,8 @@
     "zero initial third-party requests and cookies",
     "compare machine-readable clinical/credential projection before and after"
   ],
-  "qualification": "Potential net gain is two only after import, audit, API/rendering checks and targeted browser tests pass. This preparation packet alone does not add to the qualifying count.",
-  "deployment": "Not authorized; not performed."
+  "qualification": "The current baseline audit already counts David A. Heilman. Only Michael Bouzid is a potential net gain; the final count changes only if all checks pass. Preparation/import alone does not qualify a profile.",
+  "deployment": "Not authorized; not performed.",
+  "startingQualifyingUniqueProviderIds": 62,
+  "expectedNetQualifyingGain": 1
 }
