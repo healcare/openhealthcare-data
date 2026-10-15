@@ -1,0 +1,200 @@
+{
+  "preparedOn": "2026-10-15",
+  "purpose": "Clean source-mapped pre-import candidates; not proof of app delivery, independent clinical verification, human review, or reuse rights.",
+  "appPreImportRevision": "8b8597551bfe778aa8f821ac1fe1e9437a649716",
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "sourceResearch": {
+    "preparedPacket": "docs/profile-ready/humanity-followon-cardiology-dc-2026-10-15.json",
+    "revision": "c77aebcb90ca91ce414022108c4f6947d884e6de",
+    "review": "docs/research/humanity-followon-cardiology-dc-review-2026-10-15.md",
+    "revisionReview": "ca914f07a4111bf9c4619b990edd3a555a2a5d70"
+  },
+  "currentRecordReconciliation": {
+    "appRecordsSearched": 101,
+    "directory": "psychotherapists-washington-dc",
+    "existingMemberCount": 8,
+    "exactIdentityPathAliasConflicts": 0,
+    "proposedRecords": 2,
+    "proposedMemberCount": 10,
+    "directoryCurrentIndexable": true,
+    "doNotChangeDirectoryIndexing": true,
+    "proposedProfileIndexable": false,
+    "proposedReviewStatus": "pending-human-review",
+    "proposedLicenseLookupStatus": "pending",
+    "existingHoldsAndFlags": "Preserve; no independent license/clinical verification or review promotion."
+  },
+  "pathValidation": {
+    "murphy": {
+      "suggestion": "stacynotarasmurphy",
+      "recommendedByExistingValidator": true,
+      "collision": "none",
+      "nameSupport": "Full published name; family component kept as the contiguous source-stated phrase Notaras Murphy without assigning an unsupported middle name."
+    },
+    "smith": {
+      "suggestion": "kathleensmith",
+      "recommendedByExistingValidator": true,
+      "collision": "none"
+    }
+  },
+  "candidates": [
+    {
+      "id": "fc324301-6429-4791-9abb-2acf8817ec2d",
+      "name": "Stacy Notaras Murphy",
+      "canonicalPath": "stacynotarasmurphy",
+      "directory": "psychotherapists-washington-dc",
+      "nameParts": {
+        "display": "Stacy Notaras Murphy",
+        "given": "Stacy",
+        "family": "Notaras Murphy",
+        "sourceIds": [
+          "murphy-about"
+        ]
+      },
+      "narrative": {
+        "heading": "Writing and learning about relationships",
+        "text": "Before her counseling career, Stacy Notaras Murphy worked as a business writer and editor. Her biography says she began bringing those reporting skills to psychology writing in 2005, when she became a regular contributor to Counseling Today. She describes an interest in relationships leading into couples work and later study of trauma’s effects on relationships. She also describes meeting with other therapists for consultation and support.",
+        "sourceIds": [
+          "murphy-about"
+        ]
+      },
+      "access": {
+        "heading": "Before arranging care",
+        "text": "Her FAQ lists in-person sessions at a Dupont Circle office and telehealth for residents of DC or Virginia; Maryland residents are seen in person only. The reviewed page does not establish a street address. It lists $250 for individual 50-minute sessions and $315 for 55-minute couples/family sessions, observed October 15, 2026. The page describes an out-of-network model, full payment at service, and monthly statements that may support reimbursement; reimbursement is not guaranteed. Current appointment capacity and age eligibility are not established.",
+        "sourceIds": [
+          "murphy-access"
+        ]
+      },
+      "sources": [
+        {
+          "id": "murphy-about",
+          "url": "https://www.stacymurphylpc.com/about-me",
+          "label": "Biography",
+          "publisher": "Stacy Notaras Murphy",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "murphy-access",
+          "url": "https://www.stacymurphylpc.com/faqs-fees",
+          "label": "FAQs + Fees",
+          "title": "FAQs + Fees",
+          "publisher": "Stacy Notaras Murphy",
+          "sourceType": "official-practice-page",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "portrait": {
+        "sourcePage": "https://www.stacymurphylpc.com/about-me",
+        "sourceAsset": "https://images.squarespace-cdn.com/content/v1/5e10c7d04eae7b3046077bdb/70d56df3-0aee-4b10-958c-af8122c84531/Stacy+headshot+2026.png",
+        "currentSource": {
+          "format": "PNG",
+          "width": 1186,
+          "height": 1327,
+          "bytes": 3301095,
+          "sha256": "fccaef0cf63fa1e67f062b847131ab72415354a61e3762de8f0ca41bea1cf243",
+          "httpStatus": 200,
+          "setCookieHeader": false
+        },
+        "packetObservation": {
+          "format": "WebP",
+          "width": 1186,
+          "height": 1327,
+          "sha256": "b313426dd2fafbf55a099615544f30ea9edb2c7049e329ca4d4aaf91738568a2"
+        },
+        "localDelivery": {
+          "url": "/images/providers/stacynotarasmurphy-source-preview.webp",
+          "format": "WebP",
+          "width": 572,
+          "height": 640,
+          "bytes": 40778,
+          "sha256": "ada94eacbe65eae9919d06c96b83b175d6d8f68874ff76d6e232a6c8577b1657",
+          "method": "Proportional resize to a 640-pixel maximum dimension; no crop."
+        },
+        "visualInspection": "Exact image fetched from the URL linked in current official biography; clear individual full-face portrait. Source and local resized delivery both visually inspected.",
+        "reuseTerms": "Unknown; modest source-linked local preview only, no ownership or derivative-card approval."
+      }
+    },
+    {
+      "id": "737d2e5e-ec5c-4c6f-be98-2625c349e0a9",
+      "name": "Kathleen Smith",
+      "canonicalPath": "kathleensmith",
+      "directory": "psychotherapists-washington-dc",
+      "nameParts": {
+        "display": "Kathleen Smith",
+        "given": "Kathleen",
+        "family": "Smith",
+        "sourceIds": [
+          "smith-about"
+        ]
+      },
+      "narrative": {
+        "heading": "Writing, teaching and relationship patterns",
+        "text": "Kathleen Smith’s biography describes writing a therapy newsletter as one of her favorite parts of the work week. It also describes talking with friends about relationships in television shows and teaching family-systems ideas to clinicians and other professional groups. The profile keeps these documented writing, interest and teaching details separate from claims about treatment results.",
+        "sourceIds": [
+          "smith-about"
+        ]
+      },
+      "access": {
+        "heading": "Therapy access and separate services",
+        "text": "Her therapy page lists an office at 1900 L Street NW, Washington, DC, and says she also sees clients virtually. She says she does not accept insurance directly but can provide documentation for possible out-of-network reimbursement for DC residents or people seen in DC; reimbursement is not guaranteed. The site separately describes virtual Bowen Theory coaching/consulting for people worldwide. That coaching geography does not establish therapy eligibility outside DC. Current therapy-location eligibility, capacity, fees and age eligibility are not established.",
+        "sourceIds": [
+          "smith-therapy"
+        ]
+      },
+      "sources": [
+        {
+          "id": "smith-about",
+          "url": "https://kathleensmithwrites.com/therapist-and-author/",
+          "label": "Meet Kathleen",
+          "title": "Meet Kathleen",
+          "publisher": "Kathleen Smith",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "smith-therapy",
+          "url": "https://kathleensmithwrites.com/therapy/",
+          "label": "Therapy, Coaching & Consulting",
+          "title": "Therapy, Coaching & Consulting",
+          "publisher": "Kathleen Smith",
+          "sourceType": "official-practice-page",
+          "retrievedDate": "2026-10-15",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "portrait": {
+        "sourcePage": "https://kathleensmithwrites.com/therapy/",
+        "sourceAsset": "https://kathleensmithwrites.com/wp-content/uploads/2023/11/Author-and-Therapist-Kathleen-Smith_BW-scaled.jpg",
+        "currentSource": {
+          "format": "JPEG",
+          "width": 1707,
+          "height": 2560,
+          "bytes": 490827,
+          "sha256": "4b2c6cf27dc38ddacbd366755dcebd802aa757bf30503c004e9c4eea8b830197",
+          "packetHashMatched": true,
+          "httpStatus": 200,
+          "setCookieHeader": false
+        },
+        "localDelivery": {
+          "url": "/images/providers/kathleensmith-source-preview.webp",
+          "format": "WebP",
+          "width": 427,
+          "height": 640,
+          "bytes": 25468,
+          "sha256": "868f26cc0fd1c6a147de3d218110fbeaa110e4e35dc977da79e33dd217009f2a",
+          "method": "Proportional resize to a 640-pixel maximum dimension; no crop."
+        },
+        "visualInspection": "Exact image linked from current official therapy page; clear individual full-face black-and-white portrait. Source and local resized delivery both visually inspected.",
+        "reuseTerms": "Unknown; modest source-linked local preview only, no ownership or derivative-card approval."
+      }
+    }
+  ],
+  "notImportedYet": true
+}
