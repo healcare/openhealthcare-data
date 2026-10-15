@@ -2,7 +2,7 @@
   "packetVersion": 1,
   "preparedOn": "2026-10-15",
   "status": "clean-preimport-candidate-packet",
-  "sourceAppRevision": "86bb5839462d1995ecd2fa257a6154d8d18b5ca9",
+  "sourceAppRevision": "86bb5839462d1995ecd2fa257a6151be9882cec9",
   "sourceDataRevision": "dd72a97ee9562d1a3ec1075cf52acda203a0bf70",
   "acceptedCountBefore": 66,
   "providerFileCountBefore": 95,
@@ -128,5 +128,6 @@
       }
     }
   ],
-  "applicationStatus": "Prepared for import; no providers or accepted count changed by this document."
+  "applicationStatus": "Prepared for import; no providers or accepted count changed by this document.",
+  "pathStandard": "docs/profile-url-standard-2026-10-12.md: lowercase, recognizable, no separator when readable; identity and collision checked."
 }
