@@ -51,4 +51,11 @@
     {"name":"Tiffany Bufort-Odom","reason":"Opened retained Bio Site and Brainspotting listing; scheduling/newsletter/training links and directory facts do not supply a sufficiently distinctive narrative. Newsletter is a followable research lead, not assumed evidence."},
     {"name":"Lawrence P. Hsu","reason":"Search results mixed unrelated names and a Seattle acupuncturist. Do not attach those biographies to the La Jolla pediatrician."}
   ]
+,
+  "followOnBatchResult": {
+    "path": "docs/profile-ready/humanity-batch-results-2026-10-15.json",
+    "checkedOn": "2026-10-15",
+    "appRevision": "0cfb694f9dcc59e558e2b8ef931e43e64c8baf11",
+    "prior57CheckpointPreserved": true
+  }
 }

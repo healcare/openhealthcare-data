@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-15",
+  "purpose": "Applied results for the prepared humanity-enrichment packets; detailed search notes and pending handoffs are separate.",
+  "startingQualifyingUniqueProviderIds": 57,
+  "endingQualifyingUniqueProviderIds": 62,
+  "currentProviderRecords": 95,
+  "qualifiedIdsAdded": 5,
+  "newProviderRecords": 1,
+  "profiles": [
+    {
+      "id": "e898c6dd-92f8-49e2-87bb-68a0689b8fe8",
+      "name": "Michael B. First",
+      "canonicalPath": "/michael-b-first",
+      "result": "qualified",
+      "narrativeDisposition": "Added source-mapped mentorship and interdisciplinary career-story sections; claims remain linked to the Columbia Psychiatry biography.",
+      "portraitDisposition": "Previously approved immediate local source-linked portrait retained; no new inventory entry."
+    },
+    {
+      "id": "4a98055c-0b28-482a-b904-7b46c3875d8b",
+      "name": "Jamielynn Hanam-Jahr",
+      "canonicalPath": "/jamielynnhanamjahr",
+      "result": "qualified",
+      "packet": "humanity-next-batch-2026-10-15.json",
+      "narrativeDisposition": "Added the source-mapped nursing-to-dentistry journey and supported community and personal-interest details; retained the prior biography source and its history.",
+      "portraitDisposition": {
+        "localPath": "/images/providers/jamielynnhanamjahr-source-preview.webp",
+        "sourcePage": "https://mybeverlyhillsdentist.com/about-us/meet-dr-hanam-jahr/",
+        "sourceAsset": "https://mybeverlyhillsdentist.com/wp-content/uploads/2024/09/20240715_095438-scaled-1.webp",
+        "inspectedSourceDimensions": "1871x2560",
+        "localDimensions": "360x493",
+        "localSha256": "afe9ef9b6a9c62de23941e253aa34be4870a33427ffcf87d7c35dc6f83549d58",
+        "sourceResponseSetCookieObserved": true,
+        "reuseTerms": "Unknown; this is a modest source-linked preview, not an ownership or derivative-card approval."
+      }
+    },
+    {
+      "id": "a8373cb6-63a1-4684-83ee-8e01f5649a31",
+      "name": "Tasheka Cox",
+      "canonicalPath": "/tashekacox",
+      "result": "qualified",
+      "packet": "humanity-next-batch-2026-10-15.json",
+      "narrativeDisposition": "Added a source-mapped first-person account of recognizing protective achievement and independence patterns and her work approach; sensitive childhood details were not exposed.",
+      "portraitDisposition": {
+        "localPath": "/images/providers/tashekacox-source-preview.webp",
+        "sourcePage": "https://mindovermoodhealing.com/meet-dr-cox",
+        "sourceAsset": "https://img1.wsimg.com/isteam/ip/57f94dfd-d63d-4ab3-858d-eee127d6dd6a/IMG_3173.PNG/:/cr=t:0%25,l:25.01%25,w:49.99%25,h:100%25/rs=w:600,h:800,cg:true",
+        "inspectedSourceDimensions": "599x800",
+        "localDimensions": "360x481",
+        "localSha256": "9b4644375a911a01a269f91c6b31402ea0080c773050049689754634777b7391",
+        "sourceResponseSetCookieObserved": false,
+        "reuseTerms": "Unknown; this is a modest source-linked preview, not an ownership or derivative-card approval."
+      }
+    },
+    {
+      "id": "0cef6a0a-d125-4810-b2c0-9c875a34866b",
+      "name": "Stanley Sun",
+      "canonicalPath": "/stanleysunDDS",
+      "result": "qualified",
+      "packet": "humanity-sun-2026-10-15.json",
+      "narrativeDisposition": "Added cited, source-stated personal-interest and work-approach sections plus source-scoped practice-access facts and explicit unknowns.",
+      "clinicalAndStructuredDataDisposition": "Kept existing stored clinical fields and verification dates unchanged. The named biography does not independently verify clinical qualifications; the patient-facing route remains source-stated-narrative-only so legacy credential/specialty fields are not emitted as verified structured claims.",
+      "portraitDisposition": {
+        "localPath": "/images/providers/stanleysun-source-preview.jpg",
+        "sourcePage": "https://my.officite.com/0050377/stanley-sun-dds",
+        "sourceAsset": "https://my.officite.com/0050377/storage/app/media/5ed8fc871e359_drstanley.jpg",
+        "inspectedSourceDimensions": "300x310",
+        "localDimensions": "300x310",
+        "localSha256": "32bf1d15ebd1b10439cc4fc6b1ff8873d64f0f0d7538730b7bec5567a572360f",
+        "sourceResponseSetCookieObserved": true,
+        "reuseTerms": "Unknown; this is a modest source-linked preview, not an ownership or derivative-card approval."
+      }
+    },
+    {
+      "id": "9252a912-59df-499d-a94c-272d8d49e2ac",
+      "name": "Stella Chan",
+      "canonicalPath": "/stellachan",
+      "result": "qualified",
+      "newProvider": true,
+      "packet": "humanity-stella-chan-2026-10-15.json",
+      "narrativeDisposition": "Added the named-biography-supported interests, learning/community connection, and distinctive preventive/explanatory work approach.",
+      "preservedEditorialStates": {
+        "indexable": false,
+        "humanReview": "pending",
+        "clinicalLicenseLookup": "pending"
+      },
+      "portraitDisposition": {
+        "localPath": "/images/providers/stellachan-source-preview.webp",
+        "sourcePage": "https://my.officite.com/0050377/stella-chan-dds",
+        "sourceAsset": "https://my.officite.com/0050377/storage/app/media/5ed8fbff28d5a_drstella.jpg",
+        "inspectedSourceDimensions": "750x761",
+        "localDimensions": "360x365",
+        "localSha256": "a0e585ff4ccba8d03331e9f18c643ecb157e3cf9fb4790c821bfa456df7c6105",
+        "sourceResponseSetCookieObserved": true,
+        "reuseTerms": "Unknown; this is a modest source-linked preview, not an ownership or derivative-card approval."
+      }
+    }
+  ],
+  "mediaInventory": {
+    "previousApprovedPortraitCount": 72,
+    "currentApprovedPortraitCount": 76,
+    "newReviewedLocalPreviewCount": 4,
+    "existingReviewedPortraitRetainedCount": 1,
+    "inventory": "Independently reviewed inventory updated deliberately; prior entries retained."
+  },
+  "privacyAndDeliveryChecks": {
+    "localPortraitsAppearWithoutActivation": true,
+    "initialExternalRequestsOnAffectedRoutes": 0,
+    "initialExternalCookiesOnAffectedRoutes": 0,
+    "interpretingScope": "Browser evidence is from fresh pages in a shared test context; it is not cold-cache/load testing or a guarantee about third-party source-server behavior."
+  },
+  "validation": {
+    "dataAndAssets": "passed",
+    "perBatchImportGuard": "passed against the immediately previous checked batch parent ce90ccebe9cd68e3dc866f12a899c73c134ec462",
+    "fixedHistoricalCohortTest": "passed in the 75 URL-contract/assessment suite; it loads fixed app revision 0e71f02b718ddcd1003dd504aa44c1bb103c6894 (44 qualifying IDs) and checks that the current accepted cohort retains its accepted IDs",
+    "urlContractTests": "75 passed; 0 skipped",
+    "httpAndApiTests": "108 passed; 0 skipped",
+    "humanityBrowserTests": {
+      "desktop": "5 of 5 profiles passed",
+      "touchMobile": "5 of 5 profiles passed"
+    },
+    "typecheck": "passed",
+    "build": "passed",
+    "gitDiffCheck": "passed"
+  },
+  "clinicalVerification": "Not performed; biography/photo review is content and identity-source checking, not independent clinical, board, or license verification.",
+  "humanReview": "No review states were promoted; human review is distinct from humanity-story completeness.",
+  "deployment": "Not performed.",
+  "appRevision": "0cfb694f9dcc59e558e2b8ef931e43e64c8baf11",
+  "appLocalAndOriginAgree": true,
+  "sourcePreparationRevisions": {
+    "firstCoxAndHanamJahr": "6b7eb1c21b4add7cd0db56e7cd19f5d67a642363",
+    "stanleySun": "684f005231de668375a19616f3f4c1403f337606",
+    "stellaChan": "e76c7d12b43790685ec3f4d3712ecc13e8903b1b"
+  }
+}

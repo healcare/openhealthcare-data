@@ -13,4 +13,35 @@
   "media":{"sourceAsset":"https://my.officite.com/0050377/storage/app/media/5ed8fbff28d5a_drstella.jpg","sourceWidth":750,"sourceHeight":761,"inspectedOn":"2026-10-15","inspection":"Single full-face head-and-shoulders portrait labelled Stella Chan D.D.S. on the exact practice-linked biography. Normally retrieved JPEG, no guessed variant or bypass.","deliveryPath":"/images/providers/stellachan-source-preview.webp","reuseTerms":"Unknown; modest proportional source-linked preview without crop, ownership, blanket license or derivative approval."},
   "access":{"sourceId":"chan-practice-routing-2026-10-15","sourcePage":"https://www.cupertinodentalhealth.com/","sourceTitle":"Cupertino Dental Health — Meet Our Staff and Our Location","excerpt":"Stella Chan [...] Read More [hosted biography]; 10251 Torre Ave STE 158 Cupertino, CA 95014","limits":"Practice location/request form, not individual availability or eligibility. Insurance products, out-of-pocket fees, referral requirements and clinician-specific capacity remain unverified. No phone guessed."},
   "controls":{"status":"published","indexable":false,"claimStatus":"unclaimed","reviewStatus":"pending-human-review","licenseLookupStatus":"pending","note":"Public research preview under existing directory scope, not human/clinical approval or indexing promotion."}
+,
+  "applicationResult": {
+    "checkedOn": "2026-10-15",
+    "appRevision": "0cfb694f9dcc59e558e2b8ef931e43e64c8baf11",
+    "appLocalAndOriginAgree": true,
+    "startedAtQualifyingIDs": 57,
+    "endedAtQualifyingIDs": 62,
+    "remainingToGoal": 38,
+    "currentProviderRecords": 95,
+    "newProviderRecordCount": 1,
+    "portraitInventoryBefore": 72,
+    "portraitInventoryAfter": 76,
+    "profiles": [
+      {
+        "id": "9252a912-59df-499d-a94c-272d8d49e2ac",
+        "name": "Stella Chan",
+        "canonicalPath": "/stellachan",
+        "result": "qualified",
+        "portrait": "/images/providers/stellachan-source-preview.webp",
+        "statusPreservation": {
+          "indexable": false,
+          "humanReview": "pending",
+          "clinicalLicenseLookup": "pending"
+        }
+      }
+    ],
+    "localFirstLoadAndAttribution": "all five targeted routes passed desktop and touch-mobile image/source-link checks; zero initial external requests/cookies",
+    "clinicalVerification": "not performed",
+    "reviewAndIndexing": "no state promotions",
+    "cleanResults": "docs/profile-ready/humanity-batch-results-2026-10-15.json"
+  }
 }

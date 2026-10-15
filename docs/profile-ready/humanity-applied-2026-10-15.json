@@ -17,4 +17,11 @@
   "validation":{"nativePatientRoutes":54,"viewports":["desktop","touch-enabled mobile"],"initialThirdPartyRequests":0,"initialCookies":0,"interceptedImages":false,"contractTests":67,"httpTests":108,"newAssessmentCitationTests":5,"allRecordIntegrity":true,"independentAssetIntegrity":true,"fixedBaselineImportGuard":true,"typeCheck":true,"build":true,"fullBrowserSuite":"Unchanged broader evidence retained, not rerun or relabeled. Final release checks await a complete milestone candidate.","screenReader":"No new real screen-reader audit claimed."},
   "remaining":"46 more genuinely qualifying profiles are needed. Unassessed or unqualified records are not erased content. Additional evidence/portrait work and eligible new identities remain within the authorized milestone; this packet does not lower standards or declare 100 impossible.",
   "deployment":"Not authorized; not performed."
+,
+  "laterBatchResult": {
+    "path": "docs/profile-ready/humanity-batch-results-2026-10-15.json",
+    "checkedOn": "2026-10-15",
+    "appRevision": "0cfb694f9dcc59e558e2b8ef931e43e64c8baf11",
+    "priorCheckpointArchivedAsBefore": true
+  }
 }

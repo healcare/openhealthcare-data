@@ -46,4 +46,47 @@
     }
   ],
   "pendingExternalHandoffs":{"received":false,"gemini":["Shannon Schaubach","Tiffany Bufort-Odom","Maria Capetanakis","Gretchen Gainor"],"copilot":["Aileen Chang — UCSF","Michael A. Bain — Newport Beach"],"notes":"Retain exact prompts in separate research notes. No assertion of contact or received evidence."}
+,
+  "applicationResult": {
+    "checkedOn": "2026-10-15",
+    "appRevision": "0cfb694f9dcc59e558e2b8ef931e43e64c8baf11",
+    "appLocalAndOriginAgree": true,
+    "startedAtQualifyingIDs": 57,
+    "endedAtQualifyingIDs": 62,
+    "remainingToGoal": 38,
+    "currentProviderRecords": 95,
+    "newProviderRecordCount": 1,
+    "portraitInventoryBefore": 72,
+    "portraitInventoryAfter": 76,
+    "profiles": [
+      {
+        "id": "e898c6dd-92f8-49e2-87bb-68a0689b8fe8",
+        "name": "Michael B. First",
+        "canonicalPath": "/michael-b-first",
+        "result": "qualified",
+        "portrait": "existing approved portrait retained",
+        "statusPreservation": null
+      },
+      {
+        "id": "4a98055c-0b28-482a-b904-7b46c3875d8b",
+        "name": "Jamielynn Hanam-Jahr",
+        "canonicalPath": "/jamielynnhanamjahr",
+        "result": "qualified",
+        "portrait": "/images/providers/jamielynnhanamjahr-source-preview.webp",
+        "statusPreservation": null
+      },
+      {
+        "id": "a8373cb6-63a1-4684-83ee-8e01f5649a31",
+        "name": "Tasheka Cox",
+        "canonicalPath": "/tashekacox",
+        "result": "qualified",
+        "portrait": "/images/providers/tashekacox-source-preview.webp",
+        "statusPreservation": null
+      }
+    ],
+    "localFirstLoadAndAttribution": "all five targeted routes passed desktop and touch-mobile image/source-link checks; zero initial external requests/cookies",
+    "clinicalVerification": "not performed",
+    "reviewAndIndexing": "no state promotions",
+    "cleanResults": "docs/profile-ready/humanity-batch-results-2026-10-15.json"
+  }
 }

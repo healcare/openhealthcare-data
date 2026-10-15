@@ -11,4 +11,31 @@
   ],
   "media":{"sourceAsset":"https://my.officite.com/0050377/storage/app/media/5ed8fc871e359_drstanley.jpg","sourceWidth":300,"sourceHeight":310,"inspectedOn":"2026-10-15","inspection":"Single full-face head-and-shoulders portrait labelled Stanley Sun D.D.S. on the exact biography linked by his practice homepage. No guessing, bypass, crop or synthetic fill.","deliveryPath":"/images/providers/stanleysun-source-preview.jpg","delivery":"Preserve original decoded JPEG bytes.","reuseTerms":"Unknown; ordinary modest source-linked preview, not ownership, blanket license or derivative approval."},
   "access":{"sourcePage":"https://www.cupertinodentalhealth.com/","sourceId":"sun-practice-routing-2026-10-15","sourceTitle":"Cupertino Dental Health — Meet Our Staff and Our Location","excerpt":"Stanley Sun [...] Read More [hosted biography]; 10251 Torre Ave STE 158 Cupertino, CA 95014","limits":"Practice appointment form is not individual capacity; insurance products, fees and referral requirements remain unverified. No phone guessed or clinical credential promotion."}
+,
+  "applicationResult": {
+    "checkedOn": "2026-10-15",
+    "appRevision": "0cfb694f9dcc59e558e2b8ef931e43e64c8baf11",
+    "appLocalAndOriginAgree": true,
+    "startedAtQualifyingIDs": 57,
+    "endedAtQualifyingIDs": 62,
+    "remainingToGoal": 38,
+    "currentProviderRecords": 95,
+    "newProviderRecordCount": 1,
+    "portraitInventoryBefore": 72,
+    "portraitInventoryAfter": 76,
+    "profiles": [
+      {
+        "id": "0cef6a0a-d125-4810-b2c0-9c875a34866b",
+        "name": "Stanley Sun",
+        "canonicalPath": "/stanleysunDDS",
+        "result": "qualified",
+        "portrait": "/images/providers/stanleysun-source-preview.jpg",
+        "statusPreservation": null
+      }
+    ],
+    "localFirstLoadAndAttribution": "all five targeted routes passed desktop and touch-mobile image/source-link checks; zero initial external requests/cookies",
+    "clinicalVerification": "not performed",
+    "reviewAndIndexing": "no state promotions",
+    "cleanResults": "docs/profile-ready/humanity-batch-results-2026-10-15.json"
+  }
 }

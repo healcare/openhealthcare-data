@@ -121,3 +121,13 @@ performance at thousands, cold-cache behavior, a real screen-reader audit or
 live deployment. All existing holds, IDs, aliases, review/indexing controls and
 unknown access facts stay. There are 43 further qualifying profiles needed;
 57 is progress, not completion of 100.
+
+## Follow-up 57 → 62: applied content and remaining evidence gaps (2026-10-15)
+
+Applied five qualifying IDs: Michael B. First (Columbia Psychiatry source); Jamielynn Hanam-Jahr (practice biography; Pittsburgh-area nursing/ICU work, later dentistry and documented volunteering/interests); Tasheka Cox (first-person work approach, without exposing sensitive childhood details); Stanley Sun (named hosted biography, interests/approach); Stella Chan (named practice biography, interests and learning/community details). The clean result file records claim/source references and exact source-media evidence. Four local portraits are newly delivered; Michael B. First's previously inspected portrait is reused.
+
+Integration findings: profile-level source records must also be included in the provider's source-ID projection so the patient API returns them. HTTP comparisons now assert source-ID/source-URL membership without depending on array order; both preexisting citations remain. For Sun, the exact biography supports story statements only. Adding it as a broad source-backed permission previously exposed legacy clinical credentials in structured data; the checked result separates the narrative display from the stored clinical claims and their independent verification status.
+
+Pending handoffs are unchanged: Gemini prompts request named humanity evidence for Shannon Schaubach, Tiffany Bufort-Odom, Maria Capetanakis, and Gretchen Gainor; the prompt has not been sent and no response is claimed. Copilot prompts request normally accessible exact official portrait candidates for Aileen Chang and Michael A. Bain, with decoded image versus challenge/text distinguished; no response is claimed. Preserve existing research barriers: do not attach matching names/portraits across identities, bypass a security challenge, infer practice access, or count a story without an inspected local portrait. Previous notes and unresolved exceptions remain above.
+
+Fresh coverage is five profiles, desktop and touch-mobile, with all five locally decoded/attributed and no initial external requests/cookies; 108 HTTP/API, 75 contract, data/assets and per-batch preservation checks passed. Count 62 is not 100; 38 qualified IDs remain. These functional checks do not establish load at thousands, human-review approval, independent clinical verification, physical Safari, or screen-reader completion.

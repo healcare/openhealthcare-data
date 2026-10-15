@@ -157,3 +157,10 @@ Detailed notes and optional external-research prompts are separate.
 
 The milestone remains open. No deployment or indexing/review/hold promotion.
 
+## Results added after the 57-profile checkpoint — 2026-10-15
+
+The qualifying count advanced to 62 across unique IDs (38 remain); the directory dataset contains 95 provider records. The application candidate is `0cfb694f9dcc59e558e2b8ef931e43e64c8baf11`, checked equal on local main and origin/main. Five profile IDs and routes are listed in the clean applied-results packet; four stories enriched existing records, and one newly contributed profile remains nonindexable/pending review.
+
+New local previews: Hanam-Jahr, Cox, Sun, and Chan. First's prior inspected/approved local preview remains. Exact named sources/assets, inspected dimensions, local delivery hashes, source-response cookie observations and unknown reuse terms are in the clean packet. No broad license/derivative claim was made. Sun's release scope is explicitly story-only until clinical credentials are independently verified; underlying profile facts/dates were preserved. No identities, routes, memberships, review/indexing states or holds were promoted.
+
+Checks passed: all-record/data assets, fixed accepted-cohort retention from the pinned baseline, the per-batch provider diff against `ce90ccebe9cd68e3dc866f12a899c73c134ec462`, 75 URL/assessment/citation tests, 108 HTTP/API tests, type check, build, and targeted desktop/mobile patient-ready tests for these five IDs. No tests were skipped. This is functional validation, not a load/performance test for thousands. No deployment.
