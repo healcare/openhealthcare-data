@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-15",
+  "status": "prepared-before-app-import",
+  "supersedes": "humanity-bain-media-preimport-2026-10-15.json",
+  "expectedHumanityChange": {
+    "before": 75,
+    "after": 76,
+    "delta": 1,
+    "qualificationBasis": "A named Hoag profile documents Newport Beach origin, a second-generation Hoag connection, and a personal interest in regenerative medicine. This is source-stated narrative completeness, not clinical verification or human approval."
+  },
+  "expectedPortraitInventory": {
+    "before": 89,
+    "after": 90,
+    "method": "Add one explicit entry to the independent reviewed-delivery inventory; do not regenerate it."
+  },
+  "revisions": {
+    "appSource": "deaa2ee38ad1f43d953c725e73e87e3e85e522a9",
+    "dataSource": "338c657f8d3ead3c9cdb54b8db7e43f400907f48"
+  },
+  "provider": {
+    "id": "d7808e05-d356-4b6e-9adb-774854c56ba2",
+    "name": "Michael A. Bain",
+    "canonicalPath": "michaelbain",
+    "directorySlug": "plastic-surgeons-orange-county",
+    "existingStatus": "published",
+    "existingIndexable": true,
+    "existingClaimStatus": "unclaimed",
+    "existingReviewStatus": "pending-human-review",
+    "existingLicenseLookupStatus": "pending",
+    "preserve": [
+      "ID, canonical path, aliases, directory membership",
+      "all prior sources, narrative, citation and access observations",
+      "pending human-review and license-lookup states",
+      "unclaimed status, existing verification dates and clinical facts"
+    ],
+    "noPromotion": [
+      "clinical or credential verification",
+      "human review",
+      "appointment availability beyond dated source wording",
+      "in-network coverage",
+      "indexing or deployment"
+    ]
+  },
+  "content": {
+    "narrative": {
+      "id": "humanity-roots-and-interests-bain-2026-10-15",
+      "heading": "Local roots and interests",
+      "text": "Hoag’s profile describes Michael A. Bain as a Newport Beach native and a second-generation Hoag physician. It also notes his personal interest in regenerative medicine. These are details in Hoag’s account, not independent clinical or credential verification.",
+      "sourceIds": [
+        "michael-bain-hoag-profile-2026-10-15"
+      ],
+      "claimAnchor": "personal interest in regenerative medicine",
+      "qualificationBasis": "documented hometown/institutional connection and personal interest; not a generic credential list"
+    },
+    "retainedExistingNarrative": {
+      "heading": "Professional background",
+      "text": "His biography describes speaking and presenting internationally.",
+      "sourceIds": [
+        "michael-bain-official"
+      ],
+      "disposition": "retain verbatim; no previous section or citation removed"
+    },
+    "access": {
+      "id": "access-hoag-2026-10-15",
+      "heading": "Before arranging care",
+      "text": "Hoag’s physician page lists a Newport Beach office at 366 San Miguel Dr, Suite 307, Newport Beach, CA 92660, phone (949) 720-0270, and marks the profile as accepting new patients. It lists Aetna, Anthem, Blue Shield, Cigna, SCAN, and UnitedHealthcare under accepted insurance. These are Hoag’s page-level observations checked October 15, 2026; they do not establish a specific appointment slot or plan-specific in-network coverage. Confirm current scheduling and coverage directly with Hoag.",
+      "sourceIds": [
+        "michael-bain-hoag-profile-2026-10-15"
+      ],
+      "claimScope": "source-stated page labels, not independent verification or a guarantee"
+    },
+    "historicalAccessObservation": {
+      "preserveVerbatim": "Practice-reported contact details are source-stated. The phone line was not tested, and current availability or former-office closure was not established.",
+      "observedAt": "2026-09-30",
+      "disposition": "retain as a dated research note; update current locationNote only to reconcile with the newer Hoag page observation"
+    }
+  },
+  "sources": [
+    {
+      "id": "michael-bain-hoag-profile-2026-10-15",
+      "url": "https://www.hoag.org/physician/michael-a-bain-md/",
+      "label": "Hoag — Michael A. Bain, MD",
+      "publisher": "Hoag",
+      "retrievedDate": "2026-10-15",
+      "verificationStatus": "source-stated",
+      "retrievalMethod": "normal public-page retrieval; named page text and image alt inspected"
+    }
+  ],
+  "portrait": {
+    "sourcePage": "https://www.hoag.org/physician/michael-a-bain-md/",
+    "assetUrl": "https://public.hoag.org/hoagmdimages/2401.jpg",
+    "sourceWidth": 400,
+    "sourceHeight": 477,
+    "sourceBytes": 28676,
+    "sourceSha256": "f646fc459cce5f9a0a0f2c405556e7b90a22404cfed75d8d8eef426b176fa87c",
+    "contentType": "image/jpeg",
+    "httpStatus": 200,
+    "visualInspection": "Decoded and visually inspected; individual full face is visible and the named Hoag page labels the image Michael A. Bain, MD.",
+    "plannedDelivery": {
+      "imageUrl": "/images/providers/michaelbain-source-preview.jpg",
+      "width": 400,
+      "height": 477,
+      "bytes": 28676,
+      "sha256": "f646fc459cce5f9a0a0f2c405556e7b90a22404cfed75d8d8eef426b176fa87c",
+      "usage": "local-source-preview",
+      "clickThroughUrl": "https://www.hoag.org/physician/michael-a-bain-md/",
+      "alt": "Portrait of Michael A. Bain, MD",
+      "crop": false,
+      "upscale": false
+    },
+    "reuseTerms": "Unknown for the Hoag image; only a modest attributed local preview is contemplated. No ownership, blanket license or derivative-card approval. The separate drbain.com restriction and security-challenge observation remain recorded; no drbain.com image is used."
+  },
+  "notImported": [
+    "Hoag board-certification and education claims",
+    "Hoag outcome comparisons",
+    "unrelated specialty, insurance or clinical claims",
+    "no unverified claims added to structured output"
+  ],
+  "checks": [
+    "patient-ready portrait guard with exact bytes/source link",
+    "fixed-baseline and data integrity checks",
+    "API source/citation projection",
+    "desktop and touch-mobile actual portrait, accessible name, initial requests/cookies",
+    "humanity audit requiring complete narrative block and usable citations"
+  ]
+}

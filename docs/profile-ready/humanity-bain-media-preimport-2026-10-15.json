@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "preparedOn": "2026-10-15",
-  "status": "prepared-before-app-import",
+  "status": "superseded-before-app-import",
   "changeType": "portrait-only-update-for-existing-provider",
   "qualificationImpact": {
     "humanityCountBefore": 75,
@@ -83,5 +83,7 @@
     "Portrait addition does not establish Bain's humanity narrative; remain outside the 75 qualifying IDs.",
     "No new practice-access, credential, license, clinical outcome or accepting-patient claim is imported.",
     "No independent human review, license verification, derivative approval or deployment is implied."
-  ]
+  ],
+  "supersededBy": "humanity-bain-preimport-2026-10-15.json",
+  "supersededBecause": "The named Hoag page supports a source-mapped humanity narrative and dated access summary in addition to the portrait; use the integrated packet rather than importing a media-only change."
 }
