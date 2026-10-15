@@ -1,0 +1,115 @@
+{
+  "preparedOn": "2026-10-15",
+  "applicationParent": "14aa5b9346cbc750e477dd81ca9bf54d2f106d1a",
+  "fixedPreservationBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "scope": "Reconcile existing provider identities only. Keep clinical facts, identity, routes, directory membership, citations, access uncertainty, holds, review/indexing states and older media observations intact. This packet separates story assessment from media disposition; it does not authorize clinical verification, derivative imagery, indexing, or deployment.",
+  "profiles": [
+    {
+      "id": "2648ca1f-a0da-4c4a-befc-6b46dc525e87",
+      "name": "Aileen Chang",
+      "directory": "san-francisco-dermatologists",
+      "canonicalPath": "aileenchang",
+      "newProvider": false,
+      "startingHumanityQualification": false,
+      "narrativeDisposition": "Existing top-level story is supported by the current named UCSF departmental biography but was not present as a complete patient-readable body section. Add a source-mapped body narrative without changing clinical claims or review/indexing status.",
+      "narrativeSection": {
+        "id": "humanity-narrative-aileen-chang-2026-10-15",
+        "heading": "Research and building dermatology services",
+        "text": "Aileen Chang's UCSF Department of Dermatology biography describes research on how social and structural factors shape the development, clinical presentation, and treatment of skin conditions. It also describes her interdisciplinary work on lymphedema and wound care, and dermatology capacity in low-resource settings. From 2017 to 2024, she served as founding director of the ZSFG Dermatology Consult Service. This is the department's account of her work, not verified patient outcomes or a current appointment offer.",
+        "sourceIds": [
+          "aileen-chang-dermatology-profile"
+        ]
+      },
+      "claimMap": [
+        {
+          "claim": "The biography describes research on social and structural factors affecting skin-condition development, clinical presentation and treatment.",
+          "excerpt": "Dr. Chang examines the impact of social and structural factors on the development, clinical presentation, and treatment of skin conditions using quantitative, qualitative, and mixed methods approaches."
+        },
+        {
+          "claim": "The biography describes interdisciplinary projects involving lymphedema, wound care and dermatology capacity in low-resource settings.",
+          "excerpt": "She has also led interdisciplinary projects to improve lymphedema and wound care and dermatology capacity in low-resource settings."
+        },
+        {
+          "claim": "The biography identifies her as founding director of the ZSFG Dermatology Consult Service from 2017 to 2024.",
+          "excerpt": "She was the Founding Director of the ZSFG Dermatology Consult Service, 2017-2024."
+        }
+      ],
+      "accessSection": {
+        "id": "patient-access-aileen-chang-2026-10-15",
+        "heading": "Before arranging care",
+        "text": "UCSF's departmental profile lists 1001 Potrero Avenue, #271, San Francisco, and a professional email address; it does not provide a patient scheduling route. Individual appointment capacity, accepted insurance, fees, and referral requirements are not established by this profile. Confirm the appropriate clinic and current routing directly with UCSF.",
+        "sourceIds": [
+          "aileen-chang-dermatology-profile"
+        ]
+      },
+      "source": {
+        "id": "aileen-chang-dermatology-profile",
+        "url": "https://dermatology.ucsf.edu/about-us/our-team/aileen-chang-md",
+        "label": "UCSF Department of Dermatology — Aileen Chang",
+        "publisher": "University of California, San Francisco, Department of Dermatology",
+        "retrievedDate": "2026-10-15",
+        "verificationStatus": "source-stated"
+      },
+      "media": {
+        "disposition": "new local source-page screenshot preview",
+        "sourcePage": "https://dermatology.ucsf.edu/about-us/our-team/aileen-chang-md",
+        "exactSourceAsset": "https://dermatology.ucsf.edu/sites/dermatology.ucsf.edu/files/styles/max_fp_650x650/public/2024-09/Aileen%20Chang_Headshot.jpg.webp?h=6c0ecf46&itok=PupvRp60",
+        "ownerResearch": "The public research note records the ordinary source asset as decoded WebP, 650x650, and visually inspected with the named association established by the page markup.",
+        "currentWorkspaceRetrieval": "A normal direct GET returned HTTP 403; the named official biography rendered normally in the screenshot browser. The source image itself was not re-fetched or represented as the original file in this workspace.",
+        "localDelivery": {
+          "path": "/images/providers/aileenchang-source-screenshot.png",
+          "method": "Unenlarged 150x150 crop from the ordinarily rendered portrait on the named official page screenshot; full face remains visible.",
+          "dimensions": "150x150",
+          "sha256": "2b8ed5b3c278d1808901e49c93b1a22ea4cc46bcf60dea5428a0366c5973ceb8",
+          "checkedOn": "2026-10-15"
+        },
+        "alt": "Aileen Chang, MD",
+        "outwardSourceLink": "https://dermatology.ucsf.edu/about-us/our-team/aileen-chang-md",
+        "reuseTerms": "Unknown. Ordinary modest source-linked preview only; no ownership, blanket license, derivative-card or clinical approval.",
+        "privacy": "The patient-facing page will use same-origin local bytes. The source-page screenshot capture does not report source response-cookie headers; no claim is made about them."
+      },
+      "preservation": {
+        "retainEarlierPhotoHandlerFailure": true,
+        "retainEarlierDepartmentalAsset403Observation": true,
+        "retainIdsRoutesAliasesAndDirectoryMembership": true,
+        "retainPilotAndNoindexState": true,
+        "retainExistingClinicalFieldsAndCredentialDisclosure": true,
+        "doNotClaimClinicalOrHumanReview": true
+      },
+      "expectedQualificationChange": "Potential net +1 only after the patient-visible narrative, citation, local image, source link and access statement pass the established checks. No review/indexing promotion."
+    },
+    {
+      "id": "d7808e05-d356-4b6e-9adb-774854c56ba2",
+      "name": "Michael A. Bain",
+      "directory": "plastic-surgeons-orange-county",
+      "canonicalPath": "michaelbain",
+      "newProvider": false,
+      "startingHumanityQualification": false,
+      "narrativeDisposition": "Hold from milestone assessment pending a distinct source-backed personal journey, motivation, interest, mentoring/community connection or specific work approach. Existing hometown/education, services and generic consultation language are insufficient as a complete humanity narrative.",
+      "existingSources": [
+        "https://www.drbain.com/about",
+        "https://www.drbain.com/"
+      ],
+      "media": {
+        "disposition": "research-only candidate; not imported or independently inventoried",
+        "sourcePage": "https://www.hoag.org/physician/michael-a-bain-md/",
+        "exactSourceAsset": "https://public.hoag.org/hoagmdimages/2401.jpg",
+        "ownerResearch": "The public research note records a named Hoag page and normally retrieved, visually inspected JPEG portrait measuring 400x477.",
+        "hold": "The current provider record and source history record an explicit written-permission restriction for portrait reuse from the practice site. The scope of that restriction relative to a separate Hoag-hosted image has not been established. Preserve the hold; do not locally deliver or count this image until its applicability is resolved.",
+        "reuseTerms": "Unknown. No ownership, blanket license, derivative-card or clinical approval."
+      },
+      "preservation": {
+        "retainPracticePhotoWrittenPermissionRestriction": true,
+        "retainPendingHumanReviewAndLicenseLookup": true,
+        "retainClinicalAndAccessInformation": true,
+        "retainIdsRoutesAliasesAndDirectoryMembership": true
+      },
+      "expectedQualificationChange": "None. Portrait alternative alone does not qualify; narrative and the existing media restriction remain unresolved."
+    }
+  ],
+  "externalResearchStatus": {
+    "paidImageSearch": "Not used.",
+    "geminiOrCopilot": "No external handoff was sent or received."
+  },
+  "status": "clean source-mapped preparation; application import and validation pending"
+}
