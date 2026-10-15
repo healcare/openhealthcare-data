@@ -1,0 +1,132 @@
+{
+  "packetVersion": 1,
+  "preparedOn": "2026-10-15",
+  "status": "clean-preimport-candidate-packet",
+  "sourceAppRevision": "86bb5839462d1995ecd2fa257a6154d8d18b5ca9",
+  "sourceDataRevision": "dd72a97ee9562d1a3ec1075cf52acda203a0bf70",
+  "acceptedCountBefore": 66,
+  "providerFileCountBefore": 95,
+  "scope": {
+    "directorySlug": "san-francisco-dermatologists",
+    "existingMemberCount": 7,
+    "proposedAdditions": 4,
+    "selectionBasis": "Named UCSF Health pages explicitly identify each clinician, Dermatology Mount Zion address/phone and telehealth; proposed paths were checked against existing canonical paths and aliases before import."
+  },
+  "rules": [
+    "New records remain published but indexable:false and unclaimed/pending human review, matching the existing non-indexable pilot; no review, directory indexing, license or board status is promoted.",
+    "Only source-stated identity/specialty/contact details and the original claim-mapped narrative are included. Do not import ratings, testimonials, review counts, outcomes, board claims or unverified leadership titles.",
+    "Exact 640×640 source JPEG bytes were downloaded normally; SHA-256 matches the previously inspected public packet, and each file was decoded and visually inspected. Use immediate local same-origin preview with source-page link and alt text. Reuse terms remain unknown; no ownership, blanket license or derivative-card approval.",
+    "Clinic location/central phone/telehealth are publisher-stated routing only; current new-patient capacity, coverage, price and referral requirements remain unknown."
+  ],
+  "candidates": [
+    {
+      "id": "ec794f4a-ac66-49e2-bb04-0de5e969f822",
+      "name": "Nina Botto, MD",
+      "canonicalPath": "ninabotto",
+      "directorySlug": "san-francisco-dermatologists",
+      "sourceId": "botto-humanity-2026-10-15",
+      "sourcePage": "https://www.ucsfhealth.org/providers/nina-botto",
+      "description": "UCSF Health describes Nina Botto, MD, as a dermatologist who treats contact and occupational dermatitis.",
+      "narrativeId": "humanity-communication-and-karaoke-botto-2026-10-15",
+      "narrative": "Nina Botto’s UCSF biography describes efforts to improve patients’ health-care experiences, including dermatology service initiatives and participation in a center focused on communication among care teams. The same profile lists karaoke as an interest. These are source-stated work and interests, not demonstrated patient outcomes.",
+      "claimMap": [
+        "Botto’s dermatology service and care-team communication work is described on the named UCSF page.",
+        "UCSF lists karaoke as an interest."
+      ],
+      "access": "UCSF lists Dermatology Mount Zion, 1701 Divisadero Street, San Francisco, CA 94115; clinic phone 415-353-7800 and telehealth visits. This is publisher-stated routing; current appointment capacity, plan eligibility, fees and referral requirements are not established.",
+      "media": {
+        "usage": "local-source-preview",
+        "assetUrl": "https://providers.ucsfhealth.org/sparkle-assets/images/botto-nina-1528299716-55e623b31288d8638852f2cfc381f797.jpg",
+        "width": 640,
+        "height": 640,
+        "format": "JPEG",
+        "bytes": 336520,
+        "sha256": "a8557469c1771d1f2850308fa92b4fbce2bd5f4cf417b5e3294a0f5c5f6e6a2e",
+        "pageAlt": "Portrait of Nina Botto",
+        "localPath": "/images/providers/ninabotto-source-preview.jpg"
+      }
+    },
+    {
+      "id": "8181287c-7030-4a6c-a402-6fa5bfce79ea",
+      "name": "Lindy P. Fox, MD",
+      "canonicalPath": "lindyfox",
+      "directorySlug": "san-francisco-dermatologists",
+      "sourceId": "fox-humanity-2026-10-15",
+      "sourcePage": "https://www.ucsfhealth.org/providers/lindy-fox",
+      "description": "UCSF Health describes Lindy P. Fox, MD, as a dermatologist who cares for hospitalized patients with complex skin conditions.",
+      "narrativeId": "humanity-hospital-care-and-interests-fox-2026-10-15",
+      "narrative": "Lindy P. Fox’s UCSF profile describes research on hospital dermatology and continuity of care for hospitalized people with skin conditions. It also lists Hula-Hoop dancing and jigsaw puzzles as interests. These are source-stated work and interests, not claims about treatment style or outcomes.",
+      "claimMap": [
+        "Fox’s research concerns hospital dermatology and continuity of care for hospitalized people with skin conditions.",
+        "The named UCSF profile lists Hula-Hoop dancing and jigsaw puzzles as interests."
+      ],
+      "access": "UCSF lists Dermatology Mount Zion, 1701 Divisadero Street, San Francisco, CA 94115; clinic phone 415-353-7800 and telehealth visits. Current patient capacity, plan eligibility, fees and referral requirements are not established.",
+      "media": {
+        "usage": "local-source-preview",
+        "assetUrl": "https://providers.ucsfhealth.org/sparkle-assets/images/fox-lindy-1790738953-63985f53ff9563cbb812251fea108748.jpg",
+        "width": 640,
+        "height": 640,
+        "format": "JPEG",
+        "bytes": 263099,
+        "sha256": "9b07e3ad1dbd363a8e292df2a3a5cbf3b1e2f8e7aa2161b7b981034b6ac67952",
+        "pageAlt": "Portrait of Lindy P. Fox",
+        "localPath": "/images/providers/lindyfox-source-preview.jpg"
+      }
+    },
+    {
+      "id": "0ba14c60-fc6b-44b5-b46f-34dab9c6009b",
+      "name": "Anna Haemel, MD",
+      "canonicalPath": "annahaemel",
+      "directorySlug": "san-francisco-dermatologists",
+      "sourceId": "haemel-humanity-2026-10-15",
+      "sourcePage": "https://www.ucsfhealth.org/providers/anna-haemel",
+      "description": "UCSF Health describes Anna Haemel, MD, as a dermatologist whose work includes skin conditions with systemic disease.",
+      "narrativeId": "humanity-food-and-piano-haemel-2026-10-15",
+      "narrative": "Anna Haemel’s UCSF biography describes care for skin conditions that occur alongside systemic illness, including rheumatologic conditions and inflammatory bowel disease. It also lists interests in simple food and amateur piano. These are attributed details, not claims about treatment style or patient outcomes.",
+      "claimMap": [
+        "Haemel’s profile describes systemic illness as part of the context of some skin conditions she treats.",
+        "UCSF lists simple food and amateur piano among her interests."
+      ],
+      "access": "UCSF lists Dermatology Mount Zion, 1701 Divisadero Street, San Francisco, CA 94115; clinic phone 415-353-7800 and telehealth visits. Spanish is publisher-listed, not independently assessed. Current patient capacity, coverage, fees and referral requirements are unknown.",
+      "media": {
+        "usage": "local-source-preview",
+        "assetUrl": "https://providers.ucsfhealth.org/sparkle-assets/images/haemel-anna-1962448522-4855cddb2acdcb0f9086151b6e6c259b.jpg",
+        "width": 640,
+        "height": 640,
+        "format": "JPEG",
+        "bytes": 274344,
+        "sha256": "0820659a34088d621fea1d1613fe75b9f45f2ecfe6583c2af5c187df5b9fb13f",
+        "pageAlt": "Portrait of Anna Haemel",
+        "localPath": "/images/providers/annahaemel-source-preview.jpg"
+      }
+    },
+    {
+      "id": "7ed53a6c-e5a5-4df2-be8c-83ac6357cf9d",
+      "name": "Jack S. Resneck Jr., MD",
+      "canonicalPath": "jackresneck",
+      "directorySlug": "san-francisco-dermatologists",
+      "sourceId": "resneck-humanity-2026-10-15",
+      "sourcePage": "https://www.ucsfhealth.org/providers/jack-resneck",
+      "description": "UCSF Health describes Jack S. Resneck Jr., MD, as a dermatologist whose research includes health-care access, delivery and affordability.",
+      "narrativeId": "humanity-policy-and-advocacy-resneck-2026-10-15",
+      "narrative": "Jack S. Resneck Jr.’s UCSF biography describes a path from Louisiana through public-policy study into medicine and health-policy training. It describes advocacy for access and affordability, including congressional testimony and work on ethics protections for participants in medical research. These are publisher descriptions; no outcome or current leadership claim is inferred.",
+      "claimMap": [
+        "Resneck’s biography traces his Louisiana upbringing, public-policy studies, medical education and health-policy training.",
+        "The page describes advocacy on access/affordability, congressional testimony and research-participant protections."
+      ],
+      "access": "UCSF lists Dermatology Mount Zion, 1701 Divisadero Street, San Francisco, CA 94115; clinic phone 415-353-7800 and telehealth visits. Current patient capacity, coverage, fees and referral requirements are not established.",
+      "media": {
+        "usage": "local-source-preview",
+        "assetUrl": "https://providers.ucsfhealth.org/sparkle-assets/images/resneck-jack-1760449292-da721a34661b6699b194a715449dadc6.jpg",
+        "width": 640,
+        "height": 640,
+        "format": "JPEG",
+        "bytes": 144756,
+        "sha256": "330a2a7de8ae282748c5a7f6638a5db59fc56fdbf3173bb4f4680f79696a143b",
+        "pageAlt": "Portrait of Jack S. Resneck",
+        "localPath": "/images/providers/jackresneck-source-preview.jpg"
+      }
+    }
+  ],
+  "applicationStatus": "Prepared for import; no providers or accepted count changed by this document."
+}
