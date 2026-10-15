@@ -2,12 +2,13 @@
 
 Clean applied/held results, separate from the detailed investigation. These are source-linked ordinary previews, not ownership, blanket licensing, derivative-card approval or independent clinical-identity verification. Clinical/publication holds remain unchanged. Exact retained image bytes and existing inspected screenshot crops are served locally; remote galleries require explicit activation.
 
-70 reviewed effective deliveries: 65 local source-image previews and five screenshot crops. Includes runtime overrides, not merely stored primary fields. The expanded recovery/preparation comprised 35 previews, including ten prepared in the preceding pass and 25 in its continuation. Jason Emer is a separate newly added preview, not a recovered prior photo; the remaining photo gaps now number 23. Not every prepared photo was a proven historical erasure.
+71 reviewed effective deliveries: 66 local source-image previews and five screenshot crops. Includes runtime overrides, not merely stored primary fields. The expanded recovery/preparation comprised 35 previews, including ten prepared in the preceding pass and 25 in its continuation. Jason Emer and Jessica Wu are separate newly added previews, not recovered prior photos; the remaining photo gaps now number 22. Not every prepared photo was a proven historical erasure.
 
 ## Applied and preserved delivery inventory
 
 | Stable identity | Profile path | Local delivery | Dimensions | Outward source page | Original asset provenance | SHA-256 |
 |---|---|---|---|---|---|---|
+| f361d60c-0b72-4b4a-80ea-2c281bcda294 | /jessicawu | /images/providers/jessicawu-source-preview.webp | 1100×1375 | https://www.drjessicawu.com/about | https://images.squarespace-cdn.com/content/v1/5a64d4db914e6b3776cf97e6/3a5f29e9-def5-4f61-8741-d1221075587a/About.jpeg | 53c81a7abfb1d6fbd4c6c48aa9e6827cb230b5b5bbfe8962ae7f1ac8f37b8f77 |
 | 6ff9b213-3354-4798-bf10-22f3ef988c11 | /jasonemer | /images/providers/jasonemer-source-preview.jpg | 920 × 830 | https://www.jasonemermd.com/about-us/dr-emer | https://www.jasonemermd.com/wp-content/uploads/2020/06/1570592176-dr-emer.jpg | dcc2aca4b4b2d5c02e592f134dc3f980205fca3b19f6b7fa1aa962be41bb34af |
 | 04910f03-044d-409f-bea5-1b900e2acb7c | /ali-mattu | /images/providers/alimattu-source-preview.jpg | 926 × 926 | https://www.alimattu.com/faq/ | Retained named-source review; original asset URL not duplicated in this inventory | db301fc0d74574dda4e74897db5ba7f0bc5107f054fac65f44cb370af43ee3b4 |
 | fe17b408-ac6c-4a1e-923f-47b92c2eb395 | /alisajjadian | /images/providers/alisajjadian-source-preview.jpg | 665 × 680 | https://www.drsajjadian.com/about/ali-sajjadian-md/ | Retained named-source review; original asset URL not duplicated in this inventory | a10ecb2fd2ec089e06f5f0d4dbcb2b3fdd4883d9b3925b20ee4b657d191a91e2 |
@@ -105,7 +106,6 @@ A gap is not automatically a deletion or an actionable copy task. No unavailable
 | e6953022-721e-4ccc-95d6-4c13e15d53e3 | /michaelbouzidDDS | dentists-cupertino | Named page and retained image returned 403 in ordinary requests. |
 | e924f36d-4599-4f5c-87ea-792c30d3ca1e | /omarkadriMD | orthopedic-surgeons-riverside | No suitable inspected retained primary candidate available in this pass; labeled fallback preserved. |
 | e955df8b-cd33-413e-aca9-63c8d7285158 | /davidkim | dermatologists-beverly-hills | No suitable inspected retained primary candidate available in this pass; labeled fallback preserved. |
-| f361d60c-0b72-4b4a-80ea-2c281bcda294 | /jessicawu | dermatologists-beverly-hills | No suitable inspected retained primary candidate available in this pass; labeled fallback preserved. |
 | f9b86381-653d-43c5-a339-7271b2d56a8f | /geneChoiMD | orthopedic-surgeons-riverside | No suitable inspected retained primary candidate available in this pass; labeled fallback preserved. |
 | fbb6c96c-3ab2-4859-a5af-0c3818299771 | /simonourian | dermatologists-beverly-hills | No suitable inspected retained primary candidate available in this pass; labeled fallback preserved. |
 
