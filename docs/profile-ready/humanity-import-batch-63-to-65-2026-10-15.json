@@ -1,0 +1,185 @@
+{
+  "preparedOn": "2026-10-15",
+  "applicationParent": "14aa5b9346cbc750e477dd81ca9bf54d2f106d1a",
+  "publicDataParent": "109723468fe187f423d7f6b396cad12d356905c9",
+  "fixedPreservationBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "acceptedStartingCount": 63,
+  "acceptedStartingCountBasis": "Reconciled data/profile-humanity-assessments.json, its accepted block map and patient-ready portrait inventory. Lancer is already accepted and excluded from this batch's net gain.",
+  "scope": "Append only source-backed patient-visible story/access sections and two directly inspected local previews. Do not replace earlier narratives, citations, facts, conflicts or media notes. Preserve IDs, canonical paths, aliases, directories, review/indexing states, clinical holds and unknown access. Unknown reuse terms do not establish ownership, blanket licensing, derivative-card permission, independent clinical verification or human review.",
+  "candidateAdditions": [
+    {
+      "id": "2648ca1f-a0da-4c4a-befc-6b46dc525e87",
+      "name": "Aileen Chang",
+      "path": "aileenchang",
+      "directory": "san-francisco-dermatologists",
+      "status": "eligible if all delivery checks pass",
+      "narrativeSourceId": "aileen-chang-dermatology-profile",
+      "narrativeSection": {
+        "id": "humanity-narrative-aileen-chang-2026-10-15",
+        "heading": "Research and building dermatology services",
+        "text": "Aileen Chang's UCSF Department of Dermatology biography describes research on how social and structural factors shape the development, clinical presentation, and treatment of skin conditions. It also describes her interdisciplinary work on lymphedema and wound care, and dermatology capacity in low-resource settings. From 2017 to 2024, she served as founding director of the ZSFG Dermatology Consult Service. This is the department's account of her work, not verified patient outcomes or a current appointment offer.",
+        "sourceIds": [
+          "aileen-chang-dermatology-profile"
+        ]
+      },
+      "accessSection": {
+        "id": "patient-access-aileen-chang-2026-10-15",
+        "heading": "Before arranging care",
+        "text": "UCSF's departmental profile lists 1001 Potrero Avenue, #271, San Francisco, and a professional email address; it does not provide a patient scheduling route. Individual appointment capacity, accepted insurance, fees, and referral requirements are not established by this profile. Confirm the appropriate clinic and current routing directly with UCSF.",
+        "sourceIds": [
+          "aileen-chang-dermatology-profile"
+        ]
+      },
+      "media": {
+        "type": "local-source-screenshot",
+        "sourcePage": "https://dermatology.ucsf.edu/about-us/our-team/aileen-chang-md",
+        "asset": "https://dermatology.ucsf.edu/sites/dermatology.ucsf.edu/files/styles/max_fp_650x650/public/2024-09/Aileen%20Chang_Headshot.jpg.webp?h=6c0ecf46&itok=PupvRp60",
+        "sourceAssetObservation": "Owner's research records the ordinarily downloaded and visually inspected WebP as 650x650. A normal direct GET from this workspace returned 403; the named official page rendered the portrait.",
+        "delivery": {
+          "path": "/images/providers/aileenchang-source-screenshot.png",
+          "dimensions": "150x150",
+          "sha256": "2b8ed5b3c278d1808901e49c93b1a22ea4cc46bcf60dea5428a0366c5973ceb8",
+          "method": "Unenlarged square crop from the ordinarily rendered official biography screenshot; full face visible."
+        },
+        "terms": "Unknown; modest source-linked preview only. No derivative approval."
+      },
+      "preserve": [
+        "Existing story and source records",
+        "Prior PhotoHandler No Image Found and 2026-10-13 direct-image 403 observations as dated history",
+        "Indexable false and existing research-pilot note",
+        "Clinical facts and nonclinical status"
+      ]
+    },
+    {
+      "id": "d770d623-3204-4cf7-b529-f16b2bcdc501",
+      "name": "Daniel Naysan",
+      "path": "danielnaysan",
+      "directory": "beverly-hills-cosmetic-dentists",
+      "status": "eligible if all delivery checks pass",
+      "narrativeSourceId": "naysan-humanity-approach-2026-10-15",
+      "narrativeSection": {
+        "id": "humanity-approach-naysan-2026-10-15",
+        "heading": "Treatment planning described by the practice",
+        "text": "Bedford Dental Group describes how Daniel Naysan considers a patient's facial structure and bite during planning and invites patients to participate in the design process through wearable mockups before permanent work. This is the practice's description of a planning approach; it does not establish results, guarantee confidence, show that the process is used in every case, or independently verify clinical claims.",
+        "sourceIds": [
+          "naysan-humanity-approach-2026-10-15"
+        ]
+      },
+      "accessSection": {
+        "id": "patient-access-naysan-2026-10-15",
+        "heading": "Before arranging care",
+        "text": "Bedford Dental Group's profile lists 436 N Bedford Dr, Suite 300, Beverly Hills. The profile record does not establish current appointment capacity, accepted insurance, fees, or referral requirements; confirm current routing and coverage directly with the practice.",
+        "sourceIds": [
+          "naysan-contact",
+          "naysan-team"
+        ]
+      },
+      "media": {
+        "type": "local-source-preview",
+        "sourcePage": "https://www.bhdentists.com/daniel-naysan-dds/",
+        "asset": "https://www.bhdentists.com/wp-content/uploads/2026/07/bdg-dr-daniel-hero.jpg",
+        "format": "JPEG",
+        "dimensions": "1200x800",
+        "sha256": "62e49eee2cf8a101dec18d5c4708f6310839b700fb01bea16c29a92db87ab5eb",
+        "delivery": {
+          "path": "/images/providers/danielnaysan-source-preview.jpg",
+          "dimensions": "1200x800",
+          "sha256": "62e49eee2cf8a101dec18d5c4708f6310839b700fb01bea16c29a92db87ab5eb",
+          "method": "Exact named-page asset bytes, decoded and visually checked; one person, face visible; no crop or enlargement."
+        },
+        "terms": "Unknown; modest source-linked preview only. No derivative approval."
+      },
+      "preserve": [
+        "Existing identity, route, directory and location",
+        "Existing citations and rejected mouth-collage hero",
+        "No clinical outcome or universal-treatment claim"
+      ]
+    }
+  ],
+  "contentOnlyOrMediaOnlyHandoffs": [
+    {
+      "id": "3de0928a-38b5-475e-a8f3-b01a5239d6f6",
+      "name": "Damaris Browning",
+      "path": "damarisbrowningDDS",
+      "directory": "dentists-cupertino",
+      "narrativeSourceId": "cupertino-damaris-browning-humanity-2026-10-15",
+      "section": {
+        "id": "humanity-career-and-interests-browning-2026-10-15",
+        "heading": "From laboratory research to dentistry",
+        "text": "Browning's first-person biography says her interest in science led her to dentistry. The account describes studying biology at UCLA and spending three years in hematology and oncology research involving recombinant DNA and stem cells before she chose dentistry. It also says she enjoys travel and completed three Spartan races with her husband; the source's relative timing is undated, so no calendar year is supplied. These details are attributed to her practice biography, not independent clinical findings.",
+        "sourceIds": [
+          "cupertino-damaris-browning-humanity-2026-10-15"
+        ]
+      },
+      "mediaDisposition": "Hold portrait. The inspected 475x475 couple photograph has no explicit person-position label; do not crop or infer which person is Browning.",
+      "milestoneDisposition": "Not counted: no suitable individually identified portrait."
+    },
+    {
+      "id": "5a9cddfd-9de3-45b1-904d-83c8c07034e5",
+      "name": "Joseph Goodman",
+      "path": "josephgoodman",
+      "directory": "beverly-hills-cosmetic-dentists",
+      "narrativeSourceId": "goodman-second-opinion-2026-10-15",
+      "section": {
+        "id": "humanity-second-opinion-goodman-2026-10-15",
+        "heading": "Second opinions and patient questions",
+        "text": "A September 2026 article published by his practice says a second opinion is not automatically about disagreeing with the first dentist. It describes Goodman's emphasis on explaining proposed care, alternatives, and longer-term implications before major smile changes. This is the practice's account, not an independent assessment of the merits of any recommendation. Conflicting biography chronology and training descriptions remain unresolved and are not repeated here.",
+        "sourceIds": [
+          "goodman-second-opinion-2026-10-15"
+        ]
+      },
+      "mediaDisposition": "No suitable individual portrait established. Keep the previously rejected TV-studio group image rejected; do not infer that timeout attempts prove no image exists.",
+      "milestoneDisposition": "Not counted: portrait gap and chronology/training conflicts remain."
+    },
+    {
+      "id": "c80972df-6008-4246-8665-e5c46f90dfbd",
+      "name": "Kevin Sands",
+      "path": "kevinsands",
+      "directory": "beverly-hills-cosmetic-dentists",
+      "media": {
+        "type": "local-source-preview",
+        "sourcePage": "https://www.90210dentist.net/practice-overview/",
+        "asset": "https://www.90210dentist.net/wp-content/uploads/2019/04/drsands2.png",
+        "format": "PNG",
+        "dimensions": "548x822",
+        "sha256": "6621cac9f2128303973a1cd18950a4108eb57eac9e84344a22814d0a128fec0f",
+        "delivery": {
+          "path": "/images/providers/kevinsands-source-preview.png",
+          "dimensions": "548x822",
+          "sha256": "6621cac9f2128303973a1cd18950a4108eb57eac9e84344a22814d0a128fec0f",
+          "method": "Exact named source asset, decoded and visually checked as an individual full-face portrait; no crop or enlargement."
+        },
+        "terms": "Unknown; modest source-linked preview only. No derivative approval."
+      },
+      "narrativeDisposition": "No sufficient distinctive humanity story found. Do not count the portrait-only addition."
+    },
+    {
+      "id": "fbb6c96c-3ab2-4859-a5af-0c3818299771",
+      "name": "Simon Ourian",
+      "path": "simonourian",
+      "directory": "dermatologists-beverly-hills",
+      "narrativeSourceId": "simonourian-epione-humanity-2026-10-15",
+      "section": {
+        "id": "humanity-sculpture-interest-ourian-2026-10-15",
+        "heading": "Sculpture and attention to form",
+        "text": "Epione's official biography describes Simon Ourian's early interest in art and sculpture and his continuing interest in sculpture alongside his medical work. The page calls him a sculptor by vocation and connects attention to human form with his artistic interests. This is the practice's account of an interest and work approach; it does not establish clinical outcomes, board certification, or an independently verified specialty credential.",
+        "sourceIds": [
+          "simonourian-epione-humanity-2026-10-15"
+        ]
+      },
+      "mediaDisposition": "Do not use the inspected sculpture photograph as a primary portrait: the face is turned away and partly cut off. No full-face individual portrait established.",
+      "milestoneDisposition": "Not counted: primary portrait remains unresolved. The contextual photo is not a milestone portrait."
+    }
+  ],
+  "excluded": [
+    {
+      "id": "4d23e61c-0cac-4d95-bcee-5622ecc71bf2",
+      "name": "Harold Lancer",
+      "reason": "Already present in the accepted 63-profile inventory; no repeated search or duplicate credit."
+    }
+  ],
+  "expectedNetGain": 2,
+  "expectedPostBatchCount": 65,
+  "acceptanceCondition": "Only Chang and Naysan may add to the total, and only after both complete narratives, citations, immediate local image decoding, visible source links, desktop/mobile rendering, source privacy and preservation checks pass. All other handoffs remain improvements or research exceptions, not accepted milestone additions.",
+  "externalSearch": "No paid image search or duplicate source search was used."
+}
