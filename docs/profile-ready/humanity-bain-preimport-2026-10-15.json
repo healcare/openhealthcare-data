@@ -64,7 +64,7 @@
     "access": {
       "id": "access-hoag-2026-10-15",
       "heading": "Before arranging care",
-      "text": "Hoag’s physician page lists a Newport Beach office at 366 San Miguel Dr, Suite 307, Newport Beach, CA 92660, phone (949) 720-0270, and marks the profile as accepting new patients. It lists Aetna, Anthem, Blue Shield, Cigna, SCAN, and UnitedHealthcare under accepted insurance. These are Hoag’s page-level observations checked October 15, 2026; they do not establish a specific appointment slot or plan-specific in-network coverage. Confirm current scheduling and coverage directly with Hoag.",
+      "text": "Hoag’s physician page lists a Newport Beach office at 366 San Miguel Dr, Suite 307, Newport Beach, CA 92660, phone (949) 720-0270, and marks the profile as accepting new patients. It lists Aetna, Anthem, Blue Shield, Cigna, Scan, and United Healthcare under accepted insurance. These are Hoag’s page-level observations checked October 15, 2026; they do not establish a specific appointment slot or plan-specific in-network coverage. Confirm current scheduling and coverage directly with Hoag.",
       "sourceIds": [
         "michael-bain-hoag-profile-2026-10-15"
       ],
@@ -80,7 +80,7 @@
     {
       "id": "michael-bain-hoag-profile-2026-10-15",
       "url": "https://www.hoag.org/physician/michael-a-bain-md/",
-      "label": "Hoag — Michael A. Bain, MD",
+      "label": "Michael A. Bain, MD — Hoag",
       "publisher": "Hoag",
       "retrievedDate": "2026-10-15",
       "verificationStatus": "source-stated",
