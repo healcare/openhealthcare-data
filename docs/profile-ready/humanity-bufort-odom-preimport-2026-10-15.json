@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-15",
+  "status": "prepared-before-app-import",
+  "qualificationRule": "A stable unique provider ID qualifies only with a source-checked original narrative conveying documented humanity and a visually inspected, immediately delivered local source-linked portrait. This is content completeness, not human review or independent clinical verification.",
+  "milestone": {
+    "checkedBeforeImport": 74,
+    "target": 100,
+    "noCountChangeUntilImportAndChecks": true
+  },
+  "revisions": {
+    "dataRepository": "healcare/openhealthcare-data",
+    "sourceMain": "db4b8b71a336ac69b34a8e8e7af7cf12ea7297b6",
+    "appRepository": "healcare/openhealthcare"
+  },
+  "profile": {
+    "id": "631701d1-55d2-4341-92ca-0e98dc2a3008",
+    "name": "Tiffany Bufort-Odom",
+    "canonicalPath": "tiffanybufortodom",
+    "directory": "psychotherapists-washington-dc",
+    "changeType": "enrich-existing-identity",
+    "expectedOutcome": "one additional qualifying unique ID if application and checks pass",
+    "preserve": [
+      "ID",
+      "canonical path",
+      "aliases",
+      "directory membership",
+      "clinical fields",
+      "access unknowns",
+      "review notes and statuses",
+      "indexing state",
+      "claim state",
+      "existing sources",
+      "existing portrait and attribution",
+      "data verification date"
+    ]
+  },
+  "humanityNarrative": {
+    "field": "humanity-career-path-and-community-work-bufort-odom-2026-10-15",
+    "heading": "From hospital work to school and community programs",
+    "text": "An Influential Women profile describes her earlier path from hospital psychotherapy and lead-therapist work to recruitment to help establish trauma-informed schools in Pennsylvania. It says she later created and oversaw an at-risk program across three Washington, DC schools, including wraparound support and grief counseling for displaced families during the COVID-19 pandemic.",
+    "sourceIds": [
+      "tiffany-bufort-odom-influential-women-2026-10-15"
+    ],
+    "claimMap": [
+      {
+        "claim": "An Influential Women profile describes her earlier path from hospital psychotherapy and lead-therapist work to recruitment to help establish trauma-informed schools in Pennsylvania.",
+        "sourceIds": [
+          "tiffany-bufort-odom-influential-women-2026-10-15"
+        ],
+        "verificationStatus": "source-stated"
+      },
+      {
+        "claim": "It says she later created and oversaw an at-risk program across three Washington, DC schools, including wraparound support and grief counseling for displaced families during the COVID-19 pandemic.",
+        "sourceIds": [
+          "tiffany-bufort-odom-influential-women-2026-10-15"
+        ],
+        "verificationStatus": "source-stated"
+      }
+    ],
+    "assessment": {
+      "category": "enriched-existing-profile",
+      "anchor": "grief counseling for displaced families",
+      "rationale": "documented career path and community work"
+    }
+  },
+  "newSource": {
+    "id": "tiffany-bufort-odom-influential-women-2026-10-15",
+    "url": "https://influentialwomen.com/connect/tiffany-bufortodom",
+    "label": "Tiffany BufortOdom",
+    "publisher": "Influential Women",
+    "sourceType": "secondary-provider-directory",
+    "retrievedDate": "2026-10-15",
+    "sourceDate": "not stated on page",
+    "verificationStatus": "source-stated",
+    "identityAssociation": "The named profile uses the matching name variant, lists Our Journey Counseling Services LLC, and links to a LinkedIn profile with the same provider name. This is a reasonable named-source association, not independent identity verification.",
+    "scopeLimit": "Use only the attributed career/community account. Do not import the page's degrees, certifications, license or current-role claims as independently verified facts.",
+    "retrievalMethod": "web-retrieval"
+  },
+  "portrait": {
+    "disposition": "retain-existing-approved-local-preview; no new image bytes or inventory change",
+    "imageUrl": "/images/providers/tiffanybufortodom-source-preview.jpg",
+    "sourcePage": "https://bio.site/journeywithTIFF",
+    "sourceAsset": "https://media.bio.site/sites/bdd0538b-c12a-434f-836a-29531d4dfbe8/kop98a4XVWUgy9mecudQKY.jpg",
+    "width": 3131,
+    "height": 2931,
+    "bytes": 1386382,
+    "sha256": "b2a45634443b5e438c82e59155328e26e668ea621b997d66da74c82ea106ea9d",
+    "visualInspection": "Previously visually inspected and recorded in the independent approved-delivery inventory; this batch reuses it without reapproval.",
+    "reuseTerms": "Unknown; existing modest source-linked local preview only, no ownership or derivative-card approval."
+  },
+  "accessAndClinicalScope": {
+    "newAccessClaims": false,
+    "existingLocationAndUnknowns": "unchanged",
+    "clinicalOrLicenseVerification": false,
+    "reviewOrIndexingPromotion": false,
+    "notes": "The official link page's Substack currently lists no posts. No current license, certification, capacity, age eligibility, role or treatment outcome was inferred from the new third-party profile."
+  },
+  "limitations": [
+    "Influential Women is a third-party profile, not a first-person account; its source publication date is not displayed and its career-history claims were not independently corroborated.",
+    "The name link and business-name match support source association only; the existing identity review status remains unchanged.",
+    "No claim is made that AI checks constitute human review, or that source-stated narrative completeness establishes clinical verification."
+  ]
+}
