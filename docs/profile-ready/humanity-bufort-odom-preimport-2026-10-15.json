@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "preparedOn": "2026-10-15",
   "status": "prepared-before-app-import",
-  "qualificationRule": "A stable unique provider ID qualifies only with a source-checked original narrative conveying documented humanity and a visually inspected, immediately delivered local source-linked portrait. This is content completeness, not human review or independent clinical verification.",
+  "qualificationRule": "A stable unique provider ID qualifies only with a source-checked original narrative conveying documented humanity, useful source-scoped practical access details or explicit unknowns, and a visually inspected, immediately delivered local source-linked portrait. This is content completeness, not human review or independent clinical verification.",
   "milestone": {
     "checkedBeforeImport": 74,
     "target": 100,
@@ -10,7 +10,7 @@
   },
   "revisions": {
     "dataRepository": "healcare/openhealthcare-data",
-    "sourceMain": "db4b8b71a336ac69b34a8e8e7af7cf12ea7297b6",
+    "sourceMain": "64f27e8d788c0a781e640a4d7230156a7d060463",
     "appRepository": "healcare/openhealthcare"
   },
   "profile": {
@@ -26,11 +26,11 @@
       "aliases",
       "directory membership",
       "clinical fields",
-      "access unknowns",
+      "access unknowns and conflicts",
       "review notes and statuses",
       "indexing state",
       "claim state",
-      "existing sources",
+      "existing sources and observations",
       "existing portrait and attribution",
       "data verification date"
     ]
@@ -38,13 +38,13 @@
   "humanityNarrative": {
     "field": "humanity-career-path-and-community-work-bufort-odom-2026-10-15",
     "heading": "From hospital work to school and community programs",
-    "text": "An Influential Women profile describes her earlier path from hospital psychotherapy and lead-therapist work to recruitment to help establish trauma-informed schools in Pennsylvania. It says she later created and oversaw an at-risk program across three Washington, DC schools, including wraparound support and grief counseling for displaced families during the COVID-19 pandemic.",
+    "text": "An Influential Women profile describes her earlier path from hospital psychotherapist and lead-therapist roles to being recruited to help establish trauma-informed schools in Pennsylvania. It says she later created and oversaw an at-risk program across three Washington, DC schools, including wraparound support and grief counseling for displaced families during the COVID-19 pandemic.",
     "sourceIds": [
       "tiffany-bufort-odom-influential-women-2026-10-15"
     ],
     "claimMap": [
       {
-        "claim": "An Influential Women profile describes her earlier path from hospital psychotherapy and lead-therapist work to recruitment to help establish trauma-informed schools in Pennsylvania.",
+        "claim": "An Influential Women profile describes her earlier path from hospital psychotherapy and lead-therapist roles to being recruited to help establish trauma-informed schools in Pennsylvania.",
         "sourceIds": [
           "tiffany-bufort-odom-influential-women-2026-10-15"
         ],
@@ -64,19 +64,85 @@
       "rationale": "documented career path and community work"
     }
   },
-  "newSource": {
-    "id": "tiffany-bufort-odom-influential-women-2026-10-15",
-    "url": "https://influentialwomen.com/connect/tiffany-bufortodom",
-    "label": "Tiffany BufortOdom",
-    "publisher": "Influential Women",
-    "sourceType": "secondary-provider-directory",
-    "retrievedDate": "2026-10-15",
-    "sourceDate": "not stated on page",
-    "verificationStatus": "source-stated",
-    "identityAssociation": "The named profile uses the matching name variant, lists Our Journey Counseling Services LLC, and links to a LinkedIn profile with the same provider name. This is a reasonable named-source association, not independent identity verification.",
-    "scopeLimit": "Use only the attributed career/community account. Do not import the page's degrees, certifications, license or current-role claims as independently verified facts.",
-    "retrievalMethod": "web-retrieval"
+  "practicalAccess": {
+    "field": "patient-access-tiffany-bufort-odom-2026-10-15",
+    "heading": "Therapy access and open questions",
+    "text": "On October 15, 2026, Psychology Today displayed a waitlist message for online therapy, invited contact to join, and listed a free 15-minute consultation. It listed $175 individual sessions, a sliding-scale application, and named insurer/voucher options including Aetna, CareFirst, Cigna/Evernorth, Kaiser (out-of-network), Optum and UnitedHealthcare; no plan- or service-specific coverage is confirmed here. The linked Our Journey Counseling scheduler labels the service telehealth and says the address is shared after an appointment is confirmed; it offers a new-client link but showed no appointment times in the retrieved view. Psychology Today lists Washington, DC 20036, teens/adults and individual/group sessions; current capacity and exact geographic eligibility remain unestablished.",
+    "sourceIds": [
+      "tiffany-psychology-today-access-2026-10-15",
+      "our-journey-sessionshealth-access-2026-10-15"
+    ],
+    "claimMap": [
+      {
+        "claim": "On October 15, 2026, Psychology Today displayed a waitlist message for online therapy, invited contact to join, and listed a free 15-minute consultation.",
+        "sourceIds": [
+          "tiffany-psychology-today-access-2026-10-15"
+        ],
+        "verificationStatus": "source-stated"
+      },
+      {
+        "claim": "Psychology Today listed $175 individual sessions, a sliding-scale application, and named insurer/voucher options including Aetna, CareFirst, Cigna/Evernorth, Kaiser as out-of-network, Optum and UnitedHealthcare; no plan- or service-specific coverage is confirmed here.",
+        "sourceIds": [
+          "tiffany-psychology-today-access-2026-10-15"
+        ],
+        "verificationStatus": "source-stated"
+      },
+      {
+        "claim": "The linked Our Journey Counseling scheduler labels the service telehealth and says the address is shared after an appointment is confirmed; it offers a new-client link but showed no appointment times in the retrieved view.",
+        "sourceIds": [
+          "our-journey-sessionshealth-access-2026-10-15"
+        ],
+        "verificationStatus": "source-stated"
+      },
+      {
+        "claim": "Psychology Today lists Washington, DC 20036, teens/adults and individual/group sessions; current capacity and exact geographic eligibility remain unestablished.",
+        "sourceIds": [
+          "tiffany-psychology-today-access-2026-10-15",
+          "our-journey-sessionshealth-access-2026-10-15"
+        ],
+        "verificationStatus": "source-stated"
+      }
+    ],
+    "limitations": "Directory-stated observations only; the Psychology Today Verified by Psychology Today label is not a state-board license check. The generic new-client scheduler link does not override the waitlist or establish appointment availability."
   },
+  "sources": [
+    {
+      "id": "tiffany-bufort-odom-influential-women-2026-10-15",
+      "url": "https://influentialwomen.com/connect/tiffany-bufortodom",
+      "label": "Tiffany BufortOdom",
+      "publisher": "Influential Women",
+      "sourceType": "secondary-provider-directory",
+      "retrievedDate": "2026-10-15",
+      "sourceDate": "not stated",
+      "verificationStatus": "source-stated",
+      "identityAssociation": "Matching name variant, Our Journey Counseling Services LLC name and a link to a same-name LinkedIn profile support attribution only; not independent identity verification.",
+      "retrievalMethod": "web-retrieval"
+    },
+    {
+      "id": "tiffany-psychology-today-access-2026-10-15",
+      "url": "https://www.psychologytoday.com/us/therapists/tiffany-bufort-odom-washington-dc/1004033",
+      "label": "Tiffany Bufort-Odom therapy profile",
+      "publisher": "Psychology Today",
+      "sourceType": "secondary-provider-directory",
+      "retrievedDate": "2026-10-15",
+      "sourceDate": "not stated",
+      "verificationStatus": "source-stated",
+      "note": "Displays waitlist, fee, sliding-scale/insurance, location, age and session-scope details. The platform's verification label is not treated as a state license lookup; individual-plan/service coverage and live capacity are not independently verified.",
+      "retrievalMethod": "web-retrieval"
+    },
+    {
+      "id": "our-journey-sessionshealth-access-2026-10-15",
+      "url": "https://ourjourneycounseling.sessionshealth.com/",
+      "label": "New client scheduling page",
+      "publisher": "Our Journey Counseling",
+      "sourceType": "official-practice-page",
+      "retrievedDate": "2026-10-15",
+      "sourceDate": "not stated",
+      "verificationStatus": "source-stated",
+      "note": "Linked directly from the provider's professional link page. The retrieved page labels Telehealth, offers new/existing client links and says the address is shared after appointment confirmation; no available times were shown.",
+      "retrievalMethod": "web-retrieval"
+    }
+  ],
   "portrait": {
     "disposition": "retain-existing-approved-local-preview; no new image bytes or inventory change",
     "imageUrl": "/images/providers/tiffanybufortodom-source-preview.jpg",
@@ -89,16 +155,15 @@
     "visualInspection": "Previously visually inspected and recorded in the independent approved-delivery inventory; this batch reuses it without reapproval.",
     "reuseTerms": "Unknown; existing modest source-linked local preview only, no ownership or derivative-card approval."
   },
-  "accessAndClinicalScope": {
-    "newAccessClaims": false,
-    "existingLocationAndUnknowns": "unchanged",
+  "controls": {
+    "newAccessClaims": true,
     "clinicalOrLicenseVerification": false,
     "reviewOrIndexingPromotion": false,
-    "notes": "The official link page's Substack currently lists no posts. No current license, certification, capacity, age eligibility, role or treatment outcome was inferred from the new third-party profile."
+    "notes": "No credentials, clinical outcomes or current role claims are imported from the third-party humanity profile. Contact and license review remain unchanged. Existing identity note remains needs-current-review."
   },
   "limitations": [
-    "Influential Women is a third-party profile, not a first-person account; its source publication date is not displayed and its career-history claims were not independently corroborated.",
-    "The name link and business-name match support source association only; the existing identity review status remains unchanged.",
+    "Influential Women is a third-party profile, not a first-person account; its publication date is not displayed and career-history claims were not independently corroborated.",
+    "Psychology Today and the linked scheduler are source-stated access observations; exact coverage, capacity and geographic eligibility remain uncertain.",
     "No claim is made that AI checks constitute human review, or that source-stated narrative completeness establishes clinical verification."
   ]
 }
