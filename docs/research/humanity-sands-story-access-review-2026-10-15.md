@@ -21,3 +21,14 @@ Do not restore or imply celebrity-client evidence, rankings, outcomes, unsupport
 ## Verification scope
 
 Source text was fetched on October 15, 2026. The source publication date is not shown for the blog. The access facts are publisher-stated and were not independently confirmed by telephone. No image was newly inspected, no appointment form was submitted, no identity/clinical/license review was performed, and no deployment occurred.
+
+
+## Applied result and final checks — October 15, 2026
+
+The app change is synced at `358bcceca3abcd56d921c5e4657de027652a46b4` (parent `9a8f6f0a04c1d76ef7423bbf83eae994325b7499`); the pre-import data packet was reconciled from `b230819984ec48f37254a39fa855775ccc7eb927`. Kevin Sands is now one net new qualifying ID (80 → 81). His existing route, identity, Beverly Hills directory membership, review/index flags, claim state, prior source observations and unresolved notes are unchanged.
+
+The patient-facing narrative applied verbatim is: “The official practice blog says Kevin B. Sands grew up in Beverly Hills and later became a dentist. Its current contact page lists the practice in Beverly Hills, linking his hometown and professional location. Promotional claims from the blog are not repeated or treated as evidence of outcomes.” The named practice blog's retrieved text has no displayed publication date; only its hometown and becoming-a-dentist statements are used. The contact page provides the current Beverly Hills office connection and source-stated access facts. Its appointment-request form was not submitted; capacity, fees, referrals and plan-specific participation remain unknown. The source itself does not establish independent clinical or license verification.
+
+No portrait was added or newly approved: the existing 548 × 822 local PNG remains in the independent portrait inventory, with the previously recorded named-source association, visual inspection and SHA-256. Reuse terms remain unknown; no ownership or derivative-card approval is implied.
+
+Fresh checks: all-record data and fixed-baseline guards passed (107 providers, 94 approved local portrait deliveries, 81 qualifying IDs); type-check passed; contract 81/81 and HTTP/API 109/109 passed; affected patient-ready browser cases passed 3/3 across desktop and touch-mobile, including an actual source-link tap; the focused six-profile regression case passed 1/1. The local portrait decoded immediately and there were no third-party requests or cookies before activation. That focused six-profile test intercepts remote image responses if requested, so those bytes are simulated UI evidence, not proof an external portrait loads. Browser durations were 9.9 seconds and 9.1 seconds, respectively. The full browser suite and build were not rerun; no load/performance-at-scale, screen-reader, real-device Safari, rights, clinical/license or human-review claim is made. No deployment occurred.

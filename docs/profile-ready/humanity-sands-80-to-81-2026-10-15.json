@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "preparedOn": "2026-10-15",
-  "status": "prepared before app import; one existing identity may qualify after affected checks",
+  "status": "applied and checked; one existing identity added to the qualifying intersection",
   "preImportCheckpoint": {
     "appRevision": "e3ea699061ea5c4265d2bc8b90f324432de017af",
     "qualifyingUniqueIds": 80,
@@ -18,16 +18,22 @@
     "narrative": {
       "sectionId": "sands-humanity-story-2026-10-15",
       "heading": "A Beverly Hills thread",
-      "text": "A 90210 Dentist practice blog says Kevin B. Sands grew up in Beverly Hills and later practiced there. This profile uses that specific hometown-to-career connection as a short story; the post’s celebrity and treatment-promotion claims are not repeated or treated as evidence of outcomes.",
+      "text": "The official practice blog says Kevin B. Sands grew up in Beverly Hills and later became a dentist. Its current contact page lists the practice in Beverly Hills, linking his hometown and professional location. Promotional claims from the blog are not repeated or treated as evidence of outcomes.",
       "claimMap": [
         {
-          "claim": "The named practice blog describes Sands as having grown up in Beverly Hills and later practicing there.",
+          "claim": "The named practice blog says Sands grew up in Beverly Hills and later became a dentist.",
           "sourceId": "sands-humanity-blog-20261015",
           "excerpt": "Kevin B. Sands, D.D.S. grew up in Beverly Hills ... When Sands became a dentist, the trend continued – at his office."
+        },
+        {
+          "claim": "The practice's current contact page lists a Beverly Hills office.",
+          "sourceId": "sands-contact-20261015",
+          "excerpt": "414 N Camden Dr, Suite 940 ... Beverly Hills, CA 90210"
         }
       ],
       "sourceIds": [
-        "sands-humanity-blog-20261015"
+        "sands-humanity-blog-20261015",
+        "sands-contact-20261015"
       ]
     },
     "access": {
@@ -51,7 +57,7 @@
         "retrievedDate": "2026-10-15",
         "publishedDate": null,
         "verificationStatus": "source-stated",
-        "note": "The page does not display a publication date in the retrieved text. Only its hometown-to-career detail is used."
+        "note": "The retrieved page does not display a publication date. Used only for its statements that Sands grew up in Beverly Hills and later became a dentist; celebrity and treatment-promotion claims are not adopted."
       },
       {
         "id": "sands-contact-20261015",
@@ -104,5 +110,73 @@
     "paidImageSearch": false,
     "externalAssistantClaimed": false,
     "deployment": false
+  },
+  "applicationResult": {
+    "checkedOn": "2026-10-15",
+    "appRevision": "358bcceca3abcd56d921c5e4657de027652a46b4",
+    "appParent": "9a8f6f0a04c1d76ef7423bbf83eae994325b7499",
+    "preImportDataRevision": "b230819984ec48f37254a39fa855775ccc7eb927",
+    "outcome": "one net new qualifying unique provider ID; existing profile enriched",
+    "qualifyingUniqueIds": {
+      "before": 80,
+      "after": 81,
+      "netChange": 1
+    },
+    "providerRecords": {
+      "before": 107,
+      "after": 107
+    },
+    "independentPortraitInventory": {
+      "before": 94,
+      "after": 94,
+      "newEntries": 0,
+      "disposition": "existing inspected local source-linked preview retained; not reapproved or counted again"
+    },
+    "profileId": "c80972df-6008-4246-8665-e5c46f90dfbd",
+    "routeAndScope": "existing /kevinsands record in Beverly Hills cosmetic dentists; path, aliases, membership and IDs unchanged",
+    "preserved": [
+      "review and index states",
+      "claim status",
+      "clinical and license uncertainty",
+      "prior evidence and editorial notes",
+      "unresolved contact and historical credential notes"
+    ],
+    "checks": [
+      {
+        "command": "npm run validate-data",
+        "result": "passed; 107 providers, 13 directories, 3 organizations, 1 organization bundle; 94 approved portrait deliveries; 81 qualifying IDs; fixed-baseline preservation passed"
+      },
+      {
+        "command": "npm run check",
+        "result": "passed"
+      },
+      {
+        "command": "npm run test:contract",
+        "result": "81 passed, 0 failed"
+      },
+      {
+        "command": "npm run test:http",
+        "result": "109 passed, 0 failed"
+      },
+      {
+        "command": "HUMANITY_IDS=c80972df-6008-4246-8665-e5c46f90dfbd npm run test:browser -- tests/humanity-patient-ready.spec.ts",
+        "result": "3 passed: desktop, touch-mobile and actual source-link tap; local portrait, visible narrative/access citations and no pre-activation third-party requests or cookies"
+      },
+      {
+        "command": "npm run test:browser -- tests/browser.spec.ts --grep the six-profile dentist refresh keeps citations, fallback decisions, and portrait checks separate",
+        "result": "1 passed; scoped API/citation/local-preview checks across desktop/mobile; remote image response interception is simulated UI evidence, not proof of live remote asset delivery"
+      }
+    ],
+    "browserDurations": {
+      "humanityCohortSeconds": 9.9,
+      "sixProfileCaseSeconds": 9.1
+    },
+    "limits": [
+      "no full browser suite in this batch",
+      "no build rerun; runtime code unchanged",
+      "not a thousands-profile performance trial",
+      "not human review, clinical/license verification, rights clearance, real-device Safari or screen-reader audit"
+    ],
+    "deployment": "not performed"
   }
 }

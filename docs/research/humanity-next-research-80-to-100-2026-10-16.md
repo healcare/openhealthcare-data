@@ -1,10 +1,14 @@
-# Humanity research queue after 80/100 — October 15, 2026
+# Humanity research queue after 81/100 — October 15, 2026
 
-Current checked app intersection: 80 unique IDs; 20 remain. This is an actionable research queue, not accepted membership. Reconcile every candidate against the current accepted-ID ledger before import. Do not repeat the already applied Tiffany, Bain, Andersen, Dobry, Twigg or François work, or any earlier accepted First, Hanam-Jahr, Cox, Sun, Chan, Murphy and Smith work.
+Current checked app intersection: 81 unique IDs; 19 remain. This is an actionable research queue, not accepted membership. Reconcile every candidate against the current accepted-ID ledger before import. Do not repeat the already applied Tiffany, Bain, Andersen, Dobry, Twigg or François work, or any earlier accepted First, Hanam-Jahr, Cox, Sun, Chan, Murphy and Smith work.
+
+
+## Applied this pass: 80 → 81
+
+- Kevin Sands (`c80972df-6008-4246-8665-e5c46f90dfbd`, /kevinsands) — added one distinct source-backed hometown-to-profession narrative and sourced practical access details. His existing inspected local portrait already qualified; no new portrait approval or delivery was added. See the clean applied result and separate source review. The profile's clinical/license, appointment-capacity and exact-plan status remain unverified/unknown.
 
 ## Highest-value story gaps with existing inspected portraits
 
-- Kevin Sands — Beverly Hills cosmetic dentists. A named 90210 Dentist practice blog now supports a narrow hometown-to-career story: https://www.90210dentist.net/blog/cosmetic-dentist-to-the-stars . The clean pre-import packet is docs/profile-ready/humanity-sands-80-to-81-2026-10-15.json. Import is not yet recorded here; exclude celebrity, outcome, ranking and unsupported credential claims. The existing inspected local portrait needs no repeat search.
 - Tory Twito — La Jolla pediatrics. Rady Children's named profile already contains first-person career and personal-interest material, but the existing identity/current-location review remains unresolved: CPCMG says virtual-only for its families, Rady lists La Jolla while the biography refers to a move to Washington, and Bluebird lists a Boynton Beach booking location. Do not count or relocate; resolve current California patient scope and source/identity association first.
 - Maria Capetanakis — La Jolla pediatrics. Named CPCMG source: https://www.cpcmg.net/cpcmg_doctor/maria-capetanakis-do/ . Current page supplies training/languages, not a qualifying personal narrative. Search results for Dr. Capetanakis at drcapetanakis.com describe an OB/GYN and are not established as the same provider; do not merge identities. Needed: exact named evidence for the pediatrician's own journey, interests, mentoring/community or work approach.
 - Gretchen Gainor — La Jolla pediatrics. Named source: https://www.cpcmg.net/cpcmg_doctor/gretchen-gainor-md/ . The current page lists a named portrait and Girard location but no longer supplies the earlier Pittsburgh/Stanford training details. Needed: current or clearly dated provider-specific support for a distinctive story; do not silently restore older training as current.

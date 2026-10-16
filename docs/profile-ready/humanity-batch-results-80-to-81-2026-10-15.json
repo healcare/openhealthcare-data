@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "title": "Humanity milestone applied result: 80 to 81",
+  "checkedOn": "2026-10-15",
+  "appRevision": "358bcceca3abcd56d921c5e4657de027652a46b4",
+  "appParent": "9a8f6f0a04c1d76ef7423bbf83eae994325b7499",
+  "preImportDataRevision": "b230819984ec48f37254a39fa855775ccc7eb927",
+  "fixedBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "acceptedAuditCheckpoint": "d4f0e503e3142140b6d182a0f8cc82d2a91d3865",
+  "outcome": {
+    "qualifyingUniqueIdsBefore": 80,
+    "after": 94,
+    "netGain": 1,
+    "providerRecords": 107,
+    "portraitDeliveriesBefore": 94,
+    "newPortraitDeliveries": 0
+  },
+  "addedOrEnriched": [
+    {
+      "id": "c80972df-6008-4246-8665-e5c46f90dfbd",
+      "name": "Kevin Sands",
+      "directory": "Beverly Hills cosmetic dentists",
+      "canonicalPath": "/kevinsands",
+      "disposition": "existing identity enriched; sole net new qualifier"
+    }
+  ],
+  "evidence": {
+    "narrativeSources": [
+      {
+        "id": "sands-humanity-blog-20261015",
+        "url": "https://www.90210dentist.net/blog/cosmetic-dentist-to-the-stars",
+        "title": "Cosmetic Dentist to the Stars",
+        "publisher": "90210 Dentist",
+        "retrievedDate": "2026-10-15",
+        "publicationDateDisplayed": false,
+        "usedFor": [
+          "grew up in Beverly Hills",
+          "later became a dentist"
+        ],
+        "excluded": [
+          "celebrity promotion",
+          "treatment promotion",
+          "outcomes"
+        ]
+      },
+      {
+        "id": "sands-contact-20261015",
+        "url": "https://www.90210dentist.net/contact/",
+        "title": "Contact",
+        "publisher": "90210 Dentist",
+        "retrievedDate": "2026-10-15",
+        "usedFor": [
+          "current Beverly Hills office",
+          "address",
+          "phone",
+          "weekday hours"
+        ],
+        "unknown": [
+          "appointment capacity",
+          "fees",
+          "referral requirements",
+          "plan-specific insurance participation"
+        ],
+        "contactFormSubmitted": false
+      }
+    ],
+    "narrative": "The official practice blog says Kevin B. Sands grew up in Beverly Hills and later became a dentist. Its current contact page lists the practice in Beverly Hills, linking his hometown and professional location. Promotional claims from the blog are not repeated or treated as evidence of outcomes.",
+    "portrait": {
+      "disposition": "retained existing approved local preview",
+      "localPath": "/images/providers/kevinsands-source-preview.png",
+      "sourcePage": "https://www.90210dentist.net/practice-overview/",
+      "sourceAsset": "https://www.90210dentist.net/wp-content/uploads/2019/04/drsands2.png",
+      "dimensions": "548x822 PNG; local dimensions equal source dimensions",
+      "sha256": "6621cac9f2128303973a1cd18950a4108eb57eac9e84344a22814d0a128fec0f",
+      "previouslyInspectedDate": "2026-10-15",
+      "terms": "unknown; no ownership, blanket license or derivative-card approval implied",
+      "reinspectionThisBatch": false
+    }
+  },
+  "checks": [
+    {
+      "name": "validate-data and preservation",
+      "result": "passed; 107 providers, 13 directories, 3 organizations, 1 org bundle, 94 portrait deliveries, 81 qualifiers; fixed baseline enforced"
+    },
+    {
+      "name": "TypeScript check",
+      "result": "passed"
+    },
+    {
+      "name": "contract tests",
+      "result": "81 passed, 0 failed"
+    },
+    {
+      "name": "HTTP/API tests",
+      "result": "109 passed, 0 failed"
+    },
+    {
+      "name": "patient-ready browser cohort",
+      "result": "3 passed across desktop/touch-mobile and actual source-link tap; immediate local image; no third-party requests/cookies before activation",
+      "command": "HUMANITY_IDS=c80972df-6008-4246-8665-e5c46f90dfbd npm run test:browser -- tests/humanity-patient-ready.spec.ts"
+    },
+    {
+      "name": "focused six-profile dentist browser test",
+      "result": "1 passed; intercepted remote image bytes, if present, are simulated UI evidence and do not prove external delivery",
+      "command": "npm run test:browser -- tests/browser.spec.ts --grep the six-profile dentist refresh keeps citations, fallback decisions, and portrait checks separate"
+    }
+  ],
+  "browserDurationsSeconds": {
+    "patientReadyCohort": 9.9,
+    "sixProfileDentistCase": 9.1
+  },
+  "notClaimed": [
+    "full browser suite",
+    "new build run",
+    "thousands-profile load/performance",
+    "clinical/license verification",
+    "human review",
+    "rights clearance",
+    "real-device Safari",
+    "screen-reader audit"
+  ],
+  "deployment": "not performed",
+  "preserved": [
+    "stable identity and route",
+    "directory membership",
+    "review/indexing flags",
+    "claim status",
+    "existing evidence and holds",
+    "unknown access facts"
+  ]
+}

@@ -320,3 +320,10 @@ Operational lessons:
 - Validate API citations, patient-visible story, source links, local image decode and no third-party requests/cookies before interaction. Keep review/indexing, clinical/license status and portrait-media disposition independent.
 
 The batch passed all-record/fixed-baseline checks, type/build, contract 81/81, HTTP/API 109/109, pilot 93/93, targeted desktop/touch-mobile checks and a full test:all run (exit 0). The full run's aggregate count was not retained. No clinical/license approval, human-review completion, rights determination, screen-reader or real-device Safari audit, or deployment is claimed.
+
+
+## Checked continuation 80 → 81 — October 15, 2026
+
+One existing profile, Kevin Sands, added a qualifying source-backed narrative; the profile already had an approved local portrait. The unique-ID intersection moved 80 → 81, but the independent portrait inventory remained 94. Do not treat an existing portrait as a new media approval or count a profile from its image alone. Preserve the source-specific narrative citations separately from the access facts; the current contact page supports location, phone and hours, not appointment capacity, fees, referral requirements or exact insurance participation. Keep source retrieval date distinct from any independent verification date, and omit the latter when none exists.
+
+For this batch, the all-record and fixed-baseline checks passed; contract/API checks passed 81/81 and 109/109; affected browser tests passed on desktop and touch-mobile, including a real citation tap and the zero-third-party-request/cookie-before-activation check. The focused remote-image test uses intercepted bytes if an external image is requested; that is simulated UI evidence only. This was a one-profile functional integrity check, not a full browser run or a performance trial at thousands of records. Clinical/license review, human approval, screen-reader/physical-Safari audit and image derivative rights remain separate.
