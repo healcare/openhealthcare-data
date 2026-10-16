@@ -1,9 +1,13 @@
-# Humanity research queue after 81/100 — October 15, 2026
+# Humanity research queue after 82/100 — October 15, 2026
 
-Current checked app intersection: 81 unique IDs; 19 remain. This is an actionable research queue, not accepted membership. Reconcile every candidate against the current accepted-ID ledger before import. Do not repeat the already applied Tiffany, Bain, Andersen, Dobry, Twigg or François work, or any earlier accepted First, Hanam-Jahr, Cox, Sun, Chan, Murphy and Smith work.
+Current checked app intersection: 82 unique IDs; 18 remain. This is an actionable research queue, not accepted membership. Reconcile every candidate against the current accepted-ID ledger before import. Do not repeat the already applied Tiffany, Bain, Andersen, Dobry, Twigg, François or Timothy G. Berger work, or any earlier accepted First, Hanam-Jahr, Cox, Sun, Chan, Murphy and Smith work.
 
 
-## Applied this pass: 80 → 81
+## Applied this pass: 81 → 82
+
+- Timothy G. Berger (`59cd2739-67e7-447e-8892-2840ef14603e`, /timothyberger, San Francisco dermatology) — new record with a source-mapped teaching/mentoring career narrative and a new visually inspected, immediate local source-linked portrait. UCSF states referral or Executive Health access; capacity, eligibility, fees and plan participation remain unknown. Noindex, unclaimed, pending review and pending license lookup remain unchanged. This adds one unique ID; it is not recovery of a prior photo. See the clean applied packet and separate research note. App revision: `b0a948a5bd954ec5152d9c1120ee02f1e3df9d39`.
+
+## Historical applied pass: 80 → 81
 
 - Kevin Sands (`c80972df-6008-4246-8665-e5c46f90dfbd`, /kevinsands) — added one distinct source-backed hometown-to-profession narrative and sourced practical access details. His existing inspected local portrait already qualified; no new portrait approval or delivery was added. See the clean applied result and separate source review. The profile's clinical/license, appointment-capacity and exact-plan status remain unverified/unknown.
 
