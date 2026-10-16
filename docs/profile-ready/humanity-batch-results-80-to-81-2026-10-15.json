@@ -8,12 +8,17 @@
   "fixedBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
   "acceptedAuditCheckpoint": "d4f0e503e3142140b6d182a0f8cc82d2a91d3865",
   "outcome": {
-    "qualifyingUniqueIdsBefore": 80,
-    "after": 94,
-    "netGain": 1,
+    "qualifyingUniqueIds": {
+      "before": 80,
+      "after": 81,
+      "netGain": 1
+    },
     "providerRecords": 107,
-    "portraitDeliveriesBefore": 94,
-    "newPortraitDeliveries": 0
+    "independentPortraitDeliveries": {
+      "before": 94,
+      "after": 94,
+      "newEntries": 0
+    }
   },
   "addedOrEnriched": [
     {
