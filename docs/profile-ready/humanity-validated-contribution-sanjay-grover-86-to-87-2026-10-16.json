@@ -18,7 +18,7 @@
           "value": [
             {
               "id": "sanjay-grover-ocregister-2013",
-              "url": "https://www.ocregister.com/2013/01/08/dr-sanjay-grover",
+              "url": "https://www.ocregister.com/2013/01/08/dr-sanjay-grover/",
               "label": "Dr. Sanjay Grover — January 8, 2013",
               "sourceType": "primary-source",
               "retrievedDate": "2026-10-16",
@@ -97,8 +97,8 @@
           "value": {
             "imageUrl": "/images/providers/sanjay-grover-ocregister-source-preview.jpg",
             "imageUsage": "local-source-preview",
-            "imageClickThroughUrl": "https://www.ocregister.com/2013/01/08/dr-sanjay-grover",
-            "imageSource": "https://www.ocregister.com/2013/01/08/dr-sanjay-grover",
+            "imageClickThroughUrl": "https://www.ocregister.com/2013/01/08/dr-sanjay-grover/",
+            "imageSource": "https://www.ocregister.com/2013/01/08/dr-sanjay-grover/",
             "imageAlt": "Portrait of Sanjay Grover"
           }
         },
@@ -125,7 +125,7 @@
             "directory": "plastic-surgeons-orange-county",
             "imageUrl": "/images/providers/sanjay-grover-ocregister-source-preview.jpg",
             "imageUsage": "local-source-preview",
-            "sourcePage": "https://www.ocregister.com/2013/01/08/dr-sanjay-grover",
+            "sourcePage": "https://www.ocregister.com/2013/01/08/dr-sanjay-grover/",
             "sourceAsset": "https://www.ocregister.com/wp-content/uploads/migration/maf/maffnj-b781003083z.120120915220453000gss19r7nh.2.jpg",
             "sourceWidth": 600,
             "sourceHeight": 437,

@@ -6,13 +6,13 @@
 
 ## Narrative evidence
 
-The Orange County Register article [“Dr. Sanjay Grover”](https://www.ocregister.com/2013/01/08/dr-sanjay-grover), published January 8, 2013, contains a direct quote attributed to Grover. He said his father was a general surgeon and that childhood exposure to the field influenced his decision to pursue surgery; he said his interest in cosmetic surgery developed in medical school. This supports a specific source-stated career motivation and journey, not merely a list of credentials.
+The Orange County Register article [“Dr. Sanjay Grover”](https://www.ocregister.com/2013/01/08/dr-sanjay-grover/), published January 8, 2013, contains a direct quote attributed to Grover. He said his father was a general surgeon and that childhood exposure to the field influenced his decision to pursue surgery; he said his interest in cosmetic surgery developed in medical school. This supports a specific source-stated career motivation and journey, not merely a list of credentials.
 
 The clean packet paraphrases only those statements in one concise, visibly cited section. It excludes the article's awards, specialty marketing and claims about patient confidence, care, or results. This old interview does not establish current clinical status, license, board certification, patient outcomes or present-day practice details. It is not authored or endorsed by Grover.
 
 ## Portrait inspection and delivery provenance
 
-- **Source page:** https://www.ocregister.com/2013/01/08/dr-sanjay-grover
+- **Source page:** https://www.ocregister.com/2013/01/08/dr-sanjay-grover/
 - **Exact asset:** https://www.ocregister.com/wp-content/uploads/migration/maf/maffnj-b781003083z.120120915220453000gss19r7nh.2.jpg
 - **Retrieval:** HTTP 200; `image/jpeg`; 79,032 bytes; no `Set-Cookie` response header.
 - **Decoded dimensions:** 600×437; source SHA-256 `074bb9f625c3ae50a06979038d0d63712590659276271b73128490582059bf87`.
