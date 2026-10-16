@@ -2,11 +2,11 @@
   "packetVersion": 1,
   "packetType": "humanity-profile-candidate",
   "preparedOn": "2026-10-15",
-  "status": "prepared-not-imported",
+  "status": "applied-checked",
   "candidate": {
     "id": "59cd2739-67e7-447e-8892-2840ef14603e",
     "name": "Timothy G. Berger",
-    "canonicalPath": "timothy-g-berger",
+    "canonicalPath": "timothyberger",
     "directorySlug": "san-francisco-dermatologists",
     "directoryFit": "Named UCSF Health dermatologist with a current San Francisco Mount Zion location; existing directory scope is UCSF/ZSFG-affiliated dermatologists in San Francisco."
   },
@@ -17,10 +17,10 @@
     "status": "published",
     "indexable": false,
     "claimStatus": "unclaimed",
-    "canonicalPath": "timothy-g-berger",
+    "canonicalPath": "timothyberger",
     "aliases": [],
     "directorySlug": "san-francisco-dermatologists",
-    "pilotNote": "Source-stated UCSF provider record prepared from named institutional pages on 2026-10-15. Pending human review and independent license review; no clinical or credential claim is independently verified. Not indexable. UCSF states patient access is by referral or through its Executive Health Practice.",
+    "pilotNote": "Source-stated UCSF provider record prepared from named institutional pages on 2026-10-15. Pending human review and independent license review; no clinical or credential claim is independently verified. Not indexable. UCSF states patient access is by referral or in its Executive Health Practice.",
     "sources": [
       {
         "id": "timothy-berger-ucsf-health-2026-10-15",
@@ -50,6 +50,15 @@
       "timothy-berger-ucsmeded-academy-2026-10-15"
     ],
     "name": "Timothy G. Berger",
+    "nameParts": {
+      "display": "Timothy G. Berger",
+      "given": "Timothy",
+      "middle": "G.",
+      "family": "Berger",
+      "sourceIds": [
+        "timothy-berger-ucsf-health-2026-10-15"
+      ]
+    },
     "title": "MD",
     "clinicianType": "physician",
     "specialty": "Dermatology",
@@ -155,7 +164,7 @@
       {
         "id": "patient-access-timothy-berger-2026-10-15",
         "heading": "Before requesting care",
-        "text": "UCSF Health says Berger sees patients only by referral or in the UCSF Executive Health Practice. Its page lists Dermatology Mount Zion at 1701 Divisadero Street, San Francisco, CA 94115, phone 415-353-7800, and telehealth visits. Current appointment availability, Executive Health eligibility, fees, and plan participation are not established by this listing; confirm directly with UCSF.",
+        "text": "UCSF Health says Berger sees patients only by referral or in the UCSF Executive Health Practice. Its page lists Dermatology Mount Zion at 1701 Divisadero Street, San Francisco, CA 94115, phone 415-353-7800, and telehealth visits. Current appointment capacity, Executive Health eligibility, fees, and accepted insurance plans are unknown from this listing; confirm directly with UCSF.",
         "sourceIds": [
           "timothy-berger-ucsf-health-2026-10-15"
         ]
@@ -188,7 +197,7 @@
   },
   "portraitDelivery": {
     "providerId": "59cd2739-67e7-447e-8892-2840ef14603e",
-    "slug": "timothy-g-berger",
+    "slug": "timothyberger",
     "imageUrl": "/images/providers/timothy-g-berger-source-preview.jpg",
     "sourcePage": "https://www.ucsfhealth.org/providers/timothy-berger",
     "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/berger-timothy-1124079181-eb32187f37963a6737fd939aca04ee57.jpg",
@@ -218,5 +227,34 @@
     "licenseLookupStatus": "pending",
     "clinicalVerification": "source-stated only"
   },
-  "countStatus": "Do not count until the imported profile, API projection, full patient-visible story/citations, local portrait decode, source links and desktop/touch-mobile privacy checks pass."
+  "countStatus": "Counted as the 82nd qualifying unique provider ID after source-mapped narrative, API/patient-visible content, local portrait, desktop/touch-mobile, privacy, and fixed-baseline preservation checks passed. The profile remains nonindexable and pending its existing review and license lookup states.",
+  "appliedOn": "2026-10-15",
+  "application": {
+    "result": "applied-and-checked",
+    "appRevision": "b0a948a5bd954ec5152d9c1120ee02f1e3df9d39",
+    "appParentRevision": "358bcceca3abcd56d921c5e4657de027652a46b4",
+    "inputDataPreparationRevision": "b000c6c8b701827f06ab0e5d3319e973ee928dc2",
+    "inputDataResearchRevision": "38075b75b183f64fbf66fcca098224bc26d4ce0e",
+    "netQualifyingIds": 1,
+    "qualifyingIntersectionAfter": 82,
+    "remainingToGoal": 18,
+    "newProviderRecord": true,
+    "newPortraitDelivery": true,
+    "preserved": [
+      "existing profile IDs, paths, aliases, membership, evidence, review/indexing controls, and holds"
+    ],
+    "checkSummary": {
+      "validateData": "passed; 108 providers, 13 directories, 3 organizations, 1 organization bundle; 95 local portrait deliveries; fixed-baseline preservation passed",
+      "typeAndDiff": "npm run check and git diff --check passed",
+      "contract": "81/81 passed",
+      "httpApi": "109/109 passed",
+      "sfPilot": "98/98 passed",
+      "targetedBrowser": "3/3 passed; desktop, touch-mobile and actual source-link tap; full story/citations/access, immediate local decode and no external request/cookie before activation",
+      "build": "passed; existing Browserslist freshness, PostCSS from and large-chunk warnings remain",
+      "screenshotReview": "desktop and mobile reviewed; full-face proportional framing and visible content confirmed",
+      "fullBrowserSuite": "not run as one monolithic invocation",
+      "duration": "not captured during this batch"
+    },
+    "deployment": "not performed"
+  }
 }
