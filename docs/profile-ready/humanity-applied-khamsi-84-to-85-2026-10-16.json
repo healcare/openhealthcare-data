@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "preparedOn": "2026-10-16",
   "baseAppRevision": "21d55d521f76e534ca587b11daee761bb5cf1d83",
-  "resultingAppRevision": "49e02d3546f3153f3ea56552b088ad8512ecd071",
+  "resultingAppRevision": "00ee1513f2b7b8b654fbb306479ea1d043ffa1d7",
   "baseDataRevision": "c8177aee18cbd380c8c6ba7c7fc944da6610c266",
   "counts": {
     "qualifyingUniqueProviderIds": {
@@ -107,16 +107,16 @@
   "observedDurations": [
     {
       "phase": "Babak desktop browser check",
-      "milliseconds": 2152,
+      "milliseconds": 1932,
       "note": "Shared browser-test context; not cold-cache performance."
     },
     {
       "phase": "Babak touch-mobile browser check",
-      "milliseconds": 928,
+      "milliseconds": 1315,
       "note": "Shared browser-test context; not device-level or load performance."
     }
   ],
-  "resolvedTestSetupObservation": "The first HUMANITY_IDS-scoped run passed desktop and touch-mobile but did not run the source-link interaction because the explicit activation-target list omitted Babak. The test was extended with his source ID and exact accessible citation name, without removing assertions; the complete targeted run then passed 3/3.",
+  "resolvedTestSetupObservation": "The first HUMANITY_IDS-scoped run passed desktop and touch-mobile but did not run source-link interaction because the explicit activation-target list omitted Babak. The test now chooses a mapped source from the affected accepted cohort and derives the expected accessible citation name only from supplied title, publisher, visible label, or URL, while explicitly retaining the visible label. New IDs no longer require manual list additions; the complete targeted run passed 3/3 without removing assertions.",
   "limits": [
     "Functional validation only; no thousands-profile, concurrency, cold-cache, or load-performance claim.",
     "The biography, credentials, license, appointment capacity, specific insurance plans, and reported service outcomes were not independently verified.",
