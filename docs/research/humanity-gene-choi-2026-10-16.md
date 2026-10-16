@@ -41,3 +41,9 @@ The proposed access section keeps the named physician page’s office hours scop
 The app validator required an explicit editorial scope entry before allowing new citations on this profile. The packet keeps the directory at `presentation-only` and adds only `geneChoiMD` to its `sourceBackedPaths` and `sourceStatedNarrativeOnlyPaths`; this permits the attributed narrative/access content without promoting clinical claims, changing human-review or indexing state, or treating the portrait inspection as clinical evidence.
 
 The page intro is shorter than the full narrative so the patient-facing summary does not repeat the complete story. Shared profile sections are labelled “More from the sources,” not “More from the published biography,” because these records may cite interviews and practice access pages as well as biographies.
+
+## Application result — October 16, 2026
+
+The existing provider record was updated at app main `d4671273e0872867ffd8f816ea2088996b9213e4`, after reconciling the additive app documentation commit `160d051ce92df9dbfc97c86405a487a9fde4e393`. The accepted unique-ID count advanced 85→86, provider records stayed at 108, and independent local portrait deliveries advanced 96→97. This is a new qualification and local preview, not a newly created provider or recovery of an erased photo.
+
+The app validator, fixed baseline, affected-profile import guard, contract suite and targeted desktop/touch-mobile/source-activation cohort passed. The detailed applied checks and limitations are in [the result receipt](../profile-ready/humanity-applied-gene-choi-85-to-86-2026-10-16.json). A fresh no-cache capture showed current copy and no cross-origin request before interaction; an earlier built-in screenshot showed prior text, and the capture mismatch's cause remains unknown.

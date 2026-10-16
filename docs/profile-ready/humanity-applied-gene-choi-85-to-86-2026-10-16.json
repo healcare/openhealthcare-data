@@ -1,0 +1,131 @@
+{
+  "kind": "applied-profile-result",
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-16",
+  "baseAppRevision": "00ee1513f2b7b8b654fbb306479ea1d043ffa1d7",
+  "resultingAppRevision": "d4671273e0872867ffd8f816ea2088996b9213e4",
+  "baseDataRevision": "87f7b221d7001c23442fa1b3b0ff4ffd551d9e38",
+  "validatedContributionRevision": "fbd8d09a81ad405b70719c9d00e94d193b2db243",
+  "counts": {
+    "qualifyingUniqueProviderIds": {
+      "before": 85,
+      "after": 86
+    },
+    "providerRecords": {
+      "before": 108,
+      "after": 108
+    },
+    "approvedLocalPortraitDeliveries": {
+      "before": 96,
+      "after": 97
+    }
+  },
+  "items": [
+    {
+      "id": "f9b86381-653d-43c5-a339-7271b2d56a8f",
+      "name": "Gene Choi",
+      "disposition": "accepted",
+      "reason": "The existing Riverside identity has a distinct source-attributed humanity narrative and a visually inspected, immediate local source-linked portrait. This adds one qualifying ID, not a provider record or recovered photo.",
+      "appliedChanges": [
+        {
+          "path": "sources, profileSections, claimEvidence",
+          "reason": "Added a concise cited intro, a full interview-based work-approach narrative, and a separately sourced access section. The transcript was not independently checked against audio; claims remain source-stated."
+        },
+        {
+          "path": "imageUrl, imageUsage, imageClickThroughUrl, imageSource, imageAlt",
+          "reason": "Delivered the exact visually inspected 147×160 JPEG from Choi's named Riverside Medical Clinic page as a modest immediate local preview. No crop or upscale was applied."
+        },
+        {
+          "path": "data/patient-ready-portraits.json",
+          "reason": "Added one deliberate inventory entry with exact source page/asset, dimensions, bytes, hashes, inspection date and no-Set-Cookie source-response observation. Reuse terms remain unknown."
+        },
+        {
+          "path": "data/profile-humanity-assessments.json",
+          "reason": "Added the complete accepted narrative block and matching source IDs to the existing cohort; the fixed baseline and all prior accepted IDs remain."
+        },
+        {
+          "path": "data/editorial-refresh.json",
+          "reason": "Added only the existing canonical path to the directory's source-backed and source-stated-narrative-only lists; the directory remains presentation-only."
+        },
+        {
+          "path": "data/preservation-reviews.json",
+          "reason": "Recorded a dated, scoped explanation for refreshing the Riverside orthopedics research-gap summary; the historical baseline wording is not presented as a newly verified current count."
+        }
+      ],
+      "deltas": {
+        "qualifyingUniqueProviderIds": 1,
+        "providerRecords": 0,
+        "approvedLocalPortraitDeliveries": 1
+      },
+      "portraitDisposition": "New local source-linked preview, not a recovered prior delivery; the app base had no delivered image for this record. Exact source asset is JPEG 147×160, 4,520 bytes, SHA-256 1cc87c04156849631f738f840c14f467417f97bd6574907967c456ff65b8ac68. Reuse terms are unknown; no ownership or derivative approval is claimed.",
+      "preserved": [
+        "stable provider ID, canonical path, aliases and Riverside directory membership",
+        "existing clinical facts, stored description, source history and older dates",
+        "publication, claim, review, indexing and hold states",
+        "the fixed accepted-ID baseline and all previous accepted IDs",
+        "separation of source-stated narrative/media completeness from independent clinical or license verification"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "npm run validate-data",
+      "result": "passed",
+      "scope": "124 app entity files, 108 providers, 97 independent local portrait deliveries, fixed-baseline preservation and 86/108 qualifying unique IDs."
+    },
+    {
+      "name": "npm run validate:profile-import -- --base 00ee1513f2b7b8b654fbb306479ea1d043ffa1d7",
+      "result": "passed",
+      "scope": "Affected-profile comparison passed for one changed provider and zero changed directory entity records; the separate editorial-refresh summary update has a dated scoped review."
+    },
+    {
+      "name": "npm run check",
+      "result": "passed",
+      "scope": "Application TypeScript check."
+    },
+    {
+      "name": "npm run test:contract",
+      "result": "passed",
+      "scope": "83/83 contract, API/source projection, narrative/citation, portrait, privacy, URL, preservation and strict-JSON tests; none skipped."
+    },
+    {
+      "name": "Cohort-driven humanity patient-ready browser suite",
+      "result": "passed",
+      "scope": "3/3 Chromium cases for Chiu, Khamsi and Choi: desktop, touch-mobile and actual source-link tap. Verified full patient-visible stories/citations, immediate local image decoding, no pre-activation external request/cookie and no adjacent-disclosure toggle."
+    },
+    {
+      "name": "Gene Choi provider API and revision-tagged capture",
+      "result": "passed",
+      "scope": "Provider API, page and API responses returned 200; all three sections and source mappings were present. Fresh desktop/mobile capture showed expected copy and zero cross-origin requests before interaction. The built-in screenshot showed older copy; cause is unknown."
+    },
+    {
+      "name": "npm run validate-data in public openhealthcare-data repository",
+      "result": "passed",
+      "scope": "The validated-contribution and applied-result artifacts are strictly parsed and count dimensions reconcile."
+    }
+  ],
+  "observedDurations": [
+    {
+      "phase": "three-profile desktop browser cohort",
+      "milliseconds": 8064,
+      "note": "Shared browser context; not cold-cache latency or performance."
+    },
+    {
+      "phase": "three-profile touch-mobile browser cohort",
+      "milliseconds": 2493,
+      "note": "Shared browser context; not device-level or load performance."
+    },
+    {
+      "phase": "actual source-link activation case",
+      "milliseconds": 1300,
+      "note": "Test duration in the shared context; not external page-load latency."
+    }
+  ],
+  "limits": [
+    "Functional integrity evidence only; no thousands-profile, concurrent, cold-cache or load-performance claim.",
+    "The interview transcript was not independently checked against its audio; narrative is source-stated, not independent clinical, license or outcome verification.",
+    "Current appointment capacity, exact insurance plans, fees, referral requirements and other-language/interpreter availability remain unestablished.",
+    "Image reuse terms remain unknown; no ownership, blanket permission or derivative-card approval is claimed.",
+    "No human review, screen-reader audit, real-device Safari test, indexing/review promotion or deployment."
+  ]
+}
