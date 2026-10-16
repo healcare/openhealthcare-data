@@ -29,4 +29,17 @@ The UCSF Health profile explicitly states that Berger sees patients only by refe
 
 ## Prepared packet and count status
 
-The clean source-mapped import packet is `docs/profile-ready/humanity-candidate-timothy-berger-2026-10-15.json` (prepared in data commit `b000c6c8b701827f06ab0e5d3319e973ee928dc2`). It is not yet an applied or accepted result. Do not add this ID to the accepted cohort until the provider record, API projection, readable narrative and citations, immediate local image load, source links, directory presentation, desktop/touch-mobile privacy, and preservation checks all pass.
+The clean source-mapped import packet is `docs/profile-ready/humanity-candidate-timothy-berger-2026-10-15.json` (prepared in data commit `b000c6c8b701827f06ab0e5d3319e973ee928dc2`). At preparation time, this was not yet an applied or accepted result; the subsequent checked application outcome is recorded below.
+
+
+## Applied and checked — October 15, 2026
+
+The prepared record was imported as new provider ID `59cd2739-67e7-447e-8892-2840ef14603e` in the existing San Francisco dermatology directory, at collision-checked path `/timothyberger`. No prior profile or portrait was recovered. Existing provider IDs, paths, aliases, directory membership, evidence, review/indexing states and holds were preserved. The profile remains unclaimed, nonindexable, pending human review and pending license lookup; no clinical, license or credential verification is implied.
+
+The source-mapped teaching narrative and access details are visible on the patient page with named citations. UCSF states access is by referral or through Executive Health and lists Mount Zion, phone and telehealth; capacity, eligibility, fees and plan participation remain unknown. The source-stated-only API/JSON-LD boundary suppresses structured clinical claims while the patient-readable narrative/access section remains available.
+
+The individually inspected 640×640 JPEG is delivered immediately from the app at `/images/providers/timothy-g-berger-source-preview.jpg` (387,213 bytes; SHA-256 `5571b6bf6139cbc2740af59f589cfd9b330bdb508594f45c05af8d283d6f1402`). It is a proportional, unchanged source-linked preview; reuse terms remain unknown and no derivative approval is claimed. The exact source asset response was HTTP 200 and had no `Set-Cookie` header.
+
+**Checked app revision:** `b0a948a5bd954ec5152d9c1120ee02f1e3df9d39` (parent `358bcceca3abcd56d921c5e4657de027652a46b4`; local `main` and `origin/main` agree). Data repository preparation was at `b000c6c8b701827f06ab0e5d3319e973ee928dc2`; the detailed source note was present at `38075b75b183f64fbf66fcca098224bc26d4ce0e`.
+
+**Checks:** data/portrait/humanity/fixed-baseline validation passed; TypeScript check and diff check passed; contract 81/81; HTTP/API 109/109; SF pilot 98/98; targeted humanity browser 3/3 on desktop and touch-mobile, including a real tap that opened the source without toggling a neighboring disclosure; production build passed with existing toolchain warnings. Desktop and mobile screenshots were reviewed. Browser checks confirmed immediate local image delivery and no third-party request or cookie before activation. The test suite was not run as one monolithic invocation. No real-device Safari, screen-reader audit, independent license review, rights clearance, human review or deployment is claimed.
