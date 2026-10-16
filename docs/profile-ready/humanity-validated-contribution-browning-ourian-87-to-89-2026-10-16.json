@@ -1,0 +1,404 @@
+{
+  "kind": "validated-profile-contribution",
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-16",
+  "purpose": "Enrich two existing profiles with inspected, modest local source-linked portraits; add one source-stated first-person creative-work narrative; and admit the existing Browning narrative once the portrait gap is resolved. Expected change: 87→89 qualifying unique IDs, 108→108 provider records, and 98→100 independent local portrait deliveries. No clinical, credential, license, rights, human-review, or indexing approval is implied.",
+  "baseAppRevision": "f4c6ef5a6c7ba7ae2fb3f888121d91dbb59ac7fb",
+  "researchCandidateRevision": "104401b06c22b420810c495e8dda3b112267e021",
+  "items": [
+    {
+      "id": "3de0928a-38b5-475e-a8f3-b01a5239d6f6",
+      "name": "Damaris Browning",
+      "disposition": "accepted",
+      "reason": "Her existing named practice biography supports a distinctive science-to-dentistry journey and personal interests. A newly located ASIRD profile names Browning and carries an individually inspected, clear full-face portrait; the former couple photo is not used.",
+      "proposedChanges": [
+        {
+          "path": "sources",
+          "reason": "Add the named ASIRD directory page as exact portrait provenance only; its candidate designation is not a clinical credential or certification claim.",
+          "value": [
+            {
+              "id": "damaris-browning-asird-profile-2026-10-16",
+              "url": "https://directory.asird.org/doctors/damaris-browning",
+              "label": "Damaris Browning, DDS — ASIRD directory profile",
+              "sourceType": "professional-directory-profile",
+              "retrievedDate": "2026-10-16",
+              "retrievalMethod": "web-retrieval",
+              "publisher": "ASIRD",
+              "verificationStatus": "source-stated",
+              "note": "The page names Damaris Browning, DDS, links Valley Dental, and presents an image asset whose filename includes Damaris_Browning. Used for portrait association and provenance only; the page's ASIRD CANDIDATE wording is not imported as a credential."
+            }
+          ]
+        },
+        {
+          "path": "sourceIds",
+          "reason": "Append the portrait-provenance source while preserving both existing narrative sources.",
+          "value": [
+            "damaris-browning-asird-profile-2026-10-16"
+          ]
+        },
+        {
+          "path": "imageUrl+imageUsage+imageSource+imageClickThroughUrl+imageAlt",
+          "reason": "Deliver the exact ordinary portrait from the named ASIRD profile unchanged as a local, source-linked preview; the previously inspected couple photo is not used.",
+          "value": {
+            "localFile": "client/public/images/providers/damaris-browning-asird-source-preview.jpg",
+            "imageUrl": "/images/providers/damaris-browning-asird-source-preview.jpg",
+            "imageUsage": "local-source-preview",
+            "imageSource": "https://directory.asird.org/doctors/damaris-browning",
+            "imageClickThroughUrl": "https://directory.asird.org/doctors/damaris-browning",
+            "imageAlt": "Portrait of Damaris Browning, DDS",
+            "sourceAsset": "https://api.asird.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ3crIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3a0d6b219dc0378ecf77949c897b49c2f40f050f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDdkFKcEFyd0MiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--fa8788604ab27a6fbfdb6333d83079803bc4779f/Damaris_Browning-1a.jpg",
+            "sourceWidth": 477,
+            "sourceHeight": 700,
+            "sourceSha256": "550b5e5c6860fe9fb875efd110d30c755b61e2108d4a53afa31df3d93191bd64",
+            "bytes": 51290,
+            "sha256": "550b5e5c6860fe9fb875efd110d30c755b61e2108d4a53afa31df3d93191bd64",
+            "sourceImageSetCookie": false
+          }
+        },
+        {
+          "path": "mediaReview",
+          "reason": "Keep ordinary preview suitability separate from unknown reuse terms and derivative approval.",
+          "value": {
+            "status": "unresolved",
+            "checkedOn": "2026-10-16",
+            "structuredDataImage": "withheld",
+            "sourceIds": [
+              "damaris-browning-asird-profile-2026-10-16"
+            ],
+            "note": "The exact image on the named ASIRD profile was decoded and visually inspected on 2026-10-16: 477×700 JPEG, clear full face, proportional framing, and one person. The page identifies Damaris Browning, DDS; the asset filename includes her name. The image is delivered unchanged as a local source-linked preview. The prior couple image remains unsuitable as an individual portrait. The image response had no Set-Cookie header. Reuse terms remain unknown; no ownership, blanket permission, derivative-card approval, or clinical approval is asserted."
+          }
+        },
+        {
+          "path": "data/patient-ready-portraits.json",
+          "reason": "Deliberately add one inspected delivery to the independent inventory; do not regenerate or replace prior expectations.",
+          "value": {
+            "id": "3de0928a-38b5-475e-a8f3-b01a5239d6f6",
+            "slug": "damarisbrowningDDS",
+            "directory": "dentists-cupertino",
+            "imageUrl": "/images/providers/damaris-browning-asird-source-preview.jpg",
+            "imageUsage": "local-source-preview",
+            "sourcePage": "https://directory.asird.org/doctors/damaris-browning",
+            "sourceAsset": "https://api.asird.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ3crIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3a0d6b219dc0378ecf77949c897b49c2f40f050f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDdkFKcEFyd0MiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--fa8788604ab27a6fbfdb6333d83079803bc4779f/Damaris_Browning-1a.jpg",
+            "sourceWidth": 477,
+            "sourceHeight": 700,
+            "sourceSha256": "550b5e5c6860fe9fb875efd110d30c755b61e2108d4a53afa31df3d93191bd64",
+            "sourceImageSetCookie": false,
+            "width": 477,
+            "height": 700,
+            "bytes": 51290,
+            "sha256": "550b5e5c6860fe9fb875efd110d30c755b61e2108d4a53afa31df3d93191bd64",
+            "checkedOn": "2026-10-16",
+            "reason": "New individual preview, not recovery of an earlier delivery. Exact bytes from the named ASIRD Browning profile were decoded and visually inspected: one clear full-face person, proportional framing, no crop or enlargement. Reuse terms remain unknown; no ownership, blanket license, derivative, or clinical approval is claimed."
+          }
+        },
+        {
+          "path": "data/profile-humanity-assessments.json",
+          "reason": "Add the existing fully sourced humanity narrative to the stable-ID accepted intersection only now that its inspected local portrait requirement is met.",
+          "value": {
+            "acceptedNarrativeBlocks": {
+              "3de0928a-38b5-475e-a8f3-b01a5239d6f6": "humanity-career-and-interests-browning-2026-10-15"
+            },
+            "enriched": [
+              [
+                "3de0928a-38b5-475e-a8f3-b01a5239d6f6",
+                "science-to-dentistry journey, laboratory research, travel and Spartan races",
+                "cupertino-damaris-browning-humanity-2026-10-15",
+                "Existing named-source narrative retained; a newly inspected individual local portrait resolves the missing-media requirement. No new provider record or clinical verification."
+              ]
+            ]
+          },
+          "acceptedAssessment": [
+            "3de0928a-38b5-475e-a8f3-b01a5239d6f6",
+            "humanity-career-and-interests-browning-2026-10-15",
+            "cupertino-damaris-browning-humanity-2026-10-15",
+            "The named practice biography supports a distinctive research-to-dentistry journey and specific personal interests; the exact individual portrait is separately source-linked and visually inspected."
+          ]
+        },
+        {
+          "path": "data/editorial-refresh.json",
+          "reason": "Date the newly resolved portrait gap while retaining the existing Cupertino source-backed and narrative-only boundaries.",
+          "value": {
+            "directory": "dentists-cupertino",
+            "editorialObservation": {
+              "observedOn": "2026-10-16",
+              "text": "A new individually associated Damaris Browning portrait was found on her named ASIRD directory profile, decoded and visually inspected at 477×700, then prepared as an unchanged local source-linked preview. The previously inspected couple image remains unsuitable and is not used. Existing narrative sources, Cupertino route/membership, access details, review/indexing states, and clinical fields are unchanged; reuse terms remain unknown."
+            }
+          }
+        },
+        {
+          "path": "data/preservation-reviews.json",
+          "reason": "Record dated, scoped reasons for the source-linked portrait addition and accepted-cohort update without suppressing or replacing profile copy.",
+          "value": [
+            {
+              "entityType": "provider",
+              "entityId": "3de0928a-38b5-475e-a8f3-b01a5239d6f6",
+              "path": "imageUrl+imageUsage+imageSource+imageClickThroughUrl+imageAlt+mediaReview",
+              "checkedOn": "2026-10-16",
+              "disposition": "presentation-change",
+              "reason": "Add the exact visually inspected individual portrait associated with the named ASIRD Browning page as an unchanged local source-linked preview. Preserve the earlier rejected couple-photo finding, all prior biography sections/citations, access and clinical data, route, membership, and review/indexing values; media reuse remains unresolved."
+            },
+            {
+              "entityType": "directory",
+              "entityId": "1d780bae-a727-421d-9a4a-e55cc7694996",
+              "path": "editorialRefresh.dentists-cupertino.editorialObservations",
+              "checkedOn": "2026-10-16",
+              "disposition": "presentation-change",
+              "reason": "Append a dated observation that the individual portrait gap is resolved. Retain the older couple-photo rejection and every existing directory member, source-backed path, clinical fact, and visibility state."
+            }
+          ]
+        }
+      ],
+      "protectedUnchanged": [
+        "id",
+        "canonicalPath",
+        "aliases",
+        "directorySlug",
+        "status",
+        "indexable",
+        "claimStatus",
+        "specialty",
+        "credentials",
+        "specializations",
+        "phone",
+        "website",
+        "locations",
+        "all profileSections and claimEvidence",
+        "verification and review fields, including absent values",
+        "dataVerifiedAt",
+        "all prior sources, citations, narrative sections, dates, media rejections, and practical-access unknowns"
+      ]
+    },
+    {
+      "id": "fbb6c96c-3ab2-4859-a5af-0c3818299771",
+      "name": "Simon Ourian",
+      "disposition": "accepted",
+      "reason": "A new named personal art site gives a first-person connection between anatomy, medicine, mathematics and art; its named About page carries a visually confirmed full-face portrait with a visible Simon Ourian, M.D. signature.",
+      "proposedChanges": [
+        {
+          "path": "sources",
+          "reason": "Add dated observations from the named art-site homepage and About page; keep the earlier Epione sources and their claims unchanged.",
+          "value": [
+            {
+              "id": "simonourian-art-home-2026-10-16",
+              "url": "https://simonourian.com/",
+              "label": "Simon Ourian, M.D. — Art homepage",
+              "sourceType": "personal-website",
+              "retrievedDate": "2026-10-16",
+              "retrievalMethod": "web-retrieval",
+              "publisher": "Simon Ourian art site",
+              "verificationStatus": "source-stated",
+              "note": "The homepage displays a first-person statement about using anatomy, medicine, and mathematics of beauty to make art. It is used only for a source-stated creative interest/work approach."
+            },
+            {
+              "id": "simonourian-art-about-2026-10-16",
+              "url": "https://simonourian.com/about",
+              "label": "About Simon Ourian, M.D.",
+              "sourceType": "personal-website",
+              "retrievedDate": "2026-10-16",
+              "retrievalMethod": "web-retrieval",
+              "publisher": "Simon Ourian art site",
+              "verificationStatus": "source-stated",
+              "note": "The About page names Simon Ourian, MD, describes his interest in form and shape and his artistic focus on symmetry, balance and proportion, and displays the exact portrait asset used for the local preview. The image itself has generic alt text but a visible Simon Ourian, M.D. signature."
+            }
+          ]
+        },
+        {
+          "path": "profileSections[humanity-art-medicine-ourian-2026-10-16]",
+          "reason": "Add a distinct first-person creative-work account linked to the exact named personal art sources; do not replace the existing Epione narratives or imply clinical results or verified credentials.",
+          "value": {
+            "id": "humanity-art-medicine-ourian-2026-10-16",
+            "heading": "Art, anatomy and medicine",
+            "text": "On his art site's homepage, Simon Ourian writes: “I am using what I learned in anatomy, medicine, and mathematics of beauty to make my ART.” Its About page describes his interest in form and shape and an artistic focus on symmetry, balance, and proportion. This is a source-stated creative interest and work approach, not a clinical outcome or independent credential verification.",
+            "sourceIds": [
+              "simonourian-art-home-2026-10-16",
+              "simonourian-art-about-2026-10-16"
+            ]
+          }
+        },
+        {
+          "path": "claimEvidence",
+          "reason": "Map the new narrative's first-person statement and About-page paraphrase to their specific named sources; keep unrelated clinical and credential claims separate.",
+          "value": [
+            {
+              "claim": "Ourian says he uses what he learned in anatomy, medicine, and mathematics of beauty to make his art.",
+              "sourceIds": [
+                "simonourian-art-home-2026-10-16"
+              ],
+              "verificationStatus": "source-stated"
+            },
+            {
+              "claim": "The About page describes Ourian's interest in form and shape and an artistic focus on symmetry, balance, and proportion.",
+              "sourceIds": [
+                "simonourian-art-about-2026-10-16"
+              ],
+              "verificationStatus": "source-stated"
+            }
+          ]
+        },
+        {
+          "path": "sourceIds",
+          "reason": "Append the two new named art-site sources to the existing Epione source IDs.",
+          "value": [
+            "simonourian-art-home-2026-10-16",
+            "simonourian-art-about-2026-10-16"
+          ]
+        },
+        {
+          "path": "imageUrl+imageUsage+imageSource+imageClickThroughUrl+imageAlt",
+          "reason": "Deliver the exact full-face portrait shown on the named About page unchanged as a local source-linked preview; do not use the former contextual sculpting photo as a headshot.",
+          "value": {
+            "localFile": "client/public/images/providers/simon-ourian-art-source-preview.jpg",
+            "imageUrl": "/images/providers/simon-ourian-art-source-preview.jpg",
+            "imageUsage": "local-source-preview",
+            "imageSource": "https://simonourian.com/about",
+            "imageClickThroughUrl": "https://simonourian.com/about",
+            "imageAlt": "Portrait of Simon Ourian, M.D.",
+            "sourceAsset": "https://simonourian.com/wp-content/uploads/doctor.jpg",
+            "sourceWidth": 357,
+            "sourceHeight": 517,
+            "sourceSha256": "e1a74b874612b6af57fd72de631877c85a3f90bab6935fbff6f264128ef189b2",
+            "bytes": 33986,
+            "sha256": "e1a74b874612b6af57fd72de631877c85a3f90bab6935fbff6f264128ef189b2",
+            "sourceImageSetCookie": true
+          }
+        },
+        {
+          "path": "mediaReview",
+          "reason": "Record the exact image inspection and source-host cookie observation separately from local app delivery and unknown reuse terms.",
+          "value": {
+            "status": "unresolved",
+            "checkedOn": "2026-10-16",
+            "structuredDataImage": "withheld",
+            "sourceIds": [
+              "simonourian-art-about-2026-10-16"
+            ],
+            "note": "The exact `doctor.jpg` image displayed on the page titled About Simon Ourian, M.D. was decoded and visually inspected on 2026-10-16: 357×517 JPEG with a clear full face and proportional framing; a Simon Ourian, M.D. signature is visible in the image. The exact source bytes are served locally. The source image response included Set-Cookie; this is recorded as a source-response observation, not an app cookie or guarantee. The local preview and initial app render do not request that source. Reuse terms remain unknown; no ownership, blanket permission, derivative-card approval, or clinical approval is asserted."
+          }
+        },
+        {
+          "path": "data/patient-ready-portraits.json",
+          "reason": "Deliberately append one individually inspected delivery; keep the separate source-site cookie observation and do not regenerate approved expectations.",
+          "value": {
+            "id": "fbb6c96c-3ab2-4859-a5af-0c3818299771",
+            "slug": "simonourian",
+            "directory": "dermatologists-beverly-hills",
+            "imageUrl": "/images/providers/simon-ourian-art-source-preview.jpg",
+            "imageUsage": "local-source-preview",
+            "sourcePage": "https://simonourian.com/about",
+            "sourceAsset": "https://simonourian.com/wp-content/uploads/doctor.jpg",
+            "sourceWidth": 357,
+            "sourceHeight": 517,
+            "sourceSha256": "e1a74b874612b6af57fd72de631877c85a3f90bab6935fbff6f264128ef189b2",
+            "sourceImageSetCookie": true,
+            "width": 357,
+            "height": 517,
+            "bytes": 33986,
+            "sha256": "e1a74b874612b6af57fd72de631877c85a3f90bab6935fbff6f264128ef189b2",
+            "checkedOn": "2026-10-16",
+            "reason": "New local source-linked preview, not recovery of a prior delivery. The About page names Simon Ourian, MD; the exact image shows one clear full-face person and a visible Simon Ourian, M.D. signature. It is delivered unchanged, without crop or enlargement. The image response included Set-Cookie, but the app uses the local file until the user activates the source link. Reuse terms remain unknown; no ownership, blanket license, derivative, or clinical approval is claimed."
+          }
+        },
+        {
+          "path": "data/profile-humanity-assessments.json",
+          "reason": "Add one distinct source-stated art/medicine narrative to the existing identity's accepted humanity intersection; this does not verify specialty or credentials.",
+          "value": {
+            "acceptedNarrativeBlocks": {
+              "fbb6c96c-3ab2-4859-a5af-0c3818299771": "humanity-art-medicine-ourian-2026-10-16"
+            },
+            "enriched": [
+              [
+                "fbb6c96c-3ab2-4859-a5af-0c3818299771",
+                "connects anatomy, medicine and mathematics with art",
+                "simonourian-art-home-2026-10-16",
+                "First-person creative interest and work approach from a named source; source-stated, not clinical or credential verification."
+              ]
+            ]
+          },
+          "acceptedAssessment": [
+            "fbb6c96c-3ab2-4859-a5af-0c3818299771",
+            "humanity-art-medicine-ourian-2026-10-16",
+            "simonourian-art-home-2026-10-16",
+            "The named first-person art-site statement and About page support a distinctive creative interest/work approach; the exact local portrait is separately identity-inspected."
+          ]
+        },
+        {
+          "path": "data/editorial-refresh.json",
+          "reason": "Correct the current portrait-gap summary with the new local preview while preserving unresolved clinical-specialty, credential, identity, and access concerns.",
+          "value": {
+            "directory": "dermatologists-beverly-hills",
+            "researchGap": "Five of the six existing profiles now carry source-stated, sentence-mapped narratives and citations retrieved 2026-10-01. One intended identity remains unresolved: David Kim's saved website describes a different Fairfax pain clinician; no facts or imagery from that site were imported and no replacement person was guessed. Current license, board-certification, insurance participation, language, gender, accepting-new-patient, appointment availability, and contact checks remain incomplete. Anna Guanche's cited biography names Calabasas, so Beverly Hills directory relevance remains flagged; Simon Ourian's portrait gap is resolved by a named personal art-site image inspected and delivered locally on 2026-10-16, but his specialty and board certification remain unverified. These narratives do not validate legacy promotional, credential, contact, or service claims. Existing identities, routes, roster membership, review/publication/indexing states, and earlier photo observations remain intact. Harold Lancer's 2026-10-02 local biography screenshot is documented below; his direct remote image remains withheld.",
+            "editorialObservation": {
+              "observedOn": "2026-10-16",
+              "text": "Simon Ourian's prior portrait gap is resolved for the ordinary source-linked preview: the exact full-face image on his named art-site About page was visually inspected and added as a local asset. Its source response included Set-Cookie, but the app does not request the source image before activation. Reuse terms remain unknown and structured-data image output stays withheld. Existing Epione narrative, clinical/specialty uncertainty, access information, identity, route, membership, and review/index states are unchanged."
+            }
+          }
+        },
+        {
+          "path": "data/preservation-reviews.json",
+          "reason": "Record dated, scoped review reasons for the additive story/media changes and the summary correction; do not change the profile's held or clinical scope.",
+          "value": [
+            {
+              "entityType": "provider",
+              "entityId": "fbb6c96c-3ab2-4859-a5af-0c3818299771",
+              "path": "sources+sourceIds+profileSections[humanity-art-medicine-ourian-2026-10-16]+claimEvidence",
+              "checkedOn": "2026-10-16",
+              "disposition": "presentation-change",
+              "reason": "Append the named first-person art-site account with claim-level citations without replacing the existing Epione narrative or promoting any clinical, specialty, board, or credential claim. Preserve access, route, aliases, directory membership, review/index/claim states and all prior sources."
+            },
+            {
+              "entityType": "provider",
+              "entityId": "fbb6c96c-3ab2-4859-a5af-0c3818299771",
+              "path": "imageUrl+imageUsage+imageSource+imageClickThroughUrl+imageAlt+mediaReview",
+              "checkedOn": "2026-10-16",
+              "disposition": "presentation-change",
+              "reason": "Add the exact visually inspected full-face image from the named art-site About page as a local source-linked preview. Keep the former contextual sculpting image distinct; do not claim image rights or derivative approval. Preserve all source history, access, facts, hold and review/index/claim states."
+            },
+            {
+              "entityType": "directory",
+              "entityId": "23e47c61-3ccf-4f9b-8547-27761757a3c7",
+              "path": "editorialRefresh.dermatologists-beverly-hills.researchGap",
+              "checkedOn": "2026-10-16",
+              "disposition": "presentation-change",
+              "reason": "Replace only the stale Ourian portrait-gap wording with the dated inspected local-preview result; retain the David Kim identity hold, Guanche geography flag, unresolved clinical/license/access concerns, and all directory membership and visibility states."
+            },
+            {
+              "entityType": "directory",
+              "entityId": "23e47c61-3ccf-4f9b-8547-27761757a3c7",
+              "path": "editorialRefresh.dermatologists-beverly-hills.editorialObservations",
+              "checkedOn": "2026-10-16",
+              "disposition": "presentation-change",
+              "reason": "Append the dated portrait delivery and source-cookie observation without relaxing any existing Beverly Hills editorial or identity hold."
+            }
+          ]
+        },
+        {
+          "path": "editorial",
+          "reason": "Date the additive art-source narrative without changing the earlier section or its attribution.",
+          "value": {
+            "narrativeVersion": "2026-10-16.1",
+            "refreshedOn": "2026-10-16"
+          }
+        }
+      ],
+      "protectedUnchanged": [
+        "id",
+        "canonicalPath",
+        "aliases",
+        "directorySlug",
+        "status",
+        "indexable",
+        "claimStatus",
+        "specialty",
+        "credentials",
+        "specializations",
+        "phone",
+        "website",
+        "locations",
+        "verification and review fields, including absent values",
+        "dataVerifiedAt",
+        "all existing profileSections, claims, sources, citations, access details and unknowns",
+        "existing Beverly Hills identity/geography/editorial holds and structured-data image withholding"
+      ]
+    }
+  ]
+}
