@@ -3,6 +3,15 @@
 **Goal: 100 unique provider IDs. Not yet reached. No deployment authorized.**
 
 
+## Access-only update: 82 → 82 — October 15, 2026
+
+The checked humanity intersection remains **82 of 100 unique IDs; 18 remain**. Maria Capetanakis (`82d2a63a-16a9-4b49-a549-3e0c680da73e`, `/maria-capetanakis-do`, La Jolla pediatrics) received a source-linked access update only. The named Scripps profile, retrieved October 15, displays “Accepts new patients” and the same Regents address/phone as CPCMG; the patient-facing copy states that this does not confirm an available appointment or individual capacity. Insurance, prices and referral requirements remain unknown. The reviewed named biographies do not supply a qualifying humanity story, so there is no net count increase.
+
+The previously inspected immediate local CPCMG portrait (688 × 960 source; 301 × 420 local WebP) remains unchanged. Scripps's generic SVG placeholder was not used. No new media inventory entry, identity/path/membership change, clinical or license verification, review/index promotion or hold change occurred.
+
+Fresh checks: all-record/fixed-baseline validation; `test:http` 110/110; `test:contract` 81/81; TypeScript and diff checks; focused desktop/touch-mobile browser test 2/2 with immediate local image decoding, no pre-activation external request/cookie, actual click/tap to the source, and no neighboring disclosure activation; desktop/mobile screenshots reviewed. An initial interactive test incorrectly expected zero requests after the user activated the external source; the final check separates pre-activation privacy from the expected post-activation page/assets. No full browser suite, real-device Safari, screen-reader audit, independent clinical/license review, rights clearance or deployment is claimed.
+
+App revision: `54a03eb33f62b94c9085f65ebcccbb4b8ed4afba`. Clean patient-facing update: [`maria-capetanakis-access-update-2026-10-15.json`](maria-capetanakis-access-update-2026-10-15.json). Detailed source/story review: [`humanity-maria-capetanakis-story-gap-2026-10-15.md`](../research/humanity-maria-capetanakis-story-gap-2026-10-15.md).
 ## Current checked continuation: 81 → 82 — October 15, 2026
 
 **Current checked intersection: 82 of 100 unique provider IDs; 18 remain.** The app has 108 provider records and 95 independently inventoried local portrait deliveries. Fixed preservation baseline: `0e71f02b718ddcd1003dd504aa44c1bb103c6894`; accepted audit checkpoint: `d4f0e503e3142140b6d182a0f8cc82d2a91d3865`.
