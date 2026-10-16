@@ -83,7 +83,7 @@
     {
       "name": "public data repository npm test and validate-data",
       "result": "passed",
-      "scope": "Eight profile-refresh cases; strict duplicate-key/stage/reason/count-dimension unit cases; five bundles and 40 profile-ready JSON files."
+      "scope": "Eight profile-refresh cases; strict duplicate-key/stage/reason/count-dimension unit cases; five bundles and 41 profile-ready JSON files."
     }
   ],
   "observedDurations": [
