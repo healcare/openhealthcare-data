@@ -60,10 +60,24 @@ The actionable gaps remain distinct: Twito needs identity/current-location resol
 
 ## Bounded follow-up source checks — October 16, 2026
 
-No new candidate qualified in these checks; the checked count remains 86/100.
+At the end of these bounded checks, no new candidate qualified; the checked count was still 86/100.
 
 - **Maria Capetanakis:** Searches for an exact named personal/career story returned her known CPCMG La Jolla listing and the official Scripps profile, `https://www.scripps.org/physicians/45592-maria-capetanakis`. Fetching the Scripps page confirms a practice/credential record only: it lists her La Jolla office, phone, languages, specialty, training and appointment link, with a generic host placeholder image and no personal or career narrative. A result for “Eleni Capetanakis, MD, FAAP” at `https://www.cpcmg.net/cpcmg_doctor/eleni-capetanakis-md` is a different CPCMG pediatrician listed in South Bay/Chula Vista; its first-person story and interests must not be attributed to Maria.
 - **Gretchen Gainor:** The new exact Scripps page `https://www.scripps.org/physicians/34141-gretchen-gainor` confirms address, phone, patient-recommendation count, age-group and visit-mode statements, and credentials. The host image is a generic placeholder, not a portrait candidate. Its fetched provider section has no career or personal narrative; the existing inspected CPCMG portrait is unaffected. Patient recommendation counts and generic access claims do not satisfy the humanity criterion.
 - **Shannon Schaubach:** The newly located official practice page `https://harborsidecw.com/` names Schaubach and describes trauma-informed care using EMDR, IFS, CBT and mindfulness, adapted to stated client needs. It also identifies the Norfolk office. This is a current practice/method description, but not a documented personal journey or sufficiently distinctive humanity narrative; no import or count gain was made. A social-profile search result was not used as evidence, and generic platform marketing copy was not counted.
 
 These checks were ordinary web searches and page-text fetches only: no paid image search, source-image download, media approval, clinical or license verification, profile edit, or app-count change. Reopen each gap only with a new named source or materially changed evidence.
+
+## Current checked status after 86 → 87 — October 16, 2026
+
+Sanjay Grover is now one new qualifying ID, accepted from the existing Orange County record; the exact narrative, portrait, provenance, access unknowns, applied revision and checks are in the [clean contribution](../profile-ready/humanity-validated-contribution-sanjay-grover-86-to-87-2026-10-16.json), [result receipt](../profile-ready/humanity-applied-sanjay-grover-86-to-87-2026-10-16.json), and [research note](humanity-sanjay-grover-2026-10-16.md). Do not repeat this article/photo search or count it as a recovered image.
+
+Reconcile the earlier five handoffs against current state before any new work:
+
+- **Daniel Naysan:** his wearable-mockup patient-participation narrative and individually inspected 1200×800 named portrait are already applied and counted. Do not repeat or recount.
+- **Kevin Sands:** an existing inspected portrait was already suitable; the later source-supported hometown-to-profession narrative and access details are applied. The older 2026-10-15 no-story finding is superseded by that later documented evidence; do not repeat the portrait search or claim a new photo delivery.
+- **Damaris Browning:** the named biography supports her laboratory-research-to-dentistry story (`https://www.cupertinocosmetic.dentist/meet-dr--browning`), but the inspected couple photograph does not identify which person is her. An individually associated portrait is still required.
+- **Joseph Goodman:** the named biography (`https://topbeverlyhillsdentist.com/joseph-goodman-dds-dmd/`) and second-opinion account (`https://topbeverlyhillsdentist.com/cosmetic-dentistry-second-opinion-beverly-hills-ca-highlights-why-patients-are-asking-more-questions-before-major-smile-changes/`) support an approach story. A suitable individual portrait is still missing; training/chronology conflicts are unresolved, so do not import those claims as settled.
+- **Simon Ourian:** the named biography (`https://www.epionebh.com/simon-ourian`) supports an artistic-interest story, but its inspected sculpting image is contextual and not a clear full-face primary portrait. An identity-linked ordinary portrait is still needed.
+
+No complete, unprocessed profile remains in that five-person handoff set. The older audit table is a dated discovery signal, not a current accepted-cohort list. Continue with new in-scope candidates or genuinely new evidence; preserve the existing Twito, access, license/identity and directory-fit holds, and do not repeat the bounded negative searches for Capetanakis, Gainor or Schaubach without new source material.

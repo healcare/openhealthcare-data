@@ -30,4 +30,10 @@ The contribution preserves provider ID, canonical path and Orange County members
 
 ## Prepared contribution
 
-See [the clean validated contribution packet](../profile-ready/humanity-validated-contribution-sanjay-grover-86-to-87-2026-10-16.json). It was prepared against app main `d4671273e0872867ffd8f816ea2088996b9213e4` and public-data main `1e57b65856dd34dd3dcf80b7a9c8635fed20ce10`. No app import has occurred at the time this research note was prepared.
+See [the clean validated contribution packet](../profile-ready/humanity-validated-contribution-sanjay-grover-86-to-87-2026-10-16.json). It was prepared against app main `d4671273e0872867ffd8f816ea2088996b9213e4` and public-data main `1e57b65856dd34dd3dcf80b7a9c8635fed20ce10`. At packet-preparation time no app import had occurred; the applied result is recorded below.
+
+## Applied result — October 16, 2026
+
+The contribution is applied to the existing identity in app revision `4d76ba426a67e4188cf8c030a1af25cd988795a0`, directly based on app revision `d4671273e0872867ffd8f816ea2088996b9213e4`. The clean packet, including the observed canonical trailing-slash source URL, and this research note are in public-data history through `3bfd6524d031d42a93cd73a382f30bc77c630e5f`. The separate [applied receipt](../profile-ready/humanity-applied-sanjay-grover-86-to-87-2026-10-16.json) records the 86→87 unique-ID result and actual check scope.
+
+Affected checks passed: app entity/preservation/portrait/humanity validation; one-profile import preservation; TypeScript; 83/83 contract tests; and a 3/3 desktop/touch-mobile/source-tap run. The API returned the new complete cited sections and local portrait metadata. Screenshots were checked at desktop and mobile sizes. A first source-tap assertion saw only the article's canonical trailing slash; the app citation URL was corrected to that observed endpoint, and the strict unchanged assertion passed on rerun. The public data artifacts are revalidated with the applied receipt. This does not verify clinical claims, licensing, appointment capacity, media reuse rights, human review, or patient outcomes.

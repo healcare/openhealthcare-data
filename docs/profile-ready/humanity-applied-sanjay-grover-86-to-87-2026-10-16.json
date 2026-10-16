@@ -1,0 +1,132 @@
+{
+  "kind": "applied-profile-result",
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-16",
+  "baseAppRevision": "d4671273e0872867ffd8f816ea2088996b9213e4",
+  "resultingAppRevision": "4d76ba426a67e4188cf8c030a1af25cd988795a0",
+  "baseDataRevision": "1e57b65856dd34dd3dcf80b7a9c8635fed20ce10",
+  "validatedContributionRevision": "3bfd6524d031d42a93cd73a382f30bc77c630e5f",
+  "counts": {
+    "qualifyingUniqueProviderIds": {
+      "before": 86,
+      "after": 87
+    },
+    "providerRecords": {
+      "before": 108,
+      "after": 108
+    },
+    "approvedLocalPortraitDeliveries": {
+      "before": 97,
+      "after": 98
+    }
+  },
+  "items": [
+    {
+      "id": "91038e32-1b62-462c-8e6d-6b139363cc94",
+      "name": "Sanjay Grover",
+      "disposition": "accepted",
+      "reason": "The existing Orange County identity now has a readable, directly source-attributed career-motivation narrative and a visually inspected immediate local portrait preview. This adds one qualifying ID, not a provider record or recovered image.",
+      "appliedChanges": [
+        {
+          "path": "sources, profileSections, claimEvidence",
+          "reason": "Added a dated 2013 Orange County Register quotation-based career-journey section, current official-page observation, and a separate practice access section. Existing biography text and citations remain."
+        },
+        {
+          "path": "imageUrl, imageUsage, imageSource, imageClickThroughUrl, imageAlt",
+          "reason": "Delivered the exact 600×437 JPEG associated with Grover by the named article and image description as an immediate local source-linked preview, unchanged and without crop or enlargement. The citation points directly to the article's canonical trailing-slash URL."
+        },
+        {
+          "path": "mediaReview",
+          "reason": "Kept the earlier rejected magazine-branded graphic in the dated note, retained unresolved media status and unknown reuse terms, and withheld the preview from structured-data image output."
+        },
+        {
+          "path": "data/patient-ready-portraits.json",
+          "reason": "Added one deliberate inventory entry with exact source page and asset, dimensions, source/local hashes, byte count, inspection date, and source-response cookie observation."
+        },
+        {
+          "path": "data/profile-humanity-assessments.json",
+          "reason": "Added a qualitative assessment for the complete narrative block and its matching source ID; this is not human review or clinical verification."
+        },
+        {
+          "path": "data/editorial-refresh.json and data/preservation-reviews.json",
+          "reason": "Scoped this path to source-stated narrative presentation only and recorded dated reasons for the directory summary update and new local preview."
+        }
+      ],
+      "deltas": {
+        "qualifyingUniqueProviderIds": 1,
+        "providerRecords": 0,
+        "approvedLocalPortraitDeliveries": 1
+      },
+      "portraitDisposition": "New local source-linked preview, not recovery of a prior delivery. The exact source JPEG is 600×437, 79,032 bytes, SHA-256 074bb9f625c3ae50a06979038d0d63712590659276271b73128490582059bf87. The source image response had no Set-Cookie. Reuse terms remain unknown; no ownership, blanket permission, derivative-card approval, or clinical approval is claimed.",
+      "preserved": [
+        "stable provider ID, canonical path, aliases and Orange County directory membership",
+        "existing clinical facts, prior story, citations, source records and older observation dates",
+        "pending license lookup, pending human-review state, publication/indexing/claim values and all holds",
+        "mediaReview remains unresolved; the earlier rejected graphic remains rejected; structuredDataImage remains withheld",
+        "fixed baseline and all previously accepted unique IDs",
+        "separation of source-stated story/media completeness from independent clinical, license, rights or human-review decisions"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "npm run validate-data",
+      "result": "passed",
+      "scope": "124 app entity files, 108 providers, 98 independent local portrait deliveries, fixed-baseline preservation and 87/108 qualifying unique IDs."
+    },
+    {
+      "name": "npm run validate:profile-import -- --base d4671273e0872867ffd8f816ea2088996b9213e4",
+      "result": "passed",
+      "scope": "One affected provider and zero changed directory entity records; the separate editorial-refresh summary changes have dated scoped reviews."
+    },
+    {
+      "name": "npm run check",
+      "result": "passed",
+      "scope": "Application TypeScript check."
+    },
+    {
+      "name": "npm run test:contract",
+      "result": "passed",
+      "scope": "83/83 contract, API/source projection, narrative/citation, portrait/privacy, URL, preservation and strict-JSON tests; none skipped."
+    },
+    {
+      "name": "Cohort-driven humanity patient-ready browser suite",
+      "result": "passed",
+      "scope": "3/3 Chromium cases for Sanjay Grover: desktop, touch-mobile and actual citation tap. Verified complete patient-visible narrative/access copy and citations, local portrait decoding, no third-party request/cookie before activation, and no adjacent disclosure opening."
+    },
+    {
+      "name": "Provider API and desktop/mobile visual review",
+      "result": "passed",
+      "scope": "API 200 exposed all source-mapped sections and supplied publisher/title metadata; desktop and mobile screenshots showed the full-face local preview, visible citations, access unknowns and source-link distinction."
+    },
+    {
+      "name": "npm run validate-data in public openhealthcare-data repository",
+      "result": "passed",
+      "scope": "Five data bundles and 47 strictly parsed profile-ready JSON artifacts, including the validated contribution and applied result receipt."
+    }
+  ],
+  "observedDurations": [
+    {
+      "phase": "affected desktop browser case",
+      "milliseconds": 4635,
+      "note": "Shared browser context; not cold-cache latency or performance."
+    },
+    {
+      "phase": "affected touch-mobile browser case",
+      "milliseconds": 948,
+      "note": "Shared browser context; not device-level or load performance."
+    },
+    {
+      "phase": "actual source-link activation case",
+      "milliseconds": 958,
+      "note": "Test duration in the shared context; not external page-load latency."
+    }
+  ],
+  "limits": [
+    "The initial source-link tap run had two passing cases and one strict URL mismatch: the article redirected from the non-slash URL to the same path with a canonical trailing slash. The provider source URL was corrected to that observed canonical URL; the source-link assertion was unchanged and the rerun passed 3/3.",
+    "Functional integrity only; no thousands-profile, concurrent, cold-cache, or load-performance claim.",
+    "Clinical claims and credentials remain source-stated; current license, board status and appointment capacity are not verified.",
+    "Image reuse terms remain unknown; no ownership, blanket permission, derivative-card approval, or legal determination is claimed.",
+    "No manual human review, independent screen-reader audit, real-device Safari test, review/index promotion, or deployment."
+  ]
+}
