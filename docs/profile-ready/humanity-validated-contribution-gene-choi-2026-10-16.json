@@ -1,0 +1,170 @@
+{
+  "kind": "validated-profile-contribution",
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-16",
+  "purpose": "Source-mapped enrichment of one existing Riverside orthopedic profile. This packet is not clinical or license verification, rights clearance, human review, or a publication/indexing change.",
+  "baseAppRevision": "00ee1513f2b7b8b654fbb306479ea1d043ffa1d7",
+  "researchCandidateRevision": "87f7b221d7001c23442fa1b3b0ff4ffd551d9e38",
+  "items": [
+    {
+      "id": "f9b86381-653d-43c5-a339-7271b2d56a8f",
+      "name": "Gene Choi",
+      "disposition": "accepted",
+      "reason": "The existing Riverside identity and location match his named Riverside Medical Clinic profile. A clinic-published first-person interview supports a specific work-approach narrative, and the exact portrait shown on the named profile was decoded and visually inspected before local delivery.",
+      "proposedChanges": [
+        {
+          "path": "sources",
+          "reason": "Add dated, source-stated records for the named physician page and clinic-published interview without changing the existing identity or verification date.",
+          "value": [
+            {
+              "id": "gene-choi-rmc-profile-2026-10-16",
+              "url": "https://www.riversidemedicalclinic.com/doctors/choi-gene-m-d",
+              "label": "Gene Choi, MD — Riverside Medical Clinic",
+              "sourceType": "official-provider-profile",
+              "retrievedDate": "2026-10-16",
+              "retrievalMethod": "web-retrieval",
+              "publisher": "Riverside Medical Clinic",
+              "verificationStatus": "source-stated",
+              "note": "Named profile lists the Brockton Avenue location, phone, office hours, and English under languages spoken. These are statements on the page, not independent current-access verification."
+            },
+            {
+              "id": "gene-choi-rmc-video-2019-06-20",
+              "url": "https://www.youtube.com/watch?v=1fHb9pnyJ6c",
+              "label": "“My goal in treating patients is getting them back to regular life as soon as possible.” — Gene Choi — Riverside Medical Clinic",
+              "sourceType": "primary-source",
+              "retrievedDate": "2026-10-16",
+              "retrievalMethod": "web-retrieval",
+              "publisher": "Riverside Medical Clinic",
+              "verificationStatus": "source-stated",
+              "note": "The video page reports an upload date of 2019-06-20 and exposes a transcript. The narrative uses only the intelligible everyday-activity passage and attributes it to Choi; the transcript was not independently checked against the audio."
+            }
+          ]
+        },
+        {
+          "path": "profileSections[gene-choi-humanity-work-approach-2026-10-16]",
+          "reason": "Add the source-attributed first-person account of the everyday activities patients tell him they can resume, framed as his stated motivation rather than verified outcomes or a guarantee.",
+          "value": {
+            "heading": "A goal measured in everyday routines",
+            "text": "In a 2019 Riverside Medical Clinic interview, Choi describes hearing from patients who can return to things they enjoy—playing with their grandkids, working in the yard, or taking walks—as one of the best parts of his work. He says his goal is to help people get back to regular life as soon as possible. This is his stated motivation and account of patient conversations, not an independently verified outcome or a promise.",
+            "sourceIds": [
+              "gene-choi-rmc-video-2019-06-20"
+            ]
+          }
+        },
+        {
+          "path": "profileSections[gene-choi-patient-access-2026-10-16]",
+          "reason": "Make the named office's source-stated location, contact, hours, and language information visible together with the unresolved practical access details.",
+          "value": {
+            "heading": "Planning a visit",
+            "text": "Riverside Medical Clinic's named profile lists Choi at 7117 Brockton Ave., Riverside, CA 92506, phone (951) 782-3764, with office hours Monday–Friday, 8:30 a.m.–5:30 p.m. It lists English under languages spoken but does not say whether other languages or interpreter services are available. The page does not specify fees, insurance plans, referral requirements, or appointment availability; confirm these details with the clinic.",
+            "sourceIds": [
+              "gene-choi-rmc-profile-2026-10-16"
+            ]
+          }
+        },
+        {
+          "path": "claimEvidence",
+          "reason": "Map the narrative and patient-facing access facts to their named sources while keeping every new statement source-stated.",
+          "value": [
+            {
+              "claim": "In a clinic-published 2019 interview, Choi says hearing from patients who can return to activities such as playing with their grandkids, yard work, and walks is among the best parts of his work, and describes helping people return to regular life as his goal.",
+              "sourceIds": [
+                "gene-choi-rmc-video-2019-06-20"
+              ],
+              "verificationStatus": "source-stated"
+            },
+            {
+              "claim": "Riverside Medical Clinic's named profile lists Choi at 7117 Brockton Ave., Riverside, CA 92506, phone (951) 782-3764, and office hours Monday through Friday, 8:30 a.m. to 5:30 p.m.",
+              "sourceIds": [
+                "gene-choi-rmc-profile-2026-10-16"
+              ],
+              "verificationStatus": "source-stated"
+            },
+            {
+              "claim": "Riverside Medical Clinic's named profile lists English under languages spoken; the page does not establish other languages or interpreter availability.",
+              "sourceIds": [
+                "gene-choi-rmc-profile-2026-10-16"
+              ],
+              "verificationStatus": "source-stated"
+            },
+            {
+              "claim": "The named profile does not specify fees, insurance plans, referral requirements, or appointment availability.",
+              "sourceIds": [
+                "gene-choi-rmc-profile-2026-10-16"
+              ],
+              "verificationStatus": "source-stated"
+            }
+          ]
+        },
+        {
+          "path": "imageUrl, imageUsage, imageClickThroughUrl, imageSource, imageAlt",
+          "reason": "Deliver unchanged bytes from the exact named-profile portrait as a modest local source-linked preview; the browser's local-preview behavior excludes it from derivative/structured-data image promotion.",
+          "value": {
+            "imageUrl": "/images/providers/gene-choi-rmc-source-preview.jpg",
+            "imageUsage": "local-source-preview",
+            "imageClickThroughUrl": "https://www.riversidemedicalclinic.com/doctors/choi-gene-m-d",
+            "imageSource": "https://www.riversidemedicalclinic.com/doctors/choi-gene-m-d",
+            "imageAlt": "Portrait of Gene Choi, MD"
+          }
+        },
+        {
+          "path": "data/patient-ready-portraits.json",
+          "reason": "Deliberately add an independent delivery expectation with exact named page, asset URL, dimensions, bytes, hash, visual inspection, and unknown reuse terms.",
+          "value": {
+            "id": "f9b86381-653d-43c5-a339-7271b2d56a8f",
+            "slug": "geneChoiMD",
+            "directory": "orthopedic-surgeons-riverside",
+            "imageUrl": "/images/providers/gene-choi-rmc-source-preview.jpg",
+            "imageUsage": "local-source-preview",
+            "sourcePage": "https://www.riversidemedicalclinic.com/doctors/choi-gene-m-d",
+            "sourceAsset": "https://www.riversidemedicalclinic.com/content/uploads/2015/04/ChoiG2-147x160.jpg",
+            "sourceWidth": 147,
+            "sourceHeight": 160,
+            "sourceSha256": "1cc87c04156849631f738f840c14f467417f97bd6574907967c456ff65b8ac68",
+            "sourceImageSetCookie": false,
+            "width": 147,
+            "height": 160,
+            "bytes": 4520,
+            "sha256": "1cc87c04156849631f738f840c14f467417f97bd6574907967c456ff65b8ac68",
+            "checkedOn": "2026-10-16",
+            "reason": "New local delivery after decoding and visually inspecting the exact JPEG shown with alt text “Gene Choi, MD” on his named Riverside Medical Clinic profile. Full face is visible; original 147×160 bytes are used unchanged, without crop or enlargement. The source image response had no Set-Cookie header. Reuse terms remain unknown; this is not ownership, blanket permission, derivative approval, or clinical approval."
+          }
+        },
+        {
+          "path": "data/profile-humanity-assessments.json",
+          "reason": "Record the explicit qualitative assessment and complete narrative block; this qualifies an existing provider ID and does not add a provider record.",
+          "value": {
+            "field": "gene-choi-humanity-work-approach-2026-10-16",
+            "sourceIds": [
+              "gene-choi-rmc-video-2019-06-20"
+            ],
+            "acceptedAssessment": [
+              "f9b86381-653d-43c5-a339-7271b2d56a8f",
+              "playing with their grandkids",
+              "gene-choi-rmc-video-2019-06-20",
+              "a specific first-person account connecting his stated work goal to everyday activities patients report resuming; not independent outcome evidence"
+            ]
+          }
+        }
+      ],
+      "protectedUnchanged": [
+        "id",
+        "canonicalPath",
+        "aliases",
+        "directorySlug",
+        "status",
+        "indexable",
+        "claimStatus",
+        "specialty",
+        "credentials",
+        "specializations",
+        "phone",
+        "website",
+        "locations",
+        "city",
+        "state",
+        "dataVerifiedAt"
+      ]
+    }
+  ]
+}
