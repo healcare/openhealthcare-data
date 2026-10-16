@@ -1,0 +1,182 @@
+{
+  "kind": "validated-profile-contribution",
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-16",
+  "purpose": "Scoped enrichment of an existing Riverside orthopedic profile. This contribution is not clinical verification, license verification, rights clearance, human review, or a publication/indexing change.",
+  "baseAppRevision": "21d55d521f76e534ca587b11daee761bb5cf1d83",
+  "researchCandidateRevision": "c8177aee18cbd380c8c6ba7c7fc944da6610c266",
+  "items": [
+    {
+      "id": "833a4455-6e10-46e7-8968-c000be91e9ba",
+      "name": "Babak Khamsi",
+      "disposition": "accepted",
+      "reason": "The existing Riverside orthopedic identity matches two exact named source pages. The practice biography gives a distinctive, attributed engineering-to-medicine journey, a family influence, peer-recognized teaching, and a stated healthcare-MBA motivation; the named hospital profile independently matches the existing Riverside address and phone and supplies a visually inspected portrait.",
+      "proposedChanges": [
+        {
+          "path": "sources",
+          "reason": "Add dated source-stated records for the named practice biography and Riverside Community Hospital profile.",
+          "value": [
+            {
+              "id": "khamsi-practice-biography-2026-10-16",
+              "url": "https://www.khamsimd.com/meet-us",
+              "label": "Meet the Doctor — Haider Spine Center",
+              "title": "Meet the Doctor",
+              "publisher": "Haider Spine Center",
+              "sourceType": "provider-biography",
+              "retrievedDate": "2026-10-16",
+              "verificationStatus": "source-stated"
+            },
+            {
+              "id": "khamsi-riverside-hospital-profile-2026-10-16",
+              "url": "https://www.riversidecommunityhospital.com/physicians/profile/Dr-Babak-Khamsi-MD",
+              "label": "Babak Khamsi, MD | Orthopedic Surgery — Riverside Community Hospital",
+              "title": "Babak Khamsi, MD | Orthopedic Surgery",
+              "publisher": "Riverside Community Hospital",
+              "sourceType": "hospital-provider-profile",
+              "retrievedDate": "2026-10-16",
+              "verificationStatus": "source-stated"
+            }
+          ]
+        },
+        {
+          "path": "profileSections[khamsi-humanity-career-journey-2026-10-16]",
+          "reason": "Add the concise source-attributed career, family-influence, teaching, advocacy-motivation, and service narrative without claiming outcomes or independent clinical verification.",
+          "value": {
+            "heading": "An engineering-to-medicine path",
+            "text": "Khamsi’s practice biography traces his first degree to electrical engineering at UCLA, followed by a change to medicine that he attributes in part to his grandmother’s influence. It says he served as administrative chief resident during orthopedic residency and received a Resident Teaching Award from peers. The biography also says he later studied part time for a healthcare MBA to better understand the non-medical side of healthcare and advocate for patients. His practice reports that he traveled to Guadalajara multiple times to perform complex reconstructive surgeries for children with severe spinal deformities; it does not give dates or patient outcomes.",
+            "sourceIds": [
+              "khamsi-practice-biography-2026-10-16"
+            ]
+          }
+        },
+        {
+          "path": "profileSections[khamsi-patient-access-2026-10-16]",
+          "reason": "Make the named Riverside location, call instruction, and unknown appointment/plan details visible beside the affected access facts.",
+          "value": {
+            "heading": "Planning a visit",
+            "text": "Riverside Community Hospital’s profile lists Haider Spine Center at 6276 River Crest Dr., Suite A, Riverside, and (951) 413-0200. It advises self-pay patients to call. The profile does not show appointment availability or name specific insurance plans, so confirm scheduling and plan participation with the practice.",
+            "sourceIds": [
+              "khamsi-riverside-hospital-profile-2026-10-16"
+            ]
+          }
+        },
+        {
+          "path": "claimEvidence",
+          "reason": "Map each biographical and access statement to its exact named source and keep all claims source-stated.",
+          "value": [
+            {
+              "claim": "Khamsi’s practice biography traces his path from electrical engineering at UCLA to medicine and attributes the change in part to his grandmother’s influence.",
+              "sourceIds": [
+                "khamsi-practice-biography-2026-10-16"
+              ],
+              "verificationStatus": "source-stated"
+            },
+            {
+              "claim": "The practice biography says Khamsi served as administrative chief resident and received a peer-given Resident Teaching Award.",
+              "sourceIds": [
+                "khamsi-practice-biography-2026-10-16"
+              ],
+              "verificationStatus": "source-stated"
+            },
+            {
+              "claim": "The practice biography says Khamsi pursued a healthcare MBA part time to better understand non-medical aspects of healthcare and advocate for patients.",
+              "sourceIds": [
+                "khamsi-practice-biography-2026-10-16"
+              ],
+              "verificationStatus": "source-stated"
+            },
+            {
+              "claim": "The practice biography reports multiple trips to Guadalajara to perform complex reconstructive surgeries for children with severe spinal deformities; it does not give dates or outcomes.",
+              "sourceIds": [
+                "khamsi-practice-biography-2026-10-16"
+              ],
+              "verificationStatus": "source-stated"
+            },
+            {
+              "claim": "Riverside Community Hospital’s profile lists Haider Spine Center at 6276 River Crest Dr., Suite A, Riverside, and phone (951) 413-0200, and advises self-pay patients to call.",
+              "sourceIds": [
+                "khamsi-riverside-hospital-profile-2026-10-16"
+              ],
+              "verificationStatus": "source-stated"
+            }
+          ]
+        },
+        {
+          "path": "imageUrl, imageUsage, imageClickThroughUrl, imageSource",
+          "reason": "Deliver the exact visually inspected 400×400 named Riverside Community Hospital portrait locally and link it to the exact named source page.",
+          "value": {
+            "imageUrl": "/images/providers/babak-khamsi-source-preview.jpg",
+            "imageUsage": "local-source-preview",
+            "imageClickThroughUrl": "https://www.riversidecommunityhospital.com/physicians/profile/Dr-Babak-Khamsi-MD",
+            "imageSource": "https://www.riversidecommunityhospital.com/physicians/profile/Dr-Babak-Khamsi-MD",
+            "imageAlt": "Portrait of Babak Khamsi"
+          }
+        },
+        {
+          "path": "data/patient-ready-portraits.json",
+          "reason": "Deliberately add the independent reviewed-delivery expectation with exact source asset, dimensions, bytes, hash, visual identity observation, and unknown reuse terms.",
+          "value": {
+            "id": "833a4455-6e10-46e7-8968-c000be91e9ba",
+            "slug": "babakkhamsiMD",
+            "directory": "orthopedic-surgeons-riverside",
+            "imageUrl": "/images/providers/babak-khamsi-source-preview.jpg",
+            "imageUsage": "local-source-preview",
+            "sourcePage": "https://www.riversidecommunityhospital.com/physicians/profile/Dr-Babak-Khamsi-MD",
+            "sourceAsset": "https://d2tgiyvz192tbr.cloudfront.net/providers/servlet/servlet.FileDownload?file=00P3n00001ZP3azEAD",
+            "sourceWidth": 400,
+            "sourceHeight": 400,
+            "width": 400,
+            "height": 400,
+            "bytes": 16881,
+            "sha256": "ccdc8ad3f213da9224bb11dead58af5ffda81b643b4c3ba774d3f39468bf79ef",
+            "checkedOn": "2026-10-16",
+            "sourceImageSetCookie": false,
+            "reason": "Added after visual inspection of the exact 400×400 full-face portrait displayed on the named Riverside Community Hospital profile. The local preview uses the source bytes unchanged. Reuse terms are not established; this is not an ownership, blanket-permission, derivative, or clinical approval."
+          }
+        },
+        {
+          "path": "data/profile-humanity-assessments.json",
+          "reason": "Record the deliberate humanity assessment against the complete narrative block and its named source; the existing profile ID is enriched, not a new provider record.",
+          "value": {
+            "field": "khamsi-humanity-career-journey-2026-10-16",
+            "sourceIds": [
+              "khamsi-practice-biography-2026-10-16"
+            ],
+            "acceptedAssessment": [
+              "833a4455-6e10-46e7-8968-c000be91e9ba",
+              "his grandmother’s influence",
+              "khamsi-practice-biography-2026-10-16",
+              "a source-stated engineering-to-medicine journey, family influence, resident teaching recognition, patient-advocacy motivation, and reported service abroad; no outcomes inferred"
+            ]
+          }
+        },
+        {
+          "path": "data/editorial-refresh.json",
+          "reason": "Keep the Riverside directory presentation-only while explicitly allowing this source-stated narrative; do not refresh unrelated clinical claims."
+        }
+      ],
+      "deferredClaims": [
+        {
+          "field": "medical license, board certification, affiliations, and current faculty duties",
+          "reason": "The biography and hospital directory are source statements, not independent verification of present regulatory or clinical status."
+        },
+        {
+          "field": "current appointment availability and exact insurance participation",
+          "reason": "The hospital listing advises self-pay patients to call and does not list appointment capacity or named plans."
+        },
+        {
+          "field": "date or outcome of reported Guadalajara service",
+          "reason": "The practice biography reports the trips but gives no dates or patient outcomes."
+        }
+      ],
+      "portraitDisposition": "Add one immediate local, modest, source-linked preview from the named Riverside Community Hospital profile. Exact source bytes are 400×400 JPEG (16,881 bytes); visual inspection confirmed one full-face portrait associated by the named profile and image alt text. A second official practice-site image was also visually inspected but not selected. Reuse terms remain unknown; derivative cards remain separate.",
+      "preserved": [
+        "stable provider ID and existing canonical path babakkhamsiMD",
+        "existing aliases and Riverside directory membership",
+        "existing address, phone, description, clinical claims, and dates",
+        "unclaimed status, review status, indexability, and all existing controls",
+        "no route migration or credential/license promotion"
+      ]
+    }
+  ]
+}

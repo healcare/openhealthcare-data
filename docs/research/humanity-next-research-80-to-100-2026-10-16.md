@@ -38,6 +38,16 @@ Current checked app intersection: 83 unique IDs; 17 remain. This is an actionabl
 
 No Gemini/Copilot request is recorded as sent or answered, and no paid image search was used. Continue direct, normally accessible source checks first. If a handoff is needed, request only the missing evidence named above and ask for exact page/asset URLs, publisher, date, identity/location match, source excerpt, retrieval limits and decoded image dimensions where relevant.
 
+## Current checked status after 84 → 85 — October 16, 2026
+
+The app now has 85 qualifying unique IDs, with 15 remaining. The earlier Hsu note above is historical: his narrow RUHS/Kaiser teaching connection was applied as 83→84, with its result in [the Hsu receipt](../profile-ready/humanity-applied-hsu-83-to-84-2026-10-16.json). Do not repeat the completed Hsu search unless a new source or changed evidence appears.
+
+Babak Khamsi was then admitted as 84→85 using the named practice biography and hospital profile, after exact portrait identity inspection. The prepared contribution, applied receipt, and detailed research note are separate records. The previous app record had no delivered image (`imageUrl` was null); this is new enrichment, not photo recovery. Do not repeat the same Khamsi image search or count his story without the newly inventoried local portrait.
+
+Next work should reconcile the accepted-ID audit and current provider records, then select a different source-ready candidate. The previously logged gaps remain independent: Tory Twito's identity/current-location conflict; Maria Capetanakis, Gretchen Gainor and Shannon Schaubach's need for a distinctive named-source story; Damaris Browning's unresolved individual identity in a couple image; and the scope/access exceptions for North, Narula and Bonior. Shannon's bounded official-page check found only generic methods and practice material (`https://care.headway.co/providers/shannon-schaubach`, `https://www.churchlandpsychologicalcenter.com/`), insufficient for the humanity standard. Do not repeat that broad search without a new source. Portraits or generic clinical-method statements alone do not qualify, and existing holds remain unchanged.
+
+No paid image search or external-assistant request was used for these batches. No unreceived outside research is being treated as evidence.
+
 ## Additive Hsu evidence — October 15, 2026 late-evening review
 
 A new institutional source was found after the bounded gap note: RUHS-hosted Kaiser Riverside sports-medicine residency curriculum, https://www.ruhealth.org/media/1931, page 1, names Dr. Lawrence Hsu among supervising faculty. See [the prepared candidate](../profile-ready/humanity-hsu-teaching-candidate-2026-10-15.json). This supports assessment of a narrow teaching connection; publication date/current role are unestablished, and generic resident goals must not become personal attributes. No app import or count gain has occurred. The earlier Kaiser system-error and unmatched-provider findings remain valid historical observations. Use this new source before another broad Hsu search; do not repeat the exhausted URLs.
