@@ -1,6 +1,6 @@
 # Browning and Ourian portrait follow-up — October 16, 2026
 
-Research and media review only until the app import is checked. The current accepted intersection before this batch is 87 of 100 unique provider IDs. The prepared contribution expects two existing-profile enrichments, no new provider records, two new local portrait deliveries, and a 87→89 qualifying intersection. No license, clinical, rights, human-review, or indexing decision is included.
+Research and media review were completed before app import. The checked outcome is appended below and in the separate applied receipt; this note remains the detailed source, image, and deferral record. The current accepted intersection before this batch was 87 of 100 unique provider IDs. The prepared contribution expected two existing-profile enrichments, no new provider records, two new local portrait deliveries, and an 87→89 qualifying intersection. No license, clinical, rights, human-review, or indexing decision is included.
 
 ## Damaris Browning — individual portrait gap resolved
 
@@ -45,6 +45,12 @@ No outside assistant or paid image search was used. These are bounded findings, 
 
 ## Prepared app changes and limits
 
-The clean contribution packet is [`humanity-validated-contribution-browning-ourian-87-to-89-2026-10-16.json`](../profile-ready/humanity-validated-contribution-browning-ourian-87-to-89-2026-10-16.json), prepared against app main `f4c6ef5a6c7ba7ae2fb3f888121d91dbb59ac7fb` and public-data main `104401b06c22b420810c495e8dda3b112267e021`.
+The clean contribution packet is [`humanity-validated-contribution-browning-ourian-87-to-89-2026-10-16.json`](../profile-ready/humanity-validated-contribution-browning-ourian-87-to-89-2026-10-16.json), prepared against app main `f4c6ef5a6c7ba7ae2fb3f888121d91dbb59ac7fb` and public-data input main `104401b06c22b420810c495e8dda3b112267e021`. Its clean content, source mapping, and dated preservation reasons were reconciled additively through data main `0681656bb262d1c027bd31669ebb6159e3c01642`.
 
-For Browning, the existing cited narrative remains intact and becomes eligible only after the inspected individual portrait is locally delivered. For Ourian, the first-person art account is additive to the existing Epione narrative and the profile is already scoped in `sourceStatedNarrativeOnlyPaths`. Both proposed portraits remain ordinary local previews with unresolved media-reuse terms and structured-data image output withheld. Existing access information and unknowns, clinical facts, routes, aliases, directory membership, claim/review/index states, holds, and prior source dates are protected.
+For Browning, the existing cited narrative remains intact and becomes eligible only after the inspected individual portrait is locally delivered. For Ourian, the first-person art account is additive to the existing Epione narrative and the profile is already scoped in `sourceStatedNarrativeOnlyPaths`. Both portraits remain ordinary local previews with unresolved media-reuse terms and structured-data image output withheld. Existing access information and unknowns, clinical facts, routes, aliases, directory membership, claim/review/index states, holds, and prior source dates are protected.
+
+## Checked app outcome — October 16, 2026
+
+The app import is checked at 89/100: both existing IDs now satisfy the source-backed narrative plus individually inspected immediate local portrait intersection. No provider record was added, and neither portrait is described as recovered. The dated applied receipt separates the two net ID gains from two media deliveries and records the exact resulting app revision, local asset hashes, preservation, test scope, and limits.
+
+The final focused browser run passed desktop, touch-mobile, and actual source activation. It also scrolled each selected directory card into view and checked that the local portrait decoded there, its source link remained present, and neither profile nor directory view caused third-party requests/cookies before activation. An earlier touch run selected the wrong Damaris citation because two source records shared a URL; this was a locator defect. Scoping by the expected accessible name fixed the selector without changing the citation expectation or weakening the tap/privacy assertions. The art-site MD versus stored DO title discrepancy, all clinical/access unknowns, holds, source dates, routes, and review/indexing states remain unchanged.
