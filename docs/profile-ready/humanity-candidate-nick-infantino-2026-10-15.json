@@ -17,7 +17,7 @@
     "sourceIds": [
       "nick-infantino-meet-the-doctor-2026-10-15"
     ],
-    "sourceSupportedHumanityAnchor": "mountain biking and riding motorcycles"
+    "sourceSupportedHumanityAnchor": "mountain biking, riding motorcycles"
   },
   "patientAccess": {
     "text": "The named practice page lists 10363 Torre Ave F, Cupertino, CA 95014; (408) 252-8156; a request-an-appointment link; and weekday hours of Monday–Tuesday 8 a.m.–5 p.m., Wednesday 8 a.m.–3 p.m., and Thursday 8 a.m.–5 p.m., with Friday–Sunday closed. It says the practice accepts “most dental insurance plans” and asks patients to contact the office about a specific plan. This does not confirm a particular member, plan, service or benefit. Fees, referral requirements and current appointment capacity are not established by the page.",
@@ -60,7 +60,7 @@
     }
   ],
   "portrait": {
-    "disposition": "retain-existing-approved-local-preview; no new inventory entry",
+    "disposition": "retain-existing-independently-inventoried-local-preview; no new inventory entry or rights approval",
     "imageUrl": "/images/providers/nickinfantinoDDS-source-preview.jpg",
     "sourcePage": "https://www.infantinodental.com/",
     "exactSourceAsset": "https://infantinodental.com//wp-content/uploads/2025/04/dsc_0053_-_3_migrated.jpg",
@@ -98,5 +98,19 @@
       "clinical claim eligibility",
       "directory or share-image media approval"
     ]
+  },
+  "application": {
+    "status": "applied-and-validated",
+    "checkedOn": "2026-10-15",
+    "appRevision": "2b5661ab21bd7b365292a344d72d8355777aa55d",
+    "qualifyingIntersection": {
+      "before": 82,
+      "after": 83,
+      "netNewUniqueIds": 1
+    },
+    "portraitDeliveryChanged": false,
+    "portraitInventoryEntryAdded": false,
+    "reviewOrIndexingPromotion": false,
+    "deployment": false
   }
 }
