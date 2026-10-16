@@ -1,0 +1,222 @@
+{
+  "packetVersion": 1,
+  "packetType": "humanity-profile-candidate",
+  "preparedOn": "2026-10-15",
+  "status": "prepared-not-imported",
+  "candidate": {
+    "id": "59cd2739-67e7-447e-8892-2840ef14603e",
+    "name": "Timothy G. Berger",
+    "canonicalPath": "timothy-g-berger",
+    "directorySlug": "san-francisco-dermatologists",
+    "directoryFit": "Named UCSF Health dermatologist with a current San Francisco Mount Zion location; existing directory scope is UCSF/ZSFG-affiliated dermatologists in San Francisco."
+  },
+  "providerRecord": {
+    "$schema": "../schema/provider.schema.json",
+    "id": "59cd2739-67e7-447e-8892-2840ef14603e",
+    "entityType": "provider",
+    "status": "published",
+    "indexable": false,
+    "claimStatus": "unclaimed",
+    "canonicalPath": "timothy-g-berger",
+    "aliases": [],
+    "directorySlug": "san-francisco-dermatologists",
+    "pilotNote": "Source-stated UCSF provider record prepared from named institutional pages on 2026-10-15. Pending human review and independent license review; no clinical or credential claim is independently verified. Not indexable. UCSF states patient access is by referral or through its Executive Health Practice.",
+    "sources": [
+      {
+        "id": "timothy-berger-ucsf-health-2026-10-15",
+        "url": "https://www.ucsfhealth.org/providers/timothy-berger",
+        "label": "Timothy G. Berger, MD — Dermatology",
+        "publisher": "UCSF Health",
+        "sourceType": "official-provider-profile",
+        "retrievedDate": "2026-10-15",
+        "retrievalMethod": "web-retrieval",
+        "verificationStatus": "source-stated",
+        "note": "Named clinician profile. States specialty, clinical focus, teaching history, referral/Executive Health access, Mount Zion location, phone and telehealth. No independent license or availability check performed."
+      },
+      {
+        "id": "timothy-berger-ucsmeded-academy-2026-10-15",
+        "url": "https://meded.ucsf.edu/faculty-educators/center-faculty-educators/academy-medical-educators/membership-directory/academy-former-members",
+        "label": "Former Members",
+        "publisher": "UCSF Medical Education",
+        "sourceType": "institutional-profile",
+        "retrievedDate": "2026-10-15",
+        "retrievalMethod": "web-retrieval",
+        "verificationStatus": "source-stated",
+        "note": "Institutional membership list records Timothy Berger, MD, Department of Dermatology, service 2003–2015."
+      }
+    ],
+    "sourceIds": [
+      "timothy-berger-ucsf-health-2026-10-15",
+      "timothy-berger-ucsmeded-academy-2026-10-15"
+    ],
+    "name": "Timothy G. Berger",
+    "title": "MD",
+    "clinicianType": "physician",
+    "specialty": "Dermatology",
+    "description": "UCSF Health describes Timothy G. Berger as a dermatologist focused on rare, challenging and complex skin disorders. It states that patients are seen only by referral or in the UCSF Executive Health Practice.",
+    "phone": "+1-415-353-7800",
+    "email": null,
+    "website": "https://www.ucsfhealth.org/providers/timothy-berger",
+    "imageUrl": "/images/providers/timothy-g-berger-source-preview.jpg",
+    "imageSource": "https://www.ucsfhealth.org/providers/timothy-berger",
+    "imageClickThroughUrl": "https://www.ucsfhealth.org/providers/timothy-berger",
+    "imageAlt": "Portrait of Timothy G. Berger, MD",
+    "imageUsage": "local-source-preview",
+    "verification": {
+      "status": "source-stated",
+      "reviewStatus": "pending-human-review",
+      "licenseLookupStatus": "pending",
+      "researchedOn": "2026-10-15"
+    },
+    "mediaReview": {
+      "status": "local-source-preview-delivered",
+      "checkedOn": "2026-10-15",
+      "sourceIds": [
+        "timothy-berger-ucsf-health-2026-10-15"
+      ],
+      "note": "Exact 640×640 JPEG linked from the named UCSF Health profile; downloaded through a normal request, decoded and visually inspected as a single-person full-face portrait, then delivered unchanged. Source asset SHA-256 5571b6bf6139cbc2740af59f589cfd9b330bdb508594f45c05af8d283d6f1402. Reuse terms unknown; ordinary source-linked preview only, not ownership, blanket license, derivative-card, clinical or human-review approval."
+    },
+    "credentials": [
+      "MD"
+    ],
+    "locations": [
+      {
+        "name": "Dermatology Mount Zion",
+        "address": "1701 Divisadero Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94115",
+        "country": "USA",
+        "phone": "+1-415-353-7800",
+        "sourceIds": [
+          "timothy-berger-ucsf-health-2026-10-15"
+        ]
+      }
+    ],
+    "careModes": [
+      "telehealth"
+    ],
+    "specializations": [
+      "Rare, challenging and complex skin disorders"
+    ],
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "dataVerifiedAt": "2026-10-15T00:00:00.000Z",
+    "atAGlance": {
+      "humanDetail": {
+        "label": "Teaching history",
+        "text": "UCSF Medical Education records Berger as a Dermatology member of its Academy of Medical Educators from 2003 to 2015.",
+        "sourceIds": [
+          "timothy-berger-ucsmeded-academy-2026-10-15"
+        ]
+      },
+      "facts": [
+        {
+          "label": "Clinical focus",
+          "value": "Rare, challenging and complex skin disorders",
+          "sourceIds": [
+            "timothy-berger-ucsf-health-2026-10-15"
+          ]
+        },
+        {
+          "label": "Care access",
+          "value": "By referral or in the UCSF Executive Health Practice",
+          "sourceIds": [
+            "timothy-berger-ucsf-health-2026-10-15"
+          ]
+        },
+        {
+          "label": "Location",
+          "value": "Dermatology Mount Zion · San Francisco",
+          "sourceIds": [
+            "timothy-berger-ucsf-health-2026-10-15"
+          ]
+        },
+        {
+          "label": "Care mode listed",
+          "value": "Telehealth visits",
+          "sourceIds": [
+            "timothy-berger-ucsf-health-2026-10-15"
+          ]
+        }
+      ]
+    },
+    "profileSections": [
+      {
+        "id": "humanity-teaching-career-timothy-berger-2026-10-15",
+        "heading": "Teaching and complex dermatology",
+        "text": "UCSF Health describes medical-student teaching as part of Berger's work and says he was inducted into its Academy of Medical Educators for that dedication. UCSF Medical Education records him as a Dermatology member of the academy from 2003 to 2015; the UCSF Health profile also reports that dermatology residents named him Teacher of the Year in 1991 and 2001. These are source-stated career details, not evidence of current teaching duties or patient outcomes.",
+        "sourceIds": [
+          "timothy-berger-ucsf-health-2026-10-15",
+          "timothy-berger-ucsmeded-academy-2026-10-15"
+        ]
+      },
+      {
+        "id": "patient-access-timothy-berger-2026-10-15",
+        "heading": "Before requesting care",
+        "text": "UCSF Health says Berger sees patients only by referral or in the UCSF Executive Health Practice. Its page lists Dermatology Mount Zion at 1701 Divisadero Street, San Francisco, CA 94115, phone 415-353-7800, and telehealth visits. Current appointment availability, Executive Health eligibility, fees, and plan participation are not established by this listing; confirm directly with UCSF.",
+        "sourceIds": [
+          "timothy-berger-ucsf-health-2026-10-15"
+        ]
+      }
+    ],
+    "claimEvidence": [
+      {
+        "claim": "UCSF Health identifies Timothy G. Berger as an MD dermatologist and describes a focus on rare, challenging and complex skin disorders.",
+        "sourceIds": [
+          "timothy-berger-ucsf-health-2026-10-15"
+        ],
+        "verificationStatus": "source-stated"
+      },
+      {
+        "claim": "UCSF Health describes Berger's medical-student teaching and reports dermatology residents named him Teacher of the Year in 1991 and 2001; UCSF Medical Education lists his Department of Dermatology Academy service from 2003 to 2015.",
+        "sourceIds": [
+          "timothy-berger-ucsf-health-2026-10-15",
+          "timothy-berger-ucsmeded-academy-2026-10-15"
+        ],
+        "verificationStatus": "source-stated"
+      },
+      {
+        "claim": "UCSF Health states patient access is only by referral or in its Executive Health Practice and lists Mount Zion, phone 415-353-7800 and telehealth visits; current capacity, fees and exact plan participation are not established.",
+        "sourceIds": [
+          "timothy-berger-ucsf-health-2026-10-15"
+        ],
+        "verificationStatus": "source-stated"
+      }
+    ]
+  },
+  "portraitDelivery": {
+    "providerId": "59cd2739-67e7-447e-8892-2840ef14603e",
+    "slug": "timothy-g-berger",
+    "imageUrl": "/images/providers/timothy-g-berger-source-preview.jpg",
+    "sourcePage": "https://www.ucsfhealth.org/providers/timothy-berger",
+    "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/berger-timothy-1124079181-eb32187f37963a6737fd939aca04ee57.jpg",
+    "sourceWidth": 640,
+    "sourceHeight": 640,
+    "width": 640,
+    "height": 640,
+    "bytes": 387213,
+    "sha256": "5571b6bf6139cbc2740af59f589cfd9b330bdb508594f45c05af8d283d6f1402",
+    "sourceImageSetCookie": false,
+    "checkedOn": "2026-10-15",
+    "visualReview": "Decoded JPEG visually inspected: one individual, full face visible, proportional square frame. Exact bytes retained unchanged."
+  },
+  "humanityAssessment": {
+    "field": "humanity-teaching-career-timothy-berger-2026-10-15",
+    "anchor": "from 2003 to 2015",
+    "sourceIds": [
+      "timothy-berger-ucsf-health-2026-10-15",
+      "timothy-berger-ucsmeded-academy-2026-10-15"
+    ],
+    "reason": "A source-mapped career narrative about medical-student and dermatology-resident teaching, with dated institutional service. It does not infer motivation, current teaching duties or outcomes."
+  },
+  "preservedStates": {
+    "indexable": false,
+    "claimStatus": "unclaimed",
+    "reviewStatus": "pending-human-review",
+    "licenseLookupStatus": "pending",
+    "clinicalVerification": "source-stated only"
+  },
+  "countStatus": "Do not count until the imported profile, API projection, full patient-visible story/citations, local portrait decode, source links and desktop/touch-mobile privacy checks pass."
+}
