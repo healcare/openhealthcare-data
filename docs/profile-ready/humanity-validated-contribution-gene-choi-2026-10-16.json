@@ -138,12 +138,34 @@
             "sourceIds": [
               "gene-choi-rmc-video-2019-06-20"
             ],
+            "acceptedNarrativeBlocks": {
+              "f9b86381-653d-43c5-a339-7271b2d56a8f": "gene-choi-humanity-work-approach-2026-10-16"
+            },
             "acceptedAssessment": [
               "f9b86381-653d-43c5-a339-7271b2d56a8f",
               "playing with their grandkids",
               "gene-choi-rmc-video-2019-06-20",
               "a specific first-person account connecting his stated work goal to everyday activities patients report resuming; not independent outcome evidence"
             ]
+          }
+        },
+        {
+          "path": "data/editorial-refresh.json",
+          "reason": "Add this existing canonical path to the directory's explicit source-backed, source-stated-narrative-only scope so the citations are allowed without reclassifying the directory or asserting clinical verification.",
+          "value": {
+            "directory": "orthopedic-surgeons-riverside",
+            "level": "presentation-only",
+            "sourceBackedPaths": [
+              "lawrencehsuMD",
+              "babakkhamsiMD",
+              "geneChoiMD"
+            ],
+            "sourceStatedNarrativeOnlyPaths": [
+              "lawrencehsuMD",
+              "babakkhamsiMD",
+              "geneChoiMD"
+            ],
+            "researchGap": "Older clinician records still lack attached claim-level source citations, documented portrait provenance, and current practice checks. Lawrence P. Hsu has one separately dated, source-stated section about an undated RUHS-hosted Kaiser Riverside residency curriculum; it does not establish a current teaching role or verify clinical claims. Babak Khamsi has a dated source-stated biography and Riverside hospital profile for his narrative and access details; these do not verify clinical claims, plan participation, or appointment capacity. Gene Choi now has a dated Riverside Medical Clinic interview-based narrative and named practice-page access note plus a local source-linked preview; these do not verify clinical claims, licensing, current access, or appointment capacity."
           }
         }
       ],
