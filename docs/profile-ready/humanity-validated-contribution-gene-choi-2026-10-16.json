@@ -41,11 +41,22 @@
           ]
         },
         {
-          "path": "profileSections[gene-choi-humanity-work-approach-2026-10-16]",
-          "reason": "Add the source-attributed first-person account of the everyday activities patients tell him they can resume, framed as his stated motivation rather than verified outcomes or a guarantee.",
+          "path": "profileSections[gene-choi-humanity-intro-2026-10-16]",
+          "reason": "Use a concise, separately cited source-stated intro rather than repeating the full story in the page summary.",
           "value": {
-            "heading": "A goal measured in everyday routines",
-            "text": "In a 2019 Riverside Medical Clinic interview, Choi describes hearing from patients who can return to things they enjoy—playing with their grandkids, working in the yard, or taking walks—as one of the best parts of his work. He says his goal is to help people get back to regular life as soon as possible. This is his stated motivation and account of patient conversations, not an independently verified outcome or a promise.",
+            "heading": "A stated work goal",
+            "text": "In a 2019 Riverside Medical Clinic interview, Choi says his goal is to help people get back to regular life as soon as possible.",
+            "sourceIds": [
+              "gene-choi-rmc-video-2019-06-20"
+            ]
+          }
+        },
+        {
+          "path": "profileSections[gene-choi-humanity-work-approach-2026-10-16]",
+          "reason": "Add the source-attributed first-person account of everyday activities patients tell him they can resume, framed as his stated motivation rather than verified outcomes or a guarantee.",
+          "value": {
+            "heading": "Everyday routines matter",
+            "text": "In that interview, Choi says hearing from patients who can return to things they enjoy—playing with their grandkids, working in the yard, or taking walks—is one of the best parts of his work. These are his examples from patient conversations, not independently verified outcomes or a promise.",
             "sourceIds": [
               "gene-choi-rmc-video-2019-06-20"
             ]

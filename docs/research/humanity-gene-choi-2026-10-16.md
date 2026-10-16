@@ -34,8 +34,10 @@
 
 ## Contribution boundary
 
-The clean, source-mapped packet is `docs/profile-ready/humanity-validated-contribution-gene-choi-2026-10-16.json`. It adds the attributed narrative, a scoped access section with unknowns, source records, claim mapping, the local preview metadata, and a deliberate portrait inventory entry. It preserves the existing profile ID, canonical path, aliases, directory membership, review/indexing/claim states, existing clinical data, and historical `dataVerifiedAt`.
+The clean, source-mapped packet is `docs/profile-ready/humanity-validated-contribution-gene-choi-2026-10-16.json`. It adds a concise source-cited intro, a fuller attributed narrative, a scoped access section with unknowns, source records, claim mapping, the local preview metadata, and a deliberate portrait inventory entry. It preserves the existing profile ID, canonical path, aliases, directory membership, review/indexing/claim states, existing clinical data, and historical `dataVerifiedAt`.
 
 The proposed access section keeps the named physician page’s office hours scoped to that page. A separate Riverside orthopedics page also links Choi from the Brockton location but supplies no competing hours in its content; no access conflict was found in that bounded comparison. Neither source establishes real-time appointment capacity or insurance participation.
 
 The app validator required an explicit editorial scope entry before allowing new citations on this profile. The packet keeps the directory at `presentation-only` and adds only `geneChoiMD` to its `sourceBackedPaths` and `sourceStatedNarrativeOnlyPaths`; this permits the attributed narrative/access content without promoting clinical claims, changing human-review or indexing state, or treating the portrait inspection as clinical evidence.
+
+The page intro is shorter than the full narrative so the patient-facing summary does not repeat the complete story. Shared profile sections are labelled “More from the sources,” not “More from the published biography,” because these records may cite interviews and practice access pages as well as biographies.
