@@ -1,0 +1,60 @@
+{
+  "kind": "source-prepared-research-candidate",
+  "preparedOn": "2026-10-15",
+  "dateConvention": "America/Los_Angeles; UTC execution date is October 16.",
+  "provider": {
+    "id": "6dbd15b7-b965-4a14-878c-19ef55a932d0",
+    "name": "Lawrence P. Hsu",
+    "canonicalPath": "lawrencehsuMD",
+    "directorySlug": "orthopedic-surgeons-riverside",
+    "existingPortrait": "Retain current inspected local preview and inventory; no new image research/approval."
+  },
+  "disposition": "New named institutional teaching evidence for editorial assessment; no automatic humanity acceptance or clinical-status change.",
+  "source": {
+    "id": "hsu-ruhs-kaiser-sports-curriculum-2026-10-15",
+    "url": "https://www.ruhealth.org/media/1931",
+    "publisher": "Riverside University Health System",
+    "title": "Kaiser Permanente—Riverside Orthopaedic Surgery Residency Program: Sports Medicine (PGY-3)",
+    "documentType": "PDF",
+    "pages": 6,
+    "evidencePage": 1,
+    "publicationDate": "Not established",
+    "retrievalMethod": "Opened full six-page PDF via web retrieval; extracted page text and requested page-one screenshot. Separate ordinary direct download returned HTTP 403; no bypass or local PDF hash claimed.",
+    "retrievedDate": "2026-10-15",
+    "excerpt": "Supervising Faculty: Dr. Marc Fogelson, Dr. Jeffrey Gates, Dr. Geoffrey Griffiths, Dr. Richard Hanna, Dr. Lawrence Hsu",
+    "verificationStatus": "source-stated"
+  },
+  "narrative": {
+    "heading": "A documented teaching connection",
+    "text": "A Kaiser Permanente–Riverside orthopaedic residency curriculum names Lawrence Hsu among the supervising faculty for a two-month sports-medicine rotation. The institutional document connects his work with resident education. Its publication date and whether he still holds that teaching role are not established.",
+    "sourceIds": [
+      "hsu-ruhs-kaiser-sports-curriculum-2026-10-15"
+    ]
+  },
+  "claimMap": [
+    {
+      "claim": "Document lists Lawrence Hsu among supervising faculty",
+      "scope": "Named listing on PDF page 1, not an independently verified current faculty appointment",
+      "sourceId": "hsu-ruhs-kaiser-sports-curriculum-2026-10-15"
+    },
+    {
+      "claim": "Sports Medicine PGY-3 rotation has two-month duration",
+      "scope": "Program context, not a claim Hsu authored every objective or personally delivers all teaching",
+      "sourceId": "hsu-ruhs-kaiser-sports-curriculum-2026-10-15"
+    }
+  ],
+  "identityAssociation": {
+    "observed": "The document names Dr. Lawrence Hsu within Kaiser Permanente—Riverside orthopaedic sports-medicine training, compatible with the existing record's named Kaiser orthopedics context.",
+    "limits": "PDF omits middle initial and unique provider number. This is contextual professional association, not a government identity/license lookup. Resolve any contradictory identity evidence before import; do not borrow from unmatched Kaiser IDs."
+  },
+  "limits": [
+    "Do not assign this undated document a 2017 date from search indexing age.",
+    "Do not attribute generic resident goals—compassion, communication, quality, outcomes or specific procedures—to Hsu's personal philosophy or demonstrated performance.",
+    "Do not infer why he teaches, his current workload, current faculty title, clinical quality, bedside manner, hobby or appointment capacity.",
+    "Exact Kaiser profile still displays a system error; retain that prior finding. No current access update is supplied.",
+    "This may support a narrow teaching-connection narrative under the humanity rubric; do not inflate the paragraph to qualify or count it until actual source/identity/editorial and patient-visible delivery checks pass.",
+    "Preserve existing IDs, canonical paths, indexability and review/clinical controls. Narrative evidence must not verify all existing credential fields or promote structured claims.",
+    "No source-contact, booking, paid search, security bypass, deployment or profile change performed in this research pass."
+  ],
+  "backgroundGap": "docs/research/humanity-lawrence-hsu-story-gap-2026-10-15.md"
+}
