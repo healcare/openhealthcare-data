@@ -2,9 +2,24 @@
 
 **Goal: 100 unique provider IDs. Not yet reached. No deployment authorized.**
 
-## Current checked continuation: 80 → 81 — October 15, 2026
 
-**Current checked intersection: 81 of 100 unique provider IDs; 19 remain.** The app has 107 provider records and 94 independently inventoried approved local portrait deliveries. The fixed baseline is `0e71f02b718ddcd1003dd504aa44c1bb103c6894`; accepted audit checkpoint remains `d4f0e503e3142140b6d182a0f8cc82d2a91d3865`. The input packet was prepared at data revision `b230819984ec48f37254a39fa855775ccc7eb927`. The checked app batch revision is `358bcceca3abcd56d921c5e4657de027652a46b4` (parent `9a8f6f0a04c1d76ef7423bbf83eae994325b7499`).
+## Current checked continuation: 81 → 82 — October 15, 2026
+
+**Current checked intersection: 82 of 100 unique provider IDs; 18 remain.** The app has 108 provider records and 95 independently inventoried local portrait deliveries. Fixed preservation baseline: `0e71f02b718ddcd1003dd504aa44c1bb103c6894`; accepted audit checkpoint: `d4f0e503e3142140b6d182a0f8cc82d2a91d3865`.
+
+Timothy G. Berger (`59cd2739-67e7-447e-8892-2840ef14603e`, `/timothyberger`, San Francisco dermatology) is one new qualifying identity and one new immediately served local portrait. This is a new profile addition, not recovery of an erased record or portrait. The source-mapped narrative covers his medical-student teaching and former Academy service; it does not assert current teaching duties, patient outcomes or independent credential verification. UCSF states referral or Executive Health access, with Mount Zion, phone and telehealth; eligibility, capacity, fees and plan participation remain unknown.
+
+The full-face 640×640 JPEG from the named UCSF Health page was visually inspected and delivered unchanged at `/images/providers/timothy-g-berger-source-preview.jpg` (387,213 bytes; SHA-256 `5571b6bf6139cbc2740af59f589cfd9b330bdb508594f45c05af8d283d6f1402`). The exact source image GET was HTTP 200 without `Set-Cookie`; reuse terms remain unknown, and this preview is not derivative-card approval. The clean packet is `docs/profile-ready/humanity-candidate-timothy-berger-2026-10-15.json`; deeper evidence is in the separate research note.
+
+App revision `b0a948a5bd954ec5152d9c1120ee02f1e3df9d39` (parent `358bcceca3abcd56d921c5e4657de027652a46b4`) is synced; local `main` and `origin/main` agree. The packet inputs were prepared at data revision `b000c6c8b701827f06ab0e5d3319e973ee928dc2` and source findings were recorded at `38075b75b183f64fbf66fcca098224bc26d4ce0e`.
+
+**Fresh checks:** all-record data, portrait, humanity and fixed-baseline guards; TypeScript/diff check; contract 81/81; HTTP/API 109/109; SF pilot 98/98; targeted humanity browser 3/3 including desktop, touch-mobile and an actual source-link tap; build passed. Screenshots were visually checked at desktop and mobile sizes. Initial external requests/cookies were absent and the local image loaded immediately. The first pilot test run had two raw-field expectation failures because this profile intentionally uses the source-stated-only API boundary; the corrected affected tests now verify structured claim suppression **and** visible patient access copy, with 98/98 passing. No monolithic browser-suite run, real-device Safari test, screen-reader audit, independent license review, rights clearance, human approval, scale/performance test or deployment is claimed.
+
+Net gain: **+1 unique ID**, 82/100; 18 remain. Batch result: `docs/profile-ready/humanity-batch-results-81-to-82-2026-10-15.json`.
+
+## Historical checked continuation: 80 → 81 — October 15, 2026
+
+**At that historical checkpoint, the checked intersection was 81 of 100 unique provider IDs; 19 remained.** The app has 107 provider records and 94 independently inventoried approved local portrait deliveries. The fixed baseline is `0e71f02b718ddcd1003dd504aa44c1bb103c6894`; accepted audit checkpoint remains `d4f0e503e3142140b6d182a0f8cc82d2a91d3865`. The input packet was prepared at data revision `b230819984ec48f37254a39fa855775ccc7eb927`. The checked app batch revision is `358bcceca3abcd56d921c5e4657de027652a46b4` (parent `9a8f6f0a04c1d76ef7423bbf83eae994325b7499`).
 
 Kevin Sands (`c80972df-6008-4246-8665-e5c46f90dfbd`, /kevinsands) is the only net new qualifying ID. This is an enrichment of an existing Beverly Hills dentist identity, not a new provider record. His name/path, directory membership, aliases, source history, review/indexing flags, claim state and unresolved editorial/clinical notes were preserved. The source-mapped narrative connects the named practice blog's statements that he grew up in Beverly Hills and later became a dentist with the practice contact page's current Beverly Hills location. The blog does not display a publication date; celebrity and treatment-promotion claims were excluded. Access copy uses the contact page for address, phone and weekday hours while explicitly leaving appointment capacity, fees, referral requirements and plan-specific insurance participation unknown.
 
