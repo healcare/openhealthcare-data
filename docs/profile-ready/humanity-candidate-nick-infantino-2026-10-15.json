@@ -1,0 +1,102 @@
+{
+  "kind": "existing-profile-humanity-enrichment",
+  "preparedOn": "2026-10-15",
+  "qualifyingIntersectionBefore": 82,
+  "qualifyingIntersectionAfterIfAppliedAndValidated": 83,
+  "provider": {
+    "id": "e9854790-6b9d-4b80-8e51-2bd1c66773cc",
+    "name": "Nick Infantino",
+    "canonicalPath": "nickinfantinoDDS",
+    "directorySlug": "dentists-cupertino",
+    "changeKind": "existing identity enrichment; not a new provider record"
+  },
+  "humanityNarrative": {
+    "sectionId": "humanity-narrative-nick-infantino-2026-10-15",
+    "heading": "From Los Angeles to Cupertino, and interests beyond dentistry",
+    "text": "Infantino Dental’s undated “Meet the Doctor” biography says Nick Infantino grew up in Los Angeles, earned a biological-science bachelor’s degree at Loyola Marymount University in 1978, and earned a DDS at Loyola University’s College of Dental Surgery in 1983. It says he completed a residency at the Veteran’s Hospital and worked in private practice for two years before moving to Cupertino and opening a general-dentistry practice in 1985. The same biography says he enjoys mountain biking, riding motorcycles, and spending time in the mountains with family and close friends. These are the practice’s source-stated career and interest details, not independent credential verification or evidence of care quality or outcomes.",
+    "sourceIds": [
+      "nick-infantino-meet-the-doctor-2026-10-15"
+    ],
+    "sourceSupportedHumanityAnchor": "mountain biking and riding motorcycles"
+  },
+  "patientAccess": {
+    "text": "The named practice page lists 10363 Torre Ave F, Cupertino, CA 95014; (408) 252-8156; a request-an-appointment link; and weekday hours of Monday–Tuesday 8 a.m.–5 p.m., Wednesday 8 a.m.–3 p.m., and Thursday 8 a.m.–5 p.m., with Friday–Sunday closed. It says the practice accepts “most dental insurance plans” and asks patients to contact the office about a specific plan. This does not confirm a particular member, plan, service or benefit. Fees, referral requirements and current appointment capacity are not established by the page.",
+    "sourceIds": [
+      "nick-infantino-meet-the-doctor-2026-10-15"
+    ]
+  },
+  "sourceToClaimMap": [
+    {
+      "claim": "Grew up in Los Angeles; biological-science bachelor's degree at Loyola Marymount University in 1978; DDS at Loyola University College of Dental Surgery in 1983.",
+      "sourceId": "nick-infantino-meet-the-doctor-2026-10-15",
+      "status": "source-stated"
+    },
+    {
+      "claim": "Veteran’s Hospital residency, two years in private practice, then moved to Cupertino and opened a general-dentistry practice in 1985.",
+      "sourceId": "nick-infantino-meet-the-doctor-2026-10-15",
+      "status": "source-stated"
+    },
+    {
+      "claim": "Mountain biking, motorcycles, and time in the mountains with family and close friends.",
+      "sourceId": "nick-infantino-meet-the-doctor-2026-10-15",
+      "status": "source-stated"
+    },
+    {
+      "claim": "Cupertino address, phone, appointment request, hours and broad ‘most dental insurance plans’ wording.",
+      "sourceId": "nick-infantino-meet-the-doctor-2026-10-15",
+      "status": "source-stated; exact plan/benefit/capacity not verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "nick-infantino-meet-the-doctor-2026-10-15",
+      "title": "Meet the Doctor",
+      "label": "Official biography and office information",
+      "publisher": "Infantino Dental",
+      "url": "https://www.infantinodental.com/page/meet-the-doctor",
+      "retrievedDate": "2026-10-15",
+      "sourceType": "official-provider-profile",
+      "verificationStatus": "source-stated"
+    }
+  ],
+  "portrait": {
+    "disposition": "retain-existing-approved-local-preview; no new inventory entry",
+    "imageUrl": "/images/providers/nickinfantinoDDS-source-preview.jpg",
+    "sourcePage": "https://www.infantinodental.com/",
+    "exactSourceAsset": "https://infantinodental.com//wp-content/uploads/2025/04/dsc_0053_-_3_migrated.jpg",
+    "format": "JPEG",
+    "width": 862,
+    "height": 747,
+    "sha256": "c30e2341106d57a62b2aa8db59dacd9ce83477c20a97707ee811a1f33d94d32c",
+    "localBytesMatchedIndependentInventory": true,
+    "inspectedOn": "2026-10-15",
+    "visualAssessment": "Named individual portrait; face clearly visible with proportional head-and-shoulders framing.",
+    "reuseTerms": "unknown",
+    "derivativeCardApproval": false
+  },
+  "preservation": {
+    "unchanged": [
+      "provider ID",
+      "canonical path",
+      "aliases",
+      "directory membership",
+      "status",
+      "indexability",
+      "claim state",
+      "existing source history and retrieval dates",
+      "existing portrait URL/provenance and independent inventory",
+      "all current review notes and clinical/access cautions"
+    ],
+    "intentionalPresentationChange": {
+      "path": "description",
+      "reason": "Replace promotional and generic legacy wording, an undated 'over 25 years' count, and an unsupported language-proficiency assertion with a named-source career-and-interest summary. Keep education as source-stated history in the full cited narrative; do not imply independent clinical or license verification."
+    },
+    "noChanges": [
+      "license/board verification",
+      "human-review state",
+      "indexing state",
+      "clinical claim eligibility",
+      "directory or share-image media approval"
+    ]
+  }
+}
