@@ -1,0 +1,93 @@
+{
+  "kind": "humanity-milestone-batch-result",
+  "checkedOn": "2026-10-15",
+  "startingQualifyingUniqueIds": 82,
+  "endingQualifyingUniqueIds": 83,
+  "netNewQualifyingUniqueIds": 1,
+  "appRevision": "2b5661ab21bd7b365292a344d72d8355777aa55d",
+  "fixedBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "candidatePacket": "humanity-candidate-nick-infantino-2026-10-15.json",
+  "provider": {
+    "id": "e9854790-6b9d-4b80-8e51-2bd1c66773cc",
+    "name": "Nick Infantino",
+    "canonicalPath": "nickinfantinoDDS",
+    "directorySlug": "dentists-cupertino",
+    "changeKind": "existing-profile-enrichment"
+  },
+  "narrative": {
+    "sectionId": "humanity-narrative-nick-infantino-2026-10-15",
+    "sourceId": "nick-infantino-meet-the-doctor-2026-10-15",
+    "sourceTitle": "Meet the Doctor",
+    "publisher": "Infantino Dental",
+    "sourceUrl": "https://www.infantinodental.com/page/meet-the-doctor",
+    "retrievedDate": "2026-10-15",
+    "publicationDate": "not stated",
+    "qualifyingHumanityAnchor": "mountain biking, riding motorcycles",
+    "qualification": "specific source-attributed career journey and documented interests; no inferred motivation, warmth, outcome or independent credential verification"
+  },
+  "patientAccess": {
+    "sourceIds": [
+      "nick-infantino-meet-the-doctor-2026-10-15"
+    ],
+    "known": [
+      "address",
+      "phone",
+      "appointment-request link",
+      "published weekly hours",
+      "practice-level broad insurance statement"
+    ],
+    "unknown": [
+      "specific member/plan/service benefit",
+      "fees",
+      "referral requirements",
+      "current appointment capacity"
+    ]
+  },
+  "portrait": {
+    "disposition": "existing local preview retained; no new delivery or inventory entry",
+    "localUrl": "/images/providers/nickinfantinoDDS-source-preview.jpg",
+    "format": "JPEG",
+    "width": 862,
+    "height": 747,
+    "sha256": "c30e2341106d57a62b2aa8db59dacd9ce83477c20a97707ee811a1f33d94d32c",
+    "visuallyInspected": true,
+    "reuseTerms": "unknown",
+    "derivativeCardApproval": false,
+    "independentPortraitInventoryCountAfter": 95
+  },
+  "preserved": [
+    "stable ID",
+    "canonical path",
+    "aliases",
+    "directory membership",
+    "prior dated sources",
+    "portrait provenance and inventory",
+    "review/index/claim states",
+    "clinical and access cautions",
+    "source-stated-only structured-data boundary"
+  ],
+  "verification": {
+    "validateData": "passed: 108 providers, 13 directories, 95 independent local portrait deliveries, 83 qualifying IDs, fixed-baseline preservation",
+    "contract": "81/81 passed",
+    "httpApi": "110/110 passed; full new narrative/access blocks and citations checked in API and initial HTML",
+    "typecheckAndDiff": "passed",
+    "build": "passed with non-blocking Browserslist, PostCSS from-option, and large-chunk warnings",
+    "narrativeCitationBrowser": "1 passed; affected desktop/mobile story, source links and access copy",
+    "accessibleCitationNameBrowser": "1 passed across six profiles and desktop/mobile; both links include source title, publisher and visible label; off-site images blocked in this citation-only check",
+    "localPortraitPrivacyBrowser": "1 passed across 13 profiles and desktop/mobile; local image decoded immediately, source link present, zero pre-activation third-party requests and zero cookies",
+    "screenshots": "desktop full-page and mobile view reviewed",
+    "observedTestDurationsSeconds": {
+      "narrativeCitation": 23.3,
+      "accessibleCitationName": 10.4,
+      "localPortraitPrivacy": 11.1
+    },
+    "fullBatchDuration": "not measured"
+  },
+  "limits": [
+    "full browser suite not run for this data-only batch",
+    "no physical Safari device or screen-reader audit",
+    "no manual human review or independent clinical/license verification",
+    "no rights clearance or thousands-profile performance claim"
+  ],
+  "deployment": false
+}
