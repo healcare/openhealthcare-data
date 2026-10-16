@@ -24,7 +24,7 @@ The existing Beverly Hills profile already includes Epione's source-stated sculp
 
 Together these pages support an additive source-stated creative interest and work-approach narrative. They do not verify clinical outcomes, specialty or board status, license, or credentials. The quote is attributed to the art-site homepage; the profile text does not present it as an independently checked clinical claim.
 
-The About page contains `https://simonourian.com/wp-content/uploads/doctor.jpg` with generic alt text “doctor.” The page names Simon Ourian, MD, and the exact inspected image visibly bears the “Simon Ourian, M.D.” signature:
+The About page contains `https://simonourian.com/wp-content/uploads/doctor.jpg` with generic alt text “doctor.” The page names Simon Ourian, MD, and the exact inspected image visibly bears the “Simon Ourian, M.D.” signature. The existing app record's stored title is “DO”; this source/title discrepancy is not resolved or changed. The local image alt text omits a degree, and a dated review note records the source-stated mismatch without treating it as an identity finding or credential verification:
 
 - Retrieved by an ordinary HTTP request on October 16, 2026; response 200; the response included a `Set-Cookie` header. No cookie value is retained here.
 - Decoded dimensions: 357×517 JPEG; 33,986 bytes; SHA-256 `e1a74b874612b6af57fd72de631877c85a3f90bab6935fbff6f264128ef189b2`.

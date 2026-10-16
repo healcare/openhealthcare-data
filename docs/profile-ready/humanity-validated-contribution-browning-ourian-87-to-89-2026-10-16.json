@@ -198,7 +198,7 @@
               "retrievalMethod": "web-retrieval",
               "publisher": "Simon Ourian art site",
               "verificationStatus": "source-stated",
-              "note": "The About page names Simon Ourian, MD, describes his interest in form and shape and his artistic focus on symmetry, balance and proportion, and displays the exact portrait asset used for the local preview. The image itself has generic alt text but a visible Simon Ourian, M.D. signature."
+              "note": "The About page names Simon Ourian, MD, describes his interest in form and shape and his artistic focus on symmetry, balance and proportion, and displays the exact portrait asset used for the local preview. The image itself has generic alt text but a visible Simon Ourian, M.D. signature. The existing app record title is DO; that discrepancy is retained as unresolved and not treated as independently verified."
             }
           ]
         },
@@ -244,6 +244,21 @@
           ]
         },
         {
+          "path": "reviewNotes",
+          "reason": "Preserve a newly observed source-title discrepancy without changing the existing stored title, identity, verification, or clinical status.",
+          "value": [
+            {
+              "topic": "source-title-conflict",
+              "status": "needs-current-review",
+              "observedOn": "2026-10-16",
+              "sourceIds": [
+                "simonourian-art-about-2026-10-16"
+              ],
+              "text": "The named art-site About page and portrait signature use MD, while the existing stored title remains DO. No title change, degree or license verification, identity conclusion, or clinical determination was made. The source is used only for the attributed art narrative and portrait provenance."
+            }
+          ]
+        },
+        {
           "path": "imageUrl+imageUsage+imageSource+imageClickThroughUrl+imageAlt",
           "reason": "Deliver the exact full-face portrait shown on the named About page unchanged as a local source-linked preview; do not use the former contextual sculpting photo as a headshot.",
           "value": {
@@ -252,7 +267,7 @@
             "imageUsage": "local-source-preview",
             "imageSource": "https://simonourian.com/about",
             "imageClickThroughUrl": "https://simonourian.com/about",
-            "imageAlt": "Portrait of Simon Ourian, M.D.",
+            "imageAlt": "Portrait of Simon Ourian",
             "sourceAsset": "https://simonourian.com/wp-content/uploads/doctor.jpg",
             "sourceWidth": 357,
             "sourceHeight": 517,
@@ -272,7 +287,7 @@
             "sourceIds": [
               "simonourian-art-about-2026-10-16"
             ],
-            "note": "The exact `doctor.jpg` image displayed on the page titled About Simon Ourian, M.D. was decoded and visually inspected on 2026-10-16: 357×517 JPEG with a clear full face and proportional framing; a Simon Ourian, M.D. signature is visible in the image. The exact source bytes are served locally. The source image response included Set-Cookie; this is recorded as a source-response observation, not an app cookie or guarantee. The local preview and initial app render do not request that source. Reuse terms remain unknown; no ownership, blanket permission, derivative-card approval, or clinical approval is asserted."
+            "note": "The exact `doctor.jpg` image displayed on the page titled About Simon Ourian, M.D. was decoded and visually inspected on 2026-10-16: 357×517 JPEG with a clear full face and proportional framing; a Simon Ourian, M.D. signature is visible in the image. The exact source bytes are served locally. The existing app record title is DO; the source title/signature discrepancy is unresolved, no degree is included in the image alt text, and no profile title or credential is changed or verified. The source image response included Set-Cookie; this is recorded as a source-response observation, not an app cookie or guarantee. The local preview and initial app render do not request that source. Reuse terms remain unknown; no ownership, blanket permission, derivative-card approval, or clinical approval is asserted."
           }
         },
         {
@@ -389,6 +404,7 @@
         "indexable",
         "claimStatus",
         "specialty",
+        "title",
         "credentials",
         "specializations",
         "phone",
