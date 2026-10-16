@@ -4,6 +4,7 @@
   "preparedOn": "2026-10-16",
   "baseAppRevision": "f4c6ef5a6c7ba7ae2fb3f888121d91dbb59ac7fb",
   "resultingAppRevision": "7cdd294dd39369541c2f6d0fdb6328eda90b4dab",
+  "currentAppMainAfterMemoryOnlyFollowUp": "2d520db35feaa8a8fb750fbec87db30c45ad87b0",
   "baseDataRevision": "104401b06c22b420810c495e8dda3b112267e021",
   "validatedContributionRevision": "0779c5a95b7e36196e9fb5c52e0feb3fb3f0c2f7",
   "counts": {
@@ -126,7 +127,7 @@
     {
       "name": "GitHub app-main synchronization",
       "result": "passed",
-      "scope": "The initial non-force update contained two truncated large-file blobs because a shell-read callback supplied incomplete base64. Exact tree comparison detected the mismatch; a non-force follow-up restored both from complete text reads after verifying Git blob SHAs. Final local main and origin/main both equal 7cdd294dd39369541c2f6d0fdb6328eda90b4dab, with a clean worktree."
+      "scope": "The checked product-content commit is 7cdd294dd39369541c2f6d0fdb6328eda90b4dab. The initial non-force update contained two truncated large-file blobs because a shell-read callback supplied incomplete base64; exact tree comparison caught this, and a non-force follow-up restored both from complete text reads after verifying Git blob SHAs. A later project-memory-only sync safeguard is 2d520db35feaa8a8fb750fbec87db30c45ad87b0. Final local main and origin/main both equal 2d520db35feaa8a8fb750fbec87db30c45ad87b0 with a clean worktree."
     },
     {
       "name": "npm test && npm run validate-data (public openhealthcare-data)",
