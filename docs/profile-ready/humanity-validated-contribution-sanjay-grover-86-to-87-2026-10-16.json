@@ -1,0 +1,242 @@
+{
+  "kind": "validated-profile-contribution",
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-16",
+  "purpose": "Add a source-mapped career-journey section and an inspected, modest local portrait preview to an existing Orange County profile. This packet does not verify clinical claims, licensing, credentials, media rights, human review, or current appointment availability.",
+  "baseAppRevision": "d4671273e0872867ffd8f816ea2088996b9213e4",
+  "researchCandidateRevision": "1e57b65856dd34dd3dcf80b7a9c8635fed20ce10",
+  "items": [
+    {
+      "id": "91038e32-1b62-462c-8e6d-6b139363cc94",
+      "name": "Sanjay Grover",
+      "disposition": "accepted",
+      "reason": "A named 2013 profile directly quotes Grover about a specific childhood influence and the later development of his interest in cosmetic surgery; the same article carries a clear, visually inspected portrait that can be served locally.",
+      "proposedChanges": [
+        {
+          "path": "sources",
+          "reason": "Add the dated, third-party article that directly quotes Grover and a separate current official-page observation; neither is clinical or credential verification.",
+          "value": [
+            {
+              "id": "sanjay-grover-ocregister-2013",
+              "url": "https://www.ocregister.com/2013/01/08/dr-sanjay-grover",
+              "label": "Dr. Sanjay Grover — January 8, 2013",
+              "sourceType": "primary-source",
+              "retrievedDate": "2026-10-16",
+              "retrievalMethod": "web-retrieval",
+              "publisher": "Orange County Register",
+              "verificationStatus": "source-stated",
+              "note": "Third-party newspaper profile with direct statements attributed to Grover about childhood exposure to his father's general-surgery work and his interest in cosmetic surgery during medical school. Only those career-motivation statements are used; promotional, awards, credential, practice, and patient-outcome claims in the article are not imported. The article is not provider-authored."
+            },
+            {
+              "id": "sanjay-grover-official-page-2026-10-16",
+              "url": "https://www.drgrover.com/our-practice/dr-grover/",
+              "label": "Sanjay Grover — Grover Aesthetics physician profile, checked October 16, 2026",
+              "sourceType": "official-provider-profile",
+              "retrievedDate": "2026-10-16",
+              "retrievalMethod": "web-retrieval",
+              "publisher": "Grover Aesthetics",
+              "verificationStatus": "source-stated",
+              "note": "The current page displays the practice phone and a consultation-request link. It does not establish current appointment capacity, office hours, fees, accepted plans, referral requirements or language/interpreter services. Promotional procedure, volume, award and outcome statements are not imported."
+            }
+          ]
+        },
+        {
+          "path": "profileSections[sanjay-grover-career-journey-2026-10-16]",
+          "reason": "Add a concise, separately cited source-stated account of a specific formative influence and career interest without replacing the existing story or its citations.",
+          "value": {
+            "heading": "What first drew him to surgery",
+            "text": "In a 2013 Orange County Register profile, Grover said his father, a general surgeon, exposed him to surgery throughout childhood. He said his interest in cosmetic surgery began in medical school. This is his account of the path that drew him to the field, not evidence of clinical outcomes.",
+            "sourceIds": [
+              "sanjay-grover-ocregister-2013"
+            ]
+          }
+        },
+        {
+          "path": "profileSections[sanjay-grover-patient-access-2026-10-16]",
+          "reason": "Keep source-stated location/contact details beside practical access unknowns; the phone remains untested and appointment availability is not inferred.",
+          "value": {
+            "heading": "Planning a consultation",
+            "text": "Grover Aesthetics' named profile checked September 30 lists 20360 SW Birch St., Suite 120, Newport Beach, CA 92660, and (949) 759-9551. Its current profile page, checked October 16, displays the phone and a consultation-request link. Neither page states current appointment capacity, office hours, fees, accepted insurance plans, referral requirements, or language/interpreter services. The phone listing has not been tested; confirm access details directly with the practice.",
+            "sourceIds": [
+              "sanjay-grover-official",
+              "sanjay-grover-official-page-2026-10-16"
+            ]
+          }
+        },
+        {
+          "path": "claimEvidence",
+          "reason": "Map the new source-stated narrative, access information, and portrait attribution separately; do not promote unrelated credential or clinical claims.",
+          "value": [
+            {
+              "claim": "In a 2013 Orange County Register profile, Grover said that his father, a general surgeon, exposed him to surgery throughout childhood and that his interest in cosmetic surgery began in medical school.",
+              "sourceIds": [
+                "sanjay-grover-ocregister-2013"
+              ],
+              "verificationStatus": "source-stated"
+            },
+            {
+              "claim": "Grover Aesthetics' named profile lists the Newport Beach address and phone and provides a consultation request; appointment capacity and the listed practical access details are not specified.",
+              "sourceIds": [
+                "sanjay-grover-official",
+                "sanjay-grover-official-page-2026-10-16"
+              ],
+              "verificationStatus": "source-stated"
+            },
+            {
+              "claim": "The exact article image is associated with Sanjay Grover by the Orange County Register article and its subject-identifying image description; the locally served bytes are an ordinary source-linked preview.",
+              "sourceIds": [
+                "sanjay-grover-ocregister-2013"
+              ],
+              "verificationStatus": "source-stated"
+            }
+          ]
+        },
+        {
+          "path": "client/public/images/providers/sanjay-grover-ocregister-source-preview.jpg and imageUrl, imageUsage, imageClickThroughUrl, imageSource, imageAlt",
+          "reason": "Use the exact 600×437 article JPEG as a modest local source-linked preview after visual identity inspection; preserve immediate local delivery, with no crop, enlargement, remote pre-activation request, or structured-data promotion.",
+          "value": {
+            "imageUrl": "/images/providers/sanjay-grover-ocregister-source-preview.jpg",
+            "imageUsage": "local-source-preview",
+            "imageClickThroughUrl": "https://www.ocregister.com/2013/01/08/dr-sanjay-grover",
+            "imageSource": "https://www.ocregister.com/2013/01/08/dr-sanjay-grover",
+            "imageAlt": "Portrait of Sanjay Grover"
+          }
+        },
+        {
+          "path": "mediaReview",
+          "reason": "Preserve the earlier rejected official-site graphic while recording the separate article portrait delivery; media rights and derivative use remain unresolved.",
+          "value": {
+            "status": "unresolved",
+            "note": "The official-site candidate visually inspected on 2026-10-01 was a magazine-branded graphic and remains rejected. Separately, the exact 2013 Orange County Register article JPEG was decoded and visually inspected on 2026-10-16; it shows a single clear, front-facing portrait associated with Grover by the named article and its image description, and is delivered unchanged as a local source-linked preview. Reuse terms remain unknown; this preview is not ownership, blanket permission, derivative-card approval, or clinical approval.",
+            "checkedOn": "2026-10-16",
+            "structuredDataImage": "withheld",
+            "sourceIds": [
+              "sanjay-grover-portrait-page",
+              "sanjay-grover-ocregister-2013"
+            ]
+          }
+        },
+        {
+          "path": "data/patient-ready-portraits.json",
+          "reason": "Deliberately add one independently inspected local-delivery expectation with exact article page/asset, decoded dimensions, bytes, source/local hash, cookie observation, and unknown reuse terms.",
+          "value": {
+            "id": "91038e32-1b62-462c-8e6d-6b139363cc94",
+            "slug": "sanjaygrover",
+            "directory": "plastic-surgeons-orange-county",
+            "imageUrl": "/images/providers/sanjay-grover-ocregister-source-preview.jpg",
+            "imageUsage": "local-source-preview",
+            "sourcePage": "https://www.ocregister.com/2013/01/08/dr-sanjay-grover",
+            "sourceAsset": "https://www.ocregister.com/wp-content/uploads/migration/maf/maffnj-b781003083z.120120915220453000gss19r7nh.2.jpg",
+            "sourceWidth": 600,
+            "sourceHeight": 437,
+            "sourceSha256": "074bb9f625c3ae50a06979038d0d63712590659276271b73128490582059bf87",
+            "sourceImageSetCookie": false,
+            "width": 600,
+            "height": 437,
+            "bytes": 79032,
+            "sha256": "074bb9f625c3ae50a06979038d0d63712590659276271b73128490582059bf87",
+            "checkedOn": "2026-10-16",
+            "reason": "New local preview, not recovery of an earlier delivered portrait. The article image was decoded and visually inspected: one clear full-face portrait, with the image description and article identifying Grover. Original JPEG bytes are retained unchanged. The image response had no Set-Cookie header. Reuse terms are unknown; no ownership, blanket license, derivative, or clinical approval is claimed."
+          }
+        },
+        {
+          "path": "data/profile-humanity-assessments.json",
+          "reason": "Add an explicit qualitative assessment of the complete, readable career-journey block and its named citation; this is content completeness, not human review or clinical verification.",
+          "value": {
+            "field": "sanjay-grover-career-journey-2026-10-16",
+            "sourceIds": [
+              "sanjay-grover-ocregister-2013"
+            ],
+            "acceptedNarrativeBlocks": {
+              "91038e32-1b62-462c-8e6d-6b139363cc94": {
+                "field": "sanjay-grover-career-journey-2026-10-16",
+                "sourceIds": [
+                  "sanjay-grover-ocregister-2013"
+                ]
+              }
+            },
+            "acceptedAssessment": [
+              "91038e32-1b62-462c-8e6d-6b139363cc94",
+              "exposed him to surgery throughout childhood",
+              "sanjay-grover-ocregister-2013",
+              "a specific source-stated childhood influence and subsequent interest in cosmetic surgery during medical school; not a credential summary, current clinical verification, or patient-outcome evidence"
+            ]
+          }
+        },
+        {
+          "path": "data/editorial-refresh.json",
+          "reason": "Scope source-stated narrative treatment to this existing path, preserving independent eligibility for the profile's unrelated clinical and credential fields.",
+          "value": {
+            "directory": "plastic-surgeons-orange-county",
+            "sourceBackedPaths": [
+              "sanjaygrover"
+            ],
+            "sourceStatedNarrativeOnlyPaths": [
+              "sanjaygrover"
+            ],
+            "reason": "The new career narrative and portrait are source-stated; existing clinical, credential, license, and availability fields remain unverified and must not be promoted through this narrative assessment."
+          }
+        },
+        {
+          "path": "data/preservation-reviews.json",
+          "reason": "Record dated, path-scoped reasons for the new source-stated-only presentation boundary and the replacement of a rejected media pointer with an inspected local preview.",
+          "value": [
+            {
+              "entityType": "directory",
+              "entityId": "dfe83ced-1503-425d-80c0-64f17e320f42",
+              "path": "editorialRefresh.plastic-surgeons-orange-county.sourceStatedNarrativeOnlyPaths",
+              "checkedOn": "2026-10-16",
+              "disposition": "presentation-change",
+              "reason": "Add only Sanjay Grover's established canonical path to sourceStatedNarrativeOnlyPaths because the new career narrative and cited portrait are source-stated, while the profile's unrelated clinical, credential, license, and access claims remain unverified. Preserve all existing roster paths, review/index states, stored facts, source dates and conflicts."
+            },
+            {
+              "entityType": "provider",
+              "entityId": "91038e32-1b62-462c-8e6d-6b139363cc94",
+              "path": "imageUrl+imageUsage+imageSource+imageClickThroughUrl+mediaReview.note",
+              "checkedOn": "2026-10-16",
+              "disposition": "presentation-change",
+              "reason": "Replace only the undisplayed remote pointer to the previously rejected magazine graphic with the exact, visually inspected Orange County Register article portrait as a local source-linked preview. Preserve the older rejection in the dated note and keep media rights unresolved."
+            }
+          ]
+        },
+        {
+          "path": "editorial",
+          "reason": "Date the additive narrative update without changing the existing attribution or reuse limitations.",
+          "value": {
+            "narrativeVersion": "2026-10-16.1",
+            "refreshedOn": "2026-10-16"
+          }
+        },
+        {
+          "path": "sourceIds",
+          "reason": "Keep both new named sources in the provider's source list alongside all prior source IDs.",
+          "value": [
+            "sanjay-grover-ocregister-2013",
+            "sanjay-grover-official-page-2026-10-16"
+          ]
+        }
+      ],
+      "protectedUnchanged": [
+        "id",
+        "canonicalPath",
+        "aliases",
+        "directorySlug",
+        "status",
+        "indexable",
+        "claimStatus",
+        "specialty",
+        "credentials",
+        "specializations",
+        "phone",
+        "website",
+        "locations",
+        "verification.reviewStatus",
+        "verification.licenseLookupStatus",
+        "dataVerifiedAt",
+        "reviewNotes",
+        "mediaReview.status",
+        "all existing sources, citations, narrative sections, and source dates"
+      ]
+    }
+  ]
+}
