@@ -1,0 +1,156 @@
+{
+  "kind": "applied-profile-result",
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-16",
+  "baseAppRevision": "f4c6ef5a6c7ba7ae2fb3f888121d91dbb59ac7fb",
+  "resultingAppRevision": "7cdd294dd39369541c2f6d0fdb6328eda90b4dab",
+  "baseDataRevision": "104401b06c22b420810c495e8dda3b112267e021",
+  "validatedContributionRevision": "0779c5a95b7e36196e9fb5c52e0feb3fb3f0c2f7",
+  "counts": {
+    "qualifyingUniqueProviderIds": {
+      "before": 87,
+      "after": 89
+    },
+    "providerRecords": {
+      "before": 108,
+      "after": 108
+    },
+    "approvedLocalPortraitDeliveries": {
+      "before": 98,
+      "after": 100
+    }
+  },
+  "items": [
+    {
+      "id": "3de0928a-38b5-475e-a8f3-b01a5239d6f6",
+      "name": "Damaris Browning",
+      "disposition": "accepted",
+      "reason": "Existing source-mapped career and interests copy is retained; a newly inspected named individual portrait resolves the remaining local-media gap. This adds one unique qualifying ID and one new local delivery, not a provider record or recovered photo.",
+      "appliedChanges": [
+        {
+          "path": "sources, sourceIds, imageUrl, imageUsage, imageSource, imageClickThroughUrl, imageAlt, mediaReview",
+          "reason": "Added the named ASIRD profile as portrait provenance and delivered its exact, unchanged, individually inspected 477×700 JPEG immediately as a local source-linked preview. The former couple image remains unused. ASIRD's Candidate wording is not imported as a credential."
+        },
+        {
+          "path": "data/patient-ready-portraits.json",
+          "reason": "Added one deliberate inventory entry with exact page and asset, dimensions, byte count, SHA-256, inspection date, and source-cookie observation."
+        },
+        {
+          "path": "data/profile-humanity-assessments.json",
+          "reason": "Added the existing complete source-backed narrative block to the accepted stable-ID intersection after its portrait requirement was met."
+        },
+        {
+          "path": "data/editorial-refresh.json, data/preservation-reviews.json",
+          "reason": "Recorded a dated portrait-gap resolution without removing existing source claims, older observations, directory membership, clinical fields, or visibility controls."
+        }
+      ],
+      "deltas": {
+        "qualifyingUniqueProviderIds": 1,
+        "providerRecords": 0,
+        "approvedLocalPortraitDeliveries": 1
+      },
+      "portraitDisposition": "New local source-linked preview, not recovery of a prior delivery. Named page: https://directory.asird.org/doctors/damaris-browning. Exact asset: https://api.asird.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ3crIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3a0d6b219dc0378ecf77949c897b49c2f40f050f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDdkFKcEFyd0MiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--fa8788604ab27a6fbfdb6333d83079803bc4779f/Damaris_Browning-1a.jpg. JPEG 477×700, 51,290 bytes, SHA-256 550b5e5c6860fe9fb875efd110d30c755b61e2108d4a53afa31df3d93191bd64. Source image response had no Set-Cookie. Reuse terms remain unknown; no ownership, blanket permission, derivative-card, or clinical approval is claimed."
+    },
+    {
+      "id": "fbb6c96c-3ab2-4859-a5af-0c3818299771",
+      "name": "Simon Ourian",
+      "disposition": "accepted",
+      "reason": "Existing sculpture-interest content is retained and an additive first-person art-and-medicine approach is mapped to named personal-site sources. A visually inspected named-page portrait resolves the local-media gap. This adds one unique qualifying ID and one new local delivery, not a provider record or recovered photo.",
+      "appliedChanges": [
+        {
+          "path": "sources, sourceIds, profileSections, claimEvidence",
+          "reason": "Added a source-stated art and medicine section with claim-level source IDs while preserving earlier Epione narratives and citations. No clinical outcome, credential, title, or access claim was added."
+        },
+        {
+          "path": "imageUrl, imageUsage, imageSource, imageClickThroughUrl, imageAlt, mediaReview",
+          "reason": "Delivered the exact 357×517 JPEG shown on the named About page unchanged as an immediate local source-linked preview. The former contextual sculpting photograph is not used as a headshot; structured-data image use remains withheld."
+        },
+        {
+          "path": "reviewNotes",
+          "reason": "Recorded the source-page MD versus stored DO discrepancy as unresolved. No degree, license, identity, or clinical conclusion was made and the existing stored title was not changed."
+        },
+        {
+          "path": "data/patient-ready-portraits.json, data/profile-humanity-assessments.json, data/editorial-refresh.json, data/preservation-reviews.json",
+          "reason": "Deliberately added one inspected local delivery and accepted narrative assessment; dated presentation reasons preserve the existing Beverly Hills editorial controls and all prior evidence."
+        }
+      ],
+      "deltas": {
+        "qualifyingUniqueProviderIds": 1,
+        "providerRecords": 0,
+        "approvedLocalPortraitDeliveries": 1
+      },
+      "portraitDisposition": "New local source-linked preview, not recovery of a prior delivery. Named page: https://simonourian.com/about. Exact asset: https://simonourian.com/wp-content/uploads/doctor.jpg. JPEG 357×517, 33,986 bytes, SHA-256 e1a74b874612b6af57fd72de631877c85a3f90bab6935fbff6f264128ef189b2. A visible Simon Ourian, M.D. signature and clear full face were inspected. The source image response included Set-Cookie; this is a source retrieval observation only. The initial app render uses the local file and makes no third-party request. Reuse terms remain unknown; no ownership, blanket permission, derivative-card, or clinical approval is claimed."
+    }
+  ],
+  "preserved": [
+    "Existing provider IDs, canonical paths, aliases, specialties, directory memberships and all newer evidence.",
+    "Existing stories, source records, citations, source dates, practical-access details, unknowns and material conflicts.",
+    "Clinical and credential fields, source-stated status, review/indexing/claim state and all existing holds.",
+    "Browning's rejected couple-photo finding and Ourian's rejected contextual photo as a primary headshot.",
+    "The DO-versus-MD source/title discrepancy; no title or credential verification.",
+    "The fixed accepted-ID baseline and all prior qualifying IDs.",
+    "Unresolved media/reuse terms, local-preview versus derivative approval separation, and structured-data image withholding.",
+    "No repository-only research exposure and no request/cookie to portrait sources before explicit activation."
+  ],
+  "checks": [
+    {
+      "name": "npm run validate-data (app)",
+      "result": "passed",
+      "scope": "124 app entity files, 108 providers, 100 independent local portrait deliveries, fixed baseline 0e71f02b718ddcd1003dd504aa44c1bb103c6894, and 89/108 qualifying unique IDs."
+    },
+    {
+      "name": "npm run validate:profile-import -- --base f4c6ef5a6c7ba7ae2fb3f888121d91dbb59ac7fb",
+      "result": "passed",
+      "scope": "Affected provider and directory preservation, stable identity/routes/membership, and dated scoped reasons."
+    },
+    {
+      "name": "npm run check",
+      "result": "passed",
+      "scope": "TypeScript check after the final browser-test changes."
+    },
+    {
+      "name": "npm run test:contract",
+      "result": "passed",
+      "scope": "83/83 contract, source/API, narrative/citation, portrait/privacy, URL, preservation, and strict-JSON tests; none skipped."
+    },
+    {
+      "name": "HUMANITY_IDS=3de0928a-38b5-475e-a8f3-b01a5239d6f6,fbb6c96c-3ab2-4859-a5af-0c3818299771 npm run test:browser -- tests/humanity-patient-ready.spec.ts",
+      "result": "passed",
+      "scope": "3/3 Chromium cases: desktop, touch-mobile, and actual source activation. Checked complete visible narratives/citations, decoded local portraits, visible source links, zero initial third-party requests/cookies, directory-card portrait/source delivery after scrolling, and no neighboring disclosure activation."
+    },
+    {
+      "name": "Desktop/mobile visual and API review",
+      "result": "passed",
+      "scope": "Both profiles reviewed at desktop and mobile sizes; local full-face portraits, patient-visible narrative, source attribution, and access/conflict content rendered. Directory cards were independently checked in the cohort browser test. One Cupertino full-page mobile capture exceeded the capture tool's 8,000-pixel limit; it is not represented as visually reviewed, and the scroll-based browser assertions passed."
+    },
+    {
+      "name": "GitHub app-main synchronization",
+      "result": "passed",
+      "scope": "The initial non-force update contained two truncated large-file blobs because a shell-read callback supplied incomplete base64. Exact tree comparison detected the mismatch; a non-force follow-up restored both from complete text reads after verifying Git blob SHAs. Final local main and origin/main both equal 7cdd294dd39369541c2f6d0fdb6328eda90b4dab, with a clean worktree."
+    },
+    {
+      "name": "npm test && npm run validate-data (public openhealthcare-data)",
+      "result": "passed",
+      "scope": "8 profile-refresh cases and all profile-artifact duplicate-key, stage, reason, and count-dimension cases passed; five data bundles and 49 strictly parsed profile-ready JSON artifacts, including this receipt, passed."
+    }
+  ],
+  "observedDurations": [
+    {
+      "phase": "affected desktop browser case",
+      "milliseconds": 7957,
+      "note": "Shared browser context; not cold-cache or performance evidence."
+    },
+    {
+      "phase": "affected touch-mobile browser case",
+      "milliseconds": 2832,
+      "note": "Shared browser context; not device-level or load-performance evidence."
+    }
+  ],
+  "limits": [
+    "An initial source-activation run exposed a locator defect: two Damaris citations shared a URL, so the test selected the earlier label. The locator now scopes by the expected accessible name; the expected name, real tap, privacy assertions, and neighboring-disclosure checks remain unchanged. The final run passed 3/3.",
+    "The Art-site image response Set-Cookie is recorded as a source-site retrieval observation. It is not an app cookie or a guarantee about the external site; only explicit activation opens the source.",
+    "Source-stated narratives and media completeness do not establish clinical or license verification, human review, rights clearance, or derivative-use approval.",
+    "No complete unrelated browser-suite run, independent screen-reader audit, real-device Safari test, review/indexing promotion, or thousands-profile load/performance test is claimed.",
+    "Eleven qualifying IDs remain. Goodman still lacks an individually associated suitable portrait and has unresolved chronology; other current unqualified candidates remain held, lack distinctive named evidence, or require new source evidence. No quota-filling or existing hold was weakened."
+  ]
+}
