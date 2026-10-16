@@ -37,3 +37,7 @@ Current checked app intersection: 83 unique IDs; 17 remain. This is an actionabl
 - Existing Norfolk license/identity conflicts and Beverly Hills editorial holds remain independent blockers; a good story or portrait does not clear them.
 
 No Gemini/Copilot request is recorded as sent or answered, and no paid image search was used. Continue direct, normally accessible source checks first. If a handoff is needed, request only the missing evidence named above and ask for exact page/asset URLs, publisher, date, identity/location match, source excerpt, retrieval limits and decoded image dimensions where relevant.
+
+## Additive Hsu evidence — October 15, 2026 late-evening review
+
+A new institutional source was found after the bounded gap note: RUHS-hosted Kaiser Riverside sports-medicine residency curriculum, https://www.ruhealth.org/media/1931, page 1, names Dr. Lawrence Hsu among supervising faculty. See [the prepared candidate](../profile-ready/humanity-hsu-teaching-candidate-2026-10-15.json). This supports assessment of a narrow teaching connection; publication date/current role are unestablished, and generic resident goals must not become personal attributes. No app import or count gain has occurred. The earlier Kaiser system-error and unmatched-provider findings remain valid historical observations. Use this new source before another broad Hsu search; do not repeat the exhausted URLs.
