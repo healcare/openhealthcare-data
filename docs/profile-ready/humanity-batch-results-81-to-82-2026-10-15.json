@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "recordType": "humanity-milestone-batch-result",
+  "batch": "81-to-82",
+  "date": "2026-10-15",
+  "goal": 100,
+  "qualifyingUniqueIdsBefore": 81,
+  "qualifyingUniqueIdsAfter": 82,
+  "remaining": 18,
+  "netNewQualifyingIds": 1,
+  "profiles": [
+    {
+      "id": "59cd2739-67e7-447e-8892-2840ef14603e",
+      "name": "Timothy G. Berger",
+      "canonicalPath": "timothyberger",
+      "directorySlug": "san-francisco-dermatologists",
+      "outcome": "new profile addition; qualified after checks; not a recovered/lost profile",
+      "humanityEvidence": "Named UCSF sources document medical-student teaching and former Academy service; no inferred motives, current teaching duties, warmth or outcomes.",
+      "access": "Source states referral or UCSF Executive Health; Mount Zion address, phone and telehealth listed; appointment capacity, Executive Health eligibility, fees and plan-specific insurance participation unknown.",
+      "clinicalClaims": "Source-stated only; no independent license, specialty, board, outcome or credential verification.",
+      "portrait": {
+        "outcome": "new inspected local delivery",
+        "sourcePage": "https://www.ucsfhealth.org/providers/timothy-berger",
+        "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/berger-timothy-1124079181-eb32187f37963a6737fd939aca04ee57.jpg",
+        "sourceResponse": "HTTP 200; image/jpeg; no Set-Cookie header on the exact image response",
+        "dimensions": "640x640",
+        "localPath": "/images/providers/timothy-g-berger-source-preview.jpg",
+        "bytes": 387213,
+        "sha256": "5571b6bf6139cbc2740af59f589cfd9b330bdb508594f45c05af8d283d6f1402",
+        "reuseTerms": "unknown",
+        "approvalScope": "ordinary modest source-linked preview only; no ownership, blanket-license or derivative-card approval claim"
+      },
+      "preservedStates": {
+        "indexable": false,
+        "claimStatus": "unclaimed",
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending"
+      }
+    }
+  ],
+  "counts": {
+    "providerRecords": 108,
+    "directoryRecords": 13,
+    "localPortraitDeliveries": 95
+  },
+  "fixedBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "acceptedAuditCheckpoint": "d4f0e503e3142140b6d182a0f8cc82d2a91d3865",
+  "appRevision": "b0a948a5bd954ec5152d9c1120ee02f1e3df9d39",
+  "appParentRevision": "358bcceca3abcd56d921c5e4657de027652a46b4",
+  "appLocalOriginAgreement": true,
+  "inputDataPreparationRevision": "b000c6c8b701827f06ab0e5d3319e973ee928dc2",
+  "inputDataResearchRevision": "38075b75b183f64fbf66fcca098224bc26d4ce0e",
+  "validations": {
+    "validateData": {
+      "passed": true,
+      "detail": "108 providers; 13 directories; 3 organizations; 1 organization bundle; 95 local portrait deliveries; humanity and fixed-baseline preservation passed"
+    },
+    "typecheck": {
+      "passed": true,
+      "command": "npm run check"
+    },
+    "diffCheck": {
+      "passed": true,
+      "command": "git diff --check"
+    },
+    "contract": {
+      "passed": true,
+      "tests": 81,
+      "failed": 0
+    },
+    "httpApi": {
+      "passed": true,
+      "tests": 109,
+      "failed": 0
+    },
+    "sanFranciscoPilot": {
+      "passed": true,
+      "tests": 98,
+      "failed": 0
+    },
+    "targetedBrowser": {
+      "passed": true,
+      "tests": 3,
+      "detail": "desktop and touch-mobile profile checks plus actual source-link tap; local image decoded immediately; no pre-activation third-party requests/cookies"
+    },
+    "build": {
+      "passed": true,
+      "warnings": [
+        "stale Browserslist database",
+        "PostCSS from option warning",
+        "large bundle warning"
+      ]
+    },
+    "visualReview": {
+      "passed": true,
+      "viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "detail": "full face proportional; narrative, citations and access unknowns visible"
+    },
+    "fullBrowserSuite": {
+      "runAsSingleSuite": false
+    },
+    "durations": "not captured during this batch"
+  },
+  "privacy": {
+    "noThirdPartyRequestsOrCookiesBeforeActivation": true,
+    "localPortraitLoadsWithoutActivation": true
+  },
+  "limitations": [
+    "not a full monolithic browser-suite run",
+    "not real-device Safari",
+    "not a screen-reader audit",
+    "not independent clinical/license verification",
+    "not rights clearance",
+    "not human review or indexing approval",
+    "not a performance/load test at thousands of profiles"
+  ],
+  "deployment": "not performed"
+}
