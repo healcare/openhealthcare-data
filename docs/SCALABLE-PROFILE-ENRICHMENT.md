@@ -306,3 +306,17 @@ The exercise verifies the current functional cohort only. It is not a thousand-p
 ## Prepared next candidate packet: 76 → 80 — October 15, 2026
 
 The prepared 76→80 contribution contains four exact IDs, collision-checked clean paths, named-source narratives/access notes, and exact visually inspected local-preview provenance. It was reconciled against app revision 6eb3f0650c41c265702499b4fb61b01100b4db29 before import. This is preparation only: none of the four is counted until app import, all-record guards and affected desktop/touch-mobile delivery checks pass. Clean contribution and separate retrieval review are in profile-ready/humanity-contribution-76-to-80-2026-10-15.json and research/humanity-import-review-76-to-80-2026-10-15.md.
+
+## Applied field note: four-profile 76 → 80 batch — October 15, 2026
+
+The current checked cohort is 80 unique IDs, not the older 74/75/76 values. The app audit—not a structural candidate count or stale copied ledger—establishes the current accepted intersection. The four additions were Andersen, Dobry, Twigg and François; their clean applied packet and exact media records are in profile-ready/humanity-batch-results-76-to-80-2026-10-15.json. This was a small functional integrity trial, not a thousands-profile performance test.
+
+Operational lessons:
+- For new source-stated records, missing dataVerifiedAt is correct when independent verification did not occur. Preserve absence through API/JSON-LD; do not synthesize a date from source retrieval or emit Invalid Date.
+- Count IDs only when the complete source-backed humanity narrative, corresponding citations, eligible access details and a visually inspected immediate local portrait all qualify. Existing profile presence, a photo alone, or a story alone is insufficient.
+- Keep source response, image identity/association, local delivery bytes and reuse/derivative status separate. A current asset returning 403 is not evidence of an image; do not bypass it. A different normally accessible exact named asset can be considered only with its own association and retrieval history recorded.
+- A source's structured accepting-new-patients flag can conflict with appointment links or telehealth wording. Preserve the observation, but do not turn it into capacity or availability without source-scoped evidence.
+- Store and preserve access conflicts together with the relevant facts, including older dated observations. Do not infer relocation or closure from an undated extraction or current canonical page.
+- Validate API citations, patient-visible story, source links, local image decode and no third-party requests/cookies before interaction. Keep review/indexing, clinical/license status and portrait-media disposition independent.
+
+The batch passed all-record/fixed-baseline checks, type/build, contract 81/81, HTTP/API 109/109, pilot 93/93, targeted desktop/touch-mobile checks and a full test:all run (exit 0). The full run's aggregate count was not retained. No clinical/license approval, human-review completion, rights determination, screen-reader or real-device Safari audit, or deployment is claimed.

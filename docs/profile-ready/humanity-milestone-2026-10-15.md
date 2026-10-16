@@ -2,9 +2,21 @@
 
 **Goal: 100 unique provider IDs. Not yet reached. No deployment authorized.**
 
-## Current checked continuation: 72 → 74 — October 15, 2026
+## Current checked continuation: 76 → 80 — October 15, 2026
 
-**Current checked intersection: 74 of 100 unique provider IDs; 26 remain.** The roster contains 103 stable provider IDs and the independent local portrait inventory contains 89 deliveries. The checked app revision is `b0c16009d5810f4a2cf670cad2c9cfe293033604` (parent `8b8597551bfe778aa8f821ac1fe1e9437a649716`); fixed baseline `0e71f02b718ddcd1003dd504aa44c1bb103c6894`. The input data main revision was `e5f3e9bac0466ecff7300681551c620b24b2ea35`.
+**Current checked intersection: 80 of 100 unique provider IDs; 20 remain.** This reconciles the earlier stale ledger at 74 and the app's earlier 75 checkpoint; 75 and 76 are historical, and the current accepted-cohort audit reports 80. App batch revision: 869947bc1d77cb913ceca4256f88ef548de50565; app main after report sync: e3ea699061ea5c4265d2bc8b90f324432de017af. Prepared public-data input: f034e5e5c05f7757e23bbf75adbc5f020d83e8ed. Fixed baseline: 0e71f02b718ddcd1003dd504aa44c1bb103c6894.
+
+Four new existing-scope records qualify: Holly S. Andersen (/hollyandersen, Manhattan cardiology), Allison Dobry (/allisondobry, San Francisco dermatology), Amanda Twigg (/amandatwigg, San Francisco dermatology), and Rony A. François (/ronyfrancois, San Francisco dermatology). Their stable IDs, complete claim-mapped narratives, sources/access, and exact portrait provenance are in [the clean applied result](humanity-batch-results-76-to-80-2026-10-15.json) and [updated contribution packet](humanity-contribution-76-to-80-2026-10-15.json). The separate [research review](../research/humanity-import-review-76-to-80-2026-10-15.md) records retrieval distinctions, access conflicts, runtime cause and limits.
+
+The records count increases from 103 to 107 and the independent local portrait inventory from 90 to 94. Four exact named-source portraits were visually inspected and delivered locally at modest size; reuse terms remain unknown and no derivative-card approval is implied. Dobry's older undated China Basin and current Mission Bay observations remain visible; the current image endpoint's 403 was not bypassed. North remains research-only because a direct patient appointment clinic is not established.
+
+All four remain source-stated, unclaimed, nonindexable, pending human review and pending license lookup. Clinical verification, human review, licensing, indexing promotion and rights clearance are not implied. No deployment.
+
+Fresh checks: validate-data and fixed-baseline preservation, type-check, production build, contract 81/81, HTTP/API 109/109, pilot 93/93, affected desktop/touch-mobile story/citation/access/local-image/privacy checks (2 passed), and full npm run test:all exit 0. Playwright last-run reports passed with no failed tests; exact aggregate count was not retained. A full page screenshot confirmed the rendered Dobry story, source link, conflict and local portrait. No screen-reader, physical Safari, clinical/license or thousands-profile load test is claimed.
+
+## Prior checked continuation: 72 → 74 — October 15, 2026
+
+At this historical checkpoint, the checked intersection was **74 of 100 unique provider IDs; 26 remained**. The roster then contained 103 stable provider IDs and the independent local portrait inventory contained 89 deliveries. The checked app revision is `b0c16009d5810f4a2cf670cad2c9cfe293033604` (parent `8b8597551bfe778aa8f821ac1fe1e9437a649716`); fixed baseline `0e71f02b718ddcd1003dd504aa44c1bb103c6894`. The input data main revision was `e5f3e9bac0466ecff7300681551c620b24b2ea35`.
 
 Two new source-backed records qualify in the existing Washington, DC psychotherapy directory: Stacy Notaras Murphy (`fc324301-6429-4791-9abb-2acf8817ec2d`, `/stacynotarasmurphy`) and Kathleen Smith (`737d2e5e-ec5c-4c6f-be98-2625c349e0a9`, `/kathleensmith`). Each has a distinct source-mapped humanity narrative, useful access observations and unknowns, and an individually inspected immediately served local portrait with source attribution. They remain source-stated, unclaimed, nonindexable, pending human review and pending license lookup. No clinical/licensing verification, rights clearance, human approval or review/index promotion is implied.
 

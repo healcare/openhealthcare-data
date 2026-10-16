@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "preparedOn": "2026-10-15",
-  "preparedBeforeImport": true,
-  "status": "four candidates reconciled to current app; source-mapped copy, access facts, paths and media prepared for a small pending-review contribution",
+  "preparedBeforeImport": false,
+  "status": "Applied and checked: four new source-backed humanity profiles qualify; IDs, routes, source history, access conflicts, pending review/indexing and license states are preserved.",
   "currentAppCheckpoint": {
     "revision": "6eb3f0650c41c265702499b4fb61b01100b4db29",
     "qualifyingUniqueIds": 76,
@@ -372,6 +372,95 @@
     "reviewOrIndexingPromotion": false,
     "credentialOrLicensePromotion": false,
     "paidImageSearch": false,
+    "deployment": false
+  },
+  "applicationResult": {
+    "checkedOn": "2026-10-15",
+    "appBatchRevision": "869947bc1d77cb913ceca4256f88ef548de50565",
+    "appSyncedRevision": "e3ea699061ea5c4265d2bc8b90f324432de017af",
+    "publicDataPreparedRevision": "f034e5e5c05f7757e23bbf75adbc5f020d83e8ed",
+    "fixedBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+    "startingQualifyingUniqueIds": 76,
+    "endingQualifyingUniqueIds": 80,
+    "netQualifiers": 4,
+    "remainingToGoal": 20,
+    "providerRecordsBefore": 103,
+    "providerRecordsAfter": 107,
+    "independentPortraitDeliveriesBefore": 90,
+    "independentPortraitDeliveriesAfter": 94,
+    "qualifiedProfiles": [
+      {
+        "id": "50a8f698-2778-46d0-9cce-f4cd68b0db1e",
+        "name": "Holly S. Andersen",
+        "canonicalPath": "/hollyandersen",
+        "directory": "manhattan-cardiology",
+        "result": "qualified",
+        "narrativeHeading": "Taking heart education into the community",
+        "portraitPath": "/images/providers/hollyandersen-source-preview.jpg",
+        "reviewStatus": "pending-human-review",
+        "indexable": false,
+        "sourceVerification": "source-stated",
+        "licenseLookupStatus": "pending",
+        "clinicalVerification": false
+      },
+      {
+        "id": "588db3f8-5807-4e36-993b-3a6baa951081",
+        "name": "Allison Dobry",
+        "canonicalPath": "/allisondobry",
+        "directory": "san-francisco-dermatologists",
+        "result": "qualified",
+        "narrativeHeading": "Teaching, music and making things",
+        "portraitPath": "/images/providers/allisondobry-source-preview.jpg",
+        "reviewStatus": "pending-human-review",
+        "indexable": false,
+        "sourceVerification": "source-stated",
+        "licenseLookupStatus": "pending",
+        "clinicalVerification": false
+      },
+      {
+        "id": "ea22c556-2993-4c55-8a5b-023db4ec6381",
+        "name": "Amanda Twigg",
+        "canonicalPath": "/amandatwigg",
+        "directory": "san-francisco-dermatologists",
+        "result": "qualified",
+        "narrativeHeading": "Access to care and time outdoors",
+        "portraitPath": "/images/providers/amandatwigg-source-preview.jpg",
+        "reviewStatus": "pending-human-review",
+        "indexable": false,
+        "sourceVerification": "source-stated",
+        "licenseLookupStatus": "pending",
+        "clinicalVerification": false
+      },
+      {
+        "id": "5bb86280-2ede-4956-8534-e0be3302a194",
+        "name": "Rony A. François",
+        "canonicalPath": "/ronyfrancois",
+        "directory": "san-francisco-dermatologists",
+        "result": "qualified",
+        "narrativeHeading": "Music, curiosity and life outside work",
+        "portraitPath": "/images/providers/ronyfrancois-source-preview.jpg",
+        "reviewStatus": "pending-human-review",
+        "indexable": false,
+        "sourceVerification": "source-stated",
+        "licenseLookupStatus": "pending",
+        "clinicalVerification": false
+      }
+    ],
+    "excludedNorth": "Jeffrey P. North remains research-only because current evidence does not establish a direct patient-appointment clinic.",
+    "checks": {
+      "validateData": "passed; all-record, independent portrait inventory and fixed-baseline checks passed; 80 qualifying IDs",
+      "typeCheck": "passed",
+      "productionBuild": "passed with existing Browserslist/PostCSS/chunk-size warnings",
+      "contract": "81/81 passed",
+      "httpApi": "109/109 passed",
+      "pilot": "93/93 passed",
+      "targetedBrowser": "2 passed; desktop and touch-capable mobile, complete readable stories/citations/access notes, local image decode and no initial third-party requests/cookies",
+      "completeTestAll": "completed with exit code 0; Playwright last-run status passed and failedTests was empty; exact aggregate count not retained",
+      "visualReview": "full desktop Allison Dobry profile screenshot confirmed immediate portrait, source attribution, readable story, dated location conflict and review disclosure"
+    },
+    "clinicalOrLicenseVerification": false,
+    "humanReviewCompleted": false,
+    "reuseTerms": "Unknown; local previews are not ownership, blanket-license or derivative-card approval.",
     "deployment": false
   }
 }
