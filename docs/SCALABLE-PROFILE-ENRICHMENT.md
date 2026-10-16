@@ -327,3 +327,53 @@ The batch passed all-record/fixed-baseline checks, type/build, contract 81/81, H
 One existing profile, Kevin Sands, added a qualifying source-backed narrative; the profile already had an approved local portrait. The unique-ID intersection moved 80 → 81, but the independent portrait inventory remained 94. Do not treat an existing portrait as a new media approval or count a profile from its image alone. Preserve the source-specific narrative citations separately from the access facts; the current contact page supports location, phone and hours, not appointment capacity, fees, referral requirements or exact insurance participation. Keep source retrieval date distinct from any independent verification date, and omit the latter when none exists.
 
 For this batch, the all-record and fixed-baseline checks passed; contract/API checks passed 81/81 and 109/109; affected browser tests passed on desktop and touch-mobile, including a real citation tap and the zero-third-party-request/cookie-before-activation check. The focused remote-image test uses intercepted bytes if an external image is requested; that is simulated UI evidence only. This was a one-profile functional integrity check, not a full browser run or a performance trial at thousands of records. Clinical/license review, human approval, screen-reader/physical-Safari audit and image derivative rights remain separate.
+
+## Multi-tool contribution path after the 83-profile trial — October 15, 2026
+
+### Patient outcome and evidence status
+The target is broad, useful local healthcare choice: specialty and role, actual service geography, how to seek care, affordability/coverage limitations, language and accessibility information where documented, plus an accurate depiction of the person. Popularity and a polished story are not clinical quality. The 100-humanity-profile milestone tests one enrichment outcome; it must not prevent a useful basic listing with a disclosed portrait/story gap.
+
+The [long-run retrospective](research/humanity-long-run-retrospective-80-to-83-2026-10-15.md) records the path to 83, including productive persistence, repeated low-yield searches and integration errors. The recommendations below describe the next contract improvements to assess; they are **not a claim that a universal importer or all these validations are already implemented**.
+
+### One documented contribution interface
+Build on DATA-CONTRIBUTION-CONTRACT.md, existing sharded bundles/templates and app preservation controls. Gemini, Copilot, other research tools and human contributors should receive the same small versioned input contract and worked valid example. They should not need to read application internals or invent another packet shape for each batch.
+
+Keep the stage explicit:
+- **Discovery/research candidate:** may contain snippets, unknowns or proposed claims; cannot be treated as a ready app record.
+- **Validated contribution:** normalized supported claims, identity/membership association and media disposition, with a validated schema version; ready for a scoped import assessment.
+- **Applied result:** stable IDs, exact accepted/rejected/deferred changes, candidate/base revision, resulting content and delivery observations, actual checks and resulting app/data revisions.
+
+A prose research packet is useful but is not automatically the validated contribution format. A thin deterministic adapter/validator should bridge authoring to app fields where needed; avoid hand-translating the same null/omitted values, source-ID mappings and accepted-cohort additions every time.
+
+### Minimum portable information
+| Area | Required meaning | Do not infer |
+| --- | --- | --- |
+| Identity | Existing stable ID/import key when known; source-stated name and supported variants; profession and identity evidence | New ID or route solely because spelling differs; credentials from a matching surname |
+| Directory fit | Specific locality/service mode and source-supported scope; admission decision separate from biography quality | A laboratory or mailing address is a patient office; telehealth means a local office |
+| Claims | Value/text, provider/location/service scope, source IDs, observation date, retrieval method and status | Source-stated equals independently verified; one supported story verifies every retained credential |
+| Patient access | Intake path and sourced location, fees, plan/payment, referral, language and accessibility observations when available; explicit unknowns/conflicts | Insurance-company name equals exact member coverage; an appointment button equals available capacity; interpreters equal clinician fluency |
+| Humanity | Original concise narrative and claim mapping for voluntarily published journey, interest, mentoring/community work or distinctive approach | Warmth, outcomes, personality or hobbies without source support |
+| Media | Named source-page association, exact asset, decoded type/dimensions/hash, visual-inspection result, source/local rendition provenance and disposition | HTTP 200 proves identity or image bytes; public visibility proves ownership; ordinary preview approves composites |
+| Proposed changes | Additive change scope, base revision and deliberate correction/removal reasons | Missing fields request deletion; fresh sources silently replace older conflicts |
+| Result receipt | Accepted/deferred/rejected items with reasons, exact stable IDs/revisions and actual validation scope | Passing storage checks establishes browser delivery or deployed production |
+
+Keep historical evidence and selected public corrections useful and accessible. The full research journey, failed searches, prompts and attribution investigations remain separate from profile prose.
+
+### Validation before expensive integration
+Use the existing checks and add only missing narrow coverage:
+1. Reject invalid syntax and duplicate JSON keys before ordinary parsing discards information; validate schema/version and references.
+2. Identify duplicate candidates and route collisions; preserve existing IDs, canonical paths, aliases and directory controls.
+3. Check claim-to-source associations, typed dates and missing-versus-null semantics. Missing independent verification dates remain absent.
+4. Confirm explicit proposed media paths are actually served, decoded bytes match recorded inspection, and the approved-delivery inventory changes deliberately.
+5. Reconcile accepted humanity IDs and test selection before browser execution. Preserve the independent historical baseline.
+6. Show a scoped proposed-change diff with protected fields and removals before applying, then verify storage, API projection and actual patient-visible delivery separately.
+7. Return a machine-readable result receipt and actionable errors naming the affected item. Repeated processing of the same contribution must not duplicate people, sources, portrait approvals or count gains.
+
+An uncertain or stale source should defer the affected claim, not erase otherwise supported content. Unresolved identity/regulatory holds remain independent; no generic validator fact-checks medical claims. Keep a documented path for deliberate reviewed changes without introducing a new permission prompt for routine authorized additions.
+
+### Measure whether adding choices is getting easier
+Track separate denominators: proposed identities, imported identities, new qualifiers, useful access-only changes, retained-photo reuse, held candidates and genuine regressions. Record phase elapsed time, integration retries, repeated queries, newly useful source yield and local image bytes. Do not use Replit's action counter or a free-tier UI label as cost/throughput measurements.
+
+At growing catalog sizes measure representative cold-cache response/render behavior, build/index time, asset budget, stale-evidence backlog and duplicate rate separately from correctness. Shard full sweeps and run ordinary data checks on affected records while preserving cheap all-record integrity controls. The 83-profile trial supplies functional lessons, not demonstrated performance at thousands.
+
+The next practical increment is one validated end-to-end contribution using the existing workflow with a clear result receipt—not a new database, paid service, wholesale schema migration or unrestricted automatic publication. Broaden local specialty/access coverage according to patient needs and source availability rather than selecting only famous clinicians or the easiest stories to reach a quota. Deployment and indexing decisions remain separate.
