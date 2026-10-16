@@ -377,3 +377,17 @@ Track separate denominators: proposed identities, imported identities, new quali
 At growing catalog sizes measure representative cold-cache response/render behavior, build/index time, asset budget, stale-evidence backlog and duplicate rate separately from correctness. Shard full sweeps and run ordinary data checks on affected records while preserving cheap all-record integrity controls. The 83-profile trial supplies functional lessons, not demonstrated performance at thousands.
 
 The next practical increment is one validated end-to-end contribution using the existing workflow with a clear result receipt—not a new database, paid service, wholesale schema migration or unrestricted automatic publication. Broaden local specialty/access coverage according to patient needs and source availability rather than selecting only famous clinicians or the easiest stories to reach a quota. Deployment and indexing decisions remain separate.
+
+### Implemented artifact checks — October 16, 2026
+
+The existing contribution workflow now has a small deterministic validation path:
+
+- Bundle validation rejects duplicate JSON object keys before ordinary parsing can discard an earlier value.
+- `validate-profile-artifacts.mjs` applies the same strict parser to profile-ready JSON and recognizes research candidates, validated contributions and applied-result receipts as distinct stages. Research candidates are explicitly non-importable.
+- Validated contributions require stable item IDs, accepted/deferred/rejected dispositions, actionable reasons, a base app revision and scoped proposed changes.
+- Applied results require exact app base/result revisions, nonempty applied changes for accepted items, named checks and scopes, and separate integer before/after counts for unique qualifying provider IDs, provider records and approved local portrait deliveries. Per-item deltas must reconcile with each count dimension; qualification cannot exceed either records or approved portrait deliveries.
+- `npm run test:artifacts` covers duplicate keys (including escaped-equivalent names), stage separation, actionable deferrals and mismatched count dimensions. `npm run validate-data` scans existing clean profile-ready JSON for duplicates and validates any versioned staged artifacts.
+
+The implementation does not automatically import profile-ready content, independently assess clinical facts, approve imagery, or prove browser/API delivery. The app retains its separate preservation, API, local-media and patient-visible checks. This closes the observed duplicate-key/count-overwrite gap without replacing the sharded bundle schema or creating a second provider registry.
+
+The new Hsu item is a source-prepared, validated contribution only; its app result receipt is recorded separately after checks. It records the existing portrait as retained, not newly approved. The source's undated teaching-list evidence supports a limited education connection, not current teaching duties, clinical credentials or license verification.

@@ -1,0 +1,47 @@
+{
+  "kind": "validated-profile-contribution",
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-16",
+  "purpose": "Scoped existing-profile story contribution; validation is not app delivery, clinical verification, human review, or a change to publication/indexing state.",
+  "baseAppRevision": "0bb7522b3e0fa2689868d45d81964de446c222c2",
+  "researchCandidateRevision": "4b6b73e50fc9a1c0aa67b897b25593aabefb60ed",
+  "items": [
+    {
+      "id": "6dbd15b7-b965-4a14-878c-19ef55a932d0",
+      "name": "Lawrence P. Hsu",
+      "disposition": "accepted",
+      "reason": "The named RUHS-hosted Kaiser Riverside curriculum lists Dr. Lawrence Hsu among supervising faculty for a sports-medicine residency rotation, matching the existing record's Kaiser Riverside orthopedics context. This supports only a narrow source-stated teaching connection; no contradictory identity evidence was found in the reviewed record.",
+      "proposedChanges": [
+        {
+          "path": "sources",
+          "reason": "Add the exact institutional curriculum URL and preserve its October 15 retrieval date and source-stated status."
+        },
+        {
+          "path": "profileSections[humanity-teaching-connection-hsu-2026-10-16]",
+          "reason": "Show the bounded education connection and state that the document is undated and does not establish current duties."
+        },
+        {
+          "path": "claimEvidence",
+          "reason": "Map the named faculty listing and two-month rotation context to the curriculum, without turning program goals into Hsu's personal philosophy."
+        }
+      ],
+      "deferredClaims": [
+        {
+          "field": "current teaching role",
+          "reason": "The curriculum has no established publication date and does not establish whether the role continues."
+        },
+        {
+          "field": "clinical credentials, license, and appointment access",
+          "reason": "Teaching-list evidence does not verify clinical credentials, current license, capacity, insurance, fees, or referral requirements."
+        }
+      ],
+      "portraitDisposition": "Retain the already inventoried 210×199 local source-linked preview; no new portrait approval or image search.",
+      "preserved": [
+        "stable ID and canonical path",
+        "directory membership and aliases",
+        "existing facts, sources, dates, and access uncertainty",
+        "review, claim, index, and clinical states"
+      ]
+    }
+  ]
+}

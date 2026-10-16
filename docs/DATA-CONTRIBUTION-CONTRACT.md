@@ -165,3 +165,13 @@ records do not block eligible records or unrelated site-building work.
 ## Scalable enrichment
 
 Follow [Scalable profile enrichment](SCALABLE-PROFILE-ENRICHMENT.md). Use separate profile-ready records as default import input, preserve claim-level corrections and scoped verification, and keep full research journeys outside profile prose. Build incrementally on existing sharded bundles, identities and checks.
+
+## Contribution stages and result receipts (schema version 1)
+
+Use the following `kind` values to distinguish work that is not interchangeable:
+
+- `source-prepared-research-candidate`: research handoff only; never a direct import.
+- `validated-profile-contribution`: a scoped, source-mapped proposal with `schemaVersion`, `baseAppRevision`, stable IDs, an accepted/deferred/rejected `disposition` and a reason for each item. Accepted items list `proposedChanges`; deferred items name the missing evidence or next action.
+- `applied-profile-result`: a receipt after app changes are checked. It lists accepted/deferred/rejected outcomes, `baseAppRevision` and `resultingAppRevision`, applied changes, actual checks/scopes, and separate before/after dimensions for unique qualifying provider IDs, provider records, and approved local portrait deliveries.
+
+Run `npm run validate-data` before handoff. It rejects duplicate JSON object keys before parsing and checks staged artifacts under `docs/profile-ready/`; pass one artifact path to `node scripts/validate-profile-artifacts.mjs <path>` for a focused check. The validator does not fact-check sources or grant media rights. A research candidate remains non-importable until a validated contribution is produced; a passing contribution is not proof of application or patient-visible delivery.

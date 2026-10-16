@@ -319,3 +319,11 @@ This is not clinical verification, human review, rights clearance, a scale/load 
 ## Prepared next candidates after 76 — October 15, 2026
 
 Four source-prepared candidates are under current identity, URL and directory-fit reconciliation after the checked 76/100 point: Holly S. Andersen, Allison Dobry, Amanda Twigg and Rony A. François. Their clean contribution packet and deeper import review are linked separately. This is not a count increase; pending review/indexing/license states remain unchanged. The current app revision is 6eb3f0650c41c265702499b4fb61b01100b4db29.
+
+## Current checked continuation 83 → 84 — October 16, 2026
+
+**Current qualifying intersection: 84 of 100 unique provider IDs; 16 remain.** The preceding 76 entry is historical, not current. The app experiment report records the checked 83 checkpoint and work through October 15; the app's fixed-baseline verification now confirms the 83→84 net gain. App base `0bb7522b3e0fa2689868d45d81964de446c222c2`; checked app result `0079ec437088540fbbf5ef7b5b689ae5f6a9934b`. The dataset remains at 108 provider records and 95 approved local portrait deliveries.
+
+Lawrence P. Hsu is the only new qualifying ID. His undated RUHS-hosted Kaiser Riverside residency curriculum supports a narrowly attributed resident-education connection; it does not establish a current teaching role, clinical/license status, access or outcomes. His existing 210×199 local source-linked preview was retained, not newly approved. All prior sources, dates, IDs, routes, directory membership, review/indexing and clinical holds remain unchanged.
+
+The clean [validated contribution](humanity-validated-contribution-hsu-2026-10-16.json) was distinct from the [applied result receipt](humanity-applied-hsu-83-to-84-2026-10-16.json); detailed retrieval and identity limits are in the separate [research note](../research/humanity-hsu-teaching-evidence-2026-10-16.md). The app report records the duplicate-key defect, validator changes, exact checks and their limits. Validation included 124 entity records, fixed baseline, 83 contract tests, targeted Hsu desktop/touch-mobile/tap tests 3/3, and public artifact/refresh tests. This is functional evidence, not a thousands-profile load test, clinical verification, rights clearance, screen-reader audit or human review. No deployment.

@@ -1,0 +1,106 @@
+{
+  "kind": "applied-profile-result",
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-16",
+  "baseAppRevision": "0bb7522b3e0fa2689868d45d81964de446c222c2",
+  "resultingAppRevision": "0079ec437088540fbbf5ef7b5b689ae5f6a9934b",
+  "baseDataRevision": "4b6b73e50fc9a1c0aa67b897b25593aabefb60ed",
+  "items": [
+    {
+      "id": "6dbd15b7-b965-4a14-878c-19ef55a932d0",
+      "name": "Lawrence P. Hsu",
+      "disposition": "accepted",
+      "reason": "The limited resident-education connection is source-mapped, visible in the API and patient page, and separately qualified by the fixed-baseline humanity assessment. Clinical, license, current-role, access, reuse-rights and human-review conclusions were not inferred.",
+      "appliedChanges": [
+        {
+          "path": "sources, sourceIds, claimEvidence, and profileSections",
+          "reason": "Added the dated retrieval record and complete source-stated teaching section with two claim-level mappings; stated the curriculum's date and role limitations."
+        },
+        {
+          "path": "data/profile-humanity-assessments.json",
+          "reason": "Added the full narrative block and its matching source ID to the deliberate accepted assessment."
+        },
+        {
+          "path": "data/editorial-refresh.json",
+          "reason": "Listed only Hsu as source-backed and narrative-only in the presentation-only Riverside cohort; left the six older research-gap members outside this source refresh."
+        }
+      ],
+      "deltas": {
+        "qualifyingUniqueProviderIds": 1,
+        "providerRecords": 0,
+        "approvedLocalPortraitDeliveries": 0
+      },
+      "portraitDisposition": "Retained existing 210×199 local source-linked preview; no newly approved delivery.",
+      "preserved": [
+        "stable ID, canonical path, aliases, and Riverside directory membership",
+        "existing portrait source and local asset",
+        "all prior sources, observations and dates",
+        "stored clinical facts and source-stated limits",
+        "review, claim, index, and hold states"
+      ]
+    }
+  ],
+  "counts": {
+    "qualifyingUniqueProviderIds": {
+      "before": 83,
+      "after": 84
+    },
+    "providerRecords": {
+      "before": 108,
+      "after": 108
+    },
+    "approvedLocalPortraitDeliveries": {
+      "before": 95,
+      "after": 95
+    }
+  },
+  "checks": [
+    {
+      "name": "npm run validate-data",
+      "result": "passed",
+      "scope": "124 app entity records; 95 independent portrait deliveries; fixed accepted-ID baseline; 84/108 unique-provider humanity audit."
+    },
+    {
+      "name": "profile import preservation guard",
+      "result": "passed",
+      "scope": "One changed provider and one changed directory against app base 0bb7522b3e0fa2689868d45d81964de446c222c2."
+    },
+    {
+      "name": "npm run check",
+      "result": "passed",
+      "scope": "Application TypeScript check."
+    },
+    {
+      "name": "npm run test:contract",
+      "result": "passed",
+      "scope": "83/83 contract, data integrity, API projection, citation, route, preservation, and strict-JSON tests."
+    },
+    {
+      "name": "Hsu patient-ready browser test",
+      "result": "passed",
+      "scope": "3/3 targeted Chromium tests: desktop, touch-mobile, and actual source-link tap; complete story/citation and immediate local portrait; no third-party request/cookie before activation."
+    },
+    {
+      "name": "public data repository npm test and validate-data",
+      "result": "passed",
+      "scope": "Eight profile-refresh cases; strict duplicate-key/stage/reason/count-dimension unit cases; five bundles and 40 profile-ready JSON files."
+    }
+  ],
+  "observedDurations": [
+    {
+      "phase": "Hsu desktop browser check",
+      "milliseconds": 1798,
+      "note": "Shared test context; not cold-cache performance."
+    },
+    {
+      "phase": "Hsu touch-mobile browser check",
+      "milliseconds": 998,
+      "note": "Shared test context; not device-level or load performance."
+    }
+  ],
+  "resolvedTestSetupObservation": "The first HUMANITY_IDS-scoped run found that the source-activation test's explicit target list omitted Hsu. The test now includes Hsu and passed 3/3 without removing or weakening its assertions.",
+  "limits": [
+    "Functional validation only; no thousands-profile, concurrency, or cold-cache performance claim.",
+    "No independent clinical/license verification, human review, rights determination, screen-reader audit, indexing/review promotion, or deployment."
+  ]
+}

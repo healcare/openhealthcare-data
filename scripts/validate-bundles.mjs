@@ -3,6 +3,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import process from "node:process";
+import { parseJsonNoDuplicateKeys } from "./strict-json.mjs";
 
 const ROOT = process.cwd();
 const DATA_ROOT = path.join(ROOT, "data", "directories");
@@ -276,7 +277,7 @@ function validateProvider(file, provider, index, context) {
 function validateBundle(file) {
   let bundle;
   try {
-    bundle = JSON.parse(fs.readFileSync(file, "utf8"));
+      bundle = parseJsonNoDuplicateKeys(fs.readFileSync(file, "utf8"), file);
   } catch (error) {
     fail(file, `invalid JSON: ${error.message}`);
     return;

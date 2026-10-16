@@ -5,8 +5,10 @@
   "description": "Source-linked research bundles for OpenHealthcare.org",
   "type": "module",
   "scripts": {
-    "validate-data": "node scripts/validate-bundles.mjs",
-    "test:refresh": "node scripts/test-profile-refresh.mjs"
+    "validate-data": "node scripts/validate-bundles.mjs && node scripts/validate-profile-artifacts.mjs",
+    "test:refresh": "node scripts/test-profile-refresh.mjs",
+    "test:artifacts": "node scripts/test-profile-artifacts.mjs",
+    "test": "npm run test:refresh && npm run test:artifacts"
   },
   "engines": {
     "node": ">=20"
