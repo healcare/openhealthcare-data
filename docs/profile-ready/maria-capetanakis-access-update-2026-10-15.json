@@ -1,0 +1,75 @@
+{
+  "documentType": "source-supported patient access update",
+  "date": "2026-10-15",
+  "provider": {
+    "id": "82d2a63a-16a9-4b49-a549-3e0c680da73e",
+    "name": "Maria Capetanakis, DO",
+    "canonicalPath": "/maria-capetanakis-do",
+    "directorySlug": "la-jolla-pediatricians"
+  },
+  "humanityMilestone": {
+    "checkedBefore": 82,
+    "checkedAfter": 82,
+    "netGain": 0,
+    "qualifies": false,
+    "reason": "The checked named biographies supply training and language details, but no distinctive source-backed personal journey, interest, mentoring/community connection, or work approach."
+  },
+  "patientFacingUpdate": {
+    "sectionId": "milestone-access-2026-10-14",
+    "heading": "Before arranging care",
+    "text": "The named CPCMG biography lists Regents in La Jolla. As retrieved October 15, 2026, Scripps Health's named profile for Maria Capetanakis displays “Accepts new patients” and lists the same Regents address and office phone as CPCMG. This publisher statement does not confirm an available appointment or individual capacity. Accepted insurance, out-of-pocket prices and referral requirements are not stated; confirm these with CPCMG before arranging care.",
+    "sourceIds": [
+      "maria-capetanakis-profile",
+      "maria-capetanakis-scripps-profile-2026-10-15"
+    ]
+  },
+  "sources": [
+    {
+      "id": "maria-capetanakis-scripps-profile-2026-10-15",
+      "label": "Maria Capetanakis, DO — Scripps Health",
+      "url": "https://www.scripps.org/physicians/45592-maria-capetanakis",
+      "retrievedDate": "2026-10-15",
+      "verificationStatus": "source-stated",
+      "observation": "Displays “Accepts new patients” and lists the same Regents address and office phone as CPCMG; no individual appointment slot or capacity is established."
+    },
+    {
+      "id": "maria-capetanakis-profile",
+      "label": "Children's Primary Care Medical Group — Maria Capetanakis",
+      "url": "https://www.cpcmg.net/cpcmg_doctor/maria-capetanakis-do/",
+      "retrievedDate": "2026-08-18",
+      "verificationStatus": "source-stated",
+      "observation": "Existing named biography and Regents practice source; original retrieval date retained."
+    }
+  ],
+  "portraitDisposition": {
+    "status": "existing local source-linked preview retained",
+    "newImageSearch": false,
+    "newDelivery": false,
+    "newApproval": false,
+    "sourcePage": "https://www.cpcmg.net/cpcmg_doctor/maria-capetanakis-do/",
+    "exactSourceAsset": "https://www.cpcmg.net/wp-content/uploads/2025/02/Capetanakis-Maria-DO-scaled-e1739212476714.jpg",
+    "sourceDimensions": "688 × 960 px",
+    "localPath": "/images/providers/maria-capetanakis-do-official-preview.webp",
+    "localDimensions": "301 × 420 px",
+    "previouslyInspectedOn": "2026-10-13",
+    "reuseTerms": "not stated; no ownership, blanket-license, or derivative-card approval is implied",
+    "note": "Scripps's generic SVG portrait placeholder was not treated as an identity-matched photo. No image data or independent approved-delivery inventory entry changed."
+  },
+  "preservedState": [
+    "Stable provider ID, canonical path, aliases, directory membership, existing CPCMG citations, older retrieval dates, local portrait and source history unchanged.",
+    "Existing nonindexable and awaiting-human-review state retained; no clinical/license verification or review/indexing promotion."
+  ],
+  "verification": {
+    "appRevision": "54a03eb33f62b94c9085f65ebcccbb4b8ed4afba",
+    "checks": [
+      "npm run validate-data passed: 108 providers, 13 directories, 95 local portrait deliveries, 82 qualifying IDs, fixed-baseline preservation passed.",
+      "npm run test:http passed 110/110.",
+      "npm run test:contract passed 81/81.",
+      "npm run check and git diff --check passed.",
+      "Focused Playwright access test passed 2/2 on desktop and touch-mobile; the local portrait decoded immediately; no external request or cookie before explicit activation; actual click/tap opened the cited Scripps URL without opening adjacent disclosures.",
+      "Desktop and mobile full-page screenshots reviewed."
+    ],
+    "limits": "No full browser suite, real-device Safari, screen-reader audit, independent clinical/license verification, rights clearance, or deployment is claimed."
+  },
+  "detailedResearch": "../research/humanity-maria-capetanakis-story-gap-2026-10-15.md"
+}
