@@ -1,0 +1,135 @@
+{
+  "preparedOn": "2026-10-17",
+  "status": "source-prepared-before-import",
+  "batch": "95-to-96-candidate-review",
+  "startingQualifiedUniqueProviderIds": 95,
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "appPreImportRevision": "7ecc2d117bee558e99a27f24b8d4279b70feaf3e",
+  "publicDataPreImportRevision": "f717ca908f79787287d80f8bdeed084068e302e8",
+  "queueReconciliation": "The checked app cohort is 95/100 unique provider IDs, with 114 provider records, 106 independent local portrait deliveries, and 21 San Francisco dermatology directory members. No Roberto R. Ricardo Gonzalez provider record, canonical path, accepted-ID entry, or contribution packet was found. His named UCSF Health profile lists Dermatology Mount Zion in San Francisco with appointment/referral routes and a directly associated portrait, within the existing directory scope. This preparation does not change existing holds or verify clinical claims, license status, capacity, insurance, or image reuse rights.",
+  "directory": {
+    "slug": "san-francisco-dermatologists",
+    "title": "UCSF/ZSFG-Affiliated Dermatologists in San Francisco",
+    "fit": "UCSF Health's named profile lists Dermatology Mount Zion at 1701 Divisadero Street, San Francisco, CA 94115, with a phone number, telehealth, and request-appointment/referral routes."
+  },
+  "provider": {
+    "id": "0e6d42ad-1b52-40bb-a666-ba28659ff22f",
+    "name": "Roberto R. Ricardo Gonzalez",
+    "nameParts": {
+      "display": "Roberto R. Ricardo Gonzalez, MD, PhD",
+      "given": "Roberto",
+      "middle": "R.",
+      "family": "Ricardo Gonzalez",
+      "suffix": "MD, PhD",
+      "preferredPath": "robertoricardogonzalez",
+      "sourceIds": [
+        "roberto-ricardo-gonzalez-ucsf-health-2026-10-17"
+      ]
+    },
+    "title": "MD, PhD",
+    "specialty": "Dermatology",
+    "canonicalPath": "robertoricardogonzalez",
+    "aliases": [],
+    "pathCheck": {
+      "recommended": "robertoricardogonzalez",
+      "alternatives": [
+        "robertoricardogonzalez",
+        "robertorricardogonzalez",
+        "ricardogonzalez"
+      ],
+      "result": "The project path-suggestion and validation helpers select robertoricardogonzalez as the first available source-supported name-based path. No same-name provider or path collision was found among the current records."
+    },
+    "identityCheck": "UCSF Health's page heading and portrait alt use Roberto R. Ricardo Gonzalez; its About text hyphenates the surname as Ricardo-Gonzalez and its route uses roberto-ricardo-gonzalez. These are orthographic variants on the same named page and linked portrait, not evidence of a second identity. Use the visible page-heading form; retain the variation in research notes."
+  },
+  "source": {
+    "id": "roberto-ricardo-gonzalez-ucsf-health-2026-10-17",
+    "url": "https://www.ucsfhealth.org/providers/roberto-ricardo-gonzalez",
+    "title": "Roberto R. Ricardo Gonzalez, MD, PhD — Dermatology",
+    "publisher": "UCSF Health",
+    "retrievedDate": "2026-10-17",
+    "sourceType": "official-provider-profile",
+    "retrievalMethod": "web retrieval and ordinary direct HTTPS GET",
+    "httpStatus": 200,
+    "pageSetCookieHeaders": 2,
+    "claimScope": "The named page supports the displayed name/title, source-listed Dermatology specialty, exact fun-facts wording, the Mount Zion location, phone, telehealth, appointment/referral routes, and the portrait it labels as Roberto R. Ricardo Gonzalez. It does not establish appointment capacity, new-patient eligibility, plan-specific participation, fees, referral necessity, language/interpreter support, independent clinical or license verification, or media reuse rights."
+  },
+  "narrative": {
+    "sectionId": "humanity-personal-interests-ricardo-gonzalez-2026-10-17",
+    "heading": "Personal interests",
+    "text": "UCSF Health's named profile lists Roberto R. Ricardo Gonzalez as an amateur cook and wine aficionado in its Fun facts field. The source does not connect these interests to clinical care or patient outcomes.",
+    "claimMap": [
+      {
+        "claim": "The UCSF Health Fun facts field lists Roberto R. Ricardo Gonzalez as an amateur cook and wine aficionado.",
+        "sourceId": "roberto-ricardo-gonzalez-ucsf-health-2026-10-17",
+        "excerpt": "Fun facts: Immunologist, amateur cook and wine aficionado."
+      }
+    ],
+    "sources": [
+      {
+        "id": "roberto-ricardo-gonzalez-ucsf-health-2026-10-17",
+        "url": "https://www.ucsfhealth.org/providers/roberto-ricardo-gonzalez",
+        "title": "Roberto R. Ricardo Gonzalez, MD, PhD — Dermatology",
+        "publisher": "UCSF Health",
+        "retrievedDate": "2026-10-17"
+      }
+    ],
+    "assessment": "Qualifies as specific source-stated personal interests, not as clinical evidence, a patient outcome, or independent credential verification."
+  },
+  "access": {
+    "sectionId": "patient-access-ricardo-gonzalez-2026-10-17",
+    "location": "Dermatology Mount Zion, 1701 Divisadero Street, San Francisco, CA 94115",
+    "phone": "+1-415-353-7800",
+    "sourceListed": [
+      "Telehealth visits",
+      "Request-appointment route",
+      "Refer-a-patient route",
+      "General insurance-plan information"
+    ],
+    "unknowns": [
+      "Current appointment capacity and openings",
+      "New-patient eligibility",
+      "Plan-specific insurance participation",
+      "Fees",
+      "Whether referral is required",
+      "Language and interpreter options"
+    ],
+    "sourceIds": [
+      "roberto-ricardo-gonzalez-ucsf-health-2026-10-17"
+    ]
+  },
+  "portrait": {
+    "sourcePage": "https://www.ucsfhealth.org/providers/roberto-ricardo-gonzalez",
+    "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/ricardogonzalez-roberto-1487949533-bbe3f81a4ddac1545928b4c3c8c6251e.jpg",
+    "sourceHttpStatus": 200,
+    "sourceFormat": "JPEG",
+    "sourceDimensions": "640x640",
+    "sourceBytes": 263559,
+    "sourceLastModified": "2025-12-04T00:47:42Z",
+    "sourceSetCookie": false,
+    "sourceSha256": "25010709864317cc88f4df748fa90dbc1430ba473406126b5f26168d242da128",
+    "visualReview": "Exact image bytes decoded and visually inspected. The page labels it as Roberto R. Ricardo Gonzalez; a single individual is shown with a clear full face and proportional head-and-shoulders framing.",
+    "localDelivery": {
+      "path": "client/public/images/providers/roberto-ricardo-gonzalez-source-preview.webp",
+      "format": "WebP",
+      "width": 360,
+      "height": 360,
+      "bytes": 14384,
+      "sha256": "5f78add877e836de767d777039b938fd21d1a4e154429a1001a64da9c53bc85e",
+      "transformation": "Proportional resize to 360x360; no crop or enlargement.",
+      "intendedUsage": "Immediate modest local source-linked portrait preview; not a derivative-card or structured-data image clearance."
+    },
+    "reuseTerms": "Unknown; no ownership or blanket permission claim."
+  },
+  "controls": {
+    "clinicalClaims": "Source-stated only; no independent verification.",
+    "licenseLookup": "Pending.",
+    "reviewStatus": "Pending human review.",
+    "indexable": false,
+    "claimStatus": "Unclaimed.",
+    "directoryMembershipChanged": "Prepared for the existing San Francisco dermatology directory only.",
+    "identityOrRegulatoryHoldCleared": false,
+    "reviewOrIndexingPromoted": false,
+    "credentialOrLicensePromoted": false,
+    "deployment": false
+  }
+}

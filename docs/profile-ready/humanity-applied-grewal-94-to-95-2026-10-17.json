@@ -1,0 +1,68 @@
+{
+  "checkedOn": "2026-10-17",
+  "batch": "94-to-95",
+  "candidatePacket": "humanity-candidate-sungat-grewal-2026-10-17.json",
+  "researchNote": "humanity-candidate-review-sungat-grewal-2026-10-17.md",
+  "appRepository": "healcare/openhealthcare",
+  "appBaseRevision": "416225a534d6791d676029d95f346620728b8165",
+  "appResultRevision": "7ecc2d117bee558e99a27f24b8d4279b70feaf3e",
+  "appTree": "43e37ee6cc972436fb48d6adfce8de34a3f6901e",
+  "publicDataPreparationRevision": "f717ca908f79787287d80f8bdeed084068e302e8",
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "startingQualifiedUniqueProviderIds": 94,
+  "endingQualifiedUniqueProviderIds": 95,
+  "netNewUniqueProviderIds": 1,
+  "totalsAfter": {
+    "providerRecords": 114,
+    "independentLocalPortraitDeliveries": 106,
+    "sanFranciscoDermatologyDirectoryMembers": 21
+  },
+  "added": [
+    {
+      "id": "9af22164-01bc-45c8-92a4-01093bdc2fdc",
+      "name": "Sungat K. Grewal",
+      "canonicalPath": "sungatgrewal",
+      "directory": "san-francisco-dermatologists",
+      "story": "The named UCSF Health profile says that outside work she is an international marathoner and avid hiker. The source does not connect those interests to clinical work or patient outcomes.",
+      "source": "https://www.ucsfhealth.org/providers/sungat-grewal",
+      "portrait": {
+        "sourcePage": "https://www.ucsfhealth.org/providers/sungat-grewal",
+        "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/dr-sungat-grewal-md-320x320-2x-814a93d63f533431c7c227605ed5eb0d.jpg",
+        "sourceDimensions": "640x640",
+        "sourceBytes": 273359,
+        "sourceSha256": "4b07fb3907ae9454b08a1d048a968ca7b4e7d631f8237f271b0ed79e6a335cd3",
+        "localPath": "/images/providers/sungat-grewal-source-preview.webp",
+        "localDimensions": "360x360",
+        "localBytes": 9674,
+        "localSha256": "28421e2f4d8ae8e723c7b0f448baa94aeaa4a4fd2427d4e55494e655416b48e6",
+        "visualReview": "Exact named asset decoded and visually inspected: single person, clear full face; proportional local preview, no crop or enlargement.",
+        "reuseTerms": "Unknown; no ownership, derivative-card or structured-data image approval implied."
+      },
+      "access": "The named source lists a Mission Bay location, phone, telehealth, and appointment/referral routes. Current openings, new-patient eligibility, plan-specific coverage, fees, referral necessity and language support remain unknown.",
+      "controlsAfter": {
+        "claimStatus": "unclaimed",
+        "indexable": false,
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending",
+        "clinicalVerification": false
+      }
+    }
+  ],
+  "checks": {
+    "validateData": "passed, including entity, portrait, humanity and fixed-baseline preservation guards",
+    "affectedProfileImport": "passed against app base 416225a534d6791d676029d95f346620728b8165; one new provider and one updated directory",
+    "typecheck": "passed",
+    "build": "passed",
+    "contract": "83/83 passed",
+    "sanFranciscoPilot": "105/105 passed",
+    "httpApi": "110/110 passed",
+    "targetedBrowser": "3/3 passed: desktop, touch-mobile, and actual source-link activation without toggling adjacent disclosure",
+    "visualReview": "full-page desktop and mobile screenshots inspected",
+    "privacy": "no third-party request or cookie before explicit source activation"
+  },
+  "limits": [
+    "No full unrelated browser suite was run; only the affected browser cohort was exercised.",
+    "No physical-device Safari, independent screen-reader audit, clinical/license verification, human editorial review, reuse-rights determination or thousands-profile performance test is claimed."
+  ],
+  "deployment": "not deployed"
+}
