@@ -32,4 +32,8 @@ The latest checked app cohort is 95/100 unique provider IDs at app revision `7ec
 
 ## Next-pass guardrails
 
-Reconcile the accepted-ID inventory before each import. Do not repeat the bounded searches for Capetanakis, Gainor, Schaubach, Bexter Yang or the already accepted profiles without materially new named evidence. Do not count Garrett, North or Haley on the evidence above. Continue with the prepared Roberto packet only after the app verifies the stable path, directory fit, local image bytes, patient-visible story/access/citations and pre-activation privacy.
+Before each import, reconcile the accepted-ID inventory. Do not repeat the bounded searches for Capetanakis, Gainor, Schaubach, Bexter Yang or already accepted profiles without materially new named evidence. At the time of this review, Roberto's packet was prepared but not yet imported; the applied result below records the later admission. Do not count Garrett, North or Haley on the evidence above.
+
+## Applied result — Roberto R. Ricardo Gonzalez (2026-10-17)
+
+The candidate was applied and counted after the checks described in the app experiment report. App main is `d1d9677009aab7861b0dd3ed6869822700cf4429` (tree `56e1ab3ccf09af8f2c9fcbe1cd9a9a40f6bdd263`); the source-preparation data commit is `014b00f17f934174fd9a1a5f9a7f58e2d27812d4`. The net cohort increased from 95 to 96/100 unique IDs. The new profile remains non-indexable, unclaimed, pending human review and pending license lookup. No separate manual human review or clinical verification is implied. This result does not clear Garrett's portrait access barrier or North's patient-access gap and does not qualify Haley's generic research/service material as humanity.

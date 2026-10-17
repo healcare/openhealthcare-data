@@ -1,0 +1,83 @@
+{
+  "checkedOn": "2026-10-17",
+  "batch": "95-to-96",
+  "candidatePacket": "humanity-candidate-roberto-ricardo-gonzalez-2026-10-17.json",
+  "researchNote": "humanity-next-candidates-review-2026-10-17.md",
+  "appRepository": "healcare/openhealthcare",
+  "appBaseRevision": "7ecc2d117bee558e99a27f24b8d4279b70feaf3e",
+  "appResultRevision": "d1d9677009aab7861b0dd3ed6869822700cf4429",
+  "appTree": "56e1ab3ccf09af8f2c9fcbe1cd9a9a40f6bdd263",
+  "publicDataPreparationRevision": "014b00f17f934174fd9a1a5f9a7f58e2d27812d4",
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "startingQualifiedUniqueProviderIds": 95,
+  "endingQualifiedUniqueProviderIds": 96,
+  "netNewUniqueProviderIds": 1,
+  "totalsBefore": {
+    "providerRecords": 114,
+    "independentLocalPortraitDeliveries": 106,
+    "sanFranciscoDermatologyDirectoryMembers": 21
+  },
+  "totalsAfter": {
+    "providerRecords": 115,
+    "independentLocalPortraitDeliveries": 107,
+    "sanFranciscoDermatologyDirectoryMembers": 22
+  },
+  "added": [
+    {
+      "id": "0e6d42ad-1b52-40bb-a666-ba28659ff22f",
+      "name": "Roberto R. Ricardo Gonzalez",
+      "title": "MD, PhD (source-stated only)",
+      "canonicalPath": "robertoricardogonzalez",
+      "directory": "san-francisco-dermatologists",
+      "story": "UCSF Health's named profile lists him as an amateur cook and wine aficionado in its Fun facts field. The source does not connect these interests to clinical care or patient outcomes.",
+      "source": "https://www.ucsfhealth.org/providers/roberto-ricardo-gonzalez",
+      "nameOrthography": "The page heading and portrait alt omit the hyphen, while the About text and route use Ricardo-Gonzalez. The shared named page/photo and collision review support one identity; the variant is retained in research notes.",
+      "portrait": {
+        "sourcePage": "https://www.ucsfhealth.org/providers/roberto-ricardo-gonzalez",
+        "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/ricardogonzalez-roberto-1487949533-bbe3f81a4ddac1545928b4c3c8c6251e.jpg",
+        "sourceHttpStatus": 200,
+        "sourceDimensions": "640x640",
+        "sourceBytes": 263559,
+        "sourceSha256": "25010709864317cc88f4df748fa90dbc1430ba473406126b5f26168d242da128",
+        "sourceSetCookie": false,
+        "visualReview": "Exact page-linked, named JPEG decoded and visually inspected; one person, clear full face, proportional head-and-shoulders framing.",
+        "localPath": "/images/providers/roberto-ricardo-gonzalez-source-preview.webp",
+        "localDimensions": "360x360",
+        "localBytes": 14384,
+        "localSha256": "5f78add877e836de767d777039b938fd21d1a4e154429a1001a64da9c53bc85e",
+        "transformation": "Proportional resize; no crop or enlargement.",
+        "sourcePageSetCookieHeaders": 2,
+        "reuseTerms": "Unknown; no ownership, derivative-card or structured-data image approval implied."
+      },
+      "access": "UCSF Health lists Dermatology Mount Zion at 1701 Divisadero Street, San Francisco, CA 94115, phone 415-353-7800, telehealth and request-appointment/referral routes. Current openings, new-patient eligibility, plan-specific coverage, fees, referral necessity and language/interpreter options remain unknown.",
+      "controlsAfter": {
+        "claimStatus": "unclaimed",
+        "indexable": false,
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending",
+        "clinicalVerification": false,
+        "reviewOrIndexingPromoted": false
+      }
+    }
+  ],
+  "checks": {
+    "appValidateData": "passed: 131 files, 13 directories, 115 providers, 3 organizations, 1 organization-directory bundle; 107 portrait deliveries; fixed-baseline and humanity guards; 96/115 qualifying IDs",
+    "affectedProfileImport": "passed against app base 7ecc2d117bee558e99a27f24b8d4279b70feaf3e: one new provider, zero directory-record changes; stable paths/identity, review states and preserved content",
+    "typecheck": "passed",
+    "build": "passed with existing non-fatal Browserslist, PostCSS and bundle-size warnings",
+    "contract": "83/83 passed, no skips",
+    "sanFranciscoPilot": "105/105 passed, no skips",
+    "httpApi": "110/110 passed, no skips",
+    "profileCards": "4/4 passed, no skips",
+    "targetedBrowser": "3/3 passed: desktop, touch-mobile emulation and actual source-link tap; complete visible story/access, citation mapping, accessible source name, immediate local image, zero pre-activation third-party requests/cookies, intended source destination and no adjacent-disclosure toggle",
+    "browserElapsed": "5.6 seconds desktop and 1.3 seconds touch-mobile in the focused run; not a load/performance measurement",
+    "visualReview": "full-page desktop and mobile app screenshots inspected",
+    "privacy": "No third-party request or cookie before explicit source activation; source page and image responses separately checked through ordinary direct GETs."
+  },
+  "limits": [
+    "No full unrelated browser suite was run.",
+    "No physical-device Safari, independent screen-reader audit, clinical/license verification, human editorial approval, reuse-rights determination, derivative-card approval or thousands-profile performance test is claimed."
+  ],
+  "publicDataValidation": "passed: 5 bundles valid; 62 JSON artifacts parsed strictly; 8 profile-refresh cases passed; duplicate-key, stage, reason and count-dimension artifact tests passed",
+  "deployment": "not deployed"
+}
