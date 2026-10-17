@@ -1,0 +1,215 @@
+{
+  "kind": "applied-profile-result",
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-17",
+  "batch": "97-to-99",
+  "candidatePacket": "humanity-contribution-leslie-coates-97-to-99-2026-10-17.json",
+  "researchNote": "humanity-leslie-coates-applied-review-2026-10-17.md",
+  "appRepository": "healcare/openhealthcare",
+  "baseAppRevision": "74e78c91ae01338757d101d5bdab7eebbfb560df",
+  "resultingAppRevision": "7991ab7445dab9921186ae90433e1d5ab8881c7d",
+  "appTree": "ee9f328ad1935ba7b621b472fa92c280774cdff7",
+  "appMainRevisionAfterReportUpdate": "83a1a5ec59b009b84f48d7c95e6f6295ed8ae9d9",
+  "appMainTreeAfterReportUpdate": "73c9da5a8d5909417f3f16885f9e67e436fa20bc",
+  "publicDataPreparationRevision": "e5e90a876d43d3cc78f65b4afe0d58e738bd0108",
+  "publicDataReconciledRevision": "e5e90a876d43d3cc78f65b4afe0d58e738bd0108",
+  "reconciledIncomingWork": [
+    "App and public-data main matched the reconciled workspace revisions before import; no newer incoming main commit was present at the pre-import fetch."
+  ],
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "counts": {
+    "qualifyingUniqueProviderIds": {
+      "before": 97,
+      "after": 99
+    },
+    "providerRecords": {
+      "before": 116,
+      "after": 118
+    },
+    "approvedLocalPortraitDeliveries": {
+      "before": 108,
+      "after": 110
+    },
+    "sanFranciscoDirectoryMembers": {
+      "before": 23,
+      "after": 25
+    }
+  },
+  "items": [
+    {
+      "id": "c8ac2d16-aab6-42d6-9598-e24d596dfb54",
+      "disposition": "accepted",
+      "reason": "The named research-group page supplies a distinctive mentoring/community narrative; the named UCSF Health page supplies patient access and an individually associated visually inspected portrait for an existing-directory entry.",
+      "appliedChanges": [
+        {
+          "path": "data/providers/c8ac2d16-aab6-42d6-9598-e24d596dfb54.json",
+          "reason": "Added a new source-stated profile to the existing San Francisco dermatology directory."
+        },
+        {
+          "path": "client/public/images/providers/kieron-leslie-source-preview.webp",
+          "reason": "Added an immediate proportional, source-linked local preview with no crop or enlargement."
+        },
+        {
+          "path": "data/profile-humanity-assessments.json and data/patient-ready-portraits.json",
+          "reason": "Added a deliberate narrative/citation assessment and independent portrait-delivery inventory entry."
+        }
+      ],
+      "deltas": {
+        "qualifyingUniqueProviderIds": 1,
+        "providerRecords": 1,
+        "approvedLocalPortraitDeliveries": 1
+      },
+      "name": "Kieron S. Leslie",
+      "canonicalPath": "kieronleslie",
+      "directory": "san-francisco-dermatologists",
+      "story": "UCSF's named Leslie Research Group biography describes Leslie mentoring underrepresented trainees and reports that he founded the Marcus Conant Fellowship in 2020 to support early-career physicians doing research and advocacy for people living with HIV and LGBTQ+ communities. No clinical outcome, motive beyond the source, or credential verification is inferred.",
+      "sources": [
+        "https://leslielab.ucsf.edu/about",
+        "https://www.ucsfhealth.org/providers/kieron-leslie"
+      ],
+      "access": "The named UCSF Health page lists Dermatology Mission Bay, 520 Illinois St., Third Floor, San Francisco, CA 94158, phone 415-353-7800, telehealth, and appointment/referral controls. The controls do not establish available slots or whether referral is required. Current capacity/openings, new-patient eligibility, hours, fees, plan-specific coverage, and language/interpreter options remain unknown.",
+      "portrait": {
+        "sourcePage": "https://www.ucsfhealth.org/providers/kieron-leslie",
+        "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/leslie-kieron-1578514824-c14a136ff454d836063347375c9fc8d5.jpg",
+        "sourceHttpStatus": 200,
+        "sourceDecodedFormat": "JPEG",
+        "sourceDimensions": "640x640",
+        "sourceBytes": 237272,
+        "sourceSha256": "de65383b3a46abcf2306d24ea8cd3ad69e4b7565b41960f7be7d6afa7e01f5eb",
+        "visualReview": "Decoded and visually inspected as one clear full-face individual portrait associated by the named UCSF Health profile and its linked asset.",
+        "localPath": "/images/providers/kieron-leslie-source-preview.webp",
+        "localDimensions": "360x360",
+        "localBytes": 11942,
+        "localSha256": "ae3a54472a043f7bcc3407755296746a830ab767adad9b4e4c65e260e5f6df18",
+        "transformation": "Proportional resize; no crop or enlargement.",
+        "sourceImageSetCookie": false,
+        "sourcePageCookieObservation": "Not separately measured.",
+        "reuseTerms": "Unknown; no ownership, blanket license, derivative-card or structured-data image approval implied."
+      },
+      "controlsAfter": {
+        "claimStatus": "unclaimed",
+        "indexable": false,
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending",
+        "clinicalVerification": false,
+        "structuredDataImageApproved": false,
+        "reviewOrIndexingPromoted": false
+      }
+    },
+    {
+      "id": "41121452-bf3d-4c00-8f77-b4481dfac71f",
+      "disposition": "accepted",
+      "reason": "The named pediatric profile supplies a distinctive source-backed work journey and interests; provider-specific pediatric access lists San Francisco, and the separately named UCSF Dermatology page supplies an individually associated visually inspected portrait.",
+      "appliedChanges": [
+        {
+          "path": "data/providers/41121452-bf3d-4c00-8f77-b4481dfac71f.json",
+          "reason": "Added a new source-stated pediatric dermatology profile while keeping its exact venue unknown."
+        },
+        {
+          "path": "client/public/images/providers/sarah-coates-source-preview.webp",
+          "reason": "Added an immediate proportional, source-linked local preview with no crop or enlargement; the conflicting patient-page image remains withheld."
+        },
+        {
+          "path": "data/profile-humanity-assessments.json and data/patient-ready-portraits.json",
+          "reason": "Added a deliberate narrative/citation assessment and independent portrait-delivery inventory entry."
+        }
+      ],
+      "deltas": {
+        "qualifyingUniqueProviderIds": 1,
+        "providerRecords": 1,
+        "approvedLocalPortraitDeliveries": 1
+      },
+      "name": "Sarah Coates",
+      "canonicalPath": "sarahcoates",
+      "directory": "san-francisco-dermatologists",
+      "story": "UCSF Benioff describes Coates's East Africa work beginning in 2011, including research in Kampala, lists hiking, reading and travel as interests, and includes her personal statement that caring for patients alongside colleagues and trainees is her dream job. No care quality or outcomes are inferred.",
+      "sources": [
+        "https://www.ucsfbenioffchildrens.org/providers/sarah-coates",
+        "https://dermatology.ucsf.edu/about-us/our-team/sarah-coates-md",
+        "https://www.ucsfbenioffchildrens.org/request-an-appointment-search/results?requestAnApptSearchByDoctor=a680f7b3614c48dc937679cbcf1eb305",
+        "https://www.ucsfbenioffchildrens.org/refer-a-patient-search/results?patientReferralSearchByDoctor=a680f7b3614c48dc937679cbcf1eb305"
+      ],
+      "access": "Provider-specific pediatric appointment and referral pages list the Dermatology Clinic and San Francisco among clinic cities. They do not establish an individual venue or street address. The department contact address is not used as an appointment site, and adult ZSFG biography context is not used as an adult access route. Individual video availability, capacity/openings, age/new-patient eligibility, fees, plan-specific coverage, referral necessity, and language/interpreter options remain unknown.",
+      "portrait": {
+        "sourcePage": "https://dermatology.ucsf.edu/about-us/our-team/sarah-coates-md",
+        "sourceAsset": "https://dermatology.ucsf.edu/sites/dermatology.ucsf.edu/files/styles/max_fp_650x650/public/2023-10/Sarah_close_0.jpg.webp?h=7ee04fc1&itok=Y43Le7KJ",
+        "sourceHttpStatus": 200,
+        "declaredContentType": "image/jpeg",
+        "sourceDecodedFormat": "WebP",
+        "sourceDimensions": "650x650",
+        "sourceBytes": 20334,
+        "sourceSha256": "858b655791b1749474e92b53f9fbd7c8dd2a092c0a42ae7a0f030b1f46763bb0",
+        "visualReview": "Decoded and visually inspected as one clear full-face individual portrait, directly named on the UCSF Dermatology team page. A separate Benioff patient-page asset whose filename names Flatley remains withheld.",
+        "localPath": "/images/providers/sarah-coates-source-preview.webp",
+        "localDimensions": "360x360",
+        "localBytes": 10868,
+        "localSha256": "8b4f966279254a877fe7b8e620849b54e82586d339e68eebea9dbac5f3022a0a",
+        "transformation": "Proportional resize; no crop or enlargement.",
+        "sourceImageSetCookie": false,
+        "sourcePageCookieObservation": "Not separately measured.",
+        "reuseTerms": "Unknown; no ownership, blanket license, derivative-card or structured-data image approval implied."
+      },
+      "controlsAfter": {
+        "claimStatus": "unclaimed",
+        "indexable": false,
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending",
+        "clinicalVerification": false,
+        "structuredDataImageApproved": false,
+        "reviewOrIndexingPromoted": false
+      }
+    }
+  ],
+  "deferredQueue": [
+    {
+      "name": "Haley Naik",
+      "disposition": "deferred",
+      "reason": "The named UCSF, UCSF Profiles, Women Physician-Scientists and Benioff Center pages reviewed here repeat clinical/research information and establishment of a clinic but do not supply a source-backed personal journey, motivation, interest, mentoring/community account or distinctive individual work approach. The AAD page linked by UCSF Profiles returned 404."
+    },
+    {
+      "name": "Garrett Patrick",
+      "disposition": "deferred",
+      "reason": "The alternate official UCSF Dermatology roster links an individual named headshot rendition, but an ordinary request for its exact image URL returned HTTP 403. No image bytes were available to decode or inspect; no screenshot crop, guessed asset or access-control workaround was used."
+    },
+    {
+      "name": "Jeffrey P. North",
+      "disposition": "deferred",
+      "reason": "Previously documented provider-specific patient-access gap remains unresolved. It was not rechecked in this batch."
+    }
+  ],
+  "checks": [
+    {
+      "name": "validate-data",
+      "result": "passed",
+      "scope": "134 entity files (13 directories, 118 providers, 3 organizations and one organization-directory bundle), 110 independent local portrait deliveries, fixed-baseline/preservation guards, and 99/118 qualifying unique IDs."
+    },
+    {
+      "name": "profile-import-preservation",
+      "result": "passed",
+      "scope": "Compared with app 74e78c91ae01338757d101d5bdab7eebbfb560df: two new providers, zero directory-record changes; stable identities, routes, aliases, existing records and controls preserved."
+    },
+    {
+      "name": "typecheck-build-contract-api",
+      "result": "passed",
+      "scope": "Typecheck and build passed; contract 83/83; HTTP/API 110/110; San Francisco pilot 114/114; profile-card tests 4/4; no skips."
+    },
+    {
+      "name": "affected-patient-routes",
+      "result": "passed",
+      "scope": "Targeted browser checks passed 3/3 on desktop, touch-mobile emulation and actual source-link activation; complete patient-visible narratives/access notes, citations, source accessible names, immediate local image decode, zero third-party requests/cookies before activation, and no adjacent-disclosure toggle."
+    },
+    {
+      "name": "visual-review",
+      "result": "passed",
+      "scope": "Full-page desktop Leslie and touch-mobile Coates screenshots reviewed; decoded exact source image bytes and local preview framing reviewed."
+    }
+  ],
+  "limits": [
+    "No clinical, license, board, identity or independent human-review decision is implied.",
+    "Reuse terms remain unknown; derivative-card and structured-data image use are not approved.",
+    "Source-page cookie behavior for Leslie and Coates was not separately measured; only exact image response headers and browser pre-activation behavior were checked.",
+    "The full unrelated browser suite, physical-device Safari, screen-reader audit and performance/load testing at thousands of records were not run.",
+    "No indexing or review state was promoted, and no deployment occurred."
+  ],
+  "deployment": "not deployed"
+}
