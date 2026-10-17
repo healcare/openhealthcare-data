@@ -1,0 +1,126 @@
+{
+  "preparedOn": "2026-10-17",
+  "status": "source-prepared-before-import",
+  "batch": "90-to-91-candidate-review",
+  "startingQualifiedUniqueProviderIds": 90,
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "appPreImportRevision": "d6f0b5beb69c58ef8ee7920349ce3189a3478913",
+  "publicDataPreImportRevision": "5634fc5234d6c0c8aa6854cac5665ed42e4adf87",
+  "queueReconciliation": "The accepted-ID ledger is at 90/100. The current queue contains only previously counted candidates or unresolved evidence, portrait, identity, or scope gaps; Kanade Shinkai was not listed in app records or the public research queue.",
+  "directory": {
+    "slug": "san-francisco-dermatologists",
+    "title": "UCSF/ZSFG-Affiliated Dermatologists in San Francisco",
+    "fit": "The named UCSF Health profile lists her in Dermatology at Mount Zion, 1701 Divisadero Street, San Francisco. Her named UCSF Profiles and Medical Education pages establish UCSF affiliation. This is an addition to the existing sample, not an expansion of directory scope."
+  },
+  "provider": {
+    "id": "15737731-318e-4910-babf-33d8e342bd61",
+    "name": "Kanade Shinkai",
+    "title": "MD, PhD",
+    "canonicalPath": "kanadeshinkai",
+    "pathCheck": {
+      "recommended": "kanadeshinkai",
+      "alternatives": ["kanadeshinkai", "shinkai"],
+      "checkedAgainst": "Current provider and directory canonical paths, aliases, and reserved application paths using the project URL suggestion helper"
+    },
+    "existingIdentityCheck": "No matching provider identity was found among the current 109 provider records. The UCSF Health, UCSF Profiles, and UCSF Medical Education pages name the same clinician."
+  },
+  "narrative": {
+    "sectionId": "humanity-teaching-and-community-mediation-shinkai-2026-10-17",
+    "heading": "Teaching and community mediation",
+    "text": "On her UCSF Profiles page, Kanade Shinkai says she sees medical education as a mandate and privilege of academic medicine, and describes teaching and mentoring work at UCSF and through the American Academy of Dermatology. Her UCSF Medical Education profile also describes volunteer mediation in the UCSF community and communications coaching; she says she has developed communication and conflict-resolution curricula, including a workshop titled “Taking the difficult out of difficult conversations.” These sources document her stated commitment to teaching and community work, not patient outcomes.",
+    "claimMap": [
+      {
+        "claim": "Shinkai says she sees medical education as a mandate and privilege of academic medicine.",
+        "sourceId": "kanade-shinkai-ucsf-profiles-2026-10-17",
+        "excerpt": "I believe that medical education is a mandate and privilege of being an academic physician."
+      },
+      {
+        "claim": "Her named UCSF Profiles page describes teaching and mentoring work at UCSF and through the American Academy of Dermatology.",
+        "sourceId": "kanade-shinkai-ucsf-profiles-2026-10-17",
+        "excerpt": "Mentor, Academic Dermatology Leadership Program, American Academy of Dermatology (2014 - present); Director, Medical Student electives in dermatology, UCSF School of Medicine (2009 - 2014)"
+      },
+      {
+        "claim": "Her UCSF Medical Education profile describes volunteer mediation in the UCSF community and communication/conflict-resolution curriculum work.",
+        "sourceId": "kanade-shinkai-ucsf-meded-2026-10-17",
+        "excerpt": "I am a certified mediator (conflict resolution expert) who serves as a volunteer mediator for the UCSF community ... I have facilitated, co-facilitated, and developed curricula in communication and conflict resolution, including a workshop entitled “Taking the difficult out of difficult conversations.”"
+      }
+    ],
+    "sources": [
+      {
+        "id": "kanade-shinkai-ucsf-profiles-2026-10-17",
+        "url": "https://profiles.ucsf.edu/kanade.shinkai",
+        "title": "Kanade Shinkai — UCSF Profiles",
+        "publisher": "University of California, San Francisco",
+        "retrievedDate": "2026-10-17"
+      },
+      {
+        "id": "kanade-shinkai-ucsf-meded-2026-10-17",
+        "url": "https://meded.ucsf.edu/people/kanade-shinkai",
+        "title": "Kanade Shinkai, MD, PhD — UCSF Medical Education",
+        "publisher": "UCSF School of Medicine",
+        "retrievedDate": "2026-10-17"
+      },
+      {
+        "id": "kanade-shinkai-ucsf-health-2026-10-17",
+        "url": "https://www.ucsfhealth.org/providers/kanade-shinkai",
+        "title": "Kanade Shinkai, MD, PhD — Dermatology",
+        "publisher": "UCSF Health",
+        "retrievedDate": "2026-10-17"
+      }
+    ],
+    "assessment": "Qualifies as a source-backed individual teaching and community-mediation story, not a credentials summary or generic service/research description. Claims remain attributed and do not imply patient benefit or clinical verification."
+  },
+  "access": {
+    "sourceId": "kanade-shinkai-ucsf-health-2026-10-17",
+    "text": "UCSF Health lists Dermatology Mount Zion at 1701 Divisadero Street, San Francisco, CA 94115, phone 415-353-7800, a request-appointment link, a refer-a-patient link and telehealth visits. These are source-listed routes, not evidence of a current appointment opening, new-patient capacity, or a referral requirement. UCSF links to general insurance information but does not establish plan-specific participation. Fees, individual availability, capacity, referral requirements, plan coverage and language/interpreter options remain unconfirmed."
+  },
+  "portrait": {
+    "disposition": "new-modest-immediate-local-source-linked-preview",
+    "sourcePage": "https://www.ucsfhealth.org/providers/kanade-shinkai",
+    "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/shinkai-kanade-1598894008-b5edb2a7ecfe9babe39e50e5aa2468e4.jpg",
+    "retrieval": {
+      "method": "ordinary direct HTTPS GET",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 238883,
+      "lastModified": "2025-12-03T23:16:34Z",
+      "setCookieObserved": false
+    },
+    "sourceImage": {
+      "format": "JPEG",
+      "width": 640,
+      "height": 640,
+      "sha256": "bc381d2cf94e759fd5ea45f2bb655fb153c14af480adca84765b9202c54435a2",
+      "visualInspection": "The exact decoded bytes show one person with the full face clearly visible in a square head-and-shoulders portrait. The named UCSF Health page labels this exact asset “Portrait of Kanade Shinkai.”"
+    },
+    "localDelivery": {
+      "path": "client/public/images/providers/kanade-shinkai-source-preview.webp",
+      "format": "WebP",
+      "width": 360,
+      "height": 360,
+      "bytes": 10684,
+      "sha256": "6546409e376a3389c7f33f3b31fbb3703b183b751a9d75ac6ed168a91fabc521",
+      "transformation": "Proportional downscale to 360 by 360; no crop or framing composition change."
+    },
+    "reuseTerms": "Unknown. This is a modest source-linked ordinary page preview only, not ownership, blanket permission, derivative-card approval, structured-data image approval, or clinical verification.",
+    "structuredData": "Withhold the image from structured data."
+  },
+  "titleNote": "Academic-rank wording differs among UCSF Health, UCSF Profiles, and UCSF Medical Education pages; omit academic rank from the imported record. This is not an identity conflict. MD and PhD remain source-stated suffixes only.",
+  "preservedControls": {
+    "status": "published",
+    "indexable": false,
+    "claimStatus": "unclaimed",
+    "reviewStatus": "pending-human-review",
+    "licenseLookupStatus": "pending",
+    "clinicalVerification": "not performed"
+  },
+  "qualification": {
+    "expectedNetUniqueIdGain": 1,
+    "countOnlyAfter": [
+      "provider record imports without changing existing IDs, routes, aliases, or membership",
+      "all-record, fixed-baseline, portrait-inventory, and affected-profile preservation checks pass",
+      "the API and readable page expose the complete narrative, citations, and source-scoped access details",
+      "desktop and touch-mobile checks confirm the local portrait and citations work without an initial third-party request or cookie"
+    ]
+  }
+}
