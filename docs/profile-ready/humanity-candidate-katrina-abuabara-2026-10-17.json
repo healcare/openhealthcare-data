@@ -1,0 +1,130 @@
+{
+  "preparedOn": "2026-10-17",
+  "status": "source-prepared-before-import",
+  "batch": "92-to-94-candidate-review",
+  "startingQualifiedUniqueProviderIds": 92,
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "appPreImportRevision": "caa7acc1e4b79d5fc2e120dce7ba4e015d386eee",
+  "publicDataPreImportRevision": "a198e32cd459c1db428f5d06f6b16c60c56e4fd5",
+  "queueReconciliation": "The checked count is 92/100, with 111 provider records and 103 independent local portrait deliveries. No Katrina Abuabara identity, candidate acceptance, route, or source-backed SF path appears in the app at the recorded pre-import revision. The 18-provider San Francisco directory remains limited to UCSF/ZSFG-affiliated dermatologists with a named San Francisco practice. Existing identity, credential, license, geography, editorial, and patient-scope holds remain unchanged; this candidate does not reopen bounded negative searches.",
+  "directory": {
+    "slug": "san-francisco-dermatologists",
+    "title": "UCSF/ZSFG-Affiliated Dermatologists in San Francisco",
+    "fit": "Katrina Abuabara's named UCSF Health patient page lists Dermatology Mount Zion at 1701 Divisadero Street, San Francisco. This is an addition within the existing directory scope, not a directory expansion."
+  },
+  "provider": {
+    "id": "994041a0-7cdc-4dc4-9ba7-96679fa7cc27",
+    "name": "Katrina Abuabara",
+    "nameParts": {
+      "display": "Katrina Abuabara, MD, MA",
+      "given": "Katrina",
+      "family": "Abuabara",
+      "sourceIds": [
+        "katrina-abuabara-ucsf-health-2026-10-17"
+      ]
+    },
+    "title": "MD, MA",
+    "specialty": "Dermatology",
+    "canonicalPath": "katrinaabuabara",
+    "aliases": [],
+    "pathCheck": {
+      "recommended": "katrinaabuabara",
+      "alternatives": [
+        "katrinaabuabara",
+        "abuabara"
+      ],
+      "checkedAgainst": "Current provider records, canonical paths, aliases, and reserved routes using the project URL suggestion and validation helpers at app revision caa7acc1e4b79d5fc2e120dce7ba4e015d386eee."
+    },
+    "existingIdentityCheck": "No matching provider name or path was found among 111 current provider records. The named UCSF Health page identifies Katrina Abuabara and links an image explicitly labelled as her portrait.",
+    "clinicalStatus": "Name, professional suffix, specialty, location, and care-path details remain source-stated. No license, board, or independent clinical verification is claimed."
+  },
+  "narrative": {
+    "sectionId": "humanity-personal-interests-abuabara-2026-10-17",
+    "heading": "Personal interests",
+    "text": "UCSF Health's “Fun facts” entry describes dermatologist and researcher Katrina Abuabara as a mountain lover and tropical-fruit aficionado. The named profile offers these interests alongside her professional biography; it does not say they shape her clinical care or patient outcomes.",
+    "claimMap": [
+      {
+        "claim": "The named UCSF Health profile describes Katrina Abuabara as a mountain lover and tropical fruit aficionado.",
+        "sourceId": "katrina-abuabara-ucsf-health-2026-10-17",
+        "excerpt": "Fun facts Researcher, mountain lover and tropical fruit aficionado"
+      }
+    ],
+    "sources": [
+      {
+        "id": "katrina-abuabara-ucsf-health-2026-10-17",
+        "url": "https://www.ucsfhealth.org/providers/katrina-abuabara",
+        "title": "Katrina Abuabara, MD, MA — Dermatology",
+        "publisher": "UCSF Health",
+        "retrievedDate": "2026-10-17"
+      }
+    ],
+    "assessment": "Qualifies on the named source's specific personal interests. The narrative does not turn credentials, research descriptions, or general care language into a personal story and does not infer clinical manner or outcomes."
+  },
+  "access": {
+    "sourceId": "katrina-abuabara-ucsf-health-2026-10-17",
+    "text": "UCSF Health lists Dermatology Mount Zion at 1701 Divisadero Street, San Francisco, CA 94115, phone 415-353-7800, telehealth visits, and request-appointment and refer-a-patient routes. The page links general insurance information but does not establish plan-specific participation. These are source-listed routes, not evidence of current openings, capacity, new-patient eligibility, or a referral requirement. Fees and language/interpreter options remain unconfirmed.",
+    "visibleFacts": [
+      "Dermatology Mount Zion, 1701 Divisadero Street, San Francisco, CA 94115",
+      "Source-listed phone +1-415-353-7800",
+      "UCSF Health request-appointment and refer-a-patient routes",
+      "Telehealth visits listed"
+    ],
+    "unconfirmed": [
+      "Appointment capacity, new-patient eligibility, or individual availability",
+      "Plan-specific insurance participation",
+      "Fees",
+      "Whether a referral is required",
+      "Language or interpreter availability"
+    ]
+  },
+  "portrait": {
+    "disposition": "new-modest-immediate-local-source-linked-preview",
+    "sourcePage": "https://www.ucsfhealth.org/providers/katrina-abuabara",
+    "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/abuabara-katrina-1558689216-b57a0f14ca5423dc24d6f66950e67bf9.jpg",
+    "retrieval": {
+      "method": "ordinary direct HTTPS GET",
+      "sourcePageHttpStatus": 200,
+      "sourcePageSetCookieHeaders": 2,
+      "imageHttpStatus": 200,
+      "contentType": "image/jpeg",
+      "lastModified": "2025-12-03T23:01:56Z",
+      "sourceImageSetCookie": false
+    },
+    "sourceImage": {
+      "format": "JPEG",
+      "width": 640,
+      "height": 640,
+      "bytes": 260212,
+      "sha256": "a24df3bd038096b4cb4258404ea03f491087a8ba5f598d31ff84f42bf351f4ec",
+      "visualInspection": "Decoded exact asset is a single-person portrait with the full face clearly visible. The current named UCSF Health page identifies it with alt text “Portrait of Katrina Abuabara” and links this exact asset."
+    },
+    "localDelivery": {
+      "path": "client/public/images/providers/katrina-abuabara-source-preview.webp",
+      "format": "WebP",
+      "width": 360,
+      "height": 360,
+      "bytes": 13422,
+      "sha256": "4e22051843274cab3fa5be7b8c8bdb29e4c0c5e46c13992a3713a3e3f7cd8bf3",
+      "transformation": "Proportional resize to 360×360; no crop or enlargement."
+    },
+    "sourcePageCookieObservation": "The ordinary named source page GET returned two Set-Cookie headers; values were not retained. The exact image GET returned none. The app will use only the local preview before explicit activation of the source link.",
+    "reuseTerms": "Unknown. Modest ordinary source-linked preview only; no ownership, blanket permission, derivative-card, or structured-data image approval is claimed.",
+    "structuredData": "Withhold the image from structured data."
+  },
+  "controls": {
+    "newRecordDefaults": {
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "reviewStatus": "pending-human-review",
+      "licenseLookupStatus": "pending",
+      "structuredDataImage": "withheld"
+    },
+    "preserve": [
+      "Existing provider identities, canonical paths, aliases, directory memberships, sources, citations, clinical facts, source dates, and review/indexing/claim controls.",
+      "All existing identity, license, credential, geography, editorial, patient-scope, and media holds.",
+      "The current San Francisco directory boundary and source-attributed access uncertainty.",
+      "Unknown media reuse terms and the distinction between an ordinary local preview and derivative profile-card media."
+    ]
+  }
+}
