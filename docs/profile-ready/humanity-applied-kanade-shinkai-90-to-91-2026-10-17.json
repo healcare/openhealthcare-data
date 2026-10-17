@@ -1,0 +1,169 @@
+{
+  "kind": "applied-profile-result",
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-17",
+  "baseAppRevision": "d6f0b5beb69c58ef8ee7920349ce3189a3478913",
+  "resultingAppRevision": "79fae76aafcf7eb40b0102301298282d48e99140",
+  "baseDataRevision": "144e233b774702c066b018df7058b5dbe1ec7037",
+  "candidatePacketRevision": "144e233b774702c066b018df7058b5dbe1ec7037",
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "counts": {
+    "qualifyingUniqueProviderIds": {
+      "before": 90,
+      "after": 91
+    },
+    "providerRecords": {
+      "before": 109,
+      "after": 110
+    },
+    "approvedLocalPortraitDeliveries": {
+      "before": 101,
+      "after": 102
+    }
+  },
+  "items": [
+    {
+      "id": "15737731-318e-4910-babf-33d8e342bd61",
+      "name": "Kanade Shinkai",
+      "canonicalPath": "kanadeshinkai",
+      "directory": "san-francisco-dermatologists",
+      "disposition": "accepted",
+      "reason": "New in-scope UCSF identity with a named-source teaching, mentoring, and volunteer community-mediation narrative, plus an individually inspected immediate local source-linked portrait. This is a new record and delivery, not historical recovery.",
+      "appliedChanges": [
+        {
+          "path": "new provider record and San Francisco directory membership",
+          "reason": "Added the source-prepared identity with collision-checked clean path, claim-mapped story, source-listed patient pathway, and explicit access unknowns."
+        },
+        {
+          "path": "local source-linked preview and independent portrait inventory",
+          "reason": "Added the visually inspected exact-source portrait as a proportional immediate local preview and recorded source/local dimensions, hashes, bytes, response, and provenance."
+        },
+        {
+          "path": "humanity assessment and dated source-backed presentation entry",
+          "reason": "Added one qualifying unique ID without changing review/indexing controls, license lookup, clinical state, structured-data image withholding, or existing source evidence."
+        }
+      ],
+      "deltas": {
+        "qualifyingUniqueProviderIds": 1,
+        "providerRecords": 1,
+        "approvedLocalPortraitDeliveries": 1
+      },
+      "narrative": {
+        "sectionId": "humanity-teaching-and-community-mediation-shinkai-2026-10-17",
+        "sourceIds": [
+          "kanade-shinkai-ucsf-profiles-2026-10-17",
+          "kanade-shinkai-ucsf-meded-2026-10-17"
+        ],
+        "scope": "The named UCSF Profiles page supports her stated teaching/mentoring work and view of medical education; the named UCSF Medical Education page supports volunteer mediation in the UCSF community and communication/conflict-resolution curriculum work. Differing academic-rank descriptions were omitted. No patient outcome, motivation beyond the cited statement, or independent credential claim is inferred."
+      },
+      "access": {
+        "sourceId": "kanade-shinkai-ucsf-health-2026-10-17",
+        "visibleFacts": [
+          "Dermatology Mount Zion, 1701 Divisadero Street, San Francisco, CA 94115",
+          "Source-listed phone +1-415-353-7800",
+          "UCSF Health appointment and refer-a-patient routes",
+          "Telehealth listed by UCSF Health"
+        ],
+        "unconfirmed": [
+          "Appointment capacity, new-patient eligibility, or individual availability",
+          "Plan-specific insurance participation",
+          "Fees",
+          "Whether a referral is required",
+          "Language or interpreter availability"
+        ],
+        "clinicalAndCredentialStatus": "Source-stated only; no independent license, board, or clinical verification was performed."
+      },
+      "portrait": {
+        "disposition": "new-local-source-linked-preview-not-recovery",
+        "sourcePage": "https://www.ucsfhealth.org/providers/kanade-shinkai",
+        "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/shinkai-kanade-1598894008-b5edb2a7ecfe9babe39e50e5aa2468e4.jpg",
+        "sourceImage": {
+          "format": "JPEG",
+          "width": 640,
+          "height": 640,
+          "bytes": 238883,
+          "sha256": "bc381d2cf94e759fd5ea45f2bb655fb153c14af480adca84765b9202c54435a2",
+          "visualInspection": "Decoded exact bytes show one person with a clearly visible full face. The named UCSF Health page labels the exact linked asset as a portrait of Kanade Shinkai.",
+          "sourceImageSetCookieObserved": false
+        },
+        "localDelivery": {
+          "path": "client/public/images/providers/kanade-shinkai-source-preview.webp",
+          "format": "WebP",
+          "width": 360,
+          "height": 360,
+          "bytes": 10684,
+          "sha256": "6546409e376a3389c7f33f3b31fbb3703b183b751a9d75ac6ed168a91fabc521",
+          "transformation": "Proportional downscale; no crop."
+        },
+        "reuseTerms": "Unknown. Ordinary source-linked preview only; no ownership, blanket permission, derivative-card, or structured-data image approval is claimed."
+      },
+      "preservedControls": {
+        "status": "published",
+        "indexable": false,
+        "claimStatus": "unclaimed",
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending",
+        "clinicalVerification": "not performed",
+        "aliases": [],
+        "structuredDataImage": "withheld"
+      }
+    }
+  ],
+  "preserved": [
+    "The fixed accepted-ID baseline and all earlier qualifying IDs.",
+    "Existing provider identities, canonical paths, aliases, directory memberships, clinical facts, newer evidence, source dates, and citations.",
+    "Existing review/indexing/claim controls and identity, clinical, regulatory, access, media, and editorial holds.",
+    "The San Francisco directory's existing UCSF/ZSFG affiliation and geographic scope.",
+    "Source-attributed access details separately from clinical verification and appointment availability.",
+    "Unknown media reuse terms and the distinction between an ordinary local portrait preview and derivative profile-card media."
+  ],
+  "checks": [
+    {
+      "name": "npm run validate-data",
+      "result": "passed",
+      "scope": "126 entity files (13 directories, 110 providers, 3 organizations) plus the organization-directory bundle; 102 independent local portrait deliveries; fixed baseline and preservation guards; 91/110 qualifying unique IDs."
+    },
+    {
+      "name": "npm run validate:profile-import -- --base d6f0b5beb69c58ef8ee7920349ce3189a3478913",
+      "result": "passed",
+      "scope": "One added provider and one changed directory file; identity/path and prior content, routes, review states, and holds preserved."
+    },
+    {
+      "name": "npm run check",
+      "result": "passed",
+      "scope": "TypeScript check."
+    },
+    {
+      "name": "npm run build",
+      "result": "passed",
+      "scope": "Application production build; existing non-fatal toolchain warnings only."
+    },
+    {
+      "name": "npm run test:pilot",
+      "result": "passed",
+      "scope": "104/104; includes the new explicit San Francisco membership assertion."
+    },
+    {
+      "name": "npm run test:contract",
+      "result": "passed",
+      "scope": "83/83, zero skipped; current exact directory and sourced-cohort totals."
+    },
+    {
+      "name": "npm run test:http",
+      "result": "passed",
+      "scope": "110/110 API cases, zero skipped."
+    },
+    {
+      "name": "HUMANITY_IDS=15737731-318e-4910-babf-33d8e342bd61 npm run test:browser -- tests/humanity-patient-ready.spec.ts",
+      "result": "passed",
+      "scope": "3/3: desktop, touch-emulated mobile, and actual source-link tap; complete narrative/access/citations, local image decode, no third-party request/cookie before activation, expected source opening after tap, and adjacent disclosure remains closed."
+    }
+  ],
+  "limits": [
+    "No full unrelated browser suite, physical mobile device, independent screen-reader audit, or real Safari-device test is claimed.",
+    "No independent clinical, license, board, capacity, or media-rights verification was performed.",
+    "Reuse terms remain unknown; structured-data and derivative-card image use remain withheld.",
+    "No load/performance test at thousands of profiles was performed.",
+    "No indexing/review promotion or deployment occurred."
+  ]
+}

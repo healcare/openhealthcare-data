@@ -1,0 +1,131 @@
+{
+  "preparedOn": "2026-10-17",
+  "status": "source-prepared-before-import",
+  "batch": "91-to-92-candidate-review",
+  "startingQualifiedUniqueProviderIds": 91,
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "appPreImportRevision": "79fae76aafcf7eb40b0102301298282d48e99140",
+  "publicDataPreImportRevision": "144e233b774702c066b018df7058b5dbe1ec7037",
+  "queueReconciliation": "The current ledger is 91/100 after Kanade Shinkai's checked addition. The app has 110 provider records and the independent local portrait-delivery inventory has 102 entries. James (Jimmy) Meixiong is not present in the current app roster, directory membership, accepted-ID ledger, or prior public research queue. Previously counted candidates and bounded negative searches remain closed; existing identity, license, credential, geography, editorial, and patient-scope holds remain unchanged.",
+  "directory": {
+    "slug": "san-francisco-dermatologists",
+    "title": "UCSF/ZSFG-Affiliated Dermatologists in San Francisco",
+    "fit": "The existing directory includes UCSF-affiliated dermatologists with principal San Francisco practice locations. UCSF Health's named patient profile lists Meixiong in Dermatology at China Basin, 185 Berry Street, Suite 1000, San Francisco, CA 94107. This is within the current scope, not a directory expansion."
+  },
+  "provider": {
+    "id": "72f690e5-ae8b-427e-bd77-e435372bba53",
+    "name": "James (Jimmy) Meixiong",
+    "nameParts": {
+      "display": "James (Jimmy) Meixiong",
+      "given": "James",
+      "family": "Meixiong",
+      "sourceIds": [
+        "james-meixiong-ucsf-health-2026-10-17"
+      ]
+    },
+    "title": "MD, PhD",
+    "canonicalPath": "jamesmeixiong",
+    "pathCheck": {
+      "recommended": "jamesmeixiong",
+      "alternatives": [
+        "jamesmeixiong",
+        "meixiong"
+      ],
+      "checkedAgainst": "Current app provider and directory paths, aliases, and reserved routes using the project's URL suggestion helper after the 90-to-91 app sync."
+    },
+    "existingIdentityCheck": "No matching Meixiong identity was found among 110 current provider records. UCSF Health names James (Jimmy) Meixiong and links the exact portrait asset on the same page.",
+    "clinicalStatus": "Name, MD/PhD suffix, specialty and patient pathway are source-stated only. No license, board, or independent clinical verification is claimed."
+  },
+  "narrative": {
+    "sectionId": "humanity-personal-interests-meixiong-2026-10-17",
+    "heading": "Personal interests",
+    "text": "UCSF Health says James Meixiong goes by Jimmy. Its “Fun facts” entry describes him as a poker enthusiast and an armchair philosopher. These are the personal interests the named profile shares alongside his professional biography; they do not establish his clinical style, patient outcomes, or how he approaches care.",
+    "claimMap": [
+      {
+        "claim": "The UCSF Health profile says James Meixiong goes by Jimmy.",
+        "sourceId": "james-meixiong-ucsf-health-2026-10-17",
+        "excerpt": "Dr. James Meixiong, who goes by Jimmy"
+      },
+      {
+        "claim": "The named UCSF Health profile describes him as a poker enthusiast and armchair philosopher.",
+        "sourceId": "james-meixiong-ucsf-health-2026-10-17",
+        "excerpt": "Fun facts: Poker enthusiast, armchair philosopher and father of two"
+      }
+    ],
+    "sources": [
+      {
+        "id": "james-meixiong-ucsf-health-2026-10-17",
+        "url": "https://www.ucsfhealth.org/providers/james-meixiong",
+        "title": "James (Jimmy) Meixiong, MD, PhD — Dermatology",
+        "publisher": "UCSF Health",
+        "retrievedDate": "2026-10-17"
+      }
+    ],
+    "assessment": "Qualifies on the named provider page's explicit personal interests, not on credentials, generic service/research language, or an inferred clinical manner. The narrative deliberately omits the separate family detail and makes no claim about clinical approach or patient outcomes."
+  },
+  "access": {
+    "sourceId": "james-meixiong-ucsf-health-2026-10-17",
+    "text": "UCSF Health lists Dermatology China Basin at 185 Berry Street, Suite 1000, San Francisco, CA 94107, phone 415-353-7800, telehealth visits, and request-appointment and refer-a-patient routes. These are source-listed access routes, not evidence of current openings, capacity, new-patient eligibility, or a referral requirement. The page links general insurance information but does not establish plan-specific participation. Fees, capacity/availability, referral requirements and language/interpreter options remain unconfirmed.",
+    "visibleFacts": [
+      "Dermatology China Basin, 185 Berry Street, Suite 1000, San Francisco, CA 94107",
+      "Source-listed phone +1-415-353-7800",
+      "UCSF Health request-appointment and refer-a-patient routes",
+      "Telehealth visits listed"
+    ],
+    "unconfirmed": [
+      "Appointment capacity, new-patient eligibility, or individual availability",
+      "Plan-specific insurance participation",
+      "Fees",
+      "Whether a referral is required",
+      "Language or interpreter availability"
+    ]
+  },
+  "portrait": {
+    "disposition": "new-modest-immediate-local-source-linked-preview",
+    "sourcePage": "https://www.ucsfhealth.org/providers/james-meixiong",
+    "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/dr-james-meixiong-md-320x320-2x-fd9304d3389b96133f9b0e35aed85b8a.jpg",
+    "retrieval": {
+      "method": "ordinary direct HTTPS GET",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 312568,
+      "lastModified": "2026-01-20T22:34:02Z",
+      "setCookieObserved": false
+    },
+    "sourceImage": {
+      "format": "JPEG",
+      "width": 640,
+      "height": 640,
+      "sha256": "ba2540bd985a24d332c4ef7e83cbd4f83ec5e7b92427891f8a6b4e4eacf4dd13",
+      "visualInspection": "Decoded exact asset is a single-person, full-face, head-and-shoulders portrait. The named UCSF Health page identifies the person as James (Jimmy) Meixiong and labels the exact linked image as his portrait."
+    },
+    "sourcePageCookieObservation": "The ordinary named profile-page GET returned two Set-Cookie headers; cookie values were not retained. The exact image GET returned no Set-Cookie. The app uses only the local preview before an explicit source-link activation; the source page may set cookies after the patient opens it.",
+    "localDelivery": {
+      "path": "client/public/images/providers/james-meixiong-source-preview.webp",
+      "format": "WebP",
+      "width": 360,
+      "height": 360,
+      "bytes": 12602,
+      "sha256": "aa852fcc086fb8524684f06c2a717471e0f31f4282a7dd180889fe08de103445",
+      "transformation": "Proportional resize to 360×360; no crop."
+    },
+    "reuseTerms": "Unknown. Modest ordinary source-linked preview only; no ownership, blanket permission, derivative-card, or structured-data image approval is claimed.",
+    "structuredData": "Withhold the image from structured data."
+  },
+  "controls": {
+    "newRecordDefaults": {
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "reviewStatus": "pending-human-review",
+      "licenseLookupStatus": "pending",
+      "structuredDataImage": "withheld"
+    },
+    "preserve": [
+      "Existing IDs, canonical paths, aliases, directory memberships, sources, citations, clinical facts, source dates, and review/indexing/claim controls.",
+      "All identity, license, credential, geography, editorial, patient-scope and media holds.",
+      "The existing San Francisco directory scope and source-attributed access details.",
+      "Unknown media reuse terms and the distinction between an ordinary preview and derivative profile-card media."
+    ]
+  }
+}

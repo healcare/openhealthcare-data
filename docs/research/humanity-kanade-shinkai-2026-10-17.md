@@ -38,3 +38,9 @@ The prepared local WebP is a proportional 360×360 downscale without cropping, 1
 ## Pre-import boundary
 
 The candidate remains source-prepared, not yet counted. If imported, preserve a new record's normal non-indexable pilot, unclaimed, pending-human-review, and pending-license-lookup controls. Do not change the directory's review/indexing state, existing identities, routes, aliases, holds, or older evidence. Count only after the local delivery, API citations, complete readable story, practical access copy, fixed-baseline comparison, and affected desktop/touch-mobile privacy checks pass. No paid image search, screen-reader audit, real-device Safari test, independent clinical/license verification, or rights determination was used or claimed.
+
+## Applied result — October 17, 2026
+
+Kanade Shinkai was imported and qualified as one new unique provider ID in app commit `79fae76aafcf7eb40b0102301298282d48e99140`. The accepted cohort is 91/100; the provider roster is 110 and local portrait-delivery inventory 102. Her identity, clean path, UCSF directory membership, teaching/community-mediation story, source citations and local portrait match the prepared packet. The new record remains non-indexable, unclaimed, pending human review and pending license lookup.
+
+Fresh checks passed: all-record/fixed-baseline validation, one-provider/one-directory preservation comparison, TypeScript and build, pilot 104/104, contract 83/83, HTTP/API 110/110, and affected desktop/touch-mobile/source-tap browser 3/3. Exact results and limitations are recorded in the [applied receipt](../profile-ready/humanity-applied-kanade-shinkai-90-to-91-2026-10-17.json). These are functional/source-delivery checks, not independent clinical/license review, human review, media-rights determination, screen-reader audit, physical device test, or thousands-profile performance test. No review/index promotion or deployment occurred.
