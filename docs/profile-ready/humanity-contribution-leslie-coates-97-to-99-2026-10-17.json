@@ -1,0 +1,267 @@
+{
+  "kind": "validated-profile-contribution",
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-17",
+  "baseAppRevision": "74e78c91ae01338757d101d5bdab7eebbfb560df",
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "batch": "97-to-99",
+  "status": "prepared-before-import",
+  "currentCheckedIntersection": 97,
+  "expectedNetUniqueIdsIfChecksPass": 2,
+  "directory": "san-francisco-dermatologists",
+  "controls": {
+    "sourceStatedOnly": true,
+    "clinicalVerification": false,
+    "licenseLookup": "pending",
+    "humanReview": "pending",
+    "indexable": false,
+    "unclaimed": true,
+    "structuredDataImageApproved": false,
+    "derivativeUseApproved": false,
+    "deployment": false
+  },
+  "requiredBeforeCount": [
+    "Reconfirm active app main, names, UUIDs, paths, aliases, and existing directory membership",
+    "Run fixed-baseline, all-record, source/citation, portrait inventory, and profile-import preservation checks",
+    "Run typecheck, build, contract/API, HTTP/API, San Francisco pilot, and profile-card checks",
+    "Run affected desktop/touch-mobile patient page checks for full story, citations, immediate local image decode, real source tap, and zero pre-activation third-party requests/cookies",
+    "Record actual app and data revisions and counts in a separate applied-result receipt"
+  ],
+  "items": [
+    {
+      "id": "c8ac2d16-aab6-42d6-9598-e24d596dfb54",
+      "disposition": "accepted",
+      "reason": "The named UCSF research group documents Leslie's mentoring and fellowship work; his named UCSF Health page lists a San Francisco clinic and access routes, and its exact portrait is individually associated and visually inspected.",
+      "proposedChanges": [
+        {
+          "path": "data/providers/c8ac2d16-aab6-42d6-9598-e24d596dfb54.json",
+          "reason": "Add a source-stated provider profile at the clean, collision-checked path kieronleslie within the existing San Francisco dermatology scope."
+        },
+        {
+          "path": "client/public/images/providers/kieron-leslie-source-preview.webp",
+          "reason": "Deliver the individually inspected named UCSF portrait immediately as a proportional, source-linked local preview without crop or enlargement."
+        },
+        {
+          "path": "data/profile-humanity-assessments.json and data/patient-ready-portraits.json",
+          "reason": "Record the complete named-source mentoring narrative and the separate local portrait-delivery provenance."
+        }
+      ],
+      "provider": {
+        "name": "Kieron S. Leslie",
+        "title": "MBBS, DTMH (source-stated only; not converted to MD)",
+        "canonicalPath": "kieronleslie",
+        "aliases": [],
+        "directorySlug": "san-francisco-dermatologists",
+        "specialty": "Dermatology, as listed by UCSF Health",
+        "description": "UCSF Health lists Kieron S. Leslie in dermatology at its Mission Bay location.",
+        "humanity": {
+          "heading": "Mentoring and community work",
+          "text": "UCSF's Leslie Research Group describes Kieron Leslie mentoring underrepresented trainees. It reports that he founded the Marcus Conant Fellowship in 2020 to support early-career physicians working on research and advocacy for people living with HIV and LGBTQ+ communities. This is the group's account of his mentoring and community work; it does not establish clinical outcomes or independently verify credentials.",
+          "sourceIds": [
+            "kieron-leslie-lab-2026-10-17"
+          ],
+          "claimMap": [
+            {
+              "claim": "The research group describes Leslie mentoring underrepresented trainees.",
+              "sourceId": "kieron-leslie-lab-2026-10-17",
+              "locator": "Opening biography paragraphs"
+            },
+            {
+              "claim": "The group says Leslie founded the fellowship in 2020 and describes its purpose.",
+              "sourceId": "kieron-leslie-lab-2026-10-17",
+              "locator": "Opening biography paragraphs"
+            }
+          ]
+        },
+        "access": {
+          "location": "Dermatology Mission Bay, 520 Illinois St., Third Floor, San Francisco, CA 94158",
+          "phone": "+1-415-353-7800",
+          "phoneTested": false,
+          "telehealth": "Listed by the named UCSF Health page",
+          "appointmentAndReferral": "Named page presents appointment and referral controls that target its locations section; this is not an independently tested booking system or evidence of available slots.",
+          "sourceIds": [
+            "kieron-leslie-ucsf-health-2026-10-17"
+          ],
+          "unknowns": [
+            "Appointment capacity and current openings",
+            "New-patient eligibility",
+            "Hours",
+            "Fees",
+            "Exact-plan insurance participation",
+            "Referral necessity",
+            "Languages and interpreter availability"
+          ]
+        },
+        "sources": [
+          {
+            "id": "kieron-leslie-lab-2026-10-17",
+            "url": "https://leslielab.ucsf.edu/about",
+            "title": "About — Leslie Research Group",
+            "publisher": "UCSF Leslie Research Group",
+            "retrievedOn": "2026-10-17",
+            "sourceType": "institutional profile"
+          },
+          {
+            "id": "kieron-leslie-ucsf-health-2026-10-17",
+            "url": "https://www.ucsfhealth.org/providers/kieron-leslie",
+            "title": "Kieron S. Leslie — UCSF Health",
+            "publisher": "UCSF Health",
+            "retrievedOn": "2026-10-17",
+            "sourceType": "official provider profile"
+          }
+        ],
+        "portrait": {
+          "sourcePage": "https://www.ucsfhealth.org/providers/kieron-leslie",
+          "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/leslie-kieron-1578514824-c14a136ff454d836063347375c9fc8d5.jpg",
+          "httpStatus": 200,
+          "decodedFormat": "JPEG",
+          "sourceDimensions": "640x640",
+          "sourceBytes": 237272,
+          "sourceSha256": "de65383b3a46abcf2306d24ea8cd3ad69e4b7565b41960f7be7d6afa7e01f5eb",
+          "visualReview": "Exact downloaded bytes were decoded and visually inspected: one clear full face; the named official page associates the image with Leslie. No biometric identity verification.",
+          "localPreviewPath": "/images/providers/kieron-leslie-source-preview.webp",
+          "localDimensions": "360x360",
+          "localBytes": 11942,
+          "localSha256": "ae3a54472a043f7bcc3407755296746a830ab767adad9b4e4c65e260e5f6df18",
+          "transformation": "Proportional resize; no crop or enlargement.",
+          "sourceAssetSetCookie": false,
+          "sourcePageCookieObservation": "Not separately measured.",
+          "reuseTerms": "Unknown; no ownership, blanket license, derivative-card or structured-data image approval implied."
+        }
+      }
+    },
+    {
+      "id": "41121452-bf3d-4c00-8f77-b4481dfac71f",
+      "disposition": "accepted",
+      "reason": "The named pediatric profile documents a distinctive international work journey, personal interests, and a stated collaborative-care preference; provider-specific pediatric appointment/referral routes list San Francisco, and an independently named department portrait is usable.",
+      "proposedChanges": [
+        {
+          "path": "data/providers/41121452-bf3d-4c00-8f77-b4481dfac71f.json",
+          "reason": "Add a source-stated pediatric dermatology profile at the clean, collision-checked path sarahcoates; keep the patient scope pediatric and the appointment venue explicit as unknown."
+        },
+        {
+          "path": "client/public/images/providers/sarah-coates-source-preview.webp",
+          "reason": "Deliver only the exact individually inspected, department-named portrait as a proportional local source-linked preview; continue withholding the patient-page asset with a conflicting filename."
+        },
+        {
+          "path": "data/profile-humanity-assessments.json and data/patient-ready-portraits.json",
+          "reason": "Record the complete global-health and collaboration narrative separately from clinical claims and local image provenance."
+        }
+      ],
+      "provider": {
+        "name": "Sarah Coates",
+        "title": "MD (source-stated only)",
+        "canonicalPath": "sarahcoates",
+        "aliases": [],
+        "directorySlug": "san-francisco-dermatologists",
+        "specialty": "Pediatric Dermatology, as listed by UCSF Benioff Children's Hospitals",
+        "description": "UCSF Benioff Children's Hospitals lists Sarah Coates in pediatric dermatology.",
+        "humanity": {
+          "heading": "Global-health work and collaboration",
+          "text": "UCSF Benioff Children's Hospitals describes Sarah Coates's work in East Africa beginning in 2011, including research in Kampala, Uganda. Her profile lists hiking, reading and travel as interests. In a personal statement on that page, she describes caring for patients alongside colleagues and trainees as her dream job. These are source-published details, not claims about care quality or outcomes.",
+          "sourceIds": [
+            "sarah-coates-benioff-2026-10-17"
+          ],
+          "claimMap": [
+            {
+              "claim": "The profile describes East Africa work beginning in 2011 and research in Kampala.",
+              "sourceId": "sarah-coates-benioff-2026-10-17",
+              "locator": "About me, research paragraph"
+            },
+            {
+              "claim": "The profile lists hiking, reading and travel as interests.",
+              "sourceId": "sarah-coates-benioff-2026-10-17",
+              "locator": "Named profile interest/tagline field"
+            },
+            {
+              "claim": "The personal statement describes collaborative care with colleagues and trainees as her dream job.",
+              "sourceId": "sarah-coates-benioff-2026-10-17",
+              "locator": "Personal statement"
+            }
+          ]
+        },
+        "access": {
+          "scope": "Pediatric appointment and referral routes only.",
+          "patientRouteSummary": "Provider-specific UCSF Benioff appointment/referral pages link Dermatology Clinic and list San Francisco among the clinic cities. The exact appointment venue/address for an individual visit is not established. Her biography's adult ZSFG context is not treated as an adult intake route.",
+          "phone": "+1-415-353-7800",
+          "phoneTested": false,
+          "telehealth": "The named profile links video-visit information; availability for a specific visit is unknown.",
+          "appointmentUrl": "https://www.ucsfbenioffchildrens.org/request-an-appointment-search/results?requestAnApptSearchByDoctor=a680f7b3614c48dc937679cbcf1eb305",
+          "referralUrl": "https://www.ucsfbenioffchildrens.org/refer-a-patient-search/results?patientReferralSearchByDoctor=a680f7b3614c48dc937679cbcf1eb305",
+          "sourceIds": [
+            "sarah-coates-benioff-2026-10-17",
+            "sarah-coates-department-2026-10-17",
+            "sarah-coates-appointments-2026-10-17",
+            "sarah-coates-referrals-2026-10-17"
+          ],
+          "unknowns": [
+            "Individual appointment venue and street address",
+            "Appointment capacity and current openings",
+            "New-patient/age eligibility",
+            "Fees",
+            "Exact-plan insurance participation",
+            "Referral necessity",
+            "Languages and interpreter availability",
+            "Whether video visits are available for a particular patient or service"
+          ]
+        },
+        "directoryFit": "The existing San Francisco dermatology directory already includes pediatric dermatology profiles. Provider-specific pediatric appointment/referral pages for Coates list the Dermatology Clinic with San Francisco among its cities. No personal street address or adult ZSFG intake is inferred.",
+        "sources": [
+          {
+            "id": "sarah-coates-benioff-2026-10-17",
+            "url": "https://www.ucsfbenioffchildrens.org/providers/sarah-coates",
+            "title": "Sarah Coates — UCSF Benioff Children's Hospitals",
+            "publisher": "UCSF Benioff Children's Hospitals",
+            "retrievedOn": "2026-10-17",
+            "sourceType": "official provider profile"
+          },
+          {
+            "id": "sarah-coates-department-2026-10-17",
+            "url": "https://dermatology.ucsf.edu/about-us/our-team/sarah-coates-md",
+            "title": "Sarah Coates, MD — UCSF Dermatology",
+            "publisher": "UCSF Dermatology",
+            "retrievedOn": "2026-10-17",
+            "sourceType": "official practice team"
+          },
+          {
+            "id": "sarah-coates-appointments-2026-10-17",
+            "url": "https://www.ucsfbenioffchildrens.org/request-an-appointment-search/results?requestAnApptSearchByDoctor=a680f7b3614c48dc937679cbcf1eb305",
+            "title": "Request appointment with Sarah Coates — UCSF Benioff Children's Hospitals",
+            "publisher": "UCSF Benioff Children's Hospitals",
+            "retrievedOn": "2026-10-17",
+            "sourceType": "official practice page"
+          },
+          {
+            "id": "sarah-coates-referrals-2026-10-17",
+            "url": "https://www.ucsfbenioffchildrens.org/refer-a-patient-search/results?patientReferralSearchByDoctor=a680f7b3614c48dc937679cbcf1eb305",
+            "title": "Refer a patient to Sarah Coates — UCSF Benioff Children's Hospitals",
+            "publisher": "UCSF Benioff Children's Hospitals",
+            "retrievedOn": "2026-10-17",
+            "sourceType": "official practice page"
+          }
+        ],
+        "portrait": {
+          "sourcePage": "https://dermatology.ucsf.edu/about-us/our-team/sarah-coates-md",
+          "sourceAsset": "https://dermatology.ucsf.edu/sites/dermatology.ucsf.edu/files/styles/max_fp_650x650/public/2023-10/Sarah_close_0.jpg.webp?h=7ee04fc1&itok=Y43Le7KJ",
+          "heldConflictingAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/flatley-erin-1932537172-1260babf230ac9fba86531129915d08e.jpg",
+          "heldAssetReason": "The patient page's alt/OG/JSON-LD name Coates while the asset filename names Erin Flatley; do not use this unresolved conflicting asset.",
+          "httpStatus": 200,
+          "headerContentType": "image/jpeg",
+          "decodedFormat": "WEBP",
+          "sourceDimensions": "650x650",
+          "sourceBytes": 20334,
+          "sourceSha256": "858b655791b1749474e92b53f9fbd7c8dd2a092c0a42ae7a0f030b1f46763bb0",
+          "visualReview": "Exact department-linked bytes decode as WebP and were visually inspected as one clear full face; the named department page associates this image with Sarah Coates. No biometric identity verification.",
+          "localPreviewPath": "/images/providers/sarah-coates-source-preview.webp",
+          "localDimensions": "360x360",
+          "localBytes": 10868,
+          "localSha256": "8b4f966279254a877fe7b8e620849b54e82586d339e68eebea9dbac5f3022a0a",
+          "transformation": "Proportional resize; no crop or enlargement.",
+          "sourceAssetSetCookie": false,
+          "sourcePageCookieObservation": "Not separately measured.",
+          "reuseTerms": "Unknown; no ownership, blanket license, derivative-card or structured-data image approval implied."
+        }
+      }
+    }
+  ]
+}
