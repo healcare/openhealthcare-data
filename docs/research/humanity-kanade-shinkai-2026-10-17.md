@@ -1,8 +1,10 @@
 # Kanade Shinkai — bounded source and media review
 
-**Research date:** 2026-10-17  
-**Purpose:** Assess a new identity for the existing UCSF/ZSFG-affiliated San Francisco dermatology directory.  
-**Starting accepted cohort:** 90 unique provider IDs, checked against app main `d6f0b5beb69c58ef8ee7920349ce3189a3478913`; fixed baseline remains `0e71f02b718ddcd1003dd504aa44c1bb103c6894`.  
+**Research date:** 2026-10-17
+
+**Purpose:** Assess a new identity for the existing UCSF/ZSFG-affiliated San Francisco dermatology directory.
+
+**Starting accepted cohort:** 90 unique provider IDs, checked against app main `d6f0b5beb69c58ef8ee7920349ce3189a3478913`; fixed baseline remains `0e71f02b718ddcd1003dd504aa44c1bb103c6894`.
 **Disposition at research handoff:** Source-prepared for import, not yet accepted. See the clean [claim-mapped candidate packet](../profile-ready/humanity-candidate-kanade-shinkai-2026-10-17.json).
 
 ## Queue and identity reconciliation
