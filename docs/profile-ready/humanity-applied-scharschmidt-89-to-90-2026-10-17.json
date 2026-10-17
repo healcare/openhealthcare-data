@@ -1,0 +1,167 @@
+{
+  "kind": "applied-profile-result",
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-17",
+  "baseAppRevision": "2d520db35feaa8a8fb750fbec87db30c45ad87b0",
+  "resultingAppRevision": "d6f0b5beb69c58ef8ee7920349ce3189a3478913",
+  "baseDataRevision": "ee184a73c32d7fde9038c5dc4cbcec204f62d3bc",
+  "candidatePacketRevision": "a97e0df0d6f093ca467069b506a4ee1bf089160c",
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "counts": {
+    "qualifyingUniqueProviderIds": {
+      "before": 89,
+      "after": 90
+    },
+    "providerRecords": {
+      "before": 108,
+      "after": 109
+    },
+    "approvedLocalPortraitDeliveries": {
+      "before": 100,
+      "after": 101
+    }
+  },
+  "items": [
+    {
+      "id": "c7fb1504-dc25-449c-9f2a-4889640f34e4",
+      "name": "Tiffany C. Scharschmidt",
+      "canonicalPath": "tiffanyscharschmidt",
+      "directory": "san-francisco-dermatologists",
+      "disposition": "accepted",
+      "reason": "New, in-scope source-prepared identity with a claim-mapped narrative about her documented research-and-clinical approach and an individually inspected, immediately served, local source-linked portrait. Net gain: one unique qualifying provider ID and one provider record, not recovery of an erased portrait.",
+      "appliedChanges": [
+        {
+          "path": "new provider record, San Francisco source-backed directory membership, claim-mapped profile sections and source records",
+          "reason": "Added the clean source-prepared profile using its unique identity and collision-checked path; retained source-stated clinical details and explicit practical access unknowns."
+        },
+        {
+          "path": "local preview asset and independent portrait inventory",
+          "reason": "Added one exact-source visually inspected portrait as an immediate modest local preview and recorded source/local dimensions, hashes, bytes, and inspection provenance."
+        },
+        {
+          "path": "humanity assessment and dated editorial refresh",
+          "reason": "Added one qualifying narrative assessment and source-backed cohort entry while retaining pending review, license lookup, non-indexable status, and structured-data image withholding."
+        }
+      ],
+      "deltas": {
+        "qualifyingUniqueProviderIds": 1,
+        "providerRecords": 1,
+        "approvedLocalPortraitDeliveries": 1
+      },
+      "narrative": {
+        "sectionId": "humanity-clinical-research-approach-scharschmidt-2026-10-17",
+        "sourceIds": [
+          "tiffany-scharschmidt-lab-profile-2026-10-17",
+          "tiffany-scharschmidt-ucsf-health-2026-10-17"
+        ],
+        "scope": "The named lab profile supports her stated dermatology/microbiology/immunology work, 80% research time allocation, care for patients with severe inflammatory skin disease, and described host-microbe research methods. UCSF Health separately supports adult dermatology and multidisciplinary complex skin disease care. No personal motive, outcome or independent credential claim is inferred."
+      },
+      "access": {
+        "sourceId": "tiffany-scharschmidt-ucsf-health-2026-10-17",
+        "visibleFacts": [
+          "Dermatology Mount Zion, 1701 Divisadero Street, San Francisco, CA 94115",
+          "Source-listed phone +1-415-353-7800",
+          "Request-appointment and refer-a-patient links",
+          "Telehealth listed by UCSF Health"
+        ],
+        "unconfirmed": [
+          "Appointment capacity or individual availability",
+          "Plan-specific insurance participation",
+          "Fees",
+          "Whether a referral is required",
+          "Language or interpreter availability"
+        ],
+        "clinicalAndCredentialStatus": "Source-stated only; no license, board, or clinical verification was performed."
+      },
+      "portrait": {
+        "disposition": "new-local-source-linked-preview-not-recovery",
+        "sourcePage": "https://www.ucsfhealth.org/providers/tiffany-scharschmidt",
+        "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/scharschmidt-tiffany-1073760096-a95803d83fb4fc3516800d23ae4351b8.jpg",
+        "sourceImage": {
+          "format": "JPEG",
+          "width": 640,
+          "height": 640,
+          "bytes": 243910,
+          "sha256": "a1f1b288394f88ad1b95191bba35badc1b2c2799e81464422ba26a8fe958171f",
+          "visualInspection": "Decoded exact bytes show one person with a clearly visible full face. The named UCSF Health page labels the exact asset for Tiffany C. Scharschmidt.",
+          "sourceSetCookieObserved": false
+        },
+        "localDelivery": {
+          "path": "client/public/images/providers/tiffany-scharschmidt-source-preview.webp",
+          "format": "WebP",
+          "width": 360,
+          "height": 360,
+          "bytes": 10490,
+          "sha256": "c97e95a3e78425fd9baf38cf9f386efc0566f920057afc0407c95cd6348f4583",
+          "transformation": "Proportional resize; no crop."
+        },
+        "reuseTerms": "Unknown. An ordinary source-linked preview only; no ownership, blanket permission, derivative-card approval, or structured-data image approval is claimed."
+      },
+      "preservedControls": {
+        "status": "published",
+        "indexable": false,
+        "claimStatus": "unclaimed",
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending",
+        "clinicalVerification": "not performed",
+        "aliases": [],
+        "structuredDataImage": "withheld"
+      }
+    }
+  ],
+  "preserved": [
+    "The fixed accepted-ID baseline and every earlier qualifying ID.",
+    "Existing provider IDs, canonical paths, aliases, directory membership, clinical facts, newer evidence, source records, source dates, and citations.",
+    "Existing review/indexing/claim controls and all identity, clinical, regulatory, access, media and editorial holds.",
+    "The San Francisco directory's existing UCSF/ZSFG and geographic scope.",
+    "Source-attributed contact/access information separately from clinical verification and structured-data image use.",
+    "Unknown reuse terms and the distinction between an ordinary local portrait preview and a derivative profile-card asset."
+  ],
+  "checks": [
+    {
+      "name": "npm run validate-data",
+      "result": "passed",
+      "scope": "125 entity files: 13 directories, 109 providers, 3 organizations, 1 organization-directory bundle; 101 independent local portrait deliveries; fixed baseline; 90 qualifying unique IDs."
+    },
+    {
+      "name": "npm run validate:profile-import -- --base 2d520db35feaa8a8fb750fbec87db30c45ad87b0",
+      "result": "passed",
+      "scope": "One changed provider record, zero changed directory records; stable identity/path, review states, and content preservation."
+    },
+    {
+      "name": "npm run check and npm run build",
+      "result": "passed",
+      "scope": "TypeScript and production build. Build reported existing Browserslist, PostCSS from-option, and large-chunk warnings."
+    },
+    {
+      "name": "npm run test:contract",
+      "result": "passed",
+      "scope": "83/83 contract, citation, portrait, API, route, preservation and strict-JSON tests; no skips."
+    },
+    {
+      "name": "npm run test:http",
+      "result": "passed",
+      "scope": "110/110 HTTP, API, server-rendered content, source/privacy and directory integration tests; no skips."
+    },
+    {
+      "name": "npm run test:pilot",
+      "result": "passed",
+      "scope": "103/103 San Francisco pilot URL, noindex/sitemap, source metadata, directory membership and JSON-LD checks; no skips."
+    },
+    {
+      "name": "HUMANITY_IDS=c7fb1504-dc25-449c-9f2a-4889640f34e4 npm run test:browser -- tests/humanity-patient-ready.spec.ts",
+      "result": "passed",
+      "scope": "3/3 Chromium cases for desktop, touch-mobile and an actual tap on the cited UCSF source. Checked full visible story/access copy, source labels and accessible names, decoded immediate local image, zero initial third-party requests/cookies, post-tap source opening and no neighboring disclosure activation. Mobile is browser emulation, not a real device."
+    },
+    {
+      "name": "GitHub app-main synchronization",
+      "result": "passed",
+      "scope": "App main commit d6f0b5beb69c58ef8ee7920349ce3189a3478913 pushed normally; local main and origin/main agree with a clean worktree."
+    }
+  ],
+  "limits": [
+    "The initial San Francisco pilot run had one unsupported test expectation that the named UCSF phone would be omitted from JSON-LD. The phone is source-stated and remains attributed; the unsupported omission assertion was removed. The structured-data image hold and email omission remain tested. No application data was suppressed to make the test pass.",
+    "The full unrelated browser suite, independent clinical/license verification, manual human review, media-rights determination, screen-reader audit, real-device Safari test and performance at thousands of profiles were not performed.",
+    "No review/indexing promotion or deployment occurred."
+  ]
+}
