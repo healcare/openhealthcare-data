@@ -3,7 +3,7 @@
 **Research date:** 2026-10-17  
 **Purpose:** Assess one new candidate for the existing UCSF/ZSFG-affiliated San Francisco dermatology directory.  
 **Starting accepted cohort:** 89 unique provider IDs, checked against app main `2d520db35feaa8a8fb750fbec87db30c45ad87b0`; fixed baseline remains `0e71f02b718ddcd1003dd504aa44c1bb103c6894`.  
-**Disposition:** Source-prepared for import, not yet accepted. The clean claim-mapped packet is [`humanity-candidate-tiffany-scharschmidt-2026-10-17.json`](../profile-ready/humanity-candidate-tiffany-scharschmidt-2026-10-17.json).
+**Disposition at research handoff:** Source-prepared for import, not yet accepted. The clean claim-mapped packet is [`humanity-candidate-tiffany-scharschmidt-2026-10-17.json`](../profile-ready/humanity-candidate-tiffany-scharschmidt-2026-10-17.json).
 
 ## Identity and directory fit
 
@@ -30,6 +30,12 @@ The exact UCSF Health portrait asset is linked from and labelled on Tiffany's na
 
 The prepared local derivative is a proportional 360×360 WebP, with no crop, at 10,490 bytes and SHA-256 `c97e95a3e78425fd9baf38cf9f386efc0566f920057afc0407c95cd6348f4583`. The source's reuse terms are unknown. No ownership, blanket license, derivative-card permission, structured-data image approval or clinical verification is claimed. The image is intended only as a modest local source-linked preview; structured-data use remains withheld. The source URL should open only after explicit user activation, not during initial page load.
 
-## Evidence boundary and next validation
+## Pre-import evidence boundary and acceptance conditions
 
-The packet preserves the directory's non-indexable pilot state. The candidate would remain unclaimed, pending human review and pending independent license lookup. Count it only if the contribution is imported, source citations remain usable in the API and readable page, the local image decodes on desktop and touch-mobile, and initial page rendering makes no third-party request or cookie. No screen-reader audit, real-device Safari test, independent clinical/license verification, reuse-rights determination or load/performance test is claimed.
+The packet preserves the directory's non-indexable pilot state. The candidate was to remain unclaimed, pending human review and pending independent license lookup. Acceptance required import, usable source citations in the API and readable page, local image decode on desktop and touch-mobile, and no third-party request or cookie during initial rendering. No screen-reader audit, real-device Safari test, independent clinical/license verification, reuse-rights determination or load/performance test was claimed.
+
+## Applied outcome — October 17, 2026
+
+Scharschmidt was imported as one new provider record and qualified as one net new ID. The app result is synced at `d6f0b5beb69c58ef8ee7920349ce3189a3478913`, based on app main `2d520db35feaa8a8fb750fbec87db30c45ad87b0`; the clean candidate and research were reconciled at public-data main `a97e0df0d6f093ca467069b506a4ee1bf089160c`. The current checked intersection is 90/100, with 109 provider records and 101 independent local portrait deliveries. The separate [applied result receipt](../profile-ready/humanity-applied-scharschmidt-89-to-90-2026-10-17.json) records full provenance, controls, actual test scope, and limitations.
+
+Fresh validation passed: all-record/fixed-baseline and asset checks, affected-provider preservation, TypeScript/build, contract 83/83, HTTP/API 110/110, San Francisco pilot 103/103, and affected desktop/touch-mobile/tap browser cases 3/3. The profile remains non-indexable, unclaimed, pending human review and pending license lookup. No independent clinical or license verification, rights determination, real-device Safari, screen-reader audit, full unrelated browser-suite pass, or thousands-profile performance test is claimed. No deployment occurred.
