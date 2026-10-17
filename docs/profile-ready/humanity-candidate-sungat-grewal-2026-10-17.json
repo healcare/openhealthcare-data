@@ -1,0 +1,145 @@
+{
+  "preparedOn": "2026-10-17",
+  "status": "source-prepared-before-import",
+  "batch": "94-to-95-candidate-review",
+  "startingQualifiedUniqueProviderIds": 94,
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "appPreImportRevision": "416225a534d6791d676029d95f346620728b8165",
+  "publicDataPreImportRevision": "1dd69f5f08c71eec7720d6f52e7cb7aac8b45e19",
+  "queueReconciliation": "The checked intersection is 94/100 unique IDs, with 113 provider records, 105 local portrait deliveries, and 20 members in the San Francisco dermatology directory. No Sungat K. Grewal provider record, canonical path, accepted-ID entry, or candidate packet was found. This addition fits the existing UCSF/ZSFG-affiliated San Francisco dermatology scope and does not expand it. Existing identity, clinical, license, geography, editorial, patient-scope, and media holds remain unchanged.",
+  "directory": {
+    "slug": "san-francisco-dermatologists",
+    "title": "UCSF/ZSFG-Affiliated Dermatologists in San Francisco",
+    "fit": "Her named UCSF Health profile lists Dermatologic & Laser Surgery Mission Bay at 520 Illinois St., Third Floor, San Francisco, CA 94158, with a phone number and request-appointment/referral routes. This is within the existing San Francisco dermatology scope."
+  },
+  "provider": {
+    "id": "9af22164-01bc-45c8-92a4-01093bdc2fdc",
+    "name": "Sungat K. Grewal",
+    "nameParts": {
+      "display": "Sungat K. Grewal, MD",
+      "given": "Sungat",
+      "middle": "K.",
+      "family": "Grewal",
+      "suffix": "MD",
+      "preferredPath": "sungatgrewal",
+      "sourceIds": [
+        "sungat-grewal-ucsf-health-2026-10-17"
+      ]
+    },
+    "title": "MD",
+    "specialty": "Dermatology",
+    "canonicalPath": "sungatgrewal",
+    "aliases": [],
+    "pathCheck": {
+      "recommended": "sungatgrewal",
+      "alternatives": [
+        "sungatgrewal",
+        "sungatkgrewal",
+        "grewalmd"
+      ],
+      "result": "The project name-path suggestion and validation helpers returned sungatgrewal as the first available name-based path. No matching provider or path was found among the 113 current provider records."
+    },
+    "identityCheck": "The current named UCSF Health page identifies Sungat K. Grewal, MD, Dermatology, and links the exact individual portrait asset described below. No conflicting same-name record was found in the current app registry."
+  },
+  "source": {
+    "id": "sungat-grewal-ucsf-health-2026-10-17",
+    "url": "https://www.ucsfhealth.org/providers/sungat-grewal",
+    "title": "Sungat K. Grewal, MD — Dermatology",
+    "publisher": "UCSF Health",
+    "retrievedDate": "2026-10-17",
+    "sourceType": "official-provider-profile",
+    "retrievalMethod": "web-retrieval and ordinary direct HTTPS GET",
+    "httpStatus": 200,
+    "pageSetCookieHeaders": 2,
+    "claimScope": "Supports the published name and specialty, the source-stated personal interests quoted below, the listed Mission Bay location, phone, telehealth and appointment/referral routes, and the named linked portrait. It does not establish appointment capacity, new-patient eligibility, plan-specific insurance participation, fees, referral necessity, language/interpreter support, or independent clinical or license verification."
+  },
+  "narrative": {
+    "sectionId": "humanity-personal-interests-grewal-2026-10-17",
+    "heading": "Personal interests",
+    "text": "UCSF Health's named profile says that outside work, Sungat K. Grewal is an international marathoner and avid hiker. The source does not connect these interests to her clinical work or patient outcomes.",
+    "claimMap": [
+      {
+        "claim": "The named UCSF Health profile describes Grewal as an international marathoner and avid hiker.",
+        "sourceId": "sungat-grewal-ucsf-health-2026-10-17",
+        "excerpt": "Outside of work, Grewal is an international marathoner and avid hiker."
+      }
+    ],
+    "sources": [
+      {
+        "id": "sungat-grewal-ucsf-health-2026-10-17",
+        "url": "https://www.ucsfhealth.org/providers/sungat-grewal",
+        "title": "Sungat K. Grewal, MD — Dermatology",
+        "publisher": "UCSF Health",
+        "retrievedDate": "2026-10-17"
+      }
+    ],
+    "assessment": "Qualifies on two specific personal interests stated on her named provider page. This is not a credential list, generic biography, inferred clinical approach, patient-outcome claim, or independent verification."
+  },
+  "access": {
+    "sourceId": "sungat-grewal-ucsf-health-2026-10-17",
+    "text": "UCSF Health lists Dermatologic & Laser Surgery Mission Bay at 520 Illinois St., Third Floor, San Francisco, CA 94158, phone 415-706-3507, telehealth visits, and request-appointment and refer-a-patient routes. The page links general insurance information but does not establish plan-specific participation. These are source-listed pathways, not evidence of current openings, capacity, new-patient eligibility, or a referral requirement. Fees and language/interpreter options remain unconfirmed.",
+    "visibleFacts": [
+      "Dermatologic & Laser Surgery Mission Bay, 520 Illinois St., Third Floor, San Francisco, CA 94158",
+      "Source-listed phone +1-415-706-3507",
+      "UCSF Health request-appointment and refer-a-patient routes",
+      "Telehealth visits listed"
+    ],
+    "unconfirmed": [
+      "Appointment capacity, new-patient eligibility, or individual availability",
+      "Plan-specific insurance participation",
+      "Fees",
+      "Whether a referral is required",
+      "Language or interpreter availability"
+    ]
+  },
+  "portrait": {
+    "disposition": "new-modest-immediate-local-source-linked-preview",
+    "sourcePage": "https://www.ucsfhealth.org/providers/sungat-grewal",
+    "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/dr-sungat-grewal-md-320x320-2x-814a93d63f533431c7c227605ed5eb0d.jpg",
+    "retrieval": {
+      "method": "ordinary direct HTTPS GET",
+      "sourcePageHttpStatus": 200,
+      "sourcePageSetCookieHeaders": 2,
+      "imageHttpStatus": 200,
+      "contentType": "image/jpeg",
+      "lastModified": "2026-01-21T02:53:45Z",
+      "sourceImageSetCookie": false
+    },
+    "sourceImage": {
+      "format": "JPEG",
+      "width": 640,
+      "height": 640,
+      "bytes": 273359,
+      "sha256": "4b07fb3907ae9454b08a1d048a968ca7b4e7d631f8237f271b0ed79e6a335cd3",
+      "visualInspection": "Decoded exact asset linked from the named UCSF Health page and labelled as Sungat K. Grewal's portrait. It shows one person with a clear, fully visible face and suitable square framing."
+    },
+    "localDelivery": {
+      "path": "client/public/images/providers/sungat-grewal-source-preview.webp",
+      "format": "WebP",
+      "width": 360,
+      "height": 360,
+      "bytes": 9674,
+      "sha256": "28421e2f4d8ae8e723c7b0f448baa94aeaa4a4fd2427d4e55494e655416b48e6",
+      "transformation": "Proportional resize to 360×360; no crop or enlargement."
+    },
+    "sourcePageCookieObservation": "The ordinary named source page GET returned two Set-Cookie headers; values were not retained. The exact image GET returned none. The app will serve the local preview and does not request the source page until explicit activation.",
+    "reuseTerms": "Unknown. Modest ordinary source-linked preview only; no ownership, blanket permission, derivative-card, or structured-data image approval is claimed.",
+    "structuredData": "Withhold the image from structured data."
+  },
+  "controls": {
+    "newRecordDefaults": {
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "reviewStatus": "pending-human-review",
+      "licenseLookupStatus": "pending",
+      "structuredDataImage": "withheld"
+    },
+    "preserve": [
+      "Existing provider identities, canonical paths, aliases, directory memberships, sources, citations, clinical facts, source dates, and review/indexing/claim controls.",
+      "All existing identity, license, credential, geography, editorial, patient-scope, and media holds.",
+      "The current San Francisco directory boundary and source-attributed access uncertainty.",
+      "Unknown media reuse terms and the distinction between an ordinary local preview and derivative profile-card media."
+    ]
+  }
+}
