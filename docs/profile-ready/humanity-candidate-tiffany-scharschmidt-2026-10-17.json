@@ -1,0 +1,125 @@
+{
+  "preparedOn": "2026-10-17",
+  "status": "source-prepared-before-import",
+  "batch": "89-to-90-candidate-review",
+  "startingQualifiedUniqueProviderIds": 89,
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "appPreImportRevision": "2d520db35feaa8a8fb750fbec87db30c45ad87b0",
+  "publicDataPreImportRevision": "ee184a73c32d7fde9038c5dc4cbcec204f62d3bc",
+  "directory": {
+    "slug": "san-francisco-dermatologists",
+    "title": "UCSF/ZSFG-Affiliated Dermatologists in San Francisco",
+    "fit": "New identity named in current UCSF Health dermatology material with a San Francisco Mount Zion clinic. Fits the directory's existing UCSF-affiliated sample; not a scope expansion."
+  },
+  "provider": {
+    "id": "c7fb1504-dc25-449c-9f2a-4889640f34e4",
+    "name": "Tiffany C. Scharschmidt",
+    "title": "MD",
+    "canonicalPath": "tiffanyscharschmidt",
+    "pathCheck": {
+      "recommended": "tiffanyscharschmidt",
+      "alternatives": [
+        "tiffanycscharschmidt",
+        "scharschmidt"
+      ],
+      "checkedAgainst": "Current provider and directory canonical paths, aliases, and reserved application paths"
+    },
+    "existingIdentityCheck": "No matching provider identity was found among the current 108 provider records. The named UCSF Health profile and named lab profile both refer to Tiffany C. Scharschmidt."
+  },
+  "narrative": {
+    "sectionId": "humanity-clinical-research-approach-scharschmidt-2026-10-17",
+    "heading": "A clinical and research approach",
+    "text": "Tiffany C. Scharschmidt describes her work as spanning dermatology, microbiology and immunology. In her named lab profile, she says she devotes 80% of her time to research and the rest to caring for patients with severe inflammatory skin disease; her lab studies interactions between bacteria and the developing immune system using human skin, blood and microbiome samples alongside model systems. UCSF Health also describes her adult dermatology care and work overseeing multidisciplinary care for complex skin disease. These are her institutionally published descriptions of a distinctive research-and-clinical approach, not claims of patient outcomes or independent credential verification.",
+    "claimMap": [
+      {
+        "claim": "Scharschmidt describes her work as spanning dermatology, microbiology and immunology.",
+        "sourceId": "tiffany-scharschmidt-lab-profile-2026-10-17",
+        "excerpt": "I am a dermatologist, microbiologist, and immunologist"
+      },
+      {
+        "claim": "She says she devotes 80% of her time to research and the rest to caring for patients with severe inflammatory skin disease.",
+        "sourceId": "tiffany-scharschmidt-lab-profile-2026-10-17",
+        "excerpt": "I dedicate 80% of my time to research and the remaining time taking care of patients with severe inflammatory skin diseases."
+      },
+      {
+        "claim": "Her lab studies interactions between bacteria and the developing immune system using human skin, blood and microbiome samples alongside model systems.",
+        "sourceId": "tiffany-scharschmidt-lab-profile-2026-10-17",
+        "excerpt": "investigate the cellular and molecular mechanisms that mediate interactions between bacteria and the developing immune system [...] Work in my lab leverages access to human samples, including human skin and blood, as well as corresponding microbiome samples [...] We also employ a reductionist approach, utilizing [...] murine models"
+      },
+      {
+        "claim": "UCSF Health describes her adult dermatology care and role overseeing multidisciplinary care for complex skin disease.",
+        "sourceId": "tiffany-scharschmidt-ucsf-health-2026-10-17",
+        "excerpt": "cares for adults with a range of dermatological conditions. She also helps to oversee the multidisciplinary care of patients with complex skin disease."
+      }
+    ],
+    "sources": [
+      {
+        "id": "tiffany-scharschmidt-lab-profile-2026-10-17",
+        "url": "https://scharschmidtlab.ucsf.edu/people/tiffany-scharschmidt-md",
+        "title": "Tiffany Scharschmidt, MD",
+        "publisher": "Scharschmidt Lab, UCSF",
+        "retrievedDate": "2026-10-17"
+      },
+      {
+        "id": "tiffany-scharschmidt-ucsf-health-2026-10-17",
+        "url": "https://www.ucsfhealth.org/providers/tiffany-scharschmidt",
+        "title": "Tiffany C. Scharschmidt, MD — Dermatology",
+        "publisher": "UCSF Health",
+        "retrievedDate": "2026-10-17"
+      }
+    ],
+    "assessment": "Qualifies as an individually described, distinctive clinical-and-research work approach, not a credentials summary. Source statements remain attributed; no patient outcome, personal motive, or independent clinical/credential claim is inferred."
+  },
+  "access": {
+    "sourceId": "tiffany-scharschmidt-ucsf-health-2026-10-17",
+    "text": "UCSF Health lists Dermatology Mount Zion at 1701 Divisadero Street, San Francisco, CA 94115, phone 415-353-7800, with request-appointment and refer-a-patient links and telehealth listed. These are contact routes, not confirmation of appointment capacity or a requirement to obtain a referral. The profile links to UCSF insurance information but does not establish plan-specific participation. Individual availability, fees, referral requirements, plan coverage and language details remain unconfirmed."
+  },
+  "portrait": {
+    "disposition": "new-modest-immediate-local-source-linked-preview",
+    "sourcePage": "https://www.ucsfhealth.org/providers/tiffany-scharschmidt",
+    "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/scharschmidt-tiffany-1073760096-a95803d83fb4fc3516800d23ae4351b8.jpg",
+    "retrieval": {
+      "method": "ordinary direct HTTPS GET",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 243910,
+      "lastModified": "2025-12-03T23:19:39Z",
+      "setCookieObserved": false
+    },
+    "sourceImage": {
+      "format": "JPEG",
+      "width": 640,
+      "height": 640,
+      "sha256": "a1f1b288394f88ad1b95191bba35badc1b2c2799e81464422ba26a8fe958171f",
+      "visualInspection": "The exact decoded bytes show one person with a clearly visible full face in a head-and-shoulders portrait. The named UCSF Health page labels this exact asset 'Portrait of Tiffany C. Scharschmidt.'"
+    },
+    "localDelivery": {
+      "path": "client/public/images/providers/tiffany-scharschmidt-source-preview.webp",
+      "format": "WebP",
+      "width": 360,
+      "height": 360,
+      "bytes": 10490,
+      "sha256": "c97e95a3e78425fd9baf38cf9f386efc0566f920057afc0407c95cd6348f4583",
+      "transformation": "Proportional resize to 360 by 360; no crop or frame composition change."
+    },
+    "reuseTerms": "Unknown. This is a modest source-linked ordinary page preview, not ownership, blanket permission, derivative-card approval, structured-data image approval, or clinical verification.",
+    "structuredData": "Withhold the image from structured data."
+  },
+  "preservedControls": {
+    "status": "published",
+    "indexable": false,
+    "claimStatus": "unclaimed",
+    "reviewStatus": "pending-human-review",
+    "licenseLookupStatus": "pending",
+    "clinicalVerification": "not performed"
+  },
+  "qualification": {
+    "expectedNetUniqueIdGain": 1,
+    "countOnlyAfter": [
+      "record and citations are imported without changing unrelated identities or states",
+      "all-record, fixed-baseline and media inventory checks pass",
+      "API and readable patient page expose the complete narrative and usable citations",
+      "desktop and touch-mobile checks confirm local portrait delivery, source links and no initial third-party request or cookie"
+    ]
+  }
+}
