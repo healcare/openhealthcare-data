@@ -1,0 +1,178 @@
+{
+  "kind": "applied-profile-result",
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-17",
+  "baseAppRevision": "79fae76aafcf7eb40b0102301298282d48e99140",
+  "resultingAppRevision": "caa7acc1e4b79d5fc2e120dce7ba4e015d386eee",
+  "baseDataRevision": "29bb425e64aefac0b98ca71202f661deda7be78d",
+  "candidatePacketRevision": "29bb425e64aefac0b98ca71202f661deda7be78d",
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "counts": {
+    "qualifyingUniqueProviderIds": {
+      "before": 91,
+      "after": 92
+    },
+    "providerRecords": {
+      "before": 110,
+      "after": 111
+    },
+    "approvedLocalPortraitDeliveries": {
+      "before": 102,
+      "after": 103
+    }
+  },
+  "items": [
+    {
+      "id": "72f690e5-ae8b-427e-bd77-e435372bba53",
+      "name": "James (Jimmy) Meixiong",
+      "canonicalPath": "jamesmeixiong",
+      "directory": "san-francisco-dermatologists",
+      "disposition": "accepted",
+      "reason": "New in-scope UCSF identity with an explicit named-source personal-interest narrative, source-scoped patient access details, and an individually decoded and visually inspected immediate local source-linked portrait. New record and delivery, not historical recovery.",
+      "appliedChanges": [
+        {
+          "path": "new provider record and San Francisco directory membership",
+          "reason": "Added a collision-checked clean path, claim-mapped narrative, source-listed patient pathway, and explicit access unknowns without expanding directory scope."
+        },
+        {
+          "path": "local source-linked preview and independent portrait inventory",
+          "reason": "Added the exact visually inspected named portrait as a proportional local preview and manually recorded exact source/local dimensions, bytes, hashes, cookie observations, and provenance."
+        },
+        {
+          "path": "humanity assessment and dated source-backed presentation entry",
+          "reason": "Added one qualifying unique ID while preserving non-indexing, unclaimed, pending-review, pending-license, source-stated clinical, and structured-data image withholding states."
+        }
+      ],
+      "deltas": {
+        "qualifyingUniqueProviderIds": 1,
+        "providerRecords": 1,
+        "approvedLocalPortraitDeliveries": 1
+      },
+      "narrative": {
+        "sectionId": "humanity-personal-interests-meixiong-2026-10-17",
+        "sourceIds": [
+          "james-meixiong-ucsf-health-2026-10-17"
+        ],
+        "scope": "UCSF Health says he goes by Jimmy and describes him as a poker enthusiast and armchair philosopher. The story records these explicit personal interests only; it does not infer clinical style, motivation, or patient outcomes."
+      },
+      "access": {
+        "sourceId": "james-meixiong-ucsf-health-2026-10-17",
+        "visibleFacts": [
+          "Dermatology China Basin, 185 Berry Street, Suite 1000, San Francisco, CA 94107",
+          "Source-listed phone +1-415-353-7800",
+          "UCSF Health telehealth and appointment/referral routes"
+        ],
+        "unconfirmed": [
+          "Appointment capacity, new-patient eligibility, or individual availability",
+          "Plan-specific insurance participation",
+          "Fees",
+          "Whether a referral is required",
+          "Language or interpreter availability"
+        ],
+        "clinicalAndCredentialStatus": "Source-stated only; no independent clinical, license, or board verification was performed."
+      },
+      "portrait": {
+        "disposition": "new-local-source-linked-preview-not-recovery",
+        "sourcePage": "https://www.ucsfhealth.org/providers/james-meixiong",
+        "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/dr-james-meixiong-md-320x320-2x-fd9304d3389b96133f9b0e35aed85b8a.jpg",
+        "sourcePageHttpStatus": 200,
+        "sourcePageSetCookieHeaders": 2,
+        "sourceImage": {
+          "format": "JPEG",
+          "width": 640,
+          "height": 640,
+          "bytes": 312568,
+          "sha256": "ba2540bd985a24d332c4ef7e83cbd4f83ec5e7b92427891f8a6b4e4eacf4dd13",
+          "setCookieObserved": false,
+          "visualInspection": "The exact decoded asset is a single-person, full-face, head-and-shoulders portrait; the named page labels the linked asset as James (Jimmy) Meixiong's portrait."
+        },
+        "localDelivery": {
+          "path": "client/public/images/providers/james-meixiong-source-preview.webp",
+          "format": "WebP",
+          "width": 360,
+          "height": 360,
+          "bytes": 12602,
+          "sha256": "aa852fcc086fb8524684f06c2a717471e0f31f4282a7dd180889fe08de103445",
+          "transformation": "Proportional resize; no crop."
+        },
+        "sourcePageCookieObservation": "The named source page's ordinary GET returned two Set-Cookie headers; values were not retained. The image GET returned none. Browser checks observed zero third-party requests and cookies before explicit activation; the page may set cookies after the user opens it.",
+        "reuseTerms": "Unknown. Ordinary source-linked preview only; no ownership, blanket permission, derivative-card, or structured-data image approval is claimed.",
+        "structuredData": "Withhold the image from structured data."
+      },
+      "preservedControls": {
+        "status": "published",
+        "indexable": false,
+        "claimStatus": "unclaimed",
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending",
+        "clinicalVerification": "not performed",
+        "aliases": [],
+        "structuredDataImage": "withheld"
+      }
+    }
+  ],
+  "preserved": [
+    "The fixed accepted-ID baseline and all earlier qualifying IDs.",
+    "Existing provider identities, canonical paths, aliases, directory memberships, clinical facts, newer evidence, source dates, and citations.",
+    "Existing review/indexing/claim controls and identity, clinical, regulatory, access, media, and editorial holds.",
+    "The San Francisco directory's existing UCSF/ZSFG affiliation and geographic scope.",
+    "Source-attributed access details separately from clinical verification and appointment availability.",
+    "Unknown media reuse terms and the distinction between an ordinary local portrait preview and derivative profile-card media.",
+    "Previous dated directory wording was retained verbatim; the Meixiong note was appended rather than substituting a new summary."
+  ],
+  "checks": [
+    {
+      "name": "npm run validate-data",
+      "result": "passed",
+      "scope": "127 entity files (13 directories, 111 providers, 3 organizations, and one organization-directory bundle); 103 independent local portrait deliveries; fixed baseline and preservation guards; 92/111 qualifying unique IDs."
+    },
+    {
+      "name": "npm run validate:profile-import -- --base 79fae76aafcf7eb40b0102301298282d48e99140",
+      "result": "passed",
+      "scope": "One added provider and one updated directory file; stable existing paths, identities, prior content, review states, and holds preserved."
+    },
+    {
+      "name": "npm run check",
+      "result": "passed",
+      "scope": "TypeScript check."
+    },
+    {
+      "name": "npm run build",
+      "result": "passed",
+      "scope": "Application production build; existing non-fatal toolchain warnings only."
+    },
+    {
+      "name": "npm run test:pilot",
+      "result": "passed",
+      "scope": "105/105; includes exact San Francisco directory membership, API narrative/access/source checks, local portrait delivery, and JSON-LD image withholding."
+    },
+    {
+      "name": "npm run test:contract",
+      "result": "passed",
+      "scope": "83/83; zero skipped, including exact provider and source-backed cohort totals."
+    },
+    {
+      "name": "npm run test:http",
+      "result": "passed",
+      "scope": "110/110 API and server-rendered route cases; zero skipped."
+    },
+    {
+      "name": "HUMANITY_IDS=72f690e5-ae8b-427e-bd77-e435372bba53 npm run test:browser -- tests/humanity-patient-ready.spec.ts",
+      "result": "passed",
+      "scope": "3/3: desktop, touch-emulated mobile and actual source-link tap; complete readable narrative/access, API citation mapping, immediate local image decode, no third-party request/cookie before activation, accessible citation name, correct popup destination, and adjacent disclosure state."
+    },
+    {
+      "name": "Desktop and touch-mobile full-page app previews",
+      "result": "passed",
+      "scope": "Profile, local portrait, review/indexing notice, story, citations, access details, and unknowns were visually reviewed."
+    }
+  ],
+  "limits": [
+    "No full unrelated browser suite, physical mobile device, independent screen-reader audit, or real Safari-device test is claimed.",
+    "No independent clinical, license, board, capacity, or media-rights verification was performed.",
+    "Reuse terms remain unknown; structured-data and derivative-card image use remain withheld.",
+    "The source page may set cookies after explicit navigation; this is source-site behavior, not an app guarantee.",
+    "No load/performance test at thousands of profiles was performed.",
+    "No indexing/review promotion or deployment occurred."
+  ]
+}
