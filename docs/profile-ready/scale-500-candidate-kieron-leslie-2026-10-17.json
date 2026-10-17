@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "kind": "source-prepared-research-candidate",
+  "preparedOn": "2026-10-17",
+  "baseAppRevision": "d67118ebb9cefa25231416ab810bc3ebb392bf6d",
+  "status": "research-prepared-not-imported",
+  "directoryCandidate": "san-francisco-dermatologists",
+  "providerIdMeaning": "Research key only; not an app UUID. Reconcile existing records and active work before assigning or reusing a permanent ID.",
+  "controls": {
+    "sourceStatedOnly": true,
+    "independentClinicalVerification": false,
+    "licenseLookup": "pending",
+    "humanReview": "pending",
+    "indexable": false,
+    "unclaimed": true,
+    "clearExistingHolds": false,
+    "structuredDataImageApproved": false,
+    "derivativeUseApproved": false,
+    "deployment": false
+  },
+  "accessUnknowns": [
+    "Appointment capacity and new-patient eligibility",
+    "Hours",
+    "Fees",
+    "Exact-plan insurance participation",
+    "Referral necessity",
+    "Languages and interpreter availability"
+  ],
+  "requiredBeforeCount": [
+    "Current app identity/path/directory and active-work reconciliation",
+    "Validated contribution with permanent provider ID",
+    "Preservation, data, portrait and humanity checks",
+    "Required technical suites with healthy local server",
+    "Desktop and touch-mobile profile/card delivery, citations, source tap and no initial third-party requests/cookies",
+    "Separate applied receipt with actual count deltas"
+  ],
+  "provider": {
+    "id": "research-ucsf-kieron-leslie",
+    "name": "Kieron S. Leslie",
+    "sourceTitle": "MBBS, DTMH",
+    "proposedPath": "kieronleslie",
+    "pathStatus": "Proposal only; app collision check required"
+  },
+  "readiness": "Source narrative, current SF access and inspected portrait ready for scoped import assessment; not imported or counted.",
+  "sources": [
+    {
+      "id": "leslie-lab-2026-10-17",
+      "url": "https://leslielab.ucsf.edu/about",
+      "title": "About — Leslie Research Group, UCSF",
+      "retrievedOn": "2026-10-17",
+      "evidenceStatus": "source-stated"
+    },
+    {
+      "id": "leslie-health-2026-10-17",
+      "url": "https://www.ucsfhealth.org/providers/kieron-leslie",
+      "title": "Kieron S. Leslie — UCSF Health",
+      "retrievedOn": "2026-10-17",
+      "evidenceStatus": "source-stated"
+    }
+  ],
+  "narrative": {
+    "heading": "Mentoring and community work",
+    "text": "UCSF's Leslie Research Group describes Kieron Leslie's work mentoring underrepresented trainees. It reports that he founded the Marcus Conant Fellowship in 2020 to support early-career physicians working on research and advocacy for people living with HIV and LGBTQ+ communities.",
+    "sourceIds": [
+      "leslie-lab-2026-10-17"
+    ],
+    "claimMap": [
+      {
+        "claim": "Mentoring underrepresented trainees; founding the fellowship in 2020 and its stated purpose.",
+        "sourceId": "leslie-lab-2026-10-17",
+        "locator": "Opening two biography paragraphs"
+      }
+    ]
+  },
+  "access": {
+    "sourceIds": [
+      "leslie-health-2026-10-17"
+    ],
+    "location": "Dermatology Mission Bay, 520 Illinois St., Third Floor, San Francisco, CA 94158",
+    "phone": "+1-415-353-7800",
+    "phoneTested": false,
+    "telehealth": "Listed",
+    "appointmentAndReferral": "Named page offers both controls; ordinary HTML targets its #locations section. This is not an independently tested booking system or evidence of available slots.",
+    "sourceUrl": "https://www.ucsfhealth.org/providers/kieron-leslie#locations"
+  },
+  "portrait": {
+    "sourcePage": "https://www.ucsfhealth.org/providers/kieron-leslie",
+    "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/leslie-kieron-1578514824-c14a136ff454d836063347375c9fc8d5.jpg",
+    "repositoryFile": "docs/research/media/scale-500-2026-10-17/kieron-leslie-source.jpg",
+    "httpStatus": 200,
+    "headerContentType": "image/jpeg",
+    "decodedFormat": "JPEG",
+    "width": 640,
+    "height": 640,
+    "bytes": 237272,
+    "sha256": "de65383b3a46abcf2306d24ea8cd3ad69e4b7565b41960f7be7d6afa7e01f5eb",
+    "assetSetCookieHeadersObserved": false,
+    "retrieval": "Ordinary direct HTTPS GET, 2026-10-17",
+    "visualReview": "Exact downloaded bytes opened and inspected: one clear full face. Named official page associates the image with Kieron S. Leslie; no biometric or independent identity verification.",
+    "imageDisposition": "Source-linked preview candidate; inspected source bytes only, no app delivery yet.",
+    "reuseTerms": "Unknown. No ownership, derivative/composite or structured-data image permission inferred.",
+    "appPreview": {
+      "created": false,
+      "delivered": false,
+      "privacyTested": false,
+      "proposedTreatment": "Modest proportional local preview, no crop/enlargement; retain named source link and accessible alt text."
+    }
+  },
+  "excludedClaims": [
+    "No independent degree/license verification; do not convert MBBS to MD.",
+    "No clinical superiority, patient-outcome, medicine-list causal claim or personal sensitive attribute proposed."
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "kind": "source-prepared-research-candidate",
+  "preparedOn": "2026-10-17",
+  "baseAppRevision": "d67118ebb9cefa25231416ab810bc3ebb392bf6d",
+  "status": "research-prepared-not-imported",
+  "directoryCandidate": "san-francisco-dermatologists",
+  "providerIdMeaning": "Research key only; not an app UUID. Reconcile existing records and active work before assigning or reusing a permanent ID.",
+  "controls": {
+    "sourceStatedOnly": true,
+    "independentClinicalVerification": false,
+    "licenseLookup": "pending",
+    "humanReview": "pending",
+    "indexable": false,
+    "unclaimed": true,
+    "clearExistingHolds": false,
+    "structuredDataImageApproved": false,
+    "derivativeUseApproved": false,
+    "deployment": false
+  },
+  "accessUnknowns": [
+    "Appointment capacity and new-patient eligibility",
+    "Hours",
+    "Fees",
+    "Exact-plan insurance participation",
+    "Referral necessity",
+    "Languages and interpreter availability"
+  ],
+  "requiredBeforeCount": [
+    "Current app identity/path/directory and active-work reconciliation",
+    "Validated contribution with permanent provider ID",
+    "Preservation, data, portrait and humanity checks",
+    "Required technical suites with healthy local server",
+    "Desktop and touch-mobile profile/card delivery, citations, source tap and no initial third-party requests/cookies",
+    "Separate applied receipt with actual count deltas"
+  ],
+  "provider": {
+    "id": "research-ucsf-sarah-coates",
+    "name": "Sarah Coates",
+    "sourceTitle": "MD",
+    "proposedPath": "sarahcoates",
+    "pathStatus": "Proposal only; app collision check required"
+  },
+  "readiness": "Named story and department portrait prepared. Patient-page image held for conflicting association. SF clinic scope must remain carefully attributed during import.",
+  "sources": [
+    {
+      "id": "coates-benioff-2026-10-17",
+      "url": "https://www.ucsfbenioffchildrens.org/providers/sarah-coates",
+      "title": "Sarah Coates — UCSF Benioff Children's Hospitals",
+      "retrievedOn": "2026-10-17",
+      "evidenceStatus": "source-stated"
+    },
+    {
+      "id": "coates-department-2026-10-17",
+      "url": "https://dermatology.ucsf.edu/about-us/our-team/sarah-coates-md",
+      "title": "Sarah Coates — UCSF Dermatology",
+      "retrievedOn": "2026-10-17",
+      "evidenceStatus": "source-stated"
+    },
+    {
+      "id": "coates-appointments-2026-10-17",
+      "url": "https://www.ucsfbenioffchildrens.org/request-an-appointment-search/results?requestAnApptSearchByDoctor=a680f7b3614c48dc937679cbcf1eb305",
+      "title": "Request appointment with Sarah Coates",
+      "retrievedOn": "2026-10-17",
+      "evidenceStatus": "source-stated"
+    },
+    {
+      "id": "coates-referrals-2026-10-17",
+      "url": "https://www.ucsfbenioffchildrens.org/refer-a-patient-search/results?patientReferralSearchByDoctor=a680f7b3614c48dc937679cbcf1eb305",
+      "title": "Refer a patient to Sarah Coates",
+      "retrievedOn": "2026-10-17",
+      "evidenceStatus": "source-stated"
+    }
+  ],
+  "narrative": {
+    "heading": "Global health and life beyond work",
+    "text": "UCSF Benioff Children's Hospitals describes Sarah Coates's work in East Africa beginning in 2011, including research in Kampala, Uganda. Her profile also notes interests in hiking, reading and travel. In a personal statement on that page, she describes caring for patients alongside colleagues and trainees as her dream job.",
+    "sourceIds": [
+      "coates-benioff-2026-10-17"
+    ],
+    "claimMap": [
+      {
+        "claim": "East Africa work since 2011 and Kampala research.",
+        "sourceId": "coates-benioff-2026-10-17",
+        "locator": "About me, research paragraph"
+      },
+      {
+        "claim": "Hiking, reading, travel and her stated appreciation of collaborative patient care.",
+        "sourceId": "coates-benioff-2026-10-17",
+        "locator": "Named header tagline and personal statement"
+      }
+    ]
+  },
+  "access": {
+    "sourceIds": [
+      "coates-benioff-2026-10-17",
+      "coates-department-2026-10-17",
+      "coates-appointments-2026-10-17",
+      "coates-referrals-2026-10-17"
+    ],
+    "phone": "+1-415-353-7800",
+    "phoneTested": false,
+    "telehealth": "Named profile links video-visit information; availability for a specific visit is unknown.",
+    "directoryFit": "Named pediatric appointment/referral pages link Dermatology Clinic and list San Francisco among its cities. Her biography also describes adult care at ZSFG, but that does not establish an adult intake route.",
+    "contactAddress": "Department page lists 1701 Divisadero St., 3rd Floor, San Francisco, CA 94115 as Contact Info, not an independently confirmed appointment venue.",
+    "appointmentUrl": "https://www.ucsfbenioffchildrens.org/request-an-appointment-search/results?requestAnApptSearchByDoctor=a680f7b3614c48dc937679cbcf1eb305",
+    "referralUrl": "https://www.ucsfbenioffchildrens.org/refer-a-patient-search/results?patientReferralSearchByDoctor=a680f7b3614c48dc937679cbcf1eb305",
+    "limits": "Do not assign all multi-site clinic addresses as her offices or infer adult access from pediatric routes."
+  },
+  "portrait": {
+    "sourcePage": "https://dermatology.ucsf.edu/about-us/our-team/sarah-coates-md",
+    "sourceAsset": "https://dermatology.ucsf.edu/sites/dermatology.ucsf.edu/files/styles/max_fp_650x650/public/2023-10/Sarah_close_0.jpg.webp?h=7ee04fc1&itok=Y43Le7KJ",
+    "repositoryFile": "docs/research/media/scale-500-2026-10-17/sarah-coates-department-source.webp",
+    "httpStatus": 200,
+    "headerContentType": "image/jpeg",
+    "decodedFormat": "WEBP",
+    "width": 650,
+    "height": 650,
+    "bytes": 20334,
+    "sha256": "858b655791b1749474e92b53f9fbd7c8dd2a092c0a42ae7a0f030b1f46763bb0",
+    "assetSetCookieHeadersObserved": false,
+    "retrieval": "Ordinary direct HTTPS GET, 2026-10-17",
+    "visualReview": "Exact downloaded bytes opened and inspected: one clear full face. Named official page associates the image with Sarah Coates; no biometric or independent identity verification.",
+    "imageDisposition": "Source-linked preview candidate; inspected source bytes only, no app delivery yet.",
+    "reuseTerms": "Unknown. No ownership, derivative/composite or structured-data image permission inferred.",
+    "appPreview": {
+      "created": false,
+      "delivered": false,
+      "privacyTested": false,
+      "proposedTreatment": "Modest proportional local preview, no crop/enlargement; retain named source link and accessible alt text."
+    }
+  },
+  "mediaConflict": {
+    "heldAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/flatley-erin-1932537172-1260babf230ac9fba86531129915d08e.jpg",
+    "observation": "Patient-page alt/OG/JSON-LD names Coates but asset filename names Erin Flatley. Do not use this asset. Alternative department page directly labels and links its Sarah Coates image.",
+    "heldAssetDownloaded": false,
+    "appHoldCleared": false
+  },
+  "excludedClaims": [
+    "No hobby-to-care-quality inference.",
+    "No inherited board-certification/independent credentials approval.",
+    "No appointment venue or capacity inferred from a departmental contact address."
+  ]
+}

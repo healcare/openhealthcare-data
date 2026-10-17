@@ -51,3 +51,10 @@ Two other named UCSF pages were checked and deferred: Kristan Schiele's page (`h
 ## Materially new evidence — Matthew Mansh prepared for 96 → 97 (2026-10-17)
 
 The new named first-person *Dermatology Times* interview and exact portrait inspection resolve the two gaps noted above. The named UCSF profile and current Mission Bay pages confirm a San Francisco clinic, appointment/referral paths, phone and hours. A source-mapped clean candidate packet is prepared but has not yet been imported or counted; the detailed narrative, access, image-byte and cookie observations are in [`the separate Mansh research note`](humanity-matthew-mansh-evidence-2026-10-17.md). This is new qualifying evidence, not a change to an older accepted ID. Preserve the dated Minnesota context, the brief “avid hiker” detail, source-stated clinical status, and all noindex/review/license controls.
+
+
+## Supplemental evidence continuation — October 17, 2026 (research only)
+
+The [scale-to-500 handoff](scale-500-handoff-2026-10-17.md) adds source-mapped research for Kieron Leslie and Sarah Coates, with exact visually inspected official-source portrait bytes. Coates's Benioff portrait URL has a conflicting filename and remains withheld; the separately named department image is supplied instead. This materially new access supersedes only the earlier failed-retrieval observation, not any identity/review hold.
+
+Matthew Mansh's exact named portrait bytes have now been decoded, hashed and visually inspected in research. His current UCSF Fun facts field and a dated 2023 first-person interview supply additional narrative evidence. This is supplemental to Replit's active assignment, not a second import or count gain. Research inspection does not prove app delivery; the older lead note above remains historical. Existing Garrett Patrick, Jeffrey North, Haley Naik and other bounded-negative/held dispositions remain unchanged. Reconcile current app IDs and active work before assigning permanent IDs or importing any packet. The baseline receipt remains 96; this research update adds zero qualifying IDs.

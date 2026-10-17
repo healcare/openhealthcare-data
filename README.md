@@ -107,3 +107,8 @@ This new Irvine scope does not reopen the existing Orange County plastic-surgeon
 ## Open search signals
 
 [Lightweight research logs](research/search-signals/README.md) preserve attributable positive/negative insurance statements, snippet leads, failed retrievals, historical records and corrections. They supplement structured evidence without automatically changing profile claims or badges. The [Irvine insurance log](research/search-signals/2026-10-02-irvine-dental-insurance.txt) includes explicit practice-stated Medi-Cal/HMO nonparticipation and future badge guidance.
+
+
+## Scale-to-500 preparation — October 17, 2026
+
+See [operational lessons and proposed measurement experiment](docs/SCALE-TO-500.md) and the [supplemental research handoff](docs/research/scale-500-handoff-2026-10-17.md). Two additional named-source candidates and inspected portrait evidence for the active Mansh task are prepared separately from app results. No accepted count changes in this research update; reconcile concurrent Replit work before importing.
