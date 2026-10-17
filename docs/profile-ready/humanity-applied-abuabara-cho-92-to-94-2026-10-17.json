@@ -1,0 +1,268 @@
+{
+  "kind": "applied-profile-result",
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-17",
+  "baseAppRevision": "caa7acc1e4b79d5fc2e120dce7ba4e015d386eee",
+  "resultingAppRevision": "416225a534d6791d676029d95f346620728b8165",
+  "resultingAppTree": "2c6faac16505dfa5b97bcb196781141230af117d",
+  "baseDataRevision": "a198e32cd459c1db428f5d06f6b16c60c56e4fd5",
+  "candidatePacketRevision": "43bc0e0709983800c88d88a9f1cbed735f240072",
+  "researchReviewRevision": "43bc0e0709983800c88d88a9f1cbed735f240072",
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "counts": {
+    "qualifyingUniqueProviderIds": {
+      "before": 92,
+      "after": 94
+    },
+    "providerRecords": {
+      "before": 111,
+      "after": 113
+    },
+    "approvedLocalPortraitDeliveries": {
+      "before": 103,
+      "after": 105
+    },
+    "sanFranciscoDermatologyDirectoryMembers": {
+      "before": 18,
+      "after": 20
+    }
+  },
+  "items": [
+    {
+      "id": "994041a0-7cdc-4dc4-9ba7-96679fa7cc27",
+      "name": "Katrina Abuabara",
+      "canonicalPath": "katrinaabuabara",
+      "directory": "san-francisco-dermatologists",
+      "disposition": "accepted",
+      "changeType": "new-provider-and-new-local-preview",
+      "reason": "A named UCSF Health page supplies a specific personal-interest narrative, a San Francisco patient-access pathway, and an individually labeled portrait whose exact bytes were decoded and visually inspected. Clean route collision checks passed.",
+      "appliedChanges": [
+        "Added the source-mapped patient narrative, dated named-page citation, access details, and explicit unknowns to a new source-stated profile.",
+        "Added the named, visually inspected portrait as a modest uncropped local source-linked preview and deliberately updated the independent delivery inventory.",
+        "Added the profile to the existing directory while preserving noindex, unclaimed, pending-review, pending-license, and structured-data image withholding states."
+      ],
+      "deltas": {
+        "qualifyingUniqueProviderIds": 1,
+        "providerRecords": 1,
+        "approvedLocalPortraitDeliveries": 1
+      },
+      "narrative": {
+        "sectionId": "humanity-personal-interests-abuabara-2026-10-17",
+        "sourceIds": [
+          "katrina-abuabara-ucsf-health-2026-10-17"
+        ],
+        "scope": "The named page describes her as a researcher, mountain lover and tropical-fruit aficionado. The narrative reports these interests without inferring clinical style or patient outcomes."
+      },
+      "access": {
+        "sourceId": "katrina-abuabara-ucsf-health-2026-10-17",
+        "visibleFacts": [
+          "Dermatology Mount Zion, 1701 Divisadero Street, San Francisco, CA 94115",
+          "Source-listed phone +1-415-353-7800",
+          "UCSF Health lists telehealth and request-appointment/refer-a-patient routes"
+        ],
+        "unconfirmed": [
+          "Current appointment availability, capacity, and new-patient eligibility",
+          "Plan-specific insurance participation",
+          "Fees",
+          "Whether a referral is required",
+          "Language and interpreter options"
+        ],
+        "verification": "Source-stated access observations only; no independent clinical, license, or board verification."
+      },
+      "portrait": {
+        "disposition": "new-local-source-linked-preview-not-recovery",
+        "sourcePage": "https://www.ucsfhealth.org/providers/katrina-abuabara",
+        "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/abuabara-katrina-1558689216-b57a0f14ca5423dc24d6f66950e67bf9.jpg",
+        "sourcePageHttpStatus": 200,
+        "sourcePageSetCookieHeaders": 2,
+        "sourceImage": {
+          "format": "JPEG",
+          "width": 640,
+          "height": 640,
+          "bytes": 260212,
+          "sha256": "a24df3bd038096b4cb4258404ea03f491087a8ba5f598d31ff84f42bf351f4ec",
+          "lastModified": "2025-12-03T23:01:56Z",
+          "setCookieObserved": false,
+          "visualInspection": "The exact decoded image is a clear, single-person, full-face portrait. The named page labels the image Portrait of Katrina Abuabara."
+        },
+        "localDelivery": {
+          "path": "client/public/images/providers/katrina-abuabara-source-preview.webp",
+          "format": "WebP",
+          "width": 360,
+          "height": 360,
+          "bytes": 13422,
+          "sha256": "4e22051843274cab3fa5be7b8c8bdb29e4c0c5e46c13992a3713a3e3f7cd8bf3",
+          "transformation": "Proportional resize; no crop or enlargement."
+        },
+        "sourcePageCookieObservation": "The ordinary named-page request returned two Set-Cookie headers; values were not retained. The exact image request returned none. Browser checks observed no third-party request or cookie before explicit source-link activation.",
+        "reuseTerms": "Unknown. This is an ordinary locally served source-linked preview only; no ownership, blanket permission, derivative-card approval, or structured-data image approval is claimed.",
+        "structuredData": "Image withheld."
+      },
+      "preservedControls": {
+        "status": "published",
+        "indexable": false,
+        "claimStatus": "unclaimed",
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending",
+        "clinicalVerification": "not performed",
+        "aliases": [],
+        "structuredDataImage": "withheld"
+      }
+    },
+    {
+      "id": "ba84c467-b9f0-4103-b2ea-44234252d37a",
+      "name": "Raymond Cho",
+      "canonicalPath": "raymondcho",
+      "directory": "san-francisco-dermatologists",
+      "disposition": "accepted",
+      "changeType": "new-provider-and-new-local-preview",
+      "reason": "A named UCSF Health page supplies specific personal interests, a San Francisco patient-access pathway, and an individually labeled portrait whose exact bytes were decoded and visually inspected. Clean route collision checks passed.",
+      "appliedChanges": [
+        "Added the source-mapped patient narrative, dated named-page citation, access details, and explicit unknowns to a new source-stated profile.",
+        "Added the named, visually inspected portrait as a modest uncropped local source-linked preview and deliberately updated the independent delivery inventory.",
+        "Added the profile to the existing directory while preserving noindex, unclaimed, pending-review, pending-license, and structured-data image withholding states."
+      ],
+      "deltas": {
+        "qualifyingUniqueProviderIds": 1,
+        "providerRecords": 1,
+        "approvedLocalPortraitDeliveries": 1
+      },
+      "narrative": {
+        "sectionId": "humanity-personal-interests-cho-2026-10-17",
+        "sourceIds": [
+          "raymond-cho-ucsf-health-2026-10-17"
+        ],
+        "scope": "The named page describes him as an itinerant snowboarder and cryptic-crossword enthusiast. The narrative reports these interests without inferring clinical style or patient outcomes."
+      },
+      "access": {
+        "sourceId": "raymond-cho-ucsf-health-2026-10-17",
+        "visibleFacts": [
+          "Dermatology Mount Zion, 1701 Divisadero Street, San Francisco, CA 94115",
+          "Source-listed phone +1-415-353-7800",
+          "UCSF Health lists telehealth and request-appointment/refer-a-patient routes"
+        ],
+        "unconfirmed": [
+          "Current appointment availability, capacity, and new-patient eligibility",
+          "Plan-specific insurance participation",
+          "Fees",
+          "Whether a referral is required",
+          "Language and interpreter options"
+        ],
+        "verification": "Source-stated access observations only; no independent clinical, license, or board verification."
+      },
+      "portrait": {
+        "disposition": "new-local-source-linked-preview-not-recovery",
+        "sourcePage": "https://www.ucsfhealth.org/providers/raymond-cho",
+        "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/cho-raymond-1790999175-2fd796784aaec7d030dcc6231b54726f.jpg",
+        "sourcePageHttpStatus": 200,
+        "sourcePageSetCookieHeaders": 2,
+        "sourceImage": {
+          "format": "JPEG",
+          "width": 640,
+          "height": 640,
+          "bytes": 247804,
+          "sha256": "70ccbe90b7c67bbb4e2959021d02d2dba268a75c1cb7f6c9ca6dc6fe8aaac5e1",
+          "lastModified": "2025-12-04T00:33:55Z",
+          "setCookieObserved": false,
+          "visualInspection": "The exact decoded image is a clear, single-person, full-face portrait. The named page labels the image Portrait of Raymond Cho."
+        },
+        "localDelivery": {
+          "path": "client/public/images/providers/raymond-cho-source-preview.webp",
+          "format": "WebP",
+          "width": 360,
+          "height": 360,
+          "bytes": 10396,
+          "sha256": "36c4a23e3b6a5d8cc490da245f4dea8ba2b86b1f560ec456ab647230c4b42763",
+          "transformation": "Proportional resize; no crop or enlargement."
+        },
+        "sourcePageCookieObservation": "The ordinary named-page request returned two Set-Cookie headers; values were not retained. The exact image request returned none. Browser checks observed no third-party request or cookie before explicit source-link activation.",
+        "reuseTerms": "Unknown. This is an ordinary locally served source-linked preview only; no ownership, blanket permission, derivative-card approval, or structured-data image approval is claimed.",
+        "structuredData": "Image withheld."
+      },
+      "preservedControls": {
+        "status": "published",
+        "indexable": false,
+        "claimStatus": "unclaimed",
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending",
+        "clinicalVerification": "not performed",
+        "aliases": [],
+        "structuredDataImage": "withheld"
+      }
+    }
+  ],
+  "preserved": [
+    "The fixed accepted-ID baseline and every previously accepted provider ID.",
+    "Existing provider identities, canonical paths, aliases, directory memberships, clinical data, older evidence, source dates, citations, holds, and review/indexing controls.",
+    "The directory remains within the established UCSF/ZSFG San Francisco dermatology scope.",
+    "Earlier dated directory wording is retained; the two source-backed profile notes are appended.",
+    "Ordinary local portrait preview delivery remains distinct from derivative-card and structured-data image approval."
+  ],
+  "checks": [
+    {
+      "name": "npm run validate-data",
+      "result": "passed",
+      "scope": "129 entity files (13 directories, 113 providers, 3 organizations, and one organization-directory bundle); 105 independent local portrait deliveries; fixed-baseline, preservation, and humanity checks; 94/113 qualifying unique provider IDs."
+    },
+    {
+      "name": "npm run validate:profile-import -- --base caa7acc1e4b79d5fc2e120dce7ba4e015d386eee",
+      "result": "passed",
+      "scope": "Two new provider records and one changed directory record; route, identity, review/indexing, and preserved-content checks passed."
+    },
+    {
+      "name": "npm run check",
+      "result": "passed",
+      "scope": "TypeScript check."
+    },
+    {
+      "name": "npm run build",
+      "result": "passed",
+      "scope": "Production build; existing non-fatal Browserslist, PostCSS, and bundle-size warnings."
+    },
+    {
+      "name": "npm run test:contract",
+      "result": "passed",
+      "scope": "83/83, zero skipped."
+    },
+    {
+      "name": "npm run test:pilot",
+      "result": "passed",
+      "scope": "105/105, zero skipped; exact SF directory membership and source-backed story/access/local-media API projection."
+    },
+    {
+      "name": "npm run test:http",
+      "result": "passed",
+      "scope": "110/110 API and server-rendered route tests, zero skipped."
+    },
+    {
+      "name": "HUMANITY_IDS=994041a0-7cdc-4dc4-9ba7-96679fa7cc27,ba84c467-b9f0-4103-b2ea-44234252d37a npm run test:browser -- tests/humanity-patient-ready.spec.ts",
+      "result": "passed",
+      "scope": "3/3: desktop, touch-mobile emulation, and actual source-link tap; API citations, full patient-visible story/access, immediate local image decode, accessible source-link name, and zero pre-activation third-party requests/cookies."
+    },
+    {
+      "name": "Desktop and touch-mobile full-page previews",
+      "result": "passed",
+      "scope": "Both complete profile pages visually reviewed."
+    },
+    {
+      "name": "Public-data npm test",
+      "result": "passed",
+      "scope": "Profile refresh validation: 8 cases; profile-artifact validation: duplicate-key, stage, reason, and count-dimension cases."
+    },
+    {
+      "name": "Public-data npm run validate-data",
+      "result": "passed",
+      "scope": "5 data bundles and 58 profile-ready JSON artifacts strictly parsed and validated."
+    }
+  ],
+  "rework": [
+    "The first fixed-cohort check found the Abuabara assessment anchor did not match the narrative's literal punctuation; the exact supported phrase was recorded and validation then passed.",
+    "Existing contract and SF pilot expectations had stale profile totals; exact counts were updated to include these two records, while retaining identity, content, API, media, privacy, and review-state assertions."
+  ],
+  "limits": [
+    "No independent clinical, license, board, appointment-capacity, reuse-rights, or derivative approval was performed.",
+    "The source pages can set cookies after activation; only the pre-activation app state is covered by the privacy assertion.",
+    "Touch-mobile emulation is not a physical-device test; no full unrelated browser suite, screen-reader audit, or thousands-profile performance test is claimed.",
+    "No review/index promotion or deployment occurred."
+  ]
+}
