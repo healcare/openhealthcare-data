@@ -1,0 +1,234 @@
+{
+  "preparedOn": "2026-10-17",
+  "status": "source-prepared-before-import",
+  "batch": "96-to-97-candidate-review",
+  "startingQualifiedUniqueProviderIds": 96,
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "appPreImportRevision": "d67118ebb9cefa25231416ab810bc3ebb392bf6d",
+  "publicDataPreImportRevision": "3fefe31bc7692c58d869d49471be04b8126763fb",
+  "queueReconciliation": "The checked intersection is 96/100 unique provider IDs; app totals are 115 provider records and 107 independently inventoried local portrait deliveries, with 22 San Francisco dermatology directory members. No Matthew Mansh provider record, accepted-ID entry, or canonical path exists. The project path helper recommends matthewmansh, with no collision. New named evidence now supports a dated first-person work-approach narrative, a brief personal interest, San Francisco patient access, and a visually inspected named portrait. This packet is prepared but not yet imported or counted.",
+  "directory": {
+    "slug": "san-francisco-dermatologists",
+    "title": "UCSF/ZSFG-Affiliated Dermatologists in San Francisco",
+    "fit": "UCSF Health's named provider profile lists Matthew Mansh at Dermatology Mission Bay in San Francisco and Dermatology Berkeley, with appointment and referral routes. The current Mission Bay location page names him among its dermatologists and provides the location contact and hours."
+  },
+  "provider": {
+    "id": "77436d02-73c6-4e02-b306-6ed9ae121744",
+    "name": "Matthew Mansh",
+    "nameParts": {
+      "display": "Matthew Mansh, MD",
+      "given": "Matthew",
+      "family": "Mansh",
+      "suffix": "MD",
+      "preferredPath": "matthewmansh",
+      "sourceIds": [
+        "matthew-mansh-ucsf-health-2026-10-17"
+      ]
+    },
+    "title": "MD (source-stated only)",
+    "specialty": "Dermatology",
+    "canonicalPath": "matthewmansh",
+    "aliases": [],
+    "pathCheck": {
+      "recommended": "matthewmansh",
+      "result": "The project path-suggestion helper recommends matthewmansh from the named display name. No provider, directory, reserved-path, or accepted-ID collision was found."
+    },
+    "identityCheck": "The current UCSF Health provider page names Matthew Mansh, MD and links the exact portrait with alt text 'Portrait of Matthew Mansh'. The article identifies the same named physician and records his then-current University of Minnesota faculty and clinic roles; UCSF separately describes that Minnesota faculty role as prior to joining UCSF. No personal sexual orientation or gender identity is inferred."
+  },
+  "sources": [
+    {
+      "id": "matthew-mansh-ucsf-health-2026-10-17",
+      "url": "https://www.ucsfhealth.org/providers/matthew-mansh",
+      "title": "Matthew Mansh, MD — UCSF Health",
+      "publisher": "UCSF Health",
+      "retrievedDate": "2026-10-17",
+      "sourceType": "official-provider-profile",
+      "retrievalMethod": "web-retrieval",
+      "httpStatus": 200,
+      "pageSetCookieHeaders": 2,
+      "claims": [
+        "The page lists Matthew Mansh, MD, in dermatology at Berkeley and Mission Bay; lists telehealth visits and appointment/referral routes; describes his UCSF gender-affirming dermatology work; says he was an assistant professor at the University of Minnesota before joining UCSF; and has a Fun facts field describing him as an avid hiker.",
+        "The page links the exact portrait asset and labels it 'Portrait of Matthew Mansh'."
+      ],
+      "limits": "Source-stated biography and access only; no independent license, board, or clinical verification. The page does not establish current appointment capacity, new-patient eligibility, plan-specific coverage, fees, referral necessity, or language/interpreter options. Its text extraction omitted the Fun facts field; ordinary raw-page inspection confirmed the HTML value 'LGBTQ+ health expert, epidemiologist and avid hiker'. Only 'avid hiker' is used as a personal interest."
+    },
+    {
+      "id": "matthew-mansh-dermatology-times-2023-06-20",
+      "url": "https://www.dermatologytimes.com/view/increasing-awareness-of-gender-diverse-patient-concerns-in-dermatology",
+      "title": "Increasing Awareness of Gender-Diverse Patient Concerns in Dermatology",
+      "publisher": "Dermatology Times",
+      "author": "Emma Andrus",
+      "publishedDate": "2023-06-20",
+      "retrievedDate": "2026-10-17",
+      "sourceType": "primary-source",
+      "retrievalMethod": "web-retrieval",
+      "httpStatus": 200,
+      "pageSetCookieHeaders": 0,
+      "claims": [
+        "At the time of the interview, the article identifies Mansh as an assistant professor at the University of Minnesota and director of its Dermatology Gender Care Clinic.",
+        "In first-person answers, Mansh describes welcoming practice as starting during registration, the need to train staff beyond physicians, some patients' prior negative healthcare experiences and trust rebuilding, and the work as rewarding."
+      ],
+      "limits": "This is a dated 2023 Minnesota-context account, not a description of current UCSF procedures, policies, insurance coverage, clinical effects, or guaranteed outcomes. The narrative does not infer Mansh's own sexual orientation or gender identity."
+    },
+    {
+      "id": "matthew-mansh-mission-bay-location-ucsf-2026-10-17",
+      "url": "https://www.ucsfhealth.org/locations/dermatology-mission-bay",
+      "title": "Dermatology Mission Bay — UCSF Health",
+      "publisher": "UCSF Health",
+      "retrievedDate": "2026-10-17",
+      "sourceType": "official-practice-location",
+      "retrievalMethod": "web-retrieval",
+      "httpStatus": 200,
+      "claims": [
+        "The page lists Dermatology Mission Bay at 520 Illinois St., Third Floor, San Francisco, CA 94158; phone 415-353-7800; Monday-Friday hours of 8 a.m.-5 p.m.; request-appointment and refer-a-patient routes; and names Matthew Mansh, MD, among providers at that location."
+      ],
+      "limits": "The location's published hours do not establish provider appointment capacity, new-patient eligibility, or that every service is available at every visit."
+    },
+    {
+      "id": "matthew-mansh-mission-bay-referral-ucsf-2026-10-17",
+      "url": "https://www.ucsfhealth.org/locations/dermatology-mission-bay/refer",
+      "title": "Refer a Patient: Dermatology Mission Bay — UCSF Health",
+      "publisher": "UCSF Health",
+      "retrievedDate": "2026-10-17",
+      "sourceType": "official-practice-location",
+      "retrievalMethod": "web-retrieval",
+      "httpStatus": 200,
+      "claims": [
+        "The page describes online, fax, and MD Link referral routes and says patients may schedule before the referral process is complete."
+      ],
+      "limits": "This does not establish that a referral is or is not required for a particular patient or service."
+    }
+  ],
+  "narrative": {
+    "sectionId": "humanity-clinic-approach-mansh-2026-10-17",
+    "heading": "A clinic-wide approach to welcoming care",
+    "text": "In a June 20, 2023 interview, while he was an assistant professor at the University of Minnesota and directed its Dermatology Gender Care Clinic, Mansh described inclusion as a clinic-wide effort that begins at registration: staff beyond physicians also need preparation for conversations with gender-diverse patients. He spoke about some patients arriving after negative experiences in medical settings and the need to rebuild trust, and said this work was rewarding. These are his 2023 Minnesota-context reflections, not a description of current UCSF procedures, a policy or coverage statement, or a promise of patient outcomes.",
+    "claimMap": [
+      {
+        "claim": "The interview identifies Mansh at the time as an assistant professor at the University of Minnesota and director of its Dermatology Gender Care Clinic.",
+        "sourceId": "matthew-mansh-dermatology-times-2023-06-20"
+      },
+      {
+        "claim": "In that 2023 interview, Mansh described welcoming practice as starting at registration and called for staff beyond physicians to be prepared for interactions with gender-diverse patients.",
+        "sourceId": "matthew-mansh-dermatology-times-2023-06-20"
+      },
+      {
+        "claim": "Mansh discussed negative prior healthcare experiences, rebuilding trust, and finding this work rewarding.",
+        "sourceId": "matthew-mansh-dermatology-times-2023-06-20"
+      },
+      {
+        "claim": "UCSF Health describes Mansh's University of Minnesota assistant-professor role as prior to joining the UCSF faculty.",
+        "sourceId": "matthew-mansh-ucsf-health-2026-10-17"
+      }
+    ],
+    "sources": [
+      {
+        "id": "matthew-mansh-dermatology-times-2023-06-20",
+        "url": "https://www.dermatologytimes.com/view/increasing-awareness-of-gender-diverse-patient-concerns-in-dermatology",
+        "title": "Increasing Awareness of Gender-Diverse Patient Concerns in Dermatology",
+        "publisher": "Dermatology Times",
+        "retrievedDate": "2026-10-17",
+        "publishedDate": "2023-06-20",
+        "author": "Emma Andrus"
+      },
+      {
+        "id": "matthew-mansh-ucsf-health-2026-10-17",
+        "url": "https://www.ucsfhealth.org/providers/matthew-mansh",
+        "title": "Matthew Mansh, MD — UCSF Health",
+        "publisher": "UCSF Health",
+        "retrievedDate": "2026-10-17"
+      }
+    ],
+    "assessment": "A source-mapped first-person work-approach and motivation account, anchored in a dated professional context. It is not a credentials summary, patient-outcome claim, current UCSF practice guarantee, independent clinical verification, or inference about Mansh's personal identity."
+  },
+  "personalInterest": {
+    "sectionId": "humanity-personal-interest-mansh-2026-10-17",
+    "heading": "Personal interest",
+    "text": "UCSF Health's Fun facts field describes Matthew Mansh as an avid hiker.",
+    "sourceId": "matthew-mansh-ucsf-health-2026-10-17",
+    "assessment": "Brief, attributed personal interest only; not connected to care or outcomes."
+  },
+  "access": {
+    "locations": [
+      {
+        "name": "Dermatology Mission Bay",
+        "address": "520 Illinois St., Third Floor",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94158",
+        "phone": "+1-415-353-7800",
+        "hours": "Monday-Friday, 8 a.m.-5 p.m.; Saturday-Sunday closed",
+        "sourceIds": [
+          "matthew-mansh-ucsf-health-2026-10-17",
+          "matthew-mansh-mission-bay-location-ucsf-2026-10-17"
+        ]
+      },
+      {
+        "name": "Dermatology Berkeley",
+        "address": "3100 San Pablo Avenue",
+        "city": "Berkeley",
+        "state": "CA",
+        "zip": "94702",
+        "phone": "+1-510-985-5200",
+        "sourceIds": [
+          "matthew-mansh-ucsf-health-2026-10-17"
+        ]
+      }
+    ],
+    "sourceListed": [
+      "The named UCSF profile lists telehealth visits and appointment/referral routes.",
+      "UCSF lists the Mission Bay office's phone and published hours.",
+      "The Mission Bay referral page lists online, fax, and MD Link routes and states that patients may schedule before referral processing is complete.",
+      "UCSF links general insurance-plan information."
+    ],
+    "unknowns": [
+      "Current appointment openings and provider capacity",
+      "New-patient eligibility",
+      "Plan-specific insurance participation and costs",
+      "Fees",
+      "Whether referral is required for a particular patient or service",
+      "Language and interpreter options"
+    ],
+    "sourceIds": [
+      "matthew-mansh-ucsf-health-2026-10-17",
+      "matthew-mansh-mission-bay-location-ucsf-2026-10-17",
+      "matthew-mansh-mission-bay-referral-ucsf-2026-10-17"
+    ]
+  },
+  "portrait": {
+    "sourcePage": "https://www.ucsfhealth.org/providers/matthew-mansh",
+    "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/mansh-matthew-1760879654-f322fcb0da1ad81776fb7d53a367e067.jpg",
+    "sourceHttpStatus": 200,
+    "sourceContentType": "image/jpeg",
+    "sourceDimensions": "640x640",
+    "sourceBytes": 267699,
+    "sourceLastModified": "2025-12-04T01:07:56Z",
+    "sourceSetCookie": false,
+    "sourceSha256": "9e731ccd1a7b015b95bf07dd4263d663cda04641ca78a5762be6dd7a6ded4805",
+    "decodedWith": "Sharp metadata/decode and ImageMagick identify both report the JPEG frame as 640x640, orientation 1. A generic file/EXIF summary also reported 2880x1568; the decoded frame dimensions are used.",
+    "visualReview": "The exact image bytes were decoded and visually inspected as one person with a clear full face and head-and-shoulders framing. The named UCSF provider page links the exact asset and labels it Portrait of Matthew Mansh.",
+    "localDelivery": {
+      "path": "client/public/images/providers/matthew-mansh-source-preview.webp",
+      "format": "WebP",
+      "width": 360,
+      "height": 360,
+      "bytes": 13672,
+      "sha256": "57fae9e041b8c70cf642aae78dd68a043612ce44746716096695eaf239f29fb5",
+      "transformation": "Proportional resize to 360x360 with no crop or enlargement.",
+      "intendedUsage": "Immediate modest local source-linked portrait preview; not derivative-card or structured-data image clearance."
+    },
+    "reuseTerms": "Unknown; no ownership or blanket permission claim."
+  },
+  "controls": {
+    "clinicalClaims": "Source-stated only; no independent verification.",
+    "licenseLookup": "Pending.",
+    "reviewStatus": "Pending human review.",
+    "indexable": false,
+    "claimStatus": "Unclaimed.",
+    "directoryMembershipChanged": "Prepared for the existing San Francisco dermatology directory only.",
+    "identityOrRegulatoryHoldCleared": false,
+    "reviewOrIndexingPromoted": false,
+    "credentialOrLicensePromoted": false,
+    "deployment": false
+  }
+}
