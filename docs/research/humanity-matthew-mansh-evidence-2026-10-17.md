@@ -57,4 +57,10 @@ The UCSF provider page's ordinary direct GET returned two `Set-Cookie` headers; 
 
 Add one new provider record only at `matthewmansh` under `san-francisco-dermatologists`. Keep `status` published but `indexable: false`, `claimStatus: unclaimed`, source-stated claims, pending human review, and pending license lookup. Do not promote clinical, board, or license claims. Keep all access unknowns visible. Do not add any derivative or structured-data image use.
 
-The clean source-mapped packet is [`humanity-candidate-matthew-mansh-2026-10-17.json`](../profile-ready/humanity-candidate-matthew-mansh-2026-10-17.json). It remains prepared, not an applied result. The count changes only if import, preservation, patient-visible/API, portrait, citation, and privacy checks pass.
+The clean source-mapped packet is [`humanity-candidate-matthew-mansh-2026-10-17.json`](../profile-ready/humanity-candidate-matthew-mansh-2026-10-17.json). At the time this preparation note was written, it was not yet imported; the application result is recorded separately below.
+
+## Application result — October 17, 2026
+
+The candidate was applied as one new provider in the existing San Francisco dermatology directory and the checked unique-ID intersection advanced from 96 to 97/100. App content commit `c8002511203ae9abfcabfc44ff171d9000db9498` contains the record, immediate local portrait preview, narrative assessment and manually maintained portrait inventory entry. The app experiment report contains the full check and limitation record; the clean [applied-result receipt](../profile-ready/humanity-applied-matthew-mansh-96-to-97-2026-10-17.json) captures actual count deltas, app revisions and source/local media provenance.
+
+The overview summary was editorially shortened to fit the existing profile-card line limit; the full attributed interview narrative and all mapped claims remain present on the profile page and API. The first rendered card check caught a 500 response, which was fixed by shortening only that summary and adding required real-route checks for both card images. The profile remains source-stated, unclaimed, non-indexable, pending human review and pending license lookup. No clinical/license verification, media-rights determination, derivative approval, deployment or review/indexing promotion is implied.

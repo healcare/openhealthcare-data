@@ -1,0 +1,159 @@
+{
+  "kind": "applied-profile-result",
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-17",
+  "batch": "96-to-97",
+  "candidatePacket": "humanity-candidate-matthew-mansh-2026-10-17.json",
+  "researchNote": "humanity-matthew-mansh-evidence-2026-10-17.md",
+  "appRepository": "healcare/openhealthcare",
+  "baseAppRevision": "d67118ebb9cefa25231416ab810bc3ebb392bf6d",
+  "resultingAppRevision": "c8002511203ae9abfcabfc44ff171d9000db9498",
+  "appTree": "6c61f6ee53f7676a10d71a4c3b4a5ede568ac308",
+  "appMainRevisionAfterReportUpdate": "74e78c91ae01338757d101d5bdab7eebbfb560df",
+  "appMainTreeAfterReportUpdate": "f69867a56a5f6b56f33f2142aae7dd847c818b9a",
+  "publicDataPreparationRevision": "fec600d37bb218916941b9c48b91b987e81b6155",
+  "publicDataReconciledRevision": "0fb713328fd695d6159b9b0f29ae42ec570ae623",
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "reconciledIncomingWork": [
+    "App documentation commit 14af7f9e3f67f1704dbcd464bed18a44b2fc66dd was preserved as a fast-forward before app changes.",
+    "Public-data scale-to-500 research commit 0fb713328fd695d6159b9b0f29ae42ec570ae623 was preserved as a fast-forward before this result update."
+  ],
+  "counts": {
+    "qualifyingUniqueProviderIds": {
+      "before": 96,
+      "after": 97
+    },
+    "providerRecords": {
+      "before": 115,
+      "after": 116
+    },
+    "approvedLocalPortraitDeliveries": {
+      "before": 107,
+      "after": 108
+    }
+  },
+  "items": [
+    {
+      "id": "77436d02-73c6-4e02-b306-6ed9ae121744",
+      "disposition": "accepted",
+      "reason": "Named first-person interview and UCSF profile support an attributed humanity narrative; current San Francisco access and an individually associated inspected portrait support scoped directory delivery.",
+      "appliedChanges": [
+        {
+          "path": "data/providers/77436d02-73c6-4e02-b306-6ed9ae121744.json",
+          "reason": "Added one new source-stated profile in the existing San Francisco dermatology directory."
+        },
+        {
+          "path": "client/public/images/providers/matthew-mansh-source-preview.webp",
+          "reason": "Added an immediate proportional local source-linked preview with no crop or enlargement."
+        },
+        {
+          "path": "data/profile-humanity-assessments.json and data/patient-ready-portraits.json",
+          "reason": "Added the complete source-mapped narrative assessment and a deliberate independent portrait-delivery inventory entry."
+        }
+      ],
+      "deltas": {
+        "qualifyingUniqueProviderIds": 1,
+        "providerRecords": 1,
+        "approvedLocalPortraitDeliveries": 1
+      },
+      "name": "Matthew Mansh",
+      "canonicalPath": "matthewmansh",
+      "directory": "san-francisco-dermatologists",
+      "story": "A June 20, 2023 first-person interview, explicitly in his Minnesota context, describes welcoming care beginning at registration, preparation for staff beyond physicians, rebuilding trust after some patients' negative prior medical experiences, and finding this work rewarding. UCSF separately supports the former Minnesota faculty context; its named Fun facts line supports the brief attributed interest in hiking. No current UCSF policy, effect, outcome, or personal identity is inferred.",
+      "sources": [
+        "https://www.dermatologytimes.com/view/increasing-awareness-of-gender-diverse-patient-concerns-in-dermatology",
+        "https://www.ucsfhealth.org/providers/matthew-mansh",
+        "https://www.ucsfhealth.org/clinics/dermatology-mission-bay",
+        "https://www.ucsfhealth.org/refer-a-patient/dermatology-mission-bay"
+      ],
+      "access": "UCSF lists Mission Bay in San Francisco and Berkeley, phone 415-353-7800, telehealth and appointment/referral routes. The Mission Bay location page lists 520 Illinois St., Third Floor, and weekday hours. Current openings, capacity, new-patient eligibility, plan-specific coverage, fees, referral necessity, and language/interpreter options remain unknown.",
+      "portrait": {
+        "sourcePage": "https://www.ucsfhealth.org/providers/matthew-mansh",
+        "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/mansh-matthew-1760879654-f322fcb0da1ad81776fb7d53a367e067.jpg",
+        "sourceHttpStatus": 200,
+        "sourceDimensions": "640x640",
+        "sourceBytes": 267699,
+        "sourceSha256": "9e731ccd1a7b015b95bf07dd4263d663cda04641ca78a5762be6dd7a6ded4805",
+        "visualReview": "Exact named-page-linked JPEG decoded and visually inspected as a clear full-face individual portrait.",
+        "localPath": "/images/providers/matthew-mansh-source-preview.webp",
+        "localDimensions": "360x360",
+        "localBytes": 13672,
+        "localSha256": "57fae9e041b8c70cf642aae78dd68a043612ce44746716096695eaf239f29fb5",
+        "transformation": "Proportional resize; no crop or enlargement.",
+        "sourcePageSetCookieHeaders": 2,
+        "sourceImageSetCookie": false,
+        "reuseTerms": "Unknown; no ownership, blanket license, derivative-card or structured-data image approval implied."
+      },
+      "controlsAfter": {
+        "claimStatus": "unclaimed",
+        "indexable": false,
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending",
+        "clinicalVerification": false,
+        "structuredDataImageApproved": false,
+        "reviewOrIndexingPromoted": false
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "validate-data",
+      "result": "passed",
+      "scope": "132 entity files: 13 directories, 116 providers, 3 organizations and 1 organization-directory bundle; 108 independent portrait deliveries; fixed-baseline and humanity guards; 97/116 qualifying unique IDs."
+    },
+    {
+      "name": "profile-import-preservation",
+      "result": "passed",
+      "scope": "Compared against app d67118ebb9cefa25231416ab810bc3ebb392bf6d: one new provider, zero directory-record changes; stable identities, routes, holds, review/indexing controls and existing content preserved."
+    },
+    {
+      "name": "typecheck",
+      "result": "passed",
+      "scope": "npm run check."
+    },
+    {
+      "name": "build",
+      "result": "passed",
+      "scope": "npm run build; existing non-fatal Browserslist, PostCSS and bundle-size warnings only."
+    },
+    {
+      "name": "contract",
+      "result": "passed",
+      "scope": "83/83, no skips."
+    },
+    {
+      "name": "http-api",
+      "result": "passed",
+      "scope": "110/110, no skips."
+    },
+    {
+      "name": "san-francisco-pilot",
+      "result": "passed",
+      "scope": "106/106, no skips, including the 23-member directory and both profile-card image endpoints."
+    },
+    {
+      "name": "profile-cards",
+      "result": "passed",
+      "scope": "4/4, no skips."
+    },
+    {
+      "name": "targeted-browser",
+      "result": "passed",
+      "scope": "3/3: desktop, touch-mobile emulation and actual source tap; complete visible narrative/access, citations, accessible source names, decoded immediate local portrait, zero pre-activation third-party requests/cookies and no adjacent disclosure activation."
+    },
+    {
+      "name": "desktop-mobile-visual-review",
+      "result": "passed",
+      "scope": "Full-page desktop and 402×874 mobile app screenshots inspected; profile and both card variants render."
+    },
+    {
+      "name": "public-data-validation",
+      "result": "passed",
+      "scope": "Prepared packet, applied-result artifact, strict JSON, duplicate-key, count-dimension and staged profile-artifact checks passed after reconciliation of the incoming research commit."
+    }
+  ],
+  "limits": [
+    "No full unrelated browser-suite run, physical-device Safari, independent screen-reader audit, clinical/license verification, human editorial approval, reuse-rights determination, derivative-card approval or thousands-profile performance test is claimed."
+  ],
+  "deployment": "not deployed"
+}
