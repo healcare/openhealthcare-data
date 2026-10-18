@@ -1,0 +1,154 @@
+{
+  "appRepository": "healcare/openhealthcare",
+  "appTree": "a0090a8104a3b4a0f4e90734bf38cd83d2da326a",
+  "baseAppRevision": "cd4d2ba4b2b871c8bc9a0e30dea3f359012c461f",
+  "batch": "99-to-100",
+  "candidatePacket": "humanity-contribution-haley-naik-99-to-100-2026-10-18.json",
+  "checkedOn": "2026-10-18",
+  "checks": [
+    {
+      "name": "validate-data",
+      "result": "passed",
+      "scope": "135 entity files: 13 directories, 119 providers, 3 organizations, one organization-directory bundle; 111 independently inventoried local portrait deliveries; fixed-baseline preservation; 100/119 qualifying unique IDs."
+    },
+    {
+      "name": "profile-import-preservation",
+      "result": "passed",
+      "scope": "Compared with origin/main at cd4d2ba4b2b871c8bc9a0e30dea3f359012c461f: one new provider and zero changed directory records; stable identity, paths, aliases, existing records, review states, and preserved content checked."
+    },
+    {
+      "name": "typecheck-build",
+      "result": "passed",
+      "scope": "npm run check and npm run build; build reported existing Browserslist, PostCSS, and large-chunk warnings."
+    },
+    {
+      "name": "contract-api",
+      "result": "passed",
+      "scope": "84/84; includes Naik canonical route, source-only schema policy, and profile preservation."
+    },
+    {
+      "name": "san-francisco-pilot",
+      "result": "passed",
+      "scope": "120/120; includes directory membership, source-stated-only API/JSON-LD behavior, noindex/sitemap controls, and patient-page source/access content."
+    },
+    {
+      "name": "http-api",
+      "result": "passed",
+      "scope": "110/110."
+    },
+    {
+      "name": "affected-desktop-touch-mobile",
+      "result": "passed",
+      "scope": "3/3 desktop, touch-mobile emulation, and actual source-link tap; complete visible story/access facts, cited accessible source name, immediate local portrait decode, no adjacent disclosure activation, and zero pre-activation third-party requests/cookies."
+    },
+    {
+      "name": "visual-review",
+      "result": "passed",
+      "scope": "Full-page desktop and touch-mobile screenshots reviewed."
+    }
+  ],
+  "counts": {
+    "approvedLocalPortraitDeliveries": {
+      "after": 111,
+      "before": 110
+    },
+    "providerRecords": {
+      "after": 119,
+      "before": 118
+    },
+    "qualifyingUniqueProviderIds": {
+      "after": 100,
+      "before": 99
+    },
+    "sanFranciscoDirectoryMembers": {
+      "after": 26,
+      "before": 25
+    }
+  },
+  "deployment": "not deployed",
+  "fixedAcceptedCheckpoint": "d4f0e503e3142140b6d182a0f8cc82d2a91d3865",
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "items": [
+    {
+      "access": "UCSF Health lists Dermatology Mount Zion, 1701 Divisadero Street, San Francisco, CA 94115, phone +1-415-353-7800, telehealth, and request-appointment/referral routes. Current capacity, openings, eligibility, fees, plan-specific coverage, referral necessity, hours, and language/interpreter options remain unknown.",
+      "appliedChanges": [
+        {
+          "path": "data/providers/51ca4b44-7328-44ba-aced-065c42b32f6c.json",
+          "reason": "Added one new source-stated identity to the existing San Francisco directory without changing its roster definition."
+        },
+        {
+          "path": "client/public/images/providers/haley-naik-source-preview.webp",
+          "reason": "Added a proportional, uncropped immediate local preview linked to the named source; reuse terms and derivative approval remain unknown."
+        },
+        {
+          "path": "data/profile-humanity-assessments.json and data/patient-ready-portraits.json",
+          "reason": "Recorded the deliberate accepted narrative block, cited evidence, and independently reviewed portrait-delivery provenance."
+        },
+        {
+          "path": "data/editorial-refresh.json, scripts/validate-data.ts, tests/sf-pilot.test.ts, tests/url-contract.test.ts",
+          "reason": "Kept source-only structured claims withheld and protected the new record, noindex state, route, source-mapped story, directory API, and local media from regression."
+        },
+        {
+          "path": "docs/reviews/humanity-scale-trial-results-2026-10-14.md",
+          "reason": "Recorded the checked 99-to-100 outcome, test scope, counts, and limitations."
+        }
+      ],
+      "canonicalPath": "haleynaik",
+      "controlsAfter": {
+        "claimStatus": "unclaimed",
+        "clinicalVerification": false,
+        "derivativeUseApproved": false,
+        "indexable": false,
+        "licenseLookupStatus": "pending",
+        "reviewOrIndexingPromoted": false,
+        "reviewStatus": "pending-human-review",
+        "structuredDataImageApproved": false
+      },
+      "deltas": {
+        "approvedLocalPortraitDeliveries": 1,
+        "providerRecords": 1,
+        "qualifyingUniqueProviderIds": 1
+      },
+      "directory": "san-francisco-dermatologists",
+      "disposition": "accepted",
+      "id": "51ca4b44-7328-44ba-aced-065c42b32f6c",
+      "name": "Haley Naik",
+      "portrait": {
+        "localBytes": 13302,
+        "localDimensions": "360x360",
+        "localPath": "/images/providers/haley-naik-source-preview.webp",
+        "localSha256": "a97533e9a263c79ced36005c2861b91a55044248405a5752f955ca982ba15e4a",
+        "reuseTerms": "Unknown; no ownership, blanket permission, derivative-card, or structured-data image approval implied.",
+        "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/naik-haley-1750561056-8042bef3deec7bacc61ca82fde8afd32.jpg",
+        "sourceBytes": 174937,
+        "sourceDecodedFormat": "JPEG",
+        "sourceDimensions": "640x640",
+        "sourceHttpStatus": 200,
+        "sourceImageSetCookie": false,
+        "sourcePage": "https://www.ucsfhealth.org/providers/haley-naik",
+        "sourcePageCookieObservation": "Not separately measured.",
+        "sourceSha256": "03bc9e2df9247badfc4e8782862d7a4693d0e5b787ca73ab1ceee829550523c5",
+        "visualReview": "Decoded and visually inspected as one full-face image associated by the named UCSF Health page; no biometric verification."
+      },
+      "reason": "The new named interview meets the unchanged humanity criterion; named patient-access facts and an individually inspected, immediate local portrait are present, with unresolved details retained.",
+      "sources": [
+        "https://www.mdedge.com/pediatricnews/article/266194/medical-dermatology/multicenter-study-aims-find-new-treatments",
+        "https://www.ucsfhealth.org/providers/haley-naik"
+      ],
+      "story": "A 2023 interview reports that Naik noticed missing hidradenitis suppurativa patient data after joining UCSF in 2015, began systematic collection from patient visits, and later collaborated with Michelle Lowes in 2020 on HS PROGRESS. Historical treatment and enrollment claims, current study availability, and outcomes are not inferred."
+    }
+  ],
+  "kind": "applied-profile-result",
+  "limitations": [
+    "No independent human editorial review, clinical verification, California license lookup, or credential verification was performed.",
+    "Reuse terms remain unknown; no ownership, blanket license, derivative-card, or structured-data image approval is implied.",
+    "Physical-device Safari and a full screen-reader audit were not performed.",
+    "The full unrelated browser suite was not rerun; this was a targeted affected-profile and required-project-check pass, not a scale/load test.",
+    "No review/indexing promotion and no deployment occurred."
+  ],
+  "milestoneCelebration": "100 profiles. 100 human stories.",
+  "publicDataBaseRevision": "dc67b66cb6fd96df5a592b81b1183ab1abb37637",
+  "researchNote": "humanity-haley-naik-applied-review-2026-10-18.md",
+  "resultingAppRevision": "3c3ab04ea8b748012369b7e89f98c6f80b0bc5ed",
+  "schemaVersion": 1
+}

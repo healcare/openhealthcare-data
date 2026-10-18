@@ -82,3 +82,9 @@ The remaining candidates are still deferred rather than promoted by quota:
 - **Jeffrey P. North — provider-specific access gap.** The prior finding that current named pages do not establish a specific patient appointment location or provider-specific appointment/referral path remains unchanged and was not rechecked in this batch.
 
 No other candidate in the current bounded queue met the full story + usable patient access + individually inspected immediate local portrait intersection. Current total remains **99/100**, not 100. See the separate applied research review for methods, dates and limits.
+
+## Haley Naik — applied from new named interview evidence (October 18, 2026)
+
+The October 17 story-gap note above remains an accurate record of its bounded search. A newly supplied and directly assessed October 27, 2023 Doug Brunk interview in Pediatric News (MDedge) documents Naik's reported response to missing HS patient data after joining UCSF in 2015, systematic collection from patient visits, and later collaboration with Michelle Lowes on HS PROGRESS. The dated, source-mapped account is now applied at /haleynaik; the named UCSF Health patient-access pathway and individually inspected local portrait were also checked. See the separate [applied research review](humanity-haley-naik-applied-review-2026-10-18.md) and clean [applied receipt](../profile-ready/humanity-applied-haley-naik-99-to-100-2026-10-18.json).
+
+This closes the 99-to-100 content gap and advances the checked intersection to 100/100 unique IDs. The earlier gap disposition is superseded only for Naik's humanity evidence; it is not erased from research history. Her record remains source-stated, unclaimed, non-indexable, pending human review and license lookup. No clinical/credential verification, current study claim, rights clearance, review/indexing promotion or deployment is implied.

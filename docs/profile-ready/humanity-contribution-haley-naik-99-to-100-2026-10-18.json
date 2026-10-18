@@ -1,0 +1,132 @@
+{
+  "baseAppRevision": "cd4d2ba4b2b871c8bc9a0e30dea3f359012c461f",
+  "batch": "99-to-100",
+  "controls": {
+    "clinicalVerification": false,
+    "deployment": false,
+    "derivativeUseApproved": false,
+    "humanReview": "pending",
+    "indexable": false,
+    "licenseLookup": "pending",
+    "sourceStatedOnly": true,
+    "structuredDataImageApproved": false,
+    "unclaimed": true
+  },
+  "currentCheckedIntersection": 99,
+  "directory": "san-francisco-dermatologists",
+  "expectedNetUniqueIdsIfChecksPass": 1,
+  "fixedAcceptedCheckpoint": "d4f0e503e3142140b6d182a0f8cc82d2a91d3865",
+  "fixedAppBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "items": [
+    {
+      "disposition": "accepted",
+      "id": "51ca4b44-7328-44ba-aced-065c42b32f6c",
+      "provider": {
+        "access": {
+          "careMode": "Telehealth listed by UCSF Health",
+          "location": "Dermatology Mount Zion, 1701 Divisadero Street, San Francisco, CA 94115",
+          "patientRoutes": "The named UCSF Health page lists request-appointment and refer-a-patient routes. These are listed pathways, not evidence of an available appointment or a referral requirement.",
+          "phone": "+1-415-353-7800",
+          "phoneTested": false,
+          "sourceIds": [
+            "haley-naik-ucsf-health-2026-10-18"
+          ],
+          "unknowns": [
+            "Current openings and appointment capacity",
+            "New-patient eligibility",
+            "Fees",
+            "Plan-specific insurance participation",
+            "Referral necessity",
+            "Hours",
+            "Languages and interpreter options"
+          ]
+        },
+        "aliases": [],
+        "canonicalPath": "haleynaik",
+        "claimStatus": "unclaimed",
+        "description": "UCSF Health lists Haley Naik in Dermatology at Mount Zion in San Francisco. A dated Pediatric News interview describes her reported response to a gap in hidradenitis suppurativa patient data.",
+        "directoryFit": "A named UCSF Health patient profile lists Dermatology Mount Zion in San Francisco, within the existing San Francisco dermatology directory scope.",
+        "directorySlug": "san-francisco-dermatologists",
+        "humanity": {
+          "claimMap": [
+            {
+              "claim": "Naik recalled noticing a lack of HS patient data after joining UCSF in 2015.",
+              "locator": "Interview narrative; historical context",
+              "sourceId": "haley-naik-mdedge-interview-2023-10-27"
+            },
+            {
+              "claim": "She began systematically collecting information from patient visits.",
+              "locator": "Interview narrative; reported response to the data gap",
+              "sourceId": "haley-naik-mdedge-interview-2023-10-27"
+            },
+            {
+              "claim": "The article reports that she later partnered with Michelle Lowes in 2020 on HS PROGRESS.",
+              "locator": "Interview narrative; collaboration chronology",
+              "sourceId": "haley-naik-mdedge-interview-2023-10-27"
+            }
+          ],
+          "heading": "A research question shaped by missing patient data",
+          "sourceIds": [
+            "haley-naik-mdedge-interview-2023-10-27"
+          ],
+          "text": "In a 2023 interview, Naik recalled noticing a lack of patient data on hidradenitis suppurativa (HS) after joining UCSF in 2015. She began systematically collecting information from patient visits to better understand patients’ experiences and treatment responses. The article reports that she later partnered with Michelle Lowes in 2020 on HS PROGRESS. This is a dated account of her reported research motivation and approach; it does not establish current study enrollment, treatment availability, or clinical outcomes."
+        },
+        "indexable": false,
+        "licenseLookupStatus": "pending",
+        "name": "Haley Naik",
+        "portrait": {
+          "localBytes": 13302,
+          "localDimensions": "360x360",
+          "localFormat": "WebP",
+          "localPath": "/images/providers/haley-naik-source-preview.webp",
+          "localSha256": "a97533e9a263c79ced36005c2861b91a55044248405a5752f955ca982ba15e4a",
+          "reuseTerms": "Unknown; no ownership, blanket permission, derivative-card approval, or structured-data image approval implied.",
+          "sourceAsset": "https://providers.ucsfhealth.org/sparkle-assets/images/naik-haley-1750561056-8042bef3deec7bacc61ca82fde8afd32.jpg",
+          "sourceBytes": 174937,
+          "sourceDecodedFormat": "JPEG",
+          "sourceDimensions": "640x640",
+          "sourceHttpStatus": 200,
+          "sourceImageSetCookie": false,
+          "sourcePage": "https://www.ucsfhealth.org/providers/haley-naik",
+          "sourcePageCookieObservation": "Not separately measured.",
+          "sourceSha256": "03bc9e2df9247badfc4e8782862d7a4693d0e5b787ca73ab1ceee829550523c5",
+          "transformation": "Proportional resize; no crop or enlargement.",
+          "visualReview": "The exact bytes linked from the named UCSF Health profile were decoded and visually inspected as one full-face individual portrait. This confirms page-to-asset association, not biometric identity verification.",
+          "workspacePath": "client/public/images/providers/haley-naik-source-preview.webp"
+        },
+        "reviewStatus": "pending-human-review",
+        "sources": [
+          {
+            "id": "haley-naik-ucsf-health-2026-10-18",
+            "publisher": "UCSF Health",
+            "retrievedOn": "2026-10-18",
+            "sourceType": "official provider profile",
+            "title": "Haley Naik, MD — Dermatology",
+            "url": "https://www.ucsfhealth.org/providers/haley-naik",
+            "verificationStatus": "source-stated"
+          },
+          {
+            "id": "haley-naik-mdedge-interview-2023-10-27",
+            "publishedOn": "2023-10-27",
+            "publisher": "Pediatric News (MDedge)",
+            "retrievedOn": "2026-10-18",
+            "sourceType": "named interview",
+            "title": "Multicenter study aims to find new treatments for hidradenitis suppurativa",
+            "url": "https://www.mdedge.com/pediatricnews/article/266194/medical-dermatology/multicenter-study-aims-find-new-treatments",
+            "verificationStatus": "source-stated"
+          }
+        ],
+        "status": "published",
+        "title": "MD (source-stated; not independently verified)"
+      },
+      "reason": "A newly assessed named 2023 interview documents Naik's response to a patient-data gap and later collaboration; the named UCSF profile supplies a patient-access pathway and an individually associated, visually inspected portrait for the existing San Francisco directory."
+    }
+  ],
+  "kind": "validated-profile-contribution",
+  "noIndependentClinicalOrCredentialVerification": true,
+  "preparedOn": "2026-10-18",
+  "resultingAppRevision": "3c3ab04ea8b748012369b7e89f98c6f80b0bc5ed",
+  "resultingCheckedIntersection": 100,
+  "schemaVersion": 1,
+  "status": "applied-after-required-checks"
+}
