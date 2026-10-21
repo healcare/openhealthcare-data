@@ -1,0 +1,80 @@
+{
+  "stage": "prepared-candidates",
+  "preparedOn": "2026-10-21",
+  "baseline": "709ef5b199d1e29f55693cd783cbbcb4ba71a46d",
+  "scope": "Four new dermatology directories. Narrative, access and media assessed independently; no clinical verification or indexing promotion.",
+  "candidates": [
+    {
+      "name": "Ronald Shiell", "given": "Ronald", "family": "Shiell", "path": "ronaldshiell", "title": "MD",
+      "directory": "riversidedermatologists", "city": "Riverside", "state": "CA", "zip": "92505",
+      "address": "4244 Riverwalk Way, Suite 170", "practice": "West Dermatology Riverside", "phone": "+1-951-736-7432",
+      "source": "https://www.westdermatology.com/physician/ronald-shiell-md/", "publisher": "West Dermatology",
+      "heading": "Teaching, trust, and watching a family grow",
+      "story": "Ronald Shiell's West Dermatology biography puts teaching and family life alongside his surgical work. It recalls his time leading the dermatology division at Upstate Medical University in Syracuse, where he taught students pursuing medicine and directed the university's Mohs surgery center. Away from those responsibilities, he describes the pleasure of watching his two sons have fun, change, and grow. His own account of practice starts with imagining himself in the patient's position: he wants people to feel comfortable with him and his staff. That is his stated approach, not a promise about anyone's experience or outcome.",
+      "anchor": "watching his two sons",
+      "detail": "His biography describes the joy of watching his children grow and his effort to imagine himself in the patient's position.",
+      "access": "His named biography lists West Dermatology Riverside at 4244 Riverwalk Way, Suite 170, with phone 951-736-7432 and a Book Now route. It also lists offices in other cities; the Riverside listing is the basis for this directory placement.",
+      "assessment": "Named personal family reflection, teaching connection and first-person work approach; surgical volume and promotional comparisons excluded."
+    },
+    {
+      "name": "Carla Nip-Sakamoto", "given": "Carla", "family": "Nip-Sakamoto", "path": "carlanipsakamoto", "title": "MD",
+      "directory": "oahudermatologists", "city": "Honolulu", "state": "HI", "zip": "96813",
+      "address": "1329 Lusitana Street, Suite 109", "practice": "Oahu Dermatology", "phone": "+1-808-536-9888",
+      "source": "https://www.oahuderm.com/dr--carla-nip-sakamoto---board-certified-dermatologist", "publisher": "Oahu Dermatology",
+      "heading": "Choosing to come home",
+      "story": "For Carla Nip-Sakamoto, returning to Hawaii was also a family decision. Her Oahu Dermatology biography says she grew up in Hawaii, studied medicine there, and went to Los Angeles for dermatology training. Wanting to raise her family in Hawaii, she returned to start private practice in Honolulu. The same account describes community volunteering with the American Cancer Society, the John A. Burns School of Medicine, and other nonprofit organizations. Away from the office, it names travel, time with family, and walks with her Papillon, Kona. These are the practice's published details of her life, not claims about clinical quality.",
+      "anchor": "Wanting to raise her family in Hawaii",
+      "detail": "Her biography connects her return to Hawaii with raising her family, and names walks with her Papillon, Kona, among her interests.",
+      "access": "Oahu Dermatology lists its Honolulu office at 1329 Lusitana Street, Suite 109, in Physicians Office Building II at Queen's Medical Center. The named page asks patients to call 808-536-9888 during business hours to arrange an appointment.",
+      "assessment": "Explicit return-home motivation, community service and named personal interest; awards, rankings and bedside-manner claims excluded."
+    },
+    {
+      "name": "Steven J. Fishman", "given": "Steven", "middle": "J.", "family": "Fishman", "path": "stevenfishman", "title": "MD",
+      "directory": "hamptonsdermatologists", "city": "Southampton", "state": "NY", "zip": "11968",
+      "address": "325 Meeting House Lane, Building 1, Suite J", "practice": "Hampton Dermatology", "phone": "+1-631-283-3131",
+      "source": "https://www.hamptondermatology.com/", "publisher": "Hampton Dermatology",
+      "heading": "A local practice, and room for the next generation",
+      "story": "Steven Fishman's Hampton Dermatology biography begins in Liberty, New York, where he was born and raised. It describes serving the local community as important to him, even as his work took him from medical school in New York to dermatology training in New Orleans and later practice on Long Island's East End. The account also keeps a connection to his hometown area through Catskill Dermatology. Teaching is another thread: the practice says he brings medical students, interns, and residents into his offices to help them develop their careers. This is a source-published account of community ties and mentorship, rather than an endorsement based on awards or reputation.",
+      "anchor": "brings medical students, interns, and residents into his offices",
+      "detail": "His practice biography describes local-community ties and teaching medical students, interns, and residents in his offices.",
+      "access": "Hampton Dermatology lists 325 Meeting House Lane, Building 1, Suite J, Southampton, across from Southampton Hospital. Its appointment link calls 631-283-3131. The site lists medical, surgical and cosmetic services at practice level; confirm the appropriate clinician and service when calling.",
+      "assessment": "Named community connection and concrete mentoring activity; rankings, outcomes and generic training prestige excluded."
+    },
+    {
+      "name": "Glenn Zellman", "given": "Glenn", "family": "Zellman", "path": "glennzellman", "title": "MD",
+      "directory": "phoenixdermatologists", "city": "Phoenix", "state": "AZ", "zip": "85021",
+      "address": "2224 W. Northern Avenue, Suite D-300", "practice": "Arizona Dermatology Phoenix", "phone": "+1-602-277-1449",
+      "source": "https://arizonaderm.com/physician/glenn-zellman-m-d/", "publisher": "Arizona Dermatology",
+      "heading": "Asking where he might belong",
+      "story": "Glenn Zellman tells his own story on Arizona Dermatology's website. He left Oceanside, New York, at 17, studied in North Carolina, and later trained in Houston. He remembers clinics where specialists worked together and patients arrived with conditions he had previously known from textbooks. When he began considering Arizona, he asked colleagues and friends in the pharmaceutical industry where he might practice. Several pointed him toward Arizona Dermatology. His account describes finding a team whose intellectual interests and approach to patient care felt compatible with his own. Those are his reflections on choosing a workplace, not independent evidence of better care.",
+      "anchor": "asked colleagues and friends",
+      "detail": "In his first-person biography, he describes asking people he knew for practice recommendations before choosing Arizona Dermatology.",
+      "access": "His named Arizona Dermatology biography lists a Phoenix office at 2224 W. Northern Avenue, Suite D-300, phone 602-277-1449, with a Request Appointment link. A separate Scottsdale address is also listed; confirm the Phoenix location when arranging care.",
+      "assessment": "First-person geographic journey and specific practice-choice account; superlatives and clinical superiority excluded. Small source portrait retained without upscaling."
+    },
+    {
+      "name": "Summer Chong", "given": "Summer", "family": "Chong", "path": "summerchong", "title": "MD",
+      "directory": "oahudermatologists", "city": "Honolulu", "state": "HI", "zip": "96813",
+      "address": "1329 Lusitana Street, Suite 109", "practice": "Oahu Dermatology", "phone": "+1-808-536-9888",
+      "source": "https://www.oahuderm.com/dr--summer-chong---board-certified-dermatologist", "publisher": "Oahu Dermatology",
+      "heading": "From teaching in Los Angeles to serving home",
+      "story": "Summer Chong's Oahu Dermatology biography traces a return to the island where she grew up. Before coming back to Honolulu, she taught dermatology residents at the University of Southern California, combining classroom instruction with clinical training, and worked in practices in Beverly Hills and Santa Monica. The account describes her as feeling fortunate to spend her days caring for patients and wanting to serve people in Hawaii. That connection between teaching, years away, and returning home is the personal thread in her published story. It does not establish a particular patient's experience or confirm her current hospital leadership responsibilities.",
+      "anchor": "combining classroom instruction with clinical training",
+      "detail": "Her named biography connects earlier teaching of USC residents with her return to Honolulu and stated commitment to serving Hawaii.",
+      "access": "Her Oahu Dermatology page lists the Honolulu practice at 1329 Lusitana Street, Suite 109, with appointments arranged by calling 808-536-9888 during business hours. This is an Oahu office, not a claim of availability on other islands.",
+      "assessment": "Specific mentoring/teaching work and source-stated return-home connection; dated hospital appointment not promoted as a verified current position."
+    },
+    {
+      "name": "Peter Sigal", "given": "Peter", "family": "Sigal", "path": "petersigal", "title": "DO",
+      "directory": "phoenixdermatologists", "city": "Phoenix", "state": "AZ", "zip": "85021",
+      "address": "2224 W. Northern Avenue, Suite D-300", "practice": "Arizona Dermatology Phoenix", "phone": "+1-602-277-1449",
+      "source": "https://arizonaderm.com/physician/dr-peter-sigal-do/", "publisher": "Arizona Dermatology",
+      "heading": "Returning to the people who first taught him",
+      "story": "Peter Sigal's Arizona Dermatology biography describes a deliberate return to Arizona, rather than simply the next stop after training. Raised in Marietta, Georgia, he studied American history before medical school in Arizona and later worked and trained in New Jersey and Michigan. He chose to come back to practice with his original mentors, Dr. Ko and Dr. Ebner. His account also recalls learning Spanish while caring for predominantly Hispanic patients during his internship. The biography presents those encounters and continuing relationships as part of his route into practice; they do not establish current interpreter services, language proficiency testing, or a promised patient experience.",
+      "anchor": "practice with his original mentors",
+      "detail": "His biography says he deliberately returned to Arizona to work with his original mentors, Dr. Ko and Dr. Ebner.",
+      "access": "His named biography lists Arizona Dermatology Phoenix at 2224 W. Northern Avenue, Suite D-300, phone 602-277-1449, and a Request Appointment link. It also lists a Scottsdale office. A historical account of learning Spanish does not confirm current language-support arrangements.",
+      "assessment": "Explicit mentor-based practice decision and specific personal journey; promotional bedside-manner claims excluded and historical language detail not promoted to access assurance."
+    }
+  ]
+}

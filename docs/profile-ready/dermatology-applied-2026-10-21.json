@@ -1,0 +1,94 @@
+{
+  "stage": "applied-result",
+  "checkedOn": "2026-10-21",
+  "fixedBatchBaseline": "709ef5b199d1e29f55693cd783cbbcb4ba71a46d",
+  "fixedPreservationBaseline": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+  "starting": {
+    "providers": 119,
+    "localPortraitDeliveries": 111,
+    "qualifyingUniqueIds": 100
+  },
+  "after": {
+    "providers": 128,
+    "localPortraitDeliveries": 120,
+    "qualifyingUniqueIds": 109
+  },
+  "target": 200,
+  "shortfall": 91,
+  "applied": [
+    {
+      "id": "c79944e2-cb71-4bb5-8ee8-480d74e86d17",
+      "name": "Ronald Shiell",
+      "path": "ronaldshiell",
+      "directory": "riversidedermatologists"
+    },
+    {
+      "id": "356472fd-3f3c-49fd-931a-69e61469d6ea",
+      "name": "Carla Nip-Sakamoto",
+      "path": "carlanipsakamoto",
+      "directory": "oahudermatologists"
+    },
+    {
+      "id": "d60aa9ec-71d1-4d4b-b2f3-1abe48053344",
+      "name": "Steven J. Fishman",
+      "path": "stevenfishman",
+      "directory": "hamptonsdermatologists"
+    },
+    {
+      "id": "be1201fa-c354-4ae4-8c11-bba63b7d385f",
+      "name": "Glenn Zellman",
+      "path": "glennzellman",
+      "directory": "phoenixdermatologists"
+    },
+    {
+      "id": "d1f81956-81a7-4b59-8cb0-e88bc313d2f8",
+      "name": "Summer Chong",
+      "path": "summerchong",
+      "directory": "oahudermatologists"
+    },
+    {
+      "id": "bd52e525-376a-4083-853d-aad222530584",
+      "name": "Peter Sigal",
+      "path": "petersigal",
+      "directory": "phoenixdermatologists"
+    },
+    {
+      "id": "1a39eec4-0720-43dd-9a41-c12c76bba768",
+      "name": "Israel David Andrews",
+      "path": "israelandrews",
+      "directory": "phoenixdermatologists"
+    },
+    {
+      "id": "64a4bc47-9db3-41e6-81b1-b149d9e685bf",
+      "name": "Linda E. Fancher",
+      "path": "lindafancher",
+      "directory": "oahudermatologists"
+    },
+    {
+      "id": "14236ee2-35fa-4f00-bcc0-e04701b1799e",
+      "name": "Matthew H. Kanzler",
+      "path": "matthewkanzler",
+      "directory": "oahudermatologists"
+    }
+  ],
+  "checks": {
+    "data": "passed all-record validation, independent portrait hash inventory, accepted narrative/citation cohort and immutable preservation baseline",
+    "batchPreservation": "passed: nine new provider records and four new directories; no existing entity changes",
+    "contract": "84/84 passed after correcting a missing new-directory record date and stale exact inventory expectation",
+    "http": "110/110 passed",
+    "typecheck": "passed",
+    "productionBuild": "passed; existing Browserslist/PostCSS/chunk-size warnings remain",
+    "browser": "two affected cohorts passed desktop and touch-mobile full approved narratives/citations, actual profile and directory image decode, initial zero external requests/cookies; 3 tests per cohort",
+    "firstCohortBrowserSeconds": 24.7,
+    "secondCohortBrowserSeconds": 14,
+    "sourceTaps": "All nine affected IDs passed individual real touch activation checks: expected canonical source URL/request, no initial external requests/cookies, unchanged neighboring disclosure state. Zellman canonical trailing slash corrected after an initial exact-URL failure."
+  },
+  "limitations": [
+    "The 200-profile target was not reached; no claim of 100 new qualified profiles per hour.",
+    "Not a load test, real-device Safari audit, screen-reader audit, human review or clinical verification.",
+    "Source websites were read but live appointment capacity, plan coverage and licenses were not independently verified.",
+    "No deployment. New pages are non-indexed source-stated previews.",
+    "Source image cookie responses are research observations; no third-party images are requested for local preview delivery."
+  ],
+  "deliveredNewPortraitBytes": 96140
+}

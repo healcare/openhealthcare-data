@@ -1,0 +1,1198 @@
+{
+  "stage": "prepared-contribution",
+  "preparedOn": "2026-10-21",
+  "baseline": "709ef5b199d1e29f55693cd783cbbcb4ba71a46d",
+  "providers": [
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "c79944e2-cb71-4bb5-8ee8-480d74e86d17",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "ronaldshiell",
+      "aliases": [],
+      "directorySlug": "riversidedermatologists",
+      "pilotNote": "Source-linked preview prepared October 21, 2026. Pending human review and independent license lookup; not indexable. Biography and portrait checks are not clinical verification.",
+      "sources": [
+        {
+          "id": "ronaldshiell-official-20261021",
+          "url": "https://www.westdermatology.com/physician/ronald-shiell-md/",
+          "label": "Ronald Shiell — biography and patient information",
+          "publisher": "West Dermatology",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-21",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "sourceIds": [
+        "ronaldshiell-official-20261021"
+      ],
+      "nameParts": {
+        "display": "Ronald Shiell",
+        "given": "Ronald",
+        "family": "Shiell",
+        "sourceIds": [
+          "ronaldshiell-official-20261021"
+        ]
+      },
+      "name": "Ronald Shiell",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Dermatology",
+      "description": "His biography describes the joy of watching his children grow and his effort to imagine himself in the patient's position.",
+      "phone": "+1-951-736-7432",
+      "email": null,
+      "website": "https://www.westdermatology.com/physician/ronald-shiell-md/",
+      "imageUrl": "/images/providers/ronaldshiell-source-preview.webp",
+      "imageSource": "https://www.westdermatology.com/physician/ronald-shiell-md/",
+      "imageClickThroughUrl": "https://www.westdermatology.com/physician/ronald-shiell-md/",
+      "imageAlt": "Portrait of Ronald Shiell from the named West Dermatology biography; opens that source.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-21",
+        "sourceIds": [
+          "ronaldshiell-official-20261021"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "Named biography association and single-person full-face framing visually inspected. Source bytes: 400 × 400 jpeg, SHA-256 b26afb36af8f05201480de3c306ecbe85d02d78ae2915623748ba0ac30859814. Uncropped proportional local delivery: 360 × 360 WebP, SHA-256 9f47664a78a6d91b41458aaf652a4104ab83c8d7ae63e5693c3f597696d298d2. No upscaling. Reuse terms unknown; ordinary source-linked preview only, not ownership, blanket permission, derivative-card or structured-data image approval."
+      },
+      "locations": [
+        {
+          "name": "West Dermatology Riverside",
+          "address": "4244 Riverwalk Way, Suite 170",
+          "city": "Riverside",
+          "state": "CA",
+          "zip": "92505",
+          "country": "USA",
+          "phone": "+1-951-736-7432",
+          "sourceIds": [
+            "ronaldshiell-official-20261021"
+          ]
+        }
+      ],
+      "city": "Riverside",
+      "state": "CA",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-21",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "His biography describes the joy of watching his children grow and his effort to imagine himself in the patient's position.",
+          "sourceIds": [
+            "ronaldshiell-official-20261021"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Dermatology",
+            "sourceIds": [
+              "ronaldshiell-official-20261021"
+            ]
+          },
+          {
+            "label": "Office listed",
+            "value": "West Dermatology Riverside · 4244 Riverwalk Way, Suite 170 · Riverside",
+            "sourceIds": [
+              "ronaldshiell-official-20261021"
+            ]
+          },
+          {
+            "label": "Contact route",
+            "value": "+1-951-736-7432 · availability not confirmed",
+            "sourceIds": [
+              "ronaldshiell-official-20261021"
+            ]
+          },
+          {
+            "label": "Before booking",
+            "value": "Confirm fees, coverage and referral requirements directly",
+            "sourceIds": [
+              "ronaldshiell-official-20261021"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A personal thread",
+          "text": "His biography describes the joy of watching his children grow and his effort to imagine himself in the patient's position.",
+          "sourceIds": [
+            "ronaldshiell-official-20261021"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261021",
+          "heading": "Teaching, trust, and watching a family grow",
+          "text": "Ronald Shiell's West Dermatology biography puts teaching and family life alongside his surgical work. It recalls his time leading the dermatology division at Upstate Medical University in Syracuse, where he taught students pursuing medicine and directed the university's Mohs surgery center. Away from those responsibilities, he describes the pleasure of watching his two sons have fun, change, and grow. His own account of practice starts with imagining himself in the patient's position: he wants people to feel comfortable with him and his staff. That is his stated approach, not a promise about anyone's experience or outcome.",
+          "sourceIds": [
+            "ronaldshiell-official-20261021"
+          ]
+        },
+        {
+          "id": "access-20261021",
+          "heading": "Before arranging care",
+          "text": "His named biography lists West Dermatology Riverside at 4244 Riverwalk Way, Suite 170, with phone 951-736-7432 and a Book Now route. It also lists offices in other cities; the Riverside listing is the basis for this directory placement. Current appointment capacity, fees, plan-specific insurance coverage, referral requirements and interpreter availability have not been established; confirm directly with the practice.",
+          "sourceIds": [
+            "ronaldshiell-official-20261021"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "Ronald Shiell's West Dermatology biography puts teaching and family life alongside his surgical work.",
+          "sourceIds": [
+            "ronaldshiell-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "It recalls his time leading the dermatology division at Upstate Medical University in Syracuse, where he taught students pursuing medicine and directed the university's Mohs surgery center. Away from those responsibilities, he describes the pleasure of watching his two sons have fun, change, and grow. His own account of practice starts with imagining himself in the patient's position: he wants people to feel comfortable with him and his staff. That is his stated approach, not a promise about anyone's experience or outcome.",
+          "sourceIds": [
+            "ronaldshiell-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "His named biography lists West Dermatology Riverside at 4244 Riverwalk Way, Suite 170, with phone 951-736-7432 and a Book Now route. It also lists offices in other cities; the Riverside listing is the basis for this directory placement.",
+          "sourceIds": [
+            "ronaldshiell-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": []
+    },
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "356472fd-3f3c-49fd-931a-69e61469d6ea",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "carlanipsakamoto",
+      "aliases": [],
+      "directorySlug": "oahudermatologists",
+      "pilotNote": "Source-linked preview prepared October 21, 2026. Pending human review and independent license lookup; not indexable. Biography and portrait checks are not clinical verification.",
+      "sources": [
+        {
+          "id": "carlanipsakamoto-official-20261021",
+          "url": "https://www.oahuderm.com/dr--carla-nip-sakamoto---board-certified-dermatologist",
+          "label": "Carla Nip-Sakamoto — biography and patient information",
+          "publisher": "Oahu Dermatology",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-21",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "sourceIds": [
+        "carlanipsakamoto-official-20261021"
+      ],
+      "nameParts": {
+        "display": "Carla Nip-Sakamoto",
+        "given": "Carla",
+        "family": "Nip-Sakamoto",
+        "sourceIds": [
+          "carlanipsakamoto-official-20261021"
+        ]
+      },
+      "name": "Carla Nip-Sakamoto",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Dermatology",
+      "description": "Her biography connects her return to Hawaii with raising her family, and names walks with her Papillon, Kona, among her interests.",
+      "phone": "+1-808-536-9888",
+      "email": null,
+      "website": "https://www.oahuderm.com/dr--carla-nip-sakamoto---board-certified-dermatologist",
+      "imageUrl": "/images/providers/carlanipsakamoto-source-preview.webp",
+      "imageSource": "https://www.oahuderm.com/dr--carla-nip-sakamoto---board-certified-dermatologist",
+      "imageClickThroughUrl": "https://www.oahuderm.com/dr--carla-nip-sakamoto---board-certified-dermatologist",
+      "imageAlt": "Portrait of Carla Nip-Sakamoto from the named Oahu Dermatology biography; opens that source.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-21",
+        "sourceIds": [
+          "carlanipsakamoto-official-20261021"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "Named biography association and single-person full-face framing visually inspected. Source bytes: 858 × 573 webp, SHA-256 080cefc53cee14c8d734546be9223331279165b66ec794950ac1f4a037a99f32. Uncropped proportional local delivery: 360 × 240 WebP, SHA-256 79cfc3718909a738f578cd20d3f4ab8777efe431049f49900981cc2c64b9f1a3. No upscaling. Reuse terms unknown; ordinary source-linked preview only, not ownership, blanket permission, derivative-card or structured-data image approval."
+      },
+      "locations": [
+        {
+          "name": "Oahu Dermatology",
+          "address": "1329 Lusitana Street, Suite 109",
+          "city": "Honolulu",
+          "state": "HI",
+          "zip": "96813",
+          "country": "USA",
+          "phone": "+1-808-536-9888",
+          "sourceIds": [
+            "carlanipsakamoto-official-20261021"
+          ]
+        }
+      ],
+      "city": "Honolulu",
+      "state": "HI",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-21",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "Her biography connects her return to Hawaii with raising her family, and names walks with her Papillon, Kona, among her interests.",
+          "sourceIds": [
+            "carlanipsakamoto-official-20261021"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Dermatology",
+            "sourceIds": [
+              "carlanipsakamoto-official-20261021"
+            ]
+          },
+          {
+            "label": "Office listed",
+            "value": "Oahu Dermatology · 1329 Lusitana Street, Suite 109 · Honolulu",
+            "sourceIds": [
+              "carlanipsakamoto-official-20261021"
+            ]
+          },
+          {
+            "label": "Contact route",
+            "value": "+1-808-536-9888 · availability not confirmed",
+            "sourceIds": [
+              "carlanipsakamoto-official-20261021"
+            ]
+          },
+          {
+            "label": "Before booking",
+            "value": "Confirm fees, coverage and referral requirements directly",
+            "sourceIds": [
+              "carlanipsakamoto-official-20261021"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A personal thread",
+          "text": "Her biography connects her return to Hawaii with raising her family, and names walks with her Papillon, Kona, among her interests.",
+          "sourceIds": [
+            "carlanipsakamoto-official-20261021"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261021",
+          "heading": "Choosing to come home",
+          "text": "For Carla Nip-Sakamoto, returning to Hawaii was also a family decision. Her Oahu Dermatology biography says she grew up in Hawaii, studied medicine there, and went to Los Angeles for dermatology training. Wanting to raise her family in Hawaii, she returned to start private practice in Honolulu. The same account describes community volunteering with the American Cancer Society, the John A. Burns School of Medicine, and other nonprofit organizations. Away from the office, it names travel, time with family, and walks with her Papillon, Kona. These are the practice's published details of her life, not claims about clinical quality.",
+          "sourceIds": [
+            "carlanipsakamoto-official-20261021"
+          ]
+        },
+        {
+          "id": "access-20261021",
+          "heading": "Before arranging care",
+          "text": "Oahu Dermatology lists its Honolulu office at 1329 Lusitana Street, Suite 109, in Physicians Office Building II at Queen's Medical Center. The named page asks patients to call 808-536-9888 during business hours to arrange an appointment. Current appointment capacity, fees, plan-specific insurance coverage, referral requirements and interpreter availability have not been established; confirm directly with the practice.",
+          "sourceIds": [
+            "carlanipsakamoto-official-20261021"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "For Carla Nip-Sakamoto, returning to Hawaii was also a family decision.",
+          "sourceIds": [
+            "carlanipsakamoto-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "Her Oahu Dermatology biography says she grew up in Hawaii, studied medicine there, and went to Los Angeles for dermatology training. Wanting to raise her family in Hawaii, she returned to start private practice in Honolulu. The same account describes community volunteering with the American Cancer Society, the John A. Burns School of Medicine, and other nonprofit organizations. Away from the office, it names travel, time with family, and walks with her Papillon, Kona. These are the practice's published details of her life, not claims about clinical quality.",
+          "sourceIds": [
+            "carlanipsakamoto-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "Oahu Dermatology lists its Honolulu office at 1329 Lusitana Street, Suite 109, in Physicians Office Building II at Queen's Medical Center. The named page asks patients to call 808-536-9888 during business hours to arrange an appointment.",
+          "sourceIds": [
+            "carlanipsakamoto-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": []
+    },
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "d60aa9ec-71d1-4d4b-b2f3-1abe48053344",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "stevenfishman",
+      "aliases": [],
+      "directorySlug": "hamptonsdermatologists",
+      "pilotNote": "Source-linked preview prepared October 21, 2026. Pending human review and independent license lookup; not indexable. Biography and portrait checks are not clinical verification.",
+      "sources": [
+        {
+          "id": "stevenfishman-official-20261021",
+          "url": "https://www.hamptondermatology.com/",
+          "label": "Steven J. Fishman — biography and patient information",
+          "publisher": "Hampton Dermatology",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-21",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "sourceIds": [
+        "stevenfishman-official-20261021"
+      ],
+      "nameParts": {
+        "display": "Steven J. Fishman",
+        "given": "Steven",
+        "middle": "J.",
+        "family": "Fishman",
+        "sourceIds": [
+          "stevenfishman-official-20261021"
+        ]
+      },
+      "name": "Steven J. Fishman",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Dermatology",
+      "description": "His practice biography describes local-community ties and teaching medical students, interns, and residents in his offices.",
+      "phone": "+1-631-283-3131",
+      "email": null,
+      "website": "https://www.hamptondermatology.com/",
+      "imageUrl": "/images/providers/stevenfishman-source-preview.webp",
+      "imageSource": "https://www.hamptondermatology.com/",
+      "imageClickThroughUrl": "https://www.hamptondermatology.com/",
+      "imageAlt": "Portrait of Steven J. Fishman from the named Hampton Dermatology biography; opens that source.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-21",
+        "sourceIds": [
+          "stevenfishman-official-20261021"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "Named biography association and single-person full-face framing visually inspected. Source bytes: 750 × 1000 webp, SHA-256 101818b35345ca0fdb101decf7cd0ecc10e200abd51cd1b3d1188f59a5cc3fba. Uncropped proportional local delivery: 270 × 360 WebP, SHA-256 9adec94f27ea4de6bfad6776d75167a231df596097bed862df6fdd901e59df1e. No upscaling. Reuse terms unknown; ordinary source-linked preview only, not ownership, blanket permission, derivative-card or structured-data image approval."
+      },
+      "locations": [
+        {
+          "name": "Hampton Dermatology",
+          "address": "325 Meeting House Lane, Building 1, Suite J",
+          "city": "Southampton",
+          "state": "NY",
+          "zip": "11968",
+          "country": "USA",
+          "phone": "+1-631-283-3131",
+          "sourceIds": [
+            "stevenfishman-official-20261021"
+          ]
+        }
+      ],
+      "city": "Southampton",
+      "state": "NY",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-21",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "His practice biography describes local-community ties and teaching medical students, interns, and residents in his offices.",
+          "sourceIds": [
+            "stevenfishman-official-20261021"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Dermatology",
+            "sourceIds": [
+              "stevenfishman-official-20261021"
+            ]
+          },
+          {
+            "label": "Office listed",
+            "value": "Hampton Dermatology · 325 Meeting House Lane, Building 1, Suite J · Southampton",
+            "sourceIds": [
+              "stevenfishman-official-20261021"
+            ]
+          },
+          {
+            "label": "Contact route",
+            "value": "+1-631-283-3131 · availability not confirmed",
+            "sourceIds": [
+              "stevenfishman-official-20261021"
+            ]
+          },
+          {
+            "label": "Before booking",
+            "value": "Confirm fees, coverage and referral requirements directly",
+            "sourceIds": [
+              "stevenfishman-official-20261021"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A personal thread",
+          "text": "His practice biography describes local-community ties and teaching medical students, interns, and residents in his offices.",
+          "sourceIds": [
+            "stevenfishman-official-20261021"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261021",
+          "heading": "A local practice, and room for the next generation",
+          "text": "Steven Fishman's Hampton Dermatology biography begins in Liberty, New York, where he was born and raised. It describes serving the local community as important to him, even as his work took him from medical school in New York to dermatology training in New Orleans and later practice on Long Island's East End. The account also keeps a connection to his hometown area through Catskill Dermatology. Teaching is another thread: the practice says he brings medical students, interns, and residents into his offices to help them develop their careers. This is a source-published account of community ties and mentorship, rather than an endorsement based on awards or reputation.",
+          "sourceIds": [
+            "stevenfishman-official-20261021"
+          ]
+        },
+        {
+          "id": "access-20261021",
+          "heading": "Before arranging care",
+          "text": "Hampton Dermatology lists 325 Meeting House Lane, Building 1, Suite J, Southampton, across from Southampton Hospital. Its appointment link calls 631-283-3131. The site lists medical, surgical and cosmetic services at practice level; confirm the appropriate clinician and service when calling. Current appointment capacity, fees, plan-specific insurance coverage, referral requirements and interpreter availability have not been established; confirm directly with the practice.",
+          "sourceIds": [
+            "stevenfishman-official-20261021"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "Steven Fishman's Hampton Dermatology biography begins in Liberty, New York, where he was born and raised.",
+          "sourceIds": [
+            "stevenfishman-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "It describes serving the local community as important to him, even as his work took him from medical school in New York to dermatology training in New Orleans and later practice on Long Island's East End. The account also keeps a connection to his hometown area through Catskill Dermatology. Teaching is another thread: the practice says he brings medical students, interns, and residents into his offices to help them develop their careers. This is a source-published account of community ties and mentorship, rather than an endorsement based on awards or reputation.",
+          "sourceIds": [
+            "stevenfishman-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "Hampton Dermatology lists 325 Meeting House Lane, Building 1, Suite J, Southampton, across from Southampton Hospital. Its appointment link calls 631-283-3131. The site lists medical, surgical and cosmetic services at practice level; confirm the appropriate clinician and service when calling.",
+          "sourceIds": [
+            "stevenfishman-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": []
+    },
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "be1201fa-c354-4ae4-8c11-bba63b7d385f",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "glennzellman",
+      "aliases": [],
+      "directorySlug": "phoenixdermatologists",
+      "pilotNote": "Source-linked preview prepared October 21, 2026. Pending human review and independent license lookup; not indexable. Biography and portrait checks are not clinical verification.",
+      "sources": [
+        {
+          "id": "glennzellman-official-20261021",
+          "url": "https://arizonaderm.com/physician/glenn-zellman-m-d/",
+          "label": "Glenn Zellman — biography and patient information",
+          "publisher": "Arizona Dermatology",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-21",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "sourceIds": [
+        "glennzellman-official-20261021"
+      ],
+      "nameParts": {
+        "display": "Glenn Zellman",
+        "given": "Glenn",
+        "family": "Zellman",
+        "sourceIds": [
+          "glennzellman-official-20261021"
+        ]
+      },
+      "name": "Glenn Zellman",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Dermatology",
+      "description": "In his first-person biography, he describes asking people he knew for practice recommendations before choosing Arizona Dermatology.",
+      "phone": "+1-602-277-1449",
+      "email": null,
+      "website": "https://arizonaderm.com/physician/glenn-zellman-m-d/",
+      "imageUrl": "/images/providers/glennzellman-source-preview.webp",
+      "imageSource": "https://arizonaderm.com/physician/glenn-zellman-m-d/",
+      "imageClickThroughUrl": "https://arizonaderm.com/physician/glenn-zellman-m-d/",
+      "imageAlt": "Portrait of Glenn Zellman from the named Arizona Dermatology biography; opens that source.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-21",
+        "sourceIds": [
+          "glennzellman-official-20261021"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "Named biography association and single-person full-face framing visually inspected. Source bytes: 180 × 193 jpeg, SHA-256 09e609f2282b58940f4d814afbec25ae96b67531972caa382e1041268ed589db. Uncropped proportional local delivery: 180 × 193 WebP, SHA-256 f19eef6f170224605aab28d18e6df112a45c275f66ccd63eafdc27d3797e9c88. No upscaling. Reuse terms unknown; ordinary source-linked preview only, not ownership, blanket permission, derivative-card or structured-data image approval."
+      },
+      "locations": [
+        {
+          "name": "Arizona Dermatology Phoenix",
+          "address": "2224 W. Northern Avenue, Suite D-300",
+          "city": "Phoenix",
+          "state": "AZ",
+          "zip": "85021",
+          "country": "USA",
+          "phone": "+1-602-277-1449",
+          "sourceIds": [
+            "glennzellman-official-20261021"
+          ]
+        }
+      ],
+      "city": "Phoenix",
+      "state": "AZ",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-21",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "In his first-person biography, he describes asking people he knew for practice recommendations before choosing Arizona Dermatology.",
+          "sourceIds": [
+            "glennzellman-official-20261021"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Dermatology",
+            "sourceIds": [
+              "glennzellman-official-20261021"
+            ]
+          },
+          {
+            "label": "Office listed",
+            "value": "Arizona Dermatology Phoenix · 2224 W. Northern Avenue, Suite D-300 · Phoenix",
+            "sourceIds": [
+              "glennzellman-official-20261021"
+            ]
+          },
+          {
+            "label": "Contact route",
+            "value": "+1-602-277-1449 · availability not confirmed",
+            "sourceIds": [
+              "glennzellman-official-20261021"
+            ]
+          },
+          {
+            "label": "Before booking",
+            "value": "Confirm fees, coverage and referral requirements directly",
+            "sourceIds": [
+              "glennzellman-official-20261021"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A personal thread",
+          "text": "In his first-person biography, he describes asking people he knew for practice recommendations before choosing Arizona Dermatology.",
+          "sourceIds": [
+            "glennzellman-official-20261021"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261021",
+          "heading": "Asking where he might belong",
+          "text": "Glenn Zellman tells his own story on Arizona Dermatology's website. He left Oceanside, New York, at 17, studied in North Carolina, and later trained in Houston. He remembers clinics where specialists worked together and patients arrived with conditions he had previously known from textbooks. When he began considering Arizona, he asked colleagues and friends in the pharmaceutical industry where he might practice. Several pointed him toward Arizona Dermatology. His account describes finding a team whose intellectual interests and approach to patient care felt compatible with his own. Those are his reflections on choosing a workplace, not independent evidence of better care.",
+          "sourceIds": [
+            "glennzellman-official-20261021"
+          ]
+        },
+        {
+          "id": "access-20261021",
+          "heading": "Before arranging care",
+          "text": "His named Arizona Dermatology biography lists a Phoenix office at 2224 W. Northern Avenue, Suite D-300, phone 602-277-1449, with a Request Appointment link. A separate Scottsdale address is also listed; confirm the Phoenix location when arranging care. Current appointment capacity, fees, plan-specific insurance coverage, referral requirements and interpreter availability have not been established; confirm directly with the practice.",
+          "sourceIds": [
+            "glennzellman-official-20261021"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "Glenn Zellman tells his own story on Arizona Dermatology's website.",
+          "sourceIds": [
+            "glennzellman-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "He left Oceanside, New York, at 17, studied in North Carolina, and later trained in Houston. He remembers clinics where specialists worked together and patients arrived with conditions he had previously known from textbooks. When he began considering Arizona, he asked colleagues and friends in the pharmaceutical industry where he might practice. Several pointed him toward Arizona Dermatology. His account describes finding a team whose intellectual interests and approach to patient care felt compatible with his own. Those are his reflections on choosing a workplace, not independent evidence of better care.",
+          "sourceIds": [
+            "glennzellman-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "His named Arizona Dermatology biography lists a Phoenix office at 2224 W. Northern Avenue, Suite D-300, phone 602-277-1449, with a Request Appointment link. A separate Scottsdale address is also listed; confirm the Phoenix location when arranging care.",
+          "sourceIds": [
+            "glennzellman-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": []
+    },
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "d1f81956-81a7-4b59-8cb0-e88bc313d2f8",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "summerchong",
+      "aliases": [],
+      "directorySlug": "oahudermatologists",
+      "pilotNote": "Source-linked preview prepared October 21, 2026. Pending human review and independent license lookup; not indexable. Biography and portrait checks are not clinical verification.",
+      "sources": [
+        {
+          "id": "summerchong-official-20261021",
+          "url": "https://www.oahuderm.com/dr--summer-chong---board-certified-dermatologist",
+          "label": "Summer Chong — biography and patient information",
+          "publisher": "Oahu Dermatology",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-21",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "sourceIds": [
+        "summerchong-official-20261021"
+      ],
+      "nameParts": {
+        "display": "Summer Chong",
+        "given": "Summer",
+        "family": "Chong",
+        "sourceIds": [
+          "summerchong-official-20261021"
+        ]
+      },
+      "name": "Summer Chong",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Dermatology",
+      "description": "Her named biography connects earlier teaching of USC residents with her return to Honolulu and stated commitment to serving Hawaii.",
+      "phone": "+1-808-536-9888",
+      "email": null,
+      "website": "https://www.oahuderm.com/dr--summer-chong---board-certified-dermatologist",
+      "imageUrl": "/images/providers/summerchong-source-preview.webp",
+      "imageSource": "https://www.oahuderm.com/dr--summer-chong---board-certified-dermatologist",
+      "imageClickThroughUrl": "https://www.oahuderm.com/dr--summer-chong---board-certified-dermatologist",
+      "imageAlt": "Portrait of Summer Chong from the named Oahu Dermatology biography; opens that source.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-21",
+        "sourceIds": [
+          "summerchong-official-20261021"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "Named biography association and single-person full-face framing visually inspected. Source bytes: 512 × 640 webp, SHA-256 a3bfb9e0ac11b9b7e765f16e156cf1a57865582ced679a33d818cbcc99fcd38b. Uncropped proportional local delivery: 288 × 360 WebP, SHA-256 f5048b23a368593121bf001a4cea419498d4c2728fa02bad8770028d08b72bad. No upscaling. Reuse terms unknown; ordinary source-linked preview only, not ownership, blanket permission, derivative-card or structured-data image approval."
+      },
+      "locations": [
+        {
+          "name": "Oahu Dermatology",
+          "address": "1329 Lusitana Street, Suite 109",
+          "city": "Honolulu",
+          "state": "HI",
+          "zip": "96813",
+          "country": "USA",
+          "phone": "+1-808-536-9888",
+          "sourceIds": [
+            "summerchong-official-20261021"
+          ]
+        }
+      ],
+      "city": "Honolulu",
+      "state": "HI",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-21",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "Her named biography connects earlier teaching of USC residents with her return to Honolulu and stated commitment to serving Hawaii.",
+          "sourceIds": [
+            "summerchong-official-20261021"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Dermatology",
+            "sourceIds": [
+              "summerchong-official-20261021"
+            ]
+          },
+          {
+            "label": "Office listed",
+            "value": "Oahu Dermatology · 1329 Lusitana Street, Suite 109 · Honolulu",
+            "sourceIds": [
+              "summerchong-official-20261021"
+            ]
+          },
+          {
+            "label": "Contact route",
+            "value": "+1-808-536-9888 · availability not confirmed",
+            "sourceIds": [
+              "summerchong-official-20261021"
+            ]
+          },
+          {
+            "label": "Before booking",
+            "value": "Confirm fees, coverage and referral requirements directly",
+            "sourceIds": [
+              "summerchong-official-20261021"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A personal thread",
+          "text": "Her named biography connects earlier teaching of USC residents with her return to Honolulu and stated commitment to serving Hawaii.",
+          "sourceIds": [
+            "summerchong-official-20261021"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261021",
+          "heading": "From teaching in Los Angeles to serving home",
+          "text": "Summer Chong's Oahu Dermatology biography traces a return to the island where she grew up. Before coming back to Honolulu, she taught dermatology residents at the University of Southern California, combining classroom instruction with clinical training, and worked in practices in Beverly Hills and Santa Monica. The account describes her as feeling fortunate to spend her days caring for patients and wanting to serve people in Hawaii. That connection between teaching, years away, and returning home is the personal thread in her published story. It does not establish a particular patient's experience or confirm her current hospital leadership responsibilities.",
+          "sourceIds": [
+            "summerchong-official-20261021"
+          ]
+        },
+        {
+          "id": "access-20261021",
+          "heading": "Before arranging care",
+          "text": "Her Oahu Dermatology page lists the Honolulu practice at 1329 Lusitana Street, Suite 109, with appointments arranged by calling 808-536-9888 during business hours. This is an Oahu office, not a claim of availability on other islands. Current appointment capacity, fees, plan-specific insurance coverage, referral requirements and interpreter availability have not been established; confirm directly with the practice.",
+          "sourceIds": [
+            "summerchong-official-20261021"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "Summer Chong's Oahu Dermatology biography traces a return to the island where she grew up.",
+          "sourceIds": [
+            "summerchong-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "Before coming back to Honolulu, she taught dermatology residents at the University of Southern California, combining classroom instruction with clinical training, and worked in practices in Beverly Hills and Santa Monica. The account describes her as feeling fortunate to spend her days caring for patients and wanting to serve people in Hawaii. That connection between teaching, years away, and returning home is the personal thread in her published story. It does not establish a particular patient's experience or confirm her current hospital leadership responsibilities.",
+          "sourceIds": [
+            "summerchong-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "Her Oahu Dermatology page lists the Honolulu practice at 1329 Lusitana Street, Suite 109, with appointments arranged by calling 808-536-9888 during business hours. This is an Oahu office, not a claim of availability on other islands.",
+          "sourceIds": [
+            "summerchong-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": []
+    },
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "bd52e525-376a-4083-853d-aad222530584",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "petersigal",
+      "aliases": [],
+      "directorySlug": "phoenixdermatologists",
+      "pilotNote": "Source-linked preview prepared October 21, 2026. Pending human review and independent license lookup; not indexable. Biography and portrait checks are not clinical verification.",
+      "sources": [
+        {
+          "id": "petersigal-official-20261021",
+          "url": "https://arizonaderm.com/physician/dr-peter-sigal-do/",
+          "label": "Peter Sigal — biography and patient information",
+          "publisher": "Arizona Dermatology",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-21",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "sourceIds": [
+        "petersigal-official-20261021"
+      ],
+      "nameParts": {
+        "display": "Peter Sigal",
+        "given": "Peter",
+        "family": "Sigal",
+        "sourceIds": [
+          "petersigal-official-20261021"
+        ]
+      },
+      "name": "Peter Sigal",
+      "title": "DO",
+      "clinicianType": "physician",
+      "specialty": "Dermatology",
+      "description": "His biography says he deliberately returned to Arizona to work with his original mentors, Dr. Ko and Dr. Ebner.",
+      "phone": "+1-602-277-1449",
+      "email": null,
+      "website": "https://arizonaderm.com/physician/dr-peter-sigal-do/",
+      "imageUrl": "/images/providers/petersigal-source-preview.webp",
+      "imageSource": "https://arizonaderm.com/physician/dr-peter-sigal-do/",
+      "imageClickThroughUrl": "https://arizonaderm.com/physician/dr-peter-sigal-do/",
+      "imageAlt": "Portrait of Peter Sigal from the named Arizona Dermatology biography; opens that source.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-21",
+        "sourceIds": [
+          "petersigal-official-20261021"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "Named biography association and single-person full-face framing visually inspected. Source bytes: 320 × 320 jpeg, SHA-256 ee4a3e27e9c121f608212b6f4d09104f3fff338fbb8a7e797ec6181a10dac649. Uncropped proportional local delivery: 320 × 320 WebP, SHA-256 878e45e73b1f93f87c13ed06adcf0732ad1e3efa8b99b0e35a00786ea57bc257. No upscaling. Reuse terms unknown; ordinary source-linked preview only, not ownership, blanket permission, derivative-card or structured-data image approval."
+      },
+      "locations": [
+        {
+          "name": "Arizona Dermatology Phoenix",
+          "address": "2224 W. Northern Avenue, Suite D-300",
+          "city": "Phoenix",
+          "state": "AZ",
+          "zip": "85021",
+          "country": "USA",
+          "phone": "+1-602-277-1449",
+          "sourceIds": [
+            "petersigal-official-20261021"
+          ]
+        }
+      ],
+      "city": "Phoenix",
+      "state": "AZ",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-21",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "His biography says he deliberately returned to Arizona to work with his original mentors, Dr. Ko and Dr. Ebner.",
+          "sourceIds": [
+            "petersigal-official-20261021"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Dermatology",
+            "sourceIds": [
+              "petersigal-official-20261021"
+            ]
+          },
+          {
+            "label": "Office listed",
+            "value": "Arizona Dermatology Phoenix · 2224 W. Northern Avenue, Suite D-300 · Phoenix",
+            "sourceIds": [
+              "petersigal-official-20261021"
+            ]
+          },
+          {
+            "label": "Contact route",
+            "value": "+1-602-277-1449 · availability not confirmed",
+            "sourceIds": [
+              "petersigal-official-20261021"
+            ]
+          },
+          {
+            "label": "Before booking",
+            "value": "Confirm fees, coverage and referral requirements directly",
+            "sourceIds": [
+              "petersigal-official-20261021"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A personal thread",
+          "text": "His biography says he deliberately returned to Arizona to work with his original mentors, Dr. Ko and Dr. Ebner.",
+          "sourceIds": [
+            "petersigal-official-20261021"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261021",
+          "heading": "Returning to the people who first taught him",
+          "text": "Peter Sigal's Arizona Dermatology biography describes a deliberate return to Arizona, rather than simply the next stop after training. Raised in Marietta, Georgia, he studied American history before medical school in Arizona and later worked and trained in New Jersey and Michigan. He chose to come back to practice with his original mentors, Dr. Ko and Dr. Ebner. His account also recalls learning Spanish while caring for predominantly Hispanic patients during his internship. The biography presents those encounters and continuing relationships as part of his route into practice; they do not establish current interpreter services, language proficiency testing, or a promised patient experience.",
+          "sourceIds": [
+            "petersigal-official-20261021"
+          ]
+        },
+        {
+          "id": "access-20261021",
+          "heading": "Before arranging care",
+          "text": "His named biography lists Arizona Dermatology Phoenix at 2224 W. Northern Avenue, Suite D-300, phone 602-277-1449, and a Request Appointment link. It also lists a Scottsdale office. A historical account of learning Spanish does not confirm current language-support arrangements. Current appointment capacity, fees, plan-specific insurance coverage, referral requirements and interpreter availability have not been established; confirm directly with the practice.",
+          "sourceIds": [
+            "petersigal-official-20261021"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "Peter Sigal's Arizona Dermatology biography describes a deliberate return to Arizona, rather than simply the next stop after training.",
+          "sourceIds": [
+            "petersigal-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "Raised in Marietta, Georgia, he studied American history before medical school in Arizona and later worked and trained in New Jersey and Michigan. He chose to come back to practice with his original mentors, Dr. Ko and Dr. Ebner. His account also recalls learning Spanish while caring for predominantly Hispanic patients during his internship. The biography presents those encounters and continuing relationships as part of his route into practice; they do not establish current interpreter services, language proficiency testing, or a promised patient experience.",
+          "sourceIds": [
+            "petersigal-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "His named biography lists Arizona Dermatology Phoenix at 2224 W. Northern Avenue, Suite D-300, phone 602-277-1449, and a Request Appointment link. It also lists a Scottsdale office. A historical account of learning Spanish does not confirm current language-support arrangements.",
+          "sourceIds": [
+            "petersigal-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": []
+    }
+  ],
+  "media": [
+    {
+      "slug": "ronaldshiell",
+      "sourceAsset": "https://www.westdermatology.com/wp-content/uploads/sites/16/2022/06/Dr.-Shiell-Headshot1-scaled-1-wpv_400x400_center_center.jpg",
+      "status": 200,
+      "setCookie": true,
+      "sourceWidth": 400,
+      "sourceHeight": 400,
+      "sourceFormat": "jpeg",
+      "sourceBytes": 32438,
+      "sourceSha256": "b26afb36af8f05201480de3c306ecbe85d02d78ae2915623748ba0ac30859814",
+      "delivery": {
+        "format": "webp",
+        "mediaType": "image/webp",
+        "size": 14026,
+        "width": 360,
+        "height": 360,
+        "space": "srgb",
+        "channels": 3,
+        "depth": "uchar",
+        "isProgressive": false,
+        "isPalette": false,
+        "hasProfile": false,
+        "hasAlpha": false,
+        "autoOrient": {
+          "width": 360,
+          "height": 360
+        }
+      },
+      "deliveryBytes": 14026,
+      "sha256": "9f47664a78a6d91b41458aaf652a4104ab83c8d7ae63e5693c3f597696d298d2"
+    },
+    {
+      "slug": "carlanipsakamoto",
+      "sourceAsset": "https://cdcssl.ibsrv.net/ibimg/smb/858x573_80/webmgr/1m/j/m/dr-cns_20240927_1854.jpg.webp?386cb31d2cdd652658216de80eef41a3",
+      "status": 200,
+      "setCookie": false,
+      "sourceWidth": 858,
+      "sourceHeight": 573,
+      "sourceFormat": "webp",
+      "sourceBytes": 41884,
+      "sourceSha256": "080cefc53cee14c8d734546be9223331279165b66ec794950ac1f4a037a99f32",
+      "delivery": {
+        "format": "webp",
+        "mediaType": "image/webp",
+        "size": 9464,
+        "width": 360,
+        "height": 240,
+        "space": "srgb",
+        "channels": 3,
+        "depth": "uchar",
+        "isProgressive": false,
+        "isPalette": false,
+        "hasProfile": false,
+        "hasAlpha": false,
+        "autoOrient": {
+          "width": 360,
+          "height": 240
+        }
+      },
+      "deliveryBytes": 9464,
+      "sha256": "79cfc3718909a738f578cd20d3f4ab8777efe431049f49900981cc2c64b9f1a3"
+    },
+    {
+      "slug": "stevenfishman",
+      "sourceAsset": "https://images.squarespace-cdn.com/content/v1/647fd8ef4726554225603ce3/149e5c23-3040-49d5-a368-03265380f6b9/Dr-Fishman.jpeg",
+      "status": 200,
+      "setCookie": false,
+      "sourceWidth": 750,
+      "sourceHeight": 1000,
+      "sourceFormat": "webp",
+      "sourceBytes": 160114,
+      "sourceSha256": "101818b35345ca0fdb101decf7cd0ecc10e200abd51cd1b3d1188f59a5cc3fba",
+      "delivery": {
+        "format": "webp",
+        "mediaType": "image/webp",
+        "size": 26096,
+        "width": 270,
+        "height": 360,
+        "space": "srgb",
+        "channels": 3,
+        "depth": "uchar",
+        "isProgressive": false,
+        "isPalette": false,
+        "hasProfile": false,
+        "hasAlpha": false,
+        "autoOrient": {
+          "width": 270,
+          "height": 360
+        }
+      },
+      "deliveryBytes": 26096,
+      "sha256": "9adec94f27ea4de6bfad6776d75167a231df596097bed862df6fdd901e59df1e"
+    },
+    {
+      "slug": "glennzellman",
+      "sourceAsset": "https://arizonaderm.com/wp-content/uploads/sites/21/2024/05/zellman--e1716407428469-wpv_400x400_center_center.jpeg",
+      "status": 200,
+      "setCookie": true,
+      "sourceWidth": 180,
+      "sourceHeight": 193,
+      "sourceFormat": "jpeg",
+      "sourceBytes": 4929,
+      "sourceSha256": "09e609f2282b58940f4d814afbec25ae96b67531972caa382e1041268ed589db",
+      "delivery": {
+        "format": "webp",
+        "mediaType": "image/webp",
+        "size": 3218,
+        "width": 180,
+        "height": 193,
+        "space": "srgb",
+        "channels": 3,
+        "depth": "uchar",
+        "isProgressive": false,
+        "isPalette": false,
+        "hasProfile": false,
+        "hasAlpha": false,
+        "autoOrient": {
+          "width": 180,
+          "height": 193
+        }
+      },
+      "deliveryBytes": 3218,
+      "sha256": "f19eef6f170224605aab28d18e6df112a45c275f66ccd63eafdc27d3797e9c88"
+    },
+    {
+      "slug": "summerchong",
+      "sourceAsset": "https://cdcssl.ibsrv.net/ibimg/smb/608x760_80/webmgr/1m/j/m/dr-chong-use-photo.jpg.webp?a7043fd3074b321d9d47f881a58ff390",
+      "status": 200,
+      "setCookie": false,
+      "sourceWidth": 512,
+      "sourceHeight": 640,
+      "sourceFormat": "webp",
+      "sourceBytes": 24048,
+      "sourceSha256": "a3bfb9e0ac11b9b7e765f16e156cf1a57865582ced679a33d818cbcc99fcd38b",
+      "delivery": {
+        "format": "webp",
+        "mediaType": "image/webp",
+        "size": 9364,
+        "width": 288,
+        "height": 360,
+        "space": "srgb",
+        "channels": 3,
+        "depth": "uchar",
+        "isProgressive": false,
+        "isPalette": false,
+        "hasProfile": false,
+        "hasAlpha": false,
+        "autoOrient": {
+          "width": 288,
+          "height": 360
+        }
+      },
+      "deliveryBytes": 9364,
+      "sha256": "f5048b23a368593121bf001a4cea419498d4c2728fa02bad8770028d08b72bad"
+    },
+    {
+      "slug": "petersigal",
+      "sourceAsset": "https://arizonaderm.com/wp-content/uploads/sites/21/2024/07/sigal-wpv_400x400_center_center.jpg",
+      "status": 200,
+      "setCookie": true,
+      "sourceWidth": 320,
+      "sourceHeight": 320,
+      "sourceFormat": "jpeg",
+      "sourceBytes": 18599,
+      "sourceSha256": "ee4a3e27e9c121f608212b6f4d09104f3fff338fbb8a7e797ec6181a10dac649",
+      "delivery": {
+        "format": "webp",
+        "mediaType": "image/webp",
+        "size": 7438,
+        "width": 320,
+        "height": 320,
+        "space": "srgb",
+        "channels": 3,
+        "depth": "uchar",
+        "isProgressive": false,
+        "isPalette": false,
+        "hasProfile": false,
+        "hasAlpha": false,
+        "autoOrient": {
+          "width": 320,
+          "height": 320
+        }
+      },
+      "deliveryBytes": 7438,
+      "sha256": "878e45e73b1f93f87c13ed06adcf0732ad1e3efa8b99b0e35a00786ea57bc257"
+    }
+  ]
+}

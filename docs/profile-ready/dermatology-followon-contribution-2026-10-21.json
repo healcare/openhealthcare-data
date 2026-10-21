@@ -1,0 +1,606 @@
+{
+  "stage": "prepared-contribution",
+  "preparedOn": "2026-10-21",
+  "baseline": "709ef5b199d1e29f55693cd783cbbcb4ba71a46d",
+  "providers": [
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "1a39eec4-0720-43dd-9a41-c12c76bba768",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "israelandrews",
+      "aliases": [],
+      "directorySlug": "phoenixdermatologists",
+      "pilotNote": "Source-linked preview prepared October 21, 2026. Pending human review and independent license lookup; not indexable. Biography and portrait checks are not clinical verification.",
+      "sources": [
+        {
+          "id": "israelandrews-official-20261021",
+          "url": "https://arizonaderm.com/physician/israel-izzy-david-andrews-md-faad-faap/",
+          "label": "Israel David Andrews — biography and patient information",
+          "publisher": "Arizona Dermatology",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-21",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "sourceIds": [
+        "israelandrews-official-20261021"
+      ],
+      "nameParts": {
+        "display": "Israel David Andrews",
+        "given": "Israel",
+        "middle": "David",
+        "family": "Andrews",
+        "sourceIds": [
+          "israelandrews-official-20261021"
+        ]
+      },
+      "name": "Israel David Andrews",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Dermatology",
+      "description": "His named biography describes community outreach, volunteering and an interest in following children as they grow.",
+      "phone": "+1-602-277-1449",
+      "email": null,
+      "website": "https://arizonaderm.com/physician/israel-izzy-david-andrews-md-faad-faap/",
+      "imageUrl": "/images/providers/israelandrews-source-preview.webp",
+      "imageSource": "https://arizonaderm.com/physician/israel-izzy-david-andrews-md-faad-faap/",
+      "imageClickThroughUrl": "https://arizonaderm.com/physician/israel-izzy-david-andrews-md-faad-faap/",
+      "imageAlt": "Portrait of Israel David Andrews from the named Arizona Dermatology biography; opens that source.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-21",
+        "sourceIds": [
+          "israelandrews-official-20261021"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "Single-person full-face portrait visually inspected in named biography association. Original 400 × 400 jpeg; SHA-256 88ce3c0804183a7fc4316bc440bbd7c1d21218a60ef787491828d5b0addf6db1. Proportional uncropped 360 × 360 WebP delivery, SHA-256 c195a591559d621843c71c41b826c30403f1841375a99d2a1a6279b7279e52d9. Reuse terms unknown; ordinary source-linked preview only, not derivative approval or clinical verification."
+      },
+      "locations": [
+        {
+          "name": "Arizona Dermatology Phoenix",
+          "address": "2224 W. Northern Avenue, Suite D-300",
+          "city": "Phoenix",
+          "state": "AZ",
+          "zip": "85021",
+          "country": "USA",
+          "phone": "+1-602-277-1449",
+          "sourceIds": [
+            "israelandrews-official-20261021"
+          ]
+        }
+      ],
+      "city": "Phoenix",
+      "state": "AZ",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-21",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "His named biography describes community outreach, volunteering and an interest in following children as they grow.",
+          "sourceIds": [
+            "israelandrews-official-20261021"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Dermatology",
+            "sourceIds": [
+              "israelandrews-official-20261021"
+            ]
+          },
+          {
+            "label": "Office listed",
+            "value": "2224 W. Northern Avenue, Suite D-300 · Phoenix",
+            "sourceIds": [
+              "israelandrews-official-20261021"
+            ]
+          },
+          {
+            "label": "Contact route",
+            "value": "+1-602-277-1449",
+            "sourceIds": [
+              "israelandrews-official-20261021"
+            ]
+          },
+          {
+            "label": "Availability",
+            "value": "Confirm capacity, fees, coverage and referral requirements",
+            "sourceIds": [
+              "israelandrews-official-20261021"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A personal thread",
+          "text": "His named biography describes community outreach, volunteering and an interest in following children as they grow.",
+          "sourceIds": [
+            "israelandrews-official-20261021"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261021",
+          "heading": "Making room for children and families",
+          "text": "Israel “Izzy” David Andrews’s Arizona Dermatology biography describes an interest in expanding access to dermatologic care for children. Alongside his practice, it names community outreach and volunteering with underserved populations as part of his work. The account emphasizes following children as they grow into young adults, rather than treating each visit as an isolated encounter. Outside medicine, it describes travel, staying active, an interest in nutrition, and time with his two children. These are the practice’s published statements about his priorities and interests; they do not establish free-care eligibility, appointment availability or patient outcomes.",
+          "sourceIds": [
+            "israelandrews-official-20261021"
+          ]
+        },
+        {
+          "id": "access-20261021",
+          "heading": "Before arranging care",
+          "text": "His named biography lists medical and pediatric dermatology and the Phoenix office at 2224 W. Northern Avenue, Suite D-300, phone 602-277-1449, with a Request Appointment route. Confirm age eligibility and the location when calling; a separate Scottsdale office is also listed. Current capacity, fees, plan-specific coverage, referral requirements and interpreter availability have not been established; confirm directly with the practice.",
+          "sourceIds": [
+            "israelandrews-official-20261021"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "Israel “Izzy” David Andrews’s Arizona Dermatology biography describes an interest in expanding access to dermatologic care for children.",
+          "sourceIds": [
+            "israelandrews-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "Alongside his practice, it names community outreach and volunteering with underserved populations as part of his work. The account emphasizes following children as they grow into young adults, rather than treating each visit as an isolated encounter. Outside medicine, it describes travel, staying active, an interest in nutrition, and time with his two children. These are the practice’s published statements about his priorities and interests; they do not establish free-care eligibility, appointment availability or patient outcomes.",
+          "sourceIds": [
+            "israelandrews-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "His named biography lists medical and pediatric dermatology and the Phoenix office at 2224 W. Northern Avenue, Suite D-300, phone 602-277-1449, with a Request Appointment route. Confirm age eligibility and the location when calling; a separate Scottsdale office is also listed.",
+          "sourceIds": [
+            "israelandrews-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": []
+    },
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "64a4bc47-9db3-41e6-81b1-b149d9e685bf",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "lindafancher",
+      "aliases": [],
+      "directorySlug": "oahudermatologists",
+      "pilotNote": "Source-linked preview prepared October 21, 2026. Pending human review and independent license lookup; not indexable. Biography and portrait checks are not clinical verification.",
+      "sources": [
+        {
+          "id": "lindafancher-official-20261021",
+          "url": "https://www.epiphanydermatology.com/providers/linda-fancher-md/",
+          "label": "Linda E. Fancher — biography and patient information",
+          "publisher": "Epiphany Dermatology",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-21",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "sourceIds": [
+        "lindafancher-official-20261021"
+      ],
+      "nameParts": {
+        "display": "Linda E. Fancher",
+        "given": "Linda",
+        "middle": "E.",
+        "family": "Fancher",
+        "sourceIds": [
+          "lindafancher-official-20261021"
+        ]
+      },
+      "name": "Linda E. Fancher",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Dermatology",
+      "description": "Her named biography lists hiking, baking and large jigsaw puzzles as interests outside work.",
+      "phone": "+1-808-218-7889",
+      "email": null,
+      "website": "https://www.epiphanydermatology.com/providers/linda-fancher-md/",
+      "imageUrl": "/images/providers/lindafancher-source-preview.webp",
+      "imageSource": "https://www.epiphanydermatology.com/providers/linda-fancher-md/",
+      "imageClickThroughUrl": "https://www.epiphanydermatology.com/providers/linda-fancher-md/",
+      "imageAlt": "Portrait of Linda E. Fancher from the named Epiphany Dermatology biography; opens that source.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-21",
+        "sourceIds": [
+          "lindafancher-official-20261021"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "Single-person full-face portrait visually inspected in named biography association. Original 833 × 833 jpeg; SHA-256 6c42d44fe97921f2154a5382b812244714b39d0d8de8f579a3f7fe2b9b5e5b59. Proportional uncropped 360 × 360 WebP delivery, SHA-256 3f43e64d394177b210736a793dfcaec173198c07b8e6e797f884a0e6039891f0. Reuse terms unknown; ordinary source-linked preview only, not derivative approval or clinical verification."
+      },
+      "locations": [
+        {
+          "name": "Epiphany Dermatology Honolulu (Kahala)",
+          "address": "4747 Kilauea Avenue, Suite 104",
+          "city": "Honolulu",
+          "state": "HI",
+          "zip": "96816",
+          "country": "USA",
+          "phone": "+1-808-218-7889",
+          "sourceIds": [
+            "lindafancher-official-20261021"
+          ]
+        }
+      ],
+      "city": "Honolulu",
+      "state": "HI",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-21",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "Her named biography lists hiking, baking and large jigsaw puzzles as interests outside work.",
+          "sourceIds": [
+            "lindafancher-official-20261021"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Dermatology",
+            "sourceIds": [
+              "lindafancher-official-20261021"
+            ]
+          },
+          {
+            "label": "Office listed",
+            "value": "4747 Kilauea Avenue, Suite 104 · Honolulu",
+            "sourceIds": [
+              "lindafancher-official-20261021"
+            ]
+          },
+          {
+            "label": "Contact route",
+            "value": "+1-808-218-7889",
+            "sourceIds": [
+              "lindafancher-official-20261021"
+            ]
+          },
+          {
+            "label": "Availability",
+            "value": "Confirm capacity, fees, coverage and referral requirements",
+            "sourceIds": [
+              "lindafancher-official-20261021"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A personal thread",
+          "text": "Her named biography lists hiking, baking and large jigsaw puzzles as interests outside work.",
+          "sourceIds": [
+            "lindafancher-official-20261021"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261021",
+          "heading": "Trails, baking, and a large puzzle",
+          "text": "Linda Fancher’s Epiphany Dermatology biography offers a few concrete details of life beyond the office: hiking, baking, and tackling huge jigsaw puzzles. It also records that she has practiced dermatology in Honolulu since 1995. The interests are modest but specific, giving a glimpse of the person without turning her training into a résumé-style story. Her biography does not say that solving puzzles makes her a better diagnostician, or that these hobbies shape her care; no such connection is inferred here.",
+          "sourceIds": [
+            "lindafancher-official-20261021"
+          ]
+        },
+        {
+          "id": "access-20261021",
+          "heading": "Before arranging care",
+          "text": "Her Epiphany Dermatology page lists the Kahala office at 4747 Kilauea Avenue, Suite 104, Honolulu, phone 808-218-7889. The linked location page supplies a Book Appt route. Confirm clinician availability directly. Current capacity, fees, plan-specific coverage, referral requirements and interpreter availability have not been established; confirm directly with the practice.",
+          "sourceIds": [
+            "lindafancher-official-20261021"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "Linda Fancher’s Epiphany Dermatology biography offers a few concrete details of life beyond the office: hiking, baking, and tackling huge jigsaw puzzles.",
+          "sourceIds": [
+            "lindafancher-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "It also records that she has practiced dermatology in Honolulu since 1995. The interests are modest but specific, giving a glimpse of the person without turning her training into a résumé-style story. Her biography does not say that solving puzzles makes her a better diagnostician, or that these hobbies shape her care; no such connection is inferred here.",
+          "sourceIds": [
+            "lindafancher-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "Her Epiphany Dermatology page lists the Kahala office at 4747 Kilauea Avenue, Suite 104, Honolulu, phone 808-218-7889. The linked location page supplies a Book Appt route. Confirm clinician availability directly.",
+          "sourceIds": [
+            "lindafancher-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": []
+    },
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "14236ee2-35fa-4f00-bcc0-e04701b1799e",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "matthewkanzler",
+      "aliases": [],
+      "directorySlug": "oahudermatologists",
+      "pilotNote": "Source-linked preview prepared October 21, 2026. Pending human review and independent license lookup; not indexable. Biography and portrait checks are not clinical verification.",
+      "sources": [
+        {
+          "id": "matthewkanzler-official-20261021",
+          "url": "https://www.epiphanydermatology.com/providers/matthew-h-kanzler-m-d/",
+          "label": "Matthew H. Kanzler — biography and patient information",
+          "publisher": "Epiphany Dermatology",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-21",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "sourceIds": [
+        "matthewkanzler-official-20261021"
+      ],
+      "nameParts": {
+        "display": "Matthew H. Kanzler",
+        "given": "Matthew",
+        "middle": "H.",
+        "family": "Kanzler",
+        "sourceIds": [
+          "matthewkanzler-official-20261021"
+        ]
+      },
+      "name": "Matthew H. Kanzler",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Dermatology",
+      "description": "His named biography describes a lifelong swimming interest and morning swims with a group in Waikiki.",
+      "phone": "+1-808-218-7889",
+      "email": null,
+      "website": "https://www.epiphanydermatology.com/providers/matthew-h-kanzler-m-d/",
+      "imageUrl": "/images/providers/matthewkanzler-source-preview.webp",
+      "imageSource": "https://www.epiphanydermatology.com/providers/matthew-h-kanzler-m-d/",
+      "imageClickThroughUrl": "https://www.epiphanydermatology.com/providers/matthew-h-kanzler-m-d/",
+      "imageAlt": "Portrait of Matthew H. Kanzler from the named Epiphany Dermatology biography; opens that source.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-21",
+        "sourceIds": [
+          "matthewkanzler-official-20261021"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "Single-person full-face portrait visually inspected in named biography association. Original 833 × 833 jpeg; SHA-256 195a89e2c7b982fb85f03fe41a6118d07b439d6d2b1ccf1e3e7e71811e904499. Proportional uncropped 360 × 360 WebP delivery, SHA-256 b26f9db392579a51efd754b8c229378c9ecdcf6fededfb2d5e9e0bbebafe1eaa. Reuse terms unknown; ordinary source-linked preview only, not derivative approval or clinical verification."
+      },
+      "locations": [
+        {
+          "name": "Epiphany Dermatology Honolulu (Kahala)",
+          "address": "4747 Kilauea Avenue, Suite 104",
+          "city": "Honolulu",
+          "state": "HI",
+          "zip": "96816",
+          "country": "USA",
+          "phone": "+1-808-218-7889",
+          "sourceIds": [
+            "matthewkanzler-official-20261021"
+          ]
+        }
+      ],
+      "city": "Honolulu",
+      "state": "HI",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-21",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "His named biography describes a lifelong swimming interest and morning swims with a group in Waikiki.",
+          "sourceIds": [
+            "matthewkanzler-official-20261021"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Dermatology",
+            "sourceIds": [
+              "matthewkanzler-official-20261021"
+            ]
+          },
+          {
+            "label": "Office listed",
+            "value": "4747 Kilauea Avenue, Suite 104 · Honolulu",
+            "sourceIds": [
+              "matthewkanzler-official-20261021"
+            ]
+          },
+          {
+            "label": "Contact route",
+            "value": "+1-808-218-7889",
+            "sourceIds": [
+              "matthewkanzler-official-20261021"
+            ]
+          },
+          {
+            "label": "Availability",
+            "value": "Confirm capacity, fees, coverage and referral requirements",
+            "sourceIds": [
+              "matthewkanzler-official-20261021"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A personal thread",
+          "text": "His named biography describes a lifelong swimming interest and morning swims with a group in Waikiki.",
+          "sourceIds": [
+            "matthewkanzler-official-20261021"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261021",
+          "heading": "A morning swim, and years spent teaching",
+          "text": "Matthew Kanzler’s Epiphany Dermatology biography describes a morning routine in Waikiki: swimming with a group of fellow swimmers. It calls him a lifelong competitive swimmer, a personal interest that continues alongside his work in dermatology. The same biography recalls years at Santa Clara Valley Medical Center and a role directing Stanford’s dermatology residency program. That gives his published story two specific threads—time in the water with a community and time helping train physicians. The account is not evidence of better clinical results, and historical teaching appointments are not presented as verified current roles.",
+          "sourceIds": [
+            "matthewkanzler-official-20261021"
+          ]
+        },
+        {
+          "id": "access-20261021",
+          "heading": "Before arranging care",
+          "text": "His named Epiphany Dermatology biography lists the Kahala office at 4747 Kilauea Avenue, Suite 104, Honolulu, phone 808-218-7889. The linked location page supplies an appointment route; capacity is not established. Current capacity, fees, plan-specific coverage, referral requirements and interpreter availability have not been established; confirm directly with the practice.",
+          "sourceIds": [
+            "matthewkanzler-official-20261021"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "Matthew Kanzler’s Epiphany Dermatology biography describes a morning routine in Waikiki: swimming with a group of fellow swimmers.",
+          "sourceIds": [
+            "matthewkanzler-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "It calls him a lifelong competitive swimmer, a personal interest that continues alongside his work in dermatology. The same biography recalls years at Santa Clara Valley Medical Center and a role directing Stanford’s dermatology residency program. That gives his published story two specific threads—time in the water with a community and time helping train physicians. The account is not evidence of better clinical results, and historical teaching appointments are not presented as verified current roles.",
+          "sourceIds": [
+            "matthewkanzler-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "His named Epiphany Dermatology biography lists the Kahala office at 4747 Kilauea Avenue, Suite 104, Honolulu, phone 808-218-7889. The linked location page supplies an appointment route; capacity is not established.",
+          "sourceIds": [
+            "matthewkanzler-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": []
+    }
+  ],
+  "media": [
+    {
+      "slug": "israelandrews",
+      "sourceAsset": "https://arizonaderm.com/wp-content/uploads/sites/21/2026/05/Dr-Izzy-Andrews-color_web_square-wpv_400x400_center_center.jpg",
+      "status": 200,
+      "setCookie": true,
+      "sourceWidth": 400,
+      "sourceHeight": 400,
+      "sourceFormat": "jpeg",
+      "sourceBytes": 23742,
+      "sourceSha256": "88ce3c0804183a7fc4316bc440bbd7c1d21218a60ef787491828d5b0addf6db1",
+      "delivery": {
+        "format": "webp",
+        "mediaType": "image/webp",
+        "size": 6902,
+        "width": 360,
+        "height": 360,
+        "space": "srgb",
+        "channels": 3,
+        "depth": "uchar",
+        "isProgressive": false,
+        "isPalette": false,
+        "hasProfile": false,
+        "hasAlpha": false,
+        "autoOrient": {
+          "width": 360,
+          "height": 360
+        }
+      },
+      "deliveryBytes": 6902,
+      "sha256": "c195a591559d621843c71c41b826c30403f1841375a99d2a1a6279b7279e52d9"
+    },
+    {
+      "slug": "lindafancher",
+      "sourceAsset": "https://www.epiphanydermatology.com/wp-content/uploads/2026/07/Linda-Fancher-Website-1.jpg",
+      "status": 200,
+      "setCookie": false,
+      "sourceWidth": 833,
+      "sourceHeight": 833,
+      "sourceFormat": "jpeg",
+      "sourceBytes": 130227,
+      "sourceSha256": "6c42d44fe97921f2154a5382b812244714b39d0d8de8f579a3f7fe2b9b5e5b59",
+      "delivery": {
+        "format": "webp",
+        "mediaType": "image/webp",
+        "size": 10418,
+        "width": 360,
+        "height": 360,
+        "space": "srgb",
+        "channels": 3,
+        "depth": "uchar",
+        "isProgressive": false,
+        "isPalette": false,
+        "hasProfile": false,
+        "hasAlpha": false,
+        "autoOrient": {
+          "width": 360,
+          "height": 360
+        }
+      },
+      "deliveryBytes": 10418,
+      "sha256": "3f43e64d394177b210736a793dfcaec173198c07b8e6e797f884a0e6039891f0"
+    },
+    {
+      "slug": "matthewkanzler",
+      "sourceAsset": "https://www.epiphanydermatology.com/wp-content/uploads/2026/07/Matthew-Kanzler-Website.jpg",
+      "status": 200,
+      "setCookie": false,
+      "sourceWidth": 833,
+      "sourceHeight": 833,
+      "sourceFormat": "jpeg",
+      "sourceBytes": 106829,
+      "sourceSha256": "195a89e2c7b982fb85f03fe41a6118d07b439d6d2b1ccf1e3e7e71811e904499",
+      "delivery": {
+        "format": "webp",
+        "mediaType": "image/webp",
+        "size": 9214,
+        "width": 360,
+        "height": 360,
+        "space": "srgb",
+        "channels": 3,
+        "depth": "uchar",
+        "isProgressive": false,
+        "isPalette": false,
+        "hasProfile": false,
+        "hasAlpha": false,
+        "autoOrient": {
+          "width": 360,
+          "height": 360
+        }
+      },
+      "deliveryBytes": 9214,
+      "sha256": "b26f9db392579a51efd754b8c229378c9ecdcf6fededfb2d5e9e0bbebafe1eaa"
+    }
+  ]
+}
