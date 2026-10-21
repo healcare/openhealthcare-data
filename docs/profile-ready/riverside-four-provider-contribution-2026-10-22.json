@@ -1,0 +1,788 @@
+{
+  "stage": "prepared-contribution",
+  "preparedOn": "2026-10-22",
+  "baseline": "498f659c7089064779945f3174d67ab35bae0695",
+  "directory": {
+    "id": "2aca665f-32df-4b36-b2b4-79cf799558d0",
+    "path": "riversidedermatologists",
+    "addSources": [
+      {
+        "id": "natalienasser-official-20261022",
+        "url": "https://healthy.kaiserpermanente.org/southern-california/physicians/natalie-nasser-9101758",
+        "label": "Natalie Yvonne Nasser — biography and patient information",
+        "publisher": "Kaiser Permanente Southern California",
+        "sourceType": "official-provider-profile",
+        "retrievedDate": "2026-10-22",
+        "retrievalMethod": "web-retrieval",
+        "verificationStatus": "source-stated"
+      },
+      {
+        "id": "seliminel-official-20261022",
+        "url": "https://healthy.kaiserpermanente.org/southern-california/physicians/selim-inel-4157078",
+        "label": "Selim Mahmut Inel — biography and patient information",
+        "publisher": "Kaiser Permanente Southern California",
+        "sourceType": "official-provider-profile",
+        "retrievedDate": "2026-10-22",
+        "retrievalMethod": "web-retrieval",
+        "verificationStatus": "source-stated"
+      },
+      {
+        "id": "johnhyunsikahn-official-20261022",
+        "url": "https://healthy.kaiserpermanente.org/southern-california/physicians/john-ahn-6455679",
+        "label": "John Hyun Sik Ahn — biography and patient information",
+        "publisher": "Kaiser Permanente Southern California",
+        "sourceType": "official-provider-profile",
+        "retrievedDate": "2026-10-22",
+        "retrievalMethod": "web-retrieval",
+        "verificationStatus": "source-stated"
+      },
+      {
+        "id": "edwardjongbae-official-20261022",
+        "url": "https://healthy.kaiserpermanente.org/southern-california/physicians/edward-bae-9537518",
+        "label": "Edward Jong Bae — biography and patient information",
+        "publisher": "Kaiser Permanente Southern California",
+        "sourceType": "official-provider-profile",
+        "retrievedDate": "2026-10-22",
+        "retrievalMethod": "web-retrieval",
+        "verificationStatus": "source-stated"
+      }
+    ],
+    "intendedMemberCount": 5
+  },
+  "providers": [
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "432abb05-ae69-4f1d-951f-baf56159d81a",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "natalienasser",
+      "aliases": [],
+      "directorySlug": "riversidedermatologists",
+      "pilotNote": "Source-linked Riverside city pilot record added 2026-10-22. Pending human and independent license review; source biography and portrait checks do not verify clinical quality. No indexing approval. Record date means source retrieval, not independent verification.",
+      "sources": [
+        {
+          "id": "natalienasser-official-20261022",
+          "url": "https://healthy.kaiserpermanente.org/southern-california/physicians/natalie-nasser-9101758",
+          "label": "Natalie Yvonne Nasser — biography and patient information",
+          "publisher": "Kaiser Permanente Southern California",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-22",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "sourceIds": [
+        "natalienasser-official-20261022"
+      ],
+      "nameParts": {
+        "display": "Natalie Yvonne Nasser",
+        "given": "Natalie",
+        "middle": "Yvonne",
+        "family": "Nasser",
+        "sourceIds": [
+          "natalienasser-official-20261022"
+        ]
+      },
+      "name": "Natalie Yvonne Nasser",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Dermatology",
+      "description": "Her biography connects studies in languages and linguistics, a Montreal residency she describes as a formative cultural experience, and balancing practice with family life.",
+      "phone": "+1-833-574-2273",
+      "email": null,
+      "website": "https://healthy.kaiserpermanente.org/southern-california/physicians/natalie-nasser-9101758",
+      "imageUrl": "/images/providers/natalienasser-source-preview.webp",
+      "imageSource": "https://healthy.kaiserpermanente.org/southern-california/physicians/natalie-nasser-9101758",
+      "imageClickThroughUrl": "https://healthy.kaiserpermanente.org/southern-california/physicians/natalie-nasser-9101758",
+      "imageAlt": "Portrait of Natalie Yvonne Nasser from the named Kaiser Permanente physician page; opens that source.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-22",
+        "sourceIds": [
+          "natalienasser-official-20261022"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "Exact portrait linked by named physician page, visually inspected. Source bytes 210 × 199 jpeg; SHA-256 e878e62ae5d8008b608e3793e93ce7ec7b3456fb3ee573684518279c08c7dc0e. Local uncropped proportional WebP 210 × 199, SHA-256 b5dc995ef58c47f2499bc96420717cb4056a883a76ebaf0833e03e5db6966933. No upscaling. Reuse terms unknown; ordinary source-linked preview only, not ownership, derivative-card or structured-data image approval."
+      },
+      "locations": [
+        {
+          "name": "Kaiser Permanente Riverside Medical Center — Dermatology Department",
+          "address": "10800 Magnolia Avenue",
+          "city": "Riverside",
+          "state": "CA",
+          "zip": "92505",
+          "country": "USA",
+          "phone": "+1-833-574-2273",
+          "sourceIds": [
+            "natalienasser-official-20261022"
+          ]
+        }
+      ],
+      "city": "Riverside",
+      "state": "CA",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-22",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "Her biography connects studies in languages and linguistics, a Montreal residency she describes as a formative cultural experience, and balancing practice with family life.",
+          "sourceIds": [
+            "natalienasser-official-20261022"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Dermatology",
+            "sourceIds": [
+              "natalienasser-official-20261022"
+            ]
+          },
+          {
+            "label": "Office listed",
+            "value": "Kaiser Permanente Riverside Medical Center · 10800 Magnolia Avenue",
+            "sourceIds": [
+              "natalienasser-official-20261022"
+            ]
+          },
+          {
+            "label": "Contact route",
+            "value": "Kaiser Permanente appointments: 1-833-574-2273",
+            "sourceIds": [
+              "natalienasser-official-20261022"
+            ]
+          },
+          {
+            "label": "Before arranging care",
+            "value": "Confirm appointment capacity, eligibility, fees and referral requirements directly",
+            "sourceIds": [
+              "natalienasser-official-20261022"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A personal thread",
+          "text": "Her biography connects studies in languages and linguistics, a Montreal residency she describes as a formative cultural experience, and balancing practice with family life.",
+          "sourceIds": [
+            "natalienasser-official-20261022"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261022",
+          "text": "Natalie Yvonne Nasser’s own biography traces a path from Fall River, where she grew up in an Egyptian-American family, to language and linguistics studies in Washington, D.C., medical school in Boston, and dermatology residency in Montreal. She describes Quebec as a cultural and social eye-opener that helped her grow both personally and as a physician. Her account of life in Riverside includes balancing full-time practice with motherhood and a close family circle. These are her published reflections, not claims about the experience or outcomes of individual patients.",
+          "sourceIds": [
+            "natalienasser-official-20261022"
+          ]
+        },
+        {
+          "id": "access-20261022",
+          "heading": "Before arranging care",
+          "text": "Her Kaiser Permanente page lists the Riverside Medical Center Dermatology Department, 10800 Magnolia Avenue, Riverside, California 92505, and a Schedule an appointment link. The page directs patients to confirm location and plan details; capacity, external eligibility, fees and referral needs are not independently established.",
+          "sourceIds": [
+            "natalienasser-official-20261022"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "Natalie Yvonne Nasser’s own biography traces a path from Fall River, where she grew up in an Egyptian-American family, to language and linguistics studies in Washington, D.C., medical school in Boston, and dermatology residency in Montreal.",
+          "sourceIds": [
+            "natalienasser-official-20261022"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "She describes Quebec as a cultural and social eye-opener that helped her grow both personally and as a physician. Her account of life in Riverside includes balancing full-time practice with motherhood and a close family circle. These are her published reflections, not claims about the experience or outcomes of individual patients.",
+          "sourceIds": [
+            "natalienasser-official-20261022"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "Her Kaiser Permanente page lists the Riverside Medical Center Dermatology Department, 10800 Magnolia Avenue, Riverside, California 92505, and a Schedule an appointment link. The page directs patients to confirm location and plan details; capacity, external eligibility, fees and referral needs are not independently established.",
+          "sourceIds": [
+            "natalienasser-official-20261022"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": [],
+      "dataVerifiedAt": "2026-10-22T00:00:00.000Z"
+    },
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "ef672aa0-6dc7-49e7-a163-03592e1e49eb",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "seliminel",
+      "aliases": [],
+      "directorySlug": "riversidedermatologists",
+      "pilotNote": "Source-linked Riverside city pilot record added 2026-10-22. Pending human and independent license review; source biography and portrait checks do not verify clinical quality. No indexing approval. Record date means source retrieval, not independent verification.",
+      "sources": [
+        {
+          "id": "seliminel-official-20261022",
+          "url": "https://healthy.kaiserpermanente.org/southern-california/physicians/selim-inel-4157078",
+          "label": "Selim Mahmut Inel — biography and patient information",
+          "publisher": "Kaiser Permanente Southern California",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-22",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "sourceIds": [
+        "seliminel-official-20261022"
+      ],
+      "nameParts": {
+        "display": "Selim Mahmut Inel",
+        "given": "Selim",
+        "middle": "Mahmut",
+        "family": "Inel",
+        "sourceIds": [
+          "seliminel-official-20261022"
+        ]
+      },
+      "name": "Selim Mahmut Inel",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Dermatology",
+      "description": "His biography describes a return from Turkey to the United States for residency and names sailing, cycling, music and travel as personal interests.",
+      "phone": "+1-833-574-2273",
+      "email": null,
+      "website": "https://healthy.kaiserpermanente.org/southern-california/physicians/selim-inel-4157078",
+      "imageUrl": "/images/providers/seliminel-source-preview.webp",
+      "imageSource": "https://healthy.kaiserpermanente.org/southern-california/physicians/selim-inel-4157078",
+      "imageClickThroughUrl": "https://healthy.kaiserpermanente.org/southern-california/physicians/selim-inel-4157078",
+      "imageAlt": "Portrait of Selim Mahmut Inel from the named Kaiser Permanente physician page; opens that source.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-22",
+        "sourceIds": [
+          "seliminel-official-20261022"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "Exact portrait linked by named physician page, visually inspected. Source bytes 210 × 199 jpeg; SHA-256 bc628ba754cf0d91b09391b275b06a6dd18f8ad9a7bb17213ca2534b035271ae. Local uncropped proportional WebP 210 × 199, SHA-256 d01026f0d007b1ab75853e1a830d735ec15ae753698d30de1c305bf1d8616ede. No upscaling. Reuse terms unknown; ordinary source-linked preview only, not ownership, derivative-card or structured-data image approval."
+      },
+      "locations": [
+        {
+          "name": "Kaiser Permanente Riverside Medical Center — Dermatology Department",
+          "address": "10800 Magnolia Avenue",
+          "city": "Riverside",
+          "state": "CA",
+          "zip": "92505",
+          "country": "USA",
+          "phone": "+1-833-574-2273",
+          "sourceIds": [
+            "seliminel-official-20261022"
+          ]
+        }
+      ],
+      "city": "Riverside",
+      "state": "CA",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-22",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "His biography describes a return from Turkey to the United States for residency and names sailing, cycling, music and travel as personal interests.",
+          "sourceIds": [
+            "seliminel-official-20261022"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Dermatology",
+            "sourceIds": [
+              "seliminel-official-20261022"
+            ]
+          },
+          {
+            "label": "Office listed",
+            "value": "Kaiser Permanente Riverside Medical Center · 10800 Magnolia Avenue",
+            "sourceIds": [
+              "seliminel-official-20261022"
+            ]
+          },
+          {
+            "label": "Contact route",
+            "value": "Kaiser Permanente appointments: 1-833-574-2273",
+            "sourceIds": [
+              "seliminel-official-20261022"
+            ]
+          },
+          {
+            "label": "Before arranging care",
+            "value": "Confirm appointment capacity, eligibility, fees and referral requirements directly",
+            "sourceIds": [
+              "seliminel-official-20261022"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A personal thread",
+          "text": "His biography describes a return from Turkey to the United States for residency and names sailing, cycling, music and travel as personal interests.",
+          "sourceIds": [
+            "seliminel-official-20261022"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261022",
+          "text": "Selim Mahmut Inel’s first-person biography moves between Istanbul, the United States, and Turkey again: his family returned to Turkey when he was young, where he studied medicine, worked as a general practitioner, and completed social and military service. He later chose to return to the United States for residency and describes Southern California’s climate and lifestyle as reasons it became home. The same page mentions trips back to Turkey to stay connected with extended family, as well as sailing, cycling, music, and travel. His story is presented as he tells it, without drawing conclusions about clinical care.",
+          "sourceIds": [
+            "seliminel-official-20261022"
+          ]
+        },
+        {
+          "id": "access-20261022",
+          "heading": "Before arranging care",
+          "text": "His Kaiser Permanente page lists the Riverside Medical Center Dermatology Department, 10800 Magnolia Avenue, Riverside, California 92505, and a Schedule an appointment link. It also links to location and plan information. Current appointment capacity, external eligibility, fees and referrals remain unconfirmed.",
+          "sourceIds": [
+            "seliminel-official-20261022"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "Selim Mahmut Inel’s first-person biography moves between Istanbul, the United States, and Turkey again: his family returned to Turkey when he was young, where he studied medicine, worked as a general practitioner, and completed social and military service.",
+          "sourceIds": [
+            "seliminel-official-20261022"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "He later chose to return to the United States for residency and describes Southern California’s climate and lifestyle as reasons it became home. The same page mentions trips back to Turkey to stay connected with extended family, as well as sailing, cycling, music, and travel. His story is presented as he tells it, without drawing conclusions about clinical care.",
+          "sourceIds": [
+            "seliminel-official-20261022"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "His Kaiser Permanente page lists the Riverside Medical Center Dermatology Department, 10800 Magnolia Avenue, Riverside, California 92505, and a Schedule an appointment link. It also links to location and plan information. Current appointment capacity, external eligibility, fees and referrals remain unconfirmed.",
+          "sourceIds": [
+            "seliminel-official-20261022"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": [],
+      "dataVerifiedAt": "2026-10-22T00:00:00.000Z"
+    },
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "7dba938a-2da1-4258-ad73-832103f18d8f",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "johnhyunsikahn",
+      "aliases": [],
+      "directorySlug": "riversidedermatologists",
+      "pilotNote": "Source-linked Riverside city pilot record added 2026-10-22. Pending human and independent license review; source biography and portrait checks do not verify clinical quality. No indexing approval. Record date means source retrieval, not independent verification.",
+      "sources": [
+        {
+          "id": "johnhyunsikahn-official-20261022",
+          "url": "https://healthy.kaiserpermanente.org/southern-california/physicians/john-ahn-6455679",
+          "label": "John Hyun Sik Ahn — biography and patient information",
+          "publisher": "Kaiser Permanente Southern California",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-22",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "sourceIds": [
+        "johnhyunsikahn-official-20261022"
+      ],
+      "nameParts": {
+        "display": "John Hyun Sik Ahn",
+        "given": "John",
+        "middle": "Hyun Sik",
+        "family": "Ahn",
+        "sourceIds": [
+          "johnhyunsikahn-official-20261022"
+        ]
+      },
+      "name": "John Hyun Sik Ahn",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Dermatology",
+      "description": "His biography recalls summers and Christmas visits to California family and names volunteer work in free clinics and mission trips.",
+      "phone": "+1-833-574-2273",
+      "email": null,
+      "website": "https://healthy.kaiserpermanente.org/southern-california/physicians/john-ahn-6455679",
+      "imageUrl": "/images/providers/johnhyunsikahn-source-preview.webp",
+      "imageSource": "https://healthy.kaiserpermanente.org/southern-california/physicians/john-ahn-6455679",
+      "imageClickThroughUrl": "https://healthy.kaiserpermanente.org/southern-california/physicians/john-ahn-6455679",
+      "imageAlt": "Portrait of John Hyun Sik Ahn from the named Kaiser Permanente physician page; opens that source.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-22",
+        "sourceIds": [
+          "johnhyunsikahn-official-20261022"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "Exact portrait linked by named physician page, visually inspected. Source bytes 210 × 199 jpeg; SHA-256 b078859db756cacccce780a4287ac0a14f6f72204d45a280d1954b9859f37584. Local uncropped proportional WebP 210 × 199, SHA-256 361071cfa829ce0d96c5f5edac273afaf217d77205b21e8726b5f83f95fca611. No upscaling. Reuse terms unknown; ordinary source-linked preview only, not ownership, derivative-card or structured-data image approval."
+      },
+      "locations": [
+        {
+          "name": "Kaiser Permanente Riverside Medical Center — Dermatology Department",
+          "address": "10800 Magnolia Avenue",
+          "city": "Riverside",
+          "state": "CA",
+          "zip": "92505",
+          "country": "USA",
+          "phone": "+1-833-574-2273",
+          "sourceIds": [
+            "johnhyunsikahn-official-20261022"
+          ]
+        }
+      ],
+      "city": "Riverside",
+      "state": "CA",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-22",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "His biography recalls summers and Christmas visits to California family and names volunteer work in free clinics and mission trips.",
+          "sourceIds": [
+            "johnhyunsikahn-official-20261022"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Dermatology",
+            "sourceIds": [
+              "johnhyunsikahn-official-20261022"
+            ]
+          },
+          {
+            "label": "Office listed",
+            "value": "Kaiser Permanente Riverside Medical Center · 10800 Magnolia Avenue",
+            "sourceIds": [
+              "johnhyunsikahn-official-20261022"
+            ]
+          },
+          {
+            "label": "Contact route",
+            "value": "Kaiser Permanente appointments: 1-833-574-2273",
+            "sourceIds": [
+              "johnhyunsikahn-official-20261022"
+            ]
+          },
+          {
+            "label": "Before arranging care",
+            "value": "Confirm appointment capacity, eligibility, fees and referral requirements directly",
+            "sourceIds": [
+              "johnhyunsikahn-official-20261022"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A personal thread",
+          "text": "His biography recalls summers and Christmas visits to California family and names volunteer work in free clinics and mission trips.",
+          "sourceIds": [
+            "johnhyunsikahn-official-20261022"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261022",
+          "text": "John Hyun Sik Ahn’s biography describes growing up near Atlanta while spending summers and every Christmas with extended family in California. After medical school in Georgia and dermatology residency in Florida, he says the sunny Southern California climate appealed to him. He also describes volunteering in free medical clinics and on mission trips. In his practice statement, he emphasizes listening to members and working with them on treatment plans. These are his stated interests and approach; they are not evidence of outcomes or a guarantee about a particular visit.",
+          "sourceIds": [
+            "johnhyunsikahn-official-20261022"
+          ]
+        },
+        {
+          "id": "access-20261022",
+          "heading": "Before arranging care",
+          "text": "His Kaiser Permanente page lists the Riverside Medical Center Dermatology Department at 10800 Magnolia Avenue, Riverside, California 92505, with a Schedule an appointment link. Capacity, fees, outside-plan eligibility and referral requirements are not established.",
+          "sourceIds": [
+            "johnhyunsikahn-official-20261022"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "John Hyun Sik Ahn’s biography describes growing up near Atlanta while spending summers and every Christmas with extended family in California.",
+          "sourceIds": [
+            "johnhyunsikahn-official-20261022"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "After medical school in Georgia and dermatology residency in Florida, he says the sunny Southern California climate appealed to him. He also describes volunteering in free medical clinics and on mission trips. In his practice statement, he emphasizes listening to members and working with them on treatment plans. These are his stated interests and approach; they are not evidence of outcomes or a guarantee about a particular visit.",
+          "sourceIds": [
+            "johnhyunsikahn-official-20261022"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "His Kaiser Permanente page lists the Riverside Medical Center Dermatology Department at 10800 Magnolia Avenue, Riverside, California 92505, with a Schedule an appointment link. Capacity, fees, outside-plan eligibility and referral requirements are not established.",
+          "sourceIds": [
+            "johnhyunsikahn-official-20261022"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": [],
+      "dataVerifiedAt": "2026-10-22T00:00:00.000Z"
+    },
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "edaabc73-5bb3-4a99-9b0e-e7d76b9b15bb",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "edwardjongbae",
+      "aliases": [],
+      "directorySlug": "riversidedermatologists",
+      "pilotNote": "Source-linked Riverside city pilot record added 2026-10-22. Pending human and independent license review; source biography and portrait checks do not verify clinical quality. No indexing approval. Record date means source retrieval, not independent verification.",
+      "sources": [
+        {
+          "id": "edwardjongbae-official-20261022",
+          "url": "https://healthy.kaiserpermanente.org/southern-california/physicians/edward-bae-9537518",
+          "label": "Edward Jong Bae — biography and patient information",
+          "publisher": "Kaiser Permanente Southern California",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-22",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "sourceIds": [
+        "edwardjongbae-official-20261022"
+      ],
+      "nameParts": {
+        "display": "Edward Jong Bae",
+        "given": "Edward",
+        "middle": "Jong",
+        "family": "Bae",
+        "sourceIds": [
+          "edwardjongbae-official-20261022"
+        ]
+      },
+      "name": "Edward Jong Bae",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Dermatology",
+      "description": "He connects a family experience with his decision to become a physician, and names puzzles and complex strategy games among his interests.",
+      "phone": "+1-833-574-2273",
+      "email": null,
+      "website": "https://healthy.kaiserpermanente.org/southern-california/physicians/edward-bae-9537518",
+      "imageUrl": "/images/providers/edwardjongbae-source-preview.webp",
+      "imageSource": "https://healthy.kaiserpermanente.org/southern-california/physicians/edward-bae-9537518",
+      "imageClickThroughUrl": "https://healthy.kaiserpermanente.org/southern-california/physicians/edward-bae-9537518",
+      "imageAlt": "Portrait of Edward Jong Bae from the named Kaiser Permanente physician page; opens that source.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-22",
+        "sourceIds": [
+          "edwardjongbae-official-20261022"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "Exact portrait linked by named physician page, visually inspected. Source bytes 210 × 199 jpeg; SHA-256 5b3f61e1ea0c77c5f884f80df166894db412c41b557c345ec475a01233b782bc. Local uncropped proportional WebP 210 × 199, SHA-256 ed621072b9ec323ba5dfbe817b083397e809becca49a7999f9d8614e560d1ca7. No upscaling. Reuse terms unknown; ordinary source-linked preview only, not ownership, derivative-card or structured-data image approval."
+      },
+      "locations": [
+        {
+          "name": "Kaiser Permanente Riverside Medical Center — Mohs Department",
+          "address": "10800 Magnolia Avenue",
+          "city": "Riverside",
+          "state": "CA",
+          "zip": "92505",
+          "country": "USA",
+          "phone": "+1-833-574-2273",
+          "sourceIds": [
+            "edwardjongbae-official-20261022"
+          ]
+        }
+      ],
+      "city": "Riverside",
+      "state": "CA",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-22",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "He connects a family experience with his decision to become a physician, and names puzzles and complex strategy games among his interests.",
+          "sourceIds": [
+            "edwardjongbae-official-20261022"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Dermatology",
+            "sourceIds": [
+              "edwardjongbae-official-20261022"
+            ]
+          },
+          {
+            "label": "Office listed",
+            "value": "Kaiser Permanente Riverside Medical Center · 10800 Magnolia Avenue",
+            "sourceIds": [
+              "edwardjongbae-official-20261022"
+            ]
+          },
+          {
+            "label": "Contact route",
+            "value": "Kaiser Permanente appointments: 1-833-574-2273",
+            "sourceIds": [
+              "edwardjongbae-official-20261022"
+            ]
+          },
+          {
+            "label": "Before arranging care",
+            "value": "Confirm appointment capacity, eligibility, fees and referral requirements directly",
+            "sourceIds": [
+              "edwardjongbae-official-20261022"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A personal thread",
+          "text": "He connects a family experience with his decision to become a physician, and names puzzles and complex strategy games among his interests.",
+          "sourceIds": [
+            "edwardjongbae-official-20261022"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261022",
+          "text": "Edward Jong Bae’s biography says that seeing several family members live with different medical conditions helped motivate him to become a doctor, because he wanted to help when people felt helpless. He describes choosing Mohs surgery for the mix of diagnostic and technical work, and says that getting to know patients mattered especially to him. Away from work, he names family time, physical activity, puzzles, and complex strategy board games as interests. His explanation is a personal account of motivation, not a claim about patient results.",
+          "sourceIds": [
+            "edwardjongbae-official-20261022"
+          ]
+        },
+        {
+          "id": "access-20261022",
+          "heading": "Before arranging care",
+          "text": "His Kaiser Permanente page lists the Riverside Medical Center Mohs Department at 10800 Magnolia Avenue, Riverside, California 92505, and a Schedule an appointment link. The current appointment pathway, service eligibility, fees and referral requirements should be confirmed directly.",
+          "sourceIds": [
+            "edwardjongbae-official-20261022"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "Edward Jong Bae’s biography says that seeing several family members live with different medical conditions helped motivate him to become a doctor, because he wanted to help when people felt helpless.",
+          "sourceIds": [
+            "edwardjongbae-official-20261022"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "He describes choosing Mohs surgery for the mix of diagnostic and technical work, and says that getting to know patients mattered especially to him. Away from work, he names family time, physical activity, puzzles, and complex strategy board games as interests. His explanation is a personal account of motivation, not a claim about patient results.",
+          "sourceIds": [
+            "edwardjongbae-official-20261022"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "His Kaiser Permanente page lists the Riverside Medical Center Mohs Department at 10800 Magnolia Avenue, Riverside, California 92505, and a Schedule an appointment link. The current appointment pathway, service eligibility, fees and referral requirements should be confirmed directly.",
+          "sourceIds": [
+            "edwardjongbae-official-20261022"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": [],
+      "dataVerifiedAt": "2026-10-22T00:00:00.000Z"
+    }
+  ],
+  "media": [
+    {
+      "slug": "natalienasser",
+      "sourceAsset": "https://healthy.kaiserpermanente.org/static/provider-images/9101758.jpg",
+      "status": 200,
+      "setCookie": false,
+      "sourceWidth": 210,
+      "sourceHeight": 199,
+      "sourceFormat": "jpeg",
+      "sourceBytes": 37376,
+      "sourceSha256": "e878e62ae5d8008b608e3793e93ce7ec7b3456fb3ee573684518279c08c7dc0e",
+      "localWidth": 210,
+      "localHeight": 199,
+      "localBytes": 5348,
+      "localSha256": "b5dc995ef58c47f2499bc96420717cb4056a883a76ebaf0833e03e5db6966933"
+    },
+    {
+      "slug": "seliminel",
+      "sourceAsset": "https://healthy.kaiserpermanente.org/static/provider-images/4157078.jpg",
+      "status": 200,
+      "setCookie": false,
+      "sourceWidth": 210,
+      "sourceHeight": 199,
+      "sourceFormat": "jpeg",
+      "sourceBytes": 5157,
+      "sourceSha256": "bc628ba754cf0d91b09391b275b06a6dd18f8ad9a7bb17213ca2534b035271ae",
+      "localWidth": 210,
+      "localHeight": 199,
+      "localBytes": 3400,
+      "localSha256": "d01026f0d007b1ab75853e1a830d735ec15ae753698d30de1c305bf1d8616ede"
+    },
+    {
+      "slug": "johnhyunsikahn",
+      "sourceAsset": "https://healthy.kaiserpermanente.org/static/provider-images/6455679.jpg",
+      "status": 200,
+      "setCookie": false,
+      "sourceWidth": 210,
+      "sourceHeight": 199,
+      "sourceFormat": "jpeg",
+      "sourceBytes": 6022,
+      "sourceSha256": "b078859db756cacccce780a4287ac0a14f6f72204d45a280d1954b9859f37584",
+      "localWidth": 210,
+      "localHeight": 199,
+      "localBytes": 4508,
+      "localSha256": "361071cfa829ce0d96c5f5edac273afaf217d77205b21e8726b5f83f95fca611"
+    },
+    {
+      "slug": "edwardbae",
+      "sourceAsset": "https://healthy.kaiserpermanente.org/static/provider-images/9537518.jpg",
+      "status": 200,
+      "setCookie": false,
+      "sourceWidth": 210,
+      "sourceHeight": 199,
+      "sourceFormat": "jpeg",
+      "sourceBytes": 5840,
+      "sourceSha256": "5b3f61e1ea0c77c5f884f80df166894db412c41b557c345ec475a01233b782bc",
+      "localWidth": 210,
+      "localHeight": 199,
+      "localBytes": 4326,
+      "localSha256": "ed621072b9ec323ba5dfbe817b083397e809becca49a7999f9d8614e560d1ca7"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "stage": "applied-result",
+  "checkedOn": "2026-10-22",
+  "baseline": "765a06d169fbee334573ff1b0fb583757ad36c95",
+  "directory": "riversidedermatologists",
+  "directoryMembersBefore": 1,
+  "directoryMembersAfter": 5,
+  "added": [
+    {
+      "id": "432abb05-ae69-4f1d-951f-baf56159d81a",
+      "name": "Natalie Yvonne Nasser",
+      "canonicalPath": "natalienasser",
+      "source": "https://healthy.kaiserpermanente.org/southern-california/physicians/natalie-nasser-9101758",
+      "image": "/images/providers/natalienasser-source-preview.webp"
+    },
+    {
+      "id": "ef672aa0-6dc7-49e7-a163-03592e1e49eb",
+      "name": "Selim Mahmut Inel",
+      "canonicalPath": "seliminel",
+      "source": "https://healthy.kaiserpermanente.org/southern-california/physicians/selim-inel-4157078",
+      "image": "/images/providers/seliminel-source-preview.webp"
+    },
+    {
+      "id": "7dba938a-2da1-4258-ad73-832103f18d8f",
+      "name": "John Hyun Sik Ahn",
+      "canonicalPath": "johnhyunsikahn",
+      "source": "https://healthy.kaiserpermanente.org/southern-california/physicians/john-ahn-6455679",
+      "image": "/images/providers/johnhyunsikahn-source-preview.webp"
+    },
+    {
+      "id": "edaabc73-5bb3-4a99-9b0e-e7d76b9b15bb",
+      "name": "Edward Jong Bae",
+      "canonicalPath": "edwardjongbae",
+      "source": "https://healthy.kaiserpermanente.org/southern-california/physicians/edward-bae-9537518",
+      "image": "/images/providers/edwardjongbae-source-preview.webp"
+    }
+  ],
+  "totalsBefore": {
+    "providers": 128,
+    "localPortraitDeliveries": 120,
+    "qualifyingUniqueIDs": 109
+  },
+  "totalsAfter": {
+    "providers": 132,
+    "localPortraitDeliveries": 124,
+    "qualifyingUniqueIDs": 113
+  },
+  "portraitSources": [
+    {
+      "slug": "natalienasser",
+      "sourceAsset": "https://healthy.kaiserpermanente.org/static/provider-images/9101758.jpg",
+      "status": 200,
+      "setCookie": false,
+      "sourceWidth": 210,
+      "sourceHeight": 199,
+      "sourceFormat": "jpeg",
+      "sourceBytes": 37376,
+      "sourceSha256": "e878e62ae5d8008b608e3793e93ce7ec7b3456fb3ee573684518279c08c7dc0e",
+      "localWidth": 210,
+      "localHeight": 199,
+      "localBytes": 5348,
+      "localSha256": "b5dc995ef58c47f2499bc96420717cb4056a883a76ebaf0833e03e5db6966933"
+    },
+    {
+      "slug": "seliminel",
+      "sourceAsset": "https://healthy.kaiserpermanente.org/static/provider-images/4157078.jpg",
+      "status": 200,
+      "setCookie": false,
+      "sourceWidth": 210,
+      "sourceHeight": 199,
+      "sourceFormat": "jpeg",
+      "sourceBytes": 5157,
+      "sourceSha256": "bc628ba754cf0d91b09391b275b06a6dd18f8ad9a7bb17213ca2534b035271ae",
+      "localWidth": 210,
+      "localHeight": 199,
+      "localBytes": 3400,
+      "localSha256": "d01026f0d007b1ab75853e1a830d735ec15ae753698d30de1c305bf1d8616ede"
+    },
+    {
+      "slug": "johnhyunsikahn",
+      "sourceAsset": "https://healthy.kaiserpermanente.org/static/provider-images/6455679.jpg",
+      "status": 200,
+      "setCookie": false,
+      "sourceWidth": 210,
+      "sourceHeight": 199,
+      "sourceFormat": "jpeg",
+      "sourceBytes": 6022,
+      "sourceSha256": "b078859db756cacccce780a4287ac0a14f6f72204d45a280d1954b9859f37584",
+      "localWidth": 210,
+      "localHeight": 199,
+      "localBytes": 4508,
+      "localSha256": "361071cfa829ce0d96c5f5edac273afaf217d77205b21e8726b5f83f95fca611"
+    },
+    {
+      "slug": "edwardbae",
+      "sourceAsset": "https://healthy.kaiserpermanente.org/static/provider-images/9537518.jpg",
+      "status": 200,
+      "setCookie": false,
+      "sourceWidth": 210,
+      "sourceHeight": 199,
+      "sourceFormat": "jpeg",
+      "sourceBytes": 5840,
+      "sourceSha256": "5b3f61e1ea0c77c5f884f80df166894db412c41b557c345ec475a01233b782bc",
+      "localWidth": 210,
+      "localHeight": 199,
+      "localBytes": 4326,
+      "localSha256": "ed621072b9ec323ba5dfbe817b083397e809becca49a7999f9d8614e560d1ca7"
+    }
+  ],
+  "checks": {
+    "typecheck": "passed",
+    "allRecordAndAssetIntegrity": "passed: all 152 entity files; 124 independent local source-linked portrait expectations; full accepted narrative and fixed preservation baseline passed",
+    "contract": "84/84 passed after correcting an API-model test to read persisted profile sections from the provider JSON while keeping indexability checked via provider slug.",
+    "http": "110/110 passed",
+    "browser": "3 passed: affected full-stories, citation links, locally decoded portrait delivery and zero initial third-party requests/cookies, desktop and touch-mobile; 24.5 seconds",
+    "perSourceTouchActivation": "4/4 passed: actual tap opened each named Kaiser source; source request happened after interaction and did not open an adjacent disclosure",
+    "noindex": "verified in directory and profile HTTP headers (noindex,nofollow)",
+    "api": "200; five Riverside providers returned",
+    "imageDelivery": "four local image endpoints HTTP 200; source-host requests absent before activation; first-party image inspection fetches had no Set-Cookie",
+    "productionBuild": "passed",
+    "fixedBaseline": "passed: preserved all pre-existing records and content; four provider additions and one additive Riverside directory refresh"
+  },
+  "limitations": [
+    "Source-stated bios and access only; not independent clinical, license, plan eligibility or appointment capacity verification.",
+    "Reuse rights remain unknown; previews do not imply ownership or derivative approval.",
+    "No deployment, screen-reader, physical-device Safari or scale/load test.",
+    "Riverside pilot is not a complete county roster; all offices are named at the source as the Riverside Medical Center."
+  ]
+}
