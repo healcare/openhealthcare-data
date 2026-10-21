@@ -1,0 +1,1300 @@
+{
+  "title": "Irvine pediatricians — prepared contribution",
+  "preparedOn": "2026-10-21",
+  "status": "applied",
+  "scope": "A new, separate Irvine pediatricians directory; no changes to Irvine dentists, Medi-Cal preview or other cohorts.",
+  "directory": {
+    "$schema": "../schema/directory.schema.json",
+    "id": "87af35b5-2295-4ee9-ae24-4b05ee7e76dd",
+    "entityType": "directory",
+    "status": "published",
+    "indexable": false,
+    "claimStatus": "unclaimed",
+    "canonicalPath": "irvinepediatricians",
+    "aliases": [],
+    "title": "Pediatricians in Irvine, California",
+    "description": "A small source-linked snapshot of pediatricians whose official practice profiles list patient-serving Irvine offices. Read each provider’s own published story and follow the source for current contact details. This is not a complete roster or ranking. Confirm availability, plan eligibility, fees and referrals directly with each practice.",
+    "specialty": "Pediatrics",
+    "city": "Irvine",
+    "state": "CA",
+    "country": "USA",
+    "pilotNote": "New Irvine pediatrics directory, October 21, 2026. Pending human review and independent license review; biography and image association do not verify clinical quality or licensure. Non-indexable pilot.",
+    "sources": [
+      {
+        "id": "cynthiabui-official-20261021",
+        "url": "https://www.sunshinepediatricsoc.com/provider/dr-cynthia-bui-md",
+        "label": "Cynthia Bui — official provider biography and patient information",
+        "publisher": "Sunshine Pediatrics OC",
+        "sourceType": "official-provider-profile",
+        "retrievedDate": "2026-10-21",
+        "retrievalMethod": "web-retrieval",
+        "verificationStatus": "source-stated",
+        "note": "Named official practice profile states the biographical details and Irvine patient-contact pathway; no independent license, clinical-quality, plan-eligibility, fees, referral or current appointment-capacity verification was performed."
+      },
+      {
+        "id": "jiyeonkim-official-20261021",
+        "url": "https://www.sunshinepediatricsoc.com/provider/dr-jiyeon-kim-md",
+        "label": "Jiyeon Kim — official provider biography and patient information",
+        "publisher": "Sunshine Pediatrics OC",
+        "sourceType": "official-provider-profile",
+        "retrievedDate": "2026-10-21",
+        "retrievalMethod": "web-retrieval",
+        "verificationStatus": "source-stated",
+        "note": "Named official practice profile states the biographical details and Irvine patient-contact pathway; no independent license, clinical-quality, plan-eligibility, fees, referral or current appointment-capacity verification was performed."
+      },
+      {
+        "id": "christinekornu-official-20261021",
+        "url": "https://www.sunshinepediatricsoc.com/provider/dr-christine-kornu-md",
+        "label": "Christine Kornu — official provider biography and patient information",
+        "publisher": "Sunshine Pediatrics OC",
+        "sourceType": "official-provider-profile",
+        "retrievedDate": "2026-10-21",
+        "retrievalMethod": "web-retrieval",
+        "verificationStatus": "source-stated",
+        "note": "Named official practice profile states the biographical details and Irvine patient-contact pathway; no independent license, clinical-quality, plan-eligibility, fees, referral or current appointment-capacity verification was performed."
+      },
+      {
+        "id": "sandyoaklee-official-20261021",
+        "url": "https://www.sunshinepediatricsoc.com/provider/dr-sandy-lee-md",
+        "label": "Sandy Oak Lee — official provider biography and patient information",
+        "publisher": "Sunshine Pediatrics OC",
+        "sourceType": "official-provider-profile",
+        "retrievedDate": "2026-10-21",
+        "retrievalMethod": "web-retrieval",
+        "verificationStatus": "source-stated",
+        "note": "Named official practice profile states the biographical details and Irvine patient-contact pathway; no independent license, clinical-quality, plan-eligibility, fees, referral or current appointment-capacity verification was performed."
+      },
+      {
+        "id": "maryannegalanglomboy-official-20261021",
+        "url": "https://www.hoag.org/physician/mary-anne-galang-lomboy-md",
+        "label": "Mary Anne Galang-Lomboy — official provider biography and patient information",
+        "publisher": "Hoag",
+        "sourceType": "official-provider-profile",
+        "retrievedDate": "2026-10-21",
+        "retrievalMethod": "web-retrieval",
+        "verificationStatus": "source-stated",
+        "note": "Named official practice profile states the biographical details and Irvine patient-contact pathway; no independent license, clinical-quality, plan-eligibility, fees, referral or current appointment-capacity verification was performed."
+      },
+      {
+        "id": "jessicamangonon-official-20261021",
+        "url": "https://www.hoag.org/physician/jessica-c-mangonon-md",
+        "label": "Jessica C. Mangonon — official provider biography and patient information",
+        "publisher": "Hoag",
+        "sourceType": "official-provider-profile",
+        "retrievedDate": "2026-10-21",
+        "retrievalMethod": "web-retrieval",
+        "verificationStatus": "source-stated",
+        "note": "Named official practice profile states the biographical details and Irvine patient-contact pathway; no independent license, clinical-quality, plan-eligibility, fees, referral or current appointment-capacity verification was performed."
+      },
+      {
+        "id": "peggytse-official-20261021",
+        "url": "https://www.hoag.org/physician/peggy-p-tse-md/",
+        "label": "Peggy P. Tse — official provider biography and patient information",
+        "publisher": "Hoag",
+        "sourceType": "official-provider-profile",
+        "retrievedDate": "2026-10-21",
+        "retrievalMethod": "web-retrieval",
+        "verificationStatus": "source-stated",
+        "note": "Named official practice profile states the biographical details and Irvine patient-contact pathway; no independent license, clinical-quality, plan-eligibility, fees, referral or current appointment-capacity verification was performed."
+      }
+    ],
+    "selectionMethod": {
+      "includedWhen": [
+        "Provider is individually named on an official practice biography.",
+        "The named page lists a physical Irvine office and a patient contact or scheduling pathway.",
+        "The exact named individual portrait was decoded and visually inspected before local delivery."
+      ],
+      "notUsedAsRankingFactors": [
+        "No ranking by popularity, awards, appointment availability or photo count.",
+        "No medical outcomes, marketing claims or unverified credentials were used as selection signals."
+      ],
+      "licenseMethod": "No independent California license lookup was performed. Each provider remains pending independent license review."
+    },
+    "socialSignalPolicy": "Reviews, social reach and popularity were not collected or used.",
+    "reviewStatus": "pending-human-review"
+  },
+  "providers": [
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "b500dd21-2fdf-4842-b637-fe3e565a2136",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "cynthiabui",
+      "aliases": [],
+      "directorySlug": "irvinepediatricians",
+      "pilotNote": "Source-stated Irvine pediatrics pilot added October 21, 2026. Pending human and independent license review. Biography, patient-access and portrait checks do not verify clinical quality or licensure. No indexing approval. Retrieval dates are not independent verification dates.",
+      "sources": [
+        {
+          "id": "cynthiabui-official-20261021",
+          "url": "https://www.sunshinepediatricsoc.com/provider/dr-cynthia-bui-md",
+          "label": "Cynthia Bui — official provider biography and patient information",
+          "publisher": "Sunshine Pediatrics OC",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-21",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated",
+          "note": "Named official practice profile states the biographical details and Irvine patient-contact pathway; no independent license, clinical-quality, plan-eligibility, fees, referral or current appointment-capacity verification was performed."
+        }
+      ],
+      "sourceIds": [
+        "cynthiabui-official-20261021"
+      ],
+      "nameParts": {
+        "display": "Cynthia Bui",
+        "given": "Cynthia",
+        "family": "Bui",
+        "sourceIds": [
+          "cynthiabui-official-20261021"
+        ]
+      },
+      "name": "Cynthia Bui",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Pediatrics",
+      "description": "Her biography connects growing up in Irvine, inspiration from her own pediatrician, and a return to Orange County after research and training.",
+      "phone": "+1-949-617-2525",
+      "email": null,
+      "website": "https://www.sunshinepediatricsoc.com/provider/dr-cynthia-bui-md",
+      "imageUrl": "/images/providers/cynthiabui-source-preview.webp",
+      "imageSource": "https://www.sunshinepediatricsoc.com/provider/dr-cynthia-bui-md",
+      "imageClickThroughUrl": "https://www.sunshinepediatricsoc.com/provider/dr-cynthia-bui-md",
+      "imageAlt": "Portrait of Cynthia Bui from the named Sunshine Pediatrics OC provider profile.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-21",
+        "sourceIds": [
+          "cynthiabui-official-20261021"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "The named provider page displays and identifies this individual portrait. Exact source asset URL: https://irp.cdn-website.com/f66f2afc/dms3rep/multi/opt/Cynthia_Bui_300dpi-1920w.jpg. Retrieved by normal HTTP GET; response decoded and visually inspected. Exact downloaded original: JPEG 1365×2048, 341681 bytes, SHA-256 695066d9f14cf77eeae85598100581dda88cab6febc47545257035a28ad7e32e; visually inspected with the named source page. Direct image response had no Set-Cookie header. Local proportional uncropped WebP preview: 360×540, 23278 bytes, SHA-256 becc0fb5d1a6b395942cfa9a50b61eb9bbfd0e82a980d9c5dc47d6177f410e29; no upscaling. Reuse terms remain unknown; ordinary source-linked preview only, not ownership, blanket license, derivative-card or structured-data image approval. The checked named profile provides one distinct portrait; no second individually named provider image was available there, and ambiguous group/team photos were not assigned."
+      },
+      "mediaGallery": [],
+      "locations": [
+        {
+          "name": "Sunshine Pediatrics OC",
+          "address": "17877 Von Karman Avenue, Suite 210",
+          "city": "Irvine",
+          "state": "CA",
+          "zip": "92614",
+          "country": "USA",
+          "phone": "+1-949-617-2525",
+          "sourceIds": [
+            "cynthiabui-official-20261021"
+          ],
+          "id": "cynthiabui-irvine-office"
+        }
+      ],
+      "city": "Irvine",
+      "state": "CA",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-21",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "Her biography connects growing up in Irvine, inspiration from her own pediatrician, and a return to Orange County after research and training.",
+          "sourceIds": [
+            "cynthiabui-official-20261021"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Pediatrics",
+            "sourceIds": [
+              "cynthiabui-official-20261021"
+            ]
+          },
+          {
+            "label": "Irvine office listed",
+            "value": "17877 Von Karman Avenue, Suite 210, Irvine, CA 92614",
+            "sourceIds": [
+              "cynthiabui-official-20261021"
+            ]
+          },
+          {
+            "label": "Patient contact route",
+            "value": "Sunshine Pediatrics OC · +1-949-617-2525",
+            "sourceIds": [
+              "cynthiabui-official-20261021"
+            ]
+          },
+          {
+            "label": "Before arranging care",
+            "value": "Confirm current appointment capacity, eligibility, fees and referral requirements directly with the practice.",
+            "sourceIds": [
+              "cynthiabui-official-20261021"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A documented personal thread",
+          "text": "Her biography connects growing up in Irvine, inspiration from her own pediatrician, and a return to Orange County after research and training.",
+          "sourceIds": [
+            "cynthiabui-official-20261021"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261021",
+          "heading": "A personal and professional story",
+          "text": "On her Sunshine Pediatrics biography, Cynthia Bui connects a local beginning with a return home: she grew up in Irvine and says her own pediatrician inspired her career. After eight years on the East Coast, she returned to Southern California for pediatric residency at UCI–CHOC. Her account also describes research in newborn brain development and pediatric sports medicine, plus a medical trip to Vietnam where she provided primary care to underserved communities and worked on child environmental-health research. These are her published reflections, not a report of patient outcomes.",
+          "sourceIds": [
+            "cynthiabui-official-20261021"
+          ]
+        },
+        {
+          "id": "access-20261021",
+          "heading": "Finding the practice",
+          "text": "Sunshine Pediatrics OC lists this Irvine office at 17877 Von Karman Avenue, Suite 210, Irvine, CA 92614, with (949) 617-2525 and a Schedule an Appointment link. Current openings, eligibility, fees and referral needs are not established here; confirm with the practice.",
+          "sourceIds": [
+            "cynthiabui-official-20261021"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "On her Sunshine Pediatrics biography, Cynthia Bui connects a local beginning with a return home: she grew up in Irvine and says her own pediatrician inspired her career. After eight years on the East Coast, she returned to Southern California for pediatric residency at UCI–CHOC. Her account also describes research in newborn brain development and pediatric sports medicine, plus a medical trip to Vietnam where she provided primary care to underserved communities and worked on child environmental-health research. These are her published reflections, not a report of patient outcomes.",
+          "sourceIds": [
+            "cynthiabui-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "Sunshine Pediatrics OC lists this Irvine office at 17877 Von Karman Avenue, Suite 210, Irvine, CA 92614, with (949) 617-2525 and a Schedule an Appointment link. Current openings, eligibility, fees and referral needs are not established here; confirm with the practice.",
+          "sourceIds": [
+            "cynthiabui-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": []
+    },
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "7424c6c0-6957-4fe3-a1dc-8326dcec72ac",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "jiyeonkim",
+      "aliases": [],
+      "directorySlug": "irvinepediatricians",
+      "pilotNote": "Source-stated Irvine pediatrics pilot added October 21, 2026. Pending human and independent license review. Biography, patient-access and portrait checks do not verify clinical quality or licensure. No indexing approval. Retrieval dates are not independent verification dates.",
+      "sources": [
+        {
+          "id": "jiyeonkim-official-20261021",
+          "url": "https://www.sunshinepediatricsoc.com/provider/dr-jiyeon-kim-md",
+          "label": "Jiyeon Kim — official provider biography and patient information",
+          "publisher": "Sunshine Pediatrics OC",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-21",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated",
+          "note": "Named official practice profile states the biographical details and Irvine patient-contact pathway; no independent license, clinical-quality, plan-eligibility, fees, referral or current appointment-capacity verification was performed."
+        }
+      ],
+      "sourceIds": [
+        "jiyeonkim-official-20261021"
+      ],
+      "nameParts": {
+        "display": "Jiyeon Kim",
+        "given": "Jiyeon",
+        "family": "Kim",
+        "sourceIds": [
+          "jiyeonkim-official-20261021"
+        ]
+      },
+      "name": "Jiyeon Kim",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Pediatrics",
+      "description": "Her biography brings together an international childhood, resident mentoring and a love of learning languages and trying new foods.",
+      "phone": "+1-949-617-2525",
+      "email": null,
+      "website": "https://www.sunshinepediatricsoc.com/provider/dr-jiyeon-kim-md",
+      "imageUrl": "/images/providers/jiyeonkim-source-preview.webp",
+      "imageSource": "https://www.sunshinepediatricsoc.com/provider/dr-jiyeon-kim-md",
+      "imageClickThroughUrl": "https://www.sunshinepediatricsoc.com/provider/dr-jiyeon-kim-md",
+      "imageAlt": "Portrait of Jiyeon Kim from the named Sunshine Pediatrics OC provider profile.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-21",
+        "sourceIds": [
+          "jiyeonkim-official-20261021"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "The named provider page displays and identifies this individual portrait. Exact source asset URL: https://irp.cdn-website.com/f66f2afc/dms3rep/multi/opt/JK_headshot_300dpi+cropped-1920w.jpg. Retrieved by normal HTTP GET; response decoded and visually inspected. Exact downloaded original: JPEG 975×1416, 130184 bytes, SHA-256 1793238bfb43d940329cf99573a207809749c3e9523e41e355b54e2b4432fadc; visually inspected with the named source page. Direct image response had no Set-Cookie header. Local proportional uncropped WebP preview: 360×523, 18828 bytes, SHA-256 8b5fa1536663acbea7f1a97e10f4b1e31a23cf534867d603bb7fa1c787520d9d; no upscaling. Reuse terms remain unknown; ordinary source-linked preview only, not ownership, blanket license, derivative-card or structured-data image approval. The checked named profile provides one distinct portrait; no second individually named provider image was available there, and ambiguous group/team photos were not assigned."
+      },
+      "mediaGallery": [],
+      "locations": [
+        {
+          "name": "Sunshine Pediatrics OC",
+          "address": "17877 Von Karman Avenue, Suite 210",
+          "city": "Irvine",
+          "state": "CA",
+          "zip": "92614",
+          "country": "USA",
+          "phone": "+1-949-617-2525",
+          "sourceIds": [
+            "jiyeonkim-official-20261021"
+          ],
+          "id": "jiyeonkim-irvine-office"
+        }
+      ],
+      "city": "Irvine",
+      "state": "CA",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-21",
+        "licenseLookupStatus": "pending"
+      },
+      "languages": [
+        "English",
+        "Korean"
+      ],
+      "atAGlance": {
+        "overview": {
+          "text": "Her biography brings together an international childhood, resident mentoring and a love of learning languages and trying new foods.",
+          "sourceIds": [
+            "jiyeonkim-official-20261021"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Pediatrics",
+            "sourceIds": [
+              "jiyeonkim-official-20261021"
+            ]
+          },
+          {
+            "label": "Irvine office listed",
+            "value": "17877 Von Karman Avenue, Suite 210, Irvine, CA 92614",
+            "sourceIds": [
+              "jiyeonkim-official-20261021"
+            ]
+          },
+          {
+            "label": "Patient contact route",
+            "value": "Sunshine Pediatrics OC · +1-949-617-2525",
+            "sourceIds": [
+              "jiyeonkim-official-20261021"
+            ]
+          },
+          {
+            "label": "Before arranging care",
+            "value": "Confirm current appointment capacity, eligibility, fees and referral requirements directly with the practice.",
+            "sourceIds": [
+              "jiyeonkim-official-20261021"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A documented personal thread",
+          "text": "Her biography brings together an international childhood, resident mentoring and a love of learning languages and trying new foods.",
+          "sourceIds": [
+            "jiyeonkim-official-20261021"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261021",
+          "heading": "A personal and professional story",
+          "text": "Jiyeon Kim's profile describes a childhood across multiple countries and an appreciation for each family's background and values. It recounts earlier work teaching and mentoring pediatric residents in research at the University of Illinois College of Medicine at Peoria, alongside community advocacy. Outside work, she says she enjoys learning Japanese, exploring new foods and Pilates, and running family 5Ks (or “slow jogging”). This is her biography's account; current academic appointments or advocacy roles are not implied.",
+          "sourceIds": [
+            "jiyeonkim-official-20261021"
+          ]
+        },
+        {
+          "id": "access-20261021",
+          "heading": "Finding the practice",
+          "text": "Sunshine Pediatrics OC lists this Irvine office at 17877 Von Karman Avenue, Suite 210, Irvine, CA 92614, with (949) 617-2525 and a Schedule an Appointment link. The profile says she speaks English and Korean. Current openings, eligibility, fees and referral needs are not established here; confirm with the practice.",
+          "sourceIds": [
+            "jiyeonkim-official-20261021"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "Jiyeon Kim's profile describes a childhood across multiple countries and an appreciation for each family's background and values. It recounts earlier work teaching and mentoring pediatric residents in research at the University of Illinois College of Medicine at Peoria, alongside community advocacy. Outside work, she says she enjoys learning Japanese, exploring new foods and Pilates, and running family 5Ks (or “slow jogging”). This is her biography's account; current academic appointments or advocacy roles are not implied.",
+          "sourceIds": [
+            "jiyeonkim-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "Sunshine Pediatrics OC lists this Irvine office at 17877 Von Karman Avenue, Suite 210, Irvine, CA 92614, with (949) 617-2525 and a Schedule an Appointment link. The profile says she speaks English and Korean. Current openings, eligibility, fees and referral needs are not established here; confirm with the practice.",
+          "sourceIds": [
+            "jiyeonkim-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": []
+    },
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "e18b60f8-d275-4376-9274-ec90f61e8fdc",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "christinekornu",
+      "aliases": [],
+      "directorySlug": "irvinepediatricians",
+      "pilotNote": "Source-stated Irvine pediatrics pilot added October 21, 2026. Pending human and independent license review. Biography, patient-access and portrait checks do not verify clinical quality or licensure. No indexing approval. Retrieval dates are not independent verification dates.",
+      "sources": [
+        {
+          "id": "christinekornu-official-20261021",
+          "url": "https://www.sunshinepediatricsoc.com/provider/dr-christine-kornu-md",
+          "label": "Christine Kornu — official provider biography and patient information",
+          "publisher": "Sunshine Pediatrics OC",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-21",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated",
+          "note": "Named official practice profile states the biographical details and Irvine patient-contact pathway; no independent license, clinical-quality, plan-eligibility, fees, referral or current appointment-capacity verification was performed."
+        }
+      ],
+      "sourceIds": [
+        "christinekornu-official-20261021"
+      ],
+      "nameParts": {
+        "display": "Christine Kornu",
+        "given": "Christine",
+        "family": "Kornu",
+        "sourceIds": [
+          "christinekornu-official-20261021"
+        ]
+      },
+      "name": "Christine Kornu",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Pediatrics",
+      "description": "Her biography follows a path from San Diego through academic and community pediatric work back to a new Irvine practice.",
+      "phone": "+1-949-617-2525",
+      "email": null,
+      "website": "https://www.sunshinepediatricsoc.com/provider/dr-christine-kornu-md",
+      "imageUrl": "/images/providers/christinekornu-source-preview.webp",
+      "imageSource": "https://www.sunshinepediatricsoc.com/provider/dr-christine-kornu-md",
+      "imageClickThroughUrl": "https://www.sunshinepediatricsoc.com/provider/dr-christine-kornu-md",
+      "imageAlt": "Portrait of Christine Kornu from the named Sunshine Pediatrics OC provider profile.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-21",
+        "sourceIds": [
+          "christinekornu-official-20261021"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "The named provider page displays and identifies this individual portrait. Exact source asset URL: https://irp.cdn-website.com/f66f2afc/dms3rep/multi/opt/Christine_Kornu_300dpi-1920w.jpg. Retrieved by normal HTTP GET; response decoded and visually inspected. Exact downloaded original: JPEG 1366×2048, 372213 bytes, SHA-256 ae8afa94b590b3c1868fbe9dd5c3e00ab6b9258d2371ef25321be2d1fbac296c; visually inspected with the named source page. Direct image response had no Set-Cookie header. Local proportional uncropped WebP preview: 360×540, 22094 bytes, SHA-256 c04a7ffc70f6c37f9d887e7d500ea1181632c1cc76223b468590e934a8b65f29; no upscaling. Reuse terms remain unknown; ordinary source-linked preview only, not ownership, blanket license, derivative-card or structured-data image approval. The checked named profile provides one distinct portrait; no second individually named provider image was available there, and ambiguous group/team photos were not assigned."
+      },
+      "mediaGallery": [],
+      "locations": [
+        {
+          "name": "Sunshine Pediatrics OC",
+          "address": "17877 Von Karman Avenue, Suite 210",
+          "city": "Irvine",
+          "state": "CA",
+          "zip": "92614",
+          "country": "USA",
+          "phone": "+1-949-617-2525",
+          "sourceIds": [
+            "christinekornu-official-20261021"
+          ],
+          "id": "christinekornu-irvine-office"
+        }
+      ],
+      "city": "Irvine",
+      "state": "CA",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-21",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "Her biography follows a path from San Diego through academic and community pediatric work back to a new Irvine practice.",
+          "sourceIds": [
+            "christinekornu-official-20261021"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Pediatrics",
+            "sourceIds": [
+              "christinekornu-official-20261021"
+            ]
+          },
+          {
+            "label": "Irvine office listed",
+            "value": "17877 Von Karman Avenue, Suite 210, Irvine, CA 92614",
+            "sourceIds": [
+              "christinekornu-official-20261021"
+            ]
+          },
+          {
+            "label": "Patient contact route",
+            "value": "Sunshine Pediatrics OC · +1-949-617-2525",
+            "sourceIds": [
+              "christinekornu-official-20261021"
+            ]
+          },
+          {
+            "label": "Before arranging care",
+            "value": "Confirm current appointment capacity, eligibility, fees and referral requirements directly with the practice.",
+            "sourceIds": [
+              "christinekornu-official-20261021"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A documented personal thread",
+          "text": "Her biography follows a path from San Diego through academic and community pediatric work back to a new Irvine practice.",
+          "sourceIds": [
+            "christinekornu-official-20261021"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261021",
+          "heading": "A personal and professional story",
+          "text": "Christine Kornu's story moves from San Diego to practice in Dallas and back to Southern California. Her profile describes work in both a children's academic hospital and a community clinic, including coordination of the Reach Out and Read early-literacy program. She also notes medical mission work in Thailand, Nepal and Mexico and leadership with youth organizations. Her current practice biography says she is beginning a new pediatrics practice in Irvine; this does not claim outcomes or independent license confirmation.",
+          "sourceIds": [
+            "christinekornu-official-20261021"
+          ]
+        },
+        {
+          "id": "access-20261021",
+          "heading": "Finding the practice",
+          "text": "Sunshine Pediatrics OC lists this Irvine office at 17877 Von Karman Avenue, Suite 210, Irvine, CA 92614, with (949) 617-2525 and a Schedule an Appointment link. Current openings, eligibility, fees and referral needs are not established here; confirm with the practice.",
+          "sourceIds": [
+            "christinekornu-official-20261021"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "Christine Kornu's story moves from San Diego to practice in Dallas and back to Southern California. Her profile describes work in both a children's academic hospital and a community clinic, including coordination of the Reach Out and Read early-literacy program. She also notes medical mission work in Thailand, Nepal and Mexico and leadership with youth organizations. Her current practice biography says she is beginning a new pediatrics practice in Irvine; this does not claim outcomes or independent license confirmation.",
+          "sourceIds": [
+            "christinekornu-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "Sunshine Pediatrics OC lists this Irvine office at 17877 Von Karman Avenue, Suite 210, Irvine, CA 92614, with (949) 617-2525 and a Schedule an Appointment link. Current openings, eligibility, fees and referral needs are not established here; confirm with the practice.",
+          "sourceIds": [
+            "christinekornu-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": []
+    },
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "97fe0298-1d11-43d0-8bbc-cfb63191ea46",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "sandyoaklee",
+      "aliases": [],
+      "directorySlug": "irvinepediatricians",
+      "pilotNote": "Source-stated Irvine pediatrics pilot added October 21, 2026. Pending human and independent license review. Biography, patient-access and portrait checks do not verify clinical quality or licensure. No indexing approval. Retrieval dates are not independent verification dates.",
+      "sources": [
+        {
+          "id": "sandyoaklee-official-20261021",
+          "url": "https://www.sunshinepediatricsoc.com/provider/dr-sandy-lee-md",
+          "label": "Sandy Oak Lee — official provider biography and patient information",
+          "publisher": "Sunshine Pediatrics OC",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-21",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated",
+          "note": "Named official practice profile states the biographical details and Irvine patient-contact pathway; no independent license, clinical-quality, plan-eligibility, fees, referral or current appointment-capacity verification was performed."
+        }
+      ],
+      "sourceIds": [
+        "sandyoaklee-official-20261021"
+      ],
+      "nameParts": {
+        "display": "Sandy Oak Lee",
+        "given": "Sandy",
+        "middle": "Oak",
+        "family": "Lee",
+        "sourceIds": [
+          "sandyoaklee-official-20261021"
+        ]
+      },
+      "name": "Sandy Oak Lee",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Pediatrics",
+      "description": "Her biography links a long local practice history with nonprofit work focused on educational opportunity and mentorship.",
+      "phone": "+1-949-617-2525",
+      "email": null,
+      "website": "https://www.sunshinepediatricsoc.com/provider/dr-sandy-lee-md",
+      "imageUrl": "/images/providers/sandyoaklee-source-preview.webp",
+      "imageSource": "https://www.sunshinepediatricsoc.com/provider/dr-sandy-lee-md",
+      "imageClickThroughUrl": "https://www.sunshinepediatricsoc.com/provider/dr-sandy-lee-md",
+      "imageAlt": "Portrait of Sandy Oak Lee from the named Sunshine Pediatrics OC provider profile.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-21",
+        "sourceIds": [
+          "sandyoaklee-official-20261021"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "The named provider page displays and identifies this individual portrait. Exact source asset URL: https://irp.cdn-website.com/f66f2afc/dms3rep/multi/opt/Sandy_Lee_300dpi-1920w.jpg. Retrieved by normal HTTP GET; response decoded and visually inspected. Exact downloaded original: JPEG 1366×2048, 364429 bytes, SHA-256 d65c3f676aa53a1c5631b491db0ef63c48132f5eacae81142e57a6d009b8356f; visually inspected with the named source page. Direct image response had no Set-Cookie header. Local proportional uncropped WebP preview: 360×540, 20948 bytes, SHA-256 ed98161a7ff645344e5ffccf458f4e7d3001d7d1128bc7d18859adca367edc92; no upscaling. Reuse terms remain unknown; ordinary source-linked preview only, not ownership, blanket license, derivative-card or structured-data image approval. The checked named profile provides one distinct portrait; no second individually named provider image was available there, and ambiguous group/team photos were not assigned."
+      },
+      "mediaGallery": [],
+      "locations": [
+        {
+          "name": "Sunshine Pediatrics OC",
+          "address": "17877 Von Karman Avenue, Suite 210",
+          "city": "Irvine",
+          "state": "CA",
+          "zip": "92614",
+          "country": "USA",
+          "phone": "+1-949-617-2525",
+          "sourceIds": [
+            "sandyoaklee-official-20261021"
+          ],
+          "id": "sandyoaklee-irvine-office"
+        }
+      ],
+      "city": "Irvine",
+      "state": "CA",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-21",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "Her biography links a long local practice history with nonprofit work focused on educational opportunity and mentorship.",
+          "sourceIds": [
+            "sandyoaklee-official-20261021"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Pediatrics",
+            "sourceIds": [
+              "sandyoaklee-official-20261021"
+            ]
+          },
+          {
+            "label": "Irvine office listed",
+            "value": "17877 Von Karman Avenue, Suite 210, Irvine, CA 92614",
+            "sourceIds": [
+              "sandyoaklee-official-20261021"
+            ]
+          },
+          {
+            "label": "Patient contact route",
+            "value": "Sunshine Pediatrics OC · +1-949-617-2525",
+            "sourceIds": [
+              "sandyoaklee-official-20261021"
+            ]
+          },
+          {
+            "label": "Before arranging care",
+            "value": "Confirm current appointment capacity, eligibility, fees and referral requirements directly with the practice.",
+            "sourceIds": [
+              "sandyoaklee-official-20261021"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A documented personal thread",
+          "text": "Her biography links a long local practice history with nonprofit work focused on educational opportunity and mentorship.",
+          "sourceIds": [
+            "sandyoaklee-official-20261021"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261021",
+          "heading": "A personal and professional story",
+          "text": "Sandy Oak Lee says she was raised in Irvine and has practiced in Irvine and Orange County for more than 20 years. Her profile describes community service on nonprofit boards focused on educational opportunity and mentorship for foster youth, refugee children and international students. Outside work, she lists running with her dog, cooking and occasional golf. These are details from her practice biography; the directory does not independently assess clinical quality or verify licensure.",
+          "sourceIds": [
+            "sandyoaklee-official-20261021"
+          ]
+        },
+        {
+          "id": "access-20261021",
+          "heading": "Finding the practice",
+          "text": "Sunshine Pediatrics OC lists this Irvine office at 17877 Von Karman Avenue, Suite 210, Irvine, CA 92614, with (949) 617-2525 and a Schedule an Appointment link. Current openings, eligibility, fees and referral needs are not established here; confirm with the practice.",
+          "sourceIds": [
+            "sandyoaklee-official-20261021"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "Sandy Oak Lee says she was raised in Irvine and has practiced in Irvine and Orange County for more than 20 years. Her profile describes community service on nonprofit boards focused on educational opportunity and mentorship for foster youth, refugee children and international students. Outside work, she lists running with her dog, cooking and occasional golf. These are details from her practice biography; the directory does not independently assess clinical quality or verify licensure.",
+          "sourceIds": [
+            "sandyoaklee-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "Sunshine Pediatrics OC lists this Irvine office at 17877 Von Karman Avenue, Suite 210, Irvine, CA 92614, with (949) 617-2525 and a Schedule an Appointment link. Current openings, eligibility, fees and referral needs are not established here; confirm with the practice.",
+          "sourceIds": [
+            "sandyoaklee-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": []
+    },
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "2acb8d0d-a642-4b74-ab64-71886f8bbdaa",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "maryannegalanglomboy",
+      "aliases": [],
+      "directorySlug": "irvinepediatricians",
+      "pilotNote": "Source-stated Irvine pediatrics pilot added October 21, 2026. Pending human and independent license review. Biography, patient-access and portrait checks do not verify clinical quality or licensure. No indexing approval. Retrieval dates are not independent verification dates.",
+      "sources": [
+        {
+          "id": "maryannegalanglomboy-official-20261021",
+          "url": "https://www.hoag.org/physician/mary-anne-galang-lomboy-md",
+          "label": "Mary Anne Galang-Lomboy — official provider biography and patient information",
+          "publisher": "Hoag",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-21",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated",
+          "note": "Named official practice profile states the biographical details and Irvine patient-contact pathway; no independent license, clinical-quality, plan-eligibility, fees, referral or current appointment-capacity verification was performed."
+        }
+      ],
+      "sourceIds": [
+        "maryannegalanglomboy-official-20261021"
+      ],
+      "nameParts": {
+        "display": "Mary Anne Galang-Lomboy",
+        "given": "Mary Anne",
+        "family": "Galang-Lomboy",
+        "sourceIds": [
+          "maryannegalanglomboy-official-20261021"
+        ]
+      },
+      "name": "Mary Anne Galang-Lomboy",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Pediatrics",
+      "description": "Her story connects an early family experience with an approach she describes as taking time to listen to children and parents.",
+      "phone": "+1-949-557-0640",
+      "email": null,
+      "website": "https://www.hoag.org/physician/mary-anne-galang-lomboy-md",
+      "imageUrl": "/images/providers/maryannegalanglomboy-source-preview.webp",
+      "imageSource": "https://www.hoag.org/physician/mary-anne-galang-lomboy-md",
+      "imageClickThroughUrl": "https://www.hoag.org/physician/mary-anne-galang-lomboy-md",
+      "imageAlt": "Portrait of Mary Anne Galang-Lomboy from the named Hoag provider profile.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-21",
+        "sourceIds": [
+          "maryannegalanglomboy-official-20261021"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "The named provider page displays and identifies this individual portrait. Exact source asset URL: https://public.hoag.org/hoagmdimages/0669.jpg. Retrieved by normal HTTP GET; response decoded and visually inspected. Exact downloaded original: JPEG 400×500, 123605 bytes, SHA-256 1a80e6e1e31b0e15d6da82b93367601a3e85d5f3764670fa71d286b5cf369101; visually inspected with the named source page. Direct image response had no Set-Cookie header. Local proportional uncropped WebP preview: 360×450, 14262 bytes, SHA-256 97430a046751744825fee1176ae67fbbf04562b1f5c6d762c054b96387b56c72; no upscaling. Reuse terms remain unknown; ordinary source-linked preview only, not ownership, blanket license, derivative-card or structured-data image approval. The checked named profile provides one distinct portrait; no second individually named provider image was available there, and ambiguous group/team photos were not assigned."
+      },
+      "mediaGallery": [],
+      "locations": [
+        {
+          "name": "Hoag Medical Group Pediatrics",
+          "address": "114 Pacifica, Suite 100",
+          "city": "Irvine",
+          "state": "CA",
+          "zip": "92618",
+          "country": "USA",
+          "phone": "+1-949-557-0640",
+          "sourceIds": [
+            "maryannegalanglomboy-official-20261021"
+          ],
+          "id": "maryannegalanglomboy-irvine-office"
+        }
+      ],
+      "city": "Irvine",
+      "state": "CA",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-21",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "Her story connects an early family experience with an approach she describes as taking time to listen to children and parents.",
+          "sourceIds": [
+            "maryannegalanglomboy-official-20261021"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Pediatrics",
+            "sourceIds": [
+              "maryannegalanglomboy-official-20261021"
+            ]
+          },
+          {
+            "label": "Irvine office listed",
+            "value": "114 Pacifica, Suite 100, Irvine, CA 92618",
+            "sourceIds": [
+              "maryannegalanglomboy-official-20261021"
+            ]
+          },
+          {
+            "label": "Patient contact route",
+            "value": "Hoag Medical Group Pediatrics · +1-949-557-0640",
+            "sourceIds": [
+              "maryannegalanglomboy-official-20261021"
+            ]
+          },
+          {
+            "label": "Before arranging care",
+            "value": "Confirm current appointment capacity, eligibility, fees and referral requirements directly with the practice.",
+            "sourceIds": [
+              "maryannegalanglomboy-official-20261021"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A documented personal thread",
+          "text": "Her story connects an early family experience with an approach she describes as taking time to listen to children and parents.",
+          "sourceIds": [
+            "maryannegalanglomboy-official-20261021"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261021",
+          "heading": "A personal and professional story",
+          "text": "Mary Anne Galang-Lomboy traces her interest in pediatrics to growing up around medicine—her mother was a nurse—and helping care for three younger brothers. She says she enjoys meeting children at different stages of life and working with the whole family. In describing her approach, she emphasizes listening and taking time for a child's feelings. These are her published reflections, not promises about any particular patient's experience or outcome.",
+          "sourceIds": [
+            "maryannegalanglomboy-official-20261021"
+          ]
+        },
+        {
+          "id": "access-20261021",
+          "heading": "Finding the practice",
+          "text": "Hoag lists an Irvine office at 114 Pacifica, Suite 100, Irvine, CA 92618, and (949) 557-0640, with an online Schedule a visit pathway. Scheduling displays can change; current appointment capacity, plan eligibility, fees and referral requirements are not established here. Call the office to confirm.",
+          "sourceIds": [
+            "maryannegalanglomboy-official-20261021"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "Mary Anne Galang-Lomboy traces her interest in pediatrics to growing up around medicine—her mother was a nurse—and helping care for three younger brothers. She says she enjoys meeting children at different stages of life and working with the whole family. In describing her approach, she emphasizes listening and taking time for a child's feelings. These are her published reflections, not promises about any particular patient's experience or outcome.",
+          "sourceIds": [
+            "maryannegalanglomboy-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "Hoag lists an Irvine office at 114 Pacifica, Suite 100, Irvine, CA 92618, and (949) 557-0640, with an online Schedule a visit pathway. Scheduling displays can change; current appointment capacity, plan eligibility, fees and referral requirements are not established here. Call the office to confirm.",
+          "sourceIds": [
+            "maryannegalanglomboy-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": []
+    },
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "2cd9e580-3717-4c8f-91c5-4319b3257397",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "jessicamangonon",
+      "aliases": [],
+      "directorySlug": "irvinepediatricians",
+      "pilotNote": "Source-stated Irvine pediatrics pilot added October 21, 2026. Pending human and independent license review. Biography, patient-access and portrait checks do not verify clinical quality or licensure. No indexing approval. Retrieval dates are not independent verification dates.",
+      "sources": [
+        {
+          "id": "jessicamangonon-official-20261021",
+          "url": "https://www.hoag.org/physician/jessica-c-mangonon-md",
+          "label": "Jessica C. Mangonon — official provider biography and patient information",
+          "publisher": "Hoag",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-21",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated",
+          "note": "Named official practice profile states the biographical details and Irvine patient-contact pathway; no independent license, clinical-quality, plan-eligibility, fees, referral or current appointment-capacity verification was performed."
+        }
+      ],
+      "sourceIds": [
+        "jessicamangonon-official-20261021"
+      ],
+      "nameParts": {
+        "display": "Jessica C. Mangonon",
+        "given": "Jessica",
+        "middle": "C.",
+        "family": "Mangonon",
+        "sourceIds": [
+          "jessicamangonon-official-20261021"
+        ]
+      },
+      "name": "Jessica C. Mangonon",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Pediatrics",
+      "description": "Her biography connects a grandmother’s influence and early work with children to her choice of pediatrics.",
+      "phone": "+1-949-557-0640",
+      "email": null,
+      "website": "https://www.hoag.org/physician/jessica-c-mangonon-md",
+      "imageUrl": "/images/providers/jessicamangonon-source-preview.webp",
+      "imageSource": "https://www.hoag.org/physician/jessica-c-mangonon-md",
+      "imageClickThroughUrl": "https://www.hoag.org/physician/jessica-c-mangonon-md",
+      "imageAlt": "Portrait of Jessica C. Mangonon from the named Hoag provider profile.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-21",
+        "sourceIds": [
+          "jessicamangonon-official-20261021"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "The named provider page displays and identifies this individual portrait. Exact source asset URL: https://public.hoag.org/hoagmdimages/4013.jpg. Retrieved by normal HTTP GET; response decoded and visually inspected. Exact downloaded original: JPEG 400×500, 111795 bytes, SHA-256 31d840b0590789c8dfb5a4092be4b2985cd8b4e76f9d54a083b5ecedc7016bbe; visually inspected with the named source page. Direct image response had no Set-Cookie header. Local proportional uncropped WebP preview: 360×450, 11536 bytes, SHA-256 a241ca0cadbdd75aea656cdd62fcffc0a44e6d9112d330cc0c5f67a7322f357d; no upscaling. Reuse terms remain unknown; ordinary source-linked preview only, not ownership, blanket license, derivative-card or structured-data image approval. The checked named profile provides one distinct portrait; no second individually named provider image was available there, and ambiguous group/team photos were not assigned."
+      },
+      "mediaGallery": [],
+      "locations": [
+        {
+          "name": "Hoag Medical Group Pediatrics",
+          "address": "114 Pacifica, Suite 100",
+          "city": "Irvine",
+          "state": "CA",
+          "zip": "92618",
+          "country": "USA",
+          "phone": "+1-949-557-0640",
+          "sourceIds": [
+            "jessicamangonon-official-20261021"
+          ],
+          "id": "jessicamangonon-irvine-office"
+        }
+      ],
+      "city": "Irvine",
+      "state": "CA",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-21",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "Her biography connects a grandmother’s influence and early work with children to her choice of pediatrics.",
+          "sourceIds": [
+            "jessicamangonon-official-20261021"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Pediatrics",
+            "sourceIds": [
+              "jessicamangonon-official-20261021"
+            ]
+          },
+          {
+            "label": "Irvine office listed",
+            "value": "114 Pacifica, Suite 100, Irvine, CA 92618",
+            "sourceIds": [
+              "jessicamangonon-official-20261021"
+            ]
+          },
+          {
+            "label": "Patient contact route",
+            "value": "Hoag Medical Group Pediatrics · +1-949-557-0640",
+            "sourceIds": [
+              "jessicamangonon-official-20261021"
+            ]
+          },
+          {
+            "label": "Before arranging care",
+            "value": "Confirm current appointment capacity, eligibility, fees and referral requirements directly with the practice.",
+            "sourceIds": [
+              "jessicamangonon-official-20261021"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A documented personal thread",
+          "text": "Her biography connects a grandmother’s influence and early work with children to her choice of pediatrics.",
+          "sourceIds": [
+            "jessicamangonon-official-20261021"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261021",
+          "heading": "A personal and professional story",
+          "text": "Jessica C. Mangonon says growing up around physician grandparents—especially a grandmother who practiced internal medicine—inspired her interest in medicine. Before choosing pediatrics, she worked with children as an after-school teacher, camp counselor and nanny. Her profile says she enjoys following children's growth and aims to build an open relationship with each family; this is her published perspective, not a promise about an individual family's experience.",
+          "sourceIds": [
+            "jessicamangonon-official-20261021"
+          ]
+        },
+        {
+          "id": "access-20261021",
+          "heading": "Finding the practice",
+          "text": "Hoag lists an Irvine office at 114 Pacifica, Suite 100, Irvine, CA 92618, and (949) 557-0640, with an online Schedule a visit pathway. Her profile stated she was accepting new patients when checked on October 21, 2026; individual appointment capacity may change. Confirm current availability, plan eligibility, fees and referral requirements directly.",
+          "sourceIds": [
+            "jessicamangonon-official-20261021"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "Jessica C. Mangonon says growing up around physician grandparents—especially a grandmother who practiced internal medicine—inspired her interest in medicine. Before choosing pediatrics, she worked with children as an after-school teacher, camp counselor and nanny. Her profile says she enjoys following children's growth and aims to build an open relationship with each family; this is her published perspective, not a promise about an individual family's experience.",
+          "sourceIds": [
+            "jessicamangonon-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "Hoag lists an Irvine office at 114 Pacifica, Suite 100, Irvine, CA 92618, and (949) 557-0640, with an online Schedule a visit pathway. Her profile stated she was accepting new patients when checked on October 21, 2026; individual appointment capacity may change. Confirm current availability, plan eligibility, fees and referral requirements directly.",
+          "sourceIds": [
+            "jessicamangonon-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": []
+    },
+    {
+      "$schema": "../schema/provider.schema.json",
+      "id": "cdde2a06-760c-4a8a-81ce-da0c5fb3d16d",
+      "entityType": "provider",
+      "status": "published",
+      "indexable": false,
+      "claimStatus": "unclaimed",
+      "canonicalPath": "peggytse",
+      "aliases": [],
+      "directorySlug": "irvinepediatricians",
+      "pilotNote": "Source-stated Irvine pediatrics pilot added October 21, 2026. Pending human and independent license review. Biography, patient-access and portrait checks do not verify clinical quality or licensure. No indexing approval. Retrieval dates are not independent verification dates.",
+      "sources": [
+        {
+          "id": "peggytse-official-20261021",
+          "url": "https://www.hoag.org/physician/peggy-p-tse-md/",
+          "label": "Peggy P. Tse — official provider biography and patient information",
+          "publisher": "Hoag",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-21",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated",
+          "note": "Named official practice profile states the biographical details and Irvine patient-contact pathway; no independent license, clinical-quality, plan-eligibility, fees, referral or current appointment-capacity verification was performed."
+        }
+      ],
+      "sourceIds": [
+        "peggytse-official-20261021"
+      ],
+      "nameParts": {
+        "display": "Peggy P. Tse",
+        "given": "Peggy",
+        "middle": "P.",
+        "family": "Tse",
+        "sourceIds": [
+          "peggytse-official-20261021"
+        ]
+      },
+      "name": "Peggy P. Tse",
+      "title": "MD",
+      "clinicianType": "physician",
+      "specialty": "Pediatrics",
+      "description": "Her biography connects an immigrant family story and community role models with a decision to pursue pediatrics.",
+      "phone": "+1-949-557-0640",
+      "email": null,
+      "website": "https://www.hoag.org/physician/peggy-p-tse-md/",
+      "imageUrl": "/images/providers/peggytse-source-preview.webp",
+      "imageSource": "https://www.hoag.org/physician/peggy-p-tse-md/",
+      "imageClickThroughUrl": "https://www.hoag.org/physician/peggy-p-tse-md/",
+      "imageAlt": "Portrait of Peggy P. Tse from the named Hoag provider profile.",
+      "imageUsage": "local-source-preview",
+      "mediaReview": {
+        "status": "unresolved",
+        "checkedOn": "2026-10-21",
+        "sourceIds": [
+          "peggytse-official-20261021"
+        ],
+        "structuredDataImage": "withheld",
+        "note": "The named provider page displays and identifies this individual portrait. Exact source asset URL: https://public.hoag.org/hoagmdimages/1788.jpg. Retrieved by normal HTTP GET; response decoded and visually inspected. Exact downloaded original: JPEG 400×515, 26482 bytes, SHA-256 21b1fcffe162bb1444400773e1a144e2d764df769ce837132efc2be5a4820e67; visually inspected with the named source page. Direct image response had no Set-Cookie header. Local proportional uncropped WebP preview: 360×464, 10120 bytes, SHA-256 31e30e421d44f8bfc0c07467b4d3bf6ce58ba3c6dcc802b0ac43fccfd5b867ce; no upscaling. Reuse terms remain unknown; ordinary source-linked preview only, not ownership, blanket license, derivative-card or structured-data image approval. The checked named profile provides one distinct portrait; no second individually named provider image was available there, and ambiguous group/team photos were not assigned."
+      },
+      "mediaGallery": [],
+      "locations": [
+        {
+          "name": "Hoag Medical Group Pediatrics",
+          "address": "114 Pacifica, Suite 100",
+          "city": "Irvine",
+          "state": "CA",
+          "zip": "92618",
+          "country": "USA",
+          "phone": "+1-949-557-0640",
+          "sourceIds": [
+            "peggytse-official-20261021"
+          ],
+          "id": "peggytse-irvine-office"
+        }
+      ],
+      "city": "Irvine",
+      "state": "CA",
+      "country": "USA",
+      "verification": {
+        "status": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "researchedOn": "2026-10-21",
+        "licenseLookupStatus": "pending"
+      },
+      "atAGlance": {
+        "overview": {
+          "text": "Her biography connects an immigrant family story and community role models with a decision to pursue pediatrics.",
+          "sourceIds": [
+            "peggytse-official-20261021"
+          ]
+        },
+        "facts": [
+          {
+            "label": "Specialty listed",
+            "value": "Pediatrics",
+            "sourceIds": [
+              "peggytse-official-20261021"
+            ]
+          },
+          {
+            "label": "Irvine office listed",
+            "value": "114 Pacifica, Suite 100, Irvine, CA 92618",
+            "sourceIds": [
+              "peggytse-official-20261021"
+            ]
+          },
+          {
+            "label": "Patient contact route",
+            "value": "Hoag Medical Group Pediatrics · +1-949-557-0640",
+            "sourceIds": [
+              "peggytse-official-20261021"
+            ]
+          },
+          {
+            "label": "Before arranging care",
+            "value": "Confirm current appointment capacity, eligibility, fees and referral requirements directly with the practice.",
+            "sourceIds": [
+              "peggytse-official-20261021"
+            ]
+          }
+        ],
+        "humanDetail": {
+          "label": "A documented personal thread",
+          "text": "Her biography connects an immigrant family story and community role models with a decision to pursue pediatrics.",
+          "sourceIds": [
+            "peggytse-official-20261021"
+          ]
+        }
+      },
+      "profileSections": [
+        {
+          "id": "humanity-20261021",
+          "heading": "A personal and professional story",
+          "text": "Peggy P. Tse's profile says she was born in Hong Kong, immigrated as an infant, and was influenced by family friends and relatives who gave back to their community; she names that example as part of her decision to pursue pediatrics. She describes listening to parents, communicating and supporting families as central to her approach, and says she enjoys being a developmental resource for children. These are her published views, not independent clinical findings.",
+          "sourceIds": [
+            "peggytse-official-20261021"
+          ]
+        },
+        {
+          "id": "access-20261021",
+          "heading": "Finding the practice",
+          "text": "Hoag lists an Irvine office at 114 Pacifica, Suite 100, Irvine, CA 92618, and (949) 557-0640, with an online Schedule a visit pathway. The same profile also lists a Foothill Ranch office, which is not included in this Irvine directory. Current appointment capacity, plan eligibility, fees and referral requirements are not established; confirm with the practice.",
+          "sourceIds": [
+            "peggytse-official-20261021"
+          ]
+        }
+      ],
+      "claimEvidence": [
+        {
+          "claim": "Peggy P. Tse's profile says she was born in Hong Kong, immigrated as an infant, and was influenced by family friends and relatives who gave back to their community; she names that example as part of her decision to pursue pediatrics. She describes listening to parents, communicating and supporting families as central to her approach, and says she enjoys being a developmental resource for children. These are her published views, not independent clinical findings.",
+          "sourceIds": [
+            "peggytse-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        },
+        {
+          "claim": "Hoag lists an Irvine office at 114 Pacifica, Suite 100, Irvine, CA 92618, and (949) 557-0640, with an online Schedule a visit pathway. The same profile also lists a Foothill Ranch office, which is not included in this Irvine directory. Current appointment capacity, plan eligibility, fees and referral requirements are not established; confirm with the practice.",
+          "sourceIds": [
+            "peggytse-official-20261021"
+          ],
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "reviewNotes": []
+    }
+  ],
+  "mediaSummary": {
+    "candidatePortraits": 7,
+    "individuallyInspected": true,
+    "additionalDistinctNamedImagesFound": 0,
+    "galleryDecision": "One individually named portrait is available on each inspected provider profile. No extra gallery entries; ambiguous practice/group images are not assigned.",
+    "reuseTerms": "Unknown; modest local source-linked previews only. No rights, derivative, structured-data or clinical approval implied.",
+    "exactSourceAssetsRecorded": true,
+    "provenance": "Exact asset URLs, original and local dimensions, byte sizes, SHA-256 hashes, inspection, and direct asset response cookie observation are recorded per provider."
+  },
+  "collisionCheck": {
+    "checkedAgainstProviderCanonicalPathsAliases": true,
+    "checkedAgainstDirectoryCanonicalPathsAliases": true,
+    "proposedPaths": [
+      "cynthiabui",
+      "jiyeonkim",
+      "christinekornu",
+      "sandyoaklee",
+      "maryannegalanglomboy",
+      "jessicamangonon",
+      "peggytse",
+      "irvinepediatricians"
+    ],
+    "result": "No collision found at preparation."
+  },
+  "acceptanceNote": "Humanity qualification is provisional until imported and verified in patient-visible pages. It does not imply human review, independent clinical verification, license verification, or indexing approval.",
+  "appliedAt": "2026-10-21",
+  "appliedAppRevision": "5cf59d678af21328537dfcd94165787f81d036c3",
+  "appliedCounts": {
+    "newProviderIds": 7,
+    "providersAfterBatch": 139,
+    "directoriesAfterBatch": 18,
+    "qualifyingHumanityIdsAfterBatch": 120,
+    "inventoriedLocalPortraitDeliveriesAfterBatch": 131
+  }
+}
