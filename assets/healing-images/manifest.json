@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "healing-images",
+  "title": "Healing Images",
+  "updatedAt": "2026-10-24",
+  "assets": [
+    {
+      "id": "i-feel-better-modern-art",
+      "title": "Cut-paper portrait of hope",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/i-feel-better-modern-art.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 352258,
+      "sha256": "374b2dac6c662361ef267b769caf1760222c9b6b825bf4cf825d02e53a21db0d",
+      "message": "I feel better",
+      "alt": "I feel better — OpenHealthcare.org. Colorful painted profile with organic shapes and sun.",
+      "provenance": "AI-generated campaign illustration"
+    },
+    {
+      "id": "i-feel-better-opening-light",
+      "title": "Breathing space in vivid color",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/i-feel-better-opening-light.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 356206,
+      "sha256": "4d42900c8baa3146bdf54392625fc8fb353cd8729a140870410a9a00d431a266",
+      "message": "I feel better",
+      "alt": "I feel better — OpenHealthcare.org. Abstract blue and teal forms opening into warm light.",
+      "provenance": "AI-generated campaign illustration"
+    },
+    {
+      "id": "i-feel-better-blue-skies",
+      "title": "Blue skies, better days",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/i-feel-better-blue-skies.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 436144,
+      "sha256": "063051d71ca0f2cb7566b9039394c96a12ee50402d00972c7c688261ad559a88",
+      "message": "I feel better",
+      "alt": "I feel better — OpenHealthcare.org. Painted blue sky and luminous clouds.",
+      "provenance": "AI-generated campaign illustration"
+    },
+    {
+      "id": "i-feel-better-cellular-field",
+      "title": "A luminous field of living cells",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/i-feel-better-cellular-field.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 547216,
+      "sha256": "9fd650919264e723f957fa9d211c837df0d72cf239eeda543062ac199873e87a",
+      "message": "I feel better",
+      "alt": "I feel better — OpenHealthcare.org. An imaginative painted field of colorful cells under blue skies, with one smiling golden cell.",
+      "provenance": "AI-generated campaign illustration"
+    },
+    {
+      "id": "you-are-good-inkblot",
+      "title": "Blue Inkblot of Welcome",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/you-are-good-inkblot.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 509062,
+      "sha256": "0472ff7f560e6fc3374bd2140b0844a1500b5ed22fe4323daec3bd9b92cb8869",
+      "message": "you are good",
+      "alt": "you are good — OpenHealthcare.org. Symmetrical blue and teal ink washes opening like wings.",
+      "provenance": "AI-generated campaign illustration"
+    },
+    {
+      "id": "you-are-good-turquoise-waters",
+      "title": "Turquoise waters, you are good",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/you-are-good-turquoise-waters.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 553374,
+      "sha256": "f6a5c609798e2c4dc4c3bbfb72dffb6f0d0a2889f0698c00bfc55f07b8a400ee",
+      "message": "you are good",
+      "alt": "you are good — OpenHealthcare.org. Sunlit turquoise water and a gentle painted shoreline.",
+      "provenance": "AI-generated campaign illustration"
+    }
+  ]
+}
