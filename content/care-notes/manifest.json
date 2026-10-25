@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "care-notes",
+  "title": "Care Notes",
+  "updatedAt": "2026-10-24",
+  "posts": [
+    {
+      "id": "youre-a-trillionaire",
+      "title": "You’re a trillionaire",
+      "tag": "Care note",
+      "route": "/care-notes/youre-a-trillionaire",
+      "contentPath": "content/care-notes/youre-a-trillionaire.md",
+      "excerpt": "An academic poem about the trillions of cells that make us—and the care we deserve.",
+      "artworkId": "youre-a-trillionaire",
+      "referencesCheckedAt": "2026-10-24",
+      "status": "approved-for-implementation"
+    }
+  ]
+}

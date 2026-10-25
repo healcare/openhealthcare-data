@@ -10,7 +10,7 @@ https://github.com/healcare/openhealthcare-data/tree/main/assets/healing-images
 
 Resolve each sourcePath from the repository root at the SAME COMMIT used to read the catalog. Pin that commit for an import, verify SHA-256 hashes, and bring approved enabled entries into the app's local optimized asset collection. This is an authoring/import source, not a visitor-time GitHub dependency. The ChatGPT Library originals are the creative archive, not an app API.
 
-The catalog currently contains six approved illustrations: modern profile, abstract light, blue skies, cellular field, inkblot and turquoise waters. The earlier photorealistic campaign image is outside this set. Existing dated campaign paths remain available for compatibility; this catalog is now the canonical growing set.
+The catalog currently contains seven approved illustrations: modern profile, abstract light, blue skies, cellular field, inkblot, turquoise waters and You’re a trillionaire. The earlier photorealistic campaign image is outside this set. Existing dated campaign paths remain available for compatibility; this catalog is now the canonical growing set.
 
 ## Requested site behavior
 On selected existing pages, show one randomly selected enabled artwork per art placement. Prefer existing approved campaign placements. Keep the selection fixed during a page visit, across ordinary rerenders and hydration, with no flash from a fallback artwork to another. Do not add timed rotation or a carousel. Where multiple placements are warranted on one page, avoid duplicates.
@@ -18,7 +18,7 @@ On selected existing pages, show one randomly selected enabled artwork per art p
 Randomization must not require cookies, tracking or persistent visitor identifiers. Load only the selected image, not the entire collection. If the collection or asset fails, keep the page usable with a local valid fallback or gracefully omit the art. Preserve search, navigation and provider information as the main tasks. This is an uplifting collection name, not a therapeutic efficacy claim; cells and inkblots are artistic imagery.
 
 ## Performance and accessibility
-Use the site's existing local image optimization and cache conventions; generate responsive sizes and further compress the supplied source exports after inspecting text/art quality. Each source is 1536 × 1024 at WebP quality 92. Preserve full 3:2 compositions and all lettering; do not crop away the message or smiling cell.
+Use the site's existing local image optimization and cache conventions; generate responsive sizes and further compress the supplied source exports after inspecting text/art quality. Each source is 1536 × 1024; the original six WebP exports use quality 92 and You’re a trillionaire uses quality 90. Preserve full 3:2 compositions and all lettering; do not crop away the message or smiling cell.
 
 Reserve dimensions to prevent layout shifts, lazy-load below-the-fold artwork, and avoid preloading all options. No visitor-time Library/GitHub requests or new third-party calls.
 

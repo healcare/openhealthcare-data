@@ -87,6 +87,20 @@
       "message": "you are good",
       "alt": "you are good — OpenHealthcare.org. Sunlit turquoise water and a gentle painted shoreline.",
       "provenance": "AI-generated campaign illustration"
+    },
+    {
+      "id": "youre-a-trillionaire",
+      "title": "A Universe of Living Cells",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/youre-a-trillionaire.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 648922,
+      "sha256": "be935fc96271c41c2c804ec62080fae9a495ffa960504f8af0af69f3efe54222",
+      "message": "You’re a trillionaire. Your body is made of trillions of cells.",
+      "alt": "A field of blue and turquoise cells surrounds a smiling golden cell. Text reads: You’re a trillionaire. Your body is made of trillions of cells. OpenHealthcare.org.",
+      "provenance": "AI-generated campaign illustration"
     }
   ]
 }
