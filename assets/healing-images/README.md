@@ -1,5 +1,5 @@
 # Healing Images
-The growing OpenHealthcare.org campaign art collection. Updated October 24, 2026.
+The growing OpenHealthcare.org campaign art collection. Updated October 26, 2026.
 
 ## Canonical import source
 Replit should read this catalog:
@@ -10,7 +10,7 @@ https://github.com/healcare/openhealthcare-data/tree/main/assets/healing-images
 
 Resolve each sourcePath from the repository root at the SAME COMMIT used to read the catalog. Pin that commit for an import, verify SHA-256 hashes, and bring approved enabled entries into the app's local optimized asset collection. This is an authoring/import source, not a visitor-time GitHub dependency. The ChatGPT Library originals are the creative archive, not an app API.
 
-The catalog currently contains eight approved illustrations: modern profile, abstract light, blue skies, cellular field, inkblot, turquoise waters, You’re a trillionaire, and the approved juicy mango revision. The earlier photorealistic campaign image is outside this set. Existing dated campaign paths remain available for compatibility; this catalog is now the canonical growing set.
+The catalog currently contains twelve approved illustrations, including the two prismatic breathe in awe artworks, Love matters and flourish inside added October 26. The earlier photorealistic campaign image remains outside this set. Existing dated campaign paths remain available for compatibility.
 
 ## Requested site behavior
 On every directory page, including custom and pilot directory layouts, show exactly one randomly selected enabled artwork after the provider listings and before supporting/footer content. Reuse any existing directory Healing Images placement to avoid duplicates. Keep directory headings, access information, controls, provider listings and disclosures primary. Retain the existing approved placements on other pages. The trillionaire Care Note retains its specific matching illustration. Keep the selection fixed during a page visit, across ordinary rerenders and hydration, with no flash from a fallback artwork to another. Do not add timed rotation or a carousel. Where multiple placements are warranted on one page, avoid duplicates.
@@ -18,7 +18,7 @@ On every directory page, including custom and pilot directory layouts, show exac
 Randomization must not require cookies, tracking or persistent visitor identifiers. Load only the selected image, not the entire collection. If the collection or asset fails, keep the page usable with a local valid fallback or gracefully omit the art. Preserve search, navigation and provider information as the main tasks. This is an uplifting collection name, not a therapeutic efficacy claim; cells and inkblots are artistic imagery.
 
 ## Performance and accessibility
-Use the site's existing local image optimization and cache conventions; generate responsive sizes and further compress the supplied source exports after inspecting text/art quality. Each source is 1536 × 1024; the original six WebP exports use quality 92 and the trillionaire and juicy mango exports use quality 90. Preserve full 3:2 compositions and all lettering; do not crop away the message or smiling cell.
+Use the site's existing local image optimization and cache conventions; generate responsive sizes and further compress the supplied source exports after inspecting text/art quality. Each source is 1536 × 1024; the original six WebP exports use quality 92 and all subsequent exports use quality 90. Preserve full 3:2 compositions and all lettering; do not crop away the message or smiling cell.
 
 Reserve dimensions to prevent layout shifts, lazy-load below-the-fold artwork, and avoid preloading all options. No visitor-time Library/GitHub requests or new third-party calls.
 
@@ -30,3 +30,6 @@ Run relevant existing checks and focused browser checks: catalog integrity, sele
 Add a new image and one catalog entry with a unique stable id, dimensions, bytes, checksum, accessible description and enabled state. Version revised image bytes under a new filename. Never overwrite existing artwork silently. Replit refreshes its imported catalog during the normal update/build workflow; a GitHub addition alone does not update an already-deployed site. No polling service or scheduled automation is required.
 
 Report the source commit consumed, chosen pages, app commit, optimized sizes and technical check results. Preserve unrelated work and provider data. Implementation is authorized; publishing is a separate action. Do not deploy.
+
+## October 26 refresh verification
+The four new prismatic artworks must appear in the imported manifest, optimized local files and eligible selection pool together. Compare the source and imported enabled IDs and checksums, and report the consumed revision and count. Update the importer documentation's obsolete pinned example whenever refreshing the set. An artwork saved only to the creative Library is not automatically available here. Adding images here alone is not an app import; republishing an older app alone will not add missing images. Complete import, validation and app commit first, then publication as a separate user action. Keep the default importer pinned and avoid visitor-time remote fetching. Optical patterns are stereogram-inspired artwork, not verified hidden-image puzzles.

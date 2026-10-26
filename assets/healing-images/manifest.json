@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "collectionId": "healing-images",
   "title": "Healing Images",
-  "updatedAt": "2026-10-24",
+  "updatedAt": "2026-10-26",
   "assets": [
     {
       "id": "i-feel-better-modern-art",
@@ -115,6 +115,62 @@
       "message": "Eating a mango is a life changing event",
       "alt": "Eating a mango is a life changing event — OpenHealthcare.org. Juicy golden mango slices on a cobalt-blue plate beneath a turquoise sky.",
       "provenance": "AI-generated campaign illustration; approved juicier revision"
+    },
+    {
+      "id": "breathe-in-awe-prismatic",
+      "title": "Prismatic Stereogram of Restful Wonder",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/breathe-in-awe-prismatic.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 526550,
+      "sha256": "6de126e80f1498b16c483db37c6b9f38363200bff17b3109ab5cbb49245709e8",
+      "message": "breathe in awe",
+      "alt": "breathe in awe — OpenHealthcare.org. Iridescent repeating rainbow shapes surround a luminous center.",
+      "provenance": "AI-generated campaign illustration; stereogram-inspired optical art"
+    },
+    {
+      "id": "breathe-in-awe-ribbons",
+      "title": "Prismatic Folds of Quiet Wonder",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/breathe-in-awe-ribbons.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 394312,
+      "sha256": "62b6baa332a8c635d915c898cb6e8498cfb8bff2ff99cc0a268c4df9881a28cf",
+      "message": "breathe in awe",
+      "alt": "breathe in awe — OpenHealthcare.org. Fine rainbow ribbons fold around a quiet ivory center.",
+      "provenance": "AI-generated campaign illustration; stereogram-inspired optical art"
+    },
+    {
+      "id": "love-matters-prismatic",
+      "title": "Prismatic heart of love",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/love-matters-prismatic.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 583376,
+      "sha256": "605dbc0c3965dceb8d69ed8ae960b66d80658262e6411818d5b53336a4a225cc",
+      "message": "Love matters",
+      "alt": "Love matters — OpenHealthcare.org. A warm glowing heart emerges from blue and pink opalescent patterns.",
+      "provenance": "AI-generated campaign illustration; stereogram-inspired optical art"
+    },
+    {
+      "id": "flourish-inside",
+      "title": "Opalescent bloom of inner flourishing",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/flourish-inside.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 416038,
+      "sha256": "72dbac19894bdf6485bc6624e4486c298eeded4d5af253f17eb79202f4570adb",
+      "message": "flourish inside",
+      "alt": "flourish inside — OpenHealthcare.org. A luminous flower opens through layers of turquoise, pink and golden petals.",
+      "provenance": "AI-generated campaign illustration; stereogram-inspired optical art"
     }
   ]
 }
