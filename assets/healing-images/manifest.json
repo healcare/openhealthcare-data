@@ -171,6 +171,20 @@
       "message": "flourish inside",
       "alt": "flourish inside — OpenHealthcare.org. A luminous flower opens through layers of turquoise, pink and golden petals.",
       "provenance": "AI-generated campaign illustration; stereogram-inspired optical art"
+    },
+    {
+      "id": "skin-cells-talk-prismatic",
+      "title": "Prismatic Cellular Ribbons",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/skin-cells-talk-prismatic.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 374940,
+      "sha256": "bd34e815370eb09f74172fc9e5d29a001c9d51b38639851df8bde64eb1a661cb",
+      "message": "skin cells talk to each other.",
+      "alt": "skin cells talk to each other. — OpenHealthcare.org. Flowing dark hair ribbons weave through a prismatic mosaic of blue, peach and lilac cells.",
+      "provenance": "AI-generated campaign illustration; geometric stereoscopic-inspired artistic interpretation"
     }
   ]
 }
