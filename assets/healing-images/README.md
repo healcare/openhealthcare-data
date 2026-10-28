@@ -1,5 +1,5 @@
 # Healing Images
-The growing OpenHealthcare.org campaign art collection. Updated October 26, 2026.
+The growing OpenHealthcare.org campaign art collection. Updated October 28, 2026.
 
 ## Canonical import source
 Replit should read this catalog:
@@ -10,7 +10,7 @@ https://github.com/healcare/openhealthcare-data/tree/main/assets/healing-images
 
 Resolve each sourcePath from the repository root at the SAME COMMIT used to read the catalog. Pin that commit for an import, verify SHA-256 hashes, and bring approved enabled entries into the app's local optimized asset collection. This is an authoring/import source, not a visitor-time GitHub dependency. The ChatGPT Library originals are the creative archive, not an app API.
 
-The catalog currently contains thirteen approved illustrations, including the two prismatic breathe in awe artworks, Love matters, flourish inside and Prismatic Cellular Ribbons (skin cells talk to each other.) added October 26. The earlier photorealistic campaign image remains outside this set. Existing dated campaign paths remain available for compatibility.
+The catalog currently contains sixteen approved illustrations. The October 28 additions are Luminous rainbow fractal convergence, Love in iridescent fractal tides and Emerald fractal embrace, all carrying the message from your thoughts to your toes — love is all around. The earlier photorealistic campaign image remains outside this set. Existing dated campaign paths remain available for compatibility.
 
 ## Requested site behavior
 On every directory page, including custom and pilot directory layouts, show exactly one randomly selected enabled artwork after the provider listings and before supporting/footer content. Reuse any existing directory Healing Images placement to avoid duplicates. Keep directory headings, access information, controls, provider listings and disclosures primary. Retain the existing approved placements on other pages. The trillionaire Care Note retains its specific matching illustration. Keep the selection fixed during a page visit, across ordinary rerenders and hydration, with no flash from a fallback artwork to another. Do not add timed rotation or a carousel. Where multiple placements are warranted on one page, avoid duplicates.
@@ -33,3 +33,6 @@ Report the source commit consumed, chosen pages, app commit, optimized sizes and
 
 ## October 26 refresh verification
 The four new prismatic artworks must appear in the imported manifest, optimized local files and eligible selection pool together. Compare the source and imported enabled IDs and checksums, and report the consumed revision and count. Update the importer documentation's obsolete pinned example whenever refreshing the set. An artwork saved only to the creative Library is not automatically available here. Adding images here alone is not an app import; republishing an older app alone will not add missing images. Complete import, validation and app commit first, then publication as a separate user action. Keep the default importer pinned and avoid visitor-time remote fetching. Optical patterns are stereogram-inspired artwork, not verified hidden-image puzzles.
+
+## October 28 additions
+Import all three new fractal artworks together with the previously enabled set. The source exports preserve fine detail; they are not the final browser transfer sizes. Keep the existing responsive delivery budgets and inspect lettering and fractal detail after further compression. Do not raise the budgets to accommodate the denser blue patterns. Confirm all sixteen enabled IDs are present and eligible, with only the selected artwork loading on each page. These are artistic interpretations inspired by fractal mathematics, not validated mathematical plots. Publication remains a separate user action.

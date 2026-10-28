@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "collectionId": "healing-images",
   "title": "Healing Images",
-  "updatedAt": "2026-10-26",
+  "updatedAt": "2026-10-28",
   "assets": [
     {
       "id": "i-feel-better-modern-art",
@@ -185,6 +185,48 @@
       "message": "skin cells talk to each other.",
       "alt": "skin cells talk to each other. — OpenHealthcare.org. Flowing dark hair ribbons weave through a prismatic mosaic of blue, peach and lilac cells.",
       "provenance": "AI-generated campaign illustration; geometric stereoscopic-inspired artistic interpretation"
+    },
+    {
+      "id": "love-all-around-convergence",
+      "title": "Luminous rainbow fractal convergence",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/love-all-around-convergence.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 761884,
+      "sha256": "c96fdf091cda7aee0e66808c346485ea31289f1ac194e9a6db042b61499903d9",
+      "message": "from your thoughts to your toes — love is all around",
+      "alt": "From your thoughts to your toes, love is all around — OpenHealthcare.org. Rainbow fractal filaments converge and unfurl against deep blue.",
+      "provenance": "AI-generated campaign illustration; fractal-inspired optical art"
+    },
+    {
+      "id": "love-all-around-fractal-tides",
+      "title": "Love in iridescent fractal tides",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/love-all-around-fractal-tides.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 739482,
+      "sha256": "cf6c5921f60d156476428d32341e16be82e589b9783ba831d20ba81ca735ac19",
+      "message": "from your thoughts to your toes — love is all around",
+      "alt": "From your thoughts to your toes, love is all around — OpenHealthcare.org. Iridescent fractal waves curl around a quiet ultramarine center.",
+      "provenance": "AI-generated campaign illustration; fractal-inspired optical art"
+    },
+    {
+      "id": "love-all-around-emerald",
+      "title": "Emerald fractal embrace",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/love-all-around-emerald.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 466916,
+      "sha256": "3a1bdd882ab1ec2b21f7adbb2ce7a761eb7af40cf81f47ca74a3d32c3f05c017",
+      "message": "from your thoughts to your toes — love is all around",
+      "alt": "From your thoughts to your toes, love is all around — OpenHealthcare.org. Sculpted mint, gold and lavender fractal layers frame an emerald-green center.",
+      "provenance": "AI-generated campaign illustration; fractal-inspired optical art"
     }
   ]
 }
