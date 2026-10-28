@@ -1,0 +1,495 @@
+{
+  "artifactType": "applied-humanity-and-portrait-assessment",
+  "preparedOn": "2026-10-28",
+  "scope": "Oregon first-baby OB-GYN directory; six existing provider IDs assessed against the source-backed narrative plus inspected local source-linked portrait criterion.",
+  "appAssessmentCommit": "ae5c5a6304c99a773d1553eac7568fa653916b5b",
+  "appContentBaseCommit": "9981c2d4183df64c88e3cbe073acd7f8dba22948",
+  "publicDataSourceBaseCommit": "3124720ae3e6d0ed32151c0c0e6eaeee22d3a8a4",
+  "baseline": {
+    "fixedPreservationCommit": "0e71f02b718ddcd1003dd504aa44c1bb103c6894",
+    "historicalAcceptedCheckpoint": "d4f0e503e3142140b6d182a0f8cc82d2a91d3865",
+    "acceptedUniqueIdsBefore": 124,
+    "acceptedUniqueIdsAfter": 130,
+    "providerRecords": 149,
+    "directoryRecords": 19,
+    "localPortraitDeliveries": 141
+  },
+  "meaning": "The count is the unique-ID intersection of complete source-backed humanity narratives and individually inspected, immediately delivered local source-linked portraits. It is not clinical/license verification, independent human editorial approval, image-rights clearance, or review/indexing promotion.",
+  "newlyQualifyingExistingIds": [
+    "0339f0a5-06b6-4243-abe3-d6b95383aa53",
+    "1b8af2fa-f45b-4bdc-a4f8-ccff1935e95b",
+    "2a778cc8-821f-49c7-b74b-132b4bab8779",
+    "639b217e-76d5-46e2-8d0b-906bb35af9c2",
+    "546e68c7-8dba-4fef-9ca1-2e73b7c8804a",
+    "6120c904-b764-42d2-9b14-428bd4fcc406"
+  ],
+  "entries": [
+    {
+      "provider": {
+        "id": "0339f0a5-06b6-4243-abe3-d6b95383aa53",
+        "name": "Erica Magelky",
+        "canonicalPath": "ericamagelky",
+        "directorySlug": "oregonobgyns"
+      },
+      "narrative": {
+        "id": "work-approach-20261027",
+        "heading": "Learning through listening and research",
+        "text": "In her published biography, Erica Magelky describes medicine as lifelong learning: she says she learns by listening to patients and their experiences, and by reviewing and sharing research. The same biography traces her training through Boston, Cleveland, and San Diego before she settled in Portland, which she says she came to love after visiting. This is her stated approach and career story, not a claim about patient outcomes.",
+        "sourceIds": [
+          "erica-magelky-profile-20261027"
+        ]
+      },
+      "access": {
+        "id": "pregnancy-care-access-20261027",
+        "heading": "Pregnancy care and office access",
+        "text": "Her profile lists full-spectrum obstetrics, including VBAC, high-risk pregnancies, and twins. The North office is listed at 501 N Graham St, Suite 550, Portland, OR 97227, with 503-284-5220. The location page lists weekday office hours, weekday phone hours, and Saturday appointments. Current openings, fees, plan-specific coverage, referrals, interpreter access, and where a particular clinician supports births are not established here; confirm them directly with the office.",
+        "sourceIds": [
+          "erica-magelky-profile-20261027",
+          "erica-magelky-access-20261027"
+        ]
+      },
+      "sources": [
+        {
+          "id": "erica-magelky-profile-20261027",
+          "url": "https://www.oregonclinic.com/our-team/erica-magelky",
+          "label": "Provider biography and obstetrics focus — Erica Magelky",
+          "publisher": "The Oregon Clinic",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-27",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "erica-magelky-access-20261027",
+          "url": "https://www.oregonclinic.com/locations/obstetrics-gynecology-north/",
+          "label": "Obstetrics & Gynecology North — office information",
+          "publisher": "The Oregon Clinic",
+          "sourceType": "official-practice-location",
+          "retrievedDate": "2026-10-27",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "erica-magelky-portrait-20261028",
+          "url": "https://www.oregonclinic.com/wp-content/uploads/2023/12/Magelky_Erica-2022-600x480-1.jpg",
+          "label": "Portrait image asset — Erica Magelky",
+          "publisher": "The Oregon Clinic",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-28",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "portrait": {
+        "id": "0339f0a5-06b6-4243-abe3-d6b95383aa53",
+        "slug": "ericamagelky",
+        "directory": "oregonobgyns",
+        "imageUrl": "/images/providers/ericamagelky-source-preview.webp",
+        "imageUsage": "local-source-preview",
+        "sourcePage": "https://www.oregonclinic.com/our-team/erica-magelky",
+        "sourceAsset": "https://www.oregonclinic.com/wp-content/uploads/2023/12/Magelky_Erica-2022-600x480-1.jpg",
+        "sourceWidth": 600,
+        "sourceHeight": 480,
+        "sourceSha256": "4f4d50a7b9d6595cc1a94f96ff5aa975acb06a30d8c172fdffe2890ac1792c6e",
+        "width": 360,
+        "height": 288,
+        "sha256": "c2693fc9c09fbca9124cf371b5b0b2ffde84444a87bc67fc02848a564abceb42",
+        "checkedOn": "2026-10-28",
+        "reason": "Deliberate new preview after exact asset and full-face composition were visually inspected on the named Oregon Clinic page. Proportional no-crop WebP; source association is not independent identity verification. Reuse terms unknown; ordinary source-linked preview only."
+      },
+      "editorialAndVerificationState": {
+        "recordStatus": "published",
+        "claimStatus": "unclaimed",
+        "indexable": false,
+        "sourceStatus": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending",
+        "researchDate": "2026-10-27"
+      }
+    },
+    {
+      "provider": {
+        "id": "1b8af2fa-f45b-4bdc-a4f8-ccff1935e95b",
+        "name": "Erika Copperman",
+        "canonicalPath": "erikacopperman",
+        "directorySlug": "oregonobgyns"
+      },
+      "narrative": {
+        "id": "career-motivation-20261027",
+        "heading": "Relationships and procedural work",
+        "text": "Erika Copperman’s published biography says she chose OB-GYN because the work can involve long-term relationships with patients as well as surgical or procedural care when needed. It also says she is originally from Eugene and grew up in the Pacific Northwest before training in several places and settling in Portland. These are details from her biography, not a promise about any individual patient's experience.",
+        "sourceIds": [
+          "erika-copperman-profile-20261027"
+        ]
+      },
+      "access": {
+        "id": "pregnancy-care-access-20261027",
+        "heading": "Pregnancy care and office access",
+        "text": "Her profile lists full-spectrum obstetrics, including VBAC, high-risk pregnancies, and twins. The North office is listed at 501 N Graham St, Suite 550, Portland, OR 97227, with 503-284-5220. The location page lists weekday office hours, weekday phone hours, and Saturday appointments. Current openings, fees, plan-specific coverage, referrals, interpreter access, and where a particular clinician supports births are not established here; confirm them directly with the office.",
+        "sourceIds": [
+          "erika-copperman-profile-20261027",
+          "erika-copperman-access-20261027"
+        ]
+      },
+      "sources": [
+        {
+          "id": "erika-copperman-profile-20261027",
+          "url": "https://www.oregonclinic.com/our-team/erika-copperman/",
+          "label": "Provider biography and obstetrics focus — Erika Copperman",
+          "publisher": "The Oregon Clinic",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-27",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "erika-copperman-access-20261027",
+          "url": "https://www.oregonclinic.com/locations/obstetrics-gynecology-north/",
+          "label": "Obstetrics & Gynecology North — office information",
+          "publisher": "The Oregon Clinic",
+          "sourceType": "official-practice-location",
+          "retrievedDate": "2026-10-27",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "erika-copperman-portrait-20261028",
+          "url": "https://www.oregonclinic.com/wp-content/uploads/2023/05/20-0615erikacopperman-1-small.jpg",
+          "label": "Portrait image asset — Erika Copperman",
+          "publisher": "The Oregon Clinic",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-28",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "portrait": {
+        "id": "1b8af2fa-f45b-4bdc-a4f8-ccff1935e95b",
+        "slug": "erikacopperman",
+        "directory": "oregonobgyns",
+        "imageUrl": "/images/providers/erikacopperman-source-preview.webp",
+        "imageUsage": "local-source-preview",
+        "sourcePage": "https://www.oregonclinic.com/our-team/erika-copperman/",
+        "sourceAsset": "https://www.oregonclinic.com/wp-content/uploads/2023/05/20-0615erikacopperman-1-small.jpg",
+        "sourceWidth": 600,
+        "sourceHeight": 480,
+        "sourceSha256": "e03e21eb17ebba17fd729a55888e1b46f0476e6f5f9f4e4334de73ff96b7ecd1",
+        "width": 360,
+        "height": 288,
+        "sha256": "9cac50ccda26b173d83e0f2022bbdf65b0f857303545b562504d69d09b7eee3a",
+        "checkedOn": "2026-10-28",
+        "reason": "Deliberate new preview after exact asset and full-face composition were visually inspected on the named Oregon Clinic page. Proportional no-crop WebP; source association is not independent identity verification. Reuse terms unknown; ordinary source-linked preview only."
+      },
+      "editorialAndVerificationState": {
+        "recordStatus": "published",
+        "claimStatus": "unclaimed",
+        "indexable": false,
+        "sourceStatus": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending",
+        "researchDate": "2026-10-27"
+      }
+    },
+    {
+      "provider": {
+        "id": "2a778cc8-821f-49c7-b74b-132b4bab8779",
+        "name": "Hannah Bacheller",
+        "canonicalPath": "hannahbacheller",
+        "directorySlug": "oregonobgyns"
+      },
+      "narrative": {
+        "id": "career-journey-20261027",
+        "heading": "From an IVF lab to obstetrics",
+        "text": "The Oregon Clinic’s biography says Hannah Bacheller trained in assisted reproductive technologies and worked as an embryologist at an IVF center. It describes her decision to become an OB-GYN so she could support patients more comprehensively, and says she fell in love with Portland during medical school at OHSU before returning to practice in the region. These are source-published career details, not a patient outcome or a claim about clinical quality.",
+        "sourceIds": [
+          "hannah-bacheller-profile-20261027"
+        ]
+      },
+      "access": {
+        "id": "pregnancy-care-access-20261027",
+        "heading": "Pregnancy care and office access",
+        "text": "Her profile lists full-spectrum obstetrics, including VBAC, high-risk pregnancies, and twins. The North office is listed at 501 N Graham St, Suite 550, Portland, OR 97227, with 503-284-5220. The location page lists weekday office hours, weekday phone hours, and Saturday appointments. Current openings, fees, plan-specific coverage, referrals, interpreter access, and where a particular clinician supports births are not established here; confirm them directly with the office.",
+        "sourceIds": [
+          "hannah-bacheller-profile-20261027",
+          "hannah-bacheller-access-20261027"
+        ]
+      },
+      "sources": [
+        {
+          "id": "hannah-bacheller-profile-20261027",
+          "url": "https://www.oregonclinic.com/our-team/hannah-bacheller",
+          "label": "Provider biography and obstetrics focus — Hannah Bacheller",
+          "publisher": "The Oregon Clinic",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-27",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "hannah-bacheller-access-20261027",
+          "url": "https://www.oregonclinic.com/locations/obstetrics-gynecology-north/",
+          "label": "Obstetrics & Gynecology North — office information",
+          "publisher": "The Oregon Clinic",
+          "sourceType": "official-practice-location",
+          "retrievedDate": "2026-10-27",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "hannah-bacheller-portrait-20261028",
+          "url": "https://www.oregonclinic.com/wp-content/uploads/2025/09/Bacheller_Hannah-2025-600x480-1.jpg",
+          "label": "Portrait image asset — Hannah Bacheller",
+          "publisher": "The Oregon Clinic",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-28",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "portrait": {
+        "id": "2a778cc8-821f-49c7-b74b-132b4bab8779",
+        "slug": "hannahbacheller",
+        "directory": "oregonobgyns",
+        "imageUrl": "/images/providers/hannahbacheller-source-preview.webp",
+        "imageUsage": "local-source-preview",
+        "sourcePage": "https://www.oregonclinic.com/our-team/hannah-bacheller",
+        "sourceAsset": "https://www.oregonclinic.com/wp-content/uploads/2025/09/Bacheller_Hannah-2025-600x480-1.jpg",
+        "sourceWidth": 600,
+        "sourceHeight": 480,
+        "sourceSha256": "001ff1846dd54d995b33f68b278f843ad022eb3a7226bbfecebde706a5ac6e21",
+        "width": 360,
+        "height": 288,
+        "sha256": "7e02ef4f44bc629cc858e387df1cf628d4a015e6f2eaaf5920dbba94dc3bcdc0",
+        "checkedOn": "2026-10-28",
+        "reason": "Deliberate new preview after exact asset and full-face composition were visually inspected on the named Oregon Clinic page. Proportional no-crop WebP; source association is not independent identity verification. Reuse terms unknown; ordinary source-linked preview only."
+      },
+      "editorialAndVerificationState": {
+        "recordStatus": "published",
+        "claimStatus": "unclaimed",
+        "indexable": false,
+        "sourceStatus": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending",
+        "researchDate": "2026-10-27"
+      }
+    },
+    {
+      "provider": {
+        "id": "639b217e-76d5-46e2-8d0b-906bb35af9c2",
+        "name": "Jessica Voge",
+        "canonicalPath": "jessicavoge",
+        "directorySlug": "oregonobgyns"
+      },
+      "narrative": {
+        "id": "career-journey-20261027",
+        "heading": "A research chapter before practice",
+        "text": "Legacy’s biography describes Jessica Voge as a fifth-generation Oregonian who grew up in Clackamas. It says that after college she assisted with women's-health research, then attended medical school and completed OB-GYN training at OHSU. The biography also mentions her interest in fitness and nutrition. These are source-published details, not evidence of clinical outcomes.",
+        "sourceIds": [
+          "jessica-voge-legacy-profile-20261027"
+        ]
+      },
+      "access": {
+        "id": "pregnancy-care-access-20261027",
+        "heading": "Pregnancy focus and office access",
+        "text": "Legacy lists obstetrics and high-risk obstetrics among Voge’s specialties and focus areas. Its profile lists 1130 N.W. 22nd Ave., Suite 120, Building 3, on the Legacy Good Samaritan campus, Portland, OR 97210, and 503-413-7353. The page stated that she was accepting new patients when retrieved October 27, 2026; intake can change. Confirm current availability, prenatal-care scope, birth location, fees, plan-specific coverage, referral needs, and interpreter access directly with Legacy.",
+        "sourceIds": [
+          "jessica-voge-legacy-profile-20261027"
+        ]
+      },
+      "sources": [
+        {
+          "id": "jessica-voge-legacy-profile-20261027",
+          "url": "https://www.legacyhealth.org/providers/jessica-voge",
+          "label": "Provider biography, pregnancy focus and office details — Jessica Voge",
+          "publisher": "Legacy Health",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-27",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "jessica-voge-portrait-20261028",
+          "url": "https://www.legacyhealth.org/-/media/images/providers/jessica-voge133017372000000000.jpg?la=en&as=1&h=327&w=218&hash=15C4C512373F4681B15E6ACDD0BD2440",
+          "label": "Portrait image asset — Jessica Voge",
+          "publisher": "Legacy Health",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-28",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "portrait": {
+        "id": "639b217e-76d5-46e2-8d0b-906bb35af9c2",
+        "slug": "jessicavoge",
+        "directory": "oregonobgyns",
+        "imageUrl": "/images/providers/jessicavoge-source-preview.webp",
+        "imageUsage": "local-source-preview",
+        "sourcePage": "https://www.legacyhealth.org/providers/jessica-voge",
+        "sourceAsset": "https://www.legacyhealth.org/-/media/images/providers/jessica-voge133017372000000000.jpg?la=en&as=1&h=327&w=218&hash=15C4C512373F4681B15E6ACDD0BD2440",
+        "sourceWidth": 218,
+        "sourceHeight": 327,
+        "sourceSha256": "40bdce0d1578dc23a915ac9f76bff189a1a9483beab437729d4e335ae46af599",
+        "width": 218,
+        "height": 327,
+        "sha256": "322b5864f51700415c6b5505df575d1bb8156fa2bd3e2a5050d4da347ca30d1c",
+        "checkedOn": "2026-10-28",
+        "reason": "Deliberate new preview after the exact 218×327 asset and full-face composition were visually inspected on the named Legacy Health page. Preserved intrinsic size without crop or enlargement; source association is not independent identity verification. Reuse terms unknown; ordinary source-linked preview only."
+      },
+      "editorialAndVerificationState": {
+        "recordStatus": "published",
+        "claimStatus": "unclaimed",
+        "indexable": false,
+        "sourceStatus": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending",
+        "researchDate": "2026-10-27"
+      }
+    },
+    {
+      "provider": {
+        "id": "546e68c7-8dba-4fef-9ca1-2e73b7c8804a",
+        "name": "Jennifer Brewer",
+        "canonicalPath": "jenniferbrewer",
+        "directorySlug": "oregonobgyns"
+      },
+      "narrative": {
+        "id": "work-approach-20261027",
+        "heading": "Medicine, science, and teaching",
+        "text": "In her Samaritan profile, Jennifer Brewer says that being a physician combines her passion for science with her love of teaching. The same profile describes her focus on prenatal, intrapartum, and postpartum care, with interests that include mental health, contraception, and preventive wellness. This is her source-published professional description, not a claim about a particular patient's experience.",
+        "sourceIds": [
+          "jennifer-brewer-samaritan-profile-20261027"
+        ]
+      },
+      "access": {
+        "id": "pregnancy-care-access-20261027",
+        "heading": "Pregnancy care and office access",
+        "text": "Samaritan lists Jennifer Brewer as a physician in obstetrics and describes comprehensive prenatal, intrapartum, and postpartum care. The profile lists Samaritan Obstetrics, Gynecology & Midwifery at 3640 NW Samaritan Dr, Suite 220, Corvallis, OR 97330, with 541-768-5300. It stated that she was accepting new patients when retrieved October 27, 2026; intake can change. Confirm current capacity, birth location, fees, plan-specific coverage, referral needs, and interpreter access directly with the practice.",
+        "sourceIds": [
+          "jennifer-brewer-samaritan-profile-20261027"
+        ]
+      },
+      "sources": [
+        {
+          "id": "jennifer-brewer-samaritan-profile-20261027",
+          "url": "https://samhealth.org/patients-visitors/find-a-doctor/brewer-jennifer-1467771295/",
+          "label": "Provider biography, pregnancy care and office details — Jennifer Brewer",
+          "publisher": "Samaritan Health Services",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-27",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "jennifer-brewer-portrait-20261028",
+          "url": "https://produsw2webesa2.z5.web.core.windows.net/1467771295.jpg",
+          "label": "Portrait image asset — Jennifer Brewer",
+          "publisher": "Samaritan Health Services",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-28",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "portrait": {
+        "id": "546e68c7-8dba-4fef-9ca1-2e73b7c8804a",
+        "slug": "jenniferbrewer",
+        "directory": "oregonobgyns",
+        "imageUrl": "/images/providers/jenniferbrewer-source-preview.webp",
+        "imageUsage": "local-source-preview",
+        "sourcePage": "https://samhealth.org/patients-visitors/find-a-doctor/brewer-jennifer-1467771295/",
+        "sourceAsset": "https://produsw2webesa2.z5.web.core.windows.net/1467771295.jpg",
+        "sourceWidth": 400,
+        "sourceHeight": 400,
+        "sourceSha256": "33acb212ac0edd42a2355488547c9ae446a980dece4f466fbf2770f9efdaa08a",
+        "width": 360,
+        "height": 360,
+        "sha256": "8eca9694f10021b286fce4d634adf11626dbddb4f1a426f27ad4a229f89fd4b1",
+        "checkedOn": "2026-10-28",
+        "reason": "Deliberate new preview after exact asset and full-face composition were visually inspected on the named Samaritan Health profile. Proportional no-crop WebP; source association is not independent identity verification. Reuse terms unknown; ordinary source-linked preview only."
+      },
+      "editorialAndVerificationState": {
+        "recordStatus": "published",
+        "claimStatus": "unclaimed",
+        "indexable": false,
+        "sourceStatus": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending",
+        "researchDate": "2026-10-27"
+      }
+    },
+    {
+      "provider": {
+        "id": "6120c904-b764-42d2-9b14-428bd4fcc406",
+        "name": "Amy Yuan",
+        "canonicalPath": "amyyuan",
+        "directorySlug": "oregonobgyns"
+      },
+      "narrative": {
+        "id": "career-journey-20261027",
+        "heading": "From private practice to Central Oregon",
+        "text": "Amy Yuan’s St. Charles biography says she completed OB-GYN residency in Cincinnati, practiced privately in Colorado, and then moved to Oregon to join the St. Charles team. It also describes her interest in making space for people to discuss sensitive health concerns and mentions mountain biking, camping, and skiing outside work. This is a dated source-published career story, not a claim about clinical outcomes.",
+        "sourceIds": [
+          "amy-yuan-stcharles-profile-20261027"
+        ]
+      },
+      "access": {
+        "id": "pregnancy-care-access-20261027",
+        "heading": "Central Oregon offices and access",
+        "text": "St. Charles lists Amy Yuan under Obstetrics/Gynecology and gives 541-526-6635 for appointments. Her provider page lists Center for Women's Health locations in Redmond at 340 Northwest 5th Street, Suite 101, and Bend at 2600 Northeast Neff Road. The listing does not establish her current appointment capacity, exact services available at each location, birth location or privileges, fees, plan-specific coverage, referral requirements, or interpreter availability; confirm these directly with St. Charles.",
+        "sourceIds": [
+          "amy-yuan-stcharles-profile-20261027"
+        ]
+      },
+      "sources": [
+        {
+          "id": "amy-yuan-stcharles-profile-20261027",
+          "url": "https://stcharleshealthcare.org/providers/amy-yuan-do",
+          "label": "Provider biography and office locations — Amy Yuan",
+          "publisher": "St. Charles Health System",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-27",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        },
+        {
+          "id": "amy-yuan-portrait-20261028",
+          "url": "https://stcharleshealthcare.org/sites/default/files/Provider%20Headshots/Women%27s%20Health/Yuan-Amy-web.jpg",
+          "label": "Portrait image asset — Amy Yuan",
+          "publisher": "St. Charles Health System",
+          "sourceType": "official-provider-profile",
+          "retrievedDate": "2026-10-28",
+          "retrievalMethod": "web-retrieval",
+          "verificationStatus": "source-stated"
+        }
+      ],
+      "portrait": {
+        "id": "6120c904-b764-42d2-9b14-428bd4fcc406",
+        "slug": "amyyuan",
+        "directory": "oregonobgyns",
+        "imageUrl": "/images/providers/amyyuan-source-preview.webp",
+        "imageUsage": "local-source-preview",
+        "sourcePage": "https://stcharleshealthcare.org/providers/amy-yuan-do",
+        "sourceAsset": "https://stcharleshealthcare.org/sites/default/files/Provider%20Headshots/Women%27s%20Health/Yuan-Amy-web.jpg",
+        "sourceWidth": 700,
+        "sourceHeight": 872,
+        "sourceSha256": "49dd0e09cf139387246c7179bd40e4740134186b57ef910d7864d3e0f3e04b86",
+        "width": 289,
+        "height": 360,
+        "sha256": "6ab8911a5c99a0d3d12582f176448f0717019f3ac92d55b323735e43d41ef3d0",
+        "checkedOn": "2026-10-28",
+        "reason": "Deliberate new preview after exact asset and full-face composition were visually inspected on the named St. Charles profile. Proportional no-crop WebP; source association is not independent identity verification. Reuse terms unknown; ordinary source-linked preview only."
+      },
+      "editorialAndVerificationState": {
+        "recordStatus": "published",
+        "claimStatus": "unclaimed",
+        "indexable": false,
+        "sourceStatus": "source-stated",
+        "reviewStatus": "pending-human-review",
+        "licenseLookupStatus": "pending",
+        "researchDate": "2026-10-27"
+      }
+    }
+  ],
+  "controls": "All six remain source-stated, pending-human-review, pending independent license lookup, unclaimed, and non-indexable. Access capacity, plan-specific coverage, fees, referral, interpretation and individual birth locations/privileges remain unknown unless a dated profile source specifically states an intake observation; the observation is not current confirmation.",
+  "result": "Assessment only in this pass: no provider record, route, alias, directory membership, portrait file, claim, clinical fact, review state, license state or indexing state changed."
+}

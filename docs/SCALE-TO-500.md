@@ -53,3 +53,16 @@ At 100, 250 and 500, propose separate functional and capacity checkpoints: build
 ## Priority order for Replit
 
 First consume the completed evidence handoff without restarting active research. Next assess the narrow health-preflight/import-checklist gaps against current code (some cohort-selection improvements already exist). Then instrument two batches. Defer broad schema migration, new databases, paid services, scheduled scraping and automatic publication; none is requested or implemented by this update.
+
+
+## October 28, 2026 — current checked continuation
+
+**Current checked intersection: 130 unique IDs** (100-profile content milestone reached October 18; six additional existing Oregon first-baby-directory IDs assessed in this continuation). At the app checkpoint there are 149 provider records, 19 directory records and 141 local portrait deliveries. The result is not clinical verification, independent human review, rights clearance or a review/indexing promotion.
+
+The six-ID applied assessment and complete clean source/citation/access/portrait receipt is [here](profile-ready/humanity-applied-oregon-six-124-to-130-2026-10-28.json). The next four bounded existing-record research leads are [here](research/scale-500-riverside-orthopedics-next-handoff-2026-10-28.md); none is import-ready.
+
+App evidence: assessment and operations report in app main at ae5c5a6304c99a773d1553eac7568fa653916b5b; the source/code checkpoint precedes this documentation receipt. Public data source baseline for this update: 3124720ae3e6d0ed32151c0c0e6eaeee22d3a8a4. The app audit reported 0 routine actionable content/media rows, 12 research exceptions and 2 review-only rows.
+
+Latest checks: entity/data validation 171/171, patient-ready portraits 141, humanity audit 130, fixed baseline 89 providers/11 directories, contract 113/113, typecheck and production build passed. HTTP/API 113/113, pilot 120/120, cards 4/4 and focused directory Healing Images browser checks 4/4 were completed earlier against the same changed runtime code on the isolated build server. Full 179-case browser suite remains unrun; dependency advisories and two medium static redirect findings remain open. No publication or deployment occurred.
+
+The Healing Images catalog used in the app remains the 16-enabled set pinned to 3124720ae3e6d0ed32151c0c0e6eaeee22d3a8a4; this is not a thousand-record performance trial. Preserve pending review/license controls, indexability, all identities and the fixed baseline.

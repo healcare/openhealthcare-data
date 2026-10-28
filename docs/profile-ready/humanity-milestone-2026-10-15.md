@@ -1,6 +1,6 @@
-# Humanity milestone ledger — started October 15, updated October 16, 2026
+# Humanity milestone ledger — started October 15, updated October 28, 2026
 
-**Goal: 100 unique provider IDs. Not yet reached. No deployment authorized.**
+**Goal: 100 unique provider IDs. Reached October 18, 2026; current checked intersection: 130 unique IDs (October 28). This is content completeness, not clinical verification or independent human review. No deployment authorized by this ledger.**
 
 
 ## Historical checked continuation: 82 → 83 — October 15, 2026
@@ -461,3 +461,14 @@ The exact image linked by Naik's named UCSF Health page was decoded and visually
 The record remains source-stated, unclaimed, non-indexable, pending human review and pending independent license lookup. App main is 3c3ab04ea8b748012369b7e89f98c6f80b0bc5ed (tree a0090a8104a3b4a0f4e90734bf38cd83d2da326a). Fresh checks passed: data/patient-ready/fixed-baseline validation (100/119), affected import preservation (1 provider, 0 directory changes), typecheck/build, contract/API 84/84, SF pilot 120/120, HTTP/API 110/110, and desktop/touch-mobile/source-tap browser checks 3/3. The checks include immediate local image delivery, accessible source citation, and zero third-party requests/cookies before activation.
 
 **100 profiles. 100 human stories.** This is a source-backed narrative-plus-inspected-local-portrait milestone, not clinical quality certification. No human editorial review, independent clinical/license verification, rights clearance, physical-device Safari or full screen-reader audit, or thousands-record performance test is implied. No review/indexing promotion or deployment occurred. The clean [contribution packet](humanity-contribution-haley-naik-99-to-100-2026-10-18.json), [applied receipt](humanity-applied-haley-naik-99-to-100-2026-10-18.json), and separate [research review](../research/humanity-haley-naik-applied-review-2026-10-18.md) document the evidence and limits.
+
+
+## October 28, 2026 — checked 124 to 130 continuation
+
+The app assessment on ae5c5a6304c99a773d1553eac7568fa653916b5b added six existing Oregon first-baby-directory identities to the accepted unique-ID intersection: Erica Magelky, Erika Copperman, Hannah Bacheller, Jessica Voge, Jennifer Brewer and Amy Yuan. The checked result moved from 124 to 130; no new provider records or portrait deliveries were created by this assessment. The profile-ready receipt and separate next-research note are on public-data main in this update. Full narrative blocks, access blocks, source IDs, exact portrait URLs, inspected source/local dimensions and hashes, and preserved editorial flags are included in the receipt.
+
+The updated inventory at the app checkpoint contains 149 provider records, 19 directory records and 141 inventoried local portrait deliveries. All six remain source-stated, pending human review, pending independent license lookup, unclaimed and non-indexable. The assessment is not human approval or clinical verification. The fixed preservation baseline and historical accepted checkpoint were not replaced.
+
+The latest npm run validate-data passed 171 entity files; the independent portrait guard passed 141, humanity audit counted 130, and fixed-baseline comparison passed for 89 providers/11 directories. npm run test:contract passed 113/113; npm run check and production build passed. Previously completed fresh isolated-server checks also passed HTTP/API 113/113, pilot 120/120, cards 4/4 and focused desktop/touch-mobile Healing Images browser cases 4/4. The full 179-case browser suite was not run. This is a functional integrity trial, not a thousands-profile load test.
+
+At the end of the queue audit, no contribution packet was ready for import. The next handoff is limited to four existing Riverside orthopedics identities (Dhillon, Tholcke, Luciano, Kadri), with exact current source leads and distinct story/access/geography/portrait gaps in the linked research note. Do not infer eligibility or repeat exhausted searches.
