@@ -227,6 +227,34 @@
       "message": "from your thoughts to your toes — love is all around",
       "alt": "From your thoughts to your toes, love is all around — OpenHealthcare.org. Sculpted mint, gold and lavender fractal layers frame an emerald-green center.",
       "provenance": "AI-generated campaign illustration; fractal-inspired optical art"
+    },
+    {
+      "id": "your-very-own-brain",
+      "title": "Your very own brain",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/your-very-own-brain.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 334014,
+      "sha256": "af9d6b6b3b5441802dbd38f8dc26f0db9eb5f9e0c060d8bdd259d1b186f67b0a",
+      "message": "your very own brain",
+      "alt": "Your very own brain — OpenHealthcare.org. An opalescent brain glows amid golden fractal patterns on deep teal.",
+      "provenance": "AI-generated campaign illustration; approved revised headline; artistic anatomical interpretation"
+    },
+    {
+      "id": "breathe-deep-team-you",
+      "title": "Lungs and knees, team you",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/breathe-deep-team-you.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 509272,
+      "sha256": "9c41ba39a9ecf0c7575b987ac5f980e456d76da7c0ee76be82fbc172ab47b4bd",
+      "message": "breathe deep before you leap. lungs + knees — team you.",
+      "alt": "Breathe deep before you leap. Lungs plus knees — team you. OpenHealthcare.org. Glowing lungs and two sculpted knees are connected by golden light on teal.",
+      "provenance": "AI-generated campaign illustration; artistic anatomical interpretation"
     }
   ]
 }
