@@ -36,3 +36,13 @@ The four new prismatic artworks must appear in the imported manifest, optimized 
 
 ## October 28 additions
 Import all three new fractal artworks together with the previously enabled set. The source exports preserve fine detail; they are not the final browser transfer sizes. Keep the existing responsive delivery budgets and inspect lettering and fractal detail after further compression. Do not raise the budgets to accommodate the denser blue patterns. Confirm all twenty-one enabled IDs are present and eligible, with only the selected artwork loading on each page. These are artistic interpretations inspired by fractal mathematics, not validated mathematical plots. Publication remains a separate user action.
+
+## Import and validation lessons — October 28, 2026
+
+- Track creative archive, pinned source catalog, optimized app import, verified app backup and published deployment separately. The approved catalog at `f4adac0a8fddf178b438b042c551a32e86bcd4fb` contains 21 enabled entries; the checked app backup contains 105 responsive renditions. A documentation-only source commit does not itself require regenerating unchanged artwork.
+- Match the complete enabled-ID set and source hashes before random-selection tests. Seeing one working image does not prove all additions are eligible. For the three Right Now additions, 15 variants were generated and 90 unchanged variants reused; keep reuse conditional on the source hash and optimizer settings.
+- Preserve fixed transfer budgets and full composition/lettering. The three new phone renditions transferred 33,126 / 34,686 / 30,926 bytes in the reported focused checks; desktop used 70,972 / 71,702 / 66,240 bytes. These are observations for those test viewports, not universal device costs or source-export sizes.
+- Verify only the selected local image loads, selection stays stable during the visit, each directory has one placement, and the Trillionaire Care Note remains fixed. Exhaustive recovery downloads of all renditions are diagnostics, not normal page transfer.
+- A combined run exceeded its time limit; smaller focused groups passed. Record both outcomes, preserve the viewport/selection/privacy assertions, and do not attribute an earlier full-suite pass to a later image refresh.
+
+The owner now includes regular publication of ready, approved batches in the broader release cadence. The import-only instructions above do not revoke a later explicit release authorization. Complete app validation, verified backup and proportionate recovery before that release step, then verify the live result. This documentation update does not publish the collection.

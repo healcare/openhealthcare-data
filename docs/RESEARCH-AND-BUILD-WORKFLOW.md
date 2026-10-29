@@ -45,4 +45,10 @@ Preserve Norfolk's completed review outcomes, all permanent IDs/URLs, previous c
 
 Research each claim once per needed refresh and reuse dated evidence within its scope. Send small versioned changes and consolidate exceptions. Prioritize changing or consequential facts over repeatedly rewriting stable biographies. No recurring jobs are created by this document.
 
-Maintain the user's no-cookie, no-tracker requirement for new work. Do not add advertising pixels or analytics identifiers. Third-party media references require a separate delivery/privacy assessment before treating them as compatible with that requirement; a source URL alone does not establish privacy or reproduction rights. Replit owns delivery implementation, while research owns provenance.
+Maintain the owner's current Good cookies policy: no third-party tracking or behavioral profiling, no sharing visitor data with publishers, advertisers or data brokers, and minimum necessary processing. Do not restore an absolute zero-cookie or blanket no-advertising promise. Do not add advertising pixels or analytics identifiers. Third-party media references require a separate delivery/privacy assessment before treating them as compatible with that requirement; a source URL alone does not establish privacy or reproduction rights. Replit owns delivery implementation, while research owns provenance.
+
+## Current cadence clarification — October 28, 2026
+
+The owner now requests regular, safe publication within the [growth, backup and recovery cadence](SCALE-TO-500.md). For each bounded approved batch, preserve the research/build division above, validate affected behavior, verify the remote backup, perform proportionate recovery, publish when the current release authorization and readiness conditions are satisfied, verify live behavior, and save the receipt.
+
+Earlier no-deployment language applies to its named historical batch, not a revocation of a later explicit owner release instruction. This clarification does not authorize every research lead for import or lift provider-specific clinical, factual, review or indexing controls. An app publication, a portrait/content milestone and human approval remain separate outcomes. No recurring job is created here.

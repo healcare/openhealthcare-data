@@ -66,3 +66,19 @@ App evidence: assessment and operations report in app main at ae5c5a6304c99a773d
 Latest checks: entity/data validation 171/171, patient-ready portraits 141, humanity audit 130, fixed baseline 89 providers/11 directories, contract 113/113, typecheck and production build passed. HTTP/API 113/113, pilot 120/120, cards 4/4 and focused directory Healing Images browser checks 4/4 were completed earlier against the same changed runtime code on the isolated build server. Full 179-case browser suite remains unrun; dependency advisories and two medium static redirect findings remain open. No publication or deployment occurred.
 
 The Healing Images catalog used in the app remains the 16-enabled set pinned to 3124720ae3e6d0ed32151c0c0e6eaeee22d3a8a4; this is not a thousand-record performance trial. Preserve pending review/license controls, indexability, all identities and the fixed baseline.
+
+## October 28 session lessons — growth, backup and release
+
+This addendum records reusable lessons, not a new candidate import, test run or deployment. Earlier counts, catalog versions and no-deployment statements above describe their dated tasks.
+
+- **Reconcile before counting.** The accepted intersection remains 130 unique narrative-plus-portrait IDs. The six Oregon admissions assessed existing profiles; they were not six newly created records or new portrait deliveries. Keep assessed, imported, qualified, held and published counts separate.
+- **Back up the result before accumulating another batch.** Checked work can remain local after a failed sync. Require fresh app commit/tree and changed-data/asset readback, alongside the data receipt. A successful setup check or cached remote reference is insufficient. Record a blocked sync honestly and preserve the local work.
+- **Keep preservation history recoverable.** Current files plus an isolated baseline snapshot do not prove the accepted cohort's evolution. Retain the required ancestry and immutable baseline instead of weakening a failed guard.
+- **Test the affected surface and name its source.** A prior full-browser pass does not become a pass for a later artwork set. Distinguish timed-out combined runs from passing focused runs; preserve citation, decode, privacy and editorial-control assertions when splitting test groups.
+- **Return concrete gaps.** The [four Riverside leads](research/scale-500-riverside-orthopedics-next-handoff-2026-10-28.md) still need evidence; they are not an importable batch. Reconcile reservations and applied receipts before reopening a named gap. No quota overrides identity, access, portrait or source requirements.
+
+The owner's current operating rhythm is bounded approved growth/change → relevant checks → verified app/data backup → proportionate recovery → publication of a ready batch → live verification and a saved receipt. This is a working cadence, not an unattended scheduled publishing job. Use current release authorization; a research packet or catalog addition alone is not a publication decision, and publishing does not grant clinical approval or change holds/indexing.
+
+For content-only batches, recover and compare changed records/assets and smoke their routes. Repeat clean install/build recovery when dependencies, startup, hosting configuration or asset handling changes. Keep source backup, tested restore, independent-host recovery and published production as separately evidenced outcomes. Operational details stay in the private app repository.
+
+Today's observations establish neither cost per profile nor throughput at 500. Continue the measured small-batch experiment above; missing measurements remain unknown.
