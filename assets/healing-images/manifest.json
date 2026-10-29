@@ -255,6 +255,48 @@
       "message": "breathe deep before you leap. lungs + knees — team you.",
       "alt": "Breathe deep before you leap. Lungs plus knees — team you. OpenHealthcare.org. Glowing lungs and two sculpted knees are connected by golden light on teal.",
       "provenance": "AI-generated campaign illustration; artistic anatomical interpretation"
+    },
+    {
+      "id": "right-now-luminous-rhythms",
+      "title": "Luminous rhythms meet in one moment",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/right-now-luminous-rhythms.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 232422,
+      "sha256": "08d8c5548c1b0340930414e44c98d326bcd1969050d331e8df65819a9f68ce14",
+      "message": "You are all Right Now.",
+      "alt": "You are all Right Now. — OpenHealthcare.org. Overlapping translucent clocks and golden arcs catch light in a pale jade space.",
+      "provenance": "AI-generated campaign illustration; artistic exploration of time and synchronicity"
+    },
+    {
+      "id": "right-now-ripples",
+      "title": "Ripples of the Present",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/right-now-ripples.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 221416,
+      "sha256": "1766f3a092ab94de6f1125847a0a54666a79cf18690ccc7e2bc97b900ee1d2b4",
+      "message": "You are all Right Now.",
+      "alt": "You are all Right Now. — OpenHealthcare.org. Golden clock hands rest within iridescent ripples on deep teal.",
+      "provenance": "AI-generated campaign illustration; artistic exploration of time and synchronicity"
+    },
+    {
+      "id": "right-now-sundial",
+      "title": "Sundial of light, converging rhythms",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/right-now-sundial.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 232226,
+      "sha256": "289f8f21cf4107ea1a7156d707464f1039648a60e0563c798ae2374e1910d482",
+      "message": "You are all Right Now.",
+      "alt": "You are all Right Now. — OpenHealthcare.org. A golden sundial and translucent colored arcs cast long shadows across warm ivory.",
+      "provenance": "AI-generated campaign illustration; artistic exploration of time and synchronicity"
     }
   ]
 }
