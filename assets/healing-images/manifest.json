@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "collectionId": "healing-images",
   "title": "Healing Images",
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-10-29",
   "assets": [
     {
       "id": "i-feel-better-modern-art",
@@ -297,6 +297,20 @@
       "message": "You are all Right Now.",
       "alt": "You are all Right Now. — OpenHealthcare.org. A golden sundial and translucent colored arcs cast long shadows across warm ivory.",
       "provenance": "AI-generated campaign illustration; artistic exploration of time and synchronicity"
+    },
+    {
+      "id": "you-are-an-octillionaire",
+      "title": "Luminous octillionaire wave poster",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/you-are-an-octillionaire.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 295150,
+      "sha256": "4e243057f5285b34ef79847f7074769ec717f5cc1c6c3bfbc6a6b37fa4fb162c",
+      "message": "You are an octillionaire. Octillions of electrons. One extraordinary you.",
+      "alt": "You are an octillionaire. Octillions of electrons. One extraordinary you. OpenHealthcare.org. Luminous opalescent waves and points of light swirl against a lavender-blue background.",
+      "provenance": "AI-generated campaign illustration; approved luminous revision and octillionaire headline; abstract artistic interpretation"
     }
   ]
 }

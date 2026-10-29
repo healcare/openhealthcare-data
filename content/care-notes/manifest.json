@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "collectionId": "care-notes",
   "title": "Care Notes",
-  "updatedAt": "2026-10-24",
+  "updatedAt": "2026-10-29",
   "posts": [
     {
       "id": "youre-a-trillionaire",
@@ -13,6 +13,17 @@
       "excerpt": "An academic poem about the trillions of cells that make us—and the care we deserve.",
       "artworkId": "youre-a-trillionaire",
       "referencesCheckedAt": "2026-10-24",
+      "status": "approved-for-implementation"
+    },
+    {
+      "id": "you-are-an-octillionaire",
+      "title": "You are an octillionaire",
+      "tag": "Care note",
+      "route": "/care-notes/you-are-an-octillionaire",
+      "contentPath": "content/care-notes/you-are-an-octillionaire.md",
+      "excerpt": "An academic poem about electrons, cellular energy, and a worth that does not depend on how much we give.",
+      "artworkId": "you-are-an-octillionaire",
+      "referencesCheckedAt": "2026-10-29",
       "status": "approved-for-implementation"
     }
   ]
