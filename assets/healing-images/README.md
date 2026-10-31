@@ -1,5 +1,5 @@
 # Healing Images
-The growing OpenHealthcare.org campaign art collection. Updated October 29, 2026.
+The growing OpenHealthcare.org campaign art collection. Updated October 31, 2026.
 
 ## Canonical import source
 Replit should read this catalog:
@@ -10,7 +10,7 @@ https://github.com/healcare/openhealthcare-data/tree/main/assets/healing-images
 
 Resolve each sourcePath from the repository root at the SAME COMMIT used to read the catalog. Pin that commit for an import, verify SHA-256 hashes, and bring approved enabled entries into the app's local optimized asset collection. This is an authoring/import source, not a visitor-time GitHub dependency. The ChatGPT Library originals are the creative archive, not an app API.
 
-The catalog currently contains twenty-two approved illustrations. The October 28 additions are Luminous rainbow fractal convergence, Love in iridescent fractal tides and Emerald fractal embrace, all carrying the message from your thoughts to your toes — love is all around. Also added October 28: Your very own brain (the revised headline) and Lungs and knees, team you. The three-piece You are all Right Now time set adds Luminous rhythms meet in one moment, Ripples of the Present, and Sundial of light, converging rhythms. The earlier You Own a Brain wording is not part of this approved set. The earlier photorealistic campaign image remains outside this set. Existing dated campaign paths remain available for compatibility.
+The catalog currently contains twenty-five approved illustrations. The October 28 additions are Luminous rainbow fractal convergence, Love in iridescent fractal tides and Emerald fractal embrace, all carrying the message from your thoughts to your toes — love is all around. Also added October 28: Your very own brain (the revised headline) and Lungs and knees, team you. The three-piece You are all Right Now time set adds Luminous rhythms meet in one moment, Ripples of the Present, and Sundial of light, converging rhythms. The earlier You Own a Brain wording is not part of this approved set. The earlier photorealistic campaign image remains outside this set. Existing dated campaign paths remain available for compatibility.
 
 ## Requested site behavior
 On every directory page, including custom and pilot directory layouts, show exactly one randomly selected enabled artwork after the provider listings and before supporting/footer content. Reuse any existing directory Healing Images placement to avoid duplicates. Keep directory headings, access information, controls, provider listings and disclosures primary. Retain the existing approved placements on other pages. Each Care Note retains its specific matching illustration. Keep the selection fixed during a page visit, across ordinary rerenders and hydration, with no flash from a fallback artwork to another. Do not add timed rotation or a carousel. Where multiple placements are warranted on one page, avoid duplicates.
@@ -52,3 +52,9 @@ The owner now includes regular publication of ready, approved batches in the bro
 Added `you-are-an-octillionaire`, the final luminous lavender-blue artwork with the revised headline. The catalog now has 22 enabled entries. Only this final version joins the catalog; the emerald and earlier octillion-wording variants are not included. The matching article is `content/care-notes/you-are-an-octillionaire.md`. Its 1536 × 1024 WebP source is 295,150 bytes at quality 90; this is not a measured browser transfer size. Preserve all lettering and generate responsive renditions using the existing budgets when imported.
 
 The user requested GitHub preparation only on October 29: do not start or notify Replit, import into the app, or publish as part of this addition. A later user-directed update can import the complete 22-entry catalog and the matching Care Note from one pinned commit. Keep the article artwork fixed while making this enabled image eligible in the existing directory selection pool.
+
+## October 31 additions — fuzzy Flow trio
+
+Added the three most recent approved Flow pieces: `flow-fuzzy-coastal-horse`, `flow-fuzzy-bee`, and `flow-fuzzy-hummingbird`. The catalog now contains 25 enabled entries. The earlier stationary horse beside a beach flower is not included in this batch. Each new source preserves its complete 1536 × 1024 composition, uses WebP quality 90, and includes alt text conveying the visible message and scene. Source exports are 552,356 / 442,202 / 571,214 bytes respectively; these are not browser transfer measurements.
+
+Ready for the next user-directed Replit import from one pinned source commit. Import all 25 enabled IDs together, verify hashes, retain current responsive size budgets, and inspect fuzzy textures and lettering after compression. Continue loading only the selected local rendition with stable selection per visit. This collection addition does not notify Replit, change the app, or publish the site; an import and subsequent publication are needed before these images can appear live.

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "collectionId": "healing-images",
   "title": "Healing Images",
-  "updatedAt": "2026-10-29",
+  "updatedAt": "2026-10-31",
   "assets": [
     {
       "id": "i-feel-better-modern-art",
@@ -311,6 +311,48 @@
       "message": "You are an octillionaire. Octillions of electrons. One extraordinary you.",
       "alt": "You are an octillionaire. Octillions of electrons. One extraordinary you. OpenHealthcare.org. Luminous opalescent waves and points of light swirl against a lavender-blue background.",
       "provenance": "AI-generated campaign illustration; approved luminous revision and octillionaire headline; abstract artistic interpretation"
+    },
+    {
+      "id": "flow-fuzzy-coastal-horse",
+      "title": "Woolen flow: golden horse by the sea",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/flow-fuzzy-coastal-horse.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 552356,
+      "sha256": "93b7110edea8ea09b2de9387408fcf6590e774079c6d71c20bf8ff7fc99a968e",
+      "message": "flow",
+      "alt": "Flow — OpenHealthcare.org. A fuzzy black horse with a golden mane trots beside turquoise waves and peach flowers on a sunlit coast.",
+      "provenance": "AI-generated campaign illustration; fuzzy needle-felted textile-inspired art"
+    },
+    {
+      "id": "flow-fuzzy-bee",
+      "title": "Felted bee over flowing blooms",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/flow-fuzzy-bee.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 442202,
+      "sha256": "abb0a49a4bbc6fe759eba7f8c8ff023c0a0d6bc9c028dbb341f0281c588f5bf1",
+      "message": "flow",
+      "alt": "Flow — OpenHealthcare.org. A fuzzy golden bee hovers over a large coral flower amid rolling rows of peach, pink and lavender blooms.",
+      "provenance": "AI-generated campaign illustration; fuzzy needle-felted textile-inspired art"
+    },
+    {
+      "id": "flow-fuzzy-hummingbird",
+      "title": "Textile hummingbird in flowing garden",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/flow-fuzzy-hummingbird.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 571214,
+      "sha256": "27755d4d07153325e9f4172a63dc95b60b0bc2c661ff7922fd8e592518b0a313",
+      "message": "flow",
+      "alt": "Flow — OpenHealthcare.org. An emerald hummingbird drinks from a coral flower above a turquoise stream in a golden, wool-textured garden.",
+      "provenance": "AI-generated campaign illustration; fuzzy needle-felted textile-inspired art"
     }
   ]
 }
