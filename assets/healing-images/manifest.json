@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "collectionId": "healing-images",
   "title": "Healing Images",
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-01",
   "assets": [
     {
       "id": "i-feel-better-modern-art",
@@ -409,6 +409,62 @@
       "message": "you are complete",
       "alt": "You are complete — OpenHealthcare.org. An opalescent botanical figure with open hands and a glowing heart lifts its eyes toward a pearl-gold sun against pale seafoam.",
       "provenance": "AI-generated campaign illustration; botanical interpretation of the body, not an anatomical diagram"
+    },
+    {
+      "id": "breathe-in-awe-blue-sanctuary",
+      "title": "Breathe in awe blue sanctuary",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/breathe-in-awe-blue-sanctuary.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 746440,
+      "sha256": "114b588d931d535d520a9c829000feb21e370608a2634be46c54fdb3f960cc7c",
+      "message": "breathe in awe",
+      "alt": "Breathe in awe — OpenHealthcare.org. Layered blue, turquoise and ivory pebble-like patterns open around a luminous sky-blue center.",
+      "provenance": "AI-generated campaign illustration; stereogram-inspired optical art"
+    },
+    {
+      "id": "heal-flourish-knots",
+      "title": "From knots to flourish",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/heal-flourish-knots.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 482844,
+      "sha256": "2375c1b05df4471672907d09d0278557b9f37cb403eb74e453960156882e6fa1",
+      "message": "Step 1. Heal. Step 2. Flourish",
+      "alt": "Step 1. Heal. Step 2. Flourish — OpenHealthcare.org. Tangled blue ribbons unfurl into a leafy branch across cream, turquoise and gold watercolor textures.",
+      "provenance": "AI-generated campaign illustration; metaphorical encouragement, not a treatment or outcome claim"
+    },
+    {
+      "id": "heal-flourish-repaired-vessel",
+      "title": "Repaired Vessel, Flourishing Garden",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/heal-flourish-repaired-vessel.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 474858,
+      "sha256": "f35f2562005056a05c0ea986c4c16c06580d08e779faf5844b9259c3c367b7f7",
+      "message": "Step 1. Heal. Step 2. Flourish",
+      "alt": "Step 1. Heal. Step 2. Flourish — OpenHealthcare.org. A blue vessel repaired with gold holds a flowering branch between rain clouds and a sunlit coastal garden.",
+      "provenance": "AI-generated campaign illustration; metaphorical encouragement, not a treatment or outcome claim"
+    },
+    {
+      "id": "i-love-my-body-smiling-teeth",
+      "title": "Smiling teeth in a blue embrace",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/i-love-my-body-smiling-teeth.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 377660,
+      "sha256": "61a956de7c26bab1ec6c6220a2d60b0658de705f4b2246f1353c58e0008f9e37",
+      "message": "I love my body",
+      "alt": "I love my body — OpenHealthcare.org. Five smiling illustrated teeth sit among flowing blue, teal, coral and golden shapes.",
+      "provenance": "AI-generated campaign illustration; playful anatomical interpretation"
     }
   ]
 }

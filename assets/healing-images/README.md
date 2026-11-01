@@ -1,5 +1,5 @@
 # Healing Images
-The growing OpenHealthcare.org campaign art collection. Updated October 31, 2026.
+The growing OpenHealthcare.org campaign art collection. Updated November 1, 2026.
 
 ## Canonical import source
 Replit should read this catalog:
@@ -10,10 +10,10 @@ https://github.com/healcare/openhealthcare-data/tree/main/assets/healing-images
 
 Resolve each sourcePath from the repository root at the SAME COMMIT used to read the catalog. Pin that commit for an import, verify SHA-256 hashes, and bring approved enabled entries into the app's local optimized asset collection. This is an authoring/import source, not a visitor-time GitHub dependency. The ChatGPT Library originals are the creative archive, not an app API.
 
-The catalog currently contains twenty-nine approved illustrations. The October 28 additions are Luminous rainbow fractal convergence, Love in iridescent fractal tides and Emerald fractal embrace, all carrying the message from your thoughts to your toes — love is all around. Also added October 28: Your very own brain (the revised headline) and Lungs and knees, team you. The three-piece You are all Right Now time set adds Luminous rhythms meet in one moment, Ripples of the Present, and Sundial of light, converging rhythms. The earlier You Own a Brain wording is not part of this approved set. The earlier photorealistic campaign image remains outside this set. Existing dated campaign paths remain available for compatibility.
+The catalog currently contains thirty-three approved illustrations. The October 28 additions are Luminous rainbow fractal convergence, Love in iridescent fractal tides and Emerald fractal embrace, all carrying the message from your thoughts to your toes — love is all around. Also added October 28: Your very own brain (the revised headline) and Lungs and knees, team you. The three-piece You are all Right Now time set adds Luminous rhythms meet in one moment, Ripples of the Present, and Sundial of light, converging rhythms. The earlier You Own a Brain wording is not part of this approved set. The earlier photorealistic campaign image remains outside this set. Existing dated campaign paths remain available for compatibility.
 
 ## Requested site behavior
-On every directory page, including custom and pilot directory layouts, show exactly one randomly selected enabled artwork after the provider listings and before supporting/footer content. Reuse any existing directory Healing Images placement to avoid duplicates. Keep directory headings, access information, controls, provider listings and disclosures primary. Retain the existing approved placements on other pages. Each Care Note retains its specific matching illustration. Keep the selection fixed during a page visit, across ordinary rerenders and hydration, with no flash from a fallback artwork to another. Do not add timed rotation or a carousel. Where multiple placements are warranted on one page, avoid duplicates.
+On every directory page, including custom and pilot directory layouts, show exactly one randomly selected enabled artwork after the provider listings and before supporting/footer content. Reuse any existing directory Healing Images placement to avoid duplicates. Keep directory headings, access information, controls, provider listings and disclosures primary. Retain the existing approved placements on other pages. Each Care Note retains its specific matching illustration. For directory pages, make a fresh random draw on each new opening, reload or return after leaving, including in-app navigation and browser back/forward. Keep that choice fixed while the directory remains open, across ordinary rerenders, theme changes, filters, disclosures and hydration, with no flash from a fallback artwork to another. A random draw can repeat the prior image; do not promise a different result every time. Preserve the separately approved homepage Care Note selection and each article's fixed artwork. Do not add timed rotation or a carousel. Where multiple placements are warranted on one page, avoid duplicates.
 
 Randomization must not require cookies, tracking or persistent visitor identifiers. Load only the selected image, not the entire collection. If the collection or asset fails, keep the page usable with a local valid fallback or gracefully omit the art. Preserve search, navigation and provider information as the main tasks. This is an uplifting collection name, not a therapeutic efficacy claim; cells and inkblots are artistic imagery.
 
@@ -64,3 +64,25 @@ Ready for the next user-directed Replit import from one pinned source commit. Im
 Added four approved botanical body interpretations: `you-are-complete-botanical-print`, `you-are-complete-sculpted-leaves`, `you-are-complete-stained-glass`, and `you-are-complete-opal-light`. The catalog now contains 29 enabled entries. Each has its own stable ID, descriptive alt text including the visible message, dimensions and checksum. These are artistic metaphors, not anatomical diagrams.
 
 Quality-90 WebP source exports are 223,064 / 159,732 / 166,718 / 174,918 bytes respectively, all 1536 × 1024. Source sizes are not measured browser transfer sizes. At the next authorized app update, import the complete enabled set from a single pinned commit, preserve existing responsive delivery budgets and full lettering, inspect image quality, and verify that only the chosen local rendition loads. This addition updates the source collection only; it does not notify Replit or publish the site.
+
+
+## November 1 reconciliation — complete current catalog
+
+The owner explicitly authorized adding four previously archive-only artworks to the public catalog on November 1, 2026. An inventory of the creative Healing Images folder found these originals missing from the import source; the source catalog grows from 29 to **33 enabled entries**. The existing 29 entries and image files are unchanged. The four originals and their full-size WebP exports were visually inspected; wording and composition were preserved without cropping or resizing.
+
+| Creative archive original | Stable catalog ID | WebP source bytes |
+| --- | --- | ---: |
+| Breathe in awe blue sanctuary.png | `breathe-in-awe-blue-sanctuary` | 746,440 |
+| From knots to flourish.png | `heal-flourish-knots` | 482,844 |
+| Repaired Vessel, Flourishing Garden.png | `heal-flourish-repaired-vessel` | 474,858 |
+| Smiling teeth in a blue embrace.png | `i-love-my-body-smiling-teeth` | 377,660 |
+
+Each export is a 1536 × 1024 WebP at quality 90 with verified decoding, byte size and SHA-256 recorded in the catalog. These are authoring-source sizes, not visitor transfer measurements. Retain existing responsive budgets when generating app renditions, including for the detailed blue artwork; inspect text and texture after compression. The Heal/Flourish pieces are artistic encouragement, not treatment instructions or outcome claims. The blue optical pattern is not a verified hidden-image puzzle.
+
+For this authorized app refresh, consume all 33 enabled entries from the same pinned commit. This includes the fuzzy Flow trio, four botanical You are complete pieces and these four reconciled originals. With the app's existing five responsive widths, complete delivery means **165 local renditions**. Reuse verified unchanged assets, and check equality of enabled IDs and source hashes, not merely the total count. Verify every rendition's decoding/hash and controlled selection of each addition; a single random screenshot cannot prove full coverage. Keep fixed Care Note illustrations intact and load only the selected local image on a directory visit.
+
+### Restart and release lesson
+
+Saving artwork in the creative archive, committing an approved source export, importing optimized app files, backing up the app, and publishing are separate steps. A newer archive or source catalog does not update an older preview or deployment. At each refresh, compare the current approved catalog with the app's imported IDs and hashes, account explicitly for archive-only items, and record the consumed source commit, final app commit, measured rendition sizes and focused test results. Do not silently expand public scope to private archive originals without the owner's authorization.
+
+This source update does not establish an app import or deployment. Replit must reconcile its in-progress directory-randomization work with this catalog, validate the combined candidate, verify the app's GitHub backup and proportionate recovery evidence, then complete the separately authorized publication and live verification. Existing provider review/indexing holds and unrelated work remain intact.
