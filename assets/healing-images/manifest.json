@@ -353,6 +353,62 @@
       "message": "flow",
       "alt": "Flow — OpenHealthcare.org. An emerald hummingbird drinks from a coral flower above a turquoise stream in a golden, wool-textured garden.",
       "provenance": "AI-generated campaign illustration; fuzzy needle-felted textile-inspired art"
+    },
+    {
+      "id": "you-are-complete-botanical-print",
+      "title": "Botanical wholeness beneath a golden sun",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/you-are-complete-botanical-print.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 223064,
+      "sha256": "9a80f6ad318a5dcd688cad1829c1065f40e993f1f02bb37ace5a0fe30d74efdc",
+      "message": "you are complete",
+      "alt": "You are complete — OpenHealthcare.org. A printed botanical figure connects feet, hands, lungs and a heart to a face looking up at a golden sun.",
+      "provenance": "AI-generated campaign illustration; botanical interpretation of the body, not an anatomical diagram"
+    },
+    {
+      "id": "you-are-complete-sculpted-leaves",
+      "title": "Botanical portrait of wholeness",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/you-are-complete-sculpted-leaves.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 159732,
+      "sha256": "342e61982a18dfba9aaefc2d411b9f238839507fcc211a0ec47d87577b1df115",
+      "message": "you are complete",
+      "alt": "You are complete — OpenHealthcare.org. Sculpted green leaves suggest body segments along a stem, with open hands, coral lungs and human eyes looking toward a golden sun.",
+      "provenance": "AI-generated campaign illustration; botanical interpretation of the body, not an anatomical diagram"
+    },
+    {
+      "id": "you-are-complete-stained-glass",
+      "title": "Botanical wholeness in glass light",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/you-are-complete-stained-glass.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 166718,
+      "sha256": "beb971592d3cc347dcb7db9808871b1e1059bcbcdcde243f5579c71510fe2580",
+      "message": "you are complete",
+      "alt": "You are complete — OpenHealthcare.org. Colored glass body-shaped leaves, open hands and a ruby heart connect along a golden stem, with eyes turned toward an amber sun.",
+      "provenance": "AI-generated campaign illustration; botanical interpretation of the body, not an anatomical diagram"
+    },
+    {
+      "id": "you-are-complete-opal-light",
+      "title": "Opal leaves beneath a pearl-gold sun",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/you-are-complete-opal-light.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 174918,
+      "sha256": "dc4067055e7a4bcf3a9c12232dbd6495d3ef3bb14331b5bcc55b069b39cb9c76",
+      "message": "you are complete",
+      "alt": "You are complete — OpenHealthcare.org. An opalescent botanical figure with open hands and a glowing heart lifts its eyes toward a pearl-gold sun against pale seafoam.",
+      "provenance": "AI-generated campaign illustration; botanical interpretation of the body, not an anatomical diagram"
     }
   ]
 }
