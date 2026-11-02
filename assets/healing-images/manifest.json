@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "collectionId": "healing-images",
   "title": "Healing Images",
-  "updatedAt": "2026-11-01",
+  "updatedAt": "2026-11-02",
   "assets": [
     {
       "id": "i-feel-better-modern-art",
@@ -465,6 +465,62 @@
       "message": "I love my body",
       "alt": "I love my body — OpenHealthcare.org. Five smiling illustrated teeth sit among flowing blue, teal, coral and golden shapes.",
       "provenance": "AI-generated campaign illustration; playful anatomical interpretation"
+    },
+    {
+      "id": "always-open-forest-sloth",
+      "title": "Always Open: A Welcoming Forest Sloth",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/always-open-forest-sloth.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 216346,
+      "sha256": "3b9edee9cff8b78d1e224fb885fff41f6e72d5bd604c5b58dec6c8d05bb0a500",
+      "message": "Always open",
+      "alt": "Always open — OpenHealthcare.org. A smiling golden sloth waves behind a lavender telephone panel decorated with colorful hearts in a glowing green forest.",
+      "provenance": "AI-generated campaign illustration; Always Open series"
+    },
+    {
+      "id": "always-open-lavender-door",
+      "title": "Always Open: Sloth at Lavender Door",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/always-open-lavender-door.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 368572,
+      "sha256": "92f3614b2bb9afebfdc38801c4505241432c0c380b9ac06e7ecdb4a328672dbd",
+      "message": "Always open",
+      "alt": "Always open — OpenHealthcare.org. A smiling sloth welcomes visitors through a warmly lit lavender doorway surrounded by flowers, with a purple telephone beside the steps and a crescent moon over a misty valley.",
+      "provenance": "AI-generated campaign illustration; Always Open series"
+    },
+    {
+      "id": "always-open-heart-phone-booth",
+      "title": "Always Open: Sloth Phone Booth",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/always-open-heart-phone-booth.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 420508,
+      "sha256": "ce8b7e4f02c07e45c0af6646c201cddc4fb7d1e29e8e621216da794927730d39",
+      "message": "Always open",
+      "alt": "Always open — OpenHealthcare.org. A friendly sloth peeks from an open lavender phone booth topped with a glowing heart, surrounded by flowers and lanterns beneath a crescent moon.",
+      "provenance": "AI-generated campaign illustration; Always Open series"
+    },
+    {
+      "id": "always-open-lavender-lagoon",
+      "title": "Always Open by the Lavender Lagoon",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/always-open-lavender-lagoon.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 448148,
+      "sha256": "e127c8b8fe0fd0049de1682e4526ff61608dc7de6567afdc6193b8d35aed01fe",
+      "message": "Always open",
+      "alt": "Always open — OpenHealthcare.org. A waving sloth stands in a warmly lit lavender phone booth topped with a glowing heart beside a turquoise tropical lagoon at sunset.",
+      "provenance": "AI-generated campaign illustration; Always Open series"
     }
   ]
 }

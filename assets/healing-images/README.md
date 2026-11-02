@@ -1,5 +1,5 @@
 # Healing Images
-The growing OpenHealthcare.org campaign art collection. Updated November 1, 2026.
+The growing OpenHealthcare.org campaign art collection. Updated November 2, 2026.
 
 ## Canonical import source
 Replit should read this catalog:
@@ -10,7 +10,7 @@ https://github.com/healcare/openhealthcare-data/tree/main/assets/healing-images
 
 Resolve each sourcePath from the repository root at the SAME COMMIT used to read the catalog. Pin that commit for an import, verify SHA-256 hashes, and bring approved enabled entries into the app's local optimized asset collection. This is an authoring/import source, not a visitor-time GitHub dependency. The ChatGPT Library originals are the creative archive, not an app API.
 
-The catalog currently contains thirty-three approved illustrations. The October 28 additions are Luminous rainbow fractal convergence, Love in iridescent fractal tides and Emerald fractal embrace, all carrying the message from your thoughts to your toes — love is all around. Also added October 28: Your very own brain (the revised headline) and Lungs and knees, team you. The three-piece You are all Right Now time set adds Luminous rhythms meet in one moment, Ripples of the Present, and Sundial of light, converging rhythms. The earlier You Own a Brain wording is not part of this approved set. The earlier photorealistic campaign image remains outside this set. Existing dated campaign paths remain available for compatibility.
+The catalog currently contains thirty-seven approved illustrations, including the four-piece Always Open line. The October 28 additions are Luminous rainbow fractal convergence, Love in iridescent fractal tides and Emerald fractal embrace, all carrying the message from your thoughts to your toes — love is all around. Also added October 28: Your very own brain (the revised headline) and Lungs and knees, team you. The three-piece You are all Right Now time set adds Luminous rhythms meet in one moment, Ripples of the Present, and Sundial of light, converging rhythms. The earlier You Own a Brain wording is not part of this approved set. The earlier photorealistic campaign image remains outside this set. Existing dated campaign paths remain available for compatibility.
 
 ## Requested site behavior
 On every directory page, including custom and pilot directory layouts, show exactly one randomly selected enabled artwork after the provider listings and before supporting/footer content. Reuse any existing directory Healing Images placement to avoid duplicates. Keep directory headings, access information, controls, provider listings and disclosures primary. Retain the existing approved placements on other pages. Each Care Note retains its specific matching illustration. For directory pages, make a fresh random draw on each new opening, reload or return after leaving, including in-app navigation and browser back/forward. Keep that choice fixed while the directory remains open, across ordinary rerenders, theme changes, filters, disclosures and hydration, with no flash from a fallback artwork to another. A random draw can repeat the prior image; do not promise a different result every time. Preserve the separately approved homepage Care Note selection and each article's fixed artwork. Do not add timed rotation or a carousel. Where multiple placements are warranted on one page, avoid duplicates.
@@ -86,3 +86,25 @@ For this authorized app refresh, consume all 33 enabled entries from the same pi
 Saving artwork in the creative archive, committing an approved source export, importing optimized app files, backing up the app, and publishing are separate steps. A newer archive or source catalog does not update an older preview or deployment. At each refresh, compare the current approved catalog with the app's imported IDs and hashes, account explicitly for archive-only items, and record the consumed source commit, final app commit, measured rendition sizes and focused test results. Do not silently expand public scope to private archive originals without the owner's authorization.
 
 This source update does not establish an app import or deployment. Replit must reconcile its in-progress directory-randomization work with this catalog, validate the combined candidate, verify the app's GitHub backup and proportionate recovery evidence, then complete the separately authorized publication and live verification. Existing provider review/indexing holds and unrelated work remain intact.
+
+## November 2 additions — Always Open
+
+The four approved Always Open artworks join the import catalog, growing it from 33 to **37 enabled entries**. The prior 33 entries and all existing image bytes are unchanged. The original PNGs remain in the creative archive; the public source exports below were visually inspected after quality-90 WebP conversion at their original 1536 × 1024 size, without cropping or resizing. Each catalog entry includes a stable ID, full message/scene alt text, dimensions, byte size and SHA-256.
+
+| Artwork | Stable catalog ID | WebP source bytes |
+| --- | --- | ---: |
+| Always Open: A Welcoming Forest Sloth | `always-open-forest-sloth` | 216,346 |
+| Always Open: Sloth at Lavender Door | `always-open-lavender-door` | 368,572 |
+| Always Open: Sloth Phone Booth | `always-open-heart-phone-booth` | 420,508 |
+| Always Open by the Lavender Lagoon | `always-open-lavender-lagoon` | 448,148 |
+
+These are source-export sizes, not measured browser transfers. Import all 37 enabled entries from one pinned source commit, with **185 responsive renditions** at the existing five widths: 20 new files and 165 reusable prior files when their source hashes and optimizer settings still match. Preserve the current transfer budgets, full composition and lettering. Inspect the sloth texture, small site lettering and glowing hearts after further compression on phone and desktop.
+
+Keep one selected local Healing Image after each directory's listings and stable for that visit; preserve the fresh draw on re-entry, reload and back/forward, allowing valid repeats. Only the selected image should load. Preserve the homepage's two Care Note choices and each article's fixed illustration. The Always Open line is welcoming directory artwork; do not turn its phone-booth imagery into a phone-service feature or a claim about listed providers' opening hours.
+
+### App handoff and acceptance
+
+Read the current app restart/release guidance and reconcile current source and concurrent work before import. Preserve the original publication marker and receipt history, unrelated worktrees/stashes, provider data, review/indexing controls and Good cookies wording. Compare complete enabled IDs and source checksums; verify all 185 rendition files, controlled selection of each of the four additions, current directory placement/visit behavior, accessible names, local-only loading and existing byte budgets. Run proportionate affected checks and retain any failures or timeouts honestly. Reuse unchanged verified files rather than regenerating the whole set.
+
+Back up the validated app through the existing non-force GitHub process and verify the actual remote commit/tree and changed-file hashes. Restore the new assets from that verified backup into isolation and decode/hash-check them as the content-only recovery checkpoint. Report the exact consumed data revision, app revision, checks and measured rendition sizes. This source commit is not evidence of an app import or live publication. Prepare the reviewed preview and release checkpoint; publication remains a separate step.
+
