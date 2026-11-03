@@ -51,6 +51,10 @@ Every durable claim should be traceable:
 - Keep retrieval and observation dates. Do not rewrite an old observation as if it were
   current.
 
+## Practice phones and historical contact evidence
+
+For all future directory creation and approved contact updates, follow the shared [practice-phone and dated-history rule](PRACTICE-PHONE-HISTORY-RULE.md). Keep current practice/office listings, actual phone-test outcomes and historical samples separate. Supply exact sources and observation/capture dates, mark untested numbers as not call-tested, and retain history as non-clickable text. Do not infer clinician phone or office assignments, number-change causes or authenticity from archive observations. The linked rule defines packet evidence, Replit rendering and proportionate acceptance checks without changing this schema or existing editorial states.
+
 ## Review and verification are separate axes
 
 `reviewStatus` records workflow:

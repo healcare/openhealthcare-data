@@ -2,6 +2,12 @@
 
 Prepared 2026-10-17. This is a research/operations recommendation, not an implemented importer, performance result, new admission policy, or approval to deploy. Baselines inspected: app `d67118ebb9cefa25231416ab810bc3ebb392bf6d`; data `3fefe31bc7692c58d869d49471be04b8126763fb`. The last checked receipt is 96 qualifying IDs, 115 provider records and 107 local portrait deliveries. Replit has ongoing work; those figures are a baseline, not a claim about its uncommitted state.
 
+## Shared growth rule adopted November 3, 2026
+
+The owner has adopted the [practice-phone and dated-history rule](PRACTICE-PHONE-HISTORY-RULE.md) for all future directory creation and approved phone updates, including pediatric dentistry. Include scoped current numbers, exact source/date evidence, not-call-tested status, dated plain-text history and unknown clinician/office associations in relevant research handoffs. Replit applies that supplied evidence and checks current links versus historical non-links without repeating research or claiming phone authenticity. Archive gaps do not establish a transition date, cause or scam.
+
+This rule is part of future growth preparation and result receipts. It changes neither the accepted-profile count nor provider review/indexing states; it is not a new provider import, phone test, recovery rehearsal or publication. Earlier dated experiment counts and observations below remain historical.
+
 ## Start here
 
 - [New research handoff and inspected portraits](research/scale-500-handoff-2026-10-17.md).

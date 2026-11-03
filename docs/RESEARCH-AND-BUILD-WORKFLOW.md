@@ -25,6 +25,10 @@ Source-stated content can be implemented with its attribution and pending status
 
 Replit should continue eligible content and shared UI work while a specific record or field is held. Preserve held content and its current visibility; report the hold once and return the factual question here. Do not re-run an entire batch review or wait on an unrelated fact to finish site building.
 
+## Shared phone rule for future growth — November 3, 2026
+
+Apply the [practice-phone and dated-history rule](PRACTICE-PHONE-HISTORY-RULE.md) to all future directory creation and approved phone/contact updates, including pediatric dentistry. Research supplies scoped current listings, source/observation dates, explicit not-call-tested status, retained dated history and unresolved clinician/office associations. Replit preserves those distinctions in accessible current dial links, non-clickable history and structured outputs; it does not authenticate a number from an archive or repeat research/calls. The rule is part of each relevant pinned handoff and applied receipt, not only a Portland-specific note.
+
 ## Technical checks in Replit
 
 Check schema compatibility, identity/URL preservation, citation retention, faithful display of supplied statuses, media load failures and fallbacks, keyboard/mobile usability, and relevant regression coverage. Run required project gates once; repeat only failed checks affected by a fix. Report technical failures separately from research questions.

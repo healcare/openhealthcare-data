@@ -10,6 +10,11 @@ ChatGPT owns evidence, verification research, narratives, and editorial handoffs
 Replit owns implementation and technical testing. Return unresolved facts here rather
 than repeating research or simulating human review in Replit.
 
+For future directory growth and approved phone updates, follow the shared
+[practice-phone and dated-history rule](docs/PRACTICE-PHONE-HISTORY-RULE.md).
+Keep current source-listed, untested practice numbers separate from non-clickable
+historical observations and unsupported clinician/office assignments.
+
 ## Directory pilots
 
 - `data/directories/us/ca/orange-county/plastic-surgeons.json` — eight existing OC profiles with Newport Beach/Corona del Mar evidence
