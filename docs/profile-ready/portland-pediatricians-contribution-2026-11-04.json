@@ -1,0 +1,702 @@
+{
+  "kind": "validated-profile-contribution",
+  "schemaVersion": 1,
+  "preparedOn": "2026-11-04",
+  "baseAppRevision": "b5ffd847f778cfddd3e00af47caf19a217d6dc97",
+  "baseDataRevision": "915841e6d39194fd0bcfbc87e23643cd6398099b",
+  "batchId": "portland-pediatricians-20261104",
+  "scope": "Create one city-only pediatricians directory and exactly three new provider identities; preserve all existing records and history.",
+  "items": [
+    {
+      "id": "portlandpediatricians",
+      "entityType": "new-directory",
+      "disposition": "accepted",
+      "reason": "Owner-selected Portland city pediatricians pilot, limited to three named providers at two central Portland clinic addresses.",
+      "proposedChanges": [
+        {
+          "path": "new-directory",
+          "reason": "Create one directory using the existing presentation and Healing Images behavior.",
+          "value": {
+            "slug": "portlandpediatricians",
+            "title": "Pediatricians in Portland — City Limits Only",
+            "description": "A small, source-linked selection of pediatricians at Portland city clinics, with dated access information and individual professional stories. This is not a complete roster or a ranking.",
+            "geography": {
+              "city": "Portland",
+              "state": "OR",
+              "country": "US",
+              "scope": "Portland city limits; no metropolitan-area expansion"
+            },
+            "scopeNote": "This initial selection covers Marquam Hill and Northwest Portland clinics. Inclusion does not establish current appointment capacity, license verification, exact-plan coverage or endorsement.",
+            "reviewStatus": "pending-human-review",
+            "status": "published",
+            "indexable": false,
+            "claimStatus": "unclaimed",
+            "lastVerified": "2026-11-04",
+            "lastVerifiedMeaning": "Date of source research, not independent credential verification.",
+            "sourceIds": [
+              "kent-official-20261104",
+              "drasen-official-20261104",
+              "meyer-official-20261104",
+              "marquam-clinic-20261104",
+              "metro-nw-clinic-20261104"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "catherinekent",
+      "entityType": "new-provider",
+      "disposition": "accepted",
+      "reason": "Named official source supports identity, pediatric role, city-clinic association, original narrative and inspected individual portrait; clinical review remains pending.",
+      "proposedChanges": [
+        {
+          "path": "new-provider",
+          "reason": "Add one permanent identity with the supplied source-scoped facts and independent review controls.",
+          "value": {
+            "id": "catherinekent",
+            "canonicalPath": "catherinekent",
+            "name": {
+              "display": "Catherine L. Kent, M.D.",
+              "given": "Catherine",
+              "family": "Kent"
+            },
+            "credentials": [
+              "MD"
+            ],
+            "clinicianType": "Pediatrician",
+            "specialties": [
+              "Pediatrics"
+            ],
+            "directoryIds": [
+              "portlandpediatricians"
+            ],
+            "locationIds": [
+              "ohsu-doernbecher-marquam-hill"
+            ],
+            "phone": null,
+            "profileUrl": "https://www.ohsu.edu/providers/catherine-l-kent-md",
+            "introduction": "Catherine Kent is an OHSU pediatrician whose profile lists general pediatric care, including medication management for depression, anxiety and ADHD.",
+            "story": "Kent grew up in Portland and studied community health alongside American studies. Her OHSU biography traces her interest in pediatrics to that background and a summer counseling children and teenagers with serious illnesses. She trained at OHSU and returned after six years at Kaiser Permanente. Away from work, she describes coaching soccer, baking, running and playing futsal.",
+            "quickSummary": {
+              "helpsWith": [
+                "General pediatrics",
+                "Medication management for depression, anxiety and ADHD"
+              ],
+              "approach": [
+                "Supporting children and families through childhood and adolescence"
+              ],
+              "worksWith": [
+                "Children",
+                "Adolescents"
+              ],
+              "careModes": [
+                "in-person at the source-listed clinic"
+              ]
+            },
+            "patientAccess": {
+              "acceptanceStatement": "Not currently accepting patients",
+              "acceptingPatientsSourceStated": false,
+              "observedOn": "2026-11-04",
+              "sourceIds": [
+                "kent-official-20261104"
+              ],
+              "note": "Dated practice statement, not a confirmed appointment. Confirm availability with the clinic before planning care.",
+              "insurance": "Exact-plan participation and costs have not been verified; confirm the clinician, location and service with the practice and insurer.",
+              "fees": "Not verified",
+              "referralRequirements": "Not verified",
+              "languageSupport": "Not verified",
+              "accessibility": "Not independently checked",
+              "phoneNote": "Use only the shared clinic contact, visibly labeled not call-tested. Phone archive history has not been reviewed."
+            },
+            "portrait": {
+              "usage": "source-linked-local-preview",
+              "repositoryPath": "assets/provider-previews/portland-pediatricians-2026-11-04/catherinekent.webp",
+              "sourceUrl": "https://www.ohsu.edu/sites/default/files/profile-photos/Kent-Catherine.jpg",
+              "clickThroughUrl": "https://www.ohsu.edu/providers/catherine-l-kent-md",
+              "sourceId": "kent-official-20261104",
+              "alt": "Portrait of Catherine L. Kent, M.D.",
+              "width": 257,
+              "height": 360,
+              "sha256": "7e9397c2eb96ffed57dba4b57834a59e59c1b82a156d2b06a8f5ba624f9181f2",
+              "gitBlobSha": "7a1e2961130376bf86b627617376e91a3d9f5eee",
+              "inspectedOn": "2026-11-04",
+              "reuseRights": "Unknown; no ownership or reuse license is asserted.",
+              "derivativeCompositeEligible": false,
+              "structuredDataImageEligible": false,
+              "socialShareImageEligible": false
+            },
+            "sourceIds": [
+              "kent-official-20261104",
+              "marquam-clinic-20261104"
+            ],
+            "claimEvidence": [
+              {
+                "claim": "identity-and-pediatric-role",
+                "sourceIds": [
+                  "kent-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "introduction-and-quick-summary",
+                "sourceIds": [
+                  "kent-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "complete-story",
+                "sourceIds": [
+                  "kent-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "provider-to-clinic-association",
+                "sourceIds": [
+                  "kent-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "dated-patient-acceptance",
+                "sourceIds": [
+                  "kent-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "named-portrait-source-association",
+                "sourceIds": [
+                  "kent-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "clinic-address-and-shared-phone",
+                "sourceIds": [
+                  "marquam-clinic-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              }
+            ],
+            "verification": {
+              "status": "source-stated",
+              "reviewStatus": "pending-human-review",
+              "researchedOn": "2026-11-04",
+              "licenseLookupStatus": "pending",
+              "boardCertificationLookupStatus": "pending"
+            },
+            "reviewStatus": "pending-human-review",
+            "claimStatus": "unclaimed",
+            "status": "published",
+            "indexable": false,
+            "lastVerified": "2026-11-04",
+            "reviewNotes": [
+              "Source research date is not a license-verification date.",
+              "Independent Oregon license and board-status checks remain pending.",
+              "Portrait reuse terms remain unknown; only the owner-adopted modest local preview is approved."
+            ],
+            "humanityAssessment": {
+              "researchDisposition": "accepted-for-scoped-integration",
+              "reason": "Distinctive source-mapped community-health and camp-counselor journey, with voluntarily published soccer and baking interests.",
+              "countOnlyAfter": "Native record, complete readable story with sources, eligible access details, approved local portrait inventory and actual desktop/touch-mobile local delivery checks all pass.",
+              "notHumanReview": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "stacydrasen",
+      "entityType": "new-provider",
+      "disposition": "accepted",
+      "reason": "Named official source supports identity, pediatric role, city-clinic association, original narrative and inspected individual portrait; clinical review remains pending.",
+      "proposedChanges": [
+        {
+          "path": "new-provider",
+          "reason": "Add one permanent identity with the supplied source-scoped facts and independent review controls.",
+          "value": {
+            "id": "stacydrasen",
+            "canonicalPath": "stacydrasen",
+            "name": {
+              "display": "Stacy L. Drasen, M.D.",
+              "given": "Stacy",
+              "family": "Drasen"
+            },
+            "credentials": [
+              "MD"
+            ],
+            "clinicianType": "Pediatrician",
+            "specialties": [
+              "Pediatrics"
+            ],
+            "directoryIds": [
+              "portlandpediatricians"
+            ],
+            "locationIds": [
+              "ohsu-doernbecher-marquam-hill"
+            ],
+            "phone": null,
+            "profileUrl": "https://www.ohsu.edu/providers/stacy-l-drasen-md",
+            "introduction": "Stacy Drasen is an OHSU pediatrician whose profile lists well-child visits, illness care, autism evaluations and inpatient newborn care.",
+            "story": "Drasen describes a path from Wisconsin to pediatric training in San Francisco, practice in the Bay Area, and work at The Vancouver Clinic before joining OHSU in early 2025. Her biography presents teaching as a new challenge alongside continued learning. She emphasizes listening and clear communication in her own account of care. Outside work, she mentions reading, cooking, plants, pets and time outdoors.",
+            "quickSummary": {
+              "helpsWith": [
+                "Well-child visits",
+                "Illness care",
+                "Autism evaluations"
+              ],
+              "approach": [
+                "Listening and clear communication, as described by the clinician"
+              ],
+              "worksWith": [
+                "Newborns",
+                "Children",
+                "Adolescents and young adults"
+              ],
+              "careModes": [
+                "in-person at the source-listed clinic"
+              ]
+            },
+            "patientAccess": {
+              "acceptanceStatement": "Not currently accepting patients",
+              "acceptingPatientsSourceStated": false,
+              "observedOn": "2026-11-04",
+              "sourceIds": [
+                "drasen-official-20261104"
+              ],
+              "note": "Dated practice statement, not a confirmed appointment. Confirm availability with the clinic before planning care.",
+              "insurance": "Exact-plan participation and costs have not been verified; confirm the clinician, location and service with the practice and insurer.",
+              "fees": "Not verified",
+              "referralRequirements": "Not verified",
+              "languageSupport": "Not verified",
+              "accessibility": "Not independently checked",
+              "phoneNote": "Use only the shared clinic contact, visibly labeled not call-tested. Phone archive history has not been reviewed."
+            },
+            "portrait": {
+              "usage": "source-linked-local-preview",
+              "repositoryPath": "assets/provider-previews/portland-pediatricians-2026-11-04/stacydrasen.webp",
+              "sourceUrl": "https://www.ohsu.edu/sites/default/files/profile-photos/drasen-stacy_25.jpg",
+              "clickThroughUrl": "https://www.ohsu.edu/providers/stacy-l-drasen-md",
+              "sourceId": "drasen-official-20261104",
+              "alt": "Portrait of Stacy L. Drasen, M.D.",
+              "width": 360,
+              "height": 360,
+              "sha256": "5e81d0a3060fa3280e7488736b75495744832bb33c211acb9b9069f2a7daf3fe",
+              "gitBlobSha": "dacede1dac1d111e2f55997ab9ce5402d373815c",
+              "inspectedOn": "2026-11-04",
+              "reuseRights": "Unknown; no ownership or reuse license is asserted.",
+              "derivativeCompositeEligible": false,
+              "structuredDataImageEligible": false,
+              "socialShareImageEligible": false
+            },
+            "sourceIds": [
+              "drasen-official-20261104",
+              "marquam-clinic-20261104"
+            ],
+            "claimEvidence": [
+              {
+                "claim": "identity-and-pediatric-role",
+                "sourceIds": [
+                  "drasen-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "introduction-and-quick-summary",
+                "sourceIds": [
+                  "drasen-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "complete-story",
+                "sourceIds": [
+                  "drasen-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "provider-to-clinic-association",
+                "sourceIds": [
+                  "drasen-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "dated-patient-acceptance",
+                "sourceIds": [
+                  "drasen-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "named-portrait-source-association",
+                "sourceIds": [
+                  "drasen-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "clinic-address-and-shared-phone",
+                "sourceIds": [
+                  "marquam-clinic-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              }
+            ],
+            "verification": {
+              "status": "source-stated",
+              "reviewStatus": "pending-human-review",
+              "researchedOn": "2026-11-04",
+              "licenseLookupStatus": "pending",
+              "boardCertificationLookupStatus": "pending"
+            },
+            "reviewStatus": "pending-human-review",
+            "claimStatus": "unclaimed",
+            "status": "published",
+            "indexable": false,
+            "lastVerified": "2026-11-04",
+            "reviewNotes": [
+              "Source research date is not a license-verification date.",
+              "Independent Oregon license and board-status checks remain pending.",
+              "Portrait reuse terms remain unknown; only the owner-adopted modest local preview is approved."
+            ],
+            "humanityAssessment": {
+              "researchDisposition": "accepted-for-scoped-integration",
+              "reason": "Distinctive source-mapped geographic career journey and teaching/learning interest; voluntarily published activities.",
+              "countOnlyAfter": "Native record, complete readable story with sources, eligible access details, approved local portrait inventory and actual desktop/touch-mobile local delivery checks all pass.",
+              "notHumanReview": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "erikameyer",
+      "entityType": "new-provider",
+      "disposition": "accepted",
+      "reason": "Named official source supports identity, pediatric role, city-clinic association, original narrative and inspected individual portrait; clinical review remains pending.",
+      "proposedChanges": [
+        {
+          "path": "new-provider",
+          "reason": "Add one permanent identity with the supplied source-scoped facts and independent review controls.",
+          "value": {
+            "id": "erikameyer",
+            "canonicalPath": "erikameyer",
+            "name": {
+              "display": "Erika Meyer, MD",
+              "given": "Erika",
+              "family": "Meyer"
+            },
+            "credentials": [
+              "MD"
+            ],
+            "clinicianType": "Pediatrician",
+            "specialties": [
+              "Pediatrics"
+            ],
+            "directoryIds": [
+              "portlandpediatricians"
+            ],
+            "locationIds": [
+              "metropolitan-pediatrics-nw-portland"
+            ],
+            "phone": null,
+            "profileUrl": "https://www.metropediatrics.com/portland-area-pediatricians/erika-meyer-md/",
+            "introduction": "Erika Meyer is a pediatrician listed at Metropolitan Pediatrics’ NW Portland clinic, with a professional interest in child development.",
+            "story": "Before medicine, Meyer taught elementary school and studied cultural anthropology. Her practice biography describes subsequent medical study at Harvard and pediatric residency at OHSU. In her own account of care, she considers children within their family context. The same biography names reading, travel and outdoor activities among her interests.",
+            "quickSummary": {
+              "helpsWith": [
+                "Pediatric care",
+                "Child development"
+              ],
+              "approach": [
+                "Considering children within their family context, as described by the clinician"
+              ],
+              "worksWith": [
+                "Infants",
+                "Children",
+                "Adolescents"
+              ],
+              "careModes": [
+                "in-person at the source-listed clinic"
+              ]
+            },
+            "patientAccess": {
+              "acceptanceStatement": "Welcoming New Patients: Yes",
+              "acceptingPatientsSourceStated": true,
+              "observedOn": "2026-11-04",
+              "sourceIds": [
+                "meyer-official-20261104"
+              ],
+              "note": "Dated practice statement, not a confirmed appointment. Confirm availability with the clinic before planning care.",
+              "insurance": "Exact-plan participation and costs have not been verified; confirm the clinician, location and service with the practice and insurer.",
+              "fees": "Not verified",
+              "referralRequirements": "Not verified",
+              "languageSupport": "Not verified",
+              "accessibility": "Not independently checked",
+              "phoneNote": "Use only the shared clinic contact, visibly labeled not call-tested. Phone archive history has not been reviewed."
+            },
+            "portrait": {
+              "usage": "source-linked-local-preview",
+              "repositoryPath": "assets/provider-previews/portland-pediatricians-2026-11-04/erikameyer.webp",
+              "sourceUrl": "https://www.metropediatrics.com/wp-content/uploads/2018/10/Meyer_smclip.png",
+              "clickThroughUrl": "https://www.metropediatrics.com/portland-area-pediatricians/erika-meyer-md/",
+              "sourceId": "meyer-official-20261104",
+              "alt": "Portrait of Erika Meyer, MD",
+              "width": 271,
+              "height": 360,
+              "sha256": "cdbf77976d1c816ed4909395200c3aa17cfd176c1173e7ab8d6f8a800655bb80",
+              "gitBlobSha": "ff772493250af247a191326f34e6b33394e353b2",
+              "inspectedOn": "2026-11-04",
+              "reuseRights": "Unknown; no ownership or reuse license is asserted.",
+              "derivativeCompositeEligible": false,
+              "structuredDataImageEligible": false,
+              "socialShareImageEligible": false
+            },
+            "sourceIds": [
+              "meyer-official-20261104",
+              "metro-nw-clinic-20261104"
+            ],
+            "claimEvidence": [
+              {
+                "claim": "identity-and-pediatric-role",
+                "sourceIds": [
+                  "meyer-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "introduction-and-quick-summary",
+                "sourceIds": [
+                  "meyer-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "complete-story",
+                "sourceIds": [
+                  "meyer-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "provider-to-clinic-association",
+                "sourceIds": [
+                  "meyer-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "dated-patient-acceptance",
+                "sourceIds": [
+                  "meyer-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "named-portrait-source-association",
+                "sourceIds": [
+                  "meyer-official-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              },
+              {
+                "claim": "clinic-address-and-shared-phone",
+                "sourceIds": [
+                  "metro-nw-clinic-20261104"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-04"
+              }
+            ],
+            "verification": {
+              "status": "source-stated",
+              "reviewStatus": "pending-human-review",
+              "researchedOn": "2026-11-04",
+              "licenseLookupStatus": "pending",
+              "boardCertificationLookupStatus": "pending"
+            },
+            "reviewStatus": "pending-human-review",
+            "claimStatus": "unclaimed",
+            "status": "published",
+            "indexable": false,
+            "lastVerified": "2026-11-04",
+            "reviewNotes": [
+              "Source research date is not a license-verification date.",
+              "Independent Oregon license and board-status checks remain pending.",
+              "Portrait reuse terms remain unknown; only the owner-adopted modest local preview is approved."
+            ],
+            "humanityAssessment": {
+              "researchDisposition": "accepted-for-scoped-integration",
+              "reason": "Distinctive source-mapped teaching and anthropology background before medicine, plus voluntarily published interests.",
+              "countOnlyAfter": "Native record, complete readable story with sources, eligible access details, approved local portrait inventory and actual desktop/touch-mobile local delivery checks all pass.",
+              "notHumanReview": true
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "ohsu-doernbecher-marquam-hill",
+      "name": "OHSU Doernbecher Pediatrics Clinic, Marquam Hill",
+      "address": {
+        "line1": "700 S.W. Campus Drive",
+        "city": "Portland",
+        "state": "OR",
+        "postalCode": "97239",
+        "country": "US"
+      },
+      "website": "https://www.ohsu.edu/doernbecher/ohsu-doernbecher-pediatrics-clinic-marquam-hill",
+      "sourceIds": [
+        "marquam-clinic-20261104"
+      ],
+      "practicePhone": {
+        "display": "(503) 418-5700",
+        "e164": "+15034185700",
+        "scope": "Shared clinic number, not a personal clinician number",
+        "observedOn": "2026-11-04",
+        "sourceIds": [
+          "marquam-clinic-20261104"
+        ],
+        "callTestStatus": "not-call-tested",
+        "callTestedAt": null,
+        "historyReviewStatus": "not-reviewed",
+        "history": [],
+        "historyNote": "Archived phone history has not been reviewed. No claim is made about previous numbers or when a number changed."
+      }
+    },
+    {
+      "id": "metropolitan-pediatrics-nw-portland",
+      "name": "Metropolitan Pediatrics — NW Portland",
+      "address": {
+        "line1": "1130 NW 22nd Avenue",
+        "line2": "Suite 320",
+        "city": "Portland",
+        "state": "OR",
+        "postalCode": "97210",
+        "country": "US"
+      },
+      "website": "https://www.metropediatrics.com/pediatric-clinics/portland-pediatrician/",
+      "sourceIds": [
+        "metro-nw-clinic-20261104"
+      ],
+      "practicePhone": {
+        "display": "(503) 295-2546",
+        "e164": "+15032952546",
+        "scope": "Shared clinic number, not a personal clinician number",
+        "observedOn": "2026-11-04",
+        "sourceIds": [
+          "metro-nw-clinic-20261104"
+        ],
+        "callTestStatus": "not-call-tested",
+        "callTestedAt": null,
+        "historyReviewStatus": "not-reviewed",
+        "history": [],
+        "historyNote": "Archived phone history has not been reviewed. No claim is made about previous numbers or when a number changed."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "kent-official-20261104",
+      "title": "Catherine L. Kent — OHSU provider profile",
+      "publisher": "OHSU",
+      "url": "https://www.ohsu.edu/providers/catherine-l-kent-md",
+      "retrievedOn": "2026-11-04",
+      "observedOn": "2026-11-04",
+      "retrievalMethod": "Direct public HTTPS GET and named-page HTML/text inspection",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "drasen-official-20261104",
+      "title": "Stacy L. Drasen — OHSU provider profile",
+      "publisher": "OHSU",
+      "url": "https://www.ohsu.edu/providers/stacy-l-drasen-md",
+      "retrievedOn": "2026-11-04",
+      "observedOn": "2026-11-04",
+      "retrievalMethod": "Direct public HTTPS GET and named-page HTML/text inspection",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "meyer-official-20261104",
+      "title": "Erika Meyer — Metropolitan Pediatrics profile",
+      "publisher": "Metropolitan Pediatrics",
+      "url": "https://www.metropediatrics.com/portland-area-pediatricians/erika-meyer-md/",
+      "retrievedOn": "2026-11-04",
+      "observedOn": "2026-11-04",
+      "retrievalMethod": "Direct public HTTPS GET and named-page HTML/text inspection",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "marquam-clinic-20261104",
+      "title": "OHSU Doernbecher Pediatrics Clinic, Marquam Hill",
+      "publisher": "OHSU",
+      "url": "https://www.ohsu.edu/doernbecher/ohsu-doernbecher-pediatrics-clinic-marquam-hill",
+      "retrievedOn": "2026-11-04",
+      "observedOn": "2026-11-04",
+      "retrievalMethod": "Direct public HTTPS GET and named-page HTML/text inspection",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "metro-nw-clinic-20261104",
+      "title": "Metropolitan Pediatrics — NW Portland clinic",
+      "publisher": "Metropolitan Pediatrics",
+      "url": "https://www.metropediatrics.com/pediatric-clinics/portland-pediatrician/",
+      "retrievedOn": "2026-11-04",
+      "observedOn": "2026-11-04",
+      "retrievalMethod": "Direct public HTTPS GET and named-page HTML/text inspection",
+      "verificationStatus": "source-stated"
+    }
+  ],
+  "evidencePath": "docs/research/portland-pediatricians-evidence-2026-11-04.json",
+  "phoneRule": "docs/PRACTICE-PHONE-HISTORY-RULE.md",
+  "importNotes": [
+    "Use the existing staged contribution contract; this is not a schema-1.2 authoring bundle. Local-preview usage is deliberately accurate; do not substitute the legacy remote-reference-only flag.",
+    "Permanent application UUIDs are assigned once by Replit; preserve these stable contribution keys and collision-safe clean paths.",
+    "Phone fields for individual clinicians remain null. Named provider pages support the listed clinic associations; clinic contact numbers remain shared and untested.",
+    "Keep current phone disclosure and dated acceptance beside practical information, not only in collapsed research notes. Historical numbers, if later supplied, stay non-clickable. No archive was reviewed in this batch.",
+    "No remote image, tracking, source embed or prefetch before explicit user activation. One approved portrait per provider; preserve aspect ratio with contain framing. Source provenance links must be operable.",
+    "New records stay published, unclaimed, pending-human-review and noindex; publication is not human, clinical or indexing approval.",
+    "Use the existing 42-item Healing Images catalog and entry/visit/history behavior; this batch adds no healing artwork.",
+    "Do not repeat external research, phone calls, credential searches or editorial simulations in Replit. Return factual exceptions to the research owner."
+  ],
+  "baselineCounts": {
+    "providerRecords": 168,
+    "directories": 22,
+    "approvedLocalPortraitDeliveries": 158,
+    "qualifyingUniqueProviderIds": 130
+  },
+  "expectedAfterSuccessfulApplication": {
+    "providerRecords": 171,
+    "directories": 23,
+    "approvedLocalPortraitDeliveries": 161,
+    "qualifyingUniqueProviderIds": 133
+  },
+  "countNote": "Expected counts are not completed outcomes; count only checked unique permanent IDs and actual approved local delivery."
+}

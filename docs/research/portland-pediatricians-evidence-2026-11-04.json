@@ -1,0 +1,186 @@
+{
+  "batchId": "portland-pediatricians-20261104",
+  "preparedOn": "2026-11-04",
+  "sourceChecks": [
+    {
+      "key": "catherinekent",
+      "requestedUrl": "https://www.ohsu.edu/providers/catherine-l-kent-md",
+      "retrievedAt": "2026-11-04T20:48:40.056755+00:00",
+      "status": 200,
+      "finalUrl": "https://www.ohsu.edu/providers/catherine-l-kent-md",
+      "contentType": "text/html; charset=UTF-8",
+      "htmlSha256": "d7a787e5e1057d140967462a9f4db25faf2b40a89637cc8041807e47b951de95"
+    },
+    {
+      "key": "stacydrasen",
+      "requestedUrl": "https://www.ohsu.edu/providers/stacy-l-drasen-md",
+      "retrievedAt": "2026-11-04T20:48:40.057861+00:00",
+      "status": 200,
+      "finalUrl": "https://www.ohsu.edu/providers/stacy-l-drasen-md",
+      "contentType": "text/html; charset=UTF-8",
+      "htmlSha256": "23071656d097cc7e9b9f73a46676db27cd0d17c841ac3776e360ebc1635cfe94"
+    },
+    {
+      "key": "erikameyer",
+      "requestedUrl": "https://www.metropediatrics.com/portland-area-pediatricians/erika-meyer-md/",
+      "retrievedAt": "2026-11-04T20:48:40.058650+00:00",
+      "status": 200,
+      "finalUrl": "https://www.metropediatrics.com/portland-area-pediatricians/erika-meyer-md/",
+      "contentType": "text/html; charset=utf-8",
+      "htmlSha256": "a30722c3ec818a4dad6bb651d52a5ed27a66ace434db67f3d9ada0aad4798b97"
+    },
+    {
+      "key": "marquam-clinic",
+      "requestedUrl": "https://www.ohsu.edu/doernbecher/ohsu-doernbecher-pediatrics-clinic-marquam-hill",
+      "retrievedAt": "2026-11-04T20:48:40.059634+00:00",
+      "status": 200,
+      "finalUrl": "https://www.ohsu.edu/doernbecher/ohsu-doernbecher-pediatrics-clinic-marquam-hill",
+      "contentType": "text/html; charset=UTF-8",
+      "htmlSha256": "b8978cd4b3ca17236b8d5dc9c75cf4c9c0f8d5f98aac123ca28f574618ec5c20"
+    },
+    {
+      "key": "nw-clinic",
+      "requestedUrl": "https://www.metropediatrics.com/pediatric-clinics/portland-pediatrician/",
+      "retrievedAt": "2026-11-04T20:48:40.060332+00:00",
+      "status": 200,
+      "finalUrl": "https://www.metropediatrics.com/pediatric-clinics/portland-pediatrician/",
+      "contentType": "text/html; charset=utf-8",
+      "htmlSha256": "7eb792949d7f6bedd7ce9692075e7b508e5d49a54e549f0acf5bbbe6a13d9c80"
+    }
+  ],
+  "httpObservationLimit": "Direct source/asset GET results do not establish browser privacy, ownership, authenticity or clinical verification. Raw copyrighted source HTML is not republished.",
+  "portraitChecks": [
+    {
+      "key": "catherinekent",
+      "sourceUrl": "https://www.ohsu.edu/sites/default/files/profile-photos/Kent-Catherine.jpg",
+      "retrievedAt": "2026-11-04T20:49:41.330893+00:00",
+      "status": 200,
+      "finalUrl": "https://www.ohsu.edu/sites/default/files/profile-photos/Kent-Catherine.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 279574,
+      "sha256": "5589706175f302c4d50f9d46ee700db770e02b700b83db389a20691dca31ada7",
+      "format": "JPEG",
+      "width": 501,
+      "height": 701,
+      "mode": "RGB",
+      "httpSetCookieNamesObserved": [],
+      "associationInspection": "Exact image exposed by the named official provider page; OHSU uses a named role=img CSS background, Metropolitan uses the visible biography image.",
+      "visualInspection": "Individual portrait with visible face, inspected directly. This is a source-association and framing review, not identification by facial resemblance.",
+      "preview": {
+        "repositoryPath": "assets/provider-previews/portland-pediatricians-2026-11-04/catherinekent.webp",
+        "format": "WEBP",
+        "width": 257,
+        "height": 360,
+        "bytes": 9742,
+        "sha256": "7e9397c2eb96ffed57dba4b57834a59e59c1b82a156d2b06a8f5ba624f9181f2",
+        "gitBlobSha": "7a1e2961130376bf86b627617376e91a3d9f5eee",
+        "transformation": "EXIF orientation normalization; proportional fit within 360 by 360; no crop or enlargement; WebP quality 82, method 6; source transparency preserved."
+      },
+      "disposition": "Approved under the owner-adopted modest source-linked local-preview policy only.",
+      "reuseRights": "Unknown; no ownership, license, derivative/composite, social-share or structured-data-image approval."
+    },
+    {
+      "key": "stacydrasen",
+      "sourceUrl": "https://www.ohsu.edu/sites/default/files/profile-photos/drasen-stacy_25.jpg",
+      "retrievedAt": "2026-11-04T20:49:41.331964+00:00",
+      "status": 200,
+      "finalUrl": "https://www.ohsu.edu/sites/default/files/profile-photos/drasen-stacy_25.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 99326,
+      "sha256": "040053b4c80ba7bd01bfcaa40e22e60d464e535e829151caec7ee6f7a95bf25c",
+      "format": "JPEG",
+      "width": 552,
+      "height": 552,
+      "mode": "RGB",
+      "httpSetCookieNamesObserved": [],
+      "associationInspection": "Exact image exposed by the named official provider page; OHSU uses a named role=img CSS background, Metropolitan uses the visible biography image.",
+      "visualInspection": "Individual portrait with visible face, inspected directly. This is a source-association and framing review, not identification by facial resemblance.",
+      "preview": {
+        "repositoryPath": "assets/provider-previews/portland-pediatricians-2026-11-04/stacydrasen.webp",
+        "format": "WEBP",
+        "width": 360,
+        "height": 360,
+        "bytes": 17976,
+        "sha256": "5e81d0a3060fa3280e7488736b75495744832bb33c211acb9b9069f2a7daf3fe",
+        "gitBlobSha": "dacede1dac1d111e2f55997ab9ce5402d373815c",
+        "transformation": "EXIF orientation normalization; proportional fit within 360 by 360; no crop or enlargement; WebP quality 82, method 6; source transparency preserved."
+      },
+      "disposition": "Approved under the owner-adopted modest source-linked local-preview policy only.",
+      "reuseRights": "Unknown; no ownership, license, derivative/composite, social-share or structured-data-image approval."
+    },
+    {
+      "key": "erikameyer",
+      "sourceUrl": "https://www.metropediatrics.com/wp-content/uploads/2018/10/Meyer_smclip.png",
+      "retrievedAt": "2026-11-04T20:49:41.332875+00:00",
+      "status": 200,
+      "finalUrl": "https://www.metropediatrics.com/wp-content/uploads/2018/10/Meyer_smclip.png",
+      "contentType": "image/png",
+      "bytes": 1444484,
+      "sha256": "92a91073c78496b8d26e63bdb2db9432ba1f498302d40cb45cdcca631cbeba95",
+      "format": "PNG",
+      "width": 813,
+      "height": 1080,
+      "mode": "RGBA",
+      "httpSetCookieNamesObserved": [],
+      "associationInspection": "Exact image exposed by the named official provider page; OHSU uses a named role=img CSS background, Metropolitan uses the visible biography image.",
+      "visualInspection": "Individual portrait with visible face, inspected directly. This is a source-association and framing review, not identification by facial resemblance.",
+      "preview": {
+        "repositoryPath": "assets/provider-previews/portland-pediatricians-2026-11-04/erikameyer.webp",
+        "format": "WEBP",
+        "width": 271,
+        "height": 360,
+        "bytes": 29690,
+        "sha256": "cdbf77976d1c816ed4909395200c3aa17cfd176c1173e7ab8d6f8a800655bb80",
+        "gitBlobSha": "ff772493250af247a191326f34e6b33394e353b2",
+        "transformation": "EXIF orientation normalization; proportional fit within 360 by 360; no crop or enlargement; WebP quality 82, method 6; source transparency preserved."
+      },
+      "disposition": "Approved under the owner-adopted modest source-linked local-preview policy only.",
+      "reuseRights": "Unknown; no ownership, license, derivative/composite, social-share or structured-data-image approval."
+    }
+  ],
+  "selectionNotes": [
+    {
+      "name": "Allison Baynham",
+      "disposition": "excluded-from-city-batch",
+      "reason": "Official provider page names Bridgeport; official clinic address is Tigard."
+    },
+    {
+      "name": "Kathryn Stockbower",
+      "disposition": "excluded-from-city-batch",
+      "reason": "Official provider page names Gresham and Johnson Creek; clinic addresses are Gresham and Happy Valley."
+    },
+    {
+      "name": "Angela-Tu Nguyen",
+      "disposition": "deferred",
+      "reason": "Bethany Village has a Portland mailing address, but municipal-boundary fit was not established. Not included by mailing address alone."
+    }
+  ],
+  "geographyMethod": "Selected central Portland clinic street addresses from official clinic sources, paired with explicit named-provider clinic associations. No municipal GIS or boundary-dataset check is claimed.",
+  "phoneFindings": {
+    "currentClinicNumbers": "OHSU clinic 503-418-5700; Metropolitan NW 503-295-2546. Source-stated, not call-tested.",
+    "excludedNumbers": "OHSU hospital line 503-346-0640 and practice-network/fax/other-office numbers are not personal clinician numbers or substitutes for these named clinic contacts.",
+    "historyReviewStatus": "not-reviewed",
+    "callsMade": false
+  },
+  "limits": [
+    "Independent licensing and board status pending.",
+    "No permission or ownership grant inferred from public portraits.",
+    "No insurance, fees, referral, language or appointment guarantee.",
+    "Not a ranking, comprehensive roster, clinical review or human approval.",
+    "Stage durations were not fully instrumented; no throughput or cost claim."
+  ],
+  "measurements": {
+    "sourcePageGets": 5,
+    "portraitGets": 3,
+    "retrievalScope": "Final selected source/asset retrieval only; does not count discovery searches.",
+    "phaseDurationsSeconds": {
+      "discovery": null,
+      "sourceReview": null,
+      "imageInspection": null,
+      "packetPreparation": null,
+      "implementation": null,
+      "testing": null,
+      "sync": null
+    }
+  }
+}
