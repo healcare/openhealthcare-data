@@ -1,5 +1,5 @@
 # Healing Images
-The growing OpenHealthcare.org campaign art collection. Updated November 2, 2026.
+The growing OpenHealthcare.org campaign art collection. Updated November 3, 2026.
 
 ## Canonical import source
 Replit should read this catalog:
@@ -10,7 +10,7 @@ https://github.com/healcare/openhealthcare-data/tree/main/assets/healing-images
 
 Resolve each sourcePath from the repository root at the SAME COMMIT used to read the catalog. Pin that commit for an import, verify SHA-256 hashes, and bring approved enabled entries into the app's local optimized asset collection. This is an authoring/import source, not a visitor-time GitHub dependency. The ChatGPT Library originals are the creative archive, not an app API.
 
-The catalog currently contains thirty-seven approved illustrations, including the four-piece Always Open line. The October 28 additions are Luminous rainbow fractal convergence, Love in iridescent fractal tides and Emerald fractal embrace, all carrying the message from your thoughts to your toes — love is all around. Also added October 28: Your very own brain (the revised headline) and Lungs and knees, team you. The three-piece You are all Right Now time set adds Luminous rhythms meet in one moment, Ripples of the Present, and Sundial of light, converging rhythms. The earlier You Own a Brain wording is not part of this approved set. The earlier photorealistic campaign image remains outside this set. Existing dated campaign paths remain available for compatibility.
+The catalog currently contains forty-two approved illustrations, including the five-piece Map your mood line and the four-piece Always Open line. The October 28 additions are Luminous rainbow fractal convergence, Love in iridescent fractal tides and Emerald fractal embrace, all carrying the message from your thoughts to your toes — love is all around. Also added October 28: Your very own brain (the revised headline) and Lungs and knees, team you. The three-piece You are all Right Now time set adds Luminous rhythms meet in one moment, Ripples of the Present, and Sundial of light, converging rhythms. The earlier You Own a Brain wording is not part of this approved set. The earlier photorealistic campaign image remains outside this set. Existing dated campaign paths remain available for compatibility.
 
 ## Requested site behavior
 On every directory page, including custom and pilot directory layouts, show exactly one randomly selected enabled artwork after the provider listings and before supporting/footer content. Reuse any existing directory Healing Images placement to avoid duplicates. Keep directory headings, access information, controls, provider listings and disclosures primary. Retain the existing approved placements on other pages. Each Care Note retains its specific matching illustration. For directory pages, make a fresh random draw on each new opening, reload or return after leaving, including in-app navigation and browser back/forward. Keep that choice fixed while the directory remains open, across ordinary rerenders, theme changes, filters, disclosures and hydration, with no flash from a fallback artwork to another. A random draw can repeat the prior image; do not promise a different result every time. Preserve the separately approved homepage Care Note selection and each article's fixed artwork. Do not add timed rotation or a carousel. Where multiple placements are warranted on one page, avoid duplicates.
@@ -108,3 +108,24 @@ Read the current app restart/release guidance and reconcile current source and c
 
 Back up the validated app through the existing non-force GitHub process and verify the actual remote commit/tree and changed-file hashes. Restore the new assets from that verified backup into isolation and decode/hash-check them as the content-only recovery checkpoint. Report the exact consumed data revision, app revision, checks and measured rendition sizes. This source commit is not evidence of an app import or live publication. Prepare the reviewed preview and release checkpoint; publication remains a separate step.
 
+## November 3 additions — Map your mood
+
+The five approved Map your mood artworks grow the catalog from 37 to **42 enabled entries**. All previous entries and image bytes are preserved. The creative originals remain in the archive; these full-composition, quality-90 WebP exports retain their original 1536 × 1024 dimensions and lettering. Each entry records a stable ID, accessible description, dimensions, byte size and SHA-256.
+
+| Artwork | Stable catalog ID | WebP source bytes |
+| --- | --- | ---: |
+| Luminous hypercube of inner space | `map-your-mood-luminous-hypercube` | 126,876 |
+| Opalescent spectrum of feeling | `map-your-mood-opalescent-spectrum` | 126,884 |
+| Four living moods inside a crystal tesseract | `map-your-mood-four-living-worlds` | 267,184 |
+| Luminous Tesseract of Four Weather Worlds | `map-your-mood-four-weather-worlds` | 263,244 |
+| Luminous inner worlds in a tesseract | `map-your-mood-inner-worlds` | 281,576 |
+
+These geometric and weather-world scenes are artistic metaphors for feelings. The artwork does not introduce a mood assessment, visitor mood collection, diagnostic claim or interactive tracking feature. Preserve the visible message and geometry as artwork; do not label the generated shapes as validated mathematical diagrams.
+
+### Next application update and release
+
+Consume the complete 42-entry catalog from one exact source commit. At the existing five responsive widths, the app should contain **210 local renditions**: 25 new files and 185 reusable prior files when source checksums and optimizer settings match. These source-export sizes are not visitor transfer measurements. Preserve current byte budgets, inspect lettering and fine landscape detail on phone and desktop, and verify every new rendition's hash and decoding.
+
+Retain exactly one selected local image after each directory's listings, a stable choice within a visit and a fresh draw on re-entry, reload and browser back/forward, allowing valid repeats. Load only the selected image. Preserve the two homepage Care Note choices, fixed article artwork, Good cookies wording, provider data and existing editorial/indexing controls. Include the existing Portland phone-history behavior and shared phone rule in the combined candidate's affected checks without inventing verification or clinician-to-office assignments.
+
+The owner authorized this update and publication if appropriate on November 3. Reconcile the pending application backup and preserve original commit, marker and receipt ancestry before release. Validate the combined candidate, verify the actual GitHub backup and restore the new assets from that backup into isolation before publication. Record the exact source and application revisions, check results and timeouts, measured transfer sizes and remaining limitations. After publication, verify live pages and artwork and save the release receipt. This catalog commit alone does not establish an app import or deployment.

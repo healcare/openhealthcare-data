@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "collectionId": "healing-images",
   "title": "Healing Images",
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-03",
   "assets": [
     {
       "id": "i-feel-better-modern-art",
@@ -521,6 +521,76 @@
       "message": "Always open",
       "alt": "Always open — OpenHealthcare.org. A waving sloth stands in a warmly lit lavender phone booth topped with a glowing heart beside a turquoise tropical lagoon at sunset.",
       "provenance": "AI-generated campaign illustration; Always Open series"
+    },
+    {
+      "id": "map-your-mood-luminous-hypercube",
+      "title": "Luminous hypercube of inner space",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/map-your-mood-luminous-hypercube.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 126876,
+      "sha256": "6eea921a18f4dc77c25816dfa3c410c707c355a1099783991c894342b0049b49",
+      "message": "Map your mood",
+      "alt": "Map your mood — OpenHealthcare.org. A translucent multicolored hypercube with glowing connected points casts rainbow light across a pale mint space.",
+      "provenance": "AI-generated campaign illustration; Map your mood series; artistic metaphor, not a psychological assessment or validated geometric model"
+    },
+    {
+      "id": "map-your-mood-opalescent-spectrum",
+      "title": "Opalescent spectrum of feeling",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/map-your-mood-opalescent-spectrum.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 126884,
+      "sha256": "3eb664bd1d74591f024d92b3b07280e7627218a5089b8991f65249ba9b46bb36",
+      "message": "Map your mood",
+      "alt": "Map your mood — OpenHealthcare.org. Nested opalescent cubes glow in blue, lilac, pink and gold, casting a rainbow reflection on a pastel floor.",
+      "provenance": "AI-generated campaign illustration; Map your mood series; artistic metaphor, not a psychological assessment or validated geometric model"
+    },
+    {
+      "id": "map-your-mood-four-living-worlds",
+      "title": "Four living moods inside a crystal tesseract",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/map-your-mood-four-living-worlds.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 267184,
+      "sha256": "50badae924a3285933c5cba488f3c3b22ce2e6a4e581f37b9af65a50de6894ee",
+      "message": "Map your mood",
+      "alt": "Map your mood — OpenHealthcare.org. A luminous crystal cube frames a rainforest waterfall, sunny flower meadow, stormy sea and quiet mountain lake.",
+      "provenance": "AI-generated campaign illustration; Map your mood series; artistic metaphor, not a psychological assessment or validated geometric model"
+    },
+    {
+      "id": "map-your-mood-four-weather-worlds",
+      "title": "Luminous Tesseract of Four Weather Worlds",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/map-your-mood-four-weather-worlds.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 263244,
+      "sha256": "144044fa6db418d7106da4a684a40a15e92f070a8a39084637b6bd4c848ac640",
+      "message": "Map your mood",
+      "alt": "Map your mood — OpenHealthcare.org. A tilted iridescent cube holds a rainforest waterfall, sunlit beach, purple ocean storm and snowy mountains against a mint background.",
+      "provenance": "AI-generated campaign illustration; Map your mood series; artistic metaphor, not a psychological assessment or validated geometric model"
+    },
+    {
+      "id": "map-your-mood-inner-worlds",
+      "title": "Luminous inner worlds in a tesseract",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/map-your-mood-inner-worlds.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 281576,
+      "sha256": "3c20eae530306100321bd06b07b3bfe41737f38d56e71f38e951fcd182cb383e",
+      "message": "Map your mood",
+      "alt": "Map your mood — OpenHealthcare.org. A glowing crystal cube frames waterfalls, a sunset flower-lined coast, a stormy sea and snowy mountains above a reflection on deep green.",
+      "provenance": "AI-generated campaign illustration; Map your mood series; artistic metaphor, not a psychological assessment or validated geometric model"
     }
   ]
 }
