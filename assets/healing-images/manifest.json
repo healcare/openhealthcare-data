@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "collectionId": "healing-images",
   "title": "Healing Images",
-  "updatedAt": "2026-11-03",
+  "updatedAt": "2026-11-04",
   "assets": [
     {
       "id": "i-feel-better-modern-art",
@@ -591,6 +591,90 @@
       "message": "Map your mood",
       "alt": "Map your mood — OpenHealthcare.org. A glowing crystal cube frames waterfalls, a sunset flower-lined coast, a stormy sea and snowy mountains above a reflection on deep green.",
       "provenance": "AI-generated campaign illustration; Map your mood series; artistic metaphor, not a psychological assessment or validated geometric model"
+    },
+    {
+      "id": "lion-breath-rooted-mane",
+      "title": "Rooted mane, quiet breath",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/lion-breath-rooted-mane.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 483240,
+      "sha256": "8cb1d1443772d65736ae024c505f37f1a3fbe7a768dd092e0d8e38fd016e300f",
+      "message": "imagine breathing like a lion",
+      "alt": "Imagine breathing like a lion — OpenHealthcare.org. A peaceful golden lion closes its eyes as its flowing, root-like mane spreads across a deep teal background.",
+      "provenance": "AI-generated campaign illustration; Imagine breathing like a lion series; imaginative encouragement, not a breathing protocol or therapeutic claim"
+    },
+    {
+      "id": "lion-breath-dark-mane-gold",
+      "title": "Lion's golden breath",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/lion-breath-dark-mane-gold.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 378026,
+      "sha256": "fb4adedccfb5ca481abf38b3313cc33dd405d9490cfbde2d480b500221bf8f0f",
+      "message": "imagine breathing like a lion",
+      "alt": "Imagine breathing like a lion — OpenHealthcare.org. A peaceful lion with a dark, flowing mane closes its eyes against a luminous golden background.",
+      "provenance": "AI-generated campaign illustration; Imagine breathing like a lion series; imaginative encouragement, not a breathing protocol or therapeutic claim"
+    },
+    {
+      "id": "lion-breath-prismatic-mane",
+      "title": "Serene Lion, Geometric Breath",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/lion-breath-prismatic-mane.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 377366,
+      "sha256": "b55d175d0069c539d8332178d766b1d2511557c41b055586a47845fdf4109d2b",
+      "message": "imagine breathing like a lion",
+      "alt": "Imagine breathing like a lion — OpenHealthcare.org. A resting adult lion with closed eyes is framed by translucent teal, lilac and golden geometric curves.",
+      "provenance": "AI-generated campaign illustration; Imagine breathing like a lion series; imaginative encouragement, not a breathing protocol or therapeutic claim"
+    },
+    {
+      "id": "lion-breath-cub-luminous-geometry",
+      "title": "Lion Cub in Luminous Geometry",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/lion-breath-cub-luminous-geometry.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 316624,
+      "sha256": "4e05a9145d63d5fcaf77fbfc36afcd7ff347a0c04d9439593ef63a5432031dde",
+      "message": "imagine breathing like a lion",
+      "alt": "Imagine breathing like a lion — OpenHealthcare.org. A peaceful golden lion cub rests its paws among translucent rainbow curves against deep teal.",
+      "provenance": "AI-generated campaign illustration; Imagine breathing like a lion series; imaginative encouragement, not a breathing protocol or therapeutic claim"
+    },
+    {
+      "id": "lion-breath-cub-prismatic-waves",
+      "title": "Peaceful Lion Cub in Prismatic Waves",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/lion-breath-cub-prismatic-waves.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 403916,
+      "sha256": "3370c98acc04da5b66f68f5ea8069b8c7c67e34cf19032bb29ac70708959d308",
+      "message": "imagine breathing like a lion",
+      "alt": "Imagine breathing like a lion — OpenHealthcare.org. A peaceful lion cub with closed eyes rests amid luminous rainbow ribbons against deep violet.",
+      "provenance": "AI-generated campaign illustration; Imagine breathing like a lion series; imaginative encouragement, not a breathing protocol or therapeutic claim"
+    },
+    {
+      "id": "lion-breath-adult-prismatic-waves",
+      "title": "Majestic lion in prismatic waves",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/lion-breath-adult-prismatic-waves.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 446416,
+      "sha256": "9ccb554455d1d61b0bd20747b83b213891735953853bcdeef96188fbcaf0b1a1",
+      "message": "imagine breathing like a lion",
+      "alt": "Imagine breathing like a lion — OpenHealthcare.org. A peaceful adult lion rests at the center of luminous rainbow waves against a deep violet background.",
+      "provenance": "AI-generated campaign illustration; Imagine breathing like a lion series; imaginative encouragement, not a breathing protocol or therapeutic claim"
     }
   ]
 }

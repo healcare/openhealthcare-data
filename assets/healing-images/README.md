@@ -1,5 +1,5 @@
 # Healing Images
-The growing OpenHealthcare.org campaign art collection. Updated November 3, 2026.
+The growing OpenHealthcare.org campaign art collection. Updated November 4, 2026.
 
 ## Canonical import source
 Replit should read this catalog:
@@ -10,7 +10,7 @@ https://github.com/healcare/openhealthcare-data/tree/main/assets/healing-images
 
 Resolve each sourcePath from the repository root at the SAME COMMIT used to read the catalog. Pin that commit for an import, verify SHA-256 hashes, and bring approved enabled entries into the app's local optimized asset collection. This is an authoring/import source, not a visitor-time GitHub dependency. The ChatGPT Library originals are the creative archive, not an app API.
 
-The catalog currently contains forty-two approved illustrations, including the five-piece Map your mood line and the four-piece Always Open line. The October 28 additions are Luminous rainbow fractal convergence, Love in iridescent fractal tides and Emerald fractal embrace, all carrying the message from your thoughts to your toes — love is all around. Also added October 28: Your very own brain (the revised headline) and Lungs and knees, team you. The three-piece You are all Right Now time set adds Luminous rhythms meet in one moment, Ripples of the Present, and Sundial of light, converging rhythms. The earlier You Own a Brain wording is not part of this approved set. The earlier photorealistic campaign image remains outside this set. Existing dated campaign paths remain available for compatibility.
+The catalog currently contains forty-eight approved illustrations, including the five-piece Map your mood line and the four-piece Always Open line. The October 28 additions are Luminous rainbow fractal convergence, Love in iridescent fractal tides and Emerald fractal embrace, all carrying the message from your thoughts to your toes — love is all around. Also added October 28: Your very own brain (the revised headline) and Lungs and knees, team you. The three-piece You are all Right Now time set adds Luminous rhythms meet in one moment, Ripples of the Present, and Sundial of light, converging rhythms. The earlier You Own a Brain wording is not part of this approved set. The earlier photorealistic campaign image remains outside this set. Existing dated campaign paths remain available for compatibility.
 
 ## Requested site behavior
 On every directory page, including custom and pilot directory layouts, show exactly one randomly selected enabled artwork after the provider listings and before supporting/footer content. Reuse any existing directory Healing Images placement to avoid duplicates. Keep directory headings, access information, controls, provider listings and disclosures primary. Retain the existing approved placements on other pages. Each Care Note retains its specific matching illustration. For directory pages, make a fresh random draw on each new opening, reload or return after leaving, including in-app navigation and browser back/forward. Keep that choice fixed while the directory remains open, across ordinary rerenders, theme changes, filters, disclosures and hydration, with no flash from a fallback artwork to another. A random draw can repeat the prior image; do not promise a different result every time. Preserve the separately approved homepage Care Note selection and each article's fixed artwork. Do not add timed rotation or a carousel. Where multiple placements are warranted on one page, avoid duplicates.
@@ -129,3 +129,34 @@ Consume the complete 42-entry catalog from one exact source commit. At the exist
 Retain exactly one selected local image after each directory's listings, a stable choice within a visit and a fresh draw on re-entry, reload and browser back/forward, allowing valid repeats. Load only the selected image. Preserve the two homepage Care Note choices, fixed article artwork, Good cookies wording, provider data and existing editorial/indexing controls. Include the existing Portland phone-history behavior and shared phone rule in the combined candidate's affected checks without inventing verification or clinician-to-office assignments.
 
 The owner authorized this update and publication if appropriate on November 3. Reconcile the pending application backup and preserve original commit, marker and receipt ancestry before release. Validate the combined candidate, verify the actual GitHub backup and restore the new assets from that backup into isolation before publication. Record the exact source and application revisions, check results and timeouts, measured transfer sizes and remaining limitations. After publication, verify live pages and artwork and save the release receipt. This catalog commit alone does not establish an app import or deployment.
+
+
+
+## November 4 additions — Imagine breathing like a lion
+
+Six approved still illustrations grow the catalog from 42 to **48 enabled entries**. All previous entries and bytes remain unchanged. Full-composition WebP sources retain their original 1536 × 1024 dimensions at quality 90; each has descriptive alt text including the visible message, byte size and SHA-256. The original PNGs remain in the creative archive.
+
+| Artwork | Stable ID | Source bytes |
+| --- | --- | ---: |
+| Rooted mane, quiet breath | `lion-breath-rooted-mane` | 483,240 |
+| Lion's golden breath | `lion-breath-dark-mane-gold` | 378,026 |
+| Serene Lion, Geometric Breath | `lion-breath-prismatic-mane` | 377,366 |
+| Lion Cub in Luminous Geometry | `lion-breath-cub-luminous-geometry` | 316,624 |
+| Peaceful Lion Cub in Prismatic Waves | `lion-breath-cub-prismatic-waves` | 403,916 |
+| Majestic lion in prismatic waves | `lion-breath-adult-prismatic-waves` | 446,416 |
+
+### Still images only; reserve motion separately
+
+The owner explicitly excludes all GIFs and all other animated formats, including animated WebP, from this update and the Healing Images selection pool. Motion experiments are reserved separately for future video or special uses. Do not import files from the separate Asset Library. The six approved PNG originals are the source for these static exports; none is an extracted or compressed animation frame. The later Always open sloth hotline still used for the GIF experiment is also outside this approved collection.
+
+### Authorized Replit refresh and acceptance
+
+Import the entire enabled catalog from one pinned commit: **48 artworks and 240 responsive files**, at 240, 480, 768, 1200 and 1536 pixels wide. Generate 30 new files for the six lions and reuse the existing 210 only when source hashes and optimizer settings match. Preserve the existing maximum per-rendition budgets: 32 / 80 / 192 / 360 / 600 KiB respectively. Source exports are not visitor transfer sizes. Do not relax these budgets for mane or prismatic detail. Inspect every new full source and compressed rendering for complete lettering, facial detail and optical-pattern artifacts.
+
+Match the full enabled-ID set and source hashes, verify decoding and dimensions for all 240 local files, and assert each selected source/rendition is a single-frame static image. Confirm controlled selection of each new lion rather than relying on random screenshots. Preserve exactly one image after directory listings, stable selection during a visit and a fresh draw on re-entry, reload and back/forward, with valid repeats. Keep existing approved other-page placements and fixed Care Note art. Only the chosen local rendition should load; no collection preload, runtime remote fetching, third-party calls, tracking or animation. Reserve image dimensions and lazy-load below the fold.
+
+Use meaningful alt text containing the visible message when it is not conveyed in accessible nearby text. Use empty alt only when truly decorative with equivalent nearby text; avoid duplicate announcements, redundant ARIA or focus targets. Preserve full composition without text cropping; check phone/desktop readability, 200% zoom, accessible names and light/dark layouts. Keep optical art descriptions factual: these are artistic patterns, not verified stereograms, anatomical diagrams or claims of neurological/therapeutic effect. The phrase is an imaginative invitation, not a prescriptive breathing exercise.
+
+Correct stale app import guidance that still calls the 37-image import current: the pre-update app readback reported 42 enabled artworks and 210 renditions from data commit 915841e6d39194fd0bcfbc87e23643cd6398099b. Reconcile current checkout and concurrent work again before edits. Preserve the divergent Ribbons preview worktree, other worktrees, stashes, provider data, review/indexing rules and Good cookies behavior. Do not reset, overwrite or sweep unrelated changes into the update.
+
+Run proportionate affected checks and report measured selected-image transfer bytes at the tested phone/desktop viewports, actual source/app revisions, test outcomes and limitations. Update the app's verified GitHub backup through the established non-force process, then decode/hash-check new assets restored into isolation from that backup. Prepare a reviewed preview; this request updates the app but does not authorize publication. No publishing or republishing as part of this refresh.
