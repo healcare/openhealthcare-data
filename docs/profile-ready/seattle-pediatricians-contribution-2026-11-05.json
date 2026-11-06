@@ -1,0 +1,703 @@
+{
+  "kind": "validated-profile-contribution",
+  "schemaVersion": 1,
+  "preparedOn": "2026-11-05",
+  "baseAppRevision": "a5a38f58f4c3c85c3ebee86c6e628ea0b1ef70b7",
+  "baseDataRevision": "8cae623accd68711001f1f96db8c001e7c4b54a1",
+  "batchId": "seattle-pediatricians-20261105",
+  "scope": "Add a city-only Seattle pediatricians pilot with three identities and two clinics.",
+  "items": [
+    {
+      "id": "seattlepediatricians",
+      "entityType": "new-directory",
+      "disposition": "accepted",
+      "reason": "Create a bounded city directory using the shared directory presentation.",
+      "proposedChanges": [
+        {
+          "path": "new-directory",
+          "reason": "Create a bounded city directory using the shared directory presentation.",
+          "value": {
+            "slug": "seattlepediatricians",
+            "title": "Pediatricians in Seattle",
+            "description": "Three pediatricians at two Seattle clinics. Read about their work and see whom each practice says can schedule a visit.",
+            "geography": {
+              "city": "Seattle",
+              "state": "WA",
+              "country": "US",
+              "scope": "Seattle city limits"
+            },
+            "scopeNote": "This initial selection covers North Seattle Pediatrics and UW Medicine’s Roosevelt pediatric clinic. Other Seattle practices and the surrounding metro area are outside this pilot.",
+            "reviewStatus": "pending-human-review",
+            "status": "published",
+            "indexable": false,
+            "claimStatus": "unclaimed",
+            "lastVerified": "2026-11-05",
+            "lastVerifiedMeaning": "Date official sources were consulted.",
+            "sourceIds": [
+              "seattle-bratt-20261105",
+              "seattle-grim-20261105",
+              "seattle-north-20261105",
+              "seattle-chung-20261105",
+              "seattle-roosevelt-20261105",
+              "seattle-uwfaculty-20261105"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherylbratt",
+      "entityType": "new-provider",
+      "disposition": "accepted",
+      "reason": "Named practice sources support this identity, Seattle office, narrative, dated scheduling statement and source-linked portrait.",
+      "proposedChanges": [
+        {
+          "path": "new-provider",
+          "reason": "Named practice sources support this identity, Seattle office, narrative, dated scheduling statement and source-linked portrait.",
+          "value": {
+            "id": "cherylbratt",
+            "canonicalPath": "cherylbratt",
+            "name": {
+              "display": "Cheryl L. Bratt",
+              "given": "Cheryl",
+              "family": "Bratt"
+            },
+            "credentials": [
+              "MD"
+            ],
+            "clinicianType": "Pediatrician",
+            "specialties": [
+              "Pediatrics"
+            ],
+            "directoryIds": [
+              "seattlepediatricians"
+            ],
+            "locationIds": [
+              "north-seattle-pediatrics-meridian"
+            ],
+            "phone": null,
+            "profileUrl": "https://northseattlepediatrics.com/team/cheryl-l-bratt/",
+            "introduction": "Cheryl Bratt practices pediatrics at North Seattle Pediatrics.",
+            "story": "Bratt grew up in Seattle. After medical school in Chicago and pediatric residency in Grand Rapids, she returned to the practice her father, pediatrician Bern Alberda, helped found. She joined North Seattle Pediatrics in 2000. Her biography describes working with parents as partners as their children grow.",
+            "quickSummary": {
+              "helpsWith": [
+                "General pediatrics"
+              ],
+              "approach": [
+                "Working with parents as their children grow"
+              ],
+              "worksWith": [
+                "Children and families"
+              ],
+              "careModes": [
+                "In person at the source-listed Seattle clinic"
+              ]
+            },
+            "patientAccess": {
+              "acceptanceStatement": "The practice lists this clinician as accepting new patients.",
+              "acceptingPatientsSourceStated": true,
+              "observedOn": "2026-11-05",
+              "sourceIds": [
+                "seattle-north-20261105"
+              ],
+              "note": "The clinic can confirm its current schedule. This dated listing does not reserve an appointment.",
+              "insurance": "Exact-plan participation and costs have not been verified; confirm the clinician, location and service with the practice and insurer.",
+              "fees": "Not verified",
+              "referralRequirements": "Not verified",
+              "languageSupport": "Not verified",
+              "accessibility": "Not independently checked",
+              "phoneNote": "Use only the shared clinic contact, visibly labeled not call-tested. Phone archive history has not been reviewed."
+            },
+            "portrait": {
+              "usage": "source-linked-local-preview",
+              "repositoryPath": "assets/provider-previews/seattle-pediatricians-2026-11-05/cherylbratt.webp",
+              "sourceUrl": "https://northseattlepediatrics.com/wp-content/uploads/2019/10/Cheryl-Bratt.jpg",
+              "clickThroughUrl": "https://northseattlepediatrics.com/team/cheryl-l-bratt/",
+              "sourceId": "seattle-bratt-20261105",
+              "alt": "Portrait of Cheryl L. Bratt",
+              "width": 240,
+              "height": 360,
+              "sha256": "32d9fdb0a2ea2cf38bf2130fdd4503ded728b9560a4b37b81f86f7069c984677",
+              "gitBlobSha": "b2d8d5a22ed287694f3de8fc7ca2d8b7b2f3f975",
+              "inspectedOn": "2026-11-05",
+              "reuseRights": "Unknown; no ownership or reuse license is asserted.",
+              "derivativeCompositeEligible": false,
+              "structuredDataImageEligible": false,
+              "socialShareImageEligible": false
+            },
+            "sourceIds": [
+              "seattle-bratt-20261105",
+              "seattle-north-20261105"
+            ],
+            "claimEvidence": [
+              {
+                "claim": "identity-and-pediatric-role",
+                "sourceIds": [
+                  "seattle-bratt-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "introduction-and-quick-summary",
+                "sourceIds": [
+                  "seattle-bratt-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "complete-story",
+                "sourceIds": [
+                  "seattle-bratt-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "provider-to-clinic-association",
+                "sourceIds": [
+                  "seattle-bratt-20261105",
+                  "seattle-north-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "dated-patient-acceptance",
+                "sourceIds": [
+                  "seattle-north-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "named-portrait-source-association",
+                "sourceIds": [
+                  "seattle-bratt-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "clinic-address-and-shared-phone",
+                "sourceIds": [
+                  "seattle-north-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              }
+            ],
+            "verification": {
+              "status": "source-stated",
+              "reviewStatus": "pending-human-review",
+              "researchedOn": "2026-11-05",
+              "licenseLookupStatus": "pending",
+              "boardCertificationLookupStatus": "pending"
+            },
+            "reviewStatus": "pending-human-review",
+            "claimStatus": "unclaimed",
+            "status": "published",
+            "indexable": false,
+            "lastVerified": "2026-11-05",
+            "reviewNotes": [
+              "The date records source research. Independent Washington license and board checks are pending.",
+              "The source associates this portrait with its named profile. Reuse rights are unknown."
+            ],
+            "humanityAssessment": {
+              "researchDisposition": "accepted-for-scoped-integration",
+              "reason": "Seattle upbringing and return to the practice her father helped establish.",
+              "countOnlyAfter": "Native record, complete readable story with sources, eligible access details, approved local portrait inventory and actual desktop/touch-mobile local delivery checks all pass.",
+              "notHumanReview": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "lindagrim",
+      "entityType": "new-provider",
+      "disposition": "accepted",
+      "reason": "Named practice sources support this identity, Seattle office, narrative, dated scheduling statement and source-linked portrait.",
+      "proposedChanges": [
+        {
+          "path": "new-provider",
+          "reason": "Named practice sources support this identity, Seattle office, narrative, dated scheduling statement and source-linked portrait.",
+          "value": {
+            "id": "lindagrim",
+            "canonicalPath": "lindagrim",
+            "name": {
+              "display": "Linda Grim",
+              "given": "Linda",
+              "family": "Grim"
+            },
+            "credentials": [
+              "MD"
+            ],
+            "clinicianType": "Pediatrician",
+            "specialties": [
+              "Pediatrics"
+            ],
+            "directoryIds": [
+              "seattlepediatricians"
+            ],
+            "locationIds": [
+              "north-seattle-pediatrics-meridian"
+            ],
+            "phone": null,
+            "profileUrl": "https://northseattlepediatrics.com/team/linda-grim/",
+            "introduction": "Linda Grim sees children and adolescents at North Seattle Pediatrics.",
+            "story": "Grim trained in Alabama before joining North Seattle Pediatrics in 1999. She says one reason she chose pediatrics was the chance to follow families from infancy into adolescence. Beyond office visits, her biography describes speaking with PEPS parenting groups about infant sleep.",
+            "quickSummary": {
+              "helpsWith": [
+                "General pediatrics"
+              ],
+              "approach": [
+                "Following families over time, from early development into adolescence"
+              ],
+              "worksWith": [
+                "Children",
+                "Adolescents"
+              ],
+              "careModes": [
+                "In person at the source-listed Seattle clinic"
+              ]
+            },
+            "patientAccess": {
+              "acceptanceStatement": "The practice lists this clinician as accepting new patients.",
+              "acceptingPatientsSourceStated": true,
+              "observedOn": "2026-11-05",
+              "sourceIds": [
+                "seattle-north-20261105"
+              ],
+              "note": "The clinic can confirm its current schedule. This dated listing does not reserve an appointment.",
+              "insurance": "Exact-plan participation and costs have not been verified; confirm the clinician, location and service with the practice and insurer.",
+              "fees": "Not verified",
+              "referralRequirements": "Not verified",
+              "languageSupport": "Not verified",
+              "accessibility": "Not independently checked",
+              "phoneNote": "Use only the shared clinic contact, visibly labeled not call-tested. Phone archive history has not been reviewed."
+            },
+            "portrait": {
+              "usage": "source-linked-local-preview",
+              "repositoryPath": "assets/provider-previews/seattle-pediatricians-2026-11-05/lindagrim.webp",
+              "sourceUrl": "https://northseattlepediatrics.com/wp-content/uploads/2019/10/Linda-Grim.jpg",
+              "clickThroughUrl": "https://northseattlepediatrics.com/team/linda-grim/",
+              "sourceId": "seattle-grim-20261105",
+              "alt": "Portrait of Linda Grim",
+              "width": 240,
+              "height": 360,
+              "sha256": "13193f055caefa3032aa1cf3b153058e906cb94e221a56ef2fe7afd8eb6a33ea",
+              "gitBlobSha": "53949e1d6f924bf08db58618e55eab30995b75fd",
+              "inspectedOn": "2026-11-05",
+              "reuseRights": "Unknown; no ownership or reuse license is asserted.",
+              "derivativeCompositeEligible": false,
+              "structuredDataImageEligible": false,
+              "socialShareImageEligible": false
+            },
+            "sourceIds": [
+              "seattle-grim-20261105",
+              "seattle-north-20261105"
+            ],
+            "claimEvidence": [
+              {
+                "claim": "identity-and-pediatric-role",
+                "sourceIds": [
+                  "seattle-grim-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "introduction-and-quick-summary",
+                "sourceIds": [
+                  "seattle-grim-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "complete-story",
+                "sourceIds": [
+                  "seattle-grim-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "provider-to-clinic-association",
+                "sourceIds": [
+                  "seattle-grim-20261105",
+                  "seattle-north-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "dated-patient-acceptance",
+                "sourceIds": [
+                  "seattle-north-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "named-portrait-source-association",
+                "sourceIds": [
+                  "seattle-grim-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "clinic-address-and-shared-phone",
+                "sourceIds": [
+                  "seattle-north-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              }
+            ],
+            "verification": {
+              "status": "source-stated",
+              "reviewStatus": "pending-human-review",
+              "researchedOn": "2026-11-05",
+              "licenseLookupStatus": "pending",
+              "boardCertificationLookupStatus": "pending"
+            },
+            "reviewStatus": "pending-human-review",
+            "claimStatus": "unclaimed",
+            "status": "published",
+            "indexable": false,
+            "lastVerified": "2026-11-05",
+            "reviewNotes": [
+              "The date records source research. Independent Washington license and board checks are pending.",
+              "The source associates this portrait with its named profile. Reuse rights are unknown."
+            ],
+            "humanityAssessment": {
+              "researchDisposition": "accepted-for-scoped-integration",
+              "reason": "Her account connects continuity of care with speaking to local parenting groups about infant sleep.",
+              "countOnlyAfter": "Native record, complete readable story with sources, eligible access details, approved local portrait inventory and actual desktop/touch-mobile local delivery checks all pass.",
+              "notHumanReview": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "estherchung",
+      "entityType": "new-provider",
+      "disposition": "accepted",
+      "reason": "Named practice sources support this identity, Seattle office, narrative, dated scheduling statement and source-linked portrait.",
+      "proposedChanges": [
+        {
+          "path": "new-provider",
+          "reason": "Named practice sources support this identity, Seattle office, narrative, dated scheduling statement and source-linked portrait.",
+          "value": {
+            "id": "estherchung",
+            "canonicalPath": "estherchung",
+            "name": {
+              "display": "Esther K. Chung",
+              "given": "Esther",
+              "family": "Chung"
+            },
+            "credentials": [
+              "MD",
+              "MPH"
+            ],
+            "clinicianType": "Pediatrician",
+            "specialties": [
+              "Pediatrics"
+            ],
+            "directoryIds": [
+              "seattlepediatricians"
+            ],
+            "locationIds": [
+              "uw-pediatric-care-center-roosevelt"
+            ],
+            "phone": null,
+            "profileUrl": "https://www.uwmedicine.org/bios/esther-chung",
+            "introduction": "Esther Chung sees patients from infancy through adolescence at UW Medicine’s Roosevelt pediatric clinic.",
+            "story": "Chung studied medicine and public health at Columbia before training in Oakland and Philadelphia. Alongside her Seattle clinic work, the University of Washington describes her research on childhood adversity and poverty and her role overseeing advanced patient-care rotations for senior medical students. Her UW Medicine biography also mentions cooking and reading.",
+            "quickSummary": {
+              "helpsWith": [
+                "General pediatrics"
+              ],
+              "approach": [
+                "Working with families on children’s health and safety"
+              ],
+              "worksWith": [
+                "Children",
+                "Adolescents"
+              ],
+              "careModes": [
+                "In person at the source-listed Seattle clinic"
+              ]
+            },
+            "patientAccess": {
+              "acceptanceStatement": "UW Medicine lists this clinician for returning patients only.",
+              "acceptingPatientsSourceStated": false,
+              "observedOn": "2026-11-05",
+              "sourceIds": [
+                "seattle-chung-20261105"
+              ],
+              "note": "The clinic can confirm its current schedule. This dated listing does not reserve an appointment.",
+              "insurance": "Exact-plan participation and costs have not been verified; confirm the clinician, location and service with the practice and insurer.",
+              "fees": "Not verified",
+              "referralRequirements": "Not verified",
+              "languageSupport": "Not verified",
+              "accessibility": "Not independently checked",
+              "phoneNote": "Use only the shared clinic contact, visibly labeled not call-tested. Phone archive history has not been reviewed."
+            },
+            "portrait": {
+              "usage": "source-linked-local-preview",
+              "repositoryPath": "assets/provider-previews/seattle-pediatricians-2026-11-05/estherchung.webp",
+              "sourceUrl": "https://www.uwmedicine.org/sites/stevie/files/styles/square_l/public/provider-images/api-bioimage-esther-chung.jpg?itok=QS-LB1YM",
+              "clickThroughUrl": "https://www.uwmedicine.org/bios/esther-chung",
+              "sourceId": "seattle-chung-20261105",
+              "alt": "Portrait of Esther K. Chung",
+              "width": 200,
+              "height": 200,
+              "sha256": "2e0247f3995f6d4f9001b0022feb47dba1520475dc92ff723f9fbeb0bce6cfc4",
+              "gitBlobSha": "4a61a664f9abd82a7660cbef9cea59f226df792d",
+              "inspectedOn": "2026-11-05",
+              "reuseRights": "Unknown; no ownership or reuse license is asserted.",
+              "derivativeCompositeEligible": false,
+              "structuredDataImageEligible": false,
+              "socialShareImageEligible": false
+            },
+            "sourceIds": [
+              "seattle-chung-20261105",
+              "seattle-uwfaculty-20261105",
+              "seattle-roosevelt-20261105"
+            ],
+            "claimEvidence": [
+              {
+                "claim": "identity-and-pediatric-role",
+                "sourceIds": [
+                  "seattle-chung-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "introduction-and-quick-summary",
+                "sourceIds": [
+                  "seattle-chung-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "complete-story",
+                "sourceIds": [
+                  "seattle-chung-20261105",
+                  "seattle-uwfaculty-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "provider-to-clinic-association",
+                "sourceIds": [
+                  "seattle-chung-20261105",
+                  "seattle-roosevelt-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "dated-patient-acceptance",
+                "sourceIds": [
+                  "seattle-chung-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "named-portrait-source-association",
+                "sourceIds": [
+                  "seattle-chung-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              },
+              {
+                "claim": "clinic-address-and-shared-phone",
+                "sourceIds": [
+                  "seattle-roosevelt-20261105"
+                ],
+                "verificationStatus": "source-stated",
+                "observedOn": "2026-11-05"
+              }
+            ],
+            "verification": {
+              "status": "source-stated",
+              "reviewStatus": "pending-human-review",
+              "researchedOn": "2026-11-05",
+              "licenseLookupStatus": "pending",
+              "boardCertificationLookupStatus": "pending"
+            },
+            "reviewStatus": "pending-human-review",
+            "claimStatus": "unclaimed",
+            "status": "published",
+            "indexable": false,
+            "lastVerified": "2026-11-05",
+            "reviewNotes": [
+              "The date records source research. Independent Washington license and board checks are pending.",
+              "The source associates this portrait with its named profile. Reuse rights are unknown."
+            ],
+            "humanityAssessment": {
+              "researchDisposition": "accepted-for-scoped-integration",
+              "reason": "Her medical and public-health training connects to research on childhood adversity and supervision of senior medical students.",
+              "countOnlyAfter": "Native record, complete readable story with sources, eligible access details, approved local portrait inventory and actual desktop/touch-mobile local delivery checks all pass.",
+              "notHumanReview": true
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "north-seattle-pediatrics-meridian",
+      "name": "North Seattle Pediatrics",
+      "address": {
+        "line1": "10330 Meridian Ave N",
+        "line2": "Suite 210",
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98133",
+        "country": "US"
+      },
+      "website": "https://northseattlepediatrics.com/practice/",
+      "sourceIds": [
+        "seattle-north-20261105"
+      ],
+      "practicePhone": {
+        "display": "(206) 368-6080",
+        "e164": "+12063686080",
+        "scope": "Shared clinic number, not a personal clinician number",
+        "observedOn": "2026-11-05",
+        "sourceIds": [
+          "seattle-north-20261105"
+        ],
+        "callTestStatus": "not-call-tested",
+        "callTestedAt": null,
+        "historyReviewStatus": "not-reviewed",
+        "history": [],
+        "historyNote": "Archived phone history has not been reviewed. No claim is made about previous numbers or when a number changed."
+      }
+    },
+    {
+      "id": "uw-pediatric-care-center-roosevelt",
+      "name": "Pediatric Care Center at UW Medical Center – Roosevelt",
+      "address": {
+        "line1": "4245 Roosevelt Way NE",
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98105",
+        "country": "US"
+      },
+      "website": "https://www.uwmedicine.org/locations/pediatric-care-center-uwmc-roosevelt",
+      "sourceIds": [
+        "seattle-roosevelt-20261105"
+      ],
+      "practicePhone": {
+        "display": "(206) 598-3000",
+        "e164": "+12065983000",
+        "scope": "Shared clinic number, not a personal clinician number",
+        "observedOn": "2026-11-05",
+        "sourceIds": [
+          "seattle-roosevelt-20261105"
+        ],
+        "callTestStatus": "not-call-tested",
+        "callTestedAt": null,
+        "historyReviewStatus": "not-reviewed",
+        "history": [],
+        "historyNote": "Archived phone history has not been reviewed. No claim is made about previous numbers or when a number changed."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "seattle-bratt-20261105",
+      "title": "Cheryl L. Bratt — clinician biography",
+      "publisher": "North Seattle Pediatrics",
+      "url": "https://northseattlepediatrics.com/team/cheryl-l-bratt/",
+      "retrievedOn": "2026-11-05",
+      "observedOn": "2026-11-05",
+      "retrievalMethod": "Direct public HTTPS GET and named-page HTML/text inspection",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "seattle-grim-20261105",
+      "title": "Linda Grim — clinician biography",
+      "publisher": "North Seattle Pediatrics",
+      "url": "https://northseattlepediatrics.com/team/linda-grim/",
+      "retrievedOn": "2026-11-05",
+      "observedOn": "2026-11-05",
+      "retrievalMethod": "Direct public HTTPS GET and named-page HTML/text inspection",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "seattle-north-20261105",
+      "title": "Our practice, doctors and shared clinic contact",
+      "publisher": "North Seattle Pediatrics",
+      "url": "https://northseattlepediatrics.com/practice/",
+      "retrievedOn": "2026-11-05",
+      "observedOn": "2026-11-05",
+      "retrievalMethod": "Direct public HTTPS GET and named-page HTML/text inspection",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "seattle-chung-20261105",
+      "title": "Esther K. Chung — appointments and biography",
+      "publisher": "UW Medicine",
+      "url": "https://www.uwmedicine.org/bios/esther-chung",
+      "retrievedOn": "2026-11-05",
+      "observedOn": "2026-11-05",
+      "retrievalMethod": "Direct public HTTPS GET and named-page HTML/text inspection",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "seattle-roosevelt-20261105",
+      "title": "Pediatric Care Center at UW Medical Center – Roosevelt",
+      "publisher": "UW Medicine",
+      "url": "https://www.uwmedicine.org/locations/pediatric-care-center-uwmc-roosevelt",
+      "retrievedOn": "2026-11-05",
+      "observedOn": "2026-11-05",
+      "retrievalMethod": "Direct public HTTPS GET and named-page HTML/text inspection",
+      "verificationStatus": "source-stated"
+    },
+    {
+      "id": "seattle-uwfaculty-20261105",
+      "title": "Esther K. Chung — teaching and research",
+      "publisher": "University of Washington Department of Pediatrics",
+      "url": "https://peds.uw.edu/directory/esther-k_chung/1290",
+      "retrievedOn": "2026-11-05",
+      "observedOn": "2026-11-05",
+      "retrievalMethod": "Direct public HTTPS GET and named-page HTML/text inspection",
+      "verificationStatus": "source-stated"
+    }
+  ],
+  "evidencePath": "docs/research/seattle-pediatricians-evidence-2026-11-05.json",
+  "phoneRule": "docs/PRACTICE-PHONE-HISTORY-RULE.md",
+  "importNotes": [
+    "Use the existing staged contribution contract; this is not a schema-1.2 authoring bundle. Local-preview usage is deliberately accurate; do not substitute the legacy remote-reference-only flag.",
+    "Permanent application UUIDs are assigned once by Replit; preserve these stable contribution keys and collision-safe clean paths.",
+    "Phone fields for individual clinicians remain null. Named provider pages support the listed clinic associations; clinic contact numbers remain shared and untested.",
+    "Keep current phone disclosure and dated acceptance beside practical information, not only in collapsed research notes. Historical numbers, if later supplied, stay non-clickable. No archive was reviewed in this batch.",
+    "No remote image, tracking, source embed or prefetch before explicit user activation. One approved portrait per provider; preserve aspect ratio with contain framing. Source provenance links must be operable.",
+    "New records stay published, unclaimed, pending-human-review and noindex; publication is not human, clinical or indexing approval.",
+    "Do not repeat external research, phone calls, credential searches or editorial simulations in Replit. Return factual exceptions to the research owner.",
+    "Use the established 48-image directory behavior. Preserve the existing formally assessed cohort and record any eligibility decision separately."
+  ],
+  "baselineCounts": {
+    "providerRecords": 171,
+    "directories": 23,
+    "approvedLocalPortraitDeliveries": 161,
+    "qualifyingUniqueProviderIds": 130
+  },
+  "countNote": "Count actual new permanent IDs and delivered previews after validation. Eligibility for the formally assessed cohort is evaluated separately."
+}

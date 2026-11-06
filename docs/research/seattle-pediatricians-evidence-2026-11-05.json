@@ -1,0 +1,110 @@
+{
+  "observedOn": "2026-11-05",
+  "timezone": "America/Los_Angeles",
+  "baseAppRevision": "a5a38f58f4c3c85c3ebee86c6e628ea0b1ef70b7",
+  "selection": "Two named clinic pages list Seattle street addresses. The pilot covers those offices. Municipal GIS boundaries were not independently checked.",
+  "recordsCheckedForNameAndRouteCollisions": 197,
+  "sources": [
+    {
+      "id": "seattle-bratt-20261105",
+      "url": "https://northseattlepediatrics.com/team/cheryl-l-bratt/",
+      "httpStatus": 200,
+      "htmlSha256": "282bcd0d07e34783bae36207a16d07ad81025a5c5013cea77e5d4c68f65bc6b3"
+    },
+    {
+      "id": "seattle-grim-20261105",
+      "url": "https://northseattlepediatrics.com/team/linda-grim/",
+      "httpStatus": 200,
+      "htmlSha256": "89f204a3d51d5df1c35b0e84931b6f4539f33f70684e2a6d4887e688327407b3"
+    },
+    {
+      "id": "seattle-north-20261105",
+      "url": "https://northseattlepediatrics.com/practice/",
+      "httpStatus": 200,
+      "htmlSha256": "155e0d5362d2daea386096038bb837b4d2eeede1a4cd977fa445749edc1d52cc"
+    },
+    {
+      "id": "seattle-chung-20261105",
+      "url": "https://www.uwmedicine.org/bios/esther-chung",
+      "httpStatus": 200,
+      "htmlSha256": "25314e30040aa88ebba9e1a7b89d4cc08d8bd29eea5f02b7d6c712b84446275e"
+    },
+    {
+      "id": "seattle-roosevelt-20261105",
+      "url": "https://www.uwmedicine.org/locations/pediatric-care-center-uwmc-roosevelt",
+      "httpStatus": 200,
+      "htmlSha256": "870205ad1cf9837211ca89591f8633234306cd34386bae08a6420a83b9fc1dd7"
+    },
+    {
+      "id": "seattle-uwfaculty-20261105",
+      "url": "https://peds.uw.edu/directory/esther-k_chung/1290",
+      "httpStatus": 200,
+      "htmlSha256": "eb6321c4b6e4211da2f6f2265ca4e33e9653a8197993491682f9e4f4d888970c"
+    }
+  ],
+  "portraits": [
+    {
+      "providerKey": "cherylbratt",
+      "namedPage": "https://northseattlepediatrics.com/team/cheryl-l-bratt/",
+      "sourceUrl": "https://northseattlepediatrics.com/wp-content/uploads/2019/10/Cheryl-Bratt.jpg",
+      "sourceDimensions": [
+        600,
+        900
+      ],
+      "sourceBytes": 46575,
+      "sourceSha256": "d9ecbd49b1abef99699ef2ef9fb00a1695dcc7fd1736d021cdcaedaaa5fcdbad",
+      "width": 240,
+      "height": 360,
+      "bytes": 4992,
+      "sha256": "32d9fdb0a2ea2cf38bf2130fdd4503ded728b9560a4b37b81f86f7069c984677",
+      "gitBlobSha": "b2d8d5a22ed287694f3de8fc7ca2d8b7b2f3f975",
+      "repositoryPath": "assets/provider-previews/seattle-pediatricians-2026-11-05/cherylbratt.webp",
+      "inspection": "Extracted the named profile image from its official page. Decoded the source, preserved the full frame and aspect ratio, then decoded and visually inspected the local WebP preview.",
+      "rights": "Unknown. Source attribution and modest preview only."
+    },
+    {
+      "providerKey": "lindagrim",
+      "namedPage": "https://northseattlepediatrics.com/team/linda-grim/",
+      "sourceUrl": "https://northseattlepediatrics.com/wp-content/uploads/2019/10/Linda-Grim.jpg",
+      "sourceDimensions": [
+        600,
+        900
+      ],
+      "sourceBytes": 93574,
+      "sourceSha256": "94a70c032c4d29369e7841405805b68c1351ac07a3294a5c155d3dbda72e5fa0",
+      "width": 240,
+      "height": 360,
+      "bytes": 8306,
+      "sha256": "13193f055caefa3032aa1cf3b153058e906cb94e221a56ef2fe7afd8eb6a33ea",
+      "gitBlobSha": "53949e1d6f924bf08db58618e55eab30995b75fd",
+      "repositoryPath": "assets/provider-previews/seattle-pediatricians-2026-11-05/lindagrim.webp",
+      "inspection": "Extracted the named profile image from its official page. Decoded the source, preserved the full frame and aspect ratio, then decoded and visually inspected the local WebP preview.",
+      "rights": "Unknown. Source attribution and modest preview only."
+    },
+    {
+      "providerKey": "estherchung",
+      "namedPage": "https://www.uwmedicine.org/bios/esther-chung",
+      "sourceUrl": "https://www.uwmedicine.org/sites/stevie/files/styles/square_l/public/provider-images/api-bioimage-esther-chung.jpg?itok=QS-LB1YM",
+      "sourceDimensions": [
+        200,
+        200
+      ],
+      "sourceBytes": 26784,
+      "sourceSha256": "acab1022e12a67495128c260c0f9877506a3a610c7423299ae6ebb85a6f988b7",
+      "width": 200,
+      "height": 200,
+      "bytes": 3438,
+      "sha256": "2e0247f3995f6d4f9001b0022feb47dba1520475dc92ff723f9fbeb0bce6cfc4",
+      "gitBlobSha": "4a61a664f9abd82a7660cbef9cea59f226df792d",
+      "repositoryPath": "assets/provider-previews/seattle-pediatricians-2026-11-05/estherchung.webp",
+      "inspection": "Extracted the named profile image from its official page. Decoded the source, preserved the full frame and aspect ratio, then decoded and visually inspected the local WebP preview.",
+      "rights": "Unknown. Source attribution and modest preview only."
+    }
+  ],
+  "limitations": [
+    "Clinical licensure, board status, fees and plan participation await independent review.",
+    "The clinic-listed numbers were not called and archive history was not examined.",
+    "Appointment statements are observations of the practice websites. They do not confirm a specific opening.",
+    "Faculty administrative numbers, fax lines and clinic administrator numbers are excluded from appointment contacts."
+  ]
+}
