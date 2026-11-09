@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "collectionId": "healing-images",
   "title": "Healing Images",
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-08",
   "assets": [
     {
       "id": "i-feel-better-modern-art",
@@ -675,6 +675,48 @@
       "message": "imagine breathing like a lion",
       "alt": "Imagine breathing like a lion — OpenHealthcare.org. A peaceful adult lion rests at the center of luminous rainbow waves against a deep violet background.",
       "provenance": "AI-generated campaign illustration; Imagine breathing like a lion series; imaginative encouragement, not a breathing protocol or therapeutic claim"
+    },
+    {
+      "id": "take-a-breath-seaside-platter",
+      "title": "A sample platter of breaths",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/take-a-breath-seaside-platter.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 303916,
+      "sha256": "0f14153f08808908974a49da85a7839f178129e650ad6a60d91665d6d68b6a6c",
+      "message": "take a breath",
+      "alt": "Take a breath — OpenHealthcare.org. A turquoise platter offers six luminous clouds and swirls of air beside the sea at sunset.",
+      "provenance": "AI-generated campaign illustration; Take a breath series; imaginative samples of air"
+    },
+    {
+      "id": "take-a-breath-moonlit-garden",
+      "title": "Moonlit platter of gentle breaths",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/take-a-breath-moonlit-garden.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 251434,
+      "sha256": "e0e1fe60f7ca26767911ef7ff85d77fa4660fc4bb873f4ab72f4f3339bd4107e",
+      "message": "take a breath",
+      "alt": "Take a breath — OpenHealthcare.org. Six softly glowing clouds and curls of air rest on a jade platter in a moonlit magnolia garden.",
+      "provenance": "AI-generated campaign illustration; Take a breath series; imaginative samples of air"
+    },
+    {
+      "id": "take-a-breath-alpine-dawn",
+      "title": "Alpine breath platter at dawn",
+      "enabled": true,
+      "sourcePath": "assets/healing-images/images/take-a-breath-alpine-dawn.webp",
+      "width": 1536,
+      "height": 1024,
+      "mimeType": "image/webp",
+      "bytes": 399148,
+      "sha256": "3b8b18d07d2aaee3dc3acfbc183d657bdaacbff9c9045094f2aebf3c245b6502",
+      "message": "take a breath",
+      "alt": "Take a breath — OpenHealthcare.org. An icy blue platter holds six airy shapes and delicate wisps of steam before snowy mountain peaks at dawn.",
+      "provenance": "AI-generated campaign illustration; Take a breath series; imaginative samples of air"
     }
   ]
 }
